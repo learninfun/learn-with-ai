@@ -1,0 +1,60 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ConvertToHTML
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+       
+      - name: Print files
+        id: lsfiles1
+        run: ls -lR | more
+       
+      #- name: Run Huto Graphy
+      #  id: hugo-graphy
+      #  run: sh ./themes/hugo-graphy/goSrc/run.shell
+      
+      # 使用別人做好的 Hugo Actions
+      - name: setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+          extended: true
+          
+      # 開始用 Hugo 產生檔案囉
+      - name: build content to public site
+        working-directory: ./
+        # --cleanDestinationDir 清除舊檔案
+        run: hugo --minify --gc --cleanDestinationDir
+       
+      - name: Print files
+        id: lsfiles2
+        run: ls -lR | more
+
+      - name: deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{github.ref == 'refs/heads/main'}}
+        with:
+          github_token: ${{secrets.GITHUB_TOKEN}}
+          publish_dir: ./public
