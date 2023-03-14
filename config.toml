@@ -1,0 +1,34 @@
+title = 'Learn with AI'
+theme = 'hugo-graphy'
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir= true
+
+[Languages]
+  [Languages.en]
+    contentDir = "content/english"
+    title = "Learn with AI"
+    weight = 1
+    languageName = "English"
+  [Languages.zh-tw]
+    contentDir = "content/zh-tw"
+    title = "Learn with AI"
+    weight = 2
+    languageName = "繁體中文"
+
+
+
+[params]
+  ordersectionsby = "title"
+  themeVariant = "blue"
+  disablePathToLower = true
+
+[markup.goldmark]
+  [markup.goldmark.renderer]
+    hardWraps = true

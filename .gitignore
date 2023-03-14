@@ -1,0 +1,6 @@
+# Reference: https://git-scm.com/docs/gitignore
+content/
+tools/
+static/hugo-graphy/js/hugo-graphy-data*.js
+static/hugo-graphy/js/hugo-graphy-data_en.js
+static/hugo-graphy/js/hugo-graphy-data_zh-tw.js
