@@ -31,9 +31,9 @@ jobs:
         id: lsfiles1
         run: ls -lR | more
        
-      #- name: Run Huto Graphy
-      #  id: hugo-graphy
-      #  run: sh ./themes/hugo-graphy/goSrc/run.shell
+      - name: Run Huto Graphy
+        id: hugo-graphy
+        run: sh ./themes/hugo-graphy/goSrc/run.shell
       
       # 使用別人做好的 Hugo Actions
       - name: setup hugo
