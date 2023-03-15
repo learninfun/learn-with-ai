@@ -1,5 +1,6 @@
 title = 'Learn with AI'
 theme = 'hugo-graphy'
+baseURL = "https://learninfun.github.io/learn-with-ai/"
 
 # For search functionality
 [outputs]
