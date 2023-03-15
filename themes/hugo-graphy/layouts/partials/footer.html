@@ -72,7 +72,7 @@
         {{ else if isset .Site.Params "custommermaidurl" }}
             <script src="{{ .Site.Params.customMermaidURL }}"></script>
         {{ else }}
-            <script src="{{"mermaid/mermaid.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
+            <script src="{{"mermaid/mermaid.min.js" | relURL}}{{ if not .Site.Params.disableAssetsBusting }}?{{ now.Unix }}{{ end }}"></script>
         {{ end }}
         <script>
             mermaid.initialize({ startOnLoad: true });
