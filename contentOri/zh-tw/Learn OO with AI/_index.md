@@ -1,5 +1,5 @@
 +++
-title = "Learn OO with AI"
+title = "AI Knowledge Hub"
 weight = 2
 +++
 
