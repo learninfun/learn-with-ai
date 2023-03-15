@@ -448,20 +448,20 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     margin: 0;
 }
 body {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     font-weight: 300;
     line-height: 1.6;
     font-size: 18px !important;
 }
 h2, h3, h4, h5, h6 {
-    font-family: "Work Sans", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     text-rendering: optimizeLegibility;
     color: #5e5e5e;
     font-weight: 400;
     letter-spacing: -1px;
 }
 h1 {
-    font-family: "Novacento Sans Wide", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
     text-align: center;
     text-transform: uppercase;
     color: #222;
