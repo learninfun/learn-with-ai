@@ -118,9 +118,9 @@
           {{ if $showvisitedlinks}}
             <i class="fas fa-check read-icon"></i>
           {{ end }}
-          {{if .IsAncestor $currentNode }}parent{{end}}
+          {{if .IsAncestor $currentNode }}
           {{else}}
-          <b>▼ </b>
+          <b>+</b>
           {{end}}
       </a>
       {{ $numberOfPages := (add (len ( where .Pages "Params.hidden" "ne" true )) (len ( where .Sections "Params.hidden" "ne" true ))) }}
