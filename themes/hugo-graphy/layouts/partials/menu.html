@@ -118,7 +118,10 @@
           {{ if $showvisitedlinks}}
             <i class="fas fa-check read-icon"></i>
           {{ end }}
-          {{if eq .File.UniqueID $currentFileUniqueID}}<b>▼ </b>{{end}}
+          {{if .IsAncestor $currentNode }}parent{{end}}
+          {{else}}
+          <b>▼ </b>
+          {{end}}
       </a>
       {{ $numberOfPages := (add (len ( where .Pages "Params.hidden" "ne" true )) (len ( where .Sections "Params.hidden" "ne" true ))) }}
       {{ if ne $numberOfPages 0 }}
