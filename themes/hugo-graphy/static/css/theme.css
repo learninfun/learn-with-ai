@@ -444,6 +444,9 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 #body-inner {
     margin-bottom: 5rem;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #chapter {
     display: flex;
