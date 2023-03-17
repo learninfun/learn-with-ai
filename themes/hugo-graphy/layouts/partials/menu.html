@@ -114,14 +114,15 @@
         {{if .Params.alwaysopen}}parent{{end}}
         ">
       <a href="{{.RelPermalink}}">
+          {{if .IsAncestor $currentNode }}
+          <i class="fas fa-chevron-down"></i>
+          {{else}}
+          <i class="fas fa-chevron-right"></i>
+          {{end}}
           {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title .File.BaseFileName}}{{safeHTML .Params.Post}}
           {{ if $showvisitedlinks}}
             <i class="fas fa-check read-icon"></i>
           {{ end }}
-          {{if .IsAncestor $currentNode }}
-          {{else}}
-          <b>+</b>
-          {{end}}
       </a>
       {{ $numberOfPages := (add (len ( where .Pages "Params.hidden" "ne" true )) (len ( where .Sections "Params.hidden" "ne" true ))) }}
       {{ if ne $numberOfPages 0 }}
