@@ -16,6 +16,11 @@ Using batch queries with AI, you can easily obtain detailed and organized knowle
   - [Back-end development](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/back-end-development/)
   - [Infrastructure](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/infrastructure/)
 
+## Usage
+- Quickly get the key points of knowledge
+- Review knowledge
+- Learning to effectively learn knowledge with AI.
+
 ## How to explore and extract knowledge with ChatGPT?
 - Noun definition
   - [AA] is a middle-level knowledge node that still needs to be expanded.
