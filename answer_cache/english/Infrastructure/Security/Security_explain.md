@@ -1,0 +1,5 @@
+
+
+Security refers to the practice of ensuring that an environment, system, or data is protected from unauthorized access, theft, damage, and destruction. It involves the implementation of various technologies, policies, procedures, and protocols for identifying and mitigating potential security threats.
+
+An example of security can be seen in the use of passwords for online accounts. When creating an online account, a user is often required to provide a password to secure their account. This password is then encrypted and stored in the company's databases. When the user tries to log in later, they have to provide their password again to prove their identity. This ensures that only authorized individuals can access the account and its associated data, protecting their sensitive information from unauthorized access.

@@ -1,0 +1,7 @@
+
+
+Event-Driven Architecture (EDA) is a design pattern used in software engineering that focuses on the production, processing, and dissemination of events. An event is an occurrence that results in change within a system and can be of any sort, such as a message, update, or request. EDA systems are constructed around events, with decoupled services or microservices that communicate through events without tight coupling.
+
+In EDA, when an event occurs, it triggers an action, which in turn generates another event. This process is also known as event propagation. EDA can help handle complex, distributed systems and make them more scalable, maintainable, and efficient.
+
+An example of EDA could be a system that manages online sales. In this system, a customer places an order that generates an ‘Order Placed’ event. This event triggers an action, which is the creation of the order in the order management system. Once the order is created, an ‘Order Created’ event is generated, which triggers other actions like inventory management, order fulfillment, shipping, and billing. If any of these actions fail, a ‘Order Processing Error’ event is generated, which initiates other actions such as notifying the customer, rolling back the transaction, and notifying the support team. An EDA system can make the overall online sales process more efficient and less prone to errors or downtime.

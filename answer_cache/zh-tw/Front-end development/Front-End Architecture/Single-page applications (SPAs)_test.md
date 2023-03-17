@@ -1,0 +1,16 @@
+
+
+1. 如何在Single-Page Application (SPA)中實現Routing？
+答案：可以使用React-Router或Vue-Router等路由庫實現Routing。在路由表中定義各個路由對應的組件，然後通過相應的事件或URL變化觸發路由的跳轉。
+
+2. 如何實現SPA中的頁面緩存和網絡頁面加載？
+答案：可以使用Service Worker或Local Storage等技術實現頁面緩存和離線瀏覽功能。同時也可以使用前端框架的內置Loading組件或第三方庫如spinner.js實現網絡頁面的載入動畫。
+
+3. 如何在SPA中實現頁面跳轉時的自動註冊和註銷？
+答案：可以使用React Context或Vue全局狀態管理庫如Vuex實現全局狀態管理。在App組件中創建全局狀態並將其注入React Context或Vuex，在子組件中通過context或Vuex中的state和action訪問全局狀態。在頁面跳轉時，通過context或Vuex自動註冊和註銷全局狀態。
+
+4. 如何實現SPA的頁面分類和搜索功能？
+答案：可以使用前端框架的組件化和路由系統實現頁面分類和搜索功能。將數據分類為不同的選項，通過路由向指定組件傳遞數據參數，在組件中根據參數渲染不同的頁面。同時也可以使用第三方庫如React-Infinite-Scroll或Vue-Infinite-Loading實現無限滾動加載數據。
+
+5. 如何實現SPA中的客戶端驗證？
+答案：可以使用JWT或OAuth等授權框架實現客戶端驗證。在登錄成功後，服務器返回一個JWT和Refresh Token，客戶端使用JWT去訪問API，而不是每個請求都攜帶用戶名和密碼。當JWT過期時，可以使用Refresh Token去服務器交換新的JWT。同時也可以使用客戶端驗證庫如Passport.js等簡化驗證過程。

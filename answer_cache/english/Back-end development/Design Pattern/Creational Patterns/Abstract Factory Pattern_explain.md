@@ -1,0 +1,5 @@
+
+
+Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. It solves the problem of creating instances of different but related classes without having to tie the client code to specific classes. In other words, it encapsulates a group of individual factories with a common theme.
+
+For example, an abstract factory could create GUI elements for a specific operating system such as windows or macOS. The operating system would act as the abstract factory and would define a set of methods to create different GUI elements such as buttons, text boxes, and menus. This abstract factory would have concrete implementations for windows or macOS, each creating GUI elements that are appropriate for that operating system. This approach allows the developer to use the same code to create a GUI for different operating systems, without worrying about the implementation details.

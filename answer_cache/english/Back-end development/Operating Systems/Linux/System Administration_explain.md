@@ -1,0 +1,5 @@
+
+
+System Administration is the management and maintenance of a computer system, including hardware, software, and network infrastructure. System administrators are responsible for ensuring the system’s reliability, security, and performance. This involves tasks such as configuring and maintaining servers, installing and updating software, monitoring system logs and performance, providing technical support to users, and resolving issues.
+
+An example of system administration is maintaining the IT infrastructure of a company. The system administrator is responsible for configuring and maintaining servers, managing network security to prevent cyber-attacks, keeping software up to date, and providing technical support to employees. They also monitor system logs to identify and resolve issues that may occur.

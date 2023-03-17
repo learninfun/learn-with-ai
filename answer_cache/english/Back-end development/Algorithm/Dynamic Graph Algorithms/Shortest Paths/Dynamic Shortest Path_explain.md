@@ -1,0 +1,5 @@
+
+
+Dynamic Shortest Path is an algorithmic approach that updates the shortest path between two nodes in a graph as changes occur in the weights of the edges or the topology of the graph. It is used in situations where the graph is frequently changing, rendering the conventional static shortest path algorithms like Dijkstra's algorithm unreliable or inefficient.
+
+For example, a delivery service company that operates a fleet of vehicles on a network of roads may use Dynamic Shortest Path to optimize vehicle routing based on real-time data like traffic jams, accidents, roadblocks, weather conditions, and other unexpected events that may affect the travel time between different locations. As new information becomes available, the algorithm continuously updates the best route for the delivery vehicles, thereby saving time, fuel, and resources.

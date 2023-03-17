@@ -1,0 +1,5 @@
+
+
+Security testing involves evaluating whether an application or system adheres to the established security standards or not. It includes identifying vulnerabilities, risks, and flaws in the system that may lead to security breaches. The goal of security testing is to ensure that the system is secure, and it can protect sensitive data against malicious attacks.
+
+An example of security testing is Penetration testing, which involves simulating a real-world cyber attack by attempting to exploit vulnerabilities in the system. The tester will perform various manual and automated attacks to identify vulnerabilities in the network, application, and database systems. Penetration testing helps organizations to assess the effectiveness of their security measures and verify if their system can withstand a cyber attack.

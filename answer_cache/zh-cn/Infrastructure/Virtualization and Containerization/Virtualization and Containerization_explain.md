@@ -1,0 +1,7 @@
+
+
+Virtualization and containerization are two popular methods used for managing software applications and infrastructure. 
+
+Virtualization is a technology that allows multiple operating systems to run simultaneously on a single physical server or hardware environment. In other words, it creates a virtual version of the hardware, enabling multiple instances of software and applications to run independently of each other while sharing the same underlying hardware. Each virtual machine can be run with its own resources, such as CPU, memory, and storage, making it more efficient and flexible than traditional physical servers. A popular example of virtualization is VMware, which allows businesses to create multiple virtual machines on a single server or cluster. 
+
+Containerization, on the other hand, is a method of running and deploying applications as standalone containers. Containers are lightweight, portable, and isolated software packages that package everything an application needs to run, including the code, dependencies, and system libraries. Unlike virtual machines, which require a guest operating system, containers run directly on the host operating system, allowing applications to be more isolated from one another. Containerization has become increasingly popular in recent years due to its flexibility, scalability, and ease of deployment. A popular example of containerization is Docker, which is used to create and run containers on Linux and Windows systems.

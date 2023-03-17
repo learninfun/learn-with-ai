@@ -1,0 +1,5 @@
+
+
+Containers are a way to package and isolate applications with their dependencies, so they can run consistently across various environments. A container includes everything that is required to run an application, such as code, libraries, and runtime environment. It is an operating system-level virtualization technique that enables developers to create and deploy applications seamlessly. Containers are lightweight, portable, and provide consistent and reliable results.
+
+An example of a container technology is Docker. Docker is an open-source container platform that simplifies the deployment of applications. It allows developers to create, deploy, and run applications inside containers. With Docker, containerized applications can be easily moved from one environment to another, such as from development to production or from on-premises to the cloud. Docker provides a platform-agnostic solution that enables developers to work with any language, framework, and application stack.

@@ -1,0 +1,5 @@
+The Memento Pattern is a behavioral design pattern that allows an object to restore its previous state. This pattern is helpful when we want to save the state of an object at a particular point in time and later restore it to that state. It preserves encapsulation and eliminates the need for exposing the entire internal state of an object to the client.
+
+When a Memento pattern is implemented, a client can request a Memento from the originator (an object whose state is to be saved), which the originator returns. The client can then work on the object and use the Memento to restore it to its previous state if required.
+
+An example of Memento Pattern is a text editor. Suppose you are writing an important document and after making many changes, want to restore it to the previous version. In this case, the Memento pattern can be used. Here, the text editor object is the originator, and it saves its state whenever the user issues the save command. The Memento class will store the state of the text editor and return it to the text editor if the user issues the load command. This way, the text editor could be rolled back to a previous version whenever required.

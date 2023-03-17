@@ -1,0 +1,5 @@
+
+
+Proxy pattern is a design pattern that provides a substitute or placeholder for another object to control its access, creation, or behavior. A proxy object allows the client to interact with the original object through an interface and provides an additional layer of abstraction for handling the requests and responses to the original object.
+
+A practical example of the proxy pattern is the use of a cache proxy for a web application. The proxy object intercepts requests from the client and checks if the requested data is available in the cache, if it is present in the cache, the proxy object returns the data, if not, it delegates the request to the original object and caches the response for future use. This pattern helps in reducing the response time of the application and minimizes the number of requests made to the original object.

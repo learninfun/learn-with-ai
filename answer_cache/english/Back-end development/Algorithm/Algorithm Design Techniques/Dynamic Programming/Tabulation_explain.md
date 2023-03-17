@@ -1,0 +1,5 @@
+
+
+Tabulation is a method of organizing and presenting data in a compact and concise manner using a table or chart. It involves the creation of rows and columns to display data in a way that makes it easy to understand and analyze. Tables and charts are often used to present complex data sets in a way that is easy to comprehend and make decisions based on.
+
+For example, a company might create a table that shows the performance of its different departments over the past year. The table might include columns that list each department's revenue, expenses, profits, and growth rates. The rows of the table would then list each department and their corresponding data. This allows the company to easily compare the performance of different departments and identify areas where improvements can be made.

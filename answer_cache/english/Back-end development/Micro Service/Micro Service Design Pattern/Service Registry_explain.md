@@ -1,0 +1,5 @@
+
+
+Service registry refers to a centralized database that stores information about different services in a distributed system, such as data on the location, availability, and functionality of services, how to connect to them, and the conditions for using them. Service registry has become essential in modern IT architecture, especially in microservices, where the logic of complex applications is divided into small, independent services that communicate with each other to deliver the final product.
+
+One common example of Service Registry is the Netflix Eureka Registry. Eureka is a service registry that Netflix developed, which stores service instances and tracks the status of each instance. Eureka is based on a client-server architecture, where the server-side component is responsible for registering and deregistering services, while the client-side component is responsible for discovering and invoking registered services. By implementing Eureka, Netflix can easily maintain and manage the availability of its microservices, ensuring that users can access the required services anytime they need them.
