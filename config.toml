@@ -14,11 +14,13 @@ defaultContentLanguageInSubdir= true
 [Languages]
   [Languages.en]
     contentDir = "content/english"
+    landingPageURL = "/learn-with-ai"
     title = "Learn with AI"
     weight = 1
     languageName = "English"
   [Languages.zh-tw]
     contentDir = "content/zh-tw"
+    landingPageURL = "/learn-with-ai/zh-tw"
     title = "Learn with AI"
     weight = 2
     languageName = "繁體中文"
