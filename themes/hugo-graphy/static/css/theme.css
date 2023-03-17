@@ -138,6 +138,9 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #header a {
     display: inline-block;
 }
+#header #logo {
+    font-size: xx-large;
+}
 #header #logo-svg {
     width: 8rem;
     height: 2rem;
