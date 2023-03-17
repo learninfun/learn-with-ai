@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End Unit testing on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/</link><description>Recent content in Front-End Unit testing on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/jasmine/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/jasmine/</guid><description>習題預習 User ask:
+給我5題Jasmine的問題 ChatGPT answer:
+Jasmine喜歡做什麼樣的活動？ Jasmine的家人有幾個兄弟姊妹？ Jasmine最喜歡的食物是什麼？ Jasmine最崇拜的偶像是誰？ Jasmine平常喜歡用哪種顏色的筆寫字？ 說明知識 User ask:
+說明Jasmine並舉例 ChatGPT answer:
+Jasmine是一個用於JavaScript測試的行為驅動開發（BDD）框架。它的設計目的是使JavaScript測試變得簡單明了，並且能夠直觀地表達代碼的預期行為。
+在Jasmine中，測試以“描述”（describe）和“斷言”（expect）的形式進行。描述是對代碼功能的解釋性的文字描述，可以嵌套描述和斷言，進一步剖析代碼的不同層面。 斷言是一個在測試中對代碼的預期結果的陳述。Jasmine提供了多種斷言方法，比如toBe，toEqual，toContain等等。
+舉個例子，假設我們有一個JavaScript函數，例如：
+function addNumbers(a, b) { return a + b; } 要測試這個函數的行為，我們可以使用Jasmine。我們可以寫一個描述來解釋此函數的功能，然後寫一個斷言來驗證函數是否正確，如下所示：
+describe(&amp;#39;addNumbers function&amp;#39;, function() { it(&amp;#39;adds two numbers and returns the correct result&amp;#39;, function() { var result = addNumbers(2, 3); expect(result).toEqual(5); }); }); 在這個示例中，我們編寫了一個描述來說明這個測試是關於“addNumbers function”函數的。在描述的內部，我們定義了一個it（也稱為“測試用例”），在此測試用例中，我們使用了addNumbers函數來加入兩個數字，然後使用Jasmine的expect斷言來驗證這個函數的返回值是否為5。如果測試通過，Jasmine將會顯示一個綠色符號表示成功，否則將會顯示一個紅色符號表示失敗。
+彙總重點 User ask:
+條列Jasmine的重點 ChatGPT answer:
+抱歉，我需要更多的上下文才能回答這個問題，Jasmine是什麼？ &amp;ndash; AI助手
+知識測驗 User ask:
+給我5題Jasmine的中等難度問題，並在後面列出答案 ChatGPT answer:</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/jest/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/jest/</guid><description>習題預習 User ask:
+給我5題Jest的問題 ChatGPT answer:
+Jest是什麼，可以用來做什麼？ Jest如何設置和使用？ Jest有哪些測試方法和斷言可用？及其使用方式。 Jest能否與其他測試工具集成？例如Babel或TypeScript。 Jest如何處理異步測試？有哪些方法可供選擇？ 說明知識 User ask:
+說明Jest並舉例 ChatGPT answer:
+Jest是一款由Facebook所開發出的 JavaScript測試框架，專門用於測試React應用程式、React Native應用程式以及任何其他的JavaScript專案。Jest具有易上手且功能豐富的特點，它不需要額外的配置文件即可開始使用，並且支持快照測試、Mock、斷言、覆蓋率等測試類型。
+以下是一個簡單的Jest測試案例：
+// sum.js function sum(a, b) { return a + b; } module.exports = sum; // sum.test.js const sum = require(&amp;#39;./sum&amp;#39;); test(&amp;#39;adds 1 + 2 to equal 3&amp;#39;, () =&amp;gt; { expect(sum(1, 2)).toBe(3); }); 在這個案例中，我們首先定義了一個簡單的sum函數，接著建立了一個測試檔案sum.test.js，在這個測試檔案中，我們使用了Jest提供的test函數來描述這個測試案例。在這個測試案例中，我們期望sum(1, 2)的結果會等於3，這個期望值透過Jest提供的斷言函數expect和匹配器toBe來實現。
+執行Jest測試需要在終端機中輸入以下指令：
+npm test 執行測試之後，Jest將會輸出以下結果：
+PASS ./sum.test.js ✓ adds 1 + 2 to equal 3 (5ms) Jest指示測試通過，並且提供了測試的描述以及耗時。這個簡單的測試案例展示了Jest在JavaScript專案中的使用方式。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/mocha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-testing/front-end-unit-testing/mocha/</guid><description>習題預習 User ask:
+給我5題Mocha的問題 ChatGPT answer:
+Mocha是什麼？它有哪些主要功能？ 如何在Mocha中撰寫和執行測試用例？ Mocha支援哪些不同種類的測試？如何使用這些測試？ 如何在Mocha中建立和組織測試套件？ Mocha有哪些常見的擴充和集成工具？例如，它如何與Chai、Sinon和Istanbul等工具一起使用？ 說明知識 User ask:
+說明Mocha並舉例 ChatGPT answer:
+Mocha是一種在Node.js和瀏覽器端的JavaScript測試框架。它提供了一個易於閱讀和理解的BDD (行為驅動開發) 和 TDD (測試驅動開發) 語法，方便開發人員進行測試用例的創建和管理。
+Mocha允許用戶撰寫測試用例，包括定義測試用例的描述、執行測試用例，並使用不同的斷言庫來檢查預期的輸出是否與實際輸出相同。以下是一個簡單的示例：
+describe(&amp;#39;加法測試&amp;#39;, function() { it(&amp;#39;1 + 1 應該等於 2&amp;#39;, function() { assert.equal(1 + 1, 2); }); }); 上述代碼定義了一個描述測試用例的 &amp;ldquo;describe&amp;rdquo; 區塊，其中包含了一個執行測試的 &amp;ldquo;it&amp;rdquo; 區塊。在 &amp;ldquo;it&amp;rdquo; 區塊中，使用了斷言庫 &amp;ldquo;assert&amp;rdquo;，檢查 1+1 是否等於 2。
+總體而言，Mocha是一個強大的JavaScript測試框架，可以幫助開發人員進行單元測試、集成測試等多種測試類型，對於確保軟件質量非常有助益。
+彙總重點 User ask:
+條列Mocha的重點 ChatGPT answer:
+Mocha 是一個 JavaScript 測試框架，可以在 Node.js 環境和瀏覽器上運行。 Mocha 支持多種測試風格，包括 BDD（行為驅動開發）、TDD（測試驅動開發）和 QUnit 風格。 Mocha 提供了豐富的 API，包括 describe、it、before、after、beforeEach 和 afterEach 等，可用於控制測試的流程和記錄測試結果。 Mocha 是一個高度可定制的框架，提供了許多插件和選項，可根據項目的需要定制測試運行方式。 Mocha 優雅的錯誤報告和豐富的測試報告，使開發者可以快速定位和解決問題。 Mocha 支持多種測試套件和斷言庫，如 Chai、Expect.</description></item></channel></rss>

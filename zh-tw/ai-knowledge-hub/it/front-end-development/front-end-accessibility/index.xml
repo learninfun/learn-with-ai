@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End Accessibility on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/</link><description>Recent content in Front-End Accessibility on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/aria-attributes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/aria-attributes/</guid><description>習題預習 User ask:
+給我5題ARIA attributes的問題 ChatGPT answer:
+在一個網頁上的對話框內，你可以使用哪一個ARIA屬性來指示當前頁面內正在激活的控制項？ 在一個網頁上的表格中，你可以使用哪一個ARIA屬性來表明表格行的內容是數據還是標題？ 當一個網頁具有多個可視導航菜單時，你可以使用哪一個ARIA屬性來標識不同的菜單，以便更好地區分它們？ 在一個可展開的控件中，你可以使用哪一個ARIA屬性來指示該控件目前的狀態是已展開還是已折疊？ 在一個動態輪播中，你可以使用哪一個ARIA屬性來指示當前正在顯示的輪播內容，以便更好地向用戶傳達輪播信息？ 說明知識 User ask:
+說明ARIA attributes並舉例 ChatGPT answer:
+ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者打造無障礙網站的技術。ARIA屬性可讓開發者為HTML元素添加功能，以提供螢幕閱讀器、自動化工具等輔助技術對網站的可訪問性。
+以下是幾個ARIA屬性的示例及其用法：
+aria-label：定義元素的可讀標籤，以提供更詳細的描述。例如： &amp;lt;button aria-label=&amp;#34;關閉對話框&amp;#34;&amp;gt;X&amp;lt;/button&amp;gt; aria-describedby：定義與元素相關的文本說明，以給予更多詳情。例如： &amp;lt;input type=&amp;#34;text&amp;#34; aria-describedby=&amp;#34;username-help&amp;#34; /&amp;gt; &amp;lt;p id=&amp;#34;username-help&amp;#34;&amp;gt;請輸入3到6個字符的用戶名&amp;lt;/p&amp;gt; aria-disabled：表示元素是否啟用。例如： &amp;lt;button aria-disabled=&amp;#34;true&amp;#34;&amp;gt;已停用的按鈕&amp;lt;/button&amp;gt; aria-haspopup：定義元素是否具有下拉式選單、彈出式對話框等彈出式選單功能。例如： &amp;lt;a href=&amp;#34;#&amp;#34; aria-haspopup=&amp;#34;true&amp;#34;&amp;gt;下拉式菜單&amp;lt;/a&amp;gt; aria-checked：表示元素是否被勾選。例如： &amp;lt;input type=&amp;#34;checkbox&amp;#34; aria-checked=&amp;#34;true&amp;#34; /&amp;gt; aria-expanded：表示元素是否展開。例如： &amp;lt;button aria-expanded=&amp;#34;false&amp;#34; aria-controls=&amp;#34;menu&amp;#34;&amp;gt;展開選單&amp;lt;/button&amp;gt; &amp;lt;ul id=&amp;#34;menu&amp;#34;&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;菜單項目一&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;菜單項目二&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; 以上是幾個常用的ARIA屬性示例，這些屬性能協助開發者使網站更加無障礙。
+彙總重點 User ask:
+條列ARIA attributes的重點 ChatGPT answer:
+以下是ARIA属性的重点：
+角色(attribute-role)属性：定义了元素在页面中扮演的角色，如菜单、按钮、文本框等。
+描述(attribute-description)属性：提供了元素的额外描述信息，以便于屏幕阅读器能够更好的理解该元素的含义。
+标签(attribute-label)属性：为元素提供了更容易被理解的标签，通常用来替代没有语义的标签，如checkbox、radio等。
+tab-index属性：定义了元素在页面中的tab键次序，以便于键盘导航。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/color-contrast/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/color-contrast/</guid><description>習題預習 User ask:
+給我5題Color contrast的問題 ChatGPT answer:
+為什麼色彩對比在設計中如此重要？ 設計師如何選擇最好的色彩對比來提高設計的可讀性和可用性？ 如何使用色彩對比來創建視覺層次感和品牌識別？ 什麼是最佳的色彩對比比例？ 如何通過調整亮度和飽和度來達到理想的色彩對比？ 在不同的設計媒介（例如網頁、印刷品、應用程式）中，如何利用色彩對比來創建不同的視覺效果？ 說明知識 User ask:
+說明Color contrast並舉例 ChatGPT answer:
+Color contrast指的是不同颜色之间的视觉对比度，通常用于设计中的视觉吸引力和易读性等方面。较高的对比度可以增强设计元素的可读性和清晰度，而较低的对比度则可能使设计元素在视觉上混淆或模糊。
+以下是一些Color contrast的例子：
+1.黑白对比度：这是最明显的一种对比度，黑色和白色之间的对比度非常高，容易阅读和理解。例如，报纸、书籍和杂志通常使用黑白对比度。
+2.互补色对比度：这种对比度基于使用互补色，它们是彼此在色轮上相对的颜色。对于例子，红色和绿色，黄色和紫色等等。
+3.单色对比度：这种对比度指同一种颜色的不同纯度、明度或饱和度之间的对比度。它可以用来创建具有层次感的设计，例如在网站标头或LOGO中使用较暗或较浅的同一种颜色。
+4.对比色对比度：这个对比度基于使用非常明显的对比颜色，例如红色和黄色、蓝色和橙色等等。它可以创建出非常有吸引力的设计元素，但也可能使文本或信息更难以阅读。
+总之 Color contrast可以通过使用不同的颜色来创建不同的对比度，以帮助设计师提高他们的设计品质和效果。
+彙總重點 User ask:
+條列Color contrast的重點 ChatGPT answer:
+背景顏色和文字顏色之間的對比應越明顯越好，以便讀者能夠輕鬆閱讀和理解內容。 確保色彩對比足夠強烈，以便視覺障礙者或其他有視覺困難的人能夠輕鬆閱讀網站上的內容。 風格設計元素也應該有足夠的對比，例如圖片或其他視覺元素與網頁背景之間的對比。 對比度應該可以在不同的燈光環境下進行調整，例如在白天和晚上的時候。 在設計網站時應考慮到全球不同地區和文化中對視覺對比的不同理解和需求。 知識測驗 User ask:
+給我5題Color contrast的中等難度問題，並在後面列出答案 ChatGPT answer:
+背景顏色為 #003366 的網站上，文字顏色應該為以下哪一種？
+A. #FFFFFF
+B. #CCCCCC
+C. #FFFFCC
+D. #00CC66 答案：B
+以黑色字體顯示在白色背景上的對比度為多少？
+A. 1:1
+B. 4.5:1
+C. 7:1
+D. 10:1 答案：B</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/keyboard-navigation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/keyboard-navigation/</guid><description>習題預習 User ask:
+給我5題Keyboard navigation的問題 ChatGPT answer:
+如何在網頁上使用鍵盤控制選單或下拉式清單？ 在網頁上如何使用 Tab 鍵避免鍵盤焦點失焦？ 如何使用鍵盤輸入數字或字母以填寫表單？ 如何使用鍵盤控制列表或表格以瀏覽網站？ 如何使用鍵盤快捷鍵讓網站的常見功能更加容易使用？ 說明知識 User ask:
+說明Keyboard navigation並舉例 ChatGPT answer:
+Keyboard navigation 是指使用鍵盤上的按鈕控制介面進行操作，讓無障礙人士能夠更輕鬆地瀏覽網頁或使用應用程序。這種方式讓使用者可以使用鍵盤操作代替滑鼠或觸摸屏進行導覽，這是網頁或應用程序的一個重要的無障礙要素。
+以下是Keyboard navigation的一些示例：
+網站鍵盤導航：許多網站提供快捷鍵或鍵盤命令，將使用者直接導航到該網站的各個部分。例如，GitHub網站使用“G” +“P”快捷鍵鍵盤進入個人資料頁面，使用“G” +“N”快捷鍵進入新問題頁面。
+電子郵件客戶端的快捷鍵：大多數電子郵件客戶端都提供快捷鍵，讓使用者可以使用鍵盤操作代替鼠標進行常見操作，如寫信，回覆，轉送電子郵件等。
+視頻播放器快捷鍵：大多數線上播放器也提供許多快捷鍵，以方便使用者控制播放速度，音量，播放/暫停等操作。例如，在YouTube上使用Spacebar鍵播放/暫停視頻，使用向左或向右鍵可以快進或快退10秒鐘。
+總之，Keyboard navigation 是提高網站和應用程式可訪問性的一個重要功能，它可以幫助無障礙人士更容易地使用網站或應用程式。
+彙總重點 User ask:
+條列Keyboard navigation的重點 ChatGPT answer:
+以下是Keyboard navigation的重点：
+使用Tab鍵來選擇下一個可操控的元素，Shift+Tab則是上一個可操控的元素。 Enter鍵可以選擇元素、打開彈窗、提交表單等相應操作。 篩選菜單、下拉列表、日曆和其他可選項目的內容時，可以使用方向鍵上下移動，空格鍵勾選/取消選項。 當有彈窗或模態框出現時，Esc鍵可以關閉彈窗或模態框。 一些較常用的操作，如增加/減少數量、滾動左右頁面、選擇頁面中的一個區域等需要使用到熱鍵快速操作。 確保網站或應用程式能夠回應鍵盤離開焦點的情況，如將焦點保留在彈窗或內嵌幫助窗口中，在按下Esc或其他鍵盤按鍵後，可以容易地回到先前的頁面或操作。 知識測驗 User ask:
+給我5題Keyboard navigation的中等難度問題，並在後面列出答案 ChatGPT answer:
+在網頁中，如何使用鍵盤導覽到下拉選單並打開它？ 答案：在大多數情況下，使用Tab鍵將焦點移到包含下拉選單的元素，然後按下Enter或空格鍵打開選單。如果您需要使用方向鍵在選項中進行瀏覽，則需按下向下箭頭鍵。一些網站也可能允許使用Alt +向下箭頭鍵打開選單。
+如何使用鍵盤導覽在網頁中瀏覽數字列表？ 答案：使用Tab鍵瀏覽頁面元素時，可以按下Tab + Shift鍵返回上一個數字列表。然後可以使用向上或向下箭頭鍵進行瀏覽，或者使用Page Up或Page Down鍵進行快速移動。
+如何使用鍵盤導覽在網頁中定位和輸入搜索欄？ 答案：大多數網站設有搜索欄。 使用Tab鍵可以在整個網頁上瀏覽頁面元素。逐步將焦點移到包含搜索欄的元素上，然後按下Enter鍵進入文本框並開始錄入搜索關鍵字。
+如何使用鍵盤導覽在網頁中定位和點擊超連結？ 答案：使用方向鍵瀏覽網頁時，可以用Tab或Shift + Tab循環向前或向後導航到各個超連結。然後按下Enter或空格鍵來點擊。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/screen-readers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/screen-readers/</guid><description>習題預習 User ask:
+給我5題Screen readers的問題 ChatGPT answer:
+什麼是Screen readers? Screen readers 如何協助視障人士流暢閱讀網站和應用程式？ 常見的Screen readers有哪些？ Screen readers如何處理圖像和影片內容？ Screen readers如何提供導航和快捷鍵操作？ 說明知識 User ask:
+說明Screen readers並舉例 ChatGPT answer:
+Screen reader指的是一款軟體，能夠把電腦螢幕上的文字及圖像轉換成語音或其他形式的輸出，以協助視力有障礙的使用者。以下是幾個常見的Screen reader：
+JAWS（Job Access With Speech）：這是Windows平台上非常受歡迎的商業Screen reader。它能夠讀取所有Windows應用程式，包括網頁、電子郵件、表格、PDF文件等等。
+NVDA（NonVisual Desktop Access）：這是一個開放原始碼的Screen reader，能夠工作於Windows平台上，而且是免費的。它支援多種網頁瀏覽器，例如Firefox、Chrome、Internet Explorer等等。
+VoiceOver：這是Apple的官方Screen reader，能夠運行於Mac電腦、iPhone和iPad等產品上。讓視障者能夠使用蘋果的所有產品，包括螢幕閱讀、功能簡介、聲音描述、手勢控制等等。
+TalkBack：這是Google的官方Screen reader，能夠運行在安卓手機上。它使視障者能夠進行手機主要的任務，例如撥號、發送簡訊、接聽電話、瀏覽網站等等。為了讓使用者更容易地理解，Talkback可以說出使用者觸摸的位置。
+總之，Screen reader能夠自動閱讀電腦螢幕上的文字及圖像，並將它們轉換成語音或其他形式的輸出。這對於視力有障礙的人來說是重要的輔助工具。
+彙總重點 User ask:
+條列Screen readers的重點 ChatGPT answer:
+Screen readers are software applications that help visually impaired individuals access and navigate computer systems, mobile devices, and the internet.</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/semantic-html/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-accessibility/semantic-html/</guid><description>習題預習 User ask:
+給我5題Semantic HTML的問題 ChatGPT answer:
+什麼是Semantic HTML？ 為什麼要使用Semantic HTML？ 使用Semantic HTML的優點是什麼？ 舉幾個Semantic HTML的示例，並說明其用途。 使用Semantic HTML與不使用有何區別？ 說明知識 User ask:
+說明Semantic HTML並舉例 ChatGPT answer:
+Semantic HTML是使用語義化標籤以描述HTML文件中內容的方式。這些標籤提供了更多的上下文，有助於搜索引擎和網頁閱讀器以及開發人員理解網頁內容的結構及意義。它們可以使網站更具可讀性、可維護性和可訪問性。
+以下是一些常見的語義化標籤：
+&amp;lt;header&amp;gt;：定義了網頁的標題
+&amp;lt;nav&amp;gt;：定義了導航區域
+&amp;lt;main&amp;gt;：定義了網頁的主要內容
+&amp;lt;article&amp;gt;：定義了獨立的文章部分
+&amp;lt;section&amp;gt;：定義了一個包含相關主題的區域
+&amp;lt;aside&amp;gt;：定義了與頁面內容相關但不主要的部分
+&amp;lt;footer&amp;gt;：定義了頁面底部的內容
+舉例來說，在一個網頁中使用這些標籤：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;title&amp;gt;語義化HTML範例&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;header&amp;gt; &amp;lt;h1&amp;gt;網頁標題&amp;lt;/h1&amp;gt; &amp;lt;nav&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;主頁&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;關於我們&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;&amp;lt;a href=&amp;#34;#&amp;#34;&amp;gt;聯絡我們&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/nav&amp;gt; &amp;lt;/header&amp;gt; &amp;lt;main&amp;gt; &amp;lt;article&amp;gt; &amp;lt;h2&amp;gt;標題1&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;這裡是一篇關於標題1的文章，詳細的描述了相關的內容。&amp;lt;/p&amp;gt; &amp;lt;/article&amp;gt; &amp;lt;section&amp;gt; &amp;lt;h2&amp;gt;標題2&amp;lt;/h2&amp;gt; &amp;lt;p&amp;gt;這是一個包含相關主題的區域，將多個相關的文章放在一起。&amp;lt;/p&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;aside&amp;gt; &amp;lt;h3&amp;gt;廣告欄位&amp;lt;/h3&amp;gt; &amp;lt;p&amp;gt;這是一些與頁面內容相關的廣告。&amp;lt;/p&amp;gt; &amp;lt;/aside&amp;gt; &amp;lt;/main&amp;gt; &amp;lt;footer&amp;gt; &amp;lt;p&amp;gt;版權聲明&amp;lt;/p&amp;gt; &amp;lt;/footer&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 這個例子中，使用了許多語義化的標籤來描述網頁的不同區域和結構，從而提高了網頁的可讀性和可維護性。</description></item></channel></rss>

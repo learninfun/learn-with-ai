@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>B-Tree on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/b-tree/</link><description>Recent content in B-Tree on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/b-tree/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/b-tree/b+-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/b-tree/b+-tree/</guid><description>習題預習 User ask:
+給我5題B+ Tree的問題 ChatGPT answer:
+B+ Tree是什麼？它有什麼特點？
+在B+ Tree中，如何決定每個節點的大小以及最小鍵值數？
+在B+ Tree中，如何進行插入和刪除操作？它們的複雜度是多少？
+在B+ Tree中，如何進行查找操作？它的複雜度是多少？
+在B+ Tree中，如何實現節點的分裂和合併操作？這些操作會影響B+ Tree的結構和性能嗎？
+說明知識 User ask:
+說明B+ Tree並舉例 ChatGPT answer:
+B+ Tree是一种常用于实现数据库索引的树形数据结构，它具有如下特点：
+每个节点的存储都是按照关键字大小有序的。 所有的叶节点都在同一层次上，且叶节点中存放的是数据项而非指向数据项的指针。 非叶节点仅用于索引，它们不存储数据项，而是存储指向子节点的指针。 下面我们通过一个B+ Tree的例子来说明这个数据结构的工作原理。
+假设我们有如下四个数据项要存储：2, 9, 4, 7。
+首先我们创建一个空的B+ Tree，将2插入其中，它将成为我们的根节点：
++----+ | 2 | +----+ 然后我们插入9，由于此时根节点只有一个元素，因此直接放到根节点中：
++----+----+ | 2 | 9 | +----+----+ 接下来插入4，同样直接放到根节点中，但是现在根节点的元素数量已经达到了2，因此它需要分裂。我们将中间的元素9提升为新的根，将左侧的部分作为左子树，将右侧的部分作为右子树：
++----+ | 2 | +----+ / \ +----+ +----+ | 4 | | 9 | +----+ +----+ 最后我们插入7，由于7位于4和9之间，因此它需要被插入到左子树的叶节点中。但是此时左子树的叶节点已经有2个元素了，因此它同样需要进行分裂。分裂的过程与上面类似，将中间的元素5提升为新的父节点，将左侧的部分作为左子树，将右侧的部分作为右子树：</description></item></channel></rss>

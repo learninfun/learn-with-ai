@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Numerical Algorithms on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/</link><description>Recent content in Numerical Algorithms on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/chinese-remainder-theorem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/chinese-remainder-theorem/</guid><description>習題預習 User ask:
+給我5題Chinese Remainder Theorem的問題 ChatGPT answer:
+小華有一筆財產，拿去存到三家銀行中，第一家存了1000元，利率為2%，第二家存了2000元，利率為3%，第三家存了3000元，利率為4%。請問一年後，小華可以拿到多少利息？ 現在有一個數字，它除以4的餘數是1，除以5的餘數是2，除以7的餘數是3。請問這個數字是多少？ 某國的貨幣包括1元、2元、5元、10元四種硬幣，現在有一個人有151元，但只有20個硬幣，請問這個人有多少張1元硬幣、2元硬幣、5元硬幣和10元硬幣各幾張？ 某年的萬聖節是星期四，當時離聖誕節還有59天，也就是說聖誕節是星期幾？ 小美有12個企鵝，她要把它們分成三隊，每隊分別有2、3、7隻企鵝，請問小美一共有多少種方案？ 說明知識 User ask:
+說明Chinese Remainder Theorem並舉例 ChatGPT answer:
+中國剩餘定理（Chinese Remainder Theorem）是一種數學定理，它提供了一種有效的方法，用於解決同餘方程組（congruence system）。同餘方程組是一種由多個同餘方程所構成的系統，而同餘方程則是說，兩個數之間的差值可以被某個整數整除。例如，x ≡ 1 (mod 3)，x ≡ 2 (mod 5)，就是一個同餘方程組。
+中國剩餘定理的核心思想是，如果已知一些同餘方程的解，則可以通過這些解來推導出整個同餘方程組的解。具體而言，該定理表示，給定一個同餘方程組，假設方程間兩兩互質（gcd(a, b) = 1），且對於每一個方程，已知一個解，那麼可以求出該同餘方程組的唯一解。
+我們用一個例子來說明中國剩餘定理。假設我們要解決一個同餘方程組：
+x ≡ 2 (mod 3)
+x ≡ 3 (mod 5)
+x ≡ 2 (mod 7)
+通過中國剩餘定理，我們可以分別解決每個方程，然後通過合併這些子解得到最終解。先看第一個方程，可以列出一個整數k，使得x = 3k + 2。這樣的k可以是0、1、2… 。將這個表達式代入第二個方程，得到：3k + 2 ≡ 3 (mod 5)，這意味著k ≡ 4 (mod 5)。將k = 5m + 4代入第一個表達式和第三個表達式中，可以得到：</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/euclids-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/euclids-algorithm/</guid><description>習題預習 User ask:
+給我5題Euclid's Algorithm的問題 ChatGPT answer:
+求出最大公因數(GCD)為何，輸入數字為6和8? 如果我有輸入數字為28和35，求出最大公因數(GCD)為何? 輸入數字為210和45，求出最大公因數(GCD)為何? 如果我要求出104和910的最大公因數(GCD)，應該怎麼做? 如果我有輸入數字為22和121，求出最大公因數(GCD)為何? 說明知識 User ask:
+說明Euclid's Algorithm並舉例 ChatGPT answer:
+Euclid&amp;rsquo;s Algorithm是一個用來找到兩個正整數的最大公因數的快速方法。這個演算法最早由古希臘數學家歐幾里德所發明，因此得名Euclid&amp;rsquo;s Algorithm。
+這個演算法基於以下的觀察：如果a和b是兩個數，且a&amp;gt;b，那麼
+將a除以b，得到商q和餘數r。 如果r=0，那麼b是a和b的最大公因數。 否則，將原本的b設為a，將原本的r設為b，並回到第1步。 我們可以用一個例子來說明這個演算法：
+舉例來說，我們想找到84和18的最大公因數。
+84除以18，得到商4和餘數12。 12不是0，所以把原本的b設為18，把原本的r設為12，並回到第1步。 18除以12，得到商1和餘數6。 6不是0，所以把原本的b設為12，把原本的r設為6，並回到第1步。 12除以6，得到商2和餘數0。 因為餘數為0，所以最大公因數為6。 因此，我們可以快速地找到84和18的最大公因數為6。這個演算法非常有用，不僅可用於解題，還被廣泛應用於加密和資訊安全領域。
+彙總重點 User ask:
+條列Euclid's Algorithm的重點 ChatGPT answer:
+Euclid&amp;rsquo;s Algorithm is a method to find the greatest common divisor (GCD) of two integers. The algorithm states that the GCD of two integers a and b is equal to the GCD of b and the remainder of a divided by b.</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/fast-fourier-transform/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/fast-fourier-transform/</guid><description>習題預習 User ask:
+給我5題Fast Fourier Transform的問題 ChatGPT answer:
+什麼是Fast Fourier Transform (FFT)的應用，以及這種技術是如何運作的？ 如何對使用FFT進行的信號處理進行優化，以提高FFT的速度？ 查找使用FFT進行信號分析的最佳方法的步驟是什麼？ 如何使用FFT來辨識音頻或其他信號中的特定模式或頻率？ FFT在數字信號處理中的應用是什麼，以及如何與其他數字信號處理技術相比較？ 說明知識 User ask:
+說明Fast Fourier Transform並舉例 ChatGPT answer:
+快速傅立葉變換（Fast Fourier Transform，FFT）是一種有效率的傅立葉變換演算法，用於將信號或數據序列在時間域與頻率域之間進行轉換。簡單來說，FFT 可以將時域數據轉換為頻域數據，這意味著它可以協助我們快速分析一組信號的頻率成分。
+例如，假設我們有一個音訊檔案，其中包含著許多不同頻率的聲音，並且我們想要分析這些聲音中頻率成分的特徵。使用FFT，我們可以在幾秒鐘內將整個音訊檔案轉換為頻域數據，並快速地分析其頻率成分。對於音樂製作、語音辨識、儀表板分析等等場景，FFT 都是一種非常有用的數學工具。
+彙總重點 User ask:
+條列Fast Fourier Transform的重點 ChatGPT answer:
+快速傅立葉變換（FFT）是一種運算效率高且快速的FFT演算法。
+FFT最初是用於高度優化的傅立葉變換算法，以加快數字信號處理和譜分析的速度。
+FFT通常是用於執行快速的傅立葉變換。
+FFT演算法通常用於從時域（時間）轉換到頻率域（頻率）進行數據分析和訊號處理。
+FFT演算法的速度非常快，可以在O(n log2 n)的時間內完成。
+FFT演算法使用了一種叫做分治策略的方法，將複雜度為n的問題切割成更小的問題，然後使用遞歸解決它們。
+FFT演算法通常以一種稱為蝴蝶運算的方式實現，這種方式將數據分為兩組，然後將它們沿著一個稱為蝴蝶的線性路徑進行運算。
+FFT演算法基於對簡單多項式的處理，可以分析周期性特徵和頻率成分，進而對訊號進行分析和處理。
+FFT演算法可以應用於多領域，包括聲音和影像處理、數字信號處理、無線通信和科學計算等。
+學習FFT演算法需要掌握數學知識，包括傅立葉分析、複數代數和矩陣運算等。
+知識測驗 User ask:
+給我5題Fast Fourier Transform的中等難度問題，並在後面列出答案 ChatGPT answer:
+將一個輸入信號做快速傅立葉變換，得到其頻譜。接著將這個頻譜進行調整，使得頻譜中心不再是零頻，而是轉移到一個不同的頻率。問：這個過程會對原始信號造成什麼影響？ 答：這個過程會將原始信號的時間域波形進行平移操作，移動的距離和方向是由頻率轉移的數值決定的。
+將一個輸入信號的複數部分轉換成實數部分為零，進行快速傅立葉變換，再將其結果轉換回原始複數信號。問：這個過程是否可能導致信息的丟失？ 答：這個過程是不會丟失任何信息的，因為傅立葉變換是一個可逆的轉換，所以反轉換後會得到原始信號。
+將一個長度為 $2^n$ 的複數序列進行快速傅立葉變換，得到其頻譜 $X[k]$。將 $X[k]$ 中每一個元素都取模的平方，得到一個新的序列 $Y[k] = |X[k]|^2$。接著將 $Y[k]$ 做傅立葉逆變換，得到一個長度為 $2^n$ 的新序列 $y[n]$。問：如何解釋 $y[n]$ 的意義？ 答：$y[n]$ 是原始序列 $x[n]$ 的自相關函數，表示原始序列與自己的延遲版本之間的相似度。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/matrix-multiplication/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/matrix-multiplication/</guid><description>習題預習 User ask:
+給我5題Matrix Multiplication的問題 ChatGPT answer:
+請問何謂矩陣相乘？為什麼要進行矩陣相乘？ 兩個矩陣A和B若可以相乘，其乘積AB的每個元素如何計算？ 矩陣相乘時，應該注意哪些規則？ 矩陣相乘有什麼應用？舉例說明。 矩陣相乘的時間複雜度是多少？如何優化？ 說明知識 User ask:
+說明Matrix Multiplication並舉例 ChatGPT answer:
+矩陣乘法 (Matrix Multiplication) 是一種數學運算，用於將兩個矩陣進行運算得到一個新的矩陣。矩陣乘法的步驟如下：
+確認兩個矩陣相乘時是否符合維度要求，即第一個矩陣的列數必須等於第二個矩陣的行數。 從第一個矩陣中選取一行，從第二個矩陣中選取一列，將兩者對應位置的數字相乘，得到新的矩陣中的一個元素。 重複步驟2，直到得到新矩陣的所有元素。 例如，若有以下兩個矩陣：
+矩陣A:
+[ 1, 2 ]
+[ 3, 4 ]
+矩陣B:
+[ 5, 6 ]
+[ 7, 8 ]
+則 A 與 B 的乘積可表示為：
+[ 15 + 27, 16 + 28 ]
+[ 35 + 47, 36 + 48 ]
+即：
+[ 19, 22 ]</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/miller-rabin-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/miller-rabin-algorithm/</guid><description>習題預習 User ask:
+給我5題Miller-Rabin Algorithm的問題 ChatGPT answer:
+What is the Miller-Rabin algorithm used for? How does the Miller-Rabin algorithm differ from other primality testing algorithms? Can the Miller-Rabin algorithm determine the exact prime factorization of a number? How can the Miller-Rabin algorithm be implemented efficiently in code? Are there any limitations or drawbacks to using the Miller-Rabin algorithm compared to other primality testing algorithms? 說明知識 User ask:
+說明Miller-Rabin Algorithm並舉例 ChatGPT answer:</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/modular-exponentiation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/modular-exponentiation/</guid><description>習題預習 User ask:
+給我5題Modular Exponentiation的問題 ChatGPT answer:
+計算 3^8 mod 7 的值。 計算 5^100 mod 11 的值。 計算 2^64 mod 13 的值。 計算 4^13 mod 17 的值。 計算 10^20 mod 19 的值。 說明知識 User ask:
+說明Modular Exponentiation並舉例 ChatGPT answer:
+Modular Exponentiation是指在进行大数次方时，不直接进行指数次的运算，而是将每次运算的结果取余数，即对一个数取模，最后得到余数作为结果。这样做可以避免大数次方计算时产生的溢出和内存问题，同时也能大大提高运算速度。
+例如7的1000次方，如果直接计算，会产生一个巨大的数，超过了计算机处理的范围；而使用Modular Exponentiation，则可以将每次运算的结果取模后存储，最后得到的余数就是答案。
+一个常见的例子是RSA算法中的操作：将两个大素数p和q相乘得到n，然后选择一个与(p-1)(q-1)互质的数e作为加密指数，再计算出一个与(p-1)(q-1)互质的数d作为解密指数。加密时，将明文m进行指数e次幂运算，并对n取模得到密文c，解密时，将密文c进行指数d次幂运算，并对n取模得到明文m。
+总之，Modular Exponentiation是一种将计算结果取模的算法，在大数次方计算中有很重要的应用，也是加密算法中的核心操作之一。
+彙總重點 User ask:
+條列Modular Exponentiation的重點 ChatGPT answer:
+模幂运算是一种处理大数幂对模数取余的算法。 它用于处理密码学中的加密和解密操作。 模幂运算的基础公式是：a^b mod m，其中a为底数，b为幂，m为模数。 模幂运算可以通过二进制幂算法来实现，将幂按照二进制拆分后依次进行运算。 模幂运算还可以利用蒙哥马利幂算法来加速，在模数较大的情况下效果更加明显。 模幂运算也可以使用同余变换来实现，将幂的指数转换为较小的值，进而降低计算复杂度。 模幂运算在密码学和计算机安全领域中具有重要意义，可以保护数据的隐私和安全。 知識測驗 User ask:
+給我5題Modular Exponentiation的中等難度問題，並在後面列出答案 ChatGPT answer:
+請解釋在Modular Exponentiation算法中，質數p的選擇對進行加速的影響是什麼。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/primality-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/numerical-algorithms/primality-testing/</guid><description>習題預習 User ask:
+給我5題Primality Testing的問題 ChatGPT answer:
+如何判斷一個數位是否為質數？ 如果給定一個範圍，如何找到所有的質數？ 如何提高質數測試的效率？ 什麼是Fermat小定理？ 如何應用它判斷是否為質數？ 如果有一個很大的數位，如何進行快速質數測試？ 說明知識 User ask:
+說明Primality Testing並舉例 ChatGPT answer:
+Primality testing是一種判斷一個數字是否為質數的方法。質數是僅能被1和自身整除的正整數，例如2、3、5、7、11等。
+Primality testing方法有很多種，下面列出幾種常見的方法：
+費馬小定理：對於一個質數p和任意不是p的整數a，a^(p-1) mod p = 1，如果結果不等於1，則a不是質數。這種方法非常快，但存在偽質數的情況，即一些合數通過此測試。
+Miller-Rabin測試：使用隨機算法來測試質數，並且能夠檢測偽質數，並且可以設置錯誤率。這是一種廣泛使用的primality testing方法。
+AKS算法：這是一種相對較新的方法，可以在多項式時間內確定一個數字是否為質數，但是速度非常慢，難以處理大數據。
+下面以示例展示Miller-Rabin測試如何檢測質數。
+假設我們要判斷n=17是否為質數。
+將n-1表示為2^rd(d是奇數)，因為16=2^41，所以r=4，d=1。
+隨機選擇一個a，並且取a^d mod n的值(這裡取a=2)。由於d=1，所以a^d mod n=2^1 mod 17=2。
+只要a^(d2^j) mod n不等於1且不等於n-1(j=0,1,&amp;hellip;,r-1)，則n不是質數。這裡需要計算2^2 mod 17=4，即a^(d2^1) mod n，由於4不等於1且不等於16(即n-1)，所以n不是質數。
+所以17不是質數。
+總之，Primality testing是尋找質數的重要方法，不同方法的速度和精度各異，可以根據需要選擇適當的方法。
+彙總重點 User ask:
+條列Primality Testing的重點 ChatGPT answer:
+定義質數：質數是指只能被1和自己整除的整數，除了1以外，質數必須是大於1的整數。
+動機：質數是數學中的一個重要問題，關乎到許多算法和加密應用，如RSA加密。
+方法：Primality Testing是一種方法，用於驗證給定的數字是否為質數。
+暴力法：最簡單的方法是暴力枚舉，對於每個小於n的整數k，判斷n是否能被k整除。但對於大數，該方法效率極低。
+埃氏篩法：其中一種常見的方法是埃氏篩法，該方法可以在O(n log log n)的時間內尋找小於等於n的所有質數。
+米勒-拉賓素性測試：米勒-拉賓素性測試是一種基於隨機應用Fermat小定理的方法，可以在O(k log3 n)時間內檢測一個數字是否為質數，其中k為指定的測試次數。</description></item></channel></rss>
