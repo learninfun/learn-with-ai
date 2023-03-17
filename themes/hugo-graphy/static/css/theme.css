@@ -3,6 +3,33 @@
 /* Tags */
 @import "tags.css";
 
+#sidebar li.dd-item > a {
+    position: relative;
+    padding-left: 20px;
+}
+
+#sidebar li.dd-item > a::before {
+    font-family: 'Font Awesome 5 Free';
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    display:block;
+    position: absolute;
+    left: 0px;   
+    font-weight: 900;
+}
+
+#sidebar li.dd-item.expanded > a::before {
+    content: '\f078';    
+    color: #FFFFFF;
+}
+
+#sidebar li.dd-item.notexpanded > a::before {
+    content: '\f054';    
+    color: #777777;
+}
+
 #top-github-link, #body #breadcrumbs {
     position: relative;
     top: 50%;
@@ -261,7 +288,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul.topics ul ul {
     padding-bottom: 0;
 }
-#sidebar ul.topics li.parent ul, #sidebar ul.topics > li.active ul {
+#sidebar ul.topics li.parent > ul, #sidebar ul.topics li.active > ul {
     display: block;
 }
 #sidebar ul.topics > li > a {

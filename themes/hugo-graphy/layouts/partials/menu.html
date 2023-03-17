@@ -112,6 +112,11 @@
         {{if .IsAncestor $currentNode }}parent{{end}}
         {{if eq .File.UniqueID $currentFileUniqueID}}active{{end}}
         {{if .Params.alwaysopen}}parent{{end}}
+        {{if (or (.IsAncestor $currentNode) (eq .File.UniqueID $currentFileUniqueID) ) }}
+          expanded
+        {{else}}
+          notexpanded                                                                      
+        {{end}}
         ">
       <a href="{{.RelPermalink}}">
           {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title .File.BaseFileName}}{{safeHTML .Params.Post}}
