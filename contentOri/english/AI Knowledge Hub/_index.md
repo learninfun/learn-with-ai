@@ -3,13 +3,16 @@ title = "AI Knowledge Hub"
 weight = 2
 +++
 
+## High level concept
+ChatGPT is a natural language processing technology that can answer knowledge-based questions and has a broad range of knowledge in various areas. Using ChatGPT to create a tree structure of knowledge points for a topic can help establish a framework for understanding and learning. 
+
 ## How to explore and extract knowledge with ChatGPT?
 - Noun definition
   - [AA] is a middle-level knowledge node that still needs to be expanded.
   - [OO] is a leaf node that requires a deeper understanding of its content.
 - Get the framework from ChatGPT
   - list the knowledge points related to [OO], presented in a non-repetitive tree structure and expanded to the fifth level.
-- Get the knowledge content from ChatGPT
+- Use program to traverse all the knowledge points, and ask following questions
   - give me five question about [OO]
   - Explain [OO] and give an example
   - List the key points of [OO]
@@ -22,7 +25,7 @@ weight = 2
   - [Back-end development](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/back-end-development/)
   - [Infrastructure](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/infrastructure/)
 
-## High level concept
+## Explain the detail
 
 ChatGPT is a powerful natural language processing technology that can efficiently answer various knowledge-based and quiz questions, thanks to its powerful deep learning model and vast training data.
 Its knowledge base covers various topics, including natural sciences, humanities, engineering, and more, and has reached a fairly rich and comprehensive level.
