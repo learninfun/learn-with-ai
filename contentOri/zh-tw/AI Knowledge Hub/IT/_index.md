@@ -1,5 +1,5 @@
 +++
-title = "Information Technology"
+title = "資訊科技"
 weight = 1
 +++
 
