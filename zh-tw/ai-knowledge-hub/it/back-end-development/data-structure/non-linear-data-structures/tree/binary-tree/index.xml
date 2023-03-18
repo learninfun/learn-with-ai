@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Binary Tree on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/</link><description>Recent content in Binary Tree on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/avl-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/avl-tree/</guid><description>習題預習 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Binary Tree on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/</link><description>Recent content in Binary Tree on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/index.xml" rel="self" type="application/rss+xml"/><item><title>AVL樹</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/avl-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/avl-tree/</guid><description>習題預習 User ask:
 給我5題AVL Tree的問題 ChatGPT answer:
 AVL Tree是什麼？ AVL Tree與Binary Tree之間的區別是什麼？ AVL Tree如何保持平衡？ AVL Tree是如何進行插入和刪除操作？ AVL Tree的時間複雜度是多少，並舉例說明？ 說明知識 User ask:
 說明AVL Tree並舉例 ChatGPT answer:
@@ -11,21 +11,21 @@ AVL Tree的平衡是在節點的左右子樹高度之差不超過1的情況下�
 這樣的AVL Tree就是一個平衡樹，可以保證搜索操作的時間複雜度為O(log n)級別。
 彙總重點 User ask:
 條列AVL Tree的重點 ChatGPT answer:
-AVL Tree 的重點如下：
-平衡因子：每個節點的左子樹和右子樹的高度差稱為平衡因子，AVL Tree中平衡因子的絕對值不超過1。
-左旋和右旋：為了維護AVL Tree的平衡性，需要通過左旋或右旋操作對樹進行調整。
-插入和刪除：插入和刪除節點時，要注意平衡因子的變化，需要將不平衡的節點通過旋轉調整為平衡狀態。
-查找和遍歷：AVL Tree 支持快速查找和各種遍歷操作，包括前序遍歷、中序遍歷和後序遍歷。
-時間複雜度：AVL Tree 的操作時間複雜度為O(log n)，其中n為樹中節點的數量。因此，AVL Tree在實際應用中具有很高的效率和可靠性。
+AVL Tree 的重点如下：
+平衡因子：每个节点的左子树和右子树的高度差称为平衡因子，AVL Tree中平衡因子的绝对值不超过1。
+左旋和右旋：为了维护AVL Tree的平衡性，需要通过左旋或右旋操作对树进行调整。
+插入和删除：插入和删除节点时，要注意平衡因子的变化，需要将不平衡的节点通过旋转调整为平衡状态。
+查找和遍历：AVL Tree 支持快速查找和各种遍历操作，包括前序遍历、中序遍历和后序遍历。
+时间复杂度：AVL Tree 的操作时间复杂度为O(log n)，其中n为树中节点的数量。因此，AVL Tree在实际应用中具有很高的效率和可靠性。
 知識測驗 User ask:
 給我5題AVL Tree的中等難度問題，並在後面列出答案 ChatGPT answer:
-在AVL Tree中插入元素10、15、12、20、25，請列出插入後AVL Tree的前序遍歷結果。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/red-black-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/red-black-tree/</guid><description>習題預習 User ask:
+在AVL Tree中插入元素10、15、12、20、25，請列出插入後AVL Tree的前序遍歷結果。</description></item><item><title>紅黑樹</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/red-black-tree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/tree/binary-tree/red-black-tree/</guid><description>習題預習 User ask:
 給我5題Red-Black Tree的問題 ChatGPT answer:
 Red-Black Tree是什麼? Red-Black Tree的優點是什麼? 為什麼Red-Black Tree可以保證平衡? 如何實現紅黑樹的插入操作，保持平衡? 如何實現紅黑樹的查找操作，保持平衡? 說明知識 User ask:
 說明Red-Black Tree並舉例 ChatGPT answer:
 Red-Black Tree是一種平衡二叉樹，它在BST（二叉搜索樹）的基礎上，增加了顏色的概念，使得在插入、刪除操作時，能夠保持樹的平衡性，同時也提高了查詢操作的效率。
 在Red-Black Tree中，每個節點都有顏色屬性，紅色或黑色，並且樹中的所有空白節點都視為黑色節點。樹中有以下幾個重要特性：
-根節點與葉節點都視為黑節點 紅色節點的子節點都是黑色節點 任何一個節點到它的葉子節點（空節點）的所有路徑上，經過的黑節點數量是相同的 插入操作會對紅黑樹造成變化，為了維持平衡性，插入后需要將新增節點標記為紅色。如果插入的位置破壞了紅黑樹的特性，例如紅節點有紅色子節點，這時需要進行調整，使得紅黑樹重新滿足所有特性。
+根節點與葉節點都視為黑節點 紅色節點的子節點都是黑色節點 任何一個節點到它的葉子節點（空節點）的所有路徑上，經過的黑節點數量是相同的 插入操作會對紅黑樹造成變化，為了維持平衡性，插入後需要將新增節點標記為紅色。如果插入的位置破壞了紅黑樹的特性，例如紅節點有紅色子節點，這時需要進行調整，使得紅黑樹重新滿足所有特性。
 舉例：
 以下是一棵紅黑樹，其中紅色表示節點為紅色，黑色表示節點為黑色。
 將13插入上圖紅黑樹：

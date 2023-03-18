@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minimum Spanning Trees on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/</link><description>Recent content in Minimum Spanning Trees on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/dynamic-mst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/dynamic-mst/</guid><description>習題預習 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minimum Spanning Trees on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/</link><description>Recent content in Minimum Spanning Trees on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/index.xml" rel="self" type="application/rss+xml"/><item><title>動態最小生成樹</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/dynamic-mst/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/minimum-spanning-trees/dynamic-mst/</guid><description>習題預習 User ask:
 給我5題Dynamic MST的問題 ChatGPT answer:
 如何計算Dynamic MST的權重？
 在動態圖中，如何快速地更新MST？
@@ -14,13 +14,13 @@ Dynamic MST是指在一个图中，有一些边的权值有可能会变化，不
 动态MST算法在网络的设计、优化等方面都有重要应用。
 彙總重點 User ask:
 條列Dynamic MST的重點 ChatGPT answer:
-以下为Dynamic MST的重点：
-动态性：Dynamic MST是一种动态算法，它可以处理边的插入和删除操作，并重新计算最小生成树。
-最小生成树：Dynamic MST的目的是找到最小生成树，即连接所有节点的最小成本。
-Kruskal算法：Dynamic MST使用Kruskal算法来找到最小生成树。Kruskal算法首先将边按权值排序，然后从最小权值的边开始添加到生成树，直到所有节点都已连接。
-断开和连接操作：Dynamic MST可以处理断开和连接操作。如果边被删除，则算法会重新计算最小生成树。如果边被添加，则算法将判断是否需要添加该边并重新计算最小生成树。
-Eager Prim算法：另外一个用来实现动态MST的算法是Eager Prim算法。该算法也可以处理边的插入和删除，但相对于Kruskal算法，该算法更适用于稠密图。
-复杂度：Dynamic MST的时间复杂度为O(ElogE)，其中E为边的数目。因此，它比Prim和Kruskal算法更慢。
+以下為Dynamic MST的重點：
+動態性：Dynamic MST是一種動態算法，它可以處理邊的插入和刪除操作，並重新計算最小生成樹。
+最小生成樹：Dynamic MST的目的是找到最小生成樹，即連接所有節點的最小成本。
+Kruskal算法：Dynamic MST使用Kruskal算法來找到最小生成樹。Kruskal算法首先將邊按權值排序，然後從最小權值的邊開始添加到生成樹，直到所有節點都已連接。
+斷開和連接操作：Dynamic MST可以處理斷開和連接操作。如果邊被刪除，則算法會重新計算最小生成樹。如果邊被添加，則算法將判斷是否需要添加該邊並重新計算最小生成樹。
+Eager Prim算法：另外一個用來實現動態MST的算法是Eager Prim算法。該算法也可以處理邊的插入和刪除，但相對於Kruskal算法，該算法更適用於稠密圖。
+複雜度：Dynamic MST的時間複雜度為O(ElogE)，其中E為邊的數目。因此，它比Prim和Kruskal算法更慢。
 知識測驗 User ask:
 給我5題Dynamic MST的中等難度問題，並在後面列出答案 ChatGPT answer:
 有一個無向圖，每條邊有一個權值和一個時態值。時態值每一秒會增加1，當時態值等於某條邊的權值時，這條邊會消失。求出圖每秒的最小生成樹權值和。 答案：可使用Kruskal或Prim算法，但在找最小邊時要考慮時態值是否等於權值。每秒計算一次最小生成樹的權值和，逐秒累加即可。</description></item></channel></rss>

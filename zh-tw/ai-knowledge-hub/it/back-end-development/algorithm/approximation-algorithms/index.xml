@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Approximation Algorithms on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/</link><description>Recent content in Approximation Algorithms on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</guid><description>習題預習 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Approximation Algorithms on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/</link><description>Recent content in Approximation Algorithms on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>背包問題</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</guid><description>習題預習 User ask:
 給我5題Knapsack Problem的問題 ChatGPT answer:
 有一個背包可以裝重量為W的物品，在一個物品序列中，每個物品有一個特定的重量w[i]和價值v[i]，請問最多可以裝多少價值的物品？ 有一個背包可以裝重量為W的物品，在一個物品序列中，每個物品有一個特定的體積v[i]和價值w[i]，請問最多可以裝多少價值的物品？ 有n個物品，每個物品有一個特定的重量w[i]和價值v[i]，現在需要把它們分成兩堆，使得兩堆的總重量相等，請問這兩堆物品的最大價值和是多少？ 有n個物品，每個物品有一個特定的重量w[i]和價值v[i]，現在有一個背包可以承重W，請問可以裝多少件物品使得總價值最大？ 有n個物品，每個物品有一個特定的體積v[i]和價值w[i]，現在有一個背包可以承容量C，請問可以裝多少件物品使得總價值最大？ 說明知識 User ask:
 說明Knapsack Problem並舉例 ChatGPT answer:
@@ -7,21 +7,7 @@
 物品 重量 價值 物品1 3 4 物品2 4 5 物品3 2 3 物品4 1 2 物品5 5 6 現在你需要從這些物品中選擇出一些物品，放進背包中，使得它們的總重量不超過10，且它們的總價值要最大。設每個物品放或不放的狀態為1或0，則可列出下列的決策矩陣：
 物品 1 2 3 4 5 重量 3 4 2 1 5 價值 4 5 3 2 6 接著可以使用動態規劃的方法來解決這個問題。設f(i, j)為在前i個物品中選擇，且總重量不超過j的情況下，可以得到的最大價值。則可以得到下列的轉移方程：
 f(i, j) = max(f(i-1, j), f(i-1, j-w[i])+v[i])，其中w[i]表示第i個物品的重量，v[i]表示第i個物品的價值
-最後，f(5, 10)即為答案，代表在這些物品中選出一些物品，可以得到的最大價值是18。</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</guid><description>習題預習 User ask:
-給我5題Set Cover的問題 ChatGPT answer:
-假設有一個城市，裡面有5個公園，需要在這些公園周圍設置照明設施，如何選擇最少的照明點，使得每個公園都有充足的照明？ 一間公司需要選擇廣告平台以宣傳其產品，可選擇的平台有10種，但每個平台價格不同，如何選擇最少的平台，以覆蓋所有潛在客戶？ 一個醫院需要選擇哪些人員參加一個緊急的燈火緊急計劃，以下是幾種人員選擇方案，如何選擇最少的方案以確保所有可能的應急情況都得到適當的應對？ 一個農夫有一塊大田地，需要選擇哪些作物種植，以達到最大的收益，可種植的作物包括小麥、玉米、豆類等，但每種作物的種植面積有限，且每種作物的投入和產出不同。 一個零售商需要選擇哪些產品擺放在店面陳列櫃裡以吸引顧客，可選擇的產品有50種，但每種產品的銷售量和利潤不同，如何選擇最少的產品，以最大化銷售額和利潤？ 說明知識 User ask:
-說明Set Cover並舉例 ChatGPT answer:
-Set Cover是一個組合優化問題，目標是在一組集合中，找到最小的子集，使得這些子集的聯集可以包括所有元素。
-例如，假設有以下三個集合：
-A = {1, 2, 3, 4}
-B = {2, 4, 6}
-C = {3, 5}
-我們可以選擇兩個子集：{A, C}或{B, C}，這些子集的聯集都可以涵蓋所有的元素。因此，這是一個Set Cover問題。
-在這個問題中，我們希望找到包含所有元素的最小子集。例如，在這個例子中，解決方案可能是{A, C}，因為它只需要兩個集合來覆蓋所有的元素。
-Set Cover問題在實際應用中廣泛使用，例如在計算機科學、運輸規劃、慈善捐贈等領域。解決Set Cover問題的算法包括貪婪算法、動態規劃和整數線性規劃等。
-彙總重點 User ask:
-條列Set Cover的重點 ChatGPT answer:
-Set Cover 是一個組合優化問題，目的是在一群集合中找到最少的集合，使得它們的聯集包含所有元素。 Set Cover 經常被用來描述許多現實世界的問題，如旅行商問題、雜草清除、廣告投放等。 Set Cover 的簡單貪心算法是一個有效的近似解法，它的解答可以在多項式時間內求得。 Set Cover 是一個NP-hard問題，因此沒有已知的快速解決方案。 為了解決 Set Cover，可以使用近似算法、精確算法、隨機算法等。 Set Cover 和其他組合優化問題經常在計算機科學和操作研究中被學習和應用。 知識測驗 User ask:</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</guid><description>習題預習 User ask:
+最後，f(5, 10)即為答案，代表在這些物品中選出一些物品，可以得到的最大價值是18。</description></item><item><title>旅行商問題</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</guid><description>習題預習 User ask:
 給我5題Traveling Salesman Problem的問題 ChatGPT answer:
 在一個城市之間有多少種最短路徑？ 如何尋找一個旅行商所需的最短路徑去訪問一組城市？ 如何最小化旅行商所需的時間、距離或成本？ 如何在最小的行駛路線中包含一個指定的城市？ 如果有一個城市是不可達的，如何找到一個最短路徑的替代方案？ 說明知識 User ask:
 說明Traveling Salesman Problem並舉例 ChatGPT answer:
@@ -52,7 +38,21 @@ B到D：3
 C到D：8
 答案：A-&amp;gt;B-&amp;gt;C-&amp;gt;D-&amp;gt;A，總路程為16
 有一個業務員需要走訪5個城市，他必須從A出發，每個城市只能拜訪一次，且返回A的路線必須最短。每個城市的路程如下： A到B：1
-A到C：2</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</guid><description>習題預習 User ask:
+A到C：2</description></item><item><title>集合覆蓋</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</guid><description>習題預習 User ask:
+給我5題Set Cover的問題 ChatGPT answer:
+假設有一個城市，裡面有5個公園，需要在這些公園周圍設置照明設施，如何選擇最少的照明點，使得每個公園都有充足的照明？ 一間公司需要選擇廣告平台以宣傳其產品，可選擇的平台有10種，但每個平台價格不同，如何選擇最少的平台，以覆蓋所有潛在客戶？ 一個医院需要选择哪些人员参加一個緊急的灯火緊急計劃，以下是幾種人員選擇方案，如何选择最少的方案以确保所有可能的应急情况都得到適當的應對？ 一個農夫有一塊大田地，需要選擇哪些作物種植，以達到最大的收益，可種植的作物包括小麥、玉米、豆類等，但每種作物的種植面積有限，且每種作物的投入和產出不同。 一個零售商需要選擇哪些產品擺放在店面陳列櫃裡以吸引顧客，可選擇的產品有50種，但每種產品的銷售量和利潤不同，如何選擇最少的產品，以最大化銷售額和利潤？ 說明知識 User ask:
+說明Set Cover並舉例 ChatGPT answer:
+Set Cover是一個組合優化問題，目標是在一組集合中，找到最小的子集，使得這些子集的聯集可以包括所有元素。
+例如，假設有以下三個集合：
+A = {1, 2, 3, 4}
+B = {2, 4, 6}
+C = {3, 5}
+我們可以選擇兩個子集：{A, C}或{B, C}，這些子集的聯集都可以涵蓋所有的元素。因此，這是一個Set Cover問題。
+在這個問題中，我們希望找到包含所有元素的最小子集。例如，在這個例子中，解決方案可能是{A, C}，因為它只需要兩個集合來覆蓋所有的元素。
+Set Cover問題在實際應用中廣泛使用，例如在計算機科學、運輸規劃、慈善捐贈等領域。解決Set Cover問題的算法包括貪婪算法、動態規劃和整數線性規劃等。
+彙總重點 User ask:
+條列Set Cover的重點 ChatGPT answer:
+Set Cover 是一個組合優化問題，目的是在一群集合中找到最少的集合，使得它們的聯集包含所有元素。 Set Cover 經常被用來描述許多現實世界的問題，如旅行商問題、雜草清除、廣告投放等。 Set Cover 的簡單貪心算法是一個有效的近似解法，它的解答可以在多項式時間內求得。 Set Cover 是一個NP-hard問題，因此沒有已知的快速解決方案。 為了解決 Set Cover，可以使用近似算法、精確算法、隨機算法等。 Set Cover 和其他組合優化問題經常在計算機科學和操作研究中被學習和應用。 知識測驗 User ask:</description></item><item><title>點覆蓋</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</guid><description>習題預習 User ask:
 給我5題Vertex Cover的問題 ChatGPT answer:
 給定一個圖形，找出最小的點集合，使得圖形中的每一條邊都至少經過其中一個點。
 在一個無向圖中，找到包含所有奇數度數節點的最小點集合。

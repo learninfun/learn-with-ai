@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration Management on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/</link><description>Recent content in Configuration Management on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/ansible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/ansible/</guid><description>習題預習 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Configuration Management on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/</link><description>Recent content in Configuration Management on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Ansible</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/ansible/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/ansible/</guid><description>習題預習 User ask:
 給我5題Ansible的問題 ChatGPT answer:
 什麼是Ansible，有什麼特點和優勢？ 如何安裝和配置Ansible？ 使用Ansible如何實現自動化部署和管理？ Ansible Playbook有什麼作用，如何編寫和執行Playbook？ 如何使用Ansible搭建一個高可用的Web應用程式？ 說明知識 User ask:
 說明Ansible並舉例 ChatGPT answer:
@@ -19,7 +19,7 @@ name: mysql-server
 state: present name: Start MySQL Server
 service:
 name: mysqld
-state: started 在Ansible的控制節點上運行命令，將webserver.yml清單文件應用於目標服務器： ansible-playbook webserver.yml -i hosts.</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/chef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/chef/</guid><description>習題預習 User ask:
+state: started 在Ansible的控制節點上運行命令，將webserver.yml清單文件應用於目標服務器： ansible-playbook webserver.yml -i hosts.</description></item><item><title>Chef</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/chef/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/devops/configuration-management/chef/</guid><description>習題預習 User ask:
 給我5題Chef的問題 ChatGPT answer:
 哪一道菜是你的招牌菜？ 你是如何學習和磨練你的廚藝技巧的？ 你覺得最重要的廚藝技巧是什麼？為什麼？ 你如何保持創造力和靈感來源？ 誰是你堅持追隨或啟發你的廚師或食物品牌？ 說明知識 User ask:
 說明Chef並舉例 ChatGPT answer:
@@ -31,13 +31,13 @@ Chef有三個主要概念：節點、角色和資源。節點是安裝了Chef客
 最後，可以定義一個Chef Recipe，將這些元素組合在一起，並在節點上執行。這樣，節點將自動安裝並配置所需的元素，使網頁應用程序可用，而不需要手動處理每個元素。
 彙總重點 User ask:
 條列Chef的重點 ChatGPT answer:
-熟練掌握烹飪技能，包括切割、炒、煮、燜、蒸、烤等。
-善於掌握時機，能夠把握烹飪時間和火候，以保證菜餚的味道和口感。
-具備敏銳的嗅覺和味覺，能夠準確識別食材的新鮮度和質量，並能夠精準地調整調料的比例和種類。
-擁有良好的團隊合作精神，能夠與其他廚師和服務員密切配合，確保菜餚在時間和質量上的優異表現。
-熟悉各種菜系的烹飪技巧和調料，對菜品的文化和歷史背景有深入瞭解，並能夠根據客人的需求提供個性化的菜品和服務。
-具備良好的溝通和交流能力，能夠與客人進行友好而專業的對話，瞭解客人的需求和口味偏好，以提供更好的菜品和服務。
-精通餐飲管理和營銷策略，能夠促進餐廳的營業額和知名度，提高菜品的市場競爭力。
+熟练掌握烹饪技能，包括切割、炒、煮、焖、蒸、烤等。
+善于掌握时机，能够把握烹饪时间和火候，以保证菜肴的味道和口感。
+具备敏锐的嗅觉和味觉，能够准确识别食材的新鲜度和质量，并能够精准地调整调料的比例和种类。
+拥有良好的团队合作精神，能够与其他厨师和服务员密切配合，确保菜肴在时间和质量上的优异表现。
+熟悉各种菜系的烹饪技巧和调料，对菜品的文化和历史背景有深入了解，并能够根据客人的需求提供个性化的菜品和服务。
+具备良好的沟通和交流能力，能够与客人进行友好而专业的对话，了解客人的需求和口味偏好，以提供更好的菜品和服务。
+精通餐饮管理和营销策略，能够促进餐厅的营业额和知名度，提高菜品的市场竞争力。
 知識測驗 User ask:
 給我5題Chef的中等難度問題，並在後面列出答案 ChatGPT answer:
 什麼是knife roll專用的主要材質是？ 答案：皮革。

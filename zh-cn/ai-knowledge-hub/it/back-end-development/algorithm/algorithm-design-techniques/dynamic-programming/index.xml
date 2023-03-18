@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dynamic Programming on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/</link><description>Recent content in Dynamic Programming on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/index.xml" rel="self" type="application/rss+xml"/><item><title>表格法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/tabulation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/tabulation/</guid><description>习题预习 User ask:
+给我5题Tabulation的问题 ChatGPT answer:
+根據不同年齡層的財務目標，將支出分類，以便更好地了解該年齡層的花費習慣。 分析哪些餐廳在不同的城市或地區經常被顧客點餐，以協助制定營銷策略。 紀錄每位員工的出席率，早退率和遲到率，以協助管理人員確定員工出勤表現並提供相應的獎勵或懲罰。 記錄一個公司的優惠券使用量，以解決促銷營銷策略的投入和回報。 通过记录每位學生的出勤率、作业完成情况和考试成绩来衡量教育系统的效果，以判断学生的整体表现和制定针对性的教育改革计划。 说明知识 User ask:
+说明Tabulation并举例 ChatGPT answer:
+Tabulation（表格法）是一種動態程式設計方法，用於解決子問題互相不相交的問題。通常用於解決最短路徑、最長公共子序列、編輯距離等問題。
+在Tabulation方法中，動態規劃的解決方案從最小的子問題開始，通過填充表格來解決更大的問題。表格的每個單元格代表問題的某個特定狀態，每個單元格的計算取決於其他單元格中已經計算的值（即子問題）。
+舉例來說，考慮最短路徑問題。一個圖形可以用一個鄰接矩陣來表示，其中矩陣的每個元素代表一對節點之間的邊。如果兩個節點之間沒有邊，那麼該元素為無窮大。
+步驟如下：
+創建一個二維表格來記錄每個節點的最短路徑。 初始狀態下，表格中每個元素都是無窮大，除了起始節點的元素，它的值為0。 遞歸計算表格中每個元素的值，該值表示從起始節點到該節點的最短路徑長度。 當結束時，結果將存儲在表格的右下角元素中。 Tabulation方法可以大大簡化動態規劃問題的求解過程。它還可以更好地利用計算機內存，因為不需要存儲所有子問題的解答。
+汇总重点 User ask:
+条列Tabulation的重点 ChatGPT answer:
+Tabulation 是一種資料處理方法，將資料整理成表格形式，方便分析和理解。
+Tabulation 可以用於統計數據、調查結果、市場調查等領域。
+Tabulation 要求資料清晰、一致和完整，這樣才能正確地進行統計和分析。
+Tabulation 的重點是資料的分類、標準化、整理和呈現。
+Tabulation 的核心工具是電子表格軟件，如 MS Excel、Google Sheets 等。
+Tabulation 可以產生各種圖表，如柱狀圖、折線圖、餅圖等，以更好地展示資料。
+Tabulation 的應用範圍廣泛，可用於學術研究、商業分析、社會調查等不同領域。
+需要注意的是，Tabulation 只是一種分析工具，可以幫助分析資料，但不能替代對資料本身的理解和分析。
+知识测验 User ask:
+给我5题Tabulation的中等难度问题，并在后面列出答案 ChatGPT answer:
+Problem statement:
+Given an integer n, write a function to return the count of possible ways to climb n stairs.</description></item><item><title>记忆化搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/memoization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/dynamic-programming/memoization/</guid><description>习题预习 User ask:
+给我5题Memoization的问题 ChatGPT answer:
+利用 Memoization 優化斐波那契數列的計算。
+計算兩個字符串之間的編輯距離（編輯距離指的是兩個字符串之間需要進行多少次增刪改操作，才能使它們相等），並利用 Memoization 最小化計算次數。
+實現一個函數，該函數輸入一個正整數 n，並返回該整數的所有因數之和。使用 Memoization 避免重複計算。
+給定一個正整數 n，求出對於某個 k 值，n 的 k 次方的值（即 n 的 k 次方）。使用 Memoization 減少計算次數。
+計算在一個二維矩陣中，從左上角到右下角的最短路徑。矩陣中每個格子的值代表該位置上的代價，行走代價較小的路徑為最終路徑。利用 Memoization 避免冗餘計算。
+说明知识 User ask:
+说明Memoization并举例 ChatGPT answer:
+Memoization是一種常用的技術，它可以用來優化重複計算的過程。簡單來說，Memoization就是在計算結果後將其存儲起來，以便在未來需要時可以快速查找。這種方式能夠減少計算的時間複雜度，提高程式效率。
+下面舉一個簡單的例子：
+假設我們要計算費氏數列中第n個數，費氏數列的定義為：數列中的第一和第二個數都是1，從第三個數開始，每個數都是前面兩個數的和。也就是說，費氏數列的前幾項為：1, 1, 2, 3, 5, 8, 13, &amp;hellip;
+我們可以使用遞迴來計算費氏數列中的第n個數，具體實現如下：
+def fibonacci(n): if n &amp;lt; 2: return n return fibonacci(n-1) + fibonacci(n-2) 使用這個函數來計算費氏數列中第n個數的值時，當n較大時會出現計算時間過長的情況。因為計算過程中需要重複計算一些值，比如計算費氏數列中的第10項時，需要先計算出第9項和第8項，計算第9項時又需要先計算第8項和第7項，而計算第8項時還需要計算第7項和第6項，這樣就會浪費大量的計算時間。
+使用Memoization可以避免這些重複計算的問題。具體實現方式如下：
+cache = {} # 定義一個字典，用來存儲計算結果 def fibonacci(n): if n &amp;lt; 2: return n if n in cache: # 如果計算結果已經存在於cache中，直接返回該結果 return cache[n] result = fibonacci(n-1) + fibonacci(n-2) cache[n] = result # 將計算結果存儲到cache中 return result 使用這個改進版的函數來計算費氏數列中的第n個數時，計算時間可以大幅降低。因為當需要計算一個已經計算過的值時，可以直接從cache中查找得到，而不需要重新計算。這樣就可以減少重複計算的次數，提高程式效率。</description></item></channel></rss>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithm Design Techniques on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/</link><description>Recent content in Algorithm Design Techniques on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/index.xml" rel="self" type="application/rss+xml"/><item><title>暴力算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/brute-force/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/brute-force/</guid><description>习题预习 User ask:
+给我5题Brute Force的问题 ChatGPT answer:
+問題：求一個數組中的最大值。解法：遍歷整個數組，找到最大的元素。
+問題：猜數字遊戲。解法：從 0 到 9 枚舉每一個可能的答案，直到猜中為止。
+問題：找到全排列中字典序最大的排列。解法：枚舉每一個排列，並找到字典序最大的排列。
+問題：找到一個整數是否為質數。解法：枚舉從 2 到該整數平方根的所有數字，判斷是否能整除該整數。
+問題：計算兩個有理數的和。解法：將兩個有理數表示為分數的形式，通分後求和。
+说明知识 User ask:
+说明Brute Force并举例 ChatGPT answer:
+Brute Force（蠻力破解）是一種基於暴力嘗試所有可能性的攻擊方法，通常用於破解密碼或尋找密碼的漏洞。
+在Brute Force攻擊中，攻擊者會盡可能多地嘗試所有可能的密碼，直到找到正確的密碼或密碼漏洞。這種攻擊方法可能需要花費大量的時間和計算資源，因此通常僅在重要資料或敏感系統上使用。
+舉例來說，如果你忘記了你的電子郵件密碼，可以使用Brute Force方法來嘗試各種可能的密碼。攻擊者可以將所有可能的字母和數字組合成一個列表，然後使用程式將這些密碼一一嘗試，直到找到正確的密碼為止。然而，這種方法通常需要很長時間，因為可能會嘗試數以百萬計的密碼才能找到正確的密碼。
+汇总重点 User ask:
+条列Brute Force的重点 ChatGPT answer:
+Brute Force是一种暴力搜寻演算法，透过枚举所有可能性来解决问题。
+Brute Force通常是适用于资料量较小，且计算能力较强的场景。
+Brute Force演算法的优点是简单易懂，不需要复杂的数学推导，容易实现。
+Brute Force演算法的缺点是时间复杂度高，当解空间很大时，计算量会非常庞大，甚至无法接受。
+为了解决Brute Force演算法的时间复杂度问题，可以采用分治、回溯等技术对其进行优化。
+Brute Force演算法常用于排序、搜索、加密解密等场景，对于一些复杂的问题，则需要其他更加高效的演算法来求解。
+知识测验 User ask:
+给我5题Brute Force的中等难度问题，并在后面列出答案 ChatGPT answer:
+题目：给定一个正整数n，求出1到n中所有质数的总和。
+答案：该问题可以使用埃氏筛法（Eratosphenes）进行解答，即对于每个数字，遍历所有小于它的正整数，如果该正整数是其因数，就标记为非质数。最后将所有未被标记的数字相加即可。
+题目：给定一个由&amp;rsquo;a&amp;rsquo;和&amp;rsquo;b&amp;rsquo;组成的字符串s，请计算s中有多少个子串，满足该子串中&amp;rsquo;a&amp;rsquo;的个数等于&amp;rsquo;b&amp;rsquo;的个数。
+答案：该问题可以使用暴力枚举法进行解答，即对于s的每个子串，都计算其中&amp;rsquo;a&amp;rsquo;和&amp;rsquo;b&amp;rsquo;的个数，如果相等，就将答案加1。
+题目：给定一个由非负整数组成的数组nums，请找到其中的一个子串，使得该子串的和最大。
+答案：该问题可以使用暴力枚举法进行解答，即对于nums的每个子串，都计算其和，找到最大的那个子串即可。
+题目：给定一个正整数n，求解1到n的所有排列，使得相邻两个数字之和是质数。
+答案：该问题可以使用回溯法进行解答，即从1开始遍历所有排列，对于每个排列，检查相邻两个数之和是否为质数，如果是，就加入答案列表。
+题目：给定一个由&amp;rsquo;a&amp;rsquo;和&amp;rsquo;b&amp;rsquo;组成的字符串s，请计算s中最长的连续子串，满足其中&amp;rsquo;a&amp;rsquo;的个数等于&amp;rsquo;b&amp;rsquo;的个数。
+答案：该问题可以使用暴力枚举法进行解答，即对于s的每个子串，都计算其中&amp;rsquo;a&amp;rsquo;和&amp;rsquo;b&amp;rsquo;的个数，如果相等，就继续向后拓展，求出最长的符合条件的连续子串长度。
+网络数据 User ask:</description></item><item><title>分支限界法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/branch-and-bound/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/branch-and-bound/</guid><description>习题预习 User ask:
+给我5题Branch and Bound的问题 ChatGPT answer:
+以下是5个Branch and Bound的问题:
+在路径规划中，你需要找到通过一系列城市的最短路径。使用Branch and Bound算法可以帮助你找到最短的路径。
+在资源分配问题中，你需要将可用资源分配给多个项目，以最大化全局效益。Branch and Bound算法可以帮助你找到最优解。
+在排程问题中，你需要在多个工作之间分配时间，以最小化完成时间。Branch and Bound算法可以帮助你减少总体完成时间。
+在0-1背包问题中，你需要填充一个有限大小的背包，以最大化价值。Branch and Bound算法可以帮助你找到最理想的装载方案。
+在数据压缩中，你需要找到最小的压缩方式，以减少数据量。Branch and Bound算法可以帮助你找到最佳的压缩方法。
+说明知识 User ask:
+说明Branch and Bound并举例 ChatGPT answer:
+Branch and Bound（分支定界法）是一种求解最优解问题的算法，通常用于组合优化，如旅行商问题、背包问题等。该算法利用了一个重要原则：通过一系列分支和限制条件的不断缩小搜索空间，同时利用上界和下界对每个搜索分支进行评估和剪枝，以找到最优解。
+具体来说，Branch和Bound的搜索过程分为以下几步：
+分支：从初始状态出发，不断将问题拆分为若干个子问题，即各种可能的解决途径。对于背包问题，一个可能的拆分方法是选或不选某个物品。
+限制条件：给每个子问题限制条件，从而使得搜索空间逐渐地收敛。对于背包问题，限制条件是背包容量必须小于等于总容量。
+上界估计：对每个子问题计算一个最大可行解的上界，用于和问题的实际解进行比较，确定是否需要进一步搜索。对于背包问题，上界可能是已经被选中的物品总价值加上剩余物品中价值最大的物品的价值。
+下界估计：对每个子问题计算一个最小可行解的下界，用于对搜索树进行剪枝，即丢弃那些估值低于当前已知最优解的搜索分支。对于背包问题，下界可能是已选择物品的总价值加上还能放入背包的最大价值。
+搜索回溯：在搜索分支全部完成后，输出最优解。如果搜索到某个分支的上界小于已知最优值，则剪枝退出。
+举例来说，假设我们要用Branch and Bound算法，解决一个旅行商问题，即从一个城市出发，依次经过其他城市回到原城市。已知每个城市之间的距离，求最短路程。
+第一步是分支，我们从任意一个城市出发，可以分别选择下一个要访问的城市。例如，从城市A出发，我们可以选择去B、C、D等城市。
+第二步是限制条件，我们需要给每个分支设置约束条件，例如当前已经经过的城市不能再次经过。
+第三步是上界估计，对于每个分支，我们需要计算已经选择的路径长度与未选择的城市到起点的距离之和，同时加上一个下界估计。
+第四步是下界估计，我们需要计算剩余城市之间的最小距离，假设路径已访问过的城市均为i1，i2， &amp;hellip;，ik，剩下未访问的城市为j1， j2， &amp;hellip;，jm，则下界估计为：
+LB = Sum(D i j ) + min(D i1 k + D k j1 , D i2 k + D k j2 , &amp;hellip; , D ik k + D k jm )</description></item><item><title>分治算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/divide-and-conquer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/divide-and-conquer/</guid><description>习题预习 User ask:
+给我5题Divide and Conquer的问题 ChatGPT answer:
+在一个有序数列中，如何有效地查找一个特定元素？ 给定一些矩阵，如何在最少的计算步骤中将它们相乘？ 在一个未排序的数列中，如何找出中位数（即所有数的中间值）？ 如何在一个图中有效地找到所有可能的路径？ 给定一组数据，如何有效地找到其中的极值点？ 说明知识 User ask:
+说明Divide and Conquer并举例 ChatGPT answer:
+Divide and Conquer是一种演算法设计技巧，主要是将一个复杂的问题分解成多个较小且相互独立的子问题，然后逐步解决这些子问题，最后将它们的解合并起来，得到原问题的解。
+一个经典的例子是使用Divide and Conquer设计的快速排序算法。当我们希望排序一个序列时，可以先选择一个基准点（pivot），将序列中比基准点小的数放到左边，比基准点大的数放到右边，然后在左右子序列中重复递归地进行上述操作，直到每个子序列只有一个元素为止。
+另外一个例子是合并排序算法。当我们希望合并两个已排序的序列时，可以将它们分成更小的子序列，然后将子序列进行合并。这样递归地进行下去，最终得到已排序的序列。
+Divide and Conquer技巧的优点在于，它可以将一个复杂的问题分解成多个简单的子问题，然后逐步解决，这样能够大大减少问题的复杂度，提高算法的效率。
+汇总重点 User ask:
+条列Divide and Conquer的重点 ChatGPT answer:
+分割问题：将问题分割成更小的子问题。 解决问题：对每个子问题进行求解或递归处理。 合并结果：将所有子问题的解合并成原问题的解。 适用范围：适用于各种复杂问题，如排序、搜索、图形问题等。 提高效率：可以通过递归的方式，提高算法的效率。 分散风险：将问题分割成较小的子问题，可以降低错误发生的风险。 编程实现：通常使用递归算法实现。 知识测验 User ask:
+给我5题Divide and Conquer的中等难度问题，并在后面列出答案 ChatGPT answer:
+求一个未排序的数组中第k个最大元素。
+答案：可以使用快速排序中的Partition操作来实现，每次选取一个pivot，比pivot大的放在右边，比pivot小的放在左边，然后递归对左右两个子数组进行操作，直到找到第k大的数。时间复杂度为O(n)，空间复杂度为O(1)。
+寻找两个已排序数组的中位数。
+答案：可以使用二分查找的思想，将两个数组分别进行二分，然后比较两个数组的中位数，如果相等，则返回，如果不相等，则将较小的数组的左半部分和较大数组的右半部分组成一个新的数组进行递归操作，直到找到中位数。时间复杂度为O(log(m+n))，空间复杂度为O(1)。
+求数组中最大的连续子数组和。
+答案：可以使用分治法，将数组拆分成左半部分，右半部分，和跨越中间的子数组三个部分。然后递归对左右两边分别求解最大连续子数组和，返回左边最大子数组和、右边最大子数组和、以及跨越中间的最大子数组和，三者取最大值即可。时间复杂度为O(nlogn)，空间复杂度为O(logn)。
+求数组中逆序对的数量。
+答案：可以使用归并排序的思想，在归并过程中统计逆序对数量。每次归并左右两个子数组的时候，记录一个计数器，当右边的数小于左边的数时，说明存在逆序对，将计数器加上左边子数组剩余的长度即可。时间复杂度为O(nlogn)，空间复杂度为O(n)。
+求解最小切割代价问题。
+答案：在合并两个石墙的过程中，每一次合并的代价都是当前两堵石墙的高度之和，最终需要使得将所有石墙都合并成一堵石墙的总代价最小。可以使用动态规划的思想，定义状态f[i][j]表示从第i堵到第j堵石墙所需的最小代价。则有$f[i][j] = \min\limits_{i \leq k &amp;lt; j}{f[i][k]+f[k+1][j]+H[i][k]+H[k+1][j]}$，其中H[i][k]表示高度之和。递推公式表示为：$f[i][j] = \min\limits_{i \leq k &amp;lt; j}{f[i][k]+f[k+1][j]+H[i][k]+H[k+1][j]}$，时间复杂度为O(n^3)，空间复杂度为O(n^2)。</description></item><item><title>回溯法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/backtracking/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/backtracking/</guid><description>习题预习 User ask:
+给我5题Backtracking的问题 ChatGPT answer:
+N皇后问题 - 在一个N × N的棋盘上放置N个皇后，使得它们不能相互攻击（即：不同行，不同列和不同对角线上不能有两个皇后）。 0/1背包问题 - 在有限的容量下，给出一个物品列表和它们的重量和价值，找出一个最佳方案，使得总重量不超过容量限制，而总价值最大化。 字符串排列 - 给定一个字符串，返回它的所有可能的排列集合。 图形着色问题 - 在一个图形中，着色每个点，使得相邻的两个点都有不同的颜色，最少使用多少种颜色。 八皇后问题 - 在一个8×8的棋盘上放置8个皇后，使得它们不能相互攻击。 说明知识 User ask:
+说明Backtracking并举例 ChatGPT answer:
+背朝追踪是解决问题的一种演算法，其中通过在解决方案的过程中回溯并反悔，以避免访问无用的状态和降低演算法的复杂性。这个演算法通常在求解组合问题（如最短路径、旅行商问题、数独）和搜索问题（如填字、八皇后）时使用。
+在背朝追踪中，我们开始寻找问题的解决方案，并假定解决方案是正确的。如果发现某个部分无法通过限制条件，则回溯到先前考虑的状态并尝试其他解决方案。在这个过程中，我们保留了先前的计算和结果，以节省计算成本。
+举一个背朝追踪演算法的例子，考虑以下问题：从一个起点开始，找到一条到达终点的最短路径。我们可以使用深度优先搜索来找到路径，并通过回溯来避免重复搜索相同的状态。以下是一个简单的背向搜索算法，在网格上搜索从起点到终点的最短路径：
+def backtrack(start, end, grid, visited): # Base case: we have reached the end if start == end: return [end] # Check if we already visited this state if start in visited: return [] visited.add(start) # Try moving in all directions rows, cols = len(grid), len(grid[0]) x, y = start candidates = [] for dx, dy in [(0, 1), (0, -1), (1, 0), (-1, 0)]: nx, ny = x + dx, y + dy if 0 &amp;lt;= nx &amp;lt; rows and 0 &amp;lt;= ny &amp;lt; cols and grid[nx][ny]: candidates.</description></item><item><title>贪心演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/greedy-algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/algorithm-design-techniques/greedy-algorithms/</guid><description>习题预习 User ask:
+给我5题Greedy Algorithms的问题 ChatGPT answer:
+给定一个数组，找到最大的子阵列和。 有n个活动，每个活动都有一个开始时间和结束时间。在相同的时间内只能参加一个活动，请问最多能参加多少个活动？ 给定一个字符串，判断是否可以重排该字符串，使得相邻的字母不同。 给定一个数组，每个元素代表一个气球的戳破得分，同时将与戳破的气球相邻的气球移除。在不断戳破气球的过程中，求最大得分。 将数列切成若干段，使得每段数列中的数字都是单调的，求最少可以切成几段。 说明知识 User ask:
+说明Greedy Algorithms并举例 ChatGPT answer:
+贪婪算法（Greedy Algorithms）是一种求解最优解问题的演算法。贪婪算法的基本思想是每一步都选择当前最好的选择，决策选择只考虑当前状态下对全局最优解的影响，不考虑其他决策的影响。
+举例来说，当我们需要在有限的时间内拿到最多的钱币，我们可以使用贪婪算法。假设有5枚钱币，面值分别为1元、2元、5元、10元、20元，我们需要在时间内尽可能收集最多的钱币。贪婪算法的思路就是每次挑选最大面值的钱币。若现在已经收集到了15元钱币，那么接下来我们只能收集20元的钱币，以此类推。
+另一个例子是人脑大局观的思维也可被理解为贪婪算法：在钢琴音乐会中，演奏者通常会把较难的乐章放在前面演奏，这样可以让听众更加期待、产生兴趣，从而更好的抓住观众的心。但如果演奏者把所有难的曲子都安排在了前面，则很可能会让听众感到厌烦，这样反而达不到目的了。所以，合理的贪婪策略是：前面的曲子适当加上一些容易懂的、轻松的、好听的曲目，中间放上一些较为难的曲子，最后再放上一些印象深刻、需要技巧的曲子，这个策略能够实现让观众逐渐进入异境的效果。
+简而言之，贪婪算法就是通过一个简单的、每步都选择当前最好的策略迭代地逼近最优解的演算法，但贪婪策略不一定产生最佳结果，因为贪婪策略的局部最优并不一定等于全局最优。
+汇总重点 User ask:
+条列Greedy Algorithms的重点 ChatGPT answer:
+贪婪算法是一种以贪婪方式选择最佳选择的算法。 贪婪算法基于当前最佳选择，而没有考虑全局最优解。 贪婪算法通常适用于最佳化问题，其中存在局部最优解，而不是全局最优解。 贪婪算法通常可解决一些NP问题。这些问题需要尽可能地缩小搜索空间。 贪婪算法常常需要与其他算法结合使用，以获得更好的结果。 贪婪算法不保证总是得到最优解，但是它可以提供快速的解决方案。 贪婪算法的实现通常需要选择一个合适的启发式函数。 知识测验 User ask:
+给我5题Greedy Algorithms的中等难度问题，并在后面列出答案 ChatGPT answer:
+電影院的座位（Movie Theater Seating）
+題目描述：假設有一家電影院，他的座位是由X（已被購買的座位）和O（空位）組成，現在需要將已購買的座位重新排列，使得每一個橫排上的相鄰座位之間距離最大化（即保持間距盡量最大）。
+範例輸入：XXOXXOOX
+範例輸出：4
+奇偶排序（Odd-Even Sort）
+題目描述：給定一個整數數列，實現一個奇偶排序算法，使得偶數位上的數字一定比奇數位上的小。算法只能使用元素的交換操作，時間複雜度必須小於O(n^2)。
+範例輸入：5 2 1 7 8 3
+範例輸出：2 5 1 8 3 7
+無序排列問題 (Unordered Scheduling)
+題目描述：假設有一家餐廳，規定每位客人喝飲料的時間是一樣的，而用餐時間是不同的，爲了最大化餐廳的效率，需要找到一個最優的用餐排列方式，排列方式只考慮到顧客的到達順序，不考慮其他條件。</description></item></channel></rss>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Creational Patterns on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/</link><description>Recent content in Creational Patterns on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/index.xml" rel="self" type="application/rss+xml"/><item><title>抽像工厂模式</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/abstract-factory-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/abstract-factory-pattern/</guid><description>习题预习 User ask:
+给我5题Abstract Factory Pattern的问题 ChatGPT answer:
+什么是Abstract Factory Pattern？ 如何使用Abstract Factory Pattern建立相关的物件？ Abstract Factory Pattern和Factory Method Pattern有何不同？ Abstract Factory Pattern有什么优点？ Abstract Factory Pattern何时适合使用？ 说明知识 User ask:
+说明Abstract Factory Pattern并举例 ChatGPT answer:
+Abstract Factory Pattern是一种创建型模式，它属于工厂模式的类别。它提供了一个创建相关或相依的物件家族的介面，而无需指定具体类别。
+Abstract Factory Pattern中包含一个抽象工厂介面，这个介面定义了一个创建物件家族的抽象方法，通常有多个不同的实现。每个具体工厂实现了这个介面并返回相应的物件组合。
+举例来说，假设我们想要建立一个协作编辑器，这个编辑器可以创建不同的工具包，比如Windows工具包或Mac工具包。我们可以使用Abstract Factory Pattern来建立一个抽象的工厂介面，这个介面定义创建工具包的方法。然后，为Windows和Mac分别创建具体工厂，实现这个介面并返回对应的工具包。
+这样，当我们需要新增一个工具包时，只需要建立一个具体工厂，实现介面并返回新的工具包即可，而不需要在编辑器中修改程式码。这个模式可以让程式码更灵活、易读和易于维护。
+汇总重点 User ask:
+条列Abstract Factory Pattern的重点 ChatGPT answer:
+Abstract Factory Pattern是一種創建型設計模式，它提供了一個介面，用於創建相關或依賴物件的家族，而不需要指定具體類別。
+它主要用於解決產品系列的建立問題，即建立與多種相似產品相關的物件，並確保它們相容並且遵循一致性。
+Abstract Factory Pattern包括四個基本的元素：抽象工廠、具體工廠、抽象產品以及具體產品。
+抽象工廠（Abstract Factory）定義了一個介面，用於創建一個產品家族（相關或依賴的產品），並且不需要指定具體的產品類別。
+具體工廠（Concrete Factory）實現了抽象工廠接口，並負責創建具體的產品對象。
+抽象產品（Abstract Product）定義了一個介面，用於創建產品家族的個別產品。
+具體產品（Concrete Product）實現了抽象產品介面，並定義了一個具體的產品。
+通過使用抽象工廠模式，我們可以使客戶端獨立於具體的創建物件的類別，並提高系統的擴展性和靈活性。
+抽象工廠模式最大的優點是通過抽象，創建物件的家族，而不需要指定具體的產品類別。
+但是，抽象工廠模式也有一定的缺點，就是當需要擴展並添加新的產品時，它的代碼實現會變得更加複雜。
+知识测验 User ask:</description></item><item><title>单例模式</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/singleton-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/singleton-pattern/</guid><description>习题预习 User ask:
+给我5题Singleton Pattern的问题 ChatGPT answer:
+什么是Singleton Pattern？ 为什么使用Singleton Pattern？ Singleton Pattern如何实现？ 单例模式有哪些常见的使用情境？ Singleton Pattern有哪些优点和缺点？ 说明知识 User ask:
+说明Singleton Pattern并举例 ChatGPT answer:
+Singleton Pattern是一种软体设计模式，其目的在于确保一个类别只有一个实例，并提供一个全域唯一的访问点。
+举例来说，一个应用程式可能需要一个设置管理器（例如全局配置设置），为了确保不会意外地创建多个实例，可以使用Singleton Pattern来确保该设置管理器只有一个实例存在。
+以下为一个简单的Singleton Pattern的范例：
+class MySingleton: __instance = None def __init__(self): if MySingleton.__instance != None: raise Exception(&amp;#34;Singleton class, use get_instance() instead&amp;#34;) else: MySingleton.__instance = self @staticmethod def get_instance(): if MySingleton.__instance == None: MySingleton() return MySingleton.__instance 在上面的范例中，我们创建了一个Singleton类别MySingleton，它具有一个私有的实例变量__instance。
+在__init__函数中，我们检查实例变量是否为None。如果它不是None，则意味着一个实例已经存在，并引发异常。否则，将__instance设置为当前的实例。
+在get_instance()方法中，我们检查实例变量是否为None。如果为None，则创建一个新的MySingleton实例并设置__instance。如果不为None，我们直接回传__instance即可。
+这样一来，无论如何都只会存在一个MySingleton实例。
+可以透过以下方式获取MySingleton实例：
+my_singleton = MySingleton.get_instance() 如果尝试创建更多的实例，即使直接创建实例也会引发异常，因为__instance变数已被设置为相应的实例。
+汇总重点 User ask:</description></item><item><title>工厂模式</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/factory-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/factory-pattern/</guid><description>习题预习 User ask:
+给我5题Factory Pattern的问题 ChatGPT answer:
+什麼是工廠模式（Factory Pattern）？請舉例說明。 工廠模式和單例模式有什麼區別？什麼情況下應該使用工廠模式？ 工廠模式中的三種角色（Creator、Product、ConcreteProduct）分別代表什麼？他們之間是如何協作的？ 工廠模式有哪些不同的變形？各有什麼特點和應用場景？ 從性能、可維護性和擴展性等角度分析，工廠模式有什麼優缺點？在設計中應該如何抉擇是否要使用工廠模式？ 说明知识 User ask:
+说明Factory Pattern并举例 ChatGPT answer:
+工廠模式（Factory Pattern）是一種常見的軟體設計模式，用於優化對象的創建過程。事實上，當需要動態創建複雜對象時，尤其是當這些對象具有共同的特徵時，Factory Pattern可能是最佳選擇。
+Factory Pattern的基本思想是將對象的創建過程（與使用者隔離的異步），這樣能夠使得向應用程序添加新類的過程更加簡單。透過使用工廠模式，用戶端端不需要關注如何創建對象，而只需要專注於使用對象。
+舉個例子，假設我們正在開發一個遊戲，該遊戲中有許多不同的敵方角色，包括僵屍、魔鬼和巨魔等。每個敵人都有自己獨特的特徵，例如血量、攻擊力和速度等。我們可以使用工廠模式來創建這些角色，從而避免大量的重複代碼。
+首先，我們可以定義一個名為Enemy的抽象基類，該基類包含敵方角色具有的共同屬性和方法。然後，我們定義敵方角色的具體子類（如Zombie，Devil和Troll），並重寫其父類的屬性和方法以滿足其獨特的特徵。最後，我們實現一個EnemyFactory類，該類用於創建特定類型的敵人，例如：
+class Enemy: &amp;#34;&amp;#34;&amp;#34; 敵方角色基類 &amp;#34;&amp;#34;&amp;#34; def __init__(self, name): self.name = name self.health = None self.attack_power = None self.speed = None def attack(self): pass class Zombie(Enemy): &amp;#34;&amp;#34;&amp;#34; 僵屍類型 &amp;#34;&amp;#34;&amp;#34; def __init__(self): super().__init__(&amp;#34;Zombie&amp;#34;) self.health = 100 self.attack_power = 10 self.speed = 5 def attack(self): print(&amp;#34;The Zombie attacks!</description></item><item><title>建造者模式</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/builder-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/builder-pattern/</guid><description>习题预习 User ask:
+给我5题Builder Pattern的问题 ChatGPT answer:
+Builder Pattern是什麼設計模式？它的作用是什麼？
+Builder Pattern和Factory Pattern有什麼區別？它們何時應該使用？
+一個完整的Builder Pattern通常包括哪些元素？請詳細描述這些元素的作用。
+Builder Pattern可以幫助我們解決哪些設計問題？舉例說明。
+Builder Pattern的優勢是什麼？它的缺陷又是什麼？如何在開發中選擇是否使用Builder Pattern？
+说明知识 User ask:
+说明Builder Pattern并举例 ChatGPT answer:
+Builder Pattern是一種軟體設計模式，用於在創建複雜的物件時簡化其構建過程。通過分解物件創建過程，它使得客戶端程式能夠更直觀地構建添加參數。
+這個模式包含建造者，指導者和產品。建造者是負責創建複雜物件的介面，指導者負責使用建造者來創建物件，產品是建造完成的複雜物件。
+以下是Builder Pattern的範例：
+假設我們需要建立一個汽車物件，這個物件有各種屬性，如顏色，引擎類型，座位數量等。使用Builder Pattern，我們可以定義一個建造者介面CarBuilder，並實現不同的建造者類別，以構建不同的汽車屬性。
+public interface CarBuilder { void setColor(String color); void setEngine(String engine); void setSeats(int seats); Car getResult(); } public class SportsCarBuilder implements CarBuilder { private Car car; public SportsCarBuilder() { car = new Car(); } public void setColor(String color) { car.</description></item><item><title>原型模式</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/prototype-pattern/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/design-pattern/creational-patterns/prototype-pattern/</guid><description>习题预习 User ask:
+给我5题Prototype Pattern的问题 ChatGPT answer:
+什么是Prototype Pattern？ 如何实作Prototype Pattern？ 何时应该使用Prototype Pattern？ Prototype Pattern与其他设计模式有何不同？ 一个物件如何成为Prototype，并如何复制一个新的物件？ 说明知识 User ask:
+说明Prototype Pattern并举例 ChatGPT answer:
+Prototype Pattern是一种创建型设计模式，目的是基于现有的物件或原型，通过复制来产生新的物件实例，这样就可以避免重复创建物件导致的资源浪费和效能下降。
+在JavaScript中的Prototype Pattern通常是通过对象的复制或原型继承来实现的。每个对象都有一个原型对象，当需要新的对象时，只需使用现有对象的原型进行复制便可创建出一个新对象。
+下面是一个Prototype Pattern的例子：
+// 定义一个食物原型对象 var foodPrototype = { setName: function(name) { this.name = name; }, getName: function() { return this.name; } }; // 创建新的食物物件 var food1 = Object.create(foodPrototype); food1.setName(&amp;#39;苹果&amp;#39;); console.log(food1.getName()); // 输出：苹果 // 创建另一个新的食物物件 var food2 = Object.create(foodPrototype); food2.setName(&amp;#39;橘子&amp;#39;); console.log(food2.getName()); // 输出：橘子 在上述例子中，我们定义了一个食物原型对象foodPrototype，该对象包含两个方法：setName和getName，分别用于设置和获取食物名称。然后我们使用Object.create方法基于这个原型对象创建出两个新的食物物件food1和food2，并对它们分别设置了不同的名称。这样我们就达到了避免重复创建食物物件的目的，同时也简化了代码。</description></item></channel></rss>

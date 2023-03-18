@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Front-End Performance Budgets on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/</link><description>Recent content in Front-End Performance Budgets on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/index.xml" rel="self" type="application/rss+xml"/><item><title>测量性能</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/measuring-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/measuring-performance/</guid><description>习题预习 User ask:
+给我5题Measuring performance的问题 ChatGPT answer:
+How do you measure the performance of your team members? What metrics do you use to evaluate the success of a new product launch? What strategies do you employ to track and improve customer satisfaction metrics? How do you determine the success of a marketing campaign? What key performance indicators do you track to evaluate the effectiveness of your company&amp;rsquo;s overall business strategy? 说明知识 User ask:</description></item><item><title>定义性能预算</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/defining-performance-budgets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/defining-performance-budgets/</guid><description>习题预习 User ask:
+给我5题Defining performance budgets的问题 ChatGPT answer:
+什么是performance budgets，以及它在网站开发中的作用是什么？
+在制定performance budgets时应该考虑哪些因素？如何确定这些因素的优先顺序？
+怎样设计一个有效的performance budgets，既要达到快速载入网页的目标，又要满足用户体验和功能需求？
+在实施和监控performance budgets时，可以使用哪些工具和技术？如何确定网页载入速度、性能和效果的指标？
+如何在团队合作的情况下制定、优化和更新performance budgets，以确保网站的性能不断得到优化和提升？
+说明知识 User ask:
+说明Defining performance budgets并举例 ChatGPT answer:
+Defining performance budgets是指定义一组指标，用于衡量网站或应用程式的性能表现。这些指标可以让团队追踪网站或应用程式的性能，并识别任何瓶颈或问题，从而改进用户体验。
+举例来说，网站的性能指标可以包括以下项目：
+加载时间：这是指网站加载完整页面所需的时间，包括图片、CSS和JavaScript等内容。
+首页大小：这是指首页下载的资源大小，包括图片、CSS和JavaScript等内容。
+请求数量：这是指网站载入时所产生的请求数量，包括图片、CSS和JavaScript等内容。
+安全性：这是指网站的安全性措施，以确保用户资料得到保护。
+这些指标可以作为性能预算的重要依据，团队可以根据这些指标预算出合理的性能标准，以确保网站或应用程式具有良好的性能表现。
+汇总重点 User ask:
+条列Defining performance budgets的重点 ChatGPT answer:
+数据指标：性能预算需要基于数据指标，这有助于确定网站或应用程序的性能和行为是否符合预期。
+目标设定：性能预算需要设定目标和限制，以确保网站或应用程序在特定条件下的性能表现。
+测量和监控：性能预算需要测量和监控，以跟踪网站或应用程序的性能表现，并通过调整设计和代码进行改进。
+管理和优化：性能预算需要与团队合作，将其融入到开发流程中，以确保网站或应用程序的性能持续优化。
+使用工具：性能预算需要使用相关工具，例如性能测试工具和监控系统，来帮助检测和解决性能问题。
+知识测验 User ask:
+给我5题Defining performance budgets的中等难度问题，并在后面列出答案 ChatGPT answer:
+What is a performance budget?
+A performance budget is a way of measuring and controlling the performance of a project or program by setting specific goals and targets for various aspects of the project or program, and then tracking progress against those goals and targets.</description></item><item><title>使用各种工具和框架测试性能</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/testing-performance-with-various-tools-and-frameworks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/testing-performance-with-various-tools-and-frameworks/</guid><description>习题预习 User ask:
+给我5题Testing performance with various tools and frameworks的问题 ChatGPT answer:
+What are the most popular tools and frameworks for testing performance of web applications, and how do they differ in terms of functionality and features? How can you measure and analyze the performance of different elements of a web application, such as page load times, database queries, and network latencies, using testing tools and frameworks? What are some best practices for designing and executing performance tests to ensure reliable and accurate results, and how can you avoid common pitfalls and inconsistencies in testing?</description></item><item><title>识别和修复性能瓶颈</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</guid><description>习题预习 User ask:
+给我5题Identifying and fixing performance bottlenecks的问题 ChatGPT answer:
+What are some common causes of performance bottlenecks in software applications, and how can they be identified?
+What tools or techniques can developers use to monitor application performance and identify specific areas that may be causing bottlenecks?
+Once a bottleneck has been identified, what steps can be taken to address it and improve application performance?
+Are there any best practices or guidelines that developers can follow to avoid introducing performance bottlenecks in the first place?</description></item></channel></rss>

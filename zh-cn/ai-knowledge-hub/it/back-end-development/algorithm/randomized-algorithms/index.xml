@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Randomized Algorithms on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/</link><description>Recent content in Randomized Algorithms on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>蒙地卡罗算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/monte-carlo-algorithms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/monte-carlo-algorithms/</guid><description>习题预习 User ask:
+给我5题Monte Carlo Algorithms的问题 ChatGPT answer:
+如何使用Monte Carlo算法求圓周率？ 如何使用Monte Carlo算法解決遞迴分治問題？ 如何使用Monte Carlo算法進行高維積分計算？ 如何使用Monte Carlo算法解決NP-hard問題？ 如何使用Monte Carlo算法優化機器學習中的參數估計？ 说明知识 User ask:
+说明Monte Carlo Algorithms并举例 ChatGPT answer:
+Monte Carlo算法是一種統計模擬方法，其以隨機化的方式模擬大量可能性，從而得出一個結果。這種方法可以用於求解各種問題，如複雜的數學問題、機器學習、統計學等。
+以下是Monte Carlo算法的兩個典型例子：
+Monte Carlo積分法 Monte Carlo積分法是一種統計方法，可以求解複雜積分。其基本思路是通過隨機生成大量數值，將這些數值代入要積分的方程式，求解平均值。這樣可以得到一個接近真實積分值的概率分布。
+例如，要求解以下積分：
+∫[0,1] sin(x)dx
+該積分的解析解為：
+[-cos(x)][0,1] = 1-cos(1)
+使用Monte Carlo積分法，可以通過生成大量0~1之間的隨機數，計算sin(x)在此區間內的平均值。如果重複進行多次，就可以得到更準確的結果。
+Monte Carlo模擬法 Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法。它通過模擬許多可能的情況來計算某些統計量，例如機率、方差等。
+例如，要計算擲硬幣的勝率，可以使用Monte Carlo模擬法。假設有10次投擲，每次都有50%的機率獲勝。可以通過使用隨機數生成10次投擲的結果，計算勝率。重複進行1000次，就可以得到一個更準確的結果。
+總的來說，Monte Carlo算法可以應用於各種問題，通過隨機模擬來得到精確的解決方案。
+汇总重点 User ask:
+条列Monte Carlo Algorithms的重点 ChatGPT answer:
+隨機抽樣：Monte Carlo算法基於隨機抽樣，將問題轉化為機率問題。
+評估期望：Monte Carlo算法通過模擬實驗來估算期望，包括期望值、方差、概率分布等。
+蒙特卡羅模擬：Monte Carlo算法通常使用隨機模擬或蒙特卡羅模擬的技術，通過生成隨機樣本來解決問題。
+數值積分：Monte Carlo算法可以使用數值積分技術來求解積分，通過對概率分布的積分來計算期望值。
+最小化誤差：Monte Carlo算法的目標是最小化誤差，通過增加樣本數量來提高精度。
+分析數據：Monte Carlo算法可以用於分析數據，通過對隨機樣本的分析來獲取有用的統計信息。</description></item><item><title>随机快速排序</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/randomized-quicksort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/randomized-quicksort/</guid><description>习题预习 User ask:
+给我5题Randomized Quicksort的问题 ChatGPT answer:
+如何选择一个pivot元素？ 在最坏情况下，Randomized Quicksort的时间复杂度是多少？ 如何实现Randomized Quicksort？是否可以使用递回？ 在实现Randomized Quicksort时，如何确定数据是否已经排好序？ Randomized Quicksort是否能够处理包含相同元素的数据？如果不能，该怎么处理？ 说明知识 User ask:
+说明Randomized Quicksort并举例 ChatGPT answer:
+Randomized Quicksort是快速排序算法的一种变体，它与原始快速排序算法的区别在于，它使用随机数来选择主元素（pivot），从而尽可能避免了最坏情况。在原始的快速排序算法中，选择的主元素可能会导致分割的子序列不平衡，进而导致算法的时间复杂度退化为O(n2)；而随机化的选择主元素，则能够尽可能保持分割的子序列平衡，从而保证算法的时间复杂度为O(n log n)。
+以下是Randomized Quicksort的实现步骤：
+选取一个元素作为主元素（pivot），可以随机选取其中一个元素。 扫描整个序列，将比pivot小的元素放到左边，比pivot大的元素放到右边，相等的元素放到任意一边（一般为左边）。 递归排序左右两个子序列。 以下为Randomized Quicksort的示例代码：
+#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;stdlib.h&amp;gt; #include &amp;lt;time.h&amp;gt; void randomized_quicksort(int arr[], int left, int right); int main(void) { int arr[] = {3, 5, 2, 1, 4}; int n = sizeof(arr) / sizeof(arr[0]); randomized_quicksort(arr, 0, n - 1); for(int i = 0; i &amp;lt; n; i++) { printf(&amp;#34;%d &amp;#34;, arr[i]); } printf(&amp;#34;\n&amp;#34;); return 0; } void randomized_quicksort(int arr[], int left, int right) { if(left &amp;gt;= right) { return; } int p = rand() % (right - left + 1) + left; int pivot = arr[p]; int i = left; int j = right; while(i &amp;lt;= j) { while(arr[i] &amp;lt; pivot) { i++; } while(arr[j] &amp;gt; pivot) { j--; } if(i &amp;lt;= j) { int temp = arr[i]; arr[i] = arr[j]; arr[j] = temp; i++; j--; } } randomized_quicksort(arr, left, j); randomized_quicksort(arr, i, right); } 在上面的示例代码中，我们随机选取一个元素作为主元素（pivot），并通过while循环将比pivot小的元素放到左边，比pivot大的元素放到右边，然后递归的对左右两个子序列进行排序。程序的输出结果为：</description></item><item><title>随机选择</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/randomized-selection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/randomized-algorithms/randomized-selection/</guid><description>习题预习 User ask:
+给我5题Randomized Selection的问题 ChatGPT answer:
+在一个包含n个元素的未排序数组中找到第k个最小元素。 给定一个含有n个元素的未排序数组，找到其中第k个最大元素。 在一个包含n个元素的未排序数组中找到中位数。 找到一个数组中的第i个元素，使得它左边的元素都比它小，右边的元素都比它大。 找到一个数组中最接近中位数的元素。 说明知识 User ask:
+说明Randomized Selection并举例 ChatGPT answer:
+Randomized Selection是一种选择性能比QuickSort还要优异的算法，可以在O(n)的时间复杂度内选择一个阵列中第k小（大）的元素。
+该算法的基本思想是选择一个随机数作为pivot（基准点），将阵列分为两个部分，一部分比pivot小，一部分比pivot大。然后判断第k小（大）的元素在哪个部分中，进行分治递归操作，直到找到第k小（大）的元素为止。
+以下是一个说明Randomized Selection的Python代码范例：
+import random def randomized_selection(arr, k): if len(arr) == 1: return arr[0] pivot = random.choice(arr) left = [x for x in arr if x &amp;lt; pivot] right = [x for x in arr if x &amp;gt; pivot] mid = [x for x in arr if x == pivot] if k &amp;lt;= len(left): return randomized_selection(left, k) elif k &amp;gt; len(left) + len(mid): return randomized_selection(right, k-len(left)-len(mid)) else: return mid[0] 在这个例子中，我们首先选择随机pivot，然后将阵列分成三部分：比pivot小的元素、比pivot大的元素、和等于pivot的元素。接着，我们判断第k小（大）的元素在哪个部分中，进行分治递归操作。如果k小于等于左边部分的元素个数，那么第k小的元素必然在左边，我们就递归对左边的阵列进行操作。如果k大于左边部分的元素个数加上等于pivot的元素个数，那么第k小的元素必然在右边，我们递归对右边的阵列进行操作。如果k介于左边部分的元素和等于pivot的元素的个数之间，那么第k小的元素就是pivot本身。</description></item></channel></rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Heap on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/</link><description>Recent content in Heap on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/index.xml" rel="self" type="application/rss+xml"/><item><title>二叉堆</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/binary-heap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/binary-heap/</guid><description>习题预习 User ask:
+给我5题Binary Heap的问题 ChatGPT answer:
+如何實作一個最小Binary Heap？ 在一個Binary Heap中，如何找到某個節點的父節點、左子節點和右子節點？ 如何在一個Binary Heap中插入一個新的元素，並保持堆的特性？ 如何從一個Binary Heap中刪除最小的元素，並保持堆的特性？ 如何使用Binary Heap實作堆排序？ 说明知识 User ask:
+说明Binary Heap并举例 ChatGPT answer:
+Binary Heap是一种特殊的二叉树结构，它满足以下两个条件：
+父节点的值总是小于或者大于子节点的值，对于小于子节点的情况我们称之为最小堆，对于大于子节点的情况我们称之为最大堆。
+它是一棵完全二叉树，也就是除了最后一层，其他层上的节点都是满的，最后一层上的节点都靠左排列。
+Binary Heap是一种非常有用的数据结构，通常被用来实现优先队列等高效的算法。
+以下是一个最小堆的例子：
+4 / \ 9 7 / \ / \ 10 15 12 20 在这个二叉树中，根节点的值为4，它小于它的所有子节点的值。此外，这个二叉树也满足完全二叉树的条件，因为除了最后一层，其他层上的节点都是满的，最后一层上的节点也是靠左排列。
+当我们把这个二叉树表示成一个数组时，它的结构如下：
+index: 0 1 2 3 4 5 6 value: 4 9 7 10 15 12 20 在上述表示中，根据完全二叉树的性质，我们可以用下标来表示一个节点的位置，例如节点4的下标为0，节点9的下标为1，等等。这个数组实际上是一个满足最小堆的性质的数组，我们可以利用这个数组来实现堆排序等高效的算法。
+汇总重点 User ask:
+条列Binary Heap的重点 ChatGPT answer:</description></item><item><title>最大堆</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/max-heap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/max-heap/</guid><description>习题预习 User ask:
+给我5题Max Heap的问题 ChatGPT answer:
+如何将一个数据插入到Max Heap中？ 如何从Max Heap中删除最大值？ 如何构建Max Heap？ 如何查找Max Heap的最大值？ 如何使用Max Heap来协调一系列任务的执行顺序？ 说明知识 User ask:
+说明Max Heap并举例 ChatGPT answer:
+Max Heap是一种二元树 (Binary Tree) 的数据结构，其中每个节点的值都大于其子树中的节点值。也就是说，树的根节点必须是树中所有节点的最大值。在Max Heap中，对于任意的节点 i，其左子节点为 2i，右子节点为 2i+1。
+以下是一个Max Heap的例子：
+70 / \ 50 60
+/ \ 30 40 20
+在这个例子中，根节点为 70，其左子节点为 50，右子节点为 60。左子节点 50 的左右子节点分别为 30 和 40，右子节点 60 只有一个右子节点 20。
+Max Heap通常用于实现堆排列 (Heap Sort)、优先伫列 (Priority Queue) 等数据运算中，也可以用于找到最小 K 个数中的最大值。
+汇总重点 User ask:
+条列Max Heap的重点 ChatGPT answer:</description></item><item><title>最小堆</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/min-heap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/non-linear-data-structures/heap/min-heap/</guid><description>习题预习 User ask:
+给我5题Min Heap的问题 ChatGPT answer:
+如何建立一个Min Heap？ 如何插入一个元素到Min Heap中？ 如何删除Min Heap中的最小元素？ 如何取得Min Heap中的最小值？ 如何进行Min Heap的排序？ 说明知识 User ask:
+说明Min Heap并举例 ChatGPT answer:
+Min Heap是一种资料结构，它是一棵完全二元树，即除了最后一层之外，每一层都是满的，并且最后一层的节点都从左边开始填入。在Min Heap中，每一个节点的值都小于或等于它的两个子节点的值，因此根节点保存的是整个Heap中的最小值。
+举例来说，以下是一个Min Heap：
+3 / \ 12 5 / \ / \ 20 11 7 14 在这个Min Heap中，根节点的值为3，并且根节点的两个子节点的值都大于等于3，即12和5。同样地，12和5这两个节点也满足节点值小于或等于它们的子节点的值。
+另外，Min Heap的一个重要特点是，当我们从Min Heap中删除根节点时，Heap结构会自动调整，使得新的根节点还是整个Heap中的最小值。具体来说，我们可以先将最后一个节点复制到根节点的位置，然后不断地比较新的根节点和它的两个子节点的值，如果它的值大于其中某一个子节点的值，就交换它们的位置，直到找到了合适的位置为止。这样一来，我们就可以在O(log n)的时间内删除Min Heap中的最小值了。
+汇总重点 User ask:
+条列Min Heap的重点 ChatGPT answer:
+它是一种堆数据结构，使用数组表示，并保持一定的顺序特征。 堆通常分为两种类型：最大堆和最小堆。 最小堆的根节点是具有最小值的节点，并且该属性在子树中递归地保持。 最小堆的父节点始终小于或等于其子节点，而左子节点首先小于右子节点。 插入新值时，可以将新值放到数组末尾，然后通过交换父节点和子节点的值来重新平衡堆。 取出最小值时，从最小堆的根节点返回最小值，并从数组末尾将新值放入根节点位置，然后通过交换父节点和子节点的值来重新平衡堆。 用于堆排序，优先队列等场合。 时间复杂度为O(log n)，其中n是堆的大小。 知识测验 User ask:
+给我5题Min Heap的中等难度问题，并在后面列出答案 ChatGPT answer:</description></item></channel></rss>

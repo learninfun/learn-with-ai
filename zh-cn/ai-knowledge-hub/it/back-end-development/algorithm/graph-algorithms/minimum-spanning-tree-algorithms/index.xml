@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Minimum Spanning Tree Algorithms on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/</link><description>Recent content in Minimum Spanning Tree Algorithms on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>克鲁斯卡尔演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</guid><description>习题预习 User ask:
+给我5题Kruskal's Algorithm的问题 ChatGPT answer:
+使用Kruskal的演算法，在以下边权重图形中找到最小生成树:
+图片:
+在一个Galaxy中，有N个星球，M条航线，每条航线有不同的费用，请使用Kruskal演算法找出一条最小生成树。
+一家公司需要将他们的厂房连接起来，厂房数量为N，他们想用最小的代价去建立连接，请透过Kruskal演算法解决此问题。
+假设您正在建立一个网路，其中您需要用光纤线连接数百个建筑物。每个建筑物需要使用不同的专用光纤线进行连接，并且每条连接的费用不同，请利用Kruskal演算法找出最小成本的光纤线之连接方式。
+在一个城市里，有许多地点需要连接，建立通路的费用也不同，请使用Kruskal演算法找出连接全部地点的最小成本。
+说明知识 User ask:
+说明Kruskal's Algorithm并举例 ChatGPT answer:
+Kruskal&amp;rsquo;s Algorithm是一种用于建立最小生成树（MST）的算法，MST是一种连通加权无向图的树，其权值总和最小。
+Kruskal&amp;rsquo;s Algorithm步骤如下：
+初始化MST为空。 将图中所有节点分别视为独立的树。 将图中的边按权值从小到大排序。 从权值最小的边开始，依次加入MST中，直到MST包含所有节点或无法再加入边为止。 返回MST。 以下是一个Kruskal&amp;rsquo;s Algorithm的示例：
+考虑下图，有5个节点和7条边。
+按权值从小到大将边排序：(2,3) (2,4) (3,4) (1,2) (1,5) (4,5) (3,5)。
+首先添加 (2,3)，MST为：
+然后添加 (2,4)，MST为：
+然后添加 (3,4)，MST为：
+然后添加 (1,2)，MST为：
+然后添加 (1,5)，MST为：
+最后添加 (4,5)，MST为：
+因此，MST是：
+权值总和为 12。
+汇总重点 User ask:
+条列Kruskal's Algorithm的重点 ChatGPT answer:
+Kruskal&amp;rsquo;s Algorithm is used to find the Minimum Spanning Tree (MST) of a given graph.</description></item><item><title>普利姆演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</guid><description>习题预习 User ask:
+给我5题Prim's Algorithm的问题 ChatGPT answer:
+使用Prim&amp;rsquo;s演算法来寻找一个带有权重边的最小生成树，请问这个演算法的时间复杂度为何？ 请问在Prim&amp;rsquo;s演算法中，如何选择下一个要加入最小生成树的节点？ 假设有一个带有权重边的无向图，请问是否一定存在一个带有权重边的最小生成树？ 如果在Prim&amp;rsquo;s演算法的过程中，所有边的权重都相同，最小生成树可能有多个吗？ 在Prim&amp;rsquo;s演算法中，如何判断一个图是连通的？ 说明知识 User ask:
+说明Prim's Algorithm并举例 ChatGPT answer:
+Prim的演算法是一种用于寻找最小生成树的贪婪演算法。
+简单来说，Prim演算法通过从一个起点开始，选择边的方式来构建一个最小生成树。演算法开始时，选择任意一点作为起点，然后选取与该起点相连的最小权值边，a和b两个点在生成树上，没有其他的路线能够从a和b这两个点达到，接着选择与a或b相连的点到生成树上（由于是连到a或b点，最小权值边的选择是唯一的），此过程迭代直到生成树中包含了所有顶点。
+例如，考虑下图：
+C / | \ 3/ |2\ \4 A---F---B 2\ |5/ /3 \ | / D 从节点A开始，该该节点被添加到生成树中。 节点A与节点F之间的边（权值为2）是包含节点A的最小权值边，添加节点F。节点A与节点C之间的边（权值为3）是包含节点A的最小权值边，添加节点C。 节点F与节点B之间的边（权值为2）是包含节点B，F的最小权值边，添加节点B。 节点F与节点D之间的边（权值为5）是包含节点B、F、D的最小权值边，添加节点D。 节点F与节点E之间的边（权值为4）是包含节点B、F、E、D的最小权值边，添加节点E。
+最终生成树如下所示：
+C | (3) A | F / | \ 2/ | \2 B E D 汇总重点 User ask:
+条列Prim's Algorithm的重点 ChatGPT answer:
+Prim&amp;rsquo;s Algorithm is used to find the minimum spanning tree of a connected weighted undirected graph.</description></item></channel></rss>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Application Security on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/</link><description>Recent content in Web Application Security on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title>%!s(&lt;nil>)</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</guid><description>习题预习 User ask:
+给我5题Cross-site request forgery (CSRF)的问题 ChatGPT answer:
+What is Cross-Site Request Forgery (CSRF) and how does it work? What are the common signs of a CSRF attack and how can they be detected? How can websites prevent CSRF attacks from occurring and what measures can be taken to mitigate the risk of a successful attack? What is the difference between CSRF and XSS (Cross-Site Scripting) attacks, and how are they similar/different in terms of their impact and prevention methods?</description></item><item><title>%!s(&lt;nil>)</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</guid><description>习题预习 User ask:
+给我5题Cross-site scripting (XSS)的问题 ChatGPT answer:
+What is Cross-Site Scripting (XSS) and how does it work? What are the different types of XSS attacks and how can they be prevented? How can an attacker exploit XSS vulnerabilities to carry out attacks such as stealing user credentials or session hijacking? What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks?</description></item><item><title>HTTPS</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</guid><description>习题预习 User ask:
+给我5题HTTPS的问题 ChatGPT answer:
+HTTPS是什麼？ HTTPS的加密方式是如何實現的？ HTTPS有哪些優點？ 什麼情況下需要使用HTTPS？ HTTPS的憑證有什麼作用？ 说明知识 User ask:
+说明HTTPS并举例 ChatGPT answer:
+HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議，用於在網際網路上安全地傳輸敏感資料。HTTPS將普通的HTTP通訊加密，從而保護敏感數據的安全性。HTTPS使用TLS（Transport Layer Security）或SSL（Secure Sockets Layer）協議對數據進行加密和驗證，以確保通訊過程中的數據無法被攔截、竊聽或偽造。
+舉例來說，當你在網路上購物時，你的瀏覽器將向該網站發送請求，請求該網站顯示商品和價格。如果該網站使用HTTP協議，那麼所有數據將以明文形式傳輸，而黑客可以輕鬆地獲得這些敏感信息。然而，如果該網站使用HTTPS協議，那麼所有數據都會經過加密和驗證，以確保你的數據在傳輸和處理期間是安全的。
+因此，大多數銀行、電子商務、網上支付和其他涉及敏感數據的網站都使用HTTPS協議。
+汇总重点 User ask:
+条列HTTPS的重点 ChatGPT answer:
+安全性：HTTPS是一種安全的網絡傳輸協議，它的主要目的是保護網絡傳輸過程中的敏感信息，防止被黑客窺探並竊取。
+加密：HTTPS通過使用SSL/TLS加密技術，將數據進行加密，提高了通信的安全性。
+身份驗證：HTTPS協議還提供身份驗證功能，網站可以在互聯網上通過數字證書證明自己的身份，確保用戶與該網站的安全通信。
+SEO優化：Google的搜索算法已經確定HTTPS是SEO排名的重要因素，因此使用HTTPS協議可以提高您的網站排名。
+網站速度：雖然HTTPS協議可能會稍微減慢網站的速度，但是這個速度減慢的影響已經極小，跟安全性相比顯得微不足道。
+信任感：使用HTTPS協議可以提高網站用戶的信任感，因為它顯示了該網站正在採取必要的安全措施，保障用戶的隱私和數據安全。
+知识测验 User ask:
+给我5题HTTPS的中等难度问题，并在后面列出答案 ChatGPT answer:
+什么是HTTPS握手？
+为什么TLS握手需要进行两个往返？
+当浏览器建立安全连接时，它如何验证HTTPS服务器的证书？
+什么是中间人攻击？如何防止它？
+HTTPS如何防止网路窥探？
+答案：
+HTTPS握手是当浏览器和HTTPS服务器之间建立安全连接时的过程，该过程包括TLS协议的加密和数据完整性保护。
+TLS握手需要进行两个往返，因为这个过程涉及加密协定的协商和密钥交换等运算，需要多次往返以确保可靠性和安全性。
+当浏览器建立安全连接时，它会从HTTPS服务器接收一份证书，浏览器会与证书相关的证书授权机构（CA）进行验证，确认证书是否具有可信度。
+中间人攻击是指黑客在通讯过程中抢走信息，并使通讯双方误以为正在通讯，从而进行信息的篡改和偷盗。防止中间人攻击的方法包括使用可信的CA证书、使用公开密码和密钥等。
+HTTPS可以通过TLS加密保护数据传输的安全性，防止网路窥探者获取和篡改数据。此外，HTTPS还可以通过TLS握手中建立的密钥来保护用户的身份和数据。
+网络数据 User ask:
+给我5篇HTTPS的网络数据 ChatGPT answer:
+&amp;ldquo;What Is HTTPS? | How Does HTTPS Work?&amp;rdquo; by SSL.</description></item><item><title>SQL注入攻击</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</guid><description>习题预习 User ask:
+给我5题SQL Injection的问题 ChatGPT answer:
+What is SQL Injection and how does it work? What are the common techniques used by attackers to perform SQL Injection attacks? How can SQL Injection vulnerabilities be detected and prevented? What are the potential consequences of a successful SQL Injection attack? How can web developers and administrators protect their websites from SQL Injection attacks, and what best practices should be followed? 说明知识 User ask:</description></item><item><title>内容安全策略 (CSP)</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</guid><description>习题预习 User ask:
+给我5题Content Security Policy (CSP)的问题 ChatGPT answer:
+什么是Content Security Policy (CSP)？ CSP的作用是什么？ 如何设置CSP以提高网站的安全性？ CSP如何帮助防止跨站点脚本攻击（XSS）？ 在网站开发中，哪些情况下应该考虑使用CSP？ 说明知识 User ask:
+说明Content Security Policy (CSP)并举例 ChatGPT answer:
+Content Security Policy (CSP)是一种Web安全机制，可以限制网页内容的来源和资源，防止恶意脚本攻击和跨站脚本攻击 (XSS)。CSP可以通过HTTP响应头部的Content-Security-Policy标头添加到网页中，指定哪些资源是被允许取得的。
+举例来说，假设我们有一个网站，其中包含以下内容：
+&amp;lt;script src=&amp;#34;https://cdn.example.com/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;img src=&amp;#34;https://example.com/image.jpg&amp;#34;&amp;gt; 为了使用CSP，我们可以通过HTTP响应头部添加以下设置：
+Content-Security-Policy: default-src &amp;#39;self&amp;#39; https://cdn.example.com 这个CSP设置指定了只允许自身网站 (self) 和 https://cdn.example.com 这个域名下的资源载入，所以如果有任何尝试从其他的域名载入资源的行为，浏览器会挡下它们。
+另外，CSP也可以用来防止XSS攻击，例如：
+Content-Security-Policy: script-src &amp;#39;self&amp;#39; &amp;#39;unsafe-inline&amp;#39; &amp;#39;unsafe-eval&amp;#39; 这个CSP设置指定只允许自身网站执行JS程式码，并且禁止直接插入JS程式码。这样就可以防止尝试通过插入恶意脚本攻击网站的攻击行为。
+汇总重点 User ask:
+条列Content Security Policy (CSP)的重点 ChatGPT answer:
+CSP可以帮助防止跨站点脚本攻击（XSS）和点击劫持等攻击。
+CSP可以限制允许的资源载入，预防通过任何不信任来源载入外部资源。
+CSP可以解决降低没有安全标准，因为它标准化了网页内容与外部资源交互的方法。
+CSP使开发人员可以定义允许载入的网站和脚本，而不是直接允许能够执行的脚本。
+CSP可以减少开发人员的负担，因为它提供了一套网页安全标准模板，可用于在应用程序中实施安全检查。
+由于CSP不允许执行不安全的脚本，所以它可以将大量的风险从应用程序中隔离。
+CSP可以仅允许已知的安全源访问网页，以进一步增强安全性。
+知识测验 User ask:</description></item><item><title>身份验证和授权</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</guid><description>习题预习 User ask:
+给我5题Authentication and Authorization的问题 ChatGPT answer:
+What is the main difference between authentication and authorization, and why are both important in security measures?
+What are some authentication methods commonly used by modern systems, and what are their limitations or potential vulnerabilities?
+How can organizations ensure that user authentication and authorization processes are secure, efficient, and user-friendly?
+Why is multi-factor authentication becoming increasingly popular as a way to protect against password-based attacks and other security threats?</description></item><item><title>同源策略</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</guid><description>习题预习 User ask:
+给我5题Same-origin policy的问题 ChatGPT answer:
+什么是Same-origin policy?
+Same-origin policy对网站安全有什么影响？
+如何遵循Same-origin policy，以确保网站的安全？
+Same-origin policy如何保护用户的隐私？
+在什么情况下，可能需要违反Same-origin policy，例如跨网站共享资源或与第三方服务集成？
+说明知识 User ask:
+说明Same-origin policy并举例 ChatGPT answer:
+Same-origin policy 是一个浏览器安全性机制，限制了一个网页文档（document）或脚本（script）在浏览器和同一个源（origin）下的资源交互，从而防止潜在的跨站脚本攻击（XSS）或跨站请求伪造（CSRF）等安全问题。
+一个源通常由三部分组成：协议（Protocol）、域名（Domain）和端口（Port）。只有三个部分都相同的资源才被认为是同一个源，否则就被视为不同的源。 譬如：
+http://www.example.com 和 https://www.example.com 是不同的源。 http://www.example.com 和 http://example.com 是不同的源。 http://www.example.com:80 和 http://www.example.com:8080 是不同的源。 一些常见的Same-origin policy限制包括：
+JavaScript在同一源下的资源上想象可以自由使用，但他们无法访问其他源的资源。 假设有一个JavaScript应用程序在example.com上运行，那么就可以访问它同一源下的任何资源，例如example.com/about.html；但是，如果应用程式尝试访问example.net上的资源，则将会被同源政策阻止。
+浏览器在送出不同源的 AJAX 请求或向 iframe 内载入内容时遵守同源政策。
+不同域名下设置的 Cookie 不会被 JavaScript 访问，也不会被浏览器发送给不同域名。
+一些HTML5 API （例如 Geolocation API 或者 Web Storage API）将遵循Same-origin policy，并禁止从非同一源的脚本中访问或修改数据。
+简单地说，当Same-origin policy被强制执行时，浏览器只允许当前网页文档获得它自己的资源，而只能与同一个源相关的资源进行交互。这可以减少安全威胁，针对用户的浏览器提供更加安全的环境。
+汇总重点 User ask:</description></item></channel></rss>

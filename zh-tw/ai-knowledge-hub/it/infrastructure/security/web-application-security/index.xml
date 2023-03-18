@@ -1,12 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Application Security on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/</link><description>Recent content in Web Application Security on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</guid><description>Preview User ask:
-give me five question about Authentication and Authorization ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web Application Security on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/</link><description>Recent content in Web Application Security on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title>%!s(&lt;nil>)</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</guid><description>習題預習 User ask:
+給我5題Cross-site request forgery (CSRF)的問題 ChatGPT answer:
+What is Cross-Site Request Forgery (CSRF) and how does it work? What are the common signs of a CSRF attack and how can they be detected? How can websites prevent CSRF attacks from occurring and what measures can be taken to mitigate the risk of a successful attack? What is the difference between CSRF and XSS (Cross-Site Scripting) attacks, and how are they similar/different in terms of their impact and prevention methods?</description></item><item><title>%!s(&lt;nil>)</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</guid><description>習題預習 User ask:
+給我5題Cross-site scripting (XSS)的問題 ChatGPT answer:
+What is Cross-Site Scripting (XSS) and how does it work? What are the different types of XSS attacks and how can they be prevented? How can an attacker exploit XSS vulnerabilities to carry out attacks such as stealing user credentials or session hijacking? What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks?</description></item><item><title>HTTPS</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</guid><description>習題預習 User ask:
+給我5題HTTPS的問題 ChatGPT answer:
+HTTPS是什麼？ HTTPS的加密方式是如何實現的？ HTTPS有哪些優點？ 什麼情況下需要使用HTTPS？ HTTPS的憑證有什麼作用？ 說明知識 User ask:
+說明HTTPS並舉例 ChatGPT answer:
+HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議，用於在網際網路上安全地傳輸敏感資料。HTTPS將普通的HTTP通訊加密，從而保護敏感數據的安全性。HTTPS使用TLS（Transport Layer Security）或SSL（Secure Sockets Layer）協議對數據進行加密和驗證，以確保通訊過程中的數據無法被攔截、竊聽或偽造。
+舉例來說，當你在網路上購物時，你的瀏覽器將向該網站發送請求，請求該網站顯示商品和價格。如果該網站使用HTTP協議，那麼所有數據將以明文形式傳輸，而黑客可以輕鬆地獲得這些敏感信息。然而，如果該網站使用HTTPS協議，那麼所有數據都會經過加密和驗證，以確保你的數據在傳輸和處理期間是安全的。
+因此，大多數銀行、電子商務、網上支付和其他涉及敏感數據的網站都使用HTTPS協議。
+彙總重點 User ask:
+條列HTTPS的重點 ChatGPT answer:
+安全性：HTTPS是一種安全的網絡傳輸協議，它的主要目的是保護網絡傳輸過程中的敏感信息，防止被黑客窺探並竊取。
+加密：HTTPS通過使用SSL/TLS加密技術，將數據進行加密，提高了通信的安全性。
+身份驗證：HTTPS協議還提供身份驗證功能，網站可以在互聯網上通過數字證書證明自己的身份，確保用戶與該網站的安全通信。
+SEO優化：Google的搜索算法已經確定HTTPS是SEO排名的重要因素，因此使用HTTPS協議可以提高您的網站排名。
+網站速度：雖然HTTPS協議可能會稍微減慢網站的速度，但是這個速度減慢的影響已經極小，跟安全性相比顯得微不足道。
+信任感：使用HTTPS協議可以提高網站用戶的信任感，因為它顯示了該網站正在採取必要的安全措施，保障用戶的隱私和數據安全。
+知識測驗 User ask:
+給我5題HTTPS的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是HTTPS握手？
+為什麼TLS握手需要進行兩個往返？
+當瀏覽器建立安全連接時，它如何驗證HTTPS服務器的證書？
+什麼是中間人攻擊？如何防止它？
+HTTPS如何防止網路窺探？
+答案：
+HTTPS握手是當瀏覽器和HTTPS服務器之間建立安全連接時的過程，該過程包括TLS協議的加密和數據完整性保護。
+TLS握手需要進行兩個往返，因為這個過程涉及加密協定的協商和密鑰交換等運算，需要多次往返以確保可靠性和安全性。
+當瀏覽器建立安全連接時，它會從HTTPS服務器接收一份證書，瀏覽器會與證書相關的證書授權機構（CA）進行驗證，確認證書是否具有可信度。
+中間人攻擊是指黑客在通訊過程中搶走信息，並使通訊雙方誤以為正在通訊，從而進行信息的篡改和偷盜。防止中間人攻擊的方法包括使用可信的CA證書、使用公開密碼和密鑰等。
+HTTPS可以通過TLS加密保護數據傳輸的安全性，防止網路窺探者獲取和篡改數據。此外，HTTPS還可以通過TLS握手中建立的密鑰來保護用戶的身份和數據。
+網路資料 User ask:
+給我5篇HTTPS的網路資料 ChatGPT answer:
+&amp;ldquo;What Is HTTPS? | How Does HTTPS Work?&amp;rdquo; by SSL.</description></item><item><title>SQL注入攻擊</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</guid><description>習題預習 User ask:
+給我5題SQL Injection的問題 ChatGPT answer:
+What is SQL Injection and how does it work? What are the common techniques used by attackers to perform SQL Injection attacks? How can SQL Injection vulnerabilities be detected and prevented? What are the potential consequences of a successful SQL Injection attack? How can web developers and administrators protect their websites from SQL Injection attacks, and what best practices should be followed? 說明知識 User ask:</description></item><item><title>內容安全策略 (CSP)</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</guid><description>習題預習 User ask:
+給我5題Content Security Policy (CSP)的問題 ChatGPT answer:
+什麼是Content Security Policy (CSP)？ CSP的作用是什麼？ 如何設置CSP以提高網站的安全性？ CSP如何幫助防止跨站點腳本攻擊（XSS）？ 在網站開發中，哪些情況下應該考慮使用CSP？ 說明知識 User ask:
+說明Content Security Policy (CSP)並舉例 ChatGPT answer:
+Content Security Policy (CSP)是一種Web安全機制，可以限制網頁內容的來源和資源，防止惡意腳本攻擊和跨站腳本攻擊 (XSS)。CSP可以通過HTTP響應頭部的Content-Security-Policy標頭添加到網頁中，指定哪些資源是被允許取得的。
+舉例來說，假設我們有一個網站，其中包含以下內容：
+&amp;lt;script src=&amp;#34;https://cdn.example.com/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;img src=&amp;#34;https://example.com/image.jpg&amp;#34;&amp;gt; 為了使用CSP，我們可以通過HTTP響應頭部添加以下設置：
+Content-Security-Policy: default-src &amp;#39;self&amp;#39; https://cdn.example.com 這個CSP設置指定了只允許自身網站 (self) 和 https://cdn.example.com 這個域名下的資源載入，所以如果有任何嘗試從其他的域名載入資源的行為，瀏覽器會擋下它們。
+另外，CSP也可以用來防止XSS攻擊，例如：
+Content-Security-Policy: script-src &amp;#39;self&amp;#39; &amp;#39;unsafe-inline&amp;#39; &amp;#39;unsafe-eval&amp;#39; 這個CSP設置指定只允許自身網站執行JS程式碼，並且禁止直接插入JS程式碼。這樣就可以防止嘗試通過插入惡意腳本攻擊網站的攻擊行為。
+彙總重點 User ask:
+條列Content Security Policy (CSP)的重點 ChatGPT answer:
+CSP可以幫助防止跨站點腳本攻擊（XSS）和點擊劫持等攻擊。
+CSP可以限制允許的資源載入，預防通過任何不信任來源載入外部資源。
+CSP可以解決降低沒有安全標準，因為它標準化了網頁內容與外部資源交互的方法。
+CSP使開發人員可以定義允許載入的網站和腳本，而不是直接允許能夠執行的腳本。
+CSP可以減少開發人員的負擔，因為它提供了一套網頁安全標準模板，可用於在應用程序中實施安全檢查。
+由於CSP不允許執行不安全的腳本，所以它可以將大量的風險從應用程序中隔離。
+CSP可以僅允許已知的安全源訪問網頁，以進一步增強安全性。
+知識測驗 User ask:</description></item><item><title>同源策略</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</guid><description>習題預習 User ask:
+給我5題Same-origin policy的問題 ChatGPT answer:
+什麼是Same-origin policy?
+Same-origin policy對網站安全有什麼影響？
+如何遵循Same-origin policy，以確保網站的安全？
+Same-origin policy如何保護用戶的隱私？
+在什麼情況下，可能需要違反Same-origin policy，例如跨網站共享資源或與第三方服務集成？
+說明知識 User ask:
+說明Same-origin policy並舉例 ChatGPT answer:
+Same-origin policy 是一個瀏覽器安全性機制，限制了一個網頁文檔（document）或腳本（script）在瀏覽器和同一個源（origin）下的資源交互，從而防止潛在的跨站腳本攻擊（XSS）或跨站請求偽造（CSRF）等安全問題。
+一個源通常由三部分組成：協議（Protocol）、域名（Domain）和端口（Port）。只有三個部分都相同的資源才被認為是同一個源，否則就被視為不同的源。 譬如：
+http://www.example.com 和 https://www.example.com 是不同的源。 http://www.example.com 和 http://example.com 是不同的源。 http://www.example.com:80 和 http://www.example.com:8080 是不同的源。 一些常見的Same-origin policy限制包括：
+JavaScript在同一源下的資源上想像可以自由使用，但他們無法訪問其他源的資源。 假設有一個JavaScript應用程序在example.com上運行，那麼就可以訪問它同一源下的任何資源，例如example.com/about.html；但是，如果應用程式嘗試訪問example.net上的資源，則將會被同源政策阻止。
+瀏覽器在送出不同源的 AJAX 請求或向 iframe 內載入內容時遵守同源政策。
+不同域名下設置的 Cookie 不會被 JavaScript 訪問，也不會被瀏覽器發送給不同域名。
+一些HTML5 API （例如 Geolocation API 或者 Web Storage API）將遵循Same-origin policy，並禁止從非同一源的腳本中訪問或修改數據。
+簡單地說，當Same-origin policy被強制執行時，瀏覽器只允許當前網頁文檔獲得它自己的資源，而只能與同一個源相關的資源進行交互。這可以減少安全威脅，針對用戶的瀏覽器提供更加安全的環境。
+彙總重點 User ask:</description></item><item><title>身份驗證和授權</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</guid><description>習題預習 User ask:
+給我5題Authentication and Authorization的問題 ChatGPT answer:
 What is the main difference between authentication and authorization, and why are both important in security measures?
 What are some authentication methods commonly used by modern systems, and what are their limitations or potential vulnerabilities?
 How can organizations ensure that user authentication and authorization processes are secure, efficient, and user-friendly?
-Why is multi-factor authentication becoming increasingly popular as a way to protect against password-based attacks and other security threats?</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</guid><description>Preview User ask:
-give me five question about Cross-Site Request Forgery (CSRF) ChatGPT answer:
-What is Cross-Site Request Forgery (CSRF) and how does it work? What are the common signs of a CSRF attack and how can they be detected? How can websites prevent CSRF attacks from occurring and what measures can be taken to mitigate the risk of a successful attack? What is the difference between CSRF and XSS (Cross-Site Scripting) attacks, and how are they similar/different in terms of their impact and prevention methods?</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</guid><description>Preview User ask:
-give me five question about Cross-Site Scripting (XSS) ChatGPT answer:
-What is Cross-Site Scripting (XSS) and how does it work? What are the different types of XSS attacks and how can they be prevented? How can an attacker exploit XSS vulnerabilities to carry out attacks such as stealing user credentials or session hijacking? What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks?</description></item><item><title/><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</guid><description>Preview User ask:
-give me five question about SQL Injection ChatGPT answer:
-What is SQL Injection and how does it work? What are the common techniques used by attackers to perform SQL Injection attacks? How can SQL Injection vulnerabilities be detected and prevented? What are the potential consequences of a successful SQL Injection attack? How can web developers and administrators protect their websites from SQL Injection attacks, and what best practices should be followed?</description></item></channel></rss>
+Why is multi-factor authentication becoming increasingly popular as a way to protect against password-based attacks and other security threats?</description></item></channel></rss>
