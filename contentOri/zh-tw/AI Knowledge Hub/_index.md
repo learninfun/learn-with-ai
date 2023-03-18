@@ -1,5 +1,5 @@
 +++
-title = "AI Knowledge Hub"
+title = "AI理解的知識庫"
 weight = 2
 +++
 
