@@ -1,0 +1,85 @@
+## 習題預習
+{{< ask_chatgpt >}}
+給我5題Bonds的問題
+{{< /ask_chatgpt >}}
+
+
+
+1. 什麼是債券？
+2. 政府發行的債券與企業發行的債券有何不同？
+3. 債券的票面利率和市場利率之間有什麼區別？
+4. 什麼是到期日？債券到期日如何影響投資回報率？
+5. 買債券和買股票之間的差異是什麼？   
+
+## 說明知識
+{{< ask_chatgpt >}}
+說明Bonds並舉例
+{{< /ask_chatgpt >}}
+
+
+
+Bonds是一種債券，它是一種公司或政府為籌資所發行的債務證券，以籌集資金用於籌建或擴大企業或通過發行國債籌集資金來支付政府開支。購買債券的人可以從購買債券所產生的固定利率收益中受益。債券的利率取決於信用等級、發行期限和市場利率。當債券到期時，持有人可以收回本金。
+
+舉個例子，你買了一份市政府發行期限為10年的債券，票面價值為1萬元，年利率為3%。這意味著你每年可以賺取300元的利息，並且在10年後你可以收回1萬元本金。在10年期間，你將收到總共3,000元的利息。
+
+另一個例子是公司發行的債券。假設某公司需要籌集1億元，於是發行了總值1億元的10年期限債券，每年的利率為5%。如果你購買了這些債券中的1,000元，你將每年得到50元的收益，並在10年後換回你的本金1,000元。公司每年將向持有人支付一定的利息，並在債券到期時還本付息。   
+
+## 彙總重點
+{{< ask_chatgpt >}}
+條列Bonds的重點
+{{< /ask_chatgpt >}}
+
+
+
+- Bond是一種債券，它代表借款人（發行人）欠債給投資者（債券持有人）的承諾，並承諾支付一定的利息和原始本金。
+- 政府、企業及其他實體可以發行債券來籌集資金，以進行資本支出及其他活動。
+- 債券通常有定期付息，到期時還本付息，持有期間的利率是已知的，因此可以作為投資組合的穩定收入來源。
+- 債券的風險主要來自發行人信用風險（即發行人是否能按時付息和還本）和利率風險（即市場利率變化對債券價格的影響）。
+- 債券可以通過證券市場進行交易，其價格和收益率會隨時反映市場的變化。
+- 債券的種類包括政府債券、企業債券、高收益債券、地方政府債券等。
+- 投資者可以通過購買債券來實現投資組合的分散和風險管理。   
+
+## 知識測驗
+{{< ask_chatgpt >}}
+給我5題Bonds的中等難度問題，並在後面列出答案
+{{< /ask_chatgpt >}}
+
+
+
+1. 一張面值為1000元、票面利率為4%的債券，期限10年，每年付息一次。若市場利率為3.5%，該債券的價格為多少？
+答案：1042.38元
+
+2. 一間公司發行了一張面值為1000元、票面利率為5%的債券，期限20年，每年付息一次。如果該公司的信用風險等級下降，導致市場利率上升到6%，該債券的價格會下跌多少？
+答案：814.27元
+
+3. 一張面值為500元、票面利率為6%的債券，期限5年，每年付息一次。如果市場利率下降到5%，該債券的價格會升高多少？
+答案：524.46元
+
+4. 一間公司發行了一張面值為1000元、票面利率為7%的債券，期限30年，每年付息一次。如果市場利率上升到8%，該債券的現值因素為多少？
+答案：14.1348
+
+5. 一張面值為200元、票面利率為4.5%的債券，期限5年，每半年付息一次。如果市場利率為5.5%，該債券的年化收益率是多少？
+答案：4.74%   
+
+## 網路資料
+{{< ask_chatgpt >}}
+給我5篇Bonds的網路資料
+{{< /ask_chatgpt >}}
+
+
+
+1. Bonds.com
+Bonds.com is a leading online platform that provides access to fixed income solutions. The platform provides a range of tools and resources, including a bond search engine, performance charts, and research reports.
+
+2. Investopedia.com/ articles/financial-bonds
+This website provides a comprehensive guide to understanding bonds as financial instruments. It covers the different types of bonds, their characteristics, and how they work. It also discusses the advantages and risks of investing in bonds.
+
+3. Bloomberg.com/bond-market
+Bloomberg's bond market section provides the latest news and insights on the global bond market. It offers real-time data on bond prices, yields, and spreads, as well as commentary from industry experts.
+
+4. Morningstar.com/bonds
+Morningstar is a popular platform for researching mutual funds, stocks, and bonds. Its bond section offers in-depth analysis of individual bonds and bond funds, along with ratings and reviews from its team of analysts.
+
+5. Fidelity.com/fixed-income-bonds/overview
+Fidelity Investments is a well-known provider of investment products and services. Its fixed-income and bonds section provides resources for finding and evaluating bond investments, including a bond screener, market research, and educational materials.   
+

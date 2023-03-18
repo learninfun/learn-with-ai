@@ -1,0 +1,121 @@
+## 習題預習
+{{< ask_chatgpt >}}
+給我5題SEP IRAs的問題
+{{< /ask_chatgpt >}}
+
+
+
+1. 什麼是SEP IRA？ 
+2. SEP IRA有哪些優點和缺點？ 
+3. 誰可以開設SEP IRA帳戶？ 
+4. 如何計算和最大化SEP IRA的貢獻限制？ 
+5. SEP IRA和傳統IRA有什麼不同？   
+
+## 說明知識
+{{< ask_chatgpt >}}
+說明SEP IRAs並舉例
+{{< /ask_chatgpt >}}
+
+
+
+SEP (Simplified Employee Pension) IRA是一種專為自僱人士和小型企業主而設的退休儲蓄計劃。SEP IRA計劃的原理非常簡單，企業主可以為自己和員工在其個人IRAs中進行退休儲蓄。
+
+在SEP IRA計劃中，企業主可以按照一定的計劃規則，定期為其員工貢獻退休儲蓄資金。這些貢獻金額是企業主自行決定的，但不能超過員工的25％薪資或萊比錫薪資（即每年可貢獻的最高金額）。而且，企業主需要為其自己貢獻相同的比例。
+
+SEP IRA計劃還有其他一些優點，例如：
+
+1.企業主可以在從事商業活動時儲蓄；
+2. 不需要像401（k）計劃那樣涉及複雜的報告要求；
+3. 員工不需要為SEP IRA計劃貢獻一分錢；
+4. 拓展了企業主與員工的儲蓄選擇。
+
+以下是一個對SEP IRA計劃的例子，主要展示企業主和員工如何儲蓄退休金的選項。
+
+假設ABC公司是一家創業公司，僱用了10名員工。ABC公司主持人Eric希望為自己和員工設置SEP IRA計劃。每年，他定期向每位員工購買儲蓄股份，並向SEP IRA中存入一定的退休儲蓄金額。以下是他的投資計劃：
+
+薪資：員工平均薪資為35,000美元
+貢獻率：25％（企業主和員工各貢獻12.5％）
+貢獻限額：35,000美元 x 25％ = 8,750美元
+
+根據上述計劃，員工每年都可以為其退休儲蓄積累百分之25的資金，而且企業主也可以為自己以同樣的比例儲蓄。因此，員工和企業主都可以為其退休享受更豐富和穩定的生活選擇而制定專門計劃。   
+
+## 彙總重點
+{{< ask_chatgpt >}}
+條列SEP IRAs的重點
+{{< /ask_chatgpt >}}
+
+
+
+1. SEP IRA是一種退休儲蓄計劃，它允許自僱人士、小型企業主和獨立承包商為自己和自己的員工儲蓄。
+
+2. 稅收優惠是SEP IRA的主要優點。貢獻可以在聯邦所得稅申報時作為減免，增加退休儲蓄對可用限額的減免。
+
+3. SEP IRA的貢獻上限較高，適合有相對穩定收入的自僱人士或小型企業主。
+
+4. SEP IRA沒有預期給付或投資利益的最低要求。
+
+5. SEPIRA可以讓自僱人士和小型企業主與員工一起儲蓄，增加員工的薪酬福利。
+
+6. 可以將SEP IRA轉移到傳統IRA或轉移到另一個SEP IRA，但需要仔細計劃轉移過程以避免任何財務後果。
+
+7. SEP IRA遵循與傳統IRA相同的投資規則，在投資方面具有靈活性。   
+
+## 知識測驗
+{{< ask_chatgpt >}}
+給我5題SEP IRAs的中等難度問題，並在後面列出答案
+{{< /ask_chatgpt >}}
+
+
+
+1. 小李每年從他的收入中貢獻10%到他的SEP IRA帳戶中。如果他的年薪是$60,000，那麼他每年的貢獻是多少？
+
+答案：小李每年貢獻$6,000到他的SEP IRA帳戶中。
+
+2. 某公司計劃為其員工的SEP IRA帳戶貢獻15%的薪資。如果一位員工的年薪為$80,000，那麼公司將為該員工的SEP IRA帳戶貢獻多少？
+
+答案：公司將為該員工的SEP IRA帳戶貢獻$12,000。
+
+3. 小王在他的SEP IRA帳戶中有$40,000的存款。如果他今年要貢獻15%的年收入，那麼他今年的貢獻是多少？
+
+答案：如果小王今年的年收入為$100,000，他今年將貢獻$15,000到他的SEP IRA帳戶中。
+
+4. 描述一下在SEP IRA中轉移或轉換帳戶的過程。
+
+答案：SEP IRA帳戶可以被轉移或轉換到其他SEP IRA帳戶或傳統IRA帳戶中。轉移或轉換的過程中必須注意稅收法律的規定，以免因提前支取或轉換導致罰款。
+
+5. 假設一位員工已經開設了SEP IRA帳戶，但尚未開始貢獻。該員工在什麼時候可以開始貢獻到自己的SEP IRA帳戶中？
+
+答案：該員工可以在開設SEP IRA帳戶的同一年內開始貢獻，建議尽早開始貢獻以便獲得最大的貢獻限額規定。   
+
+## 網路資料
+{{< ask_chatgpt >}}
+給我5篇SEP IRAs的網路資料
+{{< /ask_chatgpt >}}
+
+
+
+1. "SEP IRA: Simplified Employee Pension Plan" from Investopedia 
+https://www.investopedia.com/terms/s/sep.asp
+
+This article provides an overview of SEP IRAs, including eligibility requirements, contribution limits, and the benefits of using a SEP IRA for retirement savings. It also covers the differences between traditional IRAs and SEP IRAs, as well as the tax implications of contributions and withdrawals.
+
+2. "What is a SEP IRA and How Does it Work?" from NerdWallet 
+https://www.nerdwallet.com/article/investing/what-is-sep-ira
+
+This article explains the basics of SEP IRAs, including how they work and their advantages for small business owners and self-employed individuals. It also provides examples of how much can be contributed to a SEP IRA based on income, as well as information on tax deductions and investment options.
+
+3. "SEP IRA Guide: What You Need to Know" from The Balance 
+https://www.thebalance.com/sep-ira-guide-for-small-business-owners-4159026
+
+This comprehensive guide provides a detailed overview of SEP IRAs, including information on eligibility, contribution limits, and the differences between SEP IRAs and other retirement plans. It also includes tips for setting up and managing a SEP IRA, as well as answers to common questions about the plan.
+
+4. "SEP IRA Contribution Limits: How Much Can You Contribute?" from Fidelity Investments 
+https://www.fidelity.com/retirement-ira/small-business/sep-ira-contribution-limits
+
+This article focuses specifically on SEP IRA contribution limits, including the latest updates and changes to the rules. It also covers different scenarios and examples of how much can be contributed to a SEP IRA based on income and age.
+
+5. "SEP IRA: A Retirement Plan for Small Businesses" from Charles Schwab 
+https://www.schwab.com/retirement-planning/small-business-retirement-plans/sep-ira
+
+This article provides a detailed overview of SEP IRAs for small business owners, including information on eligibility, contribution limits, and the benefits of using a SEP IRA as a retirement plan. It also covers different investment options and strategies for maximizing contributions and lowering taxes.   
+

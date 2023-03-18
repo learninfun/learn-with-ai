@@ -1,0 +1,105 @@
++++
+title = "微服務"
++++
+## 習題預習
+{{< ask_chatgpt >}}
+給我5題Micro Service的問題
+{{< /ask_chatgpt >}}
+
+
+
+1. 什麼是Micro Service架構，它與傳統架構有何不同？
+2. Micro Service架構中如何實現服務之間的通信與協調？
+3. 在Micro Service中如何處理錯誤、異常情況以及日誌追蹤？
+4. 如何構建可擴展的Micro Service架構，以應對高流量和大量客戶端的情況？
+5. 如何保護Micro Service系統的安全性和敏感數據的保密性？   
+
+## 說明知識
+{{< ask_chatgpt >}}
+說明Micro Service並舉例
+{{< /ask_chatgpt >}}
+
+
+
+Micro Service是一種軟體設計模式，它將大型的複雜應用程式拆分成較小的可獨立部署的服務。每個服務都有自己的業務邏輯，可以獨立運作，並通過輕量級的通訊協議進行交互。
+
+舉例來說，假如一個電子商務平台需要提供訂單管理、會員管理、商品管理、賣家管理等多個功能，傳統的設計方式是將所有功能都打包成一個龐大的應用程式。但是這樣設計存在一些問題，例如：
+
+1. 一旦發生故障或需要升級，整個應用程式都需要停機，會影響整個系統的運作。
+
+2. 開發團隊難以聚焦於單一功能的開發，易導致程式碼的冗餘和混亂。
+
+3. 隨著系統不斷擴充，複雜度會越來越高，維護成本也會越來越高。
+
+因此，采用Micro Service設計模式可以解決這些問題。將上述功能拆分成多個服務，例如：
+
+1. 訂單管理服務：負責處理訂單的創建、修改、查詢、取消等操作。
+
+2. 會員管理服務：負責管理用戶信息、登錄、註冊等操作。
+
+3. 商品管理服務：負責管理商品信息、商品庫存、商品上架等操作。
+
+4. 賣家管理服務：負責管理賣家信息、商品上架、訂單配送等操作。
+
+每個服務都可獨立部署、獨立升級、獨立發佈，可以大幅提高系統的穩定性和維護性，而且也更有利於團隊開發和管理。   
+
+## 彙總重點
+{{< ask_chatgpt >}}
+條列Micro Service的重點
+{{< /ask_chatgpt >}}
+
+
+
+1. 單一職責：每個服務只有一項功能，讓開發者可以更容易創建、維護和擴展服務。
+2. 自主性：每個服務都是獨立的單元，可以獨立佈署、運行和強化安全性。
+3. 容錯性：系統每個服務都可以自行管理故障，提升系統容錯性。
+4. 可靠性：服務之間解耦合，可以防止一個服務或組件發生故障，影響整個系統的運行。
+5. 擴展性：基於虛擬化和容器化技術，服務可以更容易地擴展和進行水平擴展。
+6. 分散式：服務之間通過API接口進行交互，增強系統的分散式能力。
+7. 支持DevOps：微服務架構可以支持DevOps文化，自動化部署、自動化測試、自動化監控，增強研發效率。
+8. 支援多種語言：微服務架構可以根據需要使用不同的程式語言和工具支持不同的業務需求。   
+
+## 知識測驗
+{{< ask_chatgpt >}}
+給我5題Micro Service的中等難度問題，並在後面列出答案
+{{< /ask_chatgpt >}}
+
+
+
+1. 如何實現微服務之間的通信？
+答：可以使用REST API、消息中間件、gRPC等方式進行通信。
+
+2. 如何保證微服務之間的數據一致性？
+答：可以使用分佈式事務、事件驅動架構等方式來保證數據一致性。
+
+3. 如何實現微服務的容錯處理？
+答：可以使用熔斷器、臨時容器、自動重啟等方式來實現容錯處理。
+
+4. 如何監控微服務的運行狀態？
+答：可以使用日誌、指標、追蹤等方式進行監控，並使用分析工具進行數據分析。
+
+5. 如何實現微服務的自動化部署？
+答：可以使用容器技術、CI/CD管道、自動化測試等方式進行自動化部署。   
+
+## 網路資料
+{{< ask_chatgpt >}}
+給我5篇Micro Service的網路資料
+{{< /ask_chatgpt >}}
+
+
+
+1. "微服務架構（Microservice Architecture）介紹"
+   網址：https://www.ithome.com.tw/news/96058
+
+2. "Microservices: The pros and cons"
+   網址：https://www.techrepublic.com/article/microservices-the-pros-and-cons/
+
+3. "What Are Microservices and Why Are They Important?"
+   網址：https://www.redhat.com/en/topics/microservices/what-are-microservices
+
+4. "10 Benefits of Microservices Architecture for Modern Apps"
+   網址：https://www.cabottechnology.com/blog/10-benefits-of-microservices-architecture-for-modern-apps/
+
+5. "Comparing Monolithic, SOA, and Microservices Architectures"
+   網址：https://www.tatvasoft.com/blog/comparing-monolithic-soa-and-microservices-architectures   
+

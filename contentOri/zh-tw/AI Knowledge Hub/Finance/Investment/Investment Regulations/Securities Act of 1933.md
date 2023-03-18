@@ -1,0 +1,106 @@
+## 習題預習
+{{< ask_chatgpt >}}
+給我5題Securities Act of 1933的問題
+{{< /ask_chatgpt >}}
+
+
+
+1. 什麼是 Securities Act of 1933？這項法令的目的是什麼？
+
+2. Securities Act of 1933 有哪些主要的規定？這些規定如何保障投資者的權益？
+
+3. 什麼是註冊要求？根據 Securities Act of 1933，哪些證券需要註冊？註冊過程中需要提供哪些文件？
+
+4. Securities Act of 1933 的違規行為包括哪些？如何處理這些違規行為？
+
+5. Securities Act of 1933 與其他證券法律有何區別？這些法律是否有交叉適用之處？   
+
+## 說明知識
+{{< ask_chatgpt >}}
+說明Securities Act of 1933並舉例
+{{< /ask_chatgpt >}}
+
+
+
+《證券法》是一部美國聯邦法律，俗稱《證券法案》(Securities Act of 1933)，於1933年5月27日通過，規定要求公司和政府發行的所有證券必須在讓投資者購買之前做出相應的披露。目的是為了保障投資者的權益，防止證券欺詐和虛假誘騙。該法律施行後，公司必須向公眾公開自己的財務狀況和其他重要信息，以方便投資者做出明智的投資決策。
+
+例如，若一家公司想要在公眾市場發行新的股票，根據證券法，必須向投資者提供相關的資訊，包括公司的財務資料、經營策略、風險因素等，以便投資者能夠評估該公司的業務和未來發展前景。若公司沒有遵守證券法的規定，其發行的證券可能會被認定是非法的，並面臨不良影響，甚至可能面臨法律訴訟。   
+
+## 彙總重點
+{{< ask_chatgpt >}}
+條列Securities Act of 1933的重點
+{{< /ask_chatgpt >}}
+
+
+
+1. 該法案要求所有出售和輸售證券的公司和個人進行註冊，並向投資者提供相應的披露信息。
+2. 該法案實施了投資者保護措施，例如禁止對未註冊的證券進行銷售活動，並提供關於證券販售方面的準則。
+3. 該法案要求公司必須提供一份申報書，在這份申報書中詳細描述公司的經濟狀況和業務概況，以及與證券發行相關的其他相關信息。
+4. 該法案規定，證券發行必須在註冊之後才能進行，否則將面臨懲罰。
+5. 該法案要求所有證券經紀人和投資顧問必須註冊，並提供相關的披露信息，以更好地保護客戶的利益。
+6. 該法案成立了美國證券交易委員會（SEC），負責執行該法案的準則和監管證券市場的運作。   
+
+## 知識測驗
+{{< ask_chatgpt >}}
+給我5題Securities Act of 1933的中等難度問題，並在後面列出答案
+{{< /ask_chatgpt >}}
+
+
+
+1. The Securities Act of 1933 requires issuers to include certain information in their registration statements. What specific pieces of information must be included?
+
+A: The information required in registration statements includes a description of the security being offered, information about the issuer, financial statements of the issuer, and various disclosures regarding risks and other relevant matters.
+
+2. How does the Securities Act of 1933 define a security?
+
+A: The Securities Act of 1933 defines a security as any kind of investment contract, fractional undivided interest in oil, gas, or other mineral rights, any kind of ownership interest in a corporation, and various other types of instruments.
+
+3. What types of securities are exempt from registration under the Securities Act of 1933?
+
+A: Some types of securities that are exempt from registration under the Securities Act of 1933 include government securities, securities issued by banks and other financial institutions, and securities issued in small offerings to specific types of investors.
+
+4. What is the role of the Securities and Exchange Commission (SEC) under the Securities Act of 1933?
+
+A: The Securities and Exchange Commission (SEC) is responsible for administering and enforcing the Securities Act of 1933. This includes reviewing registration statements, ensuring that they contain accurate and complete information, and taking action against issuers that violate the law.
+
+5. How does the liability regime under the Securities Act of 1933 work?
+
+A: Under the Securities Act of 1933, anyone who offers or sells securities that are not registered or do not comply with the law can be held liable to investors for damages suffered as a result. Liability can extend not only to the issuer, but also to various other parties involved in the sale of the securities, such as underwriters and brokers.   
+
+## 網路資料
+{{< ask_chatgpt >}}
+給我5篇Securities Act of 1933的網路資料
+{{< /ask_chatgpt >}}
+
+
+
+1. 美國證券法1933年
+
+這是一個來自百度文庫的文件，詳細介紹了1933年美國證券法，包括其歷史背景、內容、影響等方面，是一篇非常詳盡的介紹文章：
+
+https://wenku.baidu.com/view/36cc0915e5da50e2524d7c15.html
+
+2. Securities Act of 1933
+
+這是一個來自維基百科的介紹，講解了1933年證券法的背景、起源、頒布過程等，也介紹了其作用、內容等方面，是一篇詳盡的網路資訊：
+
+https://en.wikipedia.org/wiki/Securities_Act_of_1933
+
+3. What is the Securities Act of 1933?
+
+這是一個來自Investopedia的條目，通俗易懂地介紹了1933年證券法，特別是其對公司所發行的證券進行登記的要求，詳細說明了其意義和重要性：
+
+https://www.investopedia.com/terms/s/securitiesact1933.asp
+
+4. 證券法(1933):SECURITIES ACT OF 1933
+
+這是一個來自CEPA Asia的介紹，介紹了證券法1933年修訂版，包括其對公司和投資者的影響，同時分析了之後對證券法的修正和升級：
+
+https://www.cepaasia.com/zh-hant/%E8%AD%89%E5%88%B8%E6%B3%95%EF%BC%88%E2%80%9C1933%E5%B9%B4%E7%89%88%E2%80%9D%EF%BC%89securities-act-of-1933/#:~:text=%E8%AD%89%E5%88%B8%E6%B3%95%EF%BC%88%E2%80%9C1933%E5%B9%B4%E7%89%88%E2%80%9D%EF%BC%89%E5%9C%A8,%E5%8A%A0%E5%BC%BA%E4%BA%86%E9%81%8E%E5%BE%8C%E7%9A%84%E4%BF%AE%E6%AD%A3%E3%80%82
+
+5. The Securities Act of 1933
+
+這是一篇來自Cornell Law School的官方法律條文，詳細列出了1933年證券法的所有內容，包括它所定義的不同證券種類、投資方面的限制等，對於研究其具體條款的人來說非常有用：
+
+https://www.law.cornell.edu/wex/securities_act_of_1933   
+
