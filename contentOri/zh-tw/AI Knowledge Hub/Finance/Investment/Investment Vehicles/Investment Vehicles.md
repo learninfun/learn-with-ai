@@ -1,23 +1,22 @@
++++
+title = "投資工具"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment Vehicles的問題
+給我5題Investment Vehicles的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What types of assets are commonly included in a diversified investment portfolio?
-
-2. How do exchange-traded funds (ETFs) differ from mutual funds as investment vehicles?
-
-3. What are some of the potential risks associated with investing in individual stocks?
-
-4. How do real estate investment trusts (REITs) provide investors with exposure to the real estate market?
-
-5. What are some of the advantages and disadvantages of investing in commodities such as gold, silver, and oil?   
+1. 什麼是債券？
+2. 投資基金有哪些種類？
+3. 何謂期權？
+4. 什麼是股票市場？
+5. 何種投資工具可以提供資本保障？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment Vehicles並舉例
+以中文說明Investment Vehicles並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,7 +37,7 @@ Investment vehicles是指可用于投資的金融工具，用于增加投資者�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment Vehicles的重點
+以中文條列Investment Vehicles的重點
 {{< /ask_chatgpt >}}
 
 
@@ -76,55 +75,48 @@ Investment vehicles是指可用于投資的金融工具，用于增加投資者�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment Vehicles的中等難度問題，並在後面列出答案
+以中文給我5題Investment Vehicles的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is an index fund, and how is it different from a mutual fund?
-Answer: An index fund is a type of mutual fund designed to track a specific market index, such as the S&P 500. Unlike traditional mutual funds that are actively managed, index funds aim to replicate the index's performance by investing in the same securities and in the same proportion as the index.
+1. 如果一個投資者購買了一份股票，每股價值10美元，他花費了100美元。一年後，股票價值上漲到15美元，投資者現在想賣出。他將赚多少钱？
 
-2. What is a convertible bond, and what is its advantage over traditional bonds?
-Answer: A convertible bond is a type of bond that can be converted into a predetermined number of shares of the issuing company's stock. The advantage of convertible bonds is that they offer the potential for capital appreciation if the stock price rises, in addition to a fixed income stream.
+2. 在不動產投資中，收益率是什麼意思？如何計算？
 
-3. What is a master limited partnership (MLP), and what is its primary advantage for investors?
-Answer: An MLP is a type of publicly-traded partnership that combines the tax benefits of a partnership with the liquidity of a publicly-traded company. The primary advantage of MLPs for investors is that they offer high-yield income streams, often with tax advantages compared to other investments.
+3. 投資人將1,000美元存入一年期儲蓄帳戶，利率為2%。在一年後，他將收到多少利息？（複利計算方法）
 
-4. What is a real estate investment trust (REIT), and what distinguishes it from other real estate investments?
-Answer: A REIT is a company that owns, operates, or finances income-generating real estate properties, and is required by law to distribute at least 90% of its taxable income to shareholders as dividends. The main advantage of REITs is that they offer exposure to real estate investments without the high costs and management requirements of owning physical property.
+4. 投資人持有一份基金，該基金每年發放分紅，分紅是根據基金資產的百分比進行分配。基金總資產是100萬美元，分紅率為3％，投資人持有10,000美元的股份，他將收到多少分紅？
 
-5. What is a hedge fund, and how is it different from a mutual fund?
-Answer: A hedge fund is a privately-owned investment entity that typically uses advanced strategies and techniques to generate higher returns for its investors, often with significantly greater risk than traditional mutual funds. Unlike mutual funds, which are subject to many regulatory constraints and designed for public investors, hedge funds are typically only available to wealthy individuals and institutional investors.   
+5. 投資人將5,000美元投入一個投資組合，該投資組合包括股票、債券和貨幣市場基金。他投入的金額分別為60％股票、20％債券和20％貨幣市場基金。該投資組合的表現為年收益率10％。該投資人將在第一年獲得多少收益？
+
+答案：
+
+1. 投資者賺了50美元。
+2. 收益率是說一個項目產生的總收益除以投入的總本金的比例。公式：(總收益 - 投入本金) / 投入本金 x 100%。
+3. 投資人將收到20.20美元的利息。
+4. 投資人將收到300美元的分紅。
+5. 投資人將在第一年獲得了700美元的收益。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment Vehicles的網路資料
+給我5篇Investment Vehicles的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Investment Vehicles" by Investopedia 
-Link: https://www.investopedia.com/terms/i/investmentvehicles.asp
+1. 投資工具：基金、債券、股票、存款，我們要如何選擇 - 雅虎新聞
+https://tw.news.yahoo.com/%E6%8A%95%E8%B3%87%E5%B7%A5%E5%85%B7-%E5%9F%BA%E9%87%91-%E5%82%B5%E5%88%B8-%E8%82%A1%E7%A5%A8-%E5%AD%98%E6%AC%BE-%E6%88%91%E5%80%91%E8%A6%81%E5%A6%82%E4%BD%95%E9%81%B8%E6%93%87-035238714.html
 
-This article from Investopedia provides an overview of different types of investment vehicles such as stocks, bonds, mutual funds, exchange-traded funds (ETFs), and real estate. It explains their characteristics, advantages, and risks.
+2. 投資工具解說－基金、股票、債券、外匯－理財小學堂 - MoneyDJ理財網
+https://www.moneydj.com/kmdj/edu/fmnews/newsviewer.aspx?a=1088c353-6710-4201-9036-92848b3f3b95
 
-2. "Investment Vehicles: Diversify Your Portfolio" by The Balance 
-Link: https://www.thebalance.com/investments-4073755
+3. 投資新手必學：認識6種基本投資工具 - 創客雲
+https://makerpro.cc/2019/03/intro_6_core_investment_tools/
 
-This article from The Balance discusses various investment vehicles, including individual stocks, bonds, mutual funds, ETFs, real estate investment trusts (REITs), and options. It explains how these vehicles can help diversify a portfolio and minimize risk.
+4. 投資指南：基金、ETF、股票、債券、商品等投資工具全面分析 - 理財保險
+https://www.licayoupin.com/investment-guide/investment-tool-analysis/
 
-3. "Understanding Investment Vehicles" by TIAA 
-Link: https://www.tiaa.org/public/learn/education/money-basics/investment-basics/understanding-investment-vehicles
-
-This page from TIAA explains the different types of investment vehicles, such as stocks, bonds, mutual funds, annuities, and alternative investments. It also provides information on choosing the right investment vehicle based on your financial goals and risk tolerance.
-
-4. "Investment Vehicles: A Comprehensive Guide" by Ally Invest 
-Link: https://www.ally.com/do-it-right/investing/investment-vehicles-a-comprehensive-guide/
-
-This guide from Ally Invest provides an in-depth overview of investment vehicles, including stocks, bonds, ETFs, mutual funds, annuities, and futures. It also includes information on tax implications, fees, and risks associated with each vehicle.
-
-5. "Investment Vehicles: What's Right for You?" by NerdWallet 
-Link: https://www.nerdwallet.com/article/investing/investment-vehicles-what-right-for-you
-
-This article from NerdWallet discusses different investment vehicles, such as stocks, bonds, mutual funds, ETFs, and options. It provides guidance on choosing the right vehicle based on your investment goals, risk tolerance, and time horizon. It also includes a comparison chart of the different investment vehicles.   
+5. 投資工具攻略：基金、股票、債券、外匯、房地產、保險 - Momo財經新聞
+https://news.momoinvesting.com.tw/articles/%E6%8A%95%E8%B3%87%E5%B7%A5%E5%85%B7/53801e7d39aa1d000b000006   
 

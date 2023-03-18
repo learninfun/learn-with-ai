@@ -1,19 +1,22 @@
++++
+title = "風險管理"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Risk Management的問題
+給我5題Risk Management的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the key components of an effective risk management framework?
-2. How can a company assess and prioritize risks in order to allocate resources effectively?
-3. What is the process for developing and implementing risk mitigation strategies?
-4. How can you measure the effectiveness of a risk management program?
-5. What role do risk management policies and procedures play in reducing organizational risk exposure?   
+1. 什麼是風險管理？風險管理的目的是什麼？
+2. 怎樣進行風險評估和分析？風險評估和分析的流程是什麼？
+3. 風險管理計劃應該包含哪些內容？如何制定風險管理計劃？
+4. 如何選擇最合適的風險應對措施？如何實施和監控風險應對措施？
+5. 風險管理的成功因素是什麼？如何評估風險管理的效果？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Risk Management並舉例
+以中文說明Risk Management並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Risk Management的重點
+以中文條列Risk Management的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Risk Management的中等難度問題，並在後面列出答案
+以中文給我5題Risk Management的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,7 +80,7 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Risk Management的網路資料
+給我5篇Risk Management的中文網路資料
 {{< /ask_chatgpt >}}
 
 

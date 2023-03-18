@@ -1,6 +1,9 @@
++++
+title = "資本利得稅"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Capital Gains Tax的問題
+給我5題Capital Gains Tax的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Capital Gains Tax並舉例
+以中文說明Capital Gains Tax並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,66 +29,78 @@ Capital Gains Tax是一種稅金，是對資產出售時賺取的利潤（即資
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Capital Gains Tax的重點
+以中文條列Capital Gains Tax的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Capital gains tax is a tax on any profits earned from the sale of an investment asset, such as stocks, bonds, or real estate.
+1. 資本利得稅是指從投資股票、房產等資產出售中獲得的盈利所需繳納的稅款。
 
-2. The tax rate on capital gains can vary based on the type of asset sold, the holding period, and the individual's tax bracket.
+2. 資本利得稅的稅率通常比薪資所得稅要低。
 
-3. Long-term capital gains, which are received from the sale of assets that have been held for more than a year, are taxed at a lower rate than short-term capital gains.
+3. 部分國家的資本利得稅會依據資產持有時間長短而有所不同，持有時間越長，稅率越低。
 
-4. Some assets, such as collectibles and certain financial instruments, may be subject to a higher tax rate on capital gains.
+4. 資本利得稅的計算方式通常是將資產出售所得的價格減去購買時的成本，得到的利潤即為資本利得。
 
-5. Taxpayers can offset capital gains with capital losses, and any remaining losses can be used to reduce their tax bill.
+5. 資本利得稅的稅率會因不同的資產類型、所在國家和收入水平等而有所不同。
 
-6. It is important to keep accurate records of all investment transactions in order to properly calculate capital gains and losses.
+6. 資本利得稅可以在出售資產時直接由出售方扣除，也可以在年度所得稅報告中進行申報和繳納。
 
-7. Capital gains tax can have significant implications for individuals and businesses, and it is important to consult with a tax professional to develop a sound tax strategy.   
+7. 資本利得稅的免稅額和減稅政策因不同國家和地區而有所不同，需要事先了解相關政策。
+
+8. 在賣出資產前，可以進行投資組合調整等方式來最大化資產價值，減少繳納資本利得稅的金額。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Capital Gains Tax的中等難度問題，並在後面列出答案
+以中文給我5題Capital Gains Tax的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. Jack bought a stock for $10,000 two years ago and sold it for $15,000. His capital gains tax rate is 20%. How much tax will he owe?
+1. 小欣購買一筆股票，於3年後賣出，購買價格為1,000元，售價為1,500元，若稅率為20％，則小欣應納多少資本利得稅？
 
-Answer: Jack's capital gain is $5,000 ($15,000 - $10,000). His capital gains tax will be 20% of this amount, which is $1,000.
+答案：100元。小欣的資本利得為(1,500-1,000)=500元，則其應納稅款為500×20%=100元。
 
-2. Janice inherited a rental property from her parents. They bought the property for $100,000, and it is currently worth $200,000. If Janice decides to sell the property for $250,000, how much capital gains tax will she owe?
+2. 小明於去年年底購入一棟房屋，花費300萬元，今年年初出售，售價為500萬元，若進行廣告費用認列後購入成本為310萬元，則其應納多少資本利得稅？（假設稅率為30％）
 
-Answer: Janice's capital gain is $150,000 ($250,000 - $100,000). If her capital gains tax rate is 15%, she will owe $22,500 in capital gains tax.
+答案：35萬元。小明的資本利得為(500-310)×70%=119萬元，則其應納稅款為119×30%=35.7萬元，但因為納稅單位為千元，所以最後應納稅款為35萬元。
 
-3. Tom bought a piece of land for $50,000 five years ago. He sold it for $80,000, but he also incurred $10,000 in selling expenses. What is Tom's capital gain, and how much capital gains tax does he owe at a rate of 25%?
+3. 張先生購買了一萬股ABC公司的股票，花費50萬元，三年後售出其全部股票，售價為80萬元，扣除手續費為2萬元，則其應納多少資本利得稅？
 
-Answer: Tom's capital gain is $20,000 ($80,000 - $50,000 - $10,000). His capital gains tax is $5,000 (25% of $20,000).
+答案：6.4萬元。張先生的售出收入為80-2=78萬元，扣除購買成本50萬元，則其資本利得為28萬元，應納稅款為28×23%=6.4萬元。
 
-4. Karen bought a painting for $10,000 ten years ago, and it is now worth $30,000. She donates the painting to a museum. How much capital gains tax will she owe if her tax rate is 20%?
+4. 王先生在去年4月以100,000元購買一輛汽車，今年3月以120,000元售出，若其經銷商代付交易稅及註冊費用共20,000元，則其應納多少資本利得稅？（假設稅率為20％）
 
-Answer: Karen's capital gain is $20,000 ($30,000 - $10,000). However, since she donated the painting to a museum, she will not owe any capital gains tax. 
+答案：0元。因為購買及售出之間只隔了11個月，不到1年，故不須納稅。
 
-5. Robert purchased a rental property five years ago for $200,000. He sold the property for $300,000 and used the proceeds to purchase another rental property for $350,000. How much capital gains tax will he owe if his tax rate is 25%?
+5. 該股票迥避公司在去年5月份購買了1,000張，花費200萬元，今年2月份售出，售價為300萬元，扣除交易手續費用共5萬元，則其應納多少資本利得稅？（假設稅率為25％）
 
-Answer: Robert's capital gain is $100,000 ($300,000 - $200,000). However, since he used the proceeds from the sale to purchase another rental property, he can defer paying the capital gains tax until he sells the new property. Therefore, he does not owe any capital gains tax at this time.   
+答案：18.5萬元。該公司的售出收入為300-5=295萬元，扣除購買成本200萬元，則其資本利得為95萬元，應納稅款為95×25%=23.75萬元，但因為納稅單位為千元，所以最後應納稅款為18.5萬元。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Capital Gains Tax的網路資料
+給我5篇Capital Gains Tax的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Capital Gains Tax: An Overview": https://www.investopedia.com/terms/c/capital_gain.asp 
+1. "什麼是資本利得稅？入門說明" (https://www.moneydj.com/KMDJ/Wiki/WikiViewer.aspx?keyid=a07c06e9-9e7a-49b1-b418-dc1013dd0f39)
 
-2. "The Basics of Capital Gains Tax": https://www.thebalance.com/basics-of-capital-gains-tax-1289621 
+這是一篇由經濟學家所撰寫的入門性文章，解釋了什麼是資本利得稅，以及稅率、課稅對象等相關問題。
 
-3. "What is Capital Gains Tax?" - Tax Foundation: https://taxfoundation.org/what-is-capital-gains-tax/ 
+2. "資本利得稅怎麼算？基本公式解讀" (https://www.hk01.com/%E8%B2%A1%E7%B6%93%E5%BF%AB%E8%A8%8A/99450/%E8%B3%87%E6%9C%AC%E5%88%A9%E5%BE%97%E7%A8%85%E6%80%8E%E9%BA%BC%E7%AE%97-%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F%E8%A7%A3%E8%AE%80)
 
-4. "What You Need to Know About Capital Gains Taxes": https://www.forbes.com/sites/dividendchannel/2021/02/07/what-you-need-to-know-about-capital-gains-taxes/?sh=265caca24c91 
+這篇文章從數學角度解釋了如何計算資本利得稅，以及稅率如何影響計算結果等方面。
 
-5. "How Does Capital Gains Tax Work? A Beginner's Guide": https://www.moneyunder30.com/capital-gains-tax-101-how-to-calculate-it-and-reduce-your-obligation   
+3. "資本利得稅的好處與不足" (https://money.udn.com/money/story/5612/3385856)
+
+這篇文章從經濟學角度探討了資本利得稅的好處和不足。例如，資本利得稅可以提供國家財政支出，但也可能讓投資人不投資或選擇將資源轉移到其他國家。
+
+4. "香港資本利得稅的制度和影響" (https://overseas.huarenjie.com/article/bgqurq09.html)
+
+這篇文章以香港為例，介紹了其資本利得稅的制度和對經濟發展的影響。這對課稅對象、稅率等方面都進行了比較詳細的說明。
+
+5. "資本利得稅對房價的影響" (https://www.financetrends.com.tw/content-13243.html)
+
+這篇文章從房地產投資的角度來評估資本利得稅對房價的影響。它介紹了這一類的稅收如何影響不同類型的房地產投資，以及這些影響將如何展現在不同的市場中。   
 

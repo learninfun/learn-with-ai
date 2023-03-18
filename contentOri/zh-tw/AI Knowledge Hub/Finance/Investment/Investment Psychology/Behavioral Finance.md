@@ -1,19 +1,22 @@
++++
+title = "行為金融學"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Behavioral Finance的問題
+給我5題Behavioral Finance的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the role of emotions in investment decision-making and how do they impact investment outcomes?
-2. How do cognitive biases influence investment decisions and how can investors mitigate these biases?
-3. What is herding behavior and how does it impact market outcomes?
-4. How do investor expectations and overconfidence impact investment decisions and portfolio performance?
-5. How do social and cultural factors influence investment behavior, such as risk tolerance and investment styles?   
+1. 為什麼投資者有時會做出不理性的決定？ 
+2. 人類的認知偏誤對投資決策有什麼影響？ 
+3. 市場波動如何影響投資者的情緒和行為？ 
+4. 讓投資者更理性的方法是什麼？ 
+5. 如何避免情感投資和過度交易的問題？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Behavioral Finance並舉例
+以中文說明Behavioral Finance並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,7 +35,7 @@ Behavioral Finance研究人們的思考方式和行為，以及它們對投資�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Behavioral Finance的重點
+以中文條列Behavioral Finance的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +51,7 @@ Behavioral Finance研究人們的思考方式和行為，以及它們對投資�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Behavioral Finance的中等難度問題，並在後面列出答案
+以中文給我5題Behavioral Finance的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -70,38 +73,23 @@ Behavioral Finance研究人們的思考方式和行為，以及它們對投資�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Behavioral Finance的網路資料
+給我5篇Behavioral Finance的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Understanding Behavioral Finance: A Guide for Investors
+1. 「行為財務學」是什麼？其原理是什麼？ - 華盛頓郵報中文網 
+文章介紹了行為財務學的概念、歷史和基本原理，講解了人類行為對金融市場和投資決策的影響。
 
-Link: https://www.investopedia.com/terms/b/behavioralfinance.asp
+2. 行為財務學的應用和挑戰 - 財經網 
+文章介紹了行為財務學在實際投資中的應用、手段和限制。同時探討了行為財務學研究面臨的挑戰。
 
-This Investopedia article provides a comprehensive guide to behavioral finance, exploring its origins, theories, and applications in the investment world. It explains the role that cognitive and emotional biases play in shaping investor behavior, and outlines the strategies that investors can use to mitigate these biases and make better decisions.
+3. 打破框架：認識行為財務學 - 21世紀經濟報導 
+本文從心理學出發，比較了傳統財務學和行為財務學對人類思維、決策和行為的不同理解。並且介紹了行為財務學的基本觀點和應用。
 
-2. The Psychology of Money: Behavioral Finance and Investment Strategies
+4. 行為財務學與財富管理 - 中國投資加讀者網 
+該文章詳細介紹了行為財務學在財富管理和投資策略中的應用，並將其與傳統財務學進行了比較。
 
-Link: https://www.nasdaq.com/articles/the-psychology-of-money-behavioral-finance-and-investment-strategies-2017-03-06
-
-This article from Nasdaq explores the psychological factors that influence investment decisions and how behavioral finance can help investors better navigate their emotions to make more rational, successful investment decisions. It also provides examples of behavioral finance in action, such as the concept of loss aversion and how it affects investing behavior.
-
-3. Behavioral Finance: The Psychology of Investing
-
-Link: https://www.morningstar.com/articles/743934/behavioral-finance-the-psychology-of-investing
-
-This Morningstar article delves into the psychology of investing and how investors can make better decisions by understanding their own biases and emotions. It covers topics such as overconfidence, herding behavior, and confirmation bias, and provides practical advice for how investors can overcome these biases to achieve their investment goals.
-
-4. What is Behavioral Finance and Why is it Important?
-
-Link: https://www.cognitivescale.com/what-is-behavioral-finance-and-why-is-it-important/
-
-This article from cognitive computing firm, CognitiveScale, provides an overview of behavioral finance and its applications in the financial industry. It also discusses the role of artificial intelligence and machine learning in helping investors make better decisions by identifying patterns of behavior and predicting future outcomes.
-
-5. The 7 Deadly Sins of Behavioral Finance
-
-Link: https://www.forbes.com/sites/laurashin/2016/04/14/the-7-deadly-sins-of-behavioral-finance-and-what-to-do-about-them/?sh=2e9c69454a55
-
-This Forbes article takes a humorous approach to the topic of behavioral finance and identifies seven common behavioral biases that can lead investors astray. It offers advice for how investors can identify and overcome these biases, such as avoiding the temptation to make impulsive decisions, and seeking out expert advice before making important investment decisions.   
+5. 行為財務學：人性的羈絆與市場憂慮 - 經濟日報 
+行為財務學在金融市場中的重要性和應用，讓人們更好地了解市場波動和投資風險。該文章介紹了行為財務學的原理、應用和挑戰，以及應該如何運用它來更好地識別和降低風險。   
 

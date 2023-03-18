@@ -1,6 +1,9 @@
++++
+title = "1933年證券法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Securities Act of 1933的問題
+給我5題Securities Act of 1933的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +20,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Securities Act of 1933並舉例
+以中文說明Securities Act of 1933並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +31,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Securities Act of 1933的重點
+以中文條列Securities Act of 1933的重點
 {{< /ask_chatgpt >}}
 
 
@@ -42,34 +45,29 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Securities Act of 1933的中等難度問題，並在後面列出答案
+以中文給我5題Securities Act of 1933的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. The Securities Act of 1933 requires issuers to include certain information in their registration statements. What specific pieces of information must be included?
+1. Securities Act of 1933是哪一個國家的法律？
+答案：美國的法律
 
-A: The information required in registration statements includes a description of the security being offered, information about the issuer, financial statements of the issuer, and various disclosures regarding risks and other relevant matters.
+2. Securities Act of 1933的主要目的是什麼？
+答案：保護投資者免於不實或誇大的投資方案
 
-2. How does the Securities Act of 1933 define a security?
+3. Securities Act of 1933所涵蓋的證券範圍是什麼？
+答案：所有在跨州或國際銷售的證券
 
-A: The Securities Act of 1933 defines a security as any kind of investment contract, fractional undivided interest in oil, gas, or other mineral rights, any kind of ownership interest in a corporation, and various other types of instruments.
+4. Securities Act of 1933要求發行人必須提供哪些資訊給投資者？
+答案：所有跨州或國際銷售的證券必須提供完整的財務、業務及相關風險的資訊
 
-3. What types of securities are exempt from registration under the Securities Act of 1933?
-
-A: Some types of securities that are exempt from registration under the Securities Act of 1933 include government securities, securities issued by banks and other financial institutions, and securities issued in small offerings to specific types of investors.
-
-4. What is the role of the Securities and Exchange Commission (SEC) under the Securities Act of 1933?
-
-A: The Securities and Exchange Commission (SEC) is responsible for administering and enforcing the Securities Act of 1933. This includes reviewing registration statements, ensuring that they contain accurate and complete information, and taking action against issuers that violate the law.
-
-5. How does the liability regime under the Securities Act of 1933 work?
-
-A: Under the Securities Act of 1933, anyone who offers or sells securities that are not registered or do not comply with the law can be held liable to investors for damages suffered as a result. Liability can extend not only to the issuer, but also to various other parties involved in the sale of the securities, such as underwriters and brokers.   
+5. Securities Act of 1933對於非註冊的證券銷售是否合法？
+答案：非註冊的證券銷售是非法的。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Securities Act of 1933的網路資料
+給我5篇Securities Act of 1933的中文網路資料
 {{< /ask_chatgpt >}}
 
 

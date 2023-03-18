@@ -1,19 +1,22 @@
++++
+title = "停損訂單"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Stop Loss Orders的問題
+給我5題Stop Loss Orders的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. 什么是止损指令？ 
-2. 什么是止损价位？ 
-3. 为什么止损指令对投资者非常重要？ 
-4. 如何选择最佳的止损价位？ 
-5. 止损指令与限价指令有什么区别和相似之处？   
+1. 什麼是止損指令？ 
+2. 什麼是止損價位？ 
+3. 為什麼止損指令對投資者非常重要？ 
+4. 如何選擇最佳的止損價位？ 
+5. 止損指令與限價指令有什麼區別和相似之處？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Stop Loss Orders並舉例
+以中文說明Stop Loss Orders並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,20 +29,20 @@ Stop Loss Orders 是一種投資工具，可在投資人將股票或證券買入
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Stop Loss Orders的重點
+以中文條列Stop Loss Orders的重點
 {{< /ask_chatgpt >}}
 
 
 
 - Stop Loss Orders是指投資者預先設定的一種交易指示，旨在保護他們的投資資金，以防止損失過大。
 - Stop Loss Orders設置的原則是，在投資者預設價格達到或低於設定止損價格時，自動出售股票或其他資產，以防止損失延續。
-- 這樣的保護措施對於對冲風險以及防範黑天鵝事件具有很好的效果，可以為投資者提供安全保障。
+- 這樣的保護措施對於對沖風險以及防範黑天鵝事件具有很好的效果，可以為投資者提供安全保障。
 - 投資者在設置Stop Loss Orders時，必須考慮到市場波動的壓力和能夠承擔的風險程度，以避免過於保守地設置止損點，導致潛在收益損失。
 - 另外，Stop Loss Orders也需要定期進行檢查和調整，以確保其與投資者的風險承受能力和投資目標相適應。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Stop Loss Orders的中等難度問題，並在後面列出答案
+以中文給我5題Stop Loss Orders的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -66,33 +69,28 @@ Stop Loss Orders 是一種投資工具，可在投資人將股票或證券買入
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Stop Loss Orders的網路資料
+給我5篇Stop Loss Orders的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Stop Loss Order: What It Is and How to Use It in Trading" - Investopedia
-https://www.investopedia.com/terms/s/stop-lossorder.asp
+1. Stop Loss Order 101：瞭解交易的保護工具
 
-This article from Investopedia provides an overview of stop-loss orders and how they can be used in trading to help manage risk. It goes over different types of stop-loss orders and offers some advice on selecting appropriate stop-loss levels.
+Stop Loss Order是一種保護交易者的工具，它可以在市場波動時控制風險。本文介紹Stop Loss Order的基本概念、如何使用它以及它的優點和缺點等。https://hk.saxomarkets.com/education/articles/stop-loss-orders/
 
-2. "Using Stop Loss Orders to Improve Your Trading" - The Balance
-https://www.thebalance.com/how-to-use-stop-losses-to-improve-your-trading-1031069
+2. 學習如何使用Stop Loss Order
 
-The Balance offers this article on using stop-loss orders to improve trading. It covers the basics of stop-loss orders and provides some examples of how they can be used to help protect profits and limit downside risk.
+這篇文章介紹了如何使用Stop Loss Order來保護交易。它提供了不同的方法和技巧，以及使用這種工具時需要考慮的事項。https://www.investopedia.com/terms/s/stoplossorder.asp
 
-3. "Stop Loss Orders: A Trader's Guide" - TD Ameritrade
-https://www.tdameritrade.com/education/investools/workshop/stop-loss-orders.page
+3. Stop Loss Order與Trailing Stop Order的區別
 
-TD Ameritrade offers a comprehensive guide to stop-loss orders and how they can be used in trading. It explains the different types of orders, offers some tips on setting stop-loss levels, and discusses some common pitfalls to avoid.
+Stop Loss Order和Trailing Stop Order都是保護交易者的工具，但它們的作用和使用方法有所不同。本文將比較這兩種訂單的異同並解釋如何使用它們來控制風險。https://www.fxcm.com/uk/insights/stop-loss-and-trailing-stop-orders/
 
-4. "Stop Loss Orders: What They Are and How to Use Them" - Charles Schwab
-https://www.schwab.com/resource-center/insights/content/stop-loss-orders-what-they-are-and-how-use-them
+4. Stop Loss Order的優點和缺點
 
-Charles Schwab's article on stop-loss orders explains what they are and how they can be used to help manage risk. It covers the importance of setting stop-loss levels and offers some tips for choosing the right level for a particular trade.
+Stop Loss Order可以幫助交易者控制風險，但它也有一些缺點，如過度依賴、市場流動性不足等，進而影響交易表現。本文將探討Stop Loss Order的優點和缺點，以及如何最大化其效用。https://www.stocktrader.com/stop-loss-order/
 
-5. "The Basics of Using Stop Loss Orders in Trading" - The Motley Fool
-https://www.fool.com/knowledge-center/the-basics-of-using-stop-loss-orders-in-trading.aspx
+5. 如何設置Stop Loss Order
 
-The Motley Fool offers this article on the basics of using stop-loss orders in trading. It covers the different types of orders, provides some examples of how they can be used in practice, and offers some advice on setting stop-loss levels.   
+Stop Loss Order的正確設置對於交易者來說至關重要。本文將解釋如何確定停損點位、如何設置逐漸上調的Stop Loss Order、以及如何避免市場微調造成重大影響等問題。https://www.tradingcoachuk.com/trading-blog/2017/12/29/how-to-set-stop-loss-orders   
 

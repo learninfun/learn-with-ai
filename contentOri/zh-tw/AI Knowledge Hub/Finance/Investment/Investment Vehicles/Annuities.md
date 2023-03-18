@@ -1,19 +1,22 @@
++++
+title = "年金"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Annuities的問題
+給我5題Annuities的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is an annuity?
-2. What are the benefits of investing in an annuity? 
-3. What are the different types of annuities available in the market? 
-4. How do you calculate the future value of an annuity? 
-5. What are the tax implications of investing in an annuity?   
+1. Annuities是什麼？它有什麼作用？
+2. 如何計算年金的支付金額？
+3. 年金投資的風險和優勢是什麼？
+4. 年金計劃和退休金計劃有什麼區別？
+5. 如何選擇最適合自己的年金計劃？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Annuities並舉例
+以中文說明Annuities並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +29,7 @@ Annuities是一種投資產品，通常用於養老儲蓄和資產保全。它�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Annuities的重點
+以中文條列Annuities的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,51 +44,56 @@ Annuities是一種投資產品，通常用於養老儲蓄和資產保全。它�
 
 5. Annuities有許多種類和選擇，包括購買方式、收益結構，以及其他附加特性。
 
-6. Annuities的稅收處理方式複雜，購買者應了解如何最大化稅收效益。
+6. Annuities的稅收處理方式複雜，購買者應瞭解如何最大化稅收效益。
 
 7. Annuities雖然可以為購買者提供長期收入流，但也有一些風險和限制，購買者必須仔細評估這些因素並做出基於個人情況的決策。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Annuities的中等難度問題，並在後面列出答案
+以中文給我5題Annuities的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. John purchases an annuity that pays him $1,500 at the end of each quarter for 10 years. The annuity earns an annual interest rate of 7%. What is the present value of the annuity?
-Answer: $48,766.29
+1. 小明每月從他的退休金中收到5000元，退休金會在他60歲開始支付，並且每年會增加5％。如果他活到90歲，小明將從退休金中收到多少總收入？
+答案：小明將從退休金中收到總收入為3,408,744元。
 
-2. A retirement plan offers two options. Option A pays $1,500 per month for 20 years. Option B pays $1,300 per month for 25 years. Both options require an upfront payment of $150,000. If the interest rate is 6%, which option should be chosen?
-Answer: Option A
+2. 如果你每年投資10,000元，並給予一個固定的年利率5％，那麼20年後你會有多少錢？（假定所有的資金都保留在帳戶裡面）
+答案：20年後你會有311,228元。
 
-3. Mary plans to retire in 20 years and would like to have $500,000 at the start of her retirement. She plans to save an equal amount every year for the next 20 years into a retirement account that earns an annual interest rate of 8%. What is the amount she needs to save each year?
-Answer: $11,136.70
+3. 如果你投資了100,000元，每年可獲得8％的利率，該如何計算出你每年可以收到多少錢？
+答案：你每年可以收到8,000元。
 
-4. A company wants to provide a retirement benefit to its employees in the form of an annuity. The employees can choose between receiving $1,000 per month for 20 years or a lump sum of $170,000 today. If the annual interest rate is 5%, which option should the employees choose?
-Answer: $170,000 today
+4. 如果你投資了10,000元，每年可以獲得一個固定的年利率4％，且每年投資金額增加1000元，那麼在20年之後你會有多少錢？
+答案：在20年之後你會有417,888元。
 
-5. Susan purchases an annuity that pays her $2,000 per month for 15 years, starting one year from now. The annuity earns an annual interest rate of 6%. What is the present value of the annuity?
-Answer: $273,884.77   
+5. 如果你每個月存50元錢進銀行，並按照年利率3％的利率定存3年。那麼你這3年末的總收入是多少？
+答案：這3年末的總收入是1,853.68元。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Annuities的網路資料
+給我5篇Annuities的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Understanding Annuities: What They Are and How They Work" by the Balance: 
-This article provides a comprehensive explanation of what annuities are, how they work, the different types of annuities, and the advantages and disadvantages of investing in annuities.
+1. 財團法人財團法人證券投資人保護基金會(證券投資人保護基金會)-退休金年金保險(Annuities)：
+https://www.sipf.org.tw/retirement/annuities.aspx
+證券投資人保護基金會為投資人提供退休金年金保險相關知識，介紹Annuities的定義、種類、運作方式、利益及風險等。
 
-2. "Annuities: A Guide for Investors" by Investopedia: 
-This article discusses the different types of annuities, the potential benefits of investing in them, and their potential drawbacks. It also provides advice on how to choose an appropriate annuity for your needs and how to manage the associated risks.
+2. 新光人壽-年金保險：
+https://www.skylife.com.tw/life-insurance/product/annuity
+新光人壽提供不同種類的年金保險，例如：隨時領年金、確定給付年金等。網站介紹不同種類產品的優點及選擇方式。
 
-3. "An Introduction to Annuities" by Kiplinger: 
-This article offers a basic introduction to annuities, explaining their purpose, the different types available, and the benefits and risks associated with them. It also provides tips for selecting an appropriate annuity for your financial situation.
+3. 中國信託-年金保險：
+https://www.ctbcbank.com/CTCBPortalWeb/appmanager/portal/ctb?_nfpb=true&_pageLabel=P38300410461327518265978
+中國信託提供不同種類的年金保險，包括單次給付型、定期生活型和終身保障型等，網站介紹產品特色和選擇方式。
 
-4. "Annuities: What You Need to Know" by the Financial Industry Regulatory Authority (FINRA):
-This resource offers a detailed overview of annuities, including their different types, how they work, fees and expenses associated with them, and how to determine if an annuity is right for you. It also provides tips on how to avoid fraudulent annuity schemes.
+4. 提供退休金服務的金融機構-年金保險：
+https://fundoo.tw/retire/annuity.aspx
+Fundoo為提供退休金服務的金融機構介紹年金保險的特色及選擇方式，並提供資訊比較表，方便消費者選擇適合的產品。
 
-5. "Annuities: 10 Things You Need to Know Before You Buy" by Forbes: 
-This article provides valuable advice for anyone considering investing in an annuity. It covers the different types of annuities available, their potential benefits and drawbacks, important considerations before buying, and potential pitfalls to watch out for.   
+5. Annuities的基本概念與運作：
+https://www.money101.com.tw/article/content/i/23952
+Money101為投資新手介紹Annuities的基本概念與運作，包括定義、種類、運作方式、利益和風險等，方便瞭解投資內容。   
 

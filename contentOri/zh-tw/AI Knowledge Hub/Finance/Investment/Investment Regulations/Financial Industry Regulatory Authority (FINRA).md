@@ -1,6 +1,9 @@
++++
+title = "金融業監管局（FINRA）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Financial Industry Regulatory Authority (FINRA)的問題
+給我5題Financial Industry Regulatory Authority (FINRA)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -17,30 +20,20 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Financial Industry Regulatory Authority (FINRA)並舉例
+以中文說明Financial Industry Regulatory Authority (FINRA)並舉例
 {{< /ask_chatgpt >}}
 
 
 
-The Financial Industry Regulatory Authority (FINRA) is a regulatory organization created by the consolidation of the National Association of Securities Dealers (NASD) and the New York Stock Exchange (NYSE) regulatory board. It was established in 2007 to provide investor protection and promote market integrity in the United States.
+Financial Industry Regulatory Authority (FINRA)是美國金融業監管機構之一，成立於2007年，由國會通過的投資者保護法案所設立。
 
-FINRA is responsible for enforcing rules and regulations that govern the securities industry, including registration and certification of financial professionals, monitoring market activity, and investigating misconduct. It also operates the largest dispute resolution forum for investors and securities firms.
+FINRA旨在保護投資者及維護市場公平、透明和穩定。它負責監督和規範所有在美國證券市場進行業務的證券公司及其員工，以確保他們遵守聯邦證券法規和FINRA制定的規則。
 
-Examples of FINRA’s regulatory initiatives include:
-
-1. Licensing and Registration: FINRA requires all individuals and firms that participate in the securities industry to register with the organization and maintain appropriate qualifications and licenses.
-
-2. Market Surveillance: FINRA oversees market activity to identify and investigate suspicious trading and other misconduct.
-
-3. Investor Education: FINRA provides resources and educational programs to help investors make informed decisions about investing in the securities market.
-
-4. Enforcement: FINRA investigates potential violations of securities laws and regulations and takes disciplinary action against firms and individuals who have engaged in misconduct.
-
-Overall, FINRA plays an integral role in maintaining the integrity of the securities industry and protecting investors.   
+举例来说，若一个股票经纪人在买卖股票时未按照客户的要求执行订单或者未向客户提供足够的信息，导致客户的投资损失，那么客户可以向FINRA举报该经纪人的不当行为。如果FINRA调查发现，该经纪人确实存在违规行为，FINRA可以对其实施相应的制裁，包括罚款或撤销其从业许可。这种监督和监管机制，保护了投资者的权益，维护了市场的公平和稳定。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Financial Industry Regulatory Authority (FINRA)的重點
+以中文條列Financial Industry Regulatory Authority (FINRA)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -61,65 +54,85 @@ Overall, FINRA plays an integral role in maintaining the integrity of the securi
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Financial Industry Regulatory Authority (FINRA)的中等難度問題，並在後面列出答案
+以中文給我5題Financial Industry Regulatory Authority (FINRA)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the maximum amount of compensation a customer can receive from the Securities Investor Protection Corporation (SIPC) if their broker-dealer becomes insolvent?
-A. $100,000
-B. $250,000
-C. $500,000
-D. $1,000,000
+1. 關於FINRA的職責，下列何者錯誤？
+A. 監視證券交易所和經紀人的合規性
+B. 促進市場透明度和公正性
+C. 研究和制定證券行業的政策和規則
+D. 監管銀行和金融機構的活動
+
+答案：D
+
+2. 在證券行業，哪個機構負責發布投資者保護警示？
+A. SEC
+B. FINRA
+C. FDIC
+D. OCC
 
 答案：B
 
-2. What is the maximum amount an individual can contribute to a traditional IRA in 2021?
-A. $5,500
-B. $6,000
-C. $6,500
-D. $7,000
-
-答案：B
-
-3. What does the term "suitability" mean in the context of investment advice and recommendations?
-A. The investment is suitable for the client's risk tolerance and investment goals
-B. The investment has a high probability of generating high returns
-C. The investment is considered trendy in the industry
-D. The investment is recommended by the broker-dealer's top-performing financial advisor
+3. 如果經紀人未能遵守FINRA的規定，可能導致什麼樣的後果？
+A. 禁止其持有執照和執行證券交易
+B. 法律罰款和刑事指控
+C. 限制其在特定市場中操作
+D. 手續費的增加
 
 答案：A
 
-4. What is a margin call?
-A. A demand from a broker-dealer for additional funds or securities to be deposited into a margin account
-B. A request from a client to borrow money from their broker-dealer
-C. A notification from a broker-dealer that a client's account has reached its maximum allowable margin level
-D. A request from a broker-dealer for a client to reduce the size of their position in a particular security
+4. 負責FINRA監管的部門是什麼？
+A.投資者教育和咨詢部
+B.行政執行部
+C.市場監控部
+D.高級管理團隊
 
-答案：A
+答案：C
 
-5. What is a "wash sale"?
-A. The sale of a security at a loss, followed by the repurchase of the same or a substantially identical security within 30 days
-B. The sale of a security at a gain, followed by the repurchase of the same or a substantially identical security within 60 days
-C. The sale of a security at a loss, followed by the repurchase of a different security within 60 days
-D. The sale of a security at a gain, followed by the purchase of a different security within 30 days
+5. 關於FINRA的投資者教育計畫，下列哪個說法是錯的？
+A. 它提供免費的金融工具、網上課程和印刷資源。
+B. 它旨在提高投資者的風險意識和理財知識。
+C. 它僅限於專業人士使用和培訓
+D. 它提供投資者投資決策的信息和建議
 
-答案：A   
+答案：C   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Financial Industry Regulatory Authority (FINRA)的網路資料
+給我5篇Financial Industry Regulatory Authority (FINRA)的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "About FINRA." FINRA.org. Accessed August 28, 2021. https://www.finra.org/about-finra.
+1. FINRA - 維基百科
 
-2. "Investor Education." FINRA.org. Accessed August 28, 2021. https://www.finra.org/investors.
+維基百科的FINRA條目，介紹了FINRA的建立、背景、功能以及監管和調解機制等相關信息。
 
-3. "BrokerCheck." FINRA.org. Accessed August 28, 2021. https://www.finra.org/investors/brokercheck.
+https://zh.wikipedia.org/wiki/FINRA
 
-4. "Market Regulation." FINRA.org. Accessed August 28, 2021. https://www.finra.org/about/our-commitment/market-regulation.
+2. FINRA官方網站中文版
 
-5. "Rulemaking." FINRA.org. Accessed August 28, 2021. https://www.finra.org/about/our-commitment/rulemaking.   
+FINRA的官方網站提供了中文網頁，其中包括關於FINRA的簡介、規定和公告等資料，以及執行FINRA監管計劃的相關資訊。
+
+https://www.finra.org.cn/
+
+3. FINRA的監管範圍和職責 - Money Crashers
+
+“Money Crashers”網站的這篇文章詳細介紹了FINRA的監管範圍和職責，以及如何在投資市場中保護自己。
+
+https://www.moneycrashers.com/what-is-finra/
+
+4. FINRA的機構結構和功能 - Tuttle Wealth Management
+
+“Tuttle Wealth Management”的這篇文章提供了關於FINRA的機構結構和功能的詳細信息，並回答了投資者最關心的問題。
+
+https://tuttlewealth.com/finra-investment-industry-top-cop/
+
+5. 理解FINRA - Investopedia
+
+Investopedia的這篇文章闡述了如何理解FINRA、其在投資市場中扮演的角色，以及如何為自己的投資做好準備。
+
+https://www.investopedia.com/terms/f/finra.asp   
 

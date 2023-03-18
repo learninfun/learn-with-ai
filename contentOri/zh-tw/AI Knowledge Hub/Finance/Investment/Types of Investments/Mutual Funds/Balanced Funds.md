@@ -1,6 +1,9 @@
++++
+title = "平衡型基金"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Balanced Funds的問題
+給我5題Balanced Funds的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +20,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Balanced Funds並舉例
+以中文說明Balanced Funds並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,7 +35,7 @@ Balanced funds（平衡基金）是一種旨在平衡風險和報酬的投資組
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Balanced Funds的重點
+以中文條列Balanced Funds的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,7 +54,7 @@ Balanced funds（平衡基金）是一種旨在平衡風險和報酬的投資組
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Balanced Funds的中等難度問題，並在後面列出答案
+以中文給我5題Balanced Funds的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,7 +81,7 @@ Balanced funds（平衡基金）是一種旨在平衡風險和報酬的投資組
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Balanced Funds的網路資料
+給我5篇Balanced Funds的中文網路資料
 {{< /ask_chatgpt >}}
 
 

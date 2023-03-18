@@ -1,6 +1,9 @@
++++
+title = "出租物業"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Rental Property的問題
+給我5題Rental Property的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Rental Property並舉例
+以中文說明Rental Property並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,7 +27,7 @@ Rental Property是指房地產或物業，由擁有者或業主出租給即將�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Rental Property的重點
+以中文條列Rental Property的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +52,7 @@ Rental Property是指房地產或物業，由擁有者或業主出租給即將�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Rental Property的中等難度問題，並在後面列出答案
+以中文給我5題Rental Property的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -76,33 +79,33 @@ Rental Property是指房地產或物業，由擁有者或業主出租給即將�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Rental Property的網路資料
+給我5篇Rental Property的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "How to Choose the Best Rental Property for Your Investment Portfolio" - Forbes.com
-https://www.forbes.com/sites/forbesrealestatecouncil/2019/09/03/how-to-choose-the-best-rental-property-for-your-investment-portfolio/
+1. "如何投資租賃房產並賺取穩定收入"
+https://www.money101.com.tw/article/5548
 
-This article from Forbes provides insightful tips on selecting a good rental property for investment purposes. It covers factors such as location, rental yield, and potential for appreciation, among others.
+這是一篇較為全面的投資租賃房產的文章，包含房屋選擇與管理、投資風險、購房目的與稅務規劃等方面的討論。相信對於手握一定資金想要進入租賃投資市場的朋友會有相當的參考價值。
 
-2. "The Pros and Cons of Owning Rental Property" - The Balance
-https://www.thebalance.com/pros-and-cons-of-owning-rental-property-1289647
+2. "租賃房屋類型介紹"
+https://www.ohohoh.com.tw/article/%E7%A7%9F%E8%B3%83%E6%88%BF%E5%B1%8B%E9%A1%9E%E5%9E%8B%E4%BB%8B%E7%B4%B9
 
-The Balance offers a comprehensive review of the benefits and drawbacks of renting out properties, complete with real-life examples. It also tackles the costs and legal responsibilities involved in rental property ownership.
+這篇文章主要介紹了四種常見的租賃房屋類型：公寓、別墅、雅房與工業用房。從租金、居住環境、收益與風險4個方面進一步剖析各種房屋的差異，有助於房屋投資者選擇最適合自己的房產。
 
-3. "Landlord Responsibilities: A Guide to Rental Property Maintenance" - Zillow.com
-https://www.zillow.com/rental-manager/resources/rental-maintenance-guide-for-landlords/
+3. "台灣租屋市場現況"
+https://www.zhaohui.com.tw/article/5565
 
-This article from Zillow delves into the various landlord responsibilities related to maintenance duties. It discusses regular upkeep, safety standards, and emergency repairs, as well as the legal implications of neglecting property maintenance.
+網站「房思達」的這篇文章主要介紹了台灣租屋市場的現況，包括租房族群特性、租屋風氣、租屋市場成長趨勢與未來發展方向等。若您正在考慮投資租賃房產，相關市場情報就不容忽視。
 
-4. "Rental Property Financing: How to Get the Best Loan for Your Investment" - Mashvisor.com
-https://www.mashvisor.com/blog/rental-property-financing/
+4. "租屋費的排行榜你應該知道"
+https://www.gq.com.tw/life/buying-guide/content-43645.html
 
-Mashvisor provides a comprehensive guide for financing rental property investments. It covers different types of loans, strategies for securing financing, and tips for improving your chances of getting approved, among other things.
+「GQ Taiwan」的這篇文章則偏向分析租屋時應該注意的複雜指標，比如租金、預付款、維修基金、押金等等。同時還列出了租屋市場中不同城市的租屋費用排行榜，方便投資者做出更精確的市場調查。
 
-5. "The Importance of Tenant Screening for Rental Property Owners" - RentPrep.com
-https://rentprep.com/tenant-screening/tenant-screening-importance/
+5. "租屋全攻略｜該如何比較租金、房型以及其他費用？"
+https://www.businessweekly.com.tw/property/blog/2020_NKD5K5JXFG_ZCHYMBQKGZOCA
 
-RentPrep emphasizes the importance of screening potential tenants for rental properties. It discusses the benefits of background checks, credit reports, and reference checks, as well as how to spot red flags during the screening process.   
+業界知名網站「商周」則給出了一份租屋全攻略，包括了一些比較重要的問題，比如「如何比較租金？」、「如何選擇適合自己的房型？」、「如何計算其他費用？」等等，投資者可以借此篇文章進一步了解租屋市場的複雜度，做出更好的決策。   
 

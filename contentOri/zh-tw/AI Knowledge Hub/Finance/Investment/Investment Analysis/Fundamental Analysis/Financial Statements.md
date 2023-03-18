@@ -1,59 +1,66 @@
++++
+title = "財務報表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Financial Statements的問題
+給我5題Financial Statements的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the main components of a company's income statement, and how are they calculated?
-2. How does a company's balance sheet provide insight into its financial health, and what information can be gleaned from the key sections of this statement?
-3. How does the statement of cash flows differ from other financial statements, and what key metrics does it provide for assessing a company's liquidity?
-4. How can an investor use key ratios such as the price-to-earnings ratio or return on equity to evaluate the financial strength of a company?
-5. How might a company's financial statements change over time as it grows and evolves, and what are some common challenges that can arise in financial reporting as a result?   
+1. 財務報表的主要目的是什麼？
+2. 關於資產負債表，你瞭解哪些重要資訊？
+3. 現金流量表的作用是什麼？為什麼它對投資人和公司管理層很重要？
+4. 什麼是綜合損益表？它提供了哪些有用的信息？
+5. 什麼是財務比率？列舉幾個常用的財務比率並說明它們的意義。   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Financial Statements並舉例
+以中文說明Financial Statements並舉例
 {{< /ask_chatgpt >}}
 
 
 
 Financial statements是公司或企業向外界展示其財務狀況的文件或報表。此類文件或報表包括：
 
-1. 資產負債表（Balance Sheet）：它顯示公司的資產、負債和股東權益，並反映公司的凈值。
+1. 資產負債表（Balance Sheet）：它顯示公司的資產、負債和股東權益，並反映公司的淨值。
 
-2. 綜合損益表（Income Statement）：它顯示公司過去一年的營業收入和支出，以及凈利潤。
+2. 綜合損益表（Income Statement）：它顯示公司過去一年的營業收入和支出，以及淨利潤。
 
 3. 現金流量表（Cash Flow Statement）：它顯示公司過去一年的現金流入和流出情況，以及現金的變化情況。
 
 4. 股東權益變動表（Statement of Changes in Equity）：它顯示公司過去一年的股東權益變化情況。
 
-舉例來說，Apple公司的財務報表可以作為一個例子。在2021財年第二季度，Apple公司的資產負債表顯示其總資產為2939.6億美元，負債為1,899.2億美元，股東權益為1040.4億美元。在綜合損益表中，其營業收入為896.3億美元，營業成本為579.1億美元，凈利潤為235.2億美元。在現金流量表中，它顯示了Apple公司在2021財年第二季度的現金流入和流出情況，並呈現了其現金的變化情況。在股東權益變動表中，它顯示了Apple公司的股東權益在2021財年第二季度的變化情況。   
+舉例來說，Apple公司的財務報表可以作為一個例子。在2021財年第二季度，Apple公司的資產負債表顯示其總資產為2939.6億美元，負債為1,899.2億美元，股東權益為1040.4億美元。在綜合損益表中，其營業收入為896.3億美元，營業成本為579.1億美元，淨利潤為235.2億美元。在現金流量表中，它顯示了Apple公司在2021財年第二季度的現金流入和流出情況，並呈現了其現金的變化情況。在股東權益變動表中，它顯示了Apple公司的股東權益在2021財年第二季度的變化情況。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Financial Statements的重點
+以中文條列Financial Statements的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Income Statement - presents the revenue, expenses, and net income (or net loss) of a company for a specific period of time.
+財務報表主要包括以下三大類：
 
-2. Balance Sheet - shows the financial position of a company at a specific point in time, including its assets, liabilities, and equity.
+1. 資產負債表（Balance Sheet）：顯示公司某一時間點上的資產、負債及股東權益情況，表示公司的總資產、負債和股東權益的狀況。
 
-3. Cash Flow Statement - provides information on the inflows and outflows of cash and cash equivalents for a specific period of time.
+2. 損益表（Income Statement）：顯示公司某一期間內的收入、成本和淨利潤狀況，反映公司營業活動的收入和支出情況。
 
-4. Statement of Changes in Equity - records the changes in a company's equity over a specific period of time, including transactions related to share capital, retained earnings, and other comprehensive income.
+3. 現金流量表（Cash Flow Statement）：反映公司某一期間的營業、投資和籌資活動所產生的現金流量情況，反映公司的現金流入和流出狀況，以及現金流量的來源和用途。
 
-5. Notes to Financial Statements - provides additional information about the company's accounting policies, significant events, and other relevant details.
+財務報表的重點可以從以下方面來看：
 
-6. Auditor's Report - provides an opinion on whether the financial statements present a true and fair view of the company's financial position and performance, in accordance with accounting standards.
+1. 資產負債表：重點關注公司的總資產、負債和股東權益額度，以及各項資產和負債的組成情況。
 
-7. Management Discussion and Analysis - presents an analysis of the company's financial performance, including its strengths, weaknesses, opportunities, and threats.   
+2. 損益表：重點關注公司的營業收入、成本和淨利潤情況，以及各項費用和收入的組成情況。
+
+3. 現金流量表：重點關注公司的現金流入和流出情況，以及現金流量的來源和用途情況，特別關注公司營業、投資和籌資活動所產生的現金流情況。
+
+總體上，財務報表關注公司的資產、負債、股東權益、收入、支出，以及現金流量情況，目的是反映公司的整體經濟情況和經營活動水平。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Financial Statements的中等難度問題，並在後面列出答案
+以中文給我5題Financial Statements的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -80,20 +87,28 @@ Financial statements是公司或企業向外界展示其財務狀況的文件或
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Financial Statements的網路資料
+給我5篇Financial Statements的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-以下是5篇financial statements的網路資料：
+1. 【財報解析】什麼是財務報表？如何分析財務報表？
+鏈接：https://www.tusijie.cn/zhishi/Finance/6559.html
+內容簡介：這篇文章介紹了財務報表的基本概念和作用，以及如何通過財務報表進行財務分析。包括資產負債表、利潤表、現金流量表等財務報表的解析方法。
 
-1. Amazon.com Inc. 2019 Annual Report: https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/f693fca0-dc16-4d7e-8a33-a598b2ff2d2a.pdf
+2. 財報中三張報表都有哪些內容？怎麼算整合報表？把它講明白
+鏈接：https://www.sohu.com/a/364035391_458722
+內容簡介：這篇文章通過圖文並茂的方式，詳細說明了資產負債表、利潤表和現金流量表的組成和解讀方法。同時，也介紹了對這三張報表進行整合匯總的方法和注意事項。
 
-2. Coca-Cola 2019 Annual Report: https://www.coca-colacompany.com/content/dam/journey/us/en/private/fileassets/pdf/investors/2019-annual-report-on-form-10-k.pdf
+3. 【財報解讀】企業財報逐字逐句讀不清，教你如何學會財報分析！
+鏈接：https://www.jianshu.com/p/4e0dcb20f640
+內容簡介：這篇文章用通俗易懂的語言，介紹了財務報表的基礎知識和解讀方法，並提供了實際案例進行分析，讓讀者更加容易理解財務報表的內容和含義。
 
-3. Apple Inc. 2019 Annual Report: https://www.apple.com/newsroom/pdfs/FY19_Form_10-K.pdf
+4. 財務報表的解析方法、流程與技巧詳解
+鏈接：https://www.mg21.com/financial-statement.html
+內容簡介：這篇文章從財務報表的基本概念、解析方法和案例分析等方面進行了詳細介紹，包括如何進行財務比較分析、如何對財務指標進行評估等內容。
 
-4. Goldman Sachs Group Inc. 2019 Annual Report: https://www.goldmansachs.com/investor-relations/financials/current/2019-annual-report.pdf
-
-5. JPMorgan Chase & Co. 2019 Annual Report: https://www.jpmorganchase.com/content/dam/shared/documents/annual-report/fy2019-jpmc-annual-report.pdf   
+5. 財務報表三大報表—資產負債表、利潤表、現金流量表
+鏈接：https://www.365zhaiwang.com/zixun/zcgl/1978.html
+內容簡介：這篇文章通過簡練的語言，介紹了資產負債表、利潤表和現金流量表三張財務報表的基本原理和解讀方法，包括這些報表的組成元素、指標計算方法等細節。   
 

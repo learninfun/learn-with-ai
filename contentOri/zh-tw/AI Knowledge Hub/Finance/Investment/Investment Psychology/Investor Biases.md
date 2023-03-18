@@ -1,19 +1,22 @@
++++
+title = "投資者偏見"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investor Biases的問題
+給我5題Investor Biases的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the confirmation bias in investing and how can it affect investment decisions?
-2. How does the availability bias influence investor behavior and what steps can investors take to mitigate its impact?
-3. What is the sunk cost fallacy and how can it lead investors to make decisions that are not in their best interest?
-4. How does the herd mentality impact investment decisions and can it ever be beneficial?
-5. What behavioral biases can lead investors to overvalue certain types of investments, such as technology stocks, and how can investors avoid this tendency?   
+1. 投資者過度自信的偏見是什麼？它如何影響投資決策？
+2. 在投資決策中，羊群效應的偏見是什麼？它可能如何導致不理性的投資決策？
+3. 投資者過度關注當前事件的偏見是什麼？它如何影響投資者的長期投資決策？
+4. 在投資決策中，損失厭惡偏見是什麼？它可能如何影響投資資產的風險和回報？
+5. 投資者過度樂觀的偏見是什麼？它如何影響投資者對風險和回報的理解和期望？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investor Biases並舉例
+以中文說明Investor Biases並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -40,7 +43,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investor Biases的重點
+以中文條列Investor Biases的重點
 {{< /ask_chatgpt >}}
 
 
@@ -63,65 +66,50 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investor Biases的中等難度問題，並在後面列出答案
+以中文給我5題Investor Biases的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. Confirmation bias is the tendency to search for or interpret information in a way that confirms one's preexisting beliefs. Give an example of how this bias could affect an investor's decision-making process.
+1. 什麼是“項目沉淪偏見”？ 
 
-Answer: An investor may only seek out information that confirms their belief that a particular stock will perform well, rather than considering all relevant information and making an unbiased decision.
+答案：項目沉淪偏見是指在已經投資大量資源、時間和金錢的項目中，投資者繼續投資，即使證據表明項目已經失敗或獲利低於預期。
 
-2. Anchoring bias is the tendency to rely too heavily on the first piece of information encountered when making a decision. How could this bias affect an investor's ability to accurately value a company's stock?
+2. 什麼是“膏腴效應”？
+ 
+答案：膏腴效應是指投資者傾向於重視過去的表現而忽略未來的潛力，因此他們可能過度投資在表現良好的股票或投資組合上，而忽略具有潛力的新機會。
 
-Answer: An investor may anchor their valuation of a company's stock to a previous valuation, regardless of changes in the company's financial performance or market conditions.
+3. 什麼是“羊群效應”？
 
-3. Overconfidence bias is the tendency to overestimate one's abilities and knowledge. How might this bias affect an investor's willingness to take on high-risk investments?
+答案：羊群效應是指投資者跟隨其他投資者或市場趨勢進行投資，而不是基於個人研究和分析做出投資決策。
 
-Answer: An overconfident investor may be more likely to take on high-risk investments without fully understanding the potential downsides or believing that they can accurately predict market movements.
+4. 什麼是“自我肯定偏見”？
 
-4. Recency bias is the tendency to give greater weight to recent events or information when making decisions. How could this bias affect an investor's decision to buy or sell a stock?
+答案：自我肯定偏見是指投資者傾向於接受符合自己觀點的信息，並忽略反對自己觀點的證據。這可能會導致投資者做出不理性的決策和錯誤的投資。
 
-Answer: An investor may be more likely to buy a stock that has recently performed well, or sell a stock that has recently underperformed, without considering the long-term prospects for the company.
+5. 什麼是“過度信任偏見”？
 
-5. Loss aversion bias is the tendency to prefer avoiding losses over acquiring gains. How might this bias affect an investor's decision to hold onto a losing stock?
-
-Answer: An investor may hold onto a losing stock in order to avoid realizing a loss, even if it would be more beneficial to cut their losses and invest in a better-performing stock.   
+答案：過度信任偏見是指投資者對於某個人、團隊或機構過度信任，忽略該人或團隊的不足之處，並可能輕易地接受他們提出的不確定證據或建議。這樣可能導致投資者作出基於錯誤假設的投資決策。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investor Biases的網路資料
+給我5篇Investor Biases的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1.《Avoiding Investment Biases: A Guide To Better Decision Making》 by Investopedia
+1. 投資人偏見：了解投資決策中的主觀因素 - 華泰證券
+https://www.htsc.com.tw/htsckweb/educationTopicDetail.htm?seqNo=2974
 
-This Investopedia article covers several common biases that investors tend to exhibit, such as confirmation bias, the endowment effect, and overconfidence bias. The author provides actionable tips on how to recognize and overcome each bias, thereby making better investment decisions.
+2. 投資人認知偏誤與投資決策 - 鉅亨網
+https://news.cnyes.com/news/id/4520272
 
-Link: https://www.investopedia.com/articles/investing/012116/avoiding-investment-biases-guide-better-decisionmaking.asp
+3. 投資人的心理偏誤如何影響投資?- 巴菲特新聞網 
+https://buffettnews.blog/blog/406042664-5457-d2cb-6f48-901b275a45ea/post/97f41000-3151-f59b-7216-688fa6fcde09
 
-2.《Investor Biases And Behavioral Finance》 by Forbes
+4. 投資人常見的偏見有哪些？- 為什麼投資難
+https://www.cmoney.tw/notes/note-detail.aspx?nid=15761
 
-This Forbes article delves into the psychological factors that influence investor decisions, including the tendency to follow crowds, the fear of missing out, and the sunk cost fallacy. The author suggests that understanding these biases is critical to making rational investment decisions.
-
-Link: https://www.forbes.com/sites/advisor/2016/05/25/investor-biases-and-behavioral-finance/?sh=5be0147f5651
-
-3.《7 Common Investing Biases And How To Avoid Them》 by CNBC
-
-This CNBC article highlights several biases that investors tend to display, such as anchoring bias, herd mentality, and recency bias. The author includes examples of how each bias can affect investment decisions and offers strategies to overcome them.
-
-Link: https://www.cnbc.com/2019/02/09/7-common-investing-biases-and-how-to-avoid-them.html
-
-4.《How Do Investor Biases Impact Returns? A Look At The Evidence》 by Morningstar
-
-This Morningstar article examines the impact of common investor biases on portfolio returns, using empirical data to illustrate the effects of overconfidence, loss aversion, and other biases. The author suggests that avoiding these biases is crucial for achieving long-term investment success.
-
-Link: https://www.morningstar.com/articles/912498/how-do-investor-biases-impact-returns-a-look-at-the-evidence
-
-5. 《The Psychology Of Investment Biases》 by The Balance
-
-This article from The Balance explores how psychological biases can influence investment decisions, including the sunk cost fallacy, framing effect, and confirmation bias. The author provides real-world examples of how these biases can impact investment outcomes and offers advice on how to overcome them.
-
-Link: https://www.thebalance.com/the-psychology-of-investment-biases-4178855   
+5. 投資人的心理陷阱: 認知偏誤、情緒投資與羊群效應 - 華南永昌證券
+https://www.sinotrueland.com/ibank/insightDetails.sn?id=1334   
 

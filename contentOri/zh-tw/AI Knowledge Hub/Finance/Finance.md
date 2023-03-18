@@ -1,19 +1,22 @@
++++
+title = "財務"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Finance的問題
+給我5題Finance的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the difference between a stock and a bond? 
-2. What are the main sources of funding for a corporation? 
-3. What is the difference between a fixed and variable interest rate? 
-4. How do you calculate return on investment (ROI)? 
-5. What is the concept of present value and how is it used in finance?   
+1. 銀行如何透過債務證券化來籌措資金？
+2. 投資組合管理是什麼？如何透過投資組合管理最大化收益？
+3. 什麼是風險評估？在金融投資中，風險評估如何影響投資決策？
+4. 詳細說明銀行貸款的利率計算方式以及貸款一般需要哪些條件？
+5. 什麼是資產配置？如何透過資產配置達到投資組合的分散化風險控管效果？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Finance並舉例
+以中文說明Finance並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,7 +35,7 @@ Finance (金融) 是經濟學的一個分支，涵蓋了投資、資金管理、
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Finance的重點
+以中文條列Finance的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +51,7 @@ Finance (金融) 是經濟學的一個分支，涵蓋了投資、資金管理、
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Finance的中等難度問題，並在後面列出答案
+以中文給我5題Finance的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -75,28 +78,23 @@ Finance (金融) 是經濟學的一個分支，涵蓋了投資、資金管理、
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Finance的網路資料
+給我5篇Finance的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "10 essential finance websites for finding unbiased advice" - https://www.businessinsider.com/10-essential-finance-websites-2018-4
+1. 達人財經：https://m.drtwm.com.tw/
+達人財經是一個風格非常活潑且充滿正能量的網站，提供了從基礎理財、投資資訊、產業分析、金融政策解讀和財經趣聞等方面的內容，讓讀者從各個角度掌握財經知識。
 
-This article highlights 10 websites where individuals can find unbiased financial advice, ranging from general personal finance tips to more specialized topics like investing and retirement planning. Some of the websites recommended include NerdWallet, Investopedia, and The Motley Fool.
+2. MoneyDJ理財網：https://www.moneydj.com/
+MoneyDJ理財網是一個非常全面的財經網站，提供了台股報價、外匯報價、基金、股票等多種財經資訊，還有各種投資理財類文章，讓讀者獲得更深入的財經知識。
 
-2. "The importance of financial literacy" - https://www.forbes.com/sites/forbesfinancecouncil/2018/06/14/the-importance-of-financial-literacy/#2df8f3c7693a
+3. 財經新聞：https://money.udn.com/
+財經新聞是一個提供金融新聞、產業分析及各種財經資訊的網站，內容非常豐富，可以讓讀者瞭解到最新的財經動態。
 
-This Forbes article discusses the importance of financial literacy and its impact on individuals' financial well-being. The article highlights the benefits of understanding personal finance, including better debt management, increased savings, and improved investment decisions.
+4. 活力財經：https://www.vippro.com.tw/
+活力財經是一個體現全球市場新動態的財經網站，從股市、外匯、期貨、基金等各大金融市場，以及各種產業動態、跟新關注，讓讀者第一時間得知市場動態。
 
-3. "Cryptocurrency: What to know before investing" - https://www.usatoday.com/story/money/personalfinance/2018/10/31/bitcoin-cryptocurrency-investing-tips/1775831002/
-
-This USA Today article explores the world of cryptocurrency and provides tips on what individuals should know before investing. The article discusses the volatility of cryptocurrencies and advises readers to do their research before investing in any digital currencies.
-
-4. "The ABCs of investing" - https://www.investopedia.com/university/beginner/beginner5.asp
-
-This Investopedia article provides a comprehensive guide to investing, covering topics like stocks, bonds, mutual funds, and exchange-traded funds (ETFs). The article also includes tips on creating a diversified portfolio and managing investment risk.
-
-5. "Retirement planning: The basics" - https://www.cnbc.com/2018/09/28/retirement-planning-the-basics.html
-
-This CNBC article covers the basics of retirement planning, including factors to consider when preparing for retirement and tips on how to maximize retirement savings. The article also explores different retirement account options, such as 401(k)s and individual retirement accounts (IRAs), and provides advice on how to choose the right retirement plan for your needs.   
+5. 財會管理信息網：http://www.cfo8.com/
+財會管理信息網是專門針對管理會計、財務管理及企業管理領域的網站，為企業提供財務、會計、管理咨詢等服務，同時也提供了大量理財知識和實用技巧等相關文章，讓讀者了解財務管理的各個方面。   
 

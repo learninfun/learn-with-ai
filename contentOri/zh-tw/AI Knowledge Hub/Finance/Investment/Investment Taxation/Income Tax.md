@@ -1,6 +1,9 @@
++++
+title = "所得稅"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Income Tax的問題
+給我5題Income Tax的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Income Tax並舉例
+以中文說明Income Tax並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,71 +31,66 @@ Income Tax指的是對個人收入徵收的一種稅費，其目的在於提供�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Income Tax的重點
+以中文條列Income Tax的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Income Tax是由政府向个人或公司收取的税款，以支持国家的基本服务和建设。
+1. Income Tax是由政府向個人或公司收取的稅款，以支持國家的基本服務和建設。
 
-2. Income Tax根据不同的收入水平和税率进行分类。一般来说，税率随着收入增加而增加。
+2. Income Tax根據不同的收入水平和稅率進行分類。一般來說，稅率隨著收入增加而增加。
 
-3. 个人和公司需要根据政府规定的期限申报和缴纳税款。未按期缴纳税款可能会面临罚款或其他法律后果。
+3. 個人和公司需要根據政府規定的期限申報和繳納稅款。未按期繳納稅款可能會面臨罰款或其他法律後果。
 
-4. 政府根据收集的税款来提供公共服务，如教育、医疗、基建和社会保障，以及维护国家的国防和安全。
+4. 政府根據收集的稅款來提供公共服務，如教育、醫療、基建和社會保障，以及維護國家的國防和安全。
 
-5. 税务局可提供税务建议，协助纳税人确定优化税收策略的方法，以便最大限度地减少缴纳税款的数量。
+5. 稅務局可提供稅務建議，協助納稅人確定優化稅收策略的方法，以便最大限度地減少繳納稅款的數量。
 
-6. 政府会对那些逃税或滥用税收制度的个人和公司采取法律行动，以打击税收欺诈和非法活动。
+6. 政府會對那些逃稅或濫用稅收制度的個人和公司採取法律行動，以打擊稅收欺詐和非法活動。
 
-7. 税收法在不断变化和更新，因此纳税人应保持对税法的了解和意识，并定期更新税务申报和缴纳。   
+7. 稅收法在不斷變化和更新，因此納稅人應保持對稅法的瞭解和意識，並定期更新稅務申報和繳納。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Income Tax的中等難度問題，並在後面列出答案
+以中文給我5題Income Tax的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. John earned a total income of $60,000 last year. He deducted $10,000 in business expenses and $6,000 in retirement contributions. What is John's taxable income?
+1. 張先生今年年度的總收入為100萬元，所得稅率為20%。他應繳的所得稅額為多少元？
+答案：20萬元
 
-Answer: John's taxable income is $44,000. ($60,000 - $10,000 - $6,000)
+2. 女士年收入為50萬元，她有2個孩子，每個孩子的教育支出為5萬元。女士有哪些可以抵稅的項目？她的應繳稅金是多少？
+答案：女士可以抵稅的項目為子女教育支出，可以抵減10萬元。她應繳的所得稅為6萬元。
 
-2. Maria received a $2,000 bonus from her employer. How much will she owe in federal income tax assuming she is in the 22% tax bracket?
+3. 先生的年度總收入為160萬元，他有一筆捐款為10萬元，可以抵稅。所得稅率為25%。那麼他應繳的所得稅額是多少？
+答案：先生可以抵稅10萬元，應繳的所得稅額為37.5萬元。
 
-Answer: Maria will owe $440 in federal income tax. ($2,000 x 0.22)
+4. 股東在今年度仍然有股票收入。他的年收入為50萬元，其中15萬元是由於持有股票而得到的收入。所得稅率為20%。他應繳的所得稅是多少？
+答案：他可以申報折舊費用抵稅，抵減10%的持股收入，一共是1.5萬元。他應繳的所得稅是11.7萬元。
 
-3. Tom and Sarah are married and file jointly. They earned $100,000 in total income and have two children. What is their taxable income if they claim the standard deduction?
-
-Answer: Their taxable income is $69,250. ($100,000 - $24,800 (standard deduction) - $8,200 (two child tax credits))
-
-4. Alex is a self-employed graphic designer. He earned $50,000 in income and had $12,000 in business expenses last year. What is Alex's self-employment tax liability?
-
-Answer: Alex's self-employment tax liability is $7,065. ($50,000 x 0.9235 (self-employment tax rate) x 0.153 (Social Security tax rate))
-
-5. Jim received $5,000 in alimony payments last year. How much should he report as taxable income?
-
-Answer: Jim should report $5,000 as taxable income. Alimony payments received are considered taxable income by the recipient.   
+5. 小醫生賺了100萬元，他用200萬元購買器材。可以扣除多少稅？
+答案：小醫生可以扣掉器材買價的一半即100萬元 稅金為20%，他可以扣掉20萬元的所得稅。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Income Tax的網路資料
+給我5篇Income Tax的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Understanding Income Tax Basics" - Internal Revenue Service
-https://www.irs.gov/newsroom/understanding-income-tax-basics
+1. 國稅局 - 所得稅
+https://www.ntb.gov.tw/ch/home.jsp?id=2&parentpath=0,1
 
-2. "Income Tax Guide for Beginners" - NerdWallet
-https://www.nerdwallet.com/article/taxes/income-tax-guide-beginners
+2. 104人力銀行 - 關於所得稅
+https://www.104.com.tw/topic/income_tax
 
-3. "How to File Income Taxes" - TurboTax
-https://turbotax.intuit.com/tax-tips/general/how-to-file-income-taxes/L8rvUGqG7
+3. Momo財經 - 所得稅
+https://www.momofinance.com.tw/zh-tw/income-tax
 
-4. "10 Common Income Tax Deductions to Keep in Mind" - Investopedia
-https://www.investopedia.com/articles/taxes/08/income-tax-deductions.asp
+4. 信用合作社全國聯合社 - 所得稅
+https://www.tccu.org.tw/zh-tw/taxation/43/Income-Tax.aspx
 
-5. "Income Tax Preparation Checklist" - H&R Block
-https://www.hrblock.com/tax-center/irs/tax-preparation-checklist/   
+5. 經濟日報 - 所得稅專題
+https://money.udn.com/money/story/5599/4797735   
 

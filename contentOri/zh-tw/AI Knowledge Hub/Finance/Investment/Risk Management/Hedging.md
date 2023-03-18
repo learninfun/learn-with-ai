@@ -1,6 +1,9 @@
++++
+title = "避險"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Hedging的問題
+給我5題Hedging的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Hedging並舉例
+以中文說明Hedging並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +31,7 @@ Hedging是指用某种方法来降低投资风险，以防止潜在的损失。�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Hedging的重點
+以中文條列Hedging的重點
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +46,7 @@ Hedging是指用某种方法来降低投资风险，以防止潜在的损失。�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Hedging的中等難度問題，並在後面列出答案
+以中文給我5題Hedging的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -70,28 +73,23 @@ Hedging是指用某种方法来降低投资风险，以防止潜在的损失。�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Hedging的網路資料
+給我5篇Hedging的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Ways to Hedge Against Inflation" by Kiplinger's Personal Finance: https://www.kiplinger.com/investing/601629/ways-to-hedge-against-inflation
+1. 如何使用Hedging技巧在交易市場中保持風險控制？
+Hedging是一種用來減少投資風險的技巧，它的主要目的是降低投資風險，讓投資者在市場波動期間保持相對穩定的收益。使用Hedging技巧能使交易者挽回由損失所造成的損失，也能在未來保障投資組合的穩定。
 
-This article provides several investment options that can help investors protect themselves against inflation, including buying Treasury inflation-protected securities (TIPS), investing in high-quality dividend stocks, and owning real estate.
+2. 不是所有訴求都俱備Hedging的特質
+當投資者決定使用Hedging來降低風險時，必須明確了解訴求的特質。Hedging通常適用於風險較高或傳統投資組合是獨立風險的情況下，並且往往需要密切監控市場波動。
 
-2. "Hedging 101: What it is and how it works" by CNBC: https://www.cnbc.com/2019/12/30/hedging-101-what-it-is-and-how-it-works.html
+3. 購買衍生商品的利與弊：Hedging的成功案例
+一些投資者會考慮購買衍生商品，例如期貨或選擇權，以進行Hedging。這種方法可以減少交易風險，但同時也可能導致交易成本增加，因此投資者需要仔細考慮是否要進行這種投資。
 
-This article explains what hedging is and why investors may use it as a risk management strategy. It also provides examples of different types of hedging techniques, such as buying put options or shorting a stock.
+4. 實用的Hedging策略：應用市場風險管理技巧
+投資者可以使用多種不同的Hedging策略來降低風險，例如進行多頭/空頭對沖、使用期權或進行動態Hedging等。然而，每種策略都有其優點和缺點，投資者需要仔細分析市場、風險和自己的投資組合後才能做出適當的決策。
 
-3. "Why Airlines Hedge Fuel Prices" by Forbes: https://www.forbes.com/sites/adamhartung/2018/05/04/why-airlines-hedge-fuel-prices/?sh=23ecf0357107
-
-This article discusses why airlines use hedging to manage the risk of volatile fuel prices. It also explains how the hedging process works and the potential benefits and drawbacks of this strategy.
-
-4. "Hedging Your Investments Against Economic Downturns" by U.S. News & World Report: https://money.usnews.com/investing/stocks/articles/hedging-your-investments-against-economic-downturns
-
-This article provides advice on how investors can hedge their portfolios against economic downturns, such as using defensive stocks, hedging with options, and diversifying their holdings.
-
-5. "What is Currency Hedging and Why Do Companies Do It?" by The Balance: https://www.thebalance.com/what-is-currency-hedging-3306251
-
-This article explains what currency hedging is and why companies may use it to manage foreign exchange risk. It also discusses the different types of hedging techniques available, such as forward contracts and options.   
+5. 小心使用Hedging：風險管理的基本原則
+Hedging是一種重要的風險管理工具，但投資者需要注意其使用方式。例如，Hedging可能會增加交易成本，並且可能導致投資者做出過於保守的決策。因此，投資者需要重視風險管理的基本原則，包括適當的風險許可、合理的投資組合、更好的市場分析等等。   
 

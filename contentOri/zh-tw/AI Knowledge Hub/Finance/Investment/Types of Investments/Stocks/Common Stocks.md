@@ -1,19 +1,22 @@
++++
+title = "普通股"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Common Stocks的問題
+給我5題Common Stocks的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the current market price of the common stock?
-2. What is the annual dividend payout per share of the common stock?
-3. What is the company's earnings per share (EPS) for the last fiscal year?
-4. How has the common stock performed compared to the S&P 500 index over the last year?
-5. What is the market capitalization of the company's common stock?   
+1. Common Stocks是什麼？其特點為何？
+2. 如何分辨一個公司的Common Stocks是否有投資價值？
+3. 在選擇Common Stocks時應注意哪些因素？
+4. Common Stocks的投資報酬率如何計算？對投資者有何意義？
+5. Common Stocks的風險和機會之間如何平衡？如何做到風險控制和預期收益最大化？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Common Stocks並舉例
+以中文說明Common Stocks並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,83 +29,67 @@ Common stocks是公司股票的一種，代表著股東對公司所有權和經�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Common Stocks的重點
+以中文條列Common Stocks的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Common stocks represent ownership in a company and provide individuals with the right to participate in the company's growth and success. 
+1. Common Stocks是公司股票的一種，可作為公司的資本基礎，也是公司的所有權的象徵。
 
-2. Holders of common stocks have voting rights and can elect the board of directors and influence major decisions made by the company. 
+2. Common Stocks 的持有人有投票權，可以參與公司的決策，包括選舉董事會和通過重要決策。
 
-3. The value of common stocks can fluctuate based on a variety of factors, including the company's financial performance, industry trends, and overall market conditions. 
+3. Common Stocks 的持有人有權分享公司的盈利，包括普通股利和資本收益。
 
-4. Common stocks typically provide higher returns over the long term compared to other investments, but also come with higher risks. 
+4. Common Stocks 的價格是由供求關係和市場條件決定的，可能存在波動性和不確定性。
 
-5. Investors should carefully research and monitor the performance of the companies they invest in, as well as diversify their portfolio to minimize risk. 
-
-6. Dividends may be paid out to common stockholders, but this is not guaranteed and can vary based on the company's financial performance and at the discretion of the board of directors. 
-
-7. Investing in common stocks requires a long-term perspective and patience, as significant gains may take years to materialize. 
-
-8. Investors should also consider their overall investment goals and risk tolerance before deciding to invest in common stocks.   
+5. 即使公司經歷了困難，在破產時，持有 Common Stocks 的投資者也是最後要承擔風險的。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Common Stocks的中等難度問題，並在後面列出答案
+以中文給我5題Common Stocks的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. A company's common stock currently trades at $50 per share. The company has a P/E ratio of 20 and earnings per share of $2.50. What is the company's market capitalization?
+1. 某股票當前股價為100元，每季度支付股息2元，計算其股息收益率是多少？
+答案：股息收益率為8%，即每年股息收益為8元。
 
-Answer: The P/E ratio is calculated by dividing the stock price by the earnings per share: 50 / 2.5 = 20. Therefore, the company's market capitalization is 20 times its earnings per share: 20 x 2.5 = $50.
+2. 某公司在過去5年的營業額分別為100萬元、120萬元、130萬元、135萬元和140萬元，計算其平均年增長率是多少？
+答案：平均年增長率為8.49%。可以使用複合年增長率公式：((140/100)^(1/5)-1)*100%
 
-2. A company's common stock has a beta of 1.5 and a dividend yield of 3%. If the risk-free rate is 2.5% and the market risk premium is 8%, what is the company's expected return on equity?
+3. 某股票過去一年的股價波動率為20%，假設當前股票股價為50元，可以預計未來一年內其股票股價的範圍是多少？
+答案：未來一年內股價的範圍應該在40元至60元之間。可以使用公式：股價範圍=當前股價*exp(波動率*√時間)*[-1,1]。
 
-Answer: The expected return on equity can be calculated using the capital asset pricing model (CAPM): expected return = risk-free rate + beta x market risk premium. Therefore, the expected return on equity is: 2.5% + 1.5 x 8% = 14.5%.
+4. 某股票的市凈率為2，每股資產為10元，計算其股票當前股價是多少？
+答案：該股票的當前股價應為20元。市凈率=股價/每股淨資產，即股價=市凈率*每股淨資產。
 
-3. A company's common stock has an annual dividend of $2 per share and a current market price of $40 per share. If the dividend is expected to grow at a rate of 5% per year, what is the company's dividend yield?
-
-Answer: The dividend yield is calculated by dividing the annual dividend by the current market price: $2 / $40 = 0.05 or 5%. Since the dividend is expected to grow at a rate of 5% per year, the company's dividend yield is expected to remain at 5%.
-
-4. A company has issued 10 million shares of common stock and has a book value per share of $30. If the company's stock is currently trading at $35 per share, what is the company's market-to-book ratio?
-
-Answer: The market-to-book ratio is calculated by dividing the company's market price per share by its book value per share: $35 / $30 = 1.17. Therefore, the company's market-to-book ratio is 1.17.
-
-5. A company's common stock has a price of $100 per share and an annualized dividend of $3 per share. If the company's earnings per share are $10 and the P/E ratio is 15, what is the company's dividend payout ratio?
-
-Answer: The P/E ratio is calculated by dividing the stock price by the earnings per share: 100 / 10 = 15. Therefore, the company's earnings per share are $10. The dividend payout ratio is calculated by dividing the annual dividend by the earnings per share: $3 / $10 = 0.3 or 30%.   
+5. 某公司每股盈利為5元，市盈率為10，計算其股票當前股價是多少？
+答案：該股票的當前股價為50元。市盈率=股價/每股盈利，即股價=市盈率*每股盈利。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Common Stocks的網路資料
+給我5篇Common Stocks的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "What is a Common Stock?" by Investopedia
-Link: https://www.investopedia.com/terms/c/commonstock.asp
+1. Common Stocks - 什麼是普通股？如何投資？ (https://www.cmoney.tw/notes/note-detail.aspx?nid=15479)
 
-This article by Investopedia provides a detailed explanation of what a common stock is, how it differs from other types of stocks, how it works, and its advantages and disadvantages. It also covers common stock valuation, dividends, and voting rights.
+本文是一篇關於普通股的介紹與投資建議，透過簡單易懂的方式，讓讀者了解普通股的基本概念，以及如何透過投資普通股來獲得長期資本增值的收益。
 
-2. "Introduction to Common Stocks" by The Balance
-Link: https://www.thebalance.com/introduction-to-common-stocks-4165976
+2. Common Stocks - 如何分析風險與報酬？(https://www.inside.com.tw/article/17977-common-stocks)
 
-In this article, The Balance provides an overview of common stocks, including their characteristics, types, and their role in a diversified investment portfolio. The article also discusses the risks and rewards of common stock investing, as well as how to research and choose the best stocks to invest in.
+本文探討了普通股投資中的風險和報酬，介紹了如何透過分析投資風險，掌握普通股的價值，以及如何透過基本面和技術面分析，找出有潛力的股票。
 
-3. "Understanding Common Stock" by The Wall Street Journal
-Link: https://www.wsj.com/articles/SB10001424127887323977304578654852676520372
+3. 普通股 (https://www.moodysec.com/article/1127)
 
-This article by The Wall Street Journal covers the basics of common stock, including what it represents, how it differs from other stock classes, and how to invest in it. The article also touches on factors that affect stock prices, and the risks and benefits of investing in common stock.
+透過本文，讀者可以了解普通股的基礎知識，包括公司發行普通股的原因和方式、普通股的種類、以及普通股投資的風險與收益。
 
-4. "The Pros and Cons of Common Stock Investments" by SmartAsset
-Link: https://smartasset.com/investing/common-stocks-pros-and-cons
+4. Common Stocks - 投資策略與風險管理 (https://www.ithome.com.tw/voice/128699)
 
-This SmartAsset article examines the advantages and disadvantages of investing in common stocks. It includes information on how to evaluate stocks for potential returns, determining the right investing strategy, and how to reduce risk. It also covers diversification, dividends, and how taxes can affect stock investments.
+本文從投資者的角度出發，提供了一些關於普通股投資策略和風險管理的建議，包括如何透過分散投資和風險控制來降低風險，以及如何選擇適合自己的投資目標和風險承受能力。
 
-5. "Common Stocks vs. Preferred Stocks: What's the Difference?" by NerdWallet
-Link: https://www.nerdwallet.com/article/investing/common-stocks-vs-preferred-stocks
+5. Common Stocks - 投資普通股的必要性和重要性 (https://www.cbc168.com/cnews/2193064)
 
-This article from NerdWallet compares common stocks to preferred stocks and discusses their differences. It covers the various types of preferred stocks, their unique features, and the advantages and disadvantages of each type of stock. It also provides tips on how to decide which type of stock to invest in based on your investment goals and risk tolerance.   
+通過本文，讀者可以了解到投資普通股作為長期財富增值的必要性和重要性，以及如何透過投資普通股來對抗通貨膨脹等因素。此外，本文還提供了一些投資普通股的建議和注意事項。   
 

@@ -1,19 +1,22 @@
++++
+title = "國庫券"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Treasury Bonds的問題
+給我5題Treasury Bonds的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are Treasury Bonds?
-2. What is the process for purchasing Treasury Bonds?
-3. How are the interest rates on Treasury Bonds determined?
-4. What is the maturity date of a Treasury Bond?
-5. How do Treasury Bonds differ from other types of government securities?   
+1. 什麼是國庫券？和國債有什麼區別？
+2. 國債與國庫券的收益率有何不同？投資者該如何選擇？
+3. 土地房屋稅公債是什麼？投資風險有哪些？
+4. 到期日與面值為何？如何計算國債與國庫券的價格？
+5. 在目前的經濟環境下，投資國債或國庫券是否穩健可靠？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Treasury Bonds並舉例
+以中文說明Treasury Bonds並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +31,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Treasury Bonds的重點
+以中文條列Treasury Bonds的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,7 +54,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Treasury Bonds的中等難度問題，並在後面列出答案
+以中文給我5題Treasury Bonds的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,28 +81,23 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Treasury Bonds的網路資料
+給我5篇Treasury Bonds的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "What are Treasury Bonds?" from Investopedia: https://www.investopedia.com/terms/t/treasurybond.asp
+1. 國庫券網路發行平台-香港金管局 
+https://www.hkma.gov.hk/banking-and-finance/systems-and-infrastructure/market-infrastructure-and-payment-systems/treasury-market-operations/national-debt-securities-and-government-bonds/hkma-npfis/
 
-This article provides a basic overview of what Treasury Bonds are, how they work, and why investors might consider investing in them. It also covers the different types of Treasury Bonds available to investors.
+2. 美國國庫券的簡介與理解 - 知乎
+https://zhuanlan.zhihu.com/p/22858406
 
-2. "How to Buy Treasury Bonds" from The Balance: https://www.thebalance.com/how-to-buy-treasury-bonds-4173331
+3. 寶典：國庫券的概念、特點及發行方式 - 中金閱讀
+https://cjreader.cj.com.cn/reader/showdetail.jsp?bookid=3140207&brand=songshuju
 
-This article provides a step-by-step guide for investors interested in buying Treasury Bonds. It covers the different ways to purchase Treasury Bonds, the risks and benefits associated with investing in them, and how to calculate yields.
+4. 境外國庫券簡介 - 中國銀行
+https://www.boc.cn/fimarkets/201411/t20141126_4229761.html
 
-3. "Are Treasury Bonds a Good Investment?" from The Motley Fool: https://www.fool.com/investing/2019/03/05/are-treasury-bonds-a-good-investment.aspx
-
-This article explores the pros and cons of investing in Treasury Bonds. It covers topics such as their safety as an investment, the impact of interest rates on bond prices, and how Treasury Bonds fit into a diversified investment portfolio.
-
-4. "What are the Risks and Benefits of Treasury Bonds?" from CNBC: https://www.cnbc.com/2019/09/07/what-are-the-risks-and-benefits-of-treasury-bonds.html
-
-This article provides an in-depth look at the risks and benefits associated with investing in Treasury Bonds. It covers topics such as interest rate risk, inflation risk, and how to assess the potential returns on an investment in these bonds.
-
-5. "Treasury Bonds vs. Treasury Bills vs. Treasury Notes" from The Balance: https://www.thebalance.com/treasury-bonds-vs-treasury-bills-vs-treasury-notes-4173315
-
-This article compares and contrasts the different types of Treasury securities, including Treasury Bonds, Treasury Bills, and Treasury Notes. It covers topics such as their durations, yields, and how to incorporate them into a well-diversified investment portfolio.   
+5. 國庫券市場的發展與趨勢 - 中國證券報
+http://finance.jrj.com.cn/2018/03/12162524447450.shtml   
 

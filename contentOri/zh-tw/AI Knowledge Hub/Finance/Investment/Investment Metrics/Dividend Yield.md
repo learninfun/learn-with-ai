@@ -1,19 +1,22 @@
++++
+title = "股息收益率"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dividend Yield的問題
+給我5題Dividend Yield的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the definition of dividend yield?
-2. How do you calculate dividend yield?
-3. How does the dividend yield of a stock affect its investment potential?
-4. Can a company have a high dividend yield and still be considered a risky investment?
-5. How does the maturity of a company's dividend history impact its dividend yield?   
+1. 什麼是股息收益率，以及它對投資者有什麼意義？
+2. 如何計算股息收益率，以及該指標如何影響股票的價值？
+3. 股息收益率是怎樣影響股票的風險和報酬？
+4. 哪些因素會影響某一股票的股息收益率？
+5. 股息收益率高的公司或行業是否總是更具吸引力？為什麼？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dividend Yield並舉例
+以中文說明Dividend Yield並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,7 +27,7 @@ Dividend Yield是指股票的股息收益率，它是用股息金额除以股票
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dividend Yield的重點
+以中文條列Dividend Yield的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +44,7 @@ Dividend Yield是指股票的股息收益率，它是用股息金额除以股票
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dividend Yield的中等難度問題，並在後面列出答案
+以中文給我5題Dividend Yield的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -68,28 +71,38 @@ Answer: 7%（過去五年的股息總和 ÷ (5 x 股票價格) = (1.5 + 1.75 + 2
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Dividend Yield的網路資料
+給我5篇Dividend Yield的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Dividend Yield Definition & Example." Investopedia, Investopedia, 23 Mar. 2021, www.investopedia.com/terms/d/dividendyield.asp.
+1. Dividend Yield是什麼？如何計算？ - 財團法人證券投資人教育基金會
 
-This article from Investopedia defines dividend yield and gives an example of how to calculate it. It also explains how changes in a company's stock price can affect the yield.
+網頁連結：https://www.sfb.org.tw/Product/Detail/1140
 
-2. "Why Dividend Yield Matters." The Balance, The Balance, 4 Feb. 2021, www.thebalance.com/what-is-dividend-yield-and-why-does-it-matter-4171883.
+該文章詳細介紹了Dividend Yield是什麼，它的計算方式以及一些相關知識。此外，還提供了一些例子，以幫助讀者更好地理解Dividend Yield和其意義。
 
-The Balance explains why dividend yield is important to investors, and provides an overview on how to calculate it. It also discusses some of the pros and cons of investing in dividend-paying stocks.
+2. 如何投資高股息率股票？Dividend Yield淺談 - 富邦證券
 
-3. "Understanding Dividend Yield Calculations." NerdWallet, NerdWallet, 11 Jan. 2021, www.nerdwallet.com/article/investing/dividend-yield.
+網頁連結：https://www.fubon.com/securities/investor_area/investment_column/data/992
 
-NerdWallet's article on dividend yield explains how investors can use this metric to evaluate the value of an investment in dividend-paying stocks. It also provides examples of how to calculate dividend yield.
+該文章講解了如何投資高股息率股票，並對Dividend Yield進行了淺談。它列出了高股息率股票的一些優點和風險，並提供了一些投資此類股票的技巧和策略。
 
-4. "Dividend Yield Ratios Explained." Money Zebra, Money Zebra, 7 Feb. 2021, www.moneyzebra.com/dividend-yield-ratios-explained.
+3. 高分股息的公司有好股嗎？Dividend Yield的觀念介紹 - Cheers投資理財
 
-Money Zebra's article on dividend yield ratios gives a step-by-step explanation of how to calculate this important metric, and why it matters to investors. It also provides tips for choosing the best dividend-paying stocks.
+網頁連結：https://www.cheers.com.tw/article/article.action?id=5079
 
-5. "A Guide to Dividend Yield: What It Is, How It Works, and What to Look For." The Motley Fool, The Motley Fool, 27 Feb. 2021, www.fool.com/investing/stock-market/research/dividend-yield/.
+該文章簡要介紹了Dividend Yield的觀念，並講解了高分股息的公司有好股嗎的問題。它還提供了一些投資此類股票的注意事項和建議。
 
-The Motley Fool's guide to dividend yield provides an in-depth explanation of the concept and how investors can use it to evaluate stocks. It also provides tips on how to choose the best dividend-paying stocks for your portfolio.   
+4. 股息率 Dividend Yield 如何計算？投資人必看教學 - 理財星球
+
+網頁連結：https://www.starfinance.com.tw/education/investing-news/4233.html
+
+該文章提供了Dividend Yield的計算方法和說明，並附有一些例子。它講解了Dividend Yield的意義和價值，並提供了一些股票投資者應該知道的事項。
+
+5. Dividend Yield 股息率與獲利率 P/E Ratio - 高收益投資人
+
+網頁連結：https://www.highdividendstock.net/2017/11/dividend-yield-pe-ratio.html
+
+該文章講解了Dividend Yield和獲利率P/E Ratio的區別及其意義。它提供了一些實用的投資技巧和策略，並介紹了一些高收益股票的相關知識。   
 

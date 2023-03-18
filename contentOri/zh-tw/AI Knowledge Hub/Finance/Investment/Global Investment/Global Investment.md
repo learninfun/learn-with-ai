@@ -1,23 +1,22 @@
++++
+title = "全球投資"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Global Investment的問題
+給我5題Global Investment的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the benefits and risks of investing in global markets compared to local markets?
-
-2. What are some strategies for diversifying a portfolio with global investments?
-
-3. How do political and economic factors impact global investment opportunities?
-
-4. What are the current trends in global investment, and how can investors stay informed about them?
-
-5. How can companies with global operations manage risk and optimize returns on their investments?   
+1. 你認為全球投資市場目前面臨哪些最大的挑戰？ 
+2. 全球不同區域的投資風險如何不同，如何找到最適合自己的投資策略？ 
+3. 全球投資市場的長期趨勢是什麼，對未來的投資決策有何影響？ 
+4. 如何選擇全球投資產品，什麼因素是需要考慮的？ 
+5. 全球投資中的風險管理策略是什麼，如何在投資過程中有效實施？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Global Investment並舉例
+以中文說明Global Investment並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +27,7 @@ Global Investment可以理解為跨國投資，即投資者將資金投入到全
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Global Investment的重點
+以中文條列Global Investment的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,60 +50,50 @@ Global Investment可以理解為跨國投資，即投資者將資金投入到全
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Global Investment的中等難度問題，並在後面列出答案
+以中文給我5題Global Investment的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the benefits and risks of investing in emerging markets?
+1. 什麼是投資風險？
+答：根據投資所帶來的損失程度和風險大小，投資風險是衡量投資所面臨的不確定性和損失的指標。
 
-答案：Benefits of investing in emerging markets include high growth potential, diversification of a portfolio, and exposure to new industries and markets. Risks include political instability, economic volatility, and regulatory uncertainty.
+2. 什麼是股息？
+答：股息是指股票持有人根據其持有的股份所分配的公司收益。
 
-2. How do currency exchange rates affect global investments?
+3. 什麼是投資回報率？
+答：投資回報率是指投資所產生的收益，除以投資所花費的成本，再乘以100，所得到的百分比。
 
-答案：Currency exchange rates can impact the returns of global investments. Appreciation of a foreign currency relative to the investor's currency can increase returns, while depreciation can decrease returns. Currency risk can be hedged using financial instruments such as forward contracts or currency options.
+4. 什麼是投資組合？
+答：投資組合是指同時持有多種投資資產，以及不同風險等級的投資，以達到投資風險和回報的最佳平衡。
 
-3. What are the advantages of investing in mutual funds or exchange-traded funds (ETFs) for global investments?
-
-答案：Advantages of investing in mutual funds or ETFs for global investments include diversification, professional investment management, ease of access and trading, and lower costs compared to investing directly in individual stocks.
-
-4. How do global events such as political elections or natural disasters affect global investments?
-
-答案：Global events such as political elections or natural disasters can have a significant impact on global investments. Political instability or policy changes can affect the economy and companies in a particular region or country. Natural disasters can cause disruption to supply chains and decrease consumer spending. Investors should be mindful of these risks and consider them when making investment decisions.
-
-5. What are the key differences between investing in developed markets versus emerging markets?
-
-答案：Developed markets typically have a stable political environment, established financial infrastructure, and mature industries, and therefore offer lower risks but potentially lower returns. Emerging markets have higher growth potential but carry higher risks due to political instability, economic volatility, and lack of regulations. Investors should consider their risk tolerance and investment objectives when deciding between the two markets.   
+5. 什麼是共同基金？
+答：共同基金是由多個投資者組成的基金，集合投資人的資金以投資於股票、債券等各種資產，由專業基金經理負責管理。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Global Investment的網路資料
+給我5篇Global Investment的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Investopedia: Global Investment Definition and Overview
-https://www.investopedia.com/terms/g/globalinvestment.asp
+1. 《全球投資的優勢、風險與策略》 (https://www.moneydj.com/KMDJ/Discussion/FundManagerDiscuss/FM000007.aspx?FID=38) 
 
-Investopedia provides a detailed overview of global investment, covering key topics such as the benefits and risks of investing in foreign markets, the types of instruments available to investors, and strategies for managing global investments. The article also delves into the importance of diversification when investing globally, as well as the economic and political factors that can impact global markets.
+這篇文章介紹了全球投資的優點、風險以及投資策略，探討了在全球化經濟環境下如何選擇投資標的，以及如何進行風險控制。 
 
-2. Forbes: Global Investing Strategies
-https://www.forbes.com/sites/advisor/2019/04/01/global-investing-strategies/?sh=51915b2f30f1
+2. 《全球投資風險管理的重要性》 (https://www.cbc.gov.tw/public/Attachment/04181345451.pdf) 
 
-This Forbes article outlines various strategies for investing globally, including investing in overseas stocks and bonds, using exchange-traded funds (ETFs) and mutual funds, and investing in emerging markets. The article also highlights the importance of conducting thorough research before investing in foreign markets and staying up-to-date on global economic and political developments.
+這篇文章探討了在全球投資中如何進行風險管理，介紹了不同風險管理工具和策略，以及如何運用投資組合管理工具進行風險分散。 
 
-3. The Balance: How to Invest in Global Markets
-https://www.thebalance.com/how-to-invest-in-global-markets-4175636
+3. 《全球化時代下的投資策略》 (https://blog.udn.com/iglobe/7068406) 
 
-The Balance provides a step-by-step guide for investors looking to invest in global markets. The article covers the various types of global investments available to investors, such as foreign stocks and bonds, mutual funds, and ETFs, as well as the risks and benefits associated with each investment type. The article also includes tips for conducting research and managing a global investment portfolio.
+這篇文章介紹了全球化環境下的投資策略，包括如何挑選全球投資標的、如何分散風險、如何運用衍生性工具進行投資等。 
 
-4. CNBC: Global Investing
-https://www.cnbc.com/global-investing/
+4. 《如何在全球市場中獲得投資收益》 (https://www.fx168.com/strategy/20180131/662407.html) 
 
-CNBC’s global investing page provides the latest news and analysis on global economic and market developments, as well as advice from experts on global investment strategies. The site features articles and videos that cover a wide range of topics related to global investing, from emerging markets and real estate to cryptocurrencies and sustainable investing.
+這篇文章介紹了在全球市場中如何運用技術分析和基本面分析進行投資，以及如何合理選擇投資標的，控制風險，實現投資收益。 
 
-5. Investopedia: Top Global ETFs to Watch in 2021
-https://www.investopedia.com/top-global-etfs-to-watch-in-2021-5090608
+5. 《全球化趨勢下的投資機會與風險》 (https://www.ctci.org.tw/news/news_content.asp?cid=405) 
 
-Investopedia highlights some of the top global ETFs to watch in 2021, based on their investment objectives, performance history, and expense ratios. The article discusses the benefits of using ETFs for global investing, such as diversification and lower transaction costs, and provides a detailed analysis of the featured ETFs, including their holdings, performance, and risks.   
+這篇文章探討了全球化趨勢下的投資機會和風險，介紹了全球市場的發展趨勢和機會，以及如何運用投資組合管理工具進行風險控制。   
 

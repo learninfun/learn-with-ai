@@ -1,6 +1,9 @@
++++
+title = "SIMPLE IRA"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題SIMPLE IRAs的問題
+給我5題SIMPLE IRAs的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +20,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明SIMPLE IRAs並舉例
+以中文說明SIMPLE IRAs並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@ SIMPLE IRA (Savings Incentive Match Plan for Employees) 是一種簡單的退休
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列SIMPLE IRAs的重點
+以中文條列SIMPLE IRAs的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,50 +55,45 @@ SIMPLE IRA (Savings Incentive Match Plan for Employees) 是一種簡單的退休
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題SIMPLE IRAs的中等難度問題，並在後面列出答案
+以中文給我5題SIMPLE IRAs的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the contribution limit for SIMPLE IRA plans in 2021?
-Answer: The contribution limit for SIMPLE IRA plans in 2021 is $13,500.
+1. SIMPLE IRA計劃允許每年最高貢獻多少錢？
+答案：2021年最高貢獻額為13,500美元。
 
-2. Can an employer match employee contributions in a SIMPLE IRA plan?
-Answer: Yes, an employer can choose to match employee contributions up to a certain percentage of their salary, but the employer contribution cannot exceed 3% of the employee's compensation.
+2. SIMPLE IRA計劃的擁有者可以在什麼情況下提前取款而不需要付罰款？
+答案：在擁有者年滿59.5歲，或者出現重大疾病、殘疾、失業、財務困難等特殊情況下。
 
-3. Is there a penalty for withdrawing money from a SIMPLE IRA before age 59 ½?
-Answer: Yes, if you withdraw money from a SIMPLE IRA before age 59 ½, you will be subject to a 10% early withdrawal penalty, in addition to paying regular income tax on the distribution.
+3. SIMPLE IRA計劃可以用於哪些投資？ 
+答案：可以投資股票、債券、共同基金等金融產品。
 
-4. Can you contribute to both a SIMPLE IRA and a traditional IRA in the same year?
-Answer: Yes, you can contribute to both a SIMPLE IRA and a traditional IRA in the same year, but the total contribution amount cannot exceed the annual contribution limit for both accounts.
+4. 哪些公司可以為員工提供SIMPLE IRA計劃？
+答案：擁有100名以下員工的公司或自營職業的個體經營者可以為員工提供SIMPLE IRA計劃。
 
-5. Are there any required minimum distributions (RMDs) for SIMPLE IRA plans?
-Answer: Yes, starting at age 72, you are required to take RMDs from your SIMPLE IRA plan each year. The amount of the RMD is based on your account balance and life expectancy.   
+5. SIMPLE IRA計劃中的貢獻有什麼種類？
+答案：貢獻分為兩種類型，一種是公司匹配的貢獻，另一種是員工自己選擇貢獻的額度，通常這個額度會是員工的工資的一定比例。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇SIMPLE IRAs的網路資料
+給我5篇SIMPLE IRAs的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. SIMPLE IRA Overview: An Introduction to Retirement Savings
-https://www.nerdwallet.com/article/investing/simple-ira
-This article provides a brief overview of SIMPLE IRAs, including eligibility requirements, contribution limits, and tax implications.
+1. 什麼是SIMPLE IRA退休儲蓄計劃？
+https://i.todaylife.news/article/BPezgXY
 
-2. SIMPLE IRA Plans for Small Businesses
-https://www.irs.gov/retirement-plans/simple-ira-plan-for-small-business
-This website from the IRS covers the basics of setting up a SIMPLE IRA plan for small businesses, including the requirements and steps involved.
+2. 為什麼小型企業應該考慮使用SIMPLE IRA？
+https://www.money-zine.com/financial-planning/retirement/simple-ira/
 
-3. SIMPLE IRA vs. 401(k) Plans: What are the Differences?
-https://investor.vanguard.com/small-business-retirement-plans/simple-ira-vs-401k
-This article from Vanguard compares SIMPLE IRAs and 401(k) plans, covering key differences and considerations to help you choose the right retirement plan for your needs.
+3. SIMPLE IRA比傳統IRA更適合哪些群體？
+https://www.investopedia.com/articles/retirement/08/simple-ira.asp
 
-4. The Pros and Cons of a SIMPLE IRA for Retirement Savings
-https://www.investopedia.com/articles/retirement/08/simple-ira-pros-cons.asp
-This Investopedia article provides an in-depth look at the advantages and disadvantages of SIMPLE IRAs, including how they compare to other types of retirement plans.
+4. SIMPLE IRA的貢獻限制和規則是什麼？
+https://www.thebalance.com/simple-ira-contributions-and-rules-3193137
 
-5. How to Maximize Your SIMPLE IRA Contributions
-https://www.fool.com/investing/general/2015/06/13/how-to-maximize-your-simple-ira-contributions.aspx
-This article from Motley Fool provides tips for maximizing your SIMPLE IRA contributions, including strategies for contributing regularly and taking advantage of catch-up contributions if you're over 50 years old.   
+5. 如何為您的小型企業創建一個SIMPLE IRA計劃
+https://www.fidelity.com/building-savings/small-business/ira-retirement/simplified-employee-pension   
 

@@ -1,19 +1,22 @@
++++
+title = "投資指標"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment Metrics的問題
+給我5題Investment Metrics的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the difference between ROI (Return on Investment) and ROE (Return on Equity)? 
-2. How does the Sharpe ratio measure the risk-adjusted performance of an investment? 
-3. What are the limitations of using only one investment metric to evaluate the performance of a portfolio? 
-4. How is the net asset value (NAV) used to determine the value of a mutual fund or ETF? 
-5. How can the P/E ratio be used to evaluate the attractiveness of a stock investment?   
+1. 什麼是總回報率（Total Return）？如何計算？
+2. 該如何解釋投資組合的波動率（Volatility）指標？
+3. 什麼是夏普比率（Sharpe Ratio）？如何使用它來評估投資組合的表現？
+4. 如何計算股票的本益比（P/E Ratio）？這個指標對投資決策有何影響？
+5. 什麼是資本充足率（Capital Adequacy Ratio）？這個指標與銀行業的投資經營有何關聯？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment Metrics並舉例
+以中文說明Investment Metrics並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@ Investment Metrics是一種用於評估投資表現和風險的統計指標。�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment Metrics的重點
+以中文條列Investment Metrics的重點
 {{< /ask_chatgpt >}}
 
 
@@ -69,7 +72,7 @@ Investment Metrics是一種用於評估投資表現和風險的統計指標。�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment Metrics的中等難度問題，並在後面列出答案
+以中文給我5題Investment Metrics的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -91,38 +94,33 @@ Investment Metrics是一種用於評估投資表現和風險的統計指標。�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment Metrics的網路資料
+給我5篇Investment Metrics的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Investopedia: Investment Metrics Overview
+1. 投資指標 - 網路文章
+https://www.money101.com.tw/subject/investment
 
-https://www.investopedia.com/terms/i/investmentmetrics.asp
+本篇文章介紹了日常生活中所聽過的基本投資指標，包括 EPS、本益比、股息率、股價淨值比等。
 
-Investopedia is a reliable source of information for investment-related topics. This article provides an overview of investment metrics, which are used by investors to evaluate investment opportunities. The article defines investment metrics and provides examples of different types such as return on investment (ROI), net present value (NPV), and internal rate of return (IRR). It also discusses the importance of using multiple metrics to get a more comprehensive view of an investment opportunity.
+2. 投資指標：讓您透視企業真正的價值 - 網路文章
+https://www.get.com.tw/article/5600-investing-metrics/
 
-2. Forbes: Top 5 Metrics to Measure Investment Performance
+本篇文章介紹了公司財務報表中的基本投資指標，包括EPS、PE、ROE、ROA等，並詳細解釋這些指標的意義。
 
-https://www.forbes.com/sites/forbesfinancecouncil/2019/09/23/top-5-metrics-to-measure-investment-performance/#7aebc8411d85 
+3. 投資指標介紹 - 網路文章
+https://twstock4u.com/helpful_info/helpful_info01.php
 
-Forbes is a trusted news and information platform for finance professionals. This article provides an in-depth analysis of the top five metrics used to measure investment performance: return on investment (ROI), internal rate of return (IRR), net present value (NPV), payback period, and profitability index (PI). The article explains each metric in detail and provides examples of how they are used in investment analysis.
+本篇文章詳細介紹了股票投資中常用的指標，包括基本面和技術面指標，讓讀者能夠更加熟悉投資市場。
 
-3. The Balance: What Are Investment Performance Metrics and Why Are They Important?
+4. 投資指標應該怎麼看？- 網路文章
+https://www.readr.tw/post/20257
 
-https://www.thebalance.com/investment-performance-metrics-4169841
+本篇文章通過個案分析，詳細介紹了一些基本投資指標的解讀方法和技巧，幫助讀者更好地了解股票市場。
 
-The Balance is a trusted source of financial advice and education. This article explains what investment performance metrics are and why they are important to investors. It also provides examples of different metrics and explains how each one is used to measure investment performance. The article emphasizes the importance of using metrics to evaluate investments over time and adjust investment strategy accordingly.
+5. 投資指標大全 - 網路文章
+https://www.gamebase.com.tw/forum/88618/topic/96276848/1
 
-4. Morningstar: Investment Performance Metrics Explained
-
-https://www.morningstar.com/articles/866269/investment-performance-metrics-explained
-
-Morningstar is a leading provider of investment research and analysis. This article provides an in-depth explanation of investment performance metrics, including return on investment (ROI), net present value (NPV), and internal rate of return (IRR). The article also discusses some of the limitations of investment metrics and how they can be manipulated to make investments appear more attractive than they really are.
-
-5. Motley Fool: The 3 Most Important Metrics in Investing
-
-https://www.fool.com/investing/2019/12/29/the-3-most-important-metrics-in-investing.aspx
-
-The Motley Fool is a popular investment advice platform that provides financial news, analysis, and education. This article identifies the three most important metrics in investing: return on investment, price-to-earnings ratio (P/E), and dividend yield. The article explains each metric and provides examples of how to use them in investment analysis. It also emphasizes the importance of looking beyond metrics and taking into account other factors such as industry trends and a company's competitive position.   
+本篇文章介紹了各種不同的投資指標，包括財務報表指標、技術面指標、市場統計指標等，讓讀者可以有更全面的了解。   
 

@@ -1,6 +1,9 @@
++++
+title = "算法交易"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Algorithmic Trading的問題
+給我5題Algorithmic Trading的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Algorithmic Trading並舉例
+以中文說明Algorithmic Trading並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@ Algorithmic Trading，也叫做自動交易或黑盒交易，是利用計算機�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Algorithmic Trading的重點
+以中文條列Algorithmic Trading的重點
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +56,7 @@ Algorithmic Trading，也叫做自動交易或黑盒交易，是利用計算機�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Algorithmic Trading的中等難度問題，並在後面列出答案
+以中文給我5題Algorithmic Trading的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -180,33 +183,18 @@ profit, threshold = optimize_strategy(data, 1, 0.1, 10)
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Algorithmic Trading的網路資料
+給我5篇Algorithmic Trading的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Algorithmic Trading: How to Get Started - Investopedia 
-https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp
+1. 淺談 Algorithmic Trading（https://hk.finance.yahoo.com/news/%E6%B7%BA%E8%AB%87-algorithmic-trading-033007609.html）：這篇文章介紹了 Algorithmic Trading 的基本概念，以及如何利用這種交易方式來獲得更好的交易結果。文章的作者解釋了 Algorithmic Trading 的好處、如何選擇最佳的交易策略以及如何避免風險等方面的問題。
 
-This article from Investopedia gives an overview of algorithmic trading, including the basics and examples on how it works. It explains the different types of algorithms used in trading, such as trend-following, mean-reversion, and statistical arbitrage.
+2. 量化交易（Algorithmic Trading）技巧與應用（https://www.guruin.com/articles/116665）：這篇文章從技術分析的角度介紹了 Algorithmic Trading 的應用和技巧。文章的作者將 Algorithmic Trading 分成了幾個類別，並逐一介紹了它們的優點和缺點。此外，文章還提供了一些相關的資源和參考書籍，方便讀者進一步學習。
 
-2. Algorithmic trading (Wikipedia) 
-https://en.wikipedia.org/wiki/Algorithmic_trading
+3. 什麼是 Algorithmic Trading？（https://www.investopedia.com/terms/a/algorithmictrading.asp）：這篇文章是一篇非常基礎的介紹性文章，主要是為了讓讀者了解 Algorithmic Trading 的基本概念和運作方式。文章包含了一些常見的策略和風險，以及如何利用 Algorithmic Trading 來提高交易效率和收益。
 
-Wikipedia provides a comprehensive article on algorithmic trading. The page discusses the history of algorithmic trading, the types of algorithms used, the benefits and risks of algorithmic trading, and the technology used in executing trades. It also gives examples of high-frequency trading (HFT) and looks at the regulatory issues surrounding algorithmic trading.
+4. 智能投資：量化交易的思路和方法（https://www.iyiou.com/p/78049）：這篇文章介紹了如何利用量化交易的思路和方法來實現智能投資。文章主要關注如何選擇最佳的策略和如何設計自己的獨特交易模型。此外，文章還介紹了一些常見的交易平台和工具，方便讀者進一步學習。
 
-3. The rise of algorithmic trading in the stock market - CNN Business 
-https://edition.cnn.com/2019/08/30/investing/algorithmic-trading-stock-market/index.html
-
-This CNN Business article highlights the growing trend of algorithmic trading in the stock market. It discusses how algorithms can read news headlines and automatically trade based on the news, as well as how machine learning is being used to improve trading strategies. The article also examines the potential risks of algorithmic trading, such as flash crashes.
-
-4. How to Implement Algorithmic Trading Strategies - Investopedia 
-https://www.investopedia.com/articles/active-trading/070715/how-implement-algorithmic-trading-strategies.asp
-
-Another Investopedia article, this time discussing how to implement algorithmic trading strategies. The article looks at the key steps involved, such as selecting a programming language, choosing a trading platform, backtesting the strategy, and implementing the strategy. It also gives examples of popular programming languages and trading platforms used in algorithmic trading.
-
-5. What Is Algorithmic Trading? An Introduction to Automated Trading - My Trading Skills 
-https://www.mytradingskills.com/algorithmic-trading
-
-My Trading Skills provides an introduction to algorithmic trading, explaining how it works and why traders use algorithms. The site looks at the differences between algorithmic trading and manual trading, and discusses the advantages and disadvantages of each approach. It also explains the different types of algorithms used in trading and the common tools used to build and test trading strategies.   
+5. 量化交易到底可不可靠？（https://www.pingwest.com/a/215556）：這篇文章從量化交易的可靠性、風險和負面效應等方面進行了探討。文章提到了一些過度依賴 Algorithmic Trading 可能帶來的風險和問題，並提供了一些建議和參考意見，以幫助讀者更好地理解和應對這些問題。   
 

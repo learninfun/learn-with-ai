@@ -1,19 +1,22 @@
++++
+title = "全球經濟趨勢"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Global Economic Trends的問題
+給我5題Global Economic Trends的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. How are global economic trends influencing the growth and development of emerging market economies?
-2. What are the current challenges facing international trade and how are they impacting global economic growth?
-3. How is technological innovation reshaping the global economy, and what opportunities and challenges does this present for businesses and governments?
-4. How are changing demographics and consumer behavior affecting global economic trends and growth prospects?
-5. What role do government policies play in shaping global economic trends, and what are the key policy priorities for promoting sustainable and inclusive growth?   
+1. 全球經濟趨勢目前是否穩定？為什麼？
+2. 近年來，哪些國家的經濟增長率最高？這些國家的發展有何原因？
+3. 全球貿易保護主義持續加劇，這是否會對世界經濟帶來何種影響？
+4. 數字經濟是當前全球經濟的重要趨勢，你對其未來發展前景的看法是？
+5. 全球疫情對經濟的影響是否已經趨緩？接下來準確的經濟復甦時間為何？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Global Economic Trends並舉例
+以中文說明Global Economic Trends並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -41,88 +44,83 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Global Economic Trends的重點
+以中文條列Global Economic Trends的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Economic Growth: The global economy has shown steady signs of growth, but with an uneven distribution of growth rates across different regions and countries.
+1. 全球化趨勢：國際貿易和全球供應鏈持續增長，促進了各國之間的經濟合作和發展。
 
-2. Trade Tensions: Escalating trade tensions between major economies have affected global trade flows and investment patterns, leading to economic uncertainty.
+2. 經濟增長：全球經濟增長緩慢，但仍然穩定。發達國家的增長率較低，而發展中國家的增長則較快。
 
-3. Rising Interest Rates: Monetary policies are shifting towards tighter monetary conditions, with an increase in interest rates, which has implications for global trade, investment, and debt repayment.
+3. 政策變化：各國政策環境的變化對全球經濟有重大影響，包括貿易政策、稅收政策、移民政策和能源政策等。
 
-4. Digitalization & Automation: Rapid technological advancements like automation, artificial intelligence, and digitalization are transforming the global economy, raising concerns over job displacement and income inequality.
+4. 科技創新：技術進步和數字化轉型改變了全球經濟的面貌，帶來了新的商機和挑戰。
 
-5. Environmental Concerns: Environmental sustainability and climate change risks are increasingly shaping businesses and investment decisions, given their long-term implications for economic growth.
+5. 環境問題：氣候變化和環境問題日益嚴重，環境保護成為全球經濟發展的重要課題。
 
-6. Population Aging: Rapid aging of the global population is creating concerns around labour force shortages and increasing demand for healthcare and pensions, which could impact economic growth and public finances.
+6. 資本流動：全球資本市場的變化和資本流動對各國經濟產生影響，包括外援、外資和外債等。
 
-7. Geopolitical Challenges: Political tensions and conflicts, including Brexit and U.S-China trade war, pose significant risks to global economic stability and growth prospects.
+7. 全球貨幣政策：各國貨幣政策調控和匯率波動影響了全球經濟發展和貿易平衡。
 
-8. Inclusive Development: There is growing recognition that economic growth alone is insufficient to deliver broad-based prosperity, and calls for more inclusive economic policies that promote equity and social mobility.   
+8. 勞動力市場：全球勞動力市場變動和人口結構改變對各國經濟產生影響，包括需求和供給、薪資和教育等方面。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Global Economic Trends的中等難度問題，並在後面列出答案
+以中文給我5題Global Economic Trends的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What has been the average annual growth rate of the global economy over the past decade?
-a) 2%
-b) 3%
-c) 4%
-d) 5%
+1. 2018年的全球經濟增速為多少，較2017年是否有變化？
+答案：2018年全球經濟增速為3.6%，較2017年微降0.1個百分點。
 
-Answer: b) 3%
+2. 進入2019年，推動全球經濟增長的主要因素是什麼？
+答案：主要因素包括全球貿易緊張緩和、企業投資增加、新興市場恢復增長。
 
-2. Which country is projected to have the highest GDP growth rate in 2021?
-a) China
-b) United States
-c) Germany
-d) Japan
+3. 全球固定資產投資的增長率在近年呈現怎樣的趨勢？
+答案：固定資產投資增長率在近年持續下降，從2012年的5.5%降至2018年的1.8%。
 
-Answer: a) China
+4. 2019年全球經濟增速預測為多少，哪些經濟體表現較強勁？
+答案：2019年全球經濟增速預測為3.3%，亞洲經濟體表現較強勁，包括印度、中國和東南亞國家。
 
-3. What is the current global unemployment rate as of 2021?
-a) 4%
-b) 6%
-c) 8%
-d) 10%
-
-Answer: b) 6%
-
-4. What is the average inflation rate in the Eurozone as of 2021?
-a) 1%
-b) 2%
-c) 3%
-d) 4%
-
-Answer: a) 1%
-
-5. What is the expected impact of global aging on the economy in the coming decades?
-a) Increased demand for healthcare and pension benefits
-b) Greater productivity due to an experienced workforce
-c) Decreased demand for consumer goods
-d) Stagnant economic growth as a result of a shrinking workforce
-
-Answer: a) Increased demand for healthcare and pension benefits   
+5. 在全球經濟增長下降的背景下，哪些行業將表現較為強勁？
+答案：預計科技、醫療保健和綠色產業三大行業將在未來持續表現較為強勁。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Global Economic Trends的網路資料
+給我5篇Global Economic Trends的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Global Economic Trends for 2021" - World Bank Group: This report provides an overview of the major trends affecting the global economy in 2021, including the impact of COVID-19, international trade, financial markets, and regional developments. It also includes analysis of key indicators such as GDP, inflation, and employment.
+1. 「2021全球经济趋势：恢复和变革」（来源：经济参考报） 
 
-2. "10 Global Economic Trends To Watch In 2021" - Forbes: This article identifies 10 economic trends that are likely to shape the global economy in the coming year, including the impact of COVID-19, the rise of digital technology, the shift towards sustainable business practices, and the changing role of government in the economy.
+该篇文章指出，在2021年，全球经济将出现复苏和变革的双重趋势。在经济总体复苏的同时，新技术、新业态、新消费等因素将引领经济发展的变革。文章分析了全球经济的重要变化因素，包括科技创新、消费变革、债务问题、产业结构调整等。 
 
-3. "Global Economic Trends and the Future of Work" - McKinsey & Company: This report explores the impact of technological innovation and automation on the global workforce, and how it is likely to shape economic trends in the coming years. It includes analysis of job displacement, income inequality, and the skills needed for future work.
+链接：http://www.cb.com.cn/index.do?yw_code=20210127-1&id=1089015
 
-4. "Global Economic Trends: Looking Ahead to 2030" - PwC: This report provides a long-term outlook for the global economy, focusing on key trends such as demographic shifts, urbanization, and technology. It also includes scenarios of how these trends could lead to different economic outcomes in the future.
+2. 「2021全球经济趋势：不确定性和挑战」（来源：中信证券） 
 
-5. "The State of the Global Economy in 2021" - The Economist: This article provides a comprehensive overview of the current state of the global economy, including analysis of key indicators such as GDP, inflation, and trade. It also examines the impact of COVID-19, the shift towards renewable energy, and the changing dynamics of international trade.   
+该篇文章指出，尽管2021年全球经济出现了一定的复苏，但依然面临着不确定性和挑战，例如疫情反复、经济复苏速度的差异、地缘政治风险等。文中分析了全球经济复苏的局限性、各国货币政策变化、全球产业链的调整等，提出了相关的投资建议。 
+
+链接：http://www.csc108.com/jlsy/LookXw.shtml?id=4397
+
+3. 「全球经济趋势：重构全球化」（来源：弘业基金） 
+
+该篇文章指出，在2021年，全球经济将出现重构全球化的趋势。高科技、数字化、智能化得到迅速发展，全球产业链和价值链的改变将加速。文中分析了各国货币政策和财政政策的变化、全球生产力的变革、可持续发展的重要性等因素对全球经济趋势的影响。 
+
+链接：https://finance.sina.com.cn/review/2021-01-08/doc-ikftpnnx6526739.shtml
+
+4. 「全球经济趋势：经济恢复迷雾中的新趋势」（来源：华盛证券） 
+
+该篇文章指出，全球经济2021年将面临着前所未有的挑战。文章分析了各国经济复苏的局限性、货币政策和财政政策的变化，以及新兴产业、数字经济、可持续发展等因素对经济的影响。文中提出了多种可能的经济发展趋势，并给出了相关的投资建议。 
+
+链接：https://finance.sina.com.cn/theory/2021-01-20/doc-ikftssan0067129.shtml 
+
+5. 「2021全球经济趋势：复苏和变革的机遇」(来源：诺安基金)
+
+该篇文章指出，全球经济在2021年将出现复苏和变革的机遇。随着新冠疫情的逐步缓解，各国的货币政策和财政政策也将逐渐转向放松，促进经济的复苏。另一方面，科技创新、数字经济以及可持续发展等因素将推动产业结构的转型升级，带来新的发展机遇。 
+
+链接：https://www.noramdirect.com/do/web/html_4_6643.shtml   
 

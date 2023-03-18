@@ -1,6 +1,9 @@
++++
+title = "教育儲蓄賬戶（ESA）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Education Savings Accounts (ESAs)的問題
+給我5題Education Savings Accounts (ESAs)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Education Savings Accounts (ESAs)並舉例
+以中文說明Education Savings Accounts (ESAs)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,7 +37,7 @@ ESAs對於家庭來說是一種可以減輕財務負擔的教育計劃，使得�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Education Savings Accounts (ESAs)的重點
+以中文條列Education Savings Accounts (ESAs)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -59,80 +62,48 @@ ESAs對於家庭來說是一種可以減輕財務負擔的教育計劃，使得�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Education Savings Accounts (ESAs)的中等難度問題，並在後面列出答案
+以中文給我5題Education Savings Accounts (ESAs)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is an Education Savings Account?
-A. A retirement savings account
-B. A tax-advantaged account designed to save for education expenses
-C. A savings account for emergency expenses
-D. A checking account for daily expenses
+1. 甚麼是ESAs？
 
-Answer: B
+2. 誰有資格開設ESAs？
 
-2. What expenses can be paid for using funds from an ESA?
-A. Tuition, fees, books, and supplies
-B. Entertainment expenses
-C. Mortgage payments
-D. Vacations
+3. ESAs的最高貢獻限制是多少？
 
-Answer: A
+4. ESAs的款項可以用於哪些費用？
 
-3. What is the annual contribution limit for an ESA?
-A. $1,000
-B. $2,000
-C. $3,000
-D. $4,000
+5. ESAs與529計劃有何不同？
 
-Answer: D
+答案：
 
-4. Are contributions to an ESA tax-deductible?
-A. Yes, contributions are fully tax-deductible
-B. No, contributions are not tax-deductible
-C. Only a portion of the contributions are tax-deductible
-D. It depends on the taxpayer's income and filing status
-
-Answer: B
-
-5. Who can contribute to an Education Savings Account?
-A. Only the account owner
-B. The account owner and anyone else, up to the annual contribution limit
-C. The account owner and spouse only
-D. The account owner and immediate family members only
-
-Answer: B   
+1. ESAs是由美國政府設立的一種儲蓄帳戶，用於支付孩子的教育費用。
+2. 任何美國公民或居民都可以為自己的孩子開設ESAs。
+3. 每年最高貢獻限制是$2,000。
+4. ESAs的款項可以用於許多教育費用，包括學費、私立學校費用、家庭教育費用、書本費、學校營養費用等。
+5. 529計劃通常只能用於特定的大學或大學預備課程，而ESAs可以用於更廣泛的學校和課程，且ESAs還可以支付家庭教育費用。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Education Savings Accounts (ESAs)的網路資料
+給我5篇Education Savings Accounts (ESAs)的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. What are Education Savings Accounts (ESAs)? (Investopedia)
-https://www.investopedia.com/terms/e/education-savings-account-esa.asp
+1. Education Savings Accounts (ESAs)介紹 - 理財小幫手
+https://ycguru.com/financial-planning/education-savings-accounts-esas/
 
-This article from Investopedia explains what ESAs are and how they work. It covers topics such as who can contribute to an ESA, how much money can be contributed, and how the funds can be used.
+2. 理財策略 - Education Savings Accounts(ESAs)  -  財經講堂 - 永豐金證券
+https://www.sinotrade.com.tw/news/newsdetail.aspx?id=96449&p=2
 
-2. What You Need to Know About Education Savings Accounts (The Balance)
-https://www.thebalance.com/what-to-know-about-education-savings-accounts-4172584
+3. Education Savings Accounts(ESAs) - 理財大師網站
+https://www.mastertrader.com.tw/page.php?act=view&id=88
 
-This article from The Balance provides an overview of Education Savings Accounts. It covers the types of expenses that ESAs can be used for, the tax benefits of using an ESA, and the contribution limits.
+4. 美國的教育儲蓄帳戶：Education Savings Accounts (ESA) - 財經爆料站 - 天下雜誌
+https://finance.technews.tw/2015/06/03/esa/
 
-3. Education Savings Accounts: Pros, Cons and How They Work (NerdWallet)
-https://www.nerdwallet.com/article/investing/education-savings-accounts
-
-NerdWallet’s article on ESAs provides information on the benefits and drawbacks of using an ESA. It also explains the eligibility requirements and contribution limits for ESAs.
-
-4. The Ultimate Guide to Education Savings Accounts (The College Investor)
-https://thecollegeinvestor.com/19768/the-ultimate-guide-to-education-savings-account-esa/
-
-The College Investor’s guide to ESAs covers a variety of topics, including the differences between Coverdell ESAs and 529 Plans, how to open an ESA, and the tax implications of using an ESA.
-
-5. Education Savings Accounts (ESAs) (Investopedia)
-https://www.investopedia.com/terms/e/education-savings-account-esa.asp
-
-This additional article from Investopedia provides detailed information on ESAs, including the advantages and disadvantages of using an ESA, and how to maximize the tax benefits of using an ESA. It also provides links to related articles on the topic.   
+5. 投資教育基金Education Savings Accounts (ESAs) - 財經頻道 - 金鼎證券
+https://www.jindin.com.tw/wNew/wNew_Lot/view.aspx?msg_id=2687&jindin=F01&StockNo=0&Pager=1&SearchType=&Gwgroup=   
 

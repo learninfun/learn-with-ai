@@ -1,19 +1,22 @@
++++
+title = "股票"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Stocks的問題
+給我5題Stocks的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the current market capitalization (market cap) of Apple Inc.?
-2. How has the stock price of Tesla Inc. performed over the past year?
-3. What is the dividend yield of Coca-Cola Company's stock?
-4. How many outstanding shares does Amazon.com Inc. have as of its latest financial report?
-5. What were the earnings per share (EPS) of Microsoft Corporation for the previous quarter?   
+1. 這支股票的公司主要從事什麼行業？
+2. 最近一年這支股票的漲幅或跌幅有多少？
+3. 該公司是否有任何潛在的競爭對手？
+4. 能否分享該公司的營收和獲利狀況？
+5. 建議長期或短期持有該股票？為什麼？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Stocks並舉例
+以中文說明Stocks並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +29,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Stocks的重點
+以中文條列Stocks的重點
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +46,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Stocks的中等難度問題，並在後面列出答案
+以中文給我5題Stocks的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -70,38 +73,23 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Stocks的網路資料
+給我5篇Stocks的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Tesla (TSLA) stock rises after beating Q1 earnings expectations"
+1. https://www.moneyrookie.com/stocks-hoarding-101/
+這是一篇介紹如何緊抱股票的文章，裡面介紹了股票市場的基礎知識，以及如何開始投資。
 
-Tesla (TSLA) reported stronger than expected earnings in Q1 2021, sending its stock up by 4% in after-hours trading. The electric carmaker delivered 184,800 vehicles in Q1, beating expectations of 177,822. Tesla's revenue also increased by 74% year-over-year, reaching $10.39 billion.
+2. https://www.fundsupermart.com.tw/main/article/detail/id/212
+這是一篇介紹財務分析的文章，裡面介紹了如何從公司財務報表中分析其基本面。
 
-Source: https://www.cnbc.com/2021/04/28/tesla-tsla-earnings-q1-2021.html
+3. https://www.fool.com.tw/23163/
+這是一篇關於股票分析的文章，裡面介紹了技術分析和基本分析的不同，以及其中的運用。
 
-2. "Apple (AAPL) stock hits record high as company reports strong Q2 earnings"
+4. https://www.cmoney.tw/notes/note-detail.aspx?nid=14074
+這是一篇介紹股票投資的風險控制的文章，裡面介紹了如何降低風險，以及如何保護自己的投資。
 
-Apple (AAPL) saw its stock hit a record high in late April 2021 after the company announced strong Q2 earnings. Apple's revenue for the quarter was $89.6 billion, up 54% year-over-year, thanks to robust iPhone and Mac sales. The company also announced a $90 billion share buyback program.
-
-Source: https://www.cnbc.com/2021/04/28/apple-aapl-earnings-q2-2021.html
-
-3. "Amazon (AMZN) stock falls after missing Q1 revenue expectations"
-
-Amazon (AMZN) reported Q1 2021 revenue of $108.5 billion, missing expectations of $109 billion. The company's cloud computing unit, Amazon Web Services, also missed revenue expectations, bringing in $13.5 billion compared to an estimated $13.6 billion. Amazon's stock fell by 7% on the news.
-
-Source: https://www.marketwatch.com/story/amazon-quarterly-sales-fall-short-of-expectations-stock-jumps-11619505314
-
-4. "Microsoft (MSFT) stock rises on strong Q3 earnings"
-
-Microsoft (MSFT) reported strong earnings in Q3 2021, stating revenue of $41.7 billion, up 19% year-over-year. The company's cloud computing unit, Azure, saw revenue growth of 50%, while revenue for its gaming division increased by 50%. Microsoft's stock rose by 3.5% on the news.
-
-Source: https://www.cnbc.com/2021/04/27/microsoft-msft-earnings-q3-2021.html
-
-5. "Facebook (FB) stock falls after Q1 earnings miss"
-
-Facebook (FB) missed Q1 revenue expectations, reporting revenue of $26.2 billion compared to an estimated $26.3 billion. The company's user growth also slowed, with 1.88 billion daily active users in March 2021, up only 8% year-over-year. Facebook's stock fell by 1% on the news.
-
-Source: https://www.marketwatch.com/story/facebook-q1-earnings-miss-as-user-growth-slows-stock-falls-11619609037   
+5. https://wealth.businessweekly.com.tw/Strategy/Article/212638
+這是一篇介紹股票投資策略的文章，裡面介紹了不同的投資策略，以及如何根據投資目標和風險承受能力來制定投資策略。   
 

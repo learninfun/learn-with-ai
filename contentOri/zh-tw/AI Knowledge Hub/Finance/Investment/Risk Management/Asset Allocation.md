@@ -1,6 +1,9 @@
++++
+title = "資產配置"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Asset Allocation的問題
+給我5題Asset Allocation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Asset Allocation並舉例
+以中文說明Asset Allocation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,7 +27,7 @@ Asset Allocation是指投資者在投資組合中將資金分配到不同類別�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Asset Allocation的重點
+以中文條列Asset Allocation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +50,7 @@ Asset Allocation是指投資者在投資組合中將資金分配到不同類別�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Asset Allocation的中等難度問題，並在後面列出答案
+以中文給我5題Asset Allocation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -69,7 +72,7 @@ Asset Allocation是指投資者在投資組合中將資金分配到不同類別�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Asset Allocation的網路資料
+給我5篇Asset Allocation的中文網路資料
 {{< /ask_chatgpt >}}
 
 
@@ -81,7 +84,7 @@ Asset Allocation是指投資者在投資組合中將資金分配到不同類別�
  該教育中心以圖表和數據形式呈現了不同資產類別的表現，提供了專家的見解以及如何建立自己的資產配置策略的指南。
 
 3. Schwab網站上的Asset Allocation建議：https://www.schwab.com/resource-center/insights/content/how-to-allocate-your-assets-interactive-guide 
- Schwab的互動指南可幫助閱讀者確定其資產配置策略。它提供了一個問卷，以幫助人們了解自己的投資目標和風險偏好。
+ Schwab的互動指南可幫助閱讀者確定其資產配置策略。它提供了一個問卷，以幫助人們瞭解自己的投資目標和風險偏好。
 
 4. Fidelity的Asset Allocation指南：https://www.fidelity.com/learning-center/investment-products/mutual-funds/asset-allocation
  這篇指南提供了有關資產配置的基本知識，包括如何確定投資目標和選擇資產類別。它還提供了幾種不同的資產配置策略，以及如何保持您的投資組合平衡。

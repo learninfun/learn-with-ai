@@ -1,6 +1,9 @@
++++
+title = "投資"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment的問題
+給我5題Investment的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,22 +16,22 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment並舉例
+以中文說明Investment並舉例
 {{< /ask_chatgpt >}}
 
 
 
 Investment是指在某個產業或企業投入資金或資產，以期望在未來獲得更高的回報或利潤的行為。
 
-舉例，假設您投資了一家新興的科技公司，購買的是該公司的股票。這種投資可以獲得兩種回報：股價上漲及公司發放的股息。可以想像，隨著公司業績的提升，該公司的股票價格會上漲，當您售出股票時，您會獲得巨額利潤。此外，如果公司决定向股東發放股息，您將獲得現金支付。這就是投資者期望的高回報。
+舉例，假設您投資了一家新興的科技公司，購買的是該公司的股票。這種投資可以獲得兩種回報：股價上漲及公司發放的股息。可以想像，隨著公司業績的提升，該公司的股票價格會上漲，當您售出股票時，您會獲得巨額利潤。此外，如果公司決定向股東發放股息，您將獲得現金支付。這就是投資者期望的高回報。
 
 另外，投資不僅僅關於股票投資，也可以是房地產、債券、金融商品等等形式的投資。而這些產業的投資方式表現也有所不同。
 
-總之，投資是一個充滿高風險和高回報機會的活動。要成功地投資，需要充分研究和了解投資領域，並謹慎地計畫和執行投資行動。   
+總之，投資是一個充滿高風險和高回報機會的活動。要成功地投資，需要充分研究和瞭解投資領域，並謹慎地計畫和執行投資行動。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment的重點
+以中文條列Investment的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,74 +44,56 @@ Investment是指在某個產業或企業投入資金或資產，以期望在未�
 
 4. 投資時間：選擇合適的投資時間，考慮市場行情和自己的資金需求，長期投資可獲得更穩定的回報。
 
-5. 投資收益：了解不同投資產品的收益特點和風險，綜合考慮風險和收益比例，制定合理的投資計劃。
+5. 投資收益：瞭解不同投資產品的收益特點和風險，綜合考慮風險和收益比例，制定合理的投資計劃。
 
 6. 監控投資：定期監控投資產品的市場表現，及時調整投資策略，避免長期持有出現損失。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment的中等難度問題，並在後面列出答案
+以中文給我5題Investment的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. Company A's stock has a beta of 1.5 while Company B's stock has a beta of 0.8. If the market has an expected rate of return of 10%, what would be the expected return for each stock?
+1. 如果一家公司賺取每股盈利1元，它的股價為10元，那麼它的市盈率是多少？
+答案：10
 
-Answer:
-For Company A: 10% + (1.5 x (10% - 5%)) = 15%
-For Company B: 10% + (0.8 x (10% - 5%)) = 14%
+2. 如果一支股票的股價在上升，但它的市盈率下降，這表示什麼？
+答案：公司的盈利也在上升，但市場對其未來盈利前景的信心下降。
 
-2. An investor purchases a bond at a discount for $900 which matures in 5 years with a face value of $1,000. If the bond pays semi-annual coupon payments at a rate of 6%, what will be the investor's yield to maturity?
+3. 如果你希望將100萬元投資在風險較小的債券上，展期1年，利率是6%，那麼到期時你將獲得多少收益？
+答案：100萬元 x 6% = 60,000元
 
-Answer:
-PV = $900
-FV = $1,000
-PMT = $30 (=$1,000 x 6% / 2)
-n = 10 (5 x 2)
-Using a financial calculator or Excel, the yield to maturity is calculated to be 3.89%
+4. 如果你為了長期投資而買入一支股票，但在買入後不久，這支股票的價格大幅下跌，你應該怎麼辦？
+答案：取決於公司的基本面情況。如果公司的營運表現不變，你可以選擇持有股票。如果公司情況惡化，你可能需要出售股票。
 
-3. Company X has a current stock price of $50 per share with earnings per share (EPS) of $2.50. If the company's price-to-earnings (P/E) ratio is 20, what is the company's expected growth rate?
-
-Answer:
-P/E ratio = 20
-EPS = $2.50
-Price per share = $50
-Therefore, the expected growth rate is 10% (=20 x $2.50 / $50)
-
-4. A mutual fund has a net asset value (NAV) per share of $30 and charges a front-end load of 5%. If an investor purchases 100 shares of the fund, what will be the total cost of the investment?
-
-Answer:
-NAV per share = $30
-Front-end load = 5%
-Purchase amount = 100 shares x $30 = $3,000
-Load fee = $3,000 x 5% = $150
-Total cost = $3,000 + $150 = $3,150
-
-5. An investor purchases a call option on Company Y's stock with a strike price of $50 for a premium of $2 per share. If the stock's price at expiration is $60, what is the investor's profit per share?
-
-Answer:
-Profit per share = ($60 - $50) - $2 = $8
-(Note: The investor paid a $2 premium, so the break-even point for this call option would have been at a stock price of $52)   
+5. 如果你投資了一支配息股票，它的股息率是2%，每股股息1元，那麼你投資了多少錢？
+答案：每股股息1元 / 2% = 50元   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment的網路資料
+給我5篇Investment的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Investopedia - https://www.investopedia.com/
-Investopedia is one of the most popular online resources for investment information. It offers a wide range of content, including in-depth articles, how-to guides, and video tutorials covering various investment topics such as stocks, bonds, mutual funds, ETFs, and more.
+1. 《投資理財網》
+網址：https://www.iyangcong.com/magazine/article/384940
+內容：包含綜合投資、基金、股票、債券等投資標的的討論和評論，以及適合不同人群的投資策略和工具介紹等。
 
-2. Yahoo Finance - https://finance.yahoo.com/
-Yahoo Finance is a comprehensive financial website that covers the latest news and analysis of the stock market, including real-time quotes, research tools, and news articles. It also features a wealth of investment resources such as stock reports, market trends, and expert opinions.
+2. 《財經日報》
+網址：https://www.cmoney.tw/
+內容：涉及股票、基金、外匯、黃金、房地產等領域的投資資訊和分析報導，還提供多元的財經訊息和大量投資知識的介紹。
 
-3. The Motley Fool - https://www.fool.com/
-The Motley Fool is a popular investment website that offers a range of investment services, including stock recommendations, investment education, and research tools. It is known for its stock-picking advice and has a team of expert analysts that provide research and commentary on various investment opportunities.
+3. 《Yahoo奇摩財經》
+網址：https://tw.finance.yahoo.com/
+內容：結合國際和國內的財經事件和趨勢，提供及時的股市盤中分析、股票、基金及ETF等投資資訊和分析，還有財經新聞和專題報導。
 
-4. Bloomberg - https://www.bloomberg.com/
-Bloomberg is a financial news website that covers the latest news and analysis of the stock market, global financial markets, and economies. It offers a wide range of investment resources such as real-time quotes, research tools, and expert opinions.
+4. 《華夏經緯網》
+網址：http://www.chinabiz.com/
+內容：中國最大的財經信息集成平台之一，涵蓋了股票市場、基金、期貨、房地產等多個領域的投資資訊，還提供多種自選指標和多種方式的投資組合分析。
 
-5. Seeking Alpha - https://seekingalpha.com/
-Seeking Alpha is a crowd-sourced financial website that offers a wide range of investment information and analysis. It features articles and commentary from both professional investors and individual traders, covering various topics such as stocks, ETFs, and options trading. It also offers investment-related tools and research resources for investors.   
+5. 《PChome財經新聞網》
+網址：https://news.pchome.com.tw/money/
+內容：結合財經新聞和投資分析，提供最新、最完整的投資資訊和分析，除了囊括股票、基金、債券等主要投資方向，還有多元化的投資工具和策略介紹。   
 

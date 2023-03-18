@@ -1,23 +1,22 @@
++++
+title = "羊群效應"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Herd Mentality的問題
+給我5題Herd Mentality的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What factors contribute to the development of herd mentality, and how does it affect decision-making in groups?
-
-2. How can individuals resist the pull of herd mentality and maintain independence of thought and action?
-
-3. In what ways can herd mentality be positive or negative in certain contexts, such as in sports, politics, or economics?
-
-4. What are some examples of historical or contemporary events where herd mentality played a significant role in shaping public opinion or behavior?
-
-5. What are some strategies or tools that leaders or influencers can use to steer a group away from harmful herd mentality and towards more reasoned decision-making?   
+1. 群體心理學中的「群體心理」是指什麼？
+2. 群體行為中的「群眾興奮」是如何形成的？
+3. 群體行為為什麼容易導致暴力事件？
+4. 什麼是「群體退化現象」？
+5. 群體行為如何影響個體的決策和行動？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Herd Mentality並舉例
+以中文說明Herd Mentality並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,7 +33,7 @@ Herd Mentality是指在群體中的個體往往會跟隨其他人的行為和決
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Herd Mentality的重點
+以中文條列Herd Mentality的重點
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +52,7 @@ Herd Mentality是指在群體中的個體往往會跟隨其他人的行為和決
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Herd Mentality的中等難度問題，並在後面列出答案
+以中文給我5題Herd Mentality的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -75,38 +74,33 @@ Herd Mentality是指在群體中的個體往往會跟隨其他人的行為和決
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Herd Mentality的網路資料
+給我5篇Herd Mentality的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Understanding the Herd Mentality in Investing" from Investopedia
+1. 群體心理：世界因「群眾」而改變
+https://buzzorange.com/techorange/2017/08/25/group-psychology/
 
-This article explores the concept of herd mentality in investing, which refers to the tendency of individuals to follow the actions or decisions of a larger group. The author explains the psychological factors that contribute to herd behavior, such as fear of missing out and social proof, and offers advice on how to avoid making decisions based solely on the actions of others.
+本文介紹了群體心理學的基本概念和重要特徵。透過其深入的觀察，作者談到了受到集體作用影響的美國大選，說明了群體心理的重要性。文章提供了關於社會與人心的深刻思考。
 
-Link: https://www.investopedia.com/insights/what-is-the-herd-mentality-in-investing/
+2. 群體行為心理現象：「羊群效應」
+https://www.taiwannews.com.tw/ch/news/4238766
 
-2. "Herd Mentality: Why People Follow the Crowd" from Psychology Today
+本文介紹了著名的「羊群效應」，並以實際例子加以解釋。文章針對群眾與個體之間的差異，提供詳細分析和深度思考，使讀者更加了解群體行為心理學的本質。
 
-This article takes a broader look at herd mentality, examining the ways in which it influences behavior in a variety of contexts, from financial decision-making to political opinions. The author discusses the evolutionary roots of the phenomenon and the ways in which it can lead to both positive and negative outcomes.
+3. 突破群體心理的束縛：你可以和別人不一樣
+https://www.cw.com.tw/article/article.action?id=5081179
 
-Link: https://www.psychologytoday.com/us/blog/the-human-beast/201309/herd-mentality-why-people-follow-the-crowd
+本文從個體與群體之間的區別出發，介紹了許多有關如何突破群體心理的建議。該文章提供了多個有效的策略，並探討了這些策略的實際應用。
 
-3. "The Herd Mentality: How Group Dynamics Impact Decision-Making" from Harvard Business Review
+4. 群體效應：為什麼人們會因為眾人之言而變得有所不同？
+https://betterhealth.tw/Article/79864
 
-Written by a group of behavioral scientists, this article delves into the ways in which the herd mentality can play out in organizational decision-making. The authors explore the role of social influence, the potential downsides of groupthink, and strategies for avoiding the pitfalls of herd behavior.
+本文深入探討了「群體效應」的本質。該文章指出，群體效應的產生需要多種因素的相互作用，並解釋了這些因素如何影響個人和群體之間的互動關係。
 
-Link: https://hbr.org/2015/09/the-herd-mentality-how-group-dynamics-impact-decision-making
+5. 群體心理學：人性的深度洞察
+https://www.books.com.tw/products/0010716166
 
-4. "Herd Mentality in Real Estate: When Following the Crowd May Not Be the Best Move" from Forbes
-
-This piece examines the ways in which herd mentality can impact the real estate market, particularly in the context of home buying and selling. The author considers the factors that lead individuals to follow the crowd, the potential consequences of doing so, and the benefits of taking a more independent approach.
-
-Link: https://www.forbes.com/sites/forbesrealestatecouncil/2020/01/22/herd-mentality-in-real-estate-when-following-the-crowd-may-not-be-the-best-move/?sh=62240d752174
-
-5. "The Upside of Herd Mentality" from The New York Times
-
-While many discussions of herd behavior focus on its negative aspects, this article explores some of the potential benefits of following the crowd. The author considers cases in which herd behavior can lead to a more informed decision, as well as situations in which it can function as a form of social coordination.
-
-Link: https://www.nytimes.com/2008/04/06/business/06view.html   
+這是一本介紹群體心理學的書籍。該書從學理和實際例子兩個層面加以探討。該書設計了多個實驗，在實驗中探討了群體心理學中諸多的現象。書中示範了如何理解群體及個體的關係，是了解群體心理學的不二之選。   
 

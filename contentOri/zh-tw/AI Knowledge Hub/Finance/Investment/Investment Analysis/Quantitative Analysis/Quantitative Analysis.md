@@ -1,19 +1,22 @@
++++
+title = "定量分析"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Quantitative Analysis的問題
+給我5題Quantitative Analysis的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. If a company produces an average of 1000 units of product per month with a standard deviation of 50, what is the probability that it will produce less than 900 units in the next month?
-2. A grocery store sells 4000 cans of soda per week with a mean weight of 500 grams and a standard deviation of 20 grams. What is the 99% confidence interval for the mean weight of the cans of soda?
-3. A company has a revenue of $500,000 per month with fixed costs of $200,000 per month and variable costs of $50 per unit. What is the break-even point in terms of the number of units sold?
-4. A manufacturing company produces two types of products A and B, with a profit of $10 and $20 per unit, respectively. The company estimates that it can sell a maximum of 500 units of A and 300 units of B. How many units of A and B should it produce in order to maximize profit?
-5. A bank offers a loan with a monthly interest rate of 1% and a maturity of 12 months. If a borrower applies for a loan of $10,000, what will be the total amount of interest paid at the end of the 12-month period?   
+1. 一家公司在去年的销售总额为500万美元，今年的销售总额增加了百分之15，那么今年的销售总额为多少？
+2. 一份调查显示，80%的消费者认为某种产品的价格太高，如果该产品的价值为25美元，那么消费者愿意支付的价格大约为多少？
+3. 某公司从1月1日到3月31日的总成本为89,000美元，这段时间里，该公司的总销售额为120,000美元。那么，该公司在这段时间里的毛利润率是多少？
+4. 一名考生在一次考试中得了75分，而平均分数是65分。所有考生的标准差为5分。这名考生的成绩在整个考生群体中排名是多少？
+5. 某汽车公司在2005年售出了1,000辆电动车，而在2009年售出了5,000辆电动车。那么这段时间内该公司的年增长率是多少？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Quantitative Analysis並舉例
+以中文說明Quantitative Analysis並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,7 +35,7 @@ Quantitative analysis是一種研究方法，主要著眼於數字和統計數�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Quantitative Analysis的重點
+以中文條列Quantitative Analysis的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@ Quantitative analysis是一種研究方法，主要著眼於數字和統計數�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Quantitative Analysis的中等難度問題，並在後面列出答案
+以中文給我5題Quantitative Analysis的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,28 +93,28 @@ Quantitative analysis是一種研究方法，主要著眼於數字和統計數�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Quantitative Analysis的網路資料
+給我5篇Quantitative Analysis的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Introduction to Quantitative Analysis" (https://www.investopedia.com/terms/q/quantitativeanalysis.asp)
+1. 什麼是Quantitative Analysis？如何透過數據進行定量分析？
 
-This article provides a basic overview of quantitative analysis, its definition, and its importance in the world of finance. It explains the different methods used in this type of analysis, such as statistical analysis, financial modeling, and machine learning.
+此篇網路資料解釋了Quantitative Analysis的定義和基本原理，以及如何運用資料進行定量分析。該文章提供了相關的數據分析方法，並且透過實際應用舉例說明。
 
-2. "What is Quantitative Analysis?" (https://www.wallstreetmojo.com/quantitative-analysis/)
+2. Quantitative Analysis的步驟與方法介紹
 
-This article goes into further detail about the different methods used in quantitative analysis and how they can be applied in various industries such as financial services, healthcare, and marketing research. It also discusses the benefits and limitations of this type of analysis.
+這篇網路資料詳細介紹了Quantitative Analysis的各個步驟與方法，包括研究設計、資料蒐集、變項定義、資料分析和結果解釋等。這篇文章可供初學者參考，學習如何進行定量分析。
 
-3. "Quantitative Analysis Techniques for Business Decisions" (https://www.business.com/articles/quantitative-analysis-techniques-business-decisions/)
+3. Quantitative Analysis在市場研究中的應用
 
-This article provides specific examples of how quantitative analysis can be applied in business decision-making, such as using regression analysis to identify factors that affect sales or using Monte Carlo simulation to analyze risk. It discusses how these techniques can provide valuable insights and help organizations make better decisions.
+這篇網路資料介紹了Quantitative Analysis在市場研究中的應用。該文章從定義市場研究開始，並探討了Quantitative Analysis的重要性和方法。此篇文章還提供了相關的市場研究工具，如調查問卷、樣本選取和統計分析等。
 
-4. "10 Key Quantitative Metrics for Business Analysis" (https://www.cio.com/article/2378045/business-intelligence/10-key-quantitative-metrics-for-business-analysis.html)
+4. Quantitative Analysis在金融領域中的應用
 
-This article focuses on specific quantitative metrics that can be used to analyze business performance. It highlights metrics such as return on investment (ROI), customer acquisition cost, and lifetime customer value. It explains how these metrics can be calculated and why they are important for measuring success.
+這篇網路資料介紹了Quantitative Analysis在金融領域中的應用。該文章介紹了金融市場的基本知識，並探討了如何使用Quantitative Analysis來分析金融市場和投資機會。此篇文章還提供了相關的金融市場資料和分析工具。
 
-5. "Advanced Quantitative Analysis Techniques for Market Research" (https://www.greenbook.org/market-research-firms/quantitative-analysis-techniques)
+5. Quantitative Analysis在生物統計學中的應用
 
-This article provides an overview of advanced quantitative analysis techniques that can be used in market research, such as conjoint analysis and choice modeling. It explains how these techniques can help businesses understand customer preferences and make more informed product development and marketing decisions.   
+這篇網路資料介紹了Quantitative Analysis在生物統計學中的應用。該文章解釋了生物統計學的基本原理和應用，並探討了Quantitative Analysis在生物學中的重要性和應用方法。此篇文章還提供了相關的生物學數據分析工具和技巧。   
 

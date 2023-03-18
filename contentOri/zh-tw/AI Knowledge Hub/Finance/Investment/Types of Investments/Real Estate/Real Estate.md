@@ -1,6 +1,9 @@
++++
+title = "房地產"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Real Estate的問題
+給我5題Real Estate的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Real Estate並舉例
+以中文說明Real Estate並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +31,7 @@ Real estate investment trust (REITs)則是通過聚集資金投資房地產資�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Real Estate的重點
+以中文條列Real Estate的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@ Real estate investment trust (REITs)則是通過聚集資金投資房地產資�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Real Estate的中等難度問題，並在後面列出答案
+以中文給我5題Real Estate的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -82,23 +85,14 @@ Real estate investment trust (REITs)則是通過聚集資金投資房地產資�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Real Estate的網路資料
+給我5篇Real Estate的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "How to Invest in Real Estate: The Ultimate Guide" by Forbes
-Link: https://www.forbes.com/advisor/investing/invest-in-real-estate/
-
-2. "Real Estate News & Insights" by The Wall Street Journal
-Link: https://www.wsj.com/news/realestate
-
-3. "Real Estate & Homes for Sale - Zillow" by Zillow
-Link: https://www.zillow.com/
-
-4. "Real Estate Investing | REITs | Crowdfunding" by Investopedia
-Link: https://www.investopedia.com/investing/real-estate-investing/
-
-5. "Real Estate & Property Market News" by Domain
-Link: https://www.domain.com.au/news/   
+1. 買房族必看，房產投資須知全在這：https://www.commonhealth.com.tw/article/article.action?nid=70294 
+2. 不想買房卻想收租金？不少人另謀他路：https://estate.ltn.com.tw/article/11197
+3. 一步步教學，如何選擇最適合的房住不繳房貸：https://home.gvm.com.tw/article.html?id=76766
+4. 想成功的房產投資必學五大公式：https://estate.ltn.com.tw/article/1113
+5. 不先了解南北向房和東西向房，買房容易吃虧：https://reco.tw/post/361260/南北向房-東西向房差異為何？   
 

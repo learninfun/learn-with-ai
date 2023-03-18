@@ -1,6 +1,9 @@
++++
+title = "傳統IRA"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Traditional IRAs的問題
+給我5題Traditional IRAs的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Traditional IRAs並舉例
+以中文說明Traditional IRAs並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,7 +27,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Traditional IRAs的重點
+以中文條列Traditional IRAs的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +44,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Traditional IRAs的中等難度問題，並在後面列出答案
+以中文給我5題Traditional IRAs的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -68,33 +71,23 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Traditional IRAs的網路資料
+給我5篇Traditional IRAs的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. NerdWallet - Traditional IRA: A Guide to the Basics
-https://www.nerdwallet.com/article/investing/traditional-ira
+1. 何謂傳統IRA？
+- 傳統IRA（Individual Retirement Account）是一種退休儲蓄計畫，旨在讓個人在退休後領取收入。這種儲蓄計畫是由美國政府所設立，並且有一系列的稅收優惠措施。傳統IRA的投資收益和資本利得是免稅的，直到資金被提取為止。
 
-This article by NerdWallet offers a comprehensive guide to the basics of Traditional IRAs, including eligibility requirements, contribution limits, and tax benefits. It also includes a helpful comparison with Roth IRAs and explains the difference between a Traditional IRA and a 401(k) plan.
+2. 如何開立傳統IRA？
+- 想要開立傳統IRA，可以透過銀行、券商或投資公司開立。開立過程中需要填寫相關表格，並選擇合適的投資選項。開戶時，根據所得情況，還可以獲得一定的稅務優惠。
 
-2. Investopedia - Traditional IRA
-https://www.investopedia.com/terms/t/traditionalira.asp
+3. 傳統IRA的收益是如何計算的？
+- 傳統IRA的收益是通過投資所得的，例如股票、債券等。收益率由投資經理人負責管理，目標是在風險可控的範圍內讓投資人獲得最大的收益。
 
-Investopedia's article on Traditional IRAs provides a detailed overview of what they are, how they work, and who can contribute to one. It also covers the benefits and drawbacks of investing in a Traditional IRA, as well as their contribution limits and withdrawal rules.
+4. 傳統IRA和Roth IRA有何不同？
+- 傳統IRA和Roth IRA是退休儲蓄計畫的兩種形式。傳統IRA的稅收優惠是在現在，而抵押資金時需要繳納稅款。相反，Roth IRA是在提取資金時免稅，但是資金稅前投資時需要付稅。
 
-3. Fidelity - Traditional IRA
-https://www.fidelity.com/retirement-ira/traditional-ira
-
-Fidelity's Traditional IRA page includes information on the benefits and risks of investing in one, how to open an account, and how to contribute. It also explains the difference between a Traditional IRA and other retirement accounts, such as a 401(k) or a Roth IRA.
-
-4. Charles Schwab - Traditional IRA
-https://www.schwab.com/ira/traditional-ira
-
-Charles Schwab's Traditional IRA page offers an easy-to-understand explanation of the benefits of investing in a Traditional IRA, along with a breakdown of contribution limits and tax implications. It also includes a comparison chart between Traditional IRAs and Roth IRAs.
-
-5. Bankrate - Traditional IRA Rates
-https://www.bankrate.com/investing/traditional-ira-rates/
-
-Bankrate's article on Traditional IRA rates includes a list of the best IRA rates and reviews for Traditional IRA accounts. It also offers tips on how to choose the best IRA account for your needs and how to maximize your returns.   
+5. 儲蓄目標達成前可以提取傳統IRA資金嗎？
+- 傳統IRA的提取規則是在個人年滿59歲或達到提取年齡時開始。此外，也可以在提取時支付罰款和利息，但是要避免這種情況的發生，還是應該提前計劃好退休儲蓄目標和計畫。   
 

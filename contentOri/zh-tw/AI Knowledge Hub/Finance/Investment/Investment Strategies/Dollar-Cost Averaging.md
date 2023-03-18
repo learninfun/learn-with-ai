@@ -1,6 +1,9 @@
++++
+title = "定期定額投資"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dollar-Cost Averaging的問題
+給我5題Dollar-Cost Averaging的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dollar-Cost Averaging並舉例
+以中文說明Dollar-Cost Averaging並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,7 +35,7 @@ DCA的基本思想是：將一筆資金分期投入市場，不管市場時如�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dollar-Cost Averaging的重點
+以中文條列Dollar-Cost Averaging的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@ DCA的基本思想是：將一筆資金分期投入市場，不管市場時如�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dollar-Cost Averaging的中等難度問題，並在後面列出答案
+以中文給我5題Dollar-Cost Averaging的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,28 +80,18 @@ DCA的基本思想是：將一筆資金分期投入市場，不管市場時如�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Dollar-Cost Averaging的網路資料
+給我5篇Dollar-Cost Averaging的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Dollar-cost averaging (DCA) - Investopedia
-https://www.investopedia.com/terms/d/dollarcostaveraging.asp
-This article from Investopedia explains what dollar-cost averaging (DCA) is and how it works. It also covers the benefits and drawbacks of using this investment strategy.
+1. 國泰投信 - 傳統定期定額 vs. Dollar-Cost Averaging的比較 (https://www.cathayfunds.com.tw/portal/media/PDF/4V7CPJHE.pdf)
 
-2. Should You Use Dollar Cost Averaging? - The Balance
-https://www.thebalance.com/should-you-use-dollar-cost-averaging-357411
-This article from The Balance discusses the pros and cons of dollar-cost averaging (DCA) and helps readers decide if this strategy is right for them. It also provides some tips on how to use DCA effectively.
+2. 摩根士丹利財經 - 什麼是Dollar-Cost Averaging？(https://www.morganstanley.com.hk/ideas/dollar-cost-averaging-explained)
 
-3. Dollar-Cost Averaging Explained: Investing Without Fear - NerdWallet
-https://www.nerdwallet.com/article/investing/dollar-cost-averaging-explained
-This article from NerdWallet provides a detailed explanation of what dollar-cost averaging (DCA) is and how it works. It also explains why this strategy can be a good choice for investors who want to minimize risk.
+3. 元大投信 - 運用Dollar-Cost Averaging投資 動態平衡區分不同階段 (https://www.yuantafutures.com.tw/FileUploads/DownloadFiles/20200714032800215632.pdf)
 
-4. Dollar Cost Averaging: A Simple Investment Strategy to Keep You on Track - Charles Schwab
-https://www.schwab.com/resource-center/insights/content/dollar-cost-averaging-simple-investment-strategy-keep-you-track
-This article from Charles Schwab explains the concept of dollar-cost averaging (DCA) and provides some practical tips on how to use this strategy effectively. It also addresses some common misconceptions and concerns about DCA.
+4. 台灣證券交易所 - 證券投資入門：Dollar-Cost Averaging篇 (https://www.twse.com.tw/zh/printout/download/10010-190690)
 
-5. Dollar Cost Averaging: How It Works and When It Doesn't - The Motley Fool
-https://www.fool.com/investing/2021/08/28/dollar-cost-averaging-how-it-works-and-when-it-doe/
-This article from The Motley Fool explains the basic concept of dollar-cost averaging (DCA) and provides some tips on how to use this strategy effectively. It also discusses some situations where DCA may not be the best choice for investors.   
+5. 財經知識庫 - Dollar-Cost Averaging (逐筆定期定額投資) (https://www.financier.com.tw/news/news_content.aspx?nid=3677)   
 

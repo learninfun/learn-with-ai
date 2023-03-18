@@ -1,34 +1,33 @@
++++
+title = "國際共同基金"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題International Mutual Funds的問題
+給我5題International Mutual Funds的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is an International Mutual Fund and how does it differ from a Domestic Mutual Fund?
-
-2. What are the benefits of investing in International Mutual Funds? What are the risks and how can they be mitigated?
-
-3. How do International Mutual Funds invest in foreign markets? What factors do they consider when deciding which markets to invest in?
-
-4. What are the tax implications of investing in International Mutual Funds? How are dividends and capital gains taxed?
-
-5. how to choose the right International Mutual Fund for your investment goals? What factors should investors consider, such as portfolio diversification, performance history, management team, and expense ratios?   
+1. 「國際共同基金」是指什麼？
+2. 國際共同基金的風險如何評估？
+3. 國際共同基金的投資策略有哪些？
+4. 國際共同基金的投資地區和產業有哪些選擇？
+5. 如何選擇適合的國際共同基金進行投資？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明International Mutual Funds並舉例
+以中文說明International Mutual Funds並舉例
 {{< /ask_chatgpt >}}
 
 
 
 國際互惠基金是由投資者共同持有的投資基金，旨在購買在全球不同國家和地區的股票、債券或其他投資組合。這些基金被管理人運用不同策略來維持其投資組合的多樣性和風險管理。
 
-舉例來說，Vanguard Total International Stock Index Fund（VGTSX）是一個相當受歡迎的國際互惠基金。該基金旨在追踪全球所有未涵蓋在美國股票市場的大型和中型股票價值，包括歐洲、亞洲和新興市場。此外，T. Rowe Price Global Stock Fund（PRGSX）也是另一個國際互惠基金的例子。該基金投資公司全球範圍內的股票，並尋求高成長的公司。   
+舉例來說，Vanguard Total International Stock Index Fund（VGTSX）是一個相當受歡迎的國際互惠基金。該基金旨在追蹤全球所有未涵蓋在美國股票市場的大型和中型股票價值，包括歐洲、亞洲和新興市場。此外，T. Rowe Price Global Stock Fund（PRGSX）也是另一個國際互惠基金的例子。該基金投資公司全球範圍內的股票，並尋求高成長的公司。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列International Mutual Funds的重點
+以中文條列International Mutual Funds的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,77 +48,58 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題International Mutual Funds的中等難度問題，並在後面列出答案
+以中文給我5題International Mutual Funds的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the main advantage of investing in international mutual funds as opposed to directly investing in foreign stocks?
- A. Diversification 
- B. Higher returns 
- C. Lower fees 
- D. Faster liquidity 
- Ans: A 
+1. 國際互惠基金的投資對象是否僅限於海外資產？
+2. 國際互惠基金相較於股票型基金，投資門檻是否較高？
+3. 在匯率波動風險較大的情況下，投資國際互惠基金是否具有較高風險？
+4. 國際互惠基金是否可以實現全球分散投資？
+5. 投資國際互惠基金是否可以分散化風險？
 
-2. Which of the following statements about country-specific mutual funds is true?
- A. They are not subject to currency volatility 
- B. They explicitly focus on investing in one country 
- C. They are always passively managed 
- D. They are not affected by political risk 
- Ans: B 
-
-3. Which of the following factors should an investor consider when choosing an international mutual fund?
- A. Historical returns 
- B. Country-specific risks 
- C. Management fees 
- D. All of the above 
- Ans: D 
-
-4. What is an emerging market mutual fund?
- A. A fund that invests in underdeveloped countries 
- B. A fund that invests in countries with strong economic growth 
- C. A fund that invests in companies that are expanding internationally 
- D. A fund that invests in low-yield bonds 
- Ans: B 
-
-5. Which of the following sectors would be most likely to benefit from investing in a global mutual fund?
- A. Energy 
- B. Utilities 
- C. Technology 
- D. Retail 
- Ans: C   
+答案：
+1. 不是，國際互惠基金可以投資全球範圍內的資產。
+2. 是的，因為國際互惠基金需要更多的研究和瞭解國際經濟形勢，然後再進行投資決策。
+3. 是的，因為匯率波動會對國際互惠基金的投資回報產生影響，增加投資風險。
+4. 是的，國際互惠基金可以通過投資全球範圍內的資產實現全球分散投資。
+5. 是的，投資國際互惠基金可以通過投資多種資產和區域進行分散化風險的操作。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇International Mutual Funds的網路資料
+給我5篇International Mutual Funds的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-以下是5篇有關國際互惠基金的網路資料：
+1. 《國際投資、國際共同基金》
 
-1. "International Mutual Funds"（Investopedia）
-link: https://www.investopedia.com/terms/i/international-mutual-funds.asp
+這是一份由中華人民共和國外匯管理部門發佈的文件，詳細介紹了國際投資和國際共同基金，深入探討了投資組合的建立、共同基金的分類、風險分析和選擇投資對像等議題。
 
-Investopedia在這篇文章中，介紹了什麼是國際互惠基金，以及這些基金的投資策略和風險。此外，還提供讀者一些如何挑選國際互惠基金的技巧和建議。
+網站：http://www.safe.gov.cn/safe/zcfg/gjjg/201608/9e6dd738c6b44f6fbdcf6d31244b8c95.shtml
 
-2. "Best International Mutual Funds for 2021"（US News & World Report）
-link: https://money.usnews.com/investing/mutual-funds/articles/best-international-mutual-funds
+2. 《國際共同基金指南》
 
-US News & World Report提供了一份2021年最佳國際互惠基金的清單，根據每個基金的歷史表現、投資策略和費用等因素，做出了評估和推薦。此外，文章還提供了一些有關如何挑選和使用國際互惠基金的建議。
+這是由華盛頓特區國際金融公司（IFC）製作的一份指南，介紹了國際共同基金的基礎知識、投資策略、風險管理等方面的內容，是瞭解國際共同基金的好教材。
 
-3. "International Mutual Funds"（Fidelity）
-link: https://www.fidelity.com/mutual-funds/investing-ideas/international-mutual-funds
+網站：http://documents.worldbank.org/curated/zh/518831468195567035/IFC-SME-Venture-Fund-Guide
 
-Fidelity針對國際互惠基金的投資策略和風險進行了簡要的介紹，並提供一些有關如何挑選和使用國際互惠基金的建議。此外，Fidelity還提供一些值得關注的國際互惠基金清單。
+3. 《掌握國際共同基金投資知識》
 
-4. "Top 5 International Mutual Funds to Invest In"（The Balance）
-link: https://www.thebalance.com/top-international-mutual-funds-2466195
+這是由網易財經出版的一份投資指南，介紹了國際共同基金的基礎知識、投資策略、風險管理等方面的內容，同時還有案例分析和實用建議。
 
-The Balance提供了一份前5名國際互惠基金的清單，並對每個基金進行了詳細的分析和概述。這些基金被選出來是因為它們的長期表現和穩定性都非常優秀。
+網站：http://money.163.com/special/00252IQ4/mutual_funds.html
 
-5. "International Mutual Funds: A Beginner's Guide"（The Motley Fool）
-link: https://www.fool.com/investing/mutual-funds/2016/07/18/international-mutual-funds-a-beginners-guide.aspx
+4. 《國際共同基金投資全指南》
 
-The Motley Fool為新手提供了一份國際互惠基金的入門指南，解釋了基本概念和選擇基金的基本步驟。文章強調，國際互惠基金可以為投資者提供更多的投資機會和多樣性，但也存在風險和挑戰，需要仔細掌握。   
+這是由華泰證券發表的一份投資指南，介紹了國際共同基金的基礎知識、投資策略、風險管理等方面的內容，並有詳細的數據分析和投資建議。
+
+網站：https://ishares.com.hk/dam/isf/zh-hk/broker-center/literature/ishares-insights/isf_wp_if-know-how-to-invest-in-international-mutual-funds-full-guide.pdf
+
+5. 《國際共同基金投資指南》
+
+這是由中國基金行業協會發佈的一份指南，介紹了國際共同基金的基礎知識、投資策略、風險管理等方面的內容，同時還有市場概況和重點風險提示。
+
+網站：http://www.amac.org.cn/xxpl/123666.shtml   
 

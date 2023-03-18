@@ -1,6 +1,9 @@
++++
+title = "圖表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Charts的問題
+給我5題Charts的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Charts並舉例
+以中文說明Charts並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@ Charts是一種圖形化的表示方法，用來呈現數據或資訊的可視�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Charts的重點
+以中文條列Charts的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +55,7 @@ Charts是一種圖形化的表示方法，用來呈現數據或資訊的可視�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Charts的中等難度問題，並在後面列出答案
+以中文給我5題Charts的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -79,18 +82,23 @@ Charts是一種圖形化的表示方法，用來呈現數據或資訊的可視�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Charts的網路資料
+給我5篇Charts的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Top 10 Streaming Platforms by Market Share in 2021" - This chart shows the leading streaming platforms, such as Netflix, Disney+, and Hulu, ranked by their market share as of 2021.
+1. "全球音樂排行榜-2021年1月" (https://www.billboard.com/charts)
+這個網站提供的是全球音樂排行榜，可以看到各種音樂類型在全球的銷售、播放量等排名。可以了解目前最熱門的音樂和歌手。
 
-2. "Global Smartphone Sales by Brand, 2021" - This chart displays the global smartphone sales by brand, including Apple, Samsung, and Huawei, in the year 2021.
+2. "全球電影票房排行榜-2021年1月" (https://www.boxofficemojo.com/chart/)
+這個網站提供的是全球電影票房排行榜，可以了解目前最受歡迎的電影和導演。另外，網站上還有電影評價、預告片等資訊。
 
-3. "Gender Diversity in the Tech Industry, 2021" - This chart depicts the gender diversity in the tech industry, highlighting the percentage of men and women in various tech companies, such as Google, Microsoft, and Facebook.
+3. "全球股市指數-2021年1月" (https://www.bloomberg.com/markets)
+這個網站提供的是全球股票市場的指數排名，可以瞭解各國股市的表現和走勢，是投資者必看的網站之一。
 
-4. "Top 10 Best-Selling Cars in the United States, 2021" - This chart exhibits the top 10 best-selling cars in the United States, including popular models such as the Toyota Camry, Honda Civic, and Nissan Rogue.
+4. "全球排名-2021年1月" (http://www.worldometers.info/world-population/population-by-country/)
+這個網站提供了各國人口排名和人口結構等資訊，可以了解全球各國的人口數和人口結構變化。
 
-5. "Global Renewable Energy Production, 2021" - This chart presents the global renewable energy production by source, including solar, wind, and hydropower, in the year 2021.   
+5. "全球氣溫變化-2021年1月" (https://climate.nasa.gov/vital-signs/global-temperature/)
+這個網站提供了全球氣溫變化的數據，可以看到近幾十年來地球的平均氣溫在逐漸上升。這個網站提供的數據可以用來關注氣候變化的議題。   
 

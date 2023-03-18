@@ -1,19 +1,22 @@
++++
+title = "情感投資"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Emotional Investing的問題
+給我5題Emotional Investing的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What role do emotions play in investment decisions?
-2. How can investors manage their emotions when investing in the stock market?
-3. How does fear affect investment decisions?
-4. How do investors balance their emotional attachment to a particular stock or business with the need to diversify their portfolio?
-5. What are some strategies investors can use to avoid making emotional investment decisions?   
+1. 情緒投資會如何影響投資人的決策？
+2. 如何避免情緒投資所帶來的負面影響？
+3. 情緒投資可能會導致哪些常見的投資失敗？
+4. 情緒投資和理性投資之間的區別是什麼？
+5. 如何在面對市場的波動時保持冷靜，減少情緒投資的風險？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Emotional Investing並舉例
+以中文說明Emotional Investing並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,7 +31,7 @@ Emotional investing是指投資時情感與情緒的影響，而非冷靜分析�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Emotional Investing的重點
+以中文條列Emotional Investing的重點
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +46,7 @@ Emotional investing是指投資時情感與情緒的影響，而非冷靜分析�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Emotional Investing的中等難度問題，並在後面列出答案
+以中文給我5題Emotional Investing的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -65,38 +68,33 @@ Emotional investing是指投資時情感與情緒的影響，而非冷靜分析�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Emotional Investing的網路資料
+給我5篇Emotional Investing的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "How Emotional Investing Hurts Your Retirement Savings"
+1. 「情緒投資」：讓你的情緒成為賺錢的力量 - 經濟日報
+https://money.udn.com/money/story/5599/4021181
 
-Source: https://www.investopedia.com/articles/investing/120515/how-emotional-investing-hurts-your-retirement-savings.asp
+這篇經濟日報的文章介紹了如何利用情緒投資來增加收益。它強調了投資者必須學會控制情緒，並且不要讓它們影響投資決策。同時，作者還提供了一些方法來控制情緒，例如設定停損點和久期目標等。
 
-This article discusses how emotions impact investment decisions and can ultimately hurt long-term retirement savings. It provides examples of common emotional investing errors such as chasing performance, panicking during market downturns, and holding onto losing investments out of attachment. The article concludes with tips for managing emotions when investing.
+2. 「操盤情迷」：情商講師教你怎麼掌控投資情緒 - 東森財經新聞
+https://www.ettoday.net/news/20180904/1247947.htm
 
-2. "The Psychology of Emotional Investment"
+這篇東森財經新聞的文章介紹了情商講師如何幫助投資者控制情緒，並且減少情緒投資的風險。它提供了一些方法，例如：定期放鬆身心、設定目標和專注於那些可以控制的因素等。
 
-Source: https://www.thebalance.com/the-psychology-of-emotional-investment-2466568
+3. 「情緒投資」如何才能「冷靜思考」 - 投資人雜誌
+https://www.investerplus.com/21830
 
-This article delves into the psychology behind emotional investing, exploring concepts such as loss aversion, confirmation bias, and herd mentality. It provides examples of how these biases can lead to poor investment decisions and provides strategies for mitigating the impact of emotions on investing.
+這篇投資人雜誌的文章探討了如何避免情緒投資，並且保持冷靜思考。它建議投資者要學會放下偏見和情緒，並且採取更加客觀的投資策略。同時，這篇文章還提供了一些方法來幫助投資者控制情緒，例如不要跟隨大眾群體、專注於長期投資等。
 
-3. "The Dangers of Emotional Investing: How to Avoid Common Traps"
+4. 「情緒投資」：不要成為感性投資者 - Cheers快訊
+https://www.cheers.com.tw/article/article.action?id=5087286
 
-Source: https://www.ally.com/do-it-right/investing/the-dangers-of-emotional-investing-and-how-to-avoid-common-traps/
+這篇Cheers快訊的文章強調了避免感性投資的重要性，並且探討了如何控制情緒。它建議投資者要進行充分的研究和技術分析，並且避免盲目跟隨趨勢。同時，這篇文章還提供了一些方法來控制情緒，例如設定停損點和不要讓短期波動影響長期投資策略等。
 
-This article provides a comprehensive overview of emotional investing, detailing how fear, greed, and herd mentality can affect investment decisions. It also provides concrete steps investors can take to manage these emotions and avoid common emotional investing traps.
+5. 「情緒投資」：學會控制情緒才能贏得成功 - 今日黃金論壇
+https://www.goldlegend.com.tw/news_detail.php?id=3707
 
-4. "Why Emotional Investing Leads to Poor Decisions"
-
-Source: https://www.moneyunder30.com/emotional-investing
-
-This article explores how emotions can lead to poor investment decisions and provides examples of how emotional investing can negatively impact long-term investment returns. It also offers tips for avoiding emotional investing, such as developing a long-term investment strategy, avoiding short-term thinking, and seeking professional advice.
-
-5. "The Importance of Emotional Intelligence in Investing"
-
-Source: https://www.nerdwallet.com/article/investing/emotional-intelligence-investing
-
-This article highlights the role of emotional intelligence in investing, arguing that a high EQ can lead to better investment decisions and ultimately higher returns. It provides tips for developing emotional intelligence, such as practicing self-awareness, regulating emotions, and empathizing with others.   
+這篇今日黃金論壇的文章強調了情緒投資的重要性，並且提供了一些方法來控制情緒。它建議投資者要學會調整心態和情緒，並且避免過度自信和焦慮。同時，這篇文章還強調了長期投資策略的重要性，並且提供了一些方法來幫助投資者保持冷靜和優秀。   
 

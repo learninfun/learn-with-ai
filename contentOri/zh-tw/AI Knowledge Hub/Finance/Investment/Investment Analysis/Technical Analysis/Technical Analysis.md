@@ -1,6 +1,9 @@
++++
+title = "技術分析"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Technical Analysis的問題
+給我5題Technical Analysis的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -17,22 +20,18 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Technical Analysis並舉例
+以中文說明Technical Analysis並舉例
 {{< /ask_chatgpt >}}
 
 
 
-Technical analysis is a method used to evaluate securities by analyzing statistical trends based on trading activity, such as price and volume. It aims to identify patterns and trends in stock prices and attempt to forecast future price movements.
+Technical Analysis是一種投資分析技術，主要使用此技術去研究股票、期貨、外匯等金融商品。它是一種透過蒐集、觀察及分析過去的市場資訊，以尋找股價趨勢、支撐及阻力水平的方法，進而作出未來的投資決策。特色就是重視歷史走勢、匯整成圖表、使用各種技術指標。
 
-One commonly used tool in technical analysis is charting. Technical analysts use charts to identify trends, support and resistance levels, and key price levels that may signal a buying or selling opportunity. Another common tool is technical indicators, which are mathematical calculations of price and/or volume used to identify potential entry and exit points for traders.
-
-For example, a technical analyst might notice that a stock’s price has been moving in a specific pattern, such as a triangle formation, and may use this information to predict future price movements. They may also use technical indicators, such as the Relative Strength Index (RSI), to identify oversold or overbought conditions in a stock.
-
-While technical analysis does not provide definitive answers, it can be a useful tool for traders and investors to supplement their fundamental analysis and improve their decision-making abilities.   
+舉例來說，當投資者使用技術分析來研究股票時，會觀察各種技術指標，例如：均線、強弱指標、相對強弱指數、MACD指標等。透過這些技術指標的分析和圖表的觀察，可以發現一些市場趨勢，例如股票趨勢是否為上漲趨勢、下跌趨勢或盤整趨勢等。並且可以透過這些趨勢的分析，做出未來股價的預測和投資決策。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Technical Analysis的重點
+以中文條列Technical Analysis的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +54,7 @@ While technical analysis does not provide definitive answers, it can be a useful
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Technical Analysis的中等難度問題，並在後面列出答案
+以中文給我5題Technical Analysis的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,14 +76,14 @@ While technical analysis does not provide definitive answers, it can be a useful
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Technical Analysis的網路資料
+給我5篇Technical Analysis的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. https://www.investopedia.com/articles/technical/112801.asp
-2. https://www.fxcm.com/uk/education/trading-strategies/technical-analysis/what-is-technical-analysis/
-3. https://www.nasdaq.com/articles/5-steps-to-becoming-a-successful-technical-trader-2018-06-11
-4. https://www.forex.com/en-uk/education/technical-analysis/
-5. https://www.ig.com/uk/trading-strategies/the-complete-guide-to-technical-analysis-190609   
+1. 技術分析指標 - https://www.iread.com.tw/article/128554/
+2. 技術分析入門-讓你看懂市場脈動 - https://www.etmoney.com.tw/article/c0u8tn
+3. K線圖和技術分析入門 - https://www.wws.com.tw/blog/post/k%E7%B7%9A%E5%9C%96%E5%92%8C%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90%E5%85%A5%E9%96%80/
+4. 技術分析最常使用的五大工具 - https://www.wws.com.tw/blog/post/%E6%8A%80%E8%A1%93%E5%88%86%E6%9E%90%E6%9C%80%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E4%BA%94%E5%A4%A7%E5%B7%A5%E5%85%B7/
+5. 技術分析的運用與實戰 - https://www.moneydj.com/KMDJ/wiki/wikiviewer.aspx?keyid=1f01bb14-2810-40db-9a42-8fd50c83e285   
 

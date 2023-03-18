@@ -1,19 +1,22 @@
++++
+title = "投資法規"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment Regulations的問題
+給我5題Investment Regulations的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the key regulations governing investments in securities, such as stocks and bonds?
-2. How do investment regulations differ between developed and emerging markets?
-3. What role do regulatory agencies play in overseeing and enforcing investment regulations?
-4. How has the implementation of the Dodd-Frank Wall Street Reform and Consumer Protection Act impacted investment regulations in the United States?
-5. What are the potential risks and challenges associated with investing in alternative or non-traditional asset classes, and how are these addressed by investment regulations?   
+1. 投資制度的主要目的是什麼？
+2. 什麼是投資者保護措施？它們是怎樣操作的？
+3. 投資者應該注意哪些法規來保護他們的權益？
+4. 哪些投資產品需要受到特殊的法規監管？
+5. 什麼是反洗錢法規？它們的實踐和執行程序是什麼？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment Regulations並舉例
+以中文說明Investment Regulations並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +39,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment Regulations的重點
+以中文條列Investment Regulations的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,55 +57,45 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment Regulations的中等難度問題，並在後面列出答案
+以中文給我5題Investment Regulations的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the minimum net worth requirement for a natural person to be classified as an accredited investor under the US Securities and Exchange Commission (SEC) regulations?
-Answer: $1 million (excluding the value of their primary residence) or annual income of at least $200,000 for the past two years, or joint income with a spouse of at least $300,000 for the past two years.
+1. 什麼是股票公開募集的限制？
+答案：股票公開募集限制是指公司發行股票時，必須遵守證券相關法律法規的限制，如發行數量、發售方式、發行所得使用等方面的限制。
 
-2. What is the main purpose of the Alternative Investment Fund Managers Directive (AIFMD) in the European Union?
-Answer: To regulate and supervise alternative investment fund managers and ensure investor protection, transparency, and systemic stability in the financial markets.
+2. 什麼是證券投資基金的投資限制？ 
+答案：證券投資基金的投資限制是指基金管理人要按照基金合同的約定，在特定的投資範圍和範圍內進行投資，並且要遵循相應的投資原則和法律法規的要求。
 
-3. Under Singapore's Securities and Futures Act, what is the maximum fine for insider trading?
-Answer: Up to $250,000 or three times the amount of profits gained or losses avoided, whichever is higher, and imprisonment of up to seven years.
+3. 關於外國投資者投資中國的法律規定，有哪些限制？
+答案：外國投資者投資中國的法律規定有農業、能源、石油、天然氣、鋼鐵、金融等海外投資領域的限制，在進行投資前，投資人應該仔細研究相關的法律法規，以確保自身合法性與權益。
 
-4. In Canada, what is the minimum capital requirement for an investment dealer to operate?
-Answer: $50,000 in equity capital or $25,000 in equity capital and $25,000 in surety bonds.
+4. 在證券交易中，什麼是內幕交易？ 
+答案：內幕交易是指利用內部信息充分掌握未公開的大量資訊，以進行股票、期貨交易等投資行為的違法行為。
 
-5. What is the purpose of the Foreign Account Tax Compliance Act (FATCA) in the United States?
-Answer: To prevent US taxpayers from avoiding tax obligations by requiring foreign financial institutions to report information about their US clients to the IRS.   
+5. 列舉一些證券交易中的道德風險或道德問題？
+答案：證券交易中的道德風險或道德問題包括：內部消息泄露、虛假陳述、操縱市場或報價、打壓股價、股票應收款項遲延等不道德行為。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment Regulations的網路資料
+給我5篇Investment Regulations的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Securities and Exchange Commission (SEC) – Investment Regulation
-https://www.sec.gov/fast-answers/answersreguteshtm.html
+1. 金管會-證券期貨投資人保護規定
+網址：https://www.fsc.gov.tw/ch/home.jsp?id=96&parentpath=0,2
 
-This page provides an overview of investment regulation and securities laws in the United States. It explains the role of the SEC and how it regulates investment companies and advisors, broker-dealers, and public companies.
+2. 國泰投信-證券投資法規
+網址：https://www.cathaybk.com.tw/cathaybk/investor/with_rules02.jsp
 
-2. Financial Industry Regulatory Authority (FINRA) – Investment Regulation
-https://www.finra.org/investors/investment-regulations
+3. 元大投信-基金法規
+網址：https://www.yuantafunds.com.tw/CMS/Skin/YUAN/Index.aspx?mp=1&mid=3
 
-FINRA is an independent, non-profit organization which aims to protect investors and ensure the integrity of the financial industry. This page explains some of the key investment regulations and rules that FINRA enforces, including suitability and know-your-customer rules.
+4. 富邦投信-會計法規
+網址：https://www.fubon.com/fundsafety/Regulation_Account.aspx
 
-3. U.S. Department of Labor – Investment Regulation
-https://www.dol.gov/agencies/ebsa/about-ebsa/our-activities/resource-center/investment-regulations
-
-The Employee Benefits Security Administration (EBSA) is the regulatory agency that oversees employer-sponsored benefit plans, such as 401(k) plans. This page provides information on the investment regulations and rules that apply to these plans, including the fiduciary duty rule.
-
-4. International Organization of Securities Commissions (IOSCO) – Investment Regulation
-https://www.iosco.org/investor_protection/?subsection=investor_protection_investment_regulation
-
-IOSCO is a global organization of securities regulators that aims to promote investor protection and market integrity. This page discusses some of the key investment regulations and standards that IOSCO has developed, including rules on custody of assets and disclosure requirements.
-
-5. Investment Company Act of 1940 – Investment Regulation
-https://www.sec.gov/about/laws/ica40.pdf
-
-The Investment Company Act of 1940 is a federal law that regulates investment companies, including mutual funds and exchange-traded funds (ETFs). This page provides a link to the full text of the law and highlights some of its key provisions, such as registration requirements and restrictions on affiliated transactions.   
+5. 台灣證券交易所-法律及規章
+網址：https://www.twse.com.tw/zh/page/law_index/law_index.html   
 

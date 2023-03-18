@@ -1,19 +1,22 @@
++++
+title = "投資心理學"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment Psychology的問題
+給我5題Investment Psychology的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. How do emotions like fear and greed impact investment decision-making?
-2. What role does overconfidence play in investment decisions, and how can investors guard against it?
-3. How do individual biases, such as confirmation bias and herd mentality, influence investment practices?
-4. What are some strategies for managing the anxiety and stress that can arise from volatile markets?
-5. How can investors balance the need for short-term gains with the importance of long-term financial planning?   
+1. 投資者的心理狀態如何影響他們的投資決策？
+2. 投資者在處理風險時會有哪些心理偏差？
+3. 恐慌和貪婪是如何影響市場波動和投資表現的？
+4. 當投資者遭遇虧損時，他們如何處理情緒？
+5. 如何幫助投資者擺脫心理障礙並改善他們的投資決策？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment Psychology並舉例
+以中文說明Investment Psychology並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,7 +33,7 @@ Investment Psychology是指投資者認知、情感和行為方面的心理狀�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment Psychology的重點
+以中文條列Investment Psychology的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@ Investment Psychology是指投資者認知、情感和行為方面的心理狀�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment Psychology的中等難度問題，並在後面列出答案
+以中文給我5題Investment Psychology的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,7 +80,7 @@ Investment Psychology是指投資者認知、情感和行為方面的心理狀�
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment Psychology的網路資料
+給我5篇Investment Psychology的中文網路資料
 {{< /ask_chatgpt >}}
 
 

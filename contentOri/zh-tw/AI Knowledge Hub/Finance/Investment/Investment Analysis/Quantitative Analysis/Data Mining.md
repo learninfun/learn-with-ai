@@ -1,6 +1,9 @@
++++
+title = "數據挖掘"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Data Mining的問題
+給我5題Data Mining的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Data Mining並舉例
+以中文說明Data Mining並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,7 +37,7 @@ Data Mining是指在大量的資料中尋找模式、關聯、趨勢或其他有
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Data Mining的重點
+以中文條列Data Mining的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +53,7 @@ Data Mining是指在大量的資料中尋找模式、關聯、趨勢或其他有
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Data Mining的中等難度問題，並在後面列出答案
+以中文給我5題Data Mining的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -72,7 +75,7 @@ Data Mining是指在大量的資料中尋找模式、關聯、趨勢或其他有
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Data Mining的網路資料
+給我5篇Data Mining的中文網路資料
 {{< /ask_chatgpt >}}
 
 

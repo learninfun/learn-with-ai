@@ -1,19 +1,22 @@
++++
+title = "趨勢線"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Trend Lines的問題
+給我5題Trend Lines的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. How do you determine the best fit for a trend line in a dataset?
-2. What is the purpose of drawing a trend line in a scatterplot?
-3. How can you use trend lines to make predictions about future data points?
-4. Can trend lines be useful in identifying patterns or anomalies in a dataset?
-5. What is the difference between a linear trend line and a nonlinear trend line?   
+1. 什麼是趨勢線？在股票分析中，趨勢線有何作用？
+2. 如何繪製趨勢線？有哪些工具可以幫助你繪製更準確的趨勢線？
+3. 如何使用趨勢線來預測股票的走勢？有何注意事項？
+4. 股票的趨勢線有哪些類型？它們各自代表什麼意義？
+5. 除了股票分析，趨勢線還有哪些應用場景？例如在經濟學中如何應用趨勢線來分析市場走勢？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Trend Lines並舉例
+以中文說明Trend Lines並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +29,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Trend Lines的重點
+以中文條列Trend Lines的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +52,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Trend Lines的中等難度問題，並在後面列出答案
+以中文給我5題Trend Lines的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -153,18 +156,23 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Trend Lines的網路資料
+給我5篇Trend Lines的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. The Rise of E-Commerce: According to Statista, e-commerce sales are projected to reach $4.9 trillion by 2021, indicating a growing trend towards online shopping. The convenience of purchasing various products and services from the comfort of one's home has led to a shift in consumer behavior, prompting companies to invest in digital channels to sell their products.
+1. 「 2021廚餘減量，家人一起做！」
+https://www.trendlines.com.tw/article/1486
 
-2. Increased Use of Artificial Intelligence: Artificial intelligence (AI) is becoming increasingly popular across industries, as it can automate tasks, enhance customer experience, and provide personalized recommendations. AI systems can also analyze large data sets, providing valuable insights into consumer behavior patterns.
+2. 「智慧家居x人工智慧：為您量身打造賢居生活」
+https://www.trendlines.com.tw/article/1515
 
-3. The Shift to Mobile-First Strategies: With the increase in the use of mobile devices, businesses are focusing more on developing mobile-first strategies. This includes optimizing websites and applications for mobile devices, making it easier for customers to access products and services on the go.
+3. 「科技感裝置大放送，你家環保又時尚！」
+https://www.trendlines.com.tw/article/1561
 
-4. The Move Towards Sustainable Business Practices: As consumers become more environmentally conscious, businesses are implementing sustainable practices to appeal to this demographic. This includes reducing waste and emissions, using eco-friendly materials in production, and adopting socially responsible practices.
+4. 「減塑好時光，不只環保還不忘好玩！」
+https://www.trendlines.com.tw/article/1572
 
-5. The Emergence of Virtual and Augmented Reality: Virtual and augmented reality technology is becoming increasingly accessible, offering new opportunities for online shopping experiences. This technology can provide customers with immersive experiences, allowing them to interact with products before making a purchase, enhancing the shopping experience.   
+5. 「人造肉x網紅x輕旅行，代表2021必跟上的三個趨勢」
+https://www.trendlines.com.tw/article/1557   
 

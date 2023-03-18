@@ -1,6 +1,9 @@
++++
+title = "遺產稅"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Estate Tax的問題
+給我5題Estate Tax的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Estate Tax並舉例
+以中文說明Estate Tax並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +29,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Estate Tax的重點
+以中文條列Estate Tax的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +44,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Estate Tax的中等難度問題，並在後面列出答案
+以中文給我5題Estate Tax的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -64,28 +67,38 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Estate Tax的網路資料
+給我5篇Estate Tax的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "What is an Estate Tax?" by Investopedia 
-Link: https://www.investopedia.com/terms/e/estatetax.asp  
-Content: This article provides an overview of estate taxes, including what they are, who needs to pay them, and how they are calculated. It also discusses estate planning strategies for minimizing estate tax liability.
+1.《遺產稅》 - 財政部國稅局官方網站 
 
-2. "Understanding Estate Taxes" by TurboTax
-Link: https://turbotax.intuit.com/tax-tips/estate-planning/understanding-estate-taxes/L9Cqxvwvh  
-Content: This article provides a more detailed explanation of estate taxes, including the history of estate taxes in the U.S., the exemptions available to taxpayers, and how to calculate estate tax liability.
+https://www.nta.gov.tw/home/eng/ 
 
-3. "The Pros and Cons of the Estate Tax" by The Balance
-Link: https://www.thebalance.com/pros-and-cons-of-the-estate-tax-4069513  
-Content: This article explores the arguments for and against the estate tax, including how it affects economic growth, wealth distribution, and the family business.
+本網站為財政部國稅局官方網站，提供遺產稅課稅相關的法令、課稅項目及申報相關資訊。
 
-4. "Estate Tax Limits for 2021" by Nolo
-Link: https://www.nolo.com/legal-encyclopedia/estate-tax  
-Content: This article provides an overview of the federal estate tax system, including the current estate tax exemptions and rates, how to file a federal estate tax return, and state estate tax laws.
+2.《小百科：什麼是遺產稅？》 - 鉅亨網 
 
-5. "Estate Tax Planning Strategies to Protect Your Wealth" by Forbes
-Link: https://www.forbes.com/sites/mikekappel/2021/06/08/estate-tax-planning-strategies-to-protect-your-wealth/  
-Content: This article offers advice on estate planning strategies to minimize tax liability, including gifting assets, setting up trusts, and establishing life insurance policies. It also explains the benefits of starting an estate plan early in life, rather than waiting until later in life.   
+https://news.cnyes.com/news/id/3951904 
+
+本網站提供有關遺產稅的基本知識及課稅方式，以及如何準備遺產稅申報表。
+
+3.《談遺產稅不是鬼話 先看您有沒有必要自付高額稅金》 - 新浪財經 
+
+https://finance.sina.com.tw/money/know/155685.html 
+
+本文介紹遺產稅的稅率、計算方式及節稅方式，並探討遺產稅對一般民眾及企業的影響。
+
+4.《做足功課　遺產稅完美規避》 - 鉅亨網 
+
+https://news.cnyes.com/news/id/3989908 
+
+本文介紹如何在遺產分配時達成最佳的節稅方式，以及如何預先安排遺產計畫，以減輕遺產稅負擔。
+
+5.《遺產稅稅務知識大集合！》 - Momo財經 
+
+https://www.momoshop.com.tw/goods/GoodsDetail.jsp?i_code=7318517 
+
+本網站提供關於遺產稅的基本概念、課稅項目及稅率，並介紹如何在遺產規劃時進行減稅。   
 

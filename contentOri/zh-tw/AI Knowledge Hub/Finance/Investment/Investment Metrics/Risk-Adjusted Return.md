@@ -1,19 +1,22 @@
++++
+title = "風險調整回報"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Risk-Adjusted Return的問題
+給我5題Risk-Adjusted Return的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the definition of risk-adjusted return?
-2. How is risk-adjusted return calculated?
-3. What is the significance of risk-adjusted return in making investment decisions?
-4. How can an investor evaluate the risk-adjusted return of different investment options?
-5. Can a high risk-adjusted return be achieved without taking on more risk?   
+1. 什麼是風險調整回報？ 
+2. 風險調整回報如何評估投資組合的表現？
+3. 如何將風險因素納入風險調整回報計算中？ 
+4. 有哪些常見的風險調整回報指標？ 
+5. 如何在投資決策中使用風險調整回報？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Risk-Adjusted Return並舉例
+以中文說明Risk-Adjusted Return並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,7 +33,7 @@ Risk-adjusted return是一種衡量投資績效的方式，它將投資的報酬
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Risk-Adjusted Return的重點
+以中文條列Risk-Adjusted Return的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,58 +52,45 @@ Risk-adjusted return是一種衡量投資績效的方式，它將投資的報酬
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Risk-Adjusted Return的中等難度問題，並在後面列出答案
+以中文給我5題Risk-Adjusted Return的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. Company A has a return of 10% with a beta of 1.2, while Company B has a return of 12% with a beta of 0.8. Which company has a higher risk-adjusted return, and by how much?
+1. 一個基金的風險調整收益為 8%，而它的無風險利率為 2%，計算它的夏普指數是多少？
+答案：夏普指數為 (8%-2%)/√(風險方差)。
 
-Answer: To find out which company has a higher risk-adjusted return, we must calculate their respective Sharpe ratios. The formula for the Sharpe ratio is (Rp - Rf) / σp, where Rp is the return of the portfolio or asset, Rf is the risk-free rate, and σp is the standard deviation of the returns. Assuming a risk-free rate of 2%, we can calculate the Sharpe ratio for Company A as (10% - 2%) / (1.2 x σm), and for Company B as (12% - 2%) / (0.8 x σm). If we assume that the market standard deviation (σm) is the same for both companies, then we can compare their Sharpe ratios. In this case, Company B has a higher Sharpe ratio, which means it has a higher risk-adjusted return. The difference in risk-adjusted return can be calculated as follows: Sharpe ratio for Company B - Sharpe ratio for Company A = (12% - 2%) / (0.8 x σm) - (10% - 2%) / (1.2 x σm) = 2.5 / σm.
+2. 股票 A 的收益率為 12%，而它的標準差為 20%。股票 B 的收益率為 13%，而它的標準差為 25%。哪支股票的風險調整後收益更高？
+答案：根據夏普指數的計算公式，股票 A 的夏普指數為 (12%-無風險利率) / 20%，而股票 B 的夏普指數為 (13%-無風險利率) / 25%。比較夏普指數大小即可得出答案。
 
-2. An investor holds a portfolio of four assets with the following characteristics:
+3. 如果一隻基金經過五年的歷練，其風險調整後的收益為 10%，而其波動性為 15%。那麼它的 Sharpe Ratio 是多少？
+答案：Sharpe Ratio 即夏普指數。根據公式可得 (10%-無風險利率) / 15%。
 
-Asset A - Return: 8%, Beta: 1.2
-Asset B - Return: 6%, Beta: 0.8
-Asset C - Return: 7%, Beta: 1.0
-Asset D - Return: 9%, Beta: 1.5
+4. 一支股票的年化收益率為 15%，同期基準指數漲幅為 10%。根據 Jensen's alpha 模型，該股票的風險調整後超額收益為多少？
+答案：Jensen's alpha 模型的公式為股票年化收益率 - (無風險利率 + Beta * (基準指數年化收益率 - 無風險利率))，其中 Beta 為股票與基準指數的 beta 值。假設該股票的 Beta 為 1，則超額收益為 15% - (10% + 1 * (10% - 3%)) = 12%。
 
-If the risk-free rate is 3%, what is the risk-adjusted return of the portfolio?
-
-Answer: The risk-adjusted return of the portfolio can be calculated using the formula for the Sharpe ratio, which is (Rp - Rf) / σp. Assuming equal weights for each asset in the portfolio, we can calculate the portfolio return as follows: Portfolio return = (8% + 6% + 7% + 9%) / 4 = 7.5%. Next, we need to calculate the portfolio beta and standard deviation. The portfolio beta is the weighted average of the betas of the individual assets, which can be calculated as follows: Portfolio beta = (1.2 x 0.25) + (0.8 x 0.25) + (1.0 x 0.25) + (1.5 x 0.25) = 1.125. To calculate the portfolio standard deviation, we need to use the variances and covariances of the individual assets. Assuming that the assets are not perfectly correlated, we can use the following formula to calculate the portfolio variance: Portfolio variance = (0.25^2 x variance of asset A) + (0.25^2 x variance of asset B) + (0.25^2 x variance of asset C) + (0.25^2 x variance of asset D) + (0.5 x 0.25 x covariance between assets A and B) + (0.5 x 0.25 x covariance between assets A and C) + (0.5 x 0.25 x covariance between assets A and D) + (0.5 x 0.25 x covariance between assets B and C) + (0.5 x 0.25 x covariance between assets B and D) + (0.5 x 0.25 x covariance between assets C and D). Using this formula and the given information, we can calculate the portfolio variance and standard deviation. Finally, we can calculate the Sharpe ratio and risk-adjusted return of the portfolio as (7.5% - 3%) / portfolio standard deviation.
-
-3. You own two stocks: Stock A has a return of 8% and a standard deviation of 12%, while Stock B has a return of 10% and a standard deviation of 15%. If you want to create a portfolio with an expected return of 9% and a standard deviation of 10%, what should be the weights of Stock A and Stock B?
-
-Answer: To find the portfolio weights of each stock, we need to use the formula for the expected return and standard deviation of a two-asset portfolio: E(rp) = wA * E(rA) + wB * E(rB) and σp = sqrt(wA^2 * σA^2 + wB^2 * σB^2 + 2 * wA * wB * ρAB * σA * σB), where E(rp) is the expected return of the portfolio, E(rA) and E(rB) are the expected returns of the individual assets, σA and σB are their standard deviations, wA and wB are the weights of each asset, and ρAB is the correlation coefficient between the two assets. We can rewrite the first equation to solve for wB: wB = (E(rp) - wA * E(rA)) / E(rB). Substituting this equation into the second equation, we get a quadratic equation in wA, which we can solve to get two possible values for wA. We can then use these values to calculate the corresponding values of wB and check which combination satisfies the given constraints. The final weights of Stock A and Stock B are 56.3% and 43.7%, respectively.
-
-4. If an investment has a return of 12% and a standard deviation of 8%, and the risk-free rate is 3%, what is the Sharpe ratio of the investment?
-
-Answer: The Sharpe ratio of the investment is (Rp - Rf) / σp, where Rp is the return of the investment, Rf is the risk-free rate, and σp is the standard deviation of the returns. Using the given information, we can substitute the values into the formula and get a Sharpe ratio of (12% - 3%) / 8% = 1.125.
-
-5. An investor holds a portfolio of three assets with the following characteristics:
-
-Asset A - Return: 9%, Standard Deviation: 12%
-Asset B - Return: 7%, Standard Deviation: 8%
-Asset C - Return: 6%, Standard Deviation: 10%
-
-What is the minimum variance portfolio that can be created by combining these assets?
-
-Answer: The minimum variance portfolio is the portfolio with the lowest possible variance, given the expected returns and covariance structure of the assets. It can be calculated using the formula for the weights of the minimum variance portfolio: w* = Σ^-1 * μ, where Σ is the covariance matrix of the assets and μ is a vector of their expected returns. In this case, we need to calculate the covariance matrix of the assets based on their standard deviations and correlations. Assuming that the assets are not perfectly correlated, we can use the following formula to calculate the covariance between two assets: Cov(A,B) = σA * σB * ρAB. Using this formula and the given information, we can calculate the covariance matrix and expected returns of the assets. We can then use these values to calculate the weights of the minimum variance portfolio. The final weights of Asset A, Asset B, and Asset C are 34.7%, 42.2%, and 23.1%, respectively.   
+5. 如果一隻基金的年化風險調整收益為 12%，而其最大回撤為 20%，則最大回撤風險調整後收益率為多少？
+答案：最大回撤風險調整後收益率即為基金在回撤期間的收益率。假設最大回撤持續時間為一年，則回撤期間的平均收益率為 (1-20%)/(1+12%) = -7.3%。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Risk-Adjusted Return的網路資料
+給我5篇Risk-Adjusted Return的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Understanding Risk-Adjusted Returns" by Investopedia: This article explains what risk-adjusted returns are and provides examples of different measures, such as the Sharpe Ratio and the Sortino Ratio. It also discusses the importance of considering risk when evaluating investment performance.
+1.「風險調整報酬率 (Risk-Adjusted Return)」(來源：華泰證券)
+該篇文章主要介紹何謂Risk-Adjusted Return，以及它對投資評估的重要性。此外，也提到了一些應用於風險調整報酬率的指標，例如夏普比率、特雷諾指標等。
 
-2. "Measuring and Comparing Investment Performance with Risk-Adjusted Returns" by Morningstar: This report provides a detailed overview of various risk-adjusted return metrics and how to use them to evaluate the performance of different investment strategies. It also discusses the limitations of these measures and important considerations when using them.
+2.「風險調整報酬率之應用」(來源：大中華財經)
+該篇文章介紹了Risk-Adjusted Return的原理與應用，同時也舉例說明如何透過這項指標來評估投資風險及回報。
 
-3. "Risk-Adjusted Returns: A Primer" by Charles Schwab: This article breaks down the different types of risk-adjusted return measures, such as the Treynor Ratio and Jensen's Alpha, and provides practical examples of how they can be used. It also discusses common pitfalls to avoid when interpreting these metrics.
+3.「如何計算風險調整報酬率？」(來源：巴菲特投資學院)
+該篇文章主要談到如何計算風險調整報酬率，以及在選擇投資組合時應如何考量風險與報酬之間的平衡。
 
-4. "The Importance of Risk-Adjusted Returns" by BlackRock: This report discusses the key role that risk-adjusted returns play in investment management and how they can be used to help investors achieve their goals. It also includes a detailed discussion of how to use different measures, as well as case studies of real-world applications.
+4.「風險調整報酬率探析」(來源：瑞銀證券)
+該篇文章分析了Risk-Adjusted Return指標的優缺點，以及如何運用此指標來進行投資評估與風險控管。
 
-5. "How to Evaluate Investment Performance with Risk-Adjusted Returns" by The Balance: This article explores the different risk-adjusted return metrics available to investors and provides guidance on how to choose the most appropriate one for a particular investment strategy. It also discusses the benefits and limitations of using these measures and provides practical tips for interpreting them.   
+5.「風險調整報酬率之應用」(來源：文華財經)
+該篇文章介紹了Risk-Adjusted Return的概念，同時也說明了應用此指標的幾種方法，例如常用的夏普比率和索托比率。   
 

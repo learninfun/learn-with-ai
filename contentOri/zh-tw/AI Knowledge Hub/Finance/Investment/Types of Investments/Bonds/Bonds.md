@@ -1,6 +1,9 @@
++++
+title = "債券"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Bonds的問題
+給我5題Bonds的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +16,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Bonds並舉例
+以中文說明Bonds並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +29,7 @@ Bonds是一種債券，它是一種公司或政府為籌資所發行的債務證
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Bonds的重點
+以中文條列Bonds的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +44,7 @@ Bonds是一種債券，它是一種公司或政府為籌資所發行的債務證
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Bonds的中等難度問題，並在後面列出答案
+以中文給我5題Bonds的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -63,23 +66,28 @@ Bonds是一種債券，它是一種公司或政府為籌資所發行的債務證
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Bonds的網路資料
+給我5篇Bonds的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Bonds.com
-Bonds.com is a leading online platform that provides access to fixed income solutions. The platform provides a range of tools and resources, including a bond search engine, performance charts, and research reports.
+1. Bonds - 什麼是債券？
+https://www.findwise.com/what-is-a-bond/
+這篇文章介紹了什麼是債券、債券的種類、發行者、投資者、風險等基本概念。並且解釋了債券對投資者的吸引力以及債券市場的運作。
 
-2. Investopedia.com/ articles/financial-bonds
-This website provides a comprehensive guide to understanding bonds as financial instruments. It covers the different types of bonds, their characteristics, and how they work. It also discusses the advantages and risks of investing in bonds.
+2. Bonds - 投資債券的五大優勢
+https://www.moneydj.com/kmdj/News/NewsViewer.aspx?a=b7c55626-c0d5-4812-bd21-17c1b60926ed
+這篇文章介紹了投資債券的五大優勢，包括穩定性、定期性收益、保本性、波動性低等等，讓讀者更加瞭解債券是一種穩健的投資工具。
 
-3. Bloomberg.com/bond-market
-Bloomberg's bond market section provides the latest news and insights on the global bond market. It offers real-time data on bond prices, yields, and spreads, as well as commentary from industry experts.
+3. Bonds - 債券基礎入門
+https://www.591.com.tw/blog/post/376440129
+這篇文章介紹了債券市場的基礎知識，包括什麼是債券、債券的優缺點、發行者、到期日、票面利率等等，並且舉例解釋了債券的價格和收益率之間的關係。
 
-4. Morningstar.com/bonds
-Morningstar is a popular platform for researching mutual funds, stocks, and bonds. Its bond section offers in-depth analysis of individual bonds and bond funds, along with ratings and reviews from its team of analysts.
+4. Bonds - 債券投資風險解析
+https://www.cmoney.tw/notes/note-detail.aspx?nid=1301
+這篇文章從風險的角度出發，介紹了債券投資的風險，包括發行人風險、利率風險、經濟風險等等。並且提供了減少債券投資風險的方法和建議。
 
-5. Fidelity.com/fixed-income-bonds/overview
-Fidelity Investments is a well-known provider of investment products and services. Its fixed-income and bonds section provides resources for finding and evaluating bond investments, including a bond screener, market research, and educational materials.   
+5. Bonds - 投資債券的注意事項
+https://kknews.cc/finance/2yj6kyq.html
+這篇文章介紹了投資債券時需要注意的事項，包括確定自己的投資目的、了解債券的發行者、評估債務人的財務狀況、了解債券市場的風險和機會等等，讓讀者能夠更加理性地進行債券投資。   
 

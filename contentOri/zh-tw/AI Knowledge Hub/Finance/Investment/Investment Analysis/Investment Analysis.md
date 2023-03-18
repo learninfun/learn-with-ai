@@ -1,19 +1,22 @@
++++
+title = "投資分析"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Investment Analysis的問題
+給我5題Investment Analysis的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the financial performance of the company in the last three years, and what factors contributed to its performance? 
-2. What is the projected growth of the company in the next five years, and what are the risks that may affect its growth? 
-3. What is the market competition of the industry, and how does the company compare to its competitors? 
-4. What is the current valuation of the company and how does it compare to its historical valuation and its competitors? 
-5. What is the company's dividend policy, and what are the factors that may affect its ability to pay dividends in the future?   
+1. 什麼是投資分析？
+2. 為什麼需要投資分析？
+3. 如何進行投資分析？有哪些常用的方法？
+4. 投資分析需要考慮哪些因素？如何進行風險評估？
+5. 如何進行投資決策？有哪些常用的投資策略？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Investment Analysis並舉例
+以中文說明Investment Analysis並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,7 +37,7 @@ Investment Analysis是指對潛在投資項目進行全面性、系統性的分�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Investment Analysis的重點
+以中文條列Investment Analysis的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,65 +55,52 @@ Investment Analysis是指對潛在投資項目進行全面性、系統性的分�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Investment Analysis的中等難度問題，並在後面列出答案
+以中文給我5題Investment Analysis的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. A company's stock has a beta of 1.25 and an expected return of 10%. The risk-free rate is 2% and the market return is 8%. What is the company's alpha?
+1. 一個投資組合包括股票、債券和貨幣市場工具，其分配比例分別為50%、30%和20%。如果股票、債券和貨幣市場工具的預期回報率分別為10%、5%和2%，該投資組合的預期回報率是多少？
 
-Answer: Alpha = Expected Return - (Risk-Free Rate + Beta * (Market Return - Risk-Free Rate)) = 10% - (2% + 1.25 * (8% - 2%)) = 4.5%
+答案：預期回報率 = 50% x 10% + 30% x 5% + 20% x 2% = 7%
 
-2. An investor is considering two different investments that both have the same expected return of 12%. Investment A has a standard deviation of 15% and Investment B has a standard deviation of 30%. Which investment has a higher risk-adjusted return, as measured by the Sharpe ratio?
+2. 一家公司的年收入為500萬美元，年支出為400萬美元。如果其未來2年的年收入和年支出預計同比增長10%，該公司的未來2年的自由現金流是多少？
 
-Answer: Sharpe Ratio = (Expected Return - Risk-Free Rate) / Standard Deviation. For Investment A: Sharpe Ratio = (12% - Risk-Free Rate) / 15% ; for Investment B: Sharpe Ratio = (12% - Risk-Free Rate) / 30%. Since both investments have the same expected return, the one with the lower standard deviation (Investment A) will have a higher Sharpe ratio and therefore a higher risk-adjusted return.
+答案：未來2年的自由現金流 = (500萬美元 x 1.1 - 400萬美元 x 1.1) x 2 = 120萬美元
 
-3. A company has a price-to-earnings (P/E) ratio of 20 and earnings per share (EPS) of $2.50. What is the company's stock price?
+3. 一家公司的市場價值為1億美元，其每股股票的市價為10美元，每股淨收益為1美元。該公司的市場盈率是多少？
 
-Answer: Stock Price = P/E Ratio * EPS = 20 * $2.50 = $50
+答案：市場盈率 = 市場價值 ÷ 淨收益 = 100萬美元 ÷ 10萬美元 = 10倍
 
-4. An investor buys a bond with a face value of $1,000, a coupon rate of 6%, and a maturity of 5 years. If the current market interest rate is 5%, what is the bond's price?
+4. 一個投資組合包括股票、債券和貨幣市場工具，其波動率分別為20%、10%和5%。如果股票、債券和貨幣市場工具的分配比例分別為40%、40%和20%，該投資組合的整體波動率是多少？
 
-Answer: PV of coupon payments = Coupon Payment * [(1 - (1 + r)^-n) / r] = $60 * [(1 - (1 + 5%)^-5) / 5%] = $268.88. PV of face value = Face Value / (1 + r)^n = $1,000 / (1 + 5%)^5 = $783.53. Bond Price = PV of coupon payments + PV of face value = $268.88 + $783.53 = $1,052.41
+答案：整體波動率 = (20%^2 x 40%^2 + 10%^2 x 40%^2 + 5%^2 x 20%^2 + 2 x 20% x 10% x 40% x 40% + 2 x 20% x 5% x 40% x 20% + 2 x 10% x 5% x 40% x 20%)^0.5 = 14.39%
 
-5. A mutual fund charges a front-end load of 3%, a 12b-1 fee of 0.5% annually, and has an expense ratio of 1.25%. If an investor buys $10,000 worth of shares and holds them for 10 years with an average annual return of 8%, what is the investor's ending balance?
+5. 一個債券的票面值為1000美元，票面利率為6%，到期期限為5年，當前市場利率為4%。該債券的市場價格是多少？
 
-Answer: The front-end load reduces the initial investment to $9,700. The 12b-1 fee reduces the value every year by 0.5% of the average balance, or $48.50 in the first year. The expense ratio reduces the value every year by 1.25% of the average balance, or $121.25 in the first year. Thus, the investor's effective return in the first year is (8% - 3% - 0.5% - 1.25%) = 3.25%. After 10 years, the ending balance will be : $9,700 * (1 + 3.25%)^10 = $14,408.64.   
+答案：該債券的每期利息 = 1000美元 x 6% ÷ 2 = 30美元
+該債券的每期現值 = 30美元 ÷ (1 + 4% ÷ 2)^1 + 30美元 ÷ (1 + 4% ÷ 2)^2 + ... + 30美元 ÷ (1 + 4% ÷ 2)^10 = 259.54美元
+該債券的市場價格 = 259.54美元 x 2 + 1000美元 ÷ (1 + 4%)^10 = 1083.53美元   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Investment Analysis的網路資料
+給我5篇Investment Analysis的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Investment Analysis: What It is and How to do It" - investopedia.com
+1. [證券投資分析基礎知識](https://investing.stockmarketmba.com/?p=413)
+這篇文章介紹了投資分析的基礎知識，包括公司財務報表、分析報告、宏觀經濟因素等。
 
-This article from Investopedia provides readers with a comprehensive overview of investment analysis, including its definition, purpose, and key components. It also offers advice on how to conduct an investment analysis, what factors to consider when evaluating investments, and how to interpret the results of an analysis. 
+2. [2019年投資分析報告](https://www.moneydj.com/KMDJ/News/NewsViewer.aspx?a=31baf8ed-2216-4215-b01c-8121b5a21b9d)
+這是一篇2019年的投資分析報告，報告中分析了全球經濟、市場趨勢、投資機會等重要因素，提供投資者參考。
 
-Link: https://www.investopedia.com/terms/i/investmentanalysis.asp 
+3. [如何進行股票投資分析？](https://www.howbuy.com/touzi/40577.html)
+這篇文章從基本面、技術面、環境面等方面講解了如何進行股票投資分析，可以幫助投資者學習如何選擇股票。
 
-2. "The Importance of Investment Analysis in Portfolio Management" - forbes.com
+4. [股票投資分析的重要性](https://www.jisilu.cn/question/166322)
+這篇文章強調了股票投資分析的重要性，並列舉了一些投資者在進行股票投資時需要考慮的因素。
 
-This article from Forbes highlights the critical role of investment analysis in portfolio management. It discusses the various types of investment analysis, such as fundamental and technical analysis, and explains how they can be used to assess investment opportunities, manage risk, and maximize returns. It also includes practical tips on how to incorporate investment analysis into your investment strategy. 
-
-Link: https://www.forbes.com/sites/advisor/2021/02/23/the-importance-of-investment-analysis-in-portfolio-management/?sh=7b54dd144dbf 
-
-3. "Why Investment Analysis is Key to Building a Successful Portfolio" - cnbc.com
-
-This CNBC article explains how investment analysis can help investors build a successful investment portfolio. It discusses the benefits of taking a disciplined, analytical approach to investing, and provides examples of how investors can use analysis to identify high-quality investments and avoid mistakes. It also includes insights from investment professionals on the importance of investment analysis. 
-
-Link: https://www.cnbc.com/2021/03/04/why-investment-analysis-is-key-to-building-a-successful-portfolio.html 
-
-4. "Investment Analysis: A Step-by-Step Guide" - thebalance.com
-
-This article from The Balance offers a detailed, step-by-step guide to conducting an investment analysis. It breaks down the analysis process into manageable steps, such as identifying investment goals, analyzing financial statements, and evaluating market trends. The article also includes helpful tips on how to interpret analysis results and make informed investment decisions. 
-
-Link: https://www.thebalance.com/investment-analysis-step-by-step-guide-357264 
-
-5. "Investment Analysis and Management" - coursera.org
-
-For those looking for a more in-depth education on investment analysis, this online course from Coursera offers a comprehensive overview of the subject. It covers topics such as valuation techniques, portfolio management strategies, and risk management. The course is designed for investors of all levels and can be completed entirely online over a 7-week period. 
-
-Link: https://www.coursera.org/learn/investment-analysis-management   
+5. [投資分析方法總結](https://www.1234567.com.cn/news/id/68951)
+這篇文章總結了投資分析的方法，包括基本分析、技術分析、量子分析等，可以幫助投資者選擇適合自己的分析方法。   
 

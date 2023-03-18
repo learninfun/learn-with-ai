@@ -1,19 +1,22 @@
++++
+title = "統計模型"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Statistical Models的問題
+給我5題Statistical Models的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is logistic regression and how is it used in statistical modeling?
-2. How does linear regression differ from multiple regression in statistical modeling?
-3. How do decision trees and random forests differ from other predictive models and when is each type of model most effective?
-4. What is the difference between a time series model and a regression model in statistical analysis?
-5. What are the key assumptions that must be met in order to use a parametric statistical model, and how can these assumptions be tested?   
+1. 什麼是線性迴歸模型，該如何利用此模型預測變數？
+2. 什麼是決策樹模型，如何利用此模型建立分類器？
+3. 什麼是集成學習模型，該如何利用此模型提高預測效果？
+4. 什麼是圖像辨識模型，如何利用此模型識別圖像中的內容？
+5. 什麼是深度學習模型，該如何利用此模型訓練神經網路？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Statistical Models並舉例
+以中文說明Statistical Models並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,7 +37,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Statistical Models的重點
+以中文條列Statistical Models的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +58,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Statistical Models的中等難度問題，並在後面列出答案
+以中文給我5題Statistical Models的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -82,18 +85,23 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Statistical Models的網路資料
+給我5篇Statistical Models的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "Introduction to Statistical Models" from Towards Data Science: This article provides an overview of what statistical models are, how they work, and the different types of statistical models that are commonly used.
+1. "統計模型是甚麼？" - 知乎
+https://www.zhihu.com/question/19736464
 
-2. "Linear Regression Analysis: Concepts and Applications" from NCBI: This article delves into the topic of linear regression, a statistical model used to predict the relationship between a dependent variable and one or more independent variables.
+2. "統計學簡介：何謂統計模型？" - DataCamp中文社區
+https://www.datacamp.com/community/tutorials/introduction-to-statistics-models
 
-3. "Logistic Regression: A Primer" from Analytics Vidhya: This article covers the basics of logistic regression, which is a statistical model used to predict binary outcomes (i.e. yes or no).
+3. "統計模型的應用與方法" - 統計之都
+https://www.statsams.org/statistical-models-application-and-methods/
 
-4. "Decision Trees: A Primer" from Data Science Central: This article explains the concept of decision trees, a statistical model that is used to analyze a series of decisions or events that lead to various outcomes.
+4. "統計評估方法：交叉驗證、自助法、貝式方法" - 機器之心
+https://www.jiqizhixin.com/articles/2019-03-06
 
-5. "Random Forests: An Introduction" from DataCamp: This article provides an overview of random forests, a statistical model that uses multiple decision trees to achieve higher accuracy in predictions.   
+5. "統計建模方法指南" - 人民郵電出版社
+http://www.routledge.com.cn/detail.aspx?ID=102102   
 

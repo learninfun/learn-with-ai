@@ -1,6 +1,9 @@
++++
+title = "價值投資"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Value Investing的問題
+給我5題Value Investing的中文問題
 {{< /ask_chatgpt >}}
 
 1. 什麼是價值投資？其核心概念是什麼？
@@ -11,7 +14,7 @@
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Value Investing並舉例
+以中文說明Value Investing並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,7 +33,7 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Value Investing的重點
+以中文條列Value Investing的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +51,7 @@
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Value Investing的中等難度問題，並在後面列出答案
+以中文給我5題Value Investing的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -75,38 +78,28 @@
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Value Investing的網路資料
+給我5篇Value Investing的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Investopedia: Value Investing
+1. 投資價值：吉姆·柯林斯 (Jim Collins) 為您分享的5條原則
 
-https://www.investopedia.com/terms/v/valueinvesting.asp
+https://www.cmoney.tw/notes/note-detail.aspx?nid=16109
 
-This article from Investopedia provides a comprehensive overview of value investing that covers topics such as the basic principles of value investing, how to identify undervalued stocks, and the differences between value and growth investing.
+2. 菜鳥金融學：何謂價值投資？
 
-2. Forbes: The Art of Value Investing
+https://www.wealth.com.tw/home/articles/10759
 
-https://www.forbes.com/sites/investor/2019/12/05/the-art-of-value-investing/?sh=61eb6e8b58de
+3. 股票投資中的價值投資策略
 
-Forbes' "The Art of Value Investing" covers essential topics such as finding value in a high-growth market, the importance of patience and discipline, and understanding the economic moats that companies build to protect their market share.
+https://www.chinatimes.com/newspapers/20180914000552-260203?chdtv
 
-3. The Balance: Value Investing Strategies
+4. 邁克爾柏菲特 (Michael Buffett)：價值投資並非一朝一夕的富翁之路
 
-https://www.thebalance.com/value-investing-strategy-357383
+https://udn.com/news/story/6812/5422962
 
-The Balance's "Value Investing Strategies" dives deeper into the ins and outs of value investing, providing tips on how to identify undervalued stocks, how to evaluate potential investments by examining a company's financial statements, and how to develop a long-term investment strategy that can provide consistent returns over time.
+5. 一起從歷史長河中學習價值投資
 
-4. Morningstar: The Basics of Value Investing
-
-https://www.morningstar.com/articles/1015641/the-basics-of-value-investing
-
-Morningstar's "The Basics of Value Investing" provides an overview of the concept of value investing, examines the key metrics and ratios that investors need to evaluate companies and determine whether they are undervalued or overvalued, and provides examples of successful investors who have employed value investing strategies to achieve long-term financial success.
-
-5. The Motley Fool: The Beginner's Guide to Value Investing
-
-https://www.fool.com/investing/value-investing/
-
-The Motley Fool's "The Beginner's Guide to Value Investing" provides a detailed overview of value investing, including a discussion of the key characteristics of undervalued stocks, the importance of having a margin of safety when investing, and a discussion of some of the most successful value investors in history.   
+https://blog.moneydj.com/%e4%b8%80%e8%b5%b7%e5%be%9e%e6%ad%b7%e5%8f%b2%e9%95%b7%e6%b2%b3%e4%b8%ad%e5%ad%b8%e7%bf%92%e5%83%b9%e5%80%bc%e6%8a%95%e8%b3%87/   
 

@@ -1,19 +1,22 @@
++++
+title = "國際股票"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題International Stocks的問題
+給我5題International Stocks的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the current growth outlook for the international stock market, and which sectors are considered most promising?
-2. How is the current trade war between the US and China affecting international stocks, and what do you think the long-term impact will be?
-3. How does the current political landscape in Europe, including Brexit and the rise of nationalist movements, affect the performance of international stocks in the region?
-4. What are some of the risks and benefits of investing in emerging markets such as Brazil or India, compared to more developed markets like Europe or Japan?
-5. How can investors effectively diversify their portfolios with international stocks, and what strategies should be considered to mitigate currency and geopolitical risks?   
+1. 全球金融危機對這個國際股票市場的影響是什麼？
+2. 這家公司在國際市場的競爭優勢是什麼？
+3. 這個國際股票的風險評估分析如何？
+4. 這個國際股票的未來發展趨勢如何？
+5. 有哪些因素會對這個國際股票的股價產生影響？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明International Stocks並舉例
+以中文說明International Stocks並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,63 +37,88 @@
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列International Stocks的重點
+以中文條列International Stocks的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Diversification: Investing in international stocks can provide diversification by spreading risk across various geographic locations and markets.
+以下是關於國際股市的重點概述：
 
-2. Higher Growth Potential: Some international markets may have higher growth potential compared to domestic markets.
+1. 國際股市包括全球各地的股票市場，例如美國、歐洲、亞洲等地區。
 
-3. Currency risk: Currency fluctuations can affect the performance of international investments, and it's important to be aware of how these risks may impact your portfolio.
+2. 投資國際股票可以分散風險、增加投資組合的多樣性、並且可以獲得更高的回報。
 
-4. Political and economic risks: Investing in international stocks exposes investors to political and economic risks in different countries, such as changes in tax laws, trade agreements or political instability.
+3. 投資國際股票需要瞭解不同國家的法規和政策，以及該國的經濟和政治情況。
 
-5. Cultural Differences: Understanding cultural differences in different countries is important as it can impact business practices and investment decisions.
+4. 投資國際股票需要考慮匯率風險和交易成本。
 
-6. Market inefficiencies: Some international markets may have significant inefficiencies, which may present opportunities for active investors.
+5. 一些國際股票可能受到地區性因素影響，例如環境法規、自然災害、社會政治情況等。
 
-7. Legal and regulatory differences: Legal and regulatory differences can impact the operations and investment opportunities of international companies.
+6. 投資者可以使用全球指數跟蹤基金或交易所交易基金(ETFs)等工具投資國際股票。
 
-8. Geopolitical events: Unforeseen geopolitical events such as wars or natural disasters can have a significant impact on international markets and investments.   
+7. 投資者需要仔細瞭解每個國家/地區的股票市場，以及各個產業和公司的基本面分析。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題International Stocks的中等難度問題，並在後面列出答案
+以中文給我5題International Stocks的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the market capitalization of Alibaba Group Holding Ltd. as of September 2021?
-Answer: $398.3 billion
+1. 英國Vodafone集團是一家什麼類型的公司？ 
 
-2. Which Swedish company is one of the world's largest producers of bearings and related products?
-Answer: SKF AB
+答案：Vodafone集團是一家全球性的電信服務提供商。
 
-3. What is the full name of the German company that produces luxury vehicles under the brand name "Mercedes-Benz"?
-Answer: Daimler AG
+2. 日本豐田汽車公司最暢銷的車款是什麼？ 
 
-4. Which British pharmaceutical company has developed a vaccine for COVID-19?
-Answer: AstraZeneca
+答案：豐田汽車公司最暢銷的車款是豐田卡羅拉。
 
-5. What is the largest Australian bank by market capitalization?
-Answer: Commonwealth Bank of Australia (CBA)   
+3. 德國歐洲股份公司是由哪些國家的企業合併而成的？
+
+答案：歐洲股份公司是由法國、德國、西班牙、意大利等歐洲國家的企業合併而成的。 
+
+4. 西班牙的BBVA銀行在哪些國家擁有分支機構？
+
+答案：BBVA銀行在葡萄牙、墨西哥、秘魯等多個國家擁有分支機構。 
+
+5. 瑞典愛立信公司的核心業務是什麼？
+
+答案：愛立信公司的核心業務是提供通信和資訊技術的解決方案和服務。   
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇International Stocks的網路資料
+給我5篇International Stocks的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. "10 International Stocks to Buy for Diversification" by John Divine on U.S. News & World Report -https://money.usnews.com/investing/stock-market-news/articles/international-stocks-to-buy. This article lists 10 international stocks across various industries and regions that are worth considering for investors looking to diversify their portfolios.
+1.交易所掛牌的國際股票
 
-2. "The Best International Stocks for 2021" by Matthew Frankel on The Motley Fool -https://www.fool.com/investing/2021/02/04/the-best-international-stocks-for-2021/. This article highlights several international stocks that have strong growth potential and are likely to outperform in 2021 and beyond.
+https://www.ig.com/tw/trading-strategies/international-stocks
 
-3. "10 High-Growth International Stocks to Buy in 2021" by Brandon Kochkodin on Bloomberg -https://www.bloomberg.com/news/articles/2021-02-05/10-high-growth-international-stocks-to-buy-in-2021. This article explores 10 international stocks that have quickly grown in value in 2020 and are poised to continue that growth in 2021.
+這是一個網站，提供有關交易所上市的國際股票的資訊。你可以找到有關買進和賣出國際股票的策略和技巧，瞭解全球市場的概況，也可以查詢特定公司或產業的股票資訊。此外，這個網站還有交易平台和工具，可以幫助你進行交易。
 
-4. "Top 10 International Stocks for 2021" by Adam Othman on InvestorPlace -https://investorplace.com/2021/02/top-10-international-stocks-for-2021/. This article provides an in-depth analysis of 10 international stocks that have strong fundamentals and are expected to deliver substantial returns in 2021.
+2.如何選擇國際股票
 
-5. "5 High-Yield International Stocks to Buy for 2021 and Beyond" by Matthew Fox on Nasdaq -https://www.nasdaq.com/articles/5-high-yield-international-stocks-to-buy-for-2021-and-beyond-2021-02-25. This article examines five international stocks that offer high dividend yields and are likely to provide a steady stream of income for investors.   
+https://www.moneyguide24.com/%e5%9c%8b%e9%9a%9b%e8%82%a1%e7%a5%a8%ef%bc%9a%e5%a6%82%e4%bd%95%e9%81%b8%e6%93%87%e5%85%a5%e9%96%80%e6%8a%95%e8%b3%87%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85.html
+
+這篇文章提供一些選擇國際股票的實用提示。它講述了如何從風險、基本面、技術面等多個方面考慮股票的選擇，也提供了一些注意事項和預測趨勢的方法。此外，它還分享了幾個具有投資價值的國際股票，供讀者參考。
+
+3.全球最好的股票之一：谷歌母公司Alphabet Inc
+
+https://hk.finance.yahoo.com/news/%E5%85%A8%E7%90%83%E6%9C%80%E5%A5%BD%E7%9A%84%E8%82%A1%E7%A5%A8%E4%B9%8B%E4%B8%80-%E8%B0%B7%E6%AD%8C%E6%AF%8D%E5%85%AC%E5%8F%B8alphabet-inc-050040952.html
+
+這是一篇關於Alphabet Inc的介紹文章，Alphabet Inc是谷歌的母公司，是全球最大的科技公司之一。文章提供了有關Alphabet Inc的各種資訊，包括公司的歷史、股票表現、財務指標和未來發展前景等。
+
+4.石油巨頭：英荷皇家殼牌公司的股票
+
+https://www.etnet.com.hk/www/tc/people/columnist_detail.php?columnist=china&category=china&article=38233&src=invest
+
+這是一篇有關英荷皇家殼牌公司股票的介紹文章。殼牌是全球最大的綜合性能源公司之一，其涉及能源產業的各個領域，包括石油、天然氣、化工等。文章提供了有關殼牌公司的歷史、產業、股票表現和投資機會等各種資訊。
+
+5.美國房地產體驗：房產投資信託基金(REITs)股票
+
+https://www.heraldnet.com/uncategorized/readers-forum-real-estate-investment-trusts-reits/
+
+這是一篇有關房地產投資信託基金(REITs)股票的文章。REITs是向公眾募資的投資基金，其主要投資房地產和房地產相關資產。文章介紹了如何選擇REITs股票，以及REITs股票的優勢和風險。此外，它還提供了一些讀者分享的關於REITs股票的個人投資體驗。   
 

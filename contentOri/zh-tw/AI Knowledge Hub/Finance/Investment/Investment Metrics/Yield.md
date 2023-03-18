@@ -1,19 +1,22 @@
++++
+title = "收益率"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Yield的問題
+給我5題Yield的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the difference between yield and return in investing?
-2. How do changes in interest rates affect bond yields?
-3. What strategies can investors use to maximize yield without taking on too much risk?
-4. What is a dividend yield and how is it calculated?
-5. What factors can cause a company's yield to increase or decrease over time?   
+1. Yield是什麼意思？
+2. Yield在投資中代表什麼？ 
+3. Yield與利率有何關係？ 
+4. Yield可以用來計算什麼？ 
+5. 什麼因素會影響Yield？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Yield並舉例
+以中文說明Yield並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +46,7 @@ console.log(iterator.next()); // { value: 'Done', done: true }
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Yield的重點
+以中文條列Yield的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +61,7 @@ console.log(iterator.next()); // { value: 'Done', done: true }
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Yield的中等難度問題，並在後面列出答案
+以中文給我5題Yield的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -80,28 +83,33 @@ console.log(iterator.next()); // { value: 'Done', done: true }
 
 ## 網路資料
 {{< ask_chatgpt >}}
-給我5篇Yield的網路資料
+給我5篇Yield的中文網路資料
 {{< /ask_chatgpt >}}
 
 
 
-1. Yield Definition Investopedia. (n.d.). Investopedia. Retrieved September 2, 2021, from https://www.investopedia.com/terms/y/yield.asp
+1. Yield - 百度百科
+https://baike.baidu.com/item/yield/1093711
 
-This article defines yield and describes how it is used in finance. It explains that yield refers to the return on an investment, and provides examples of how yield can be calculated for various types of investments, including bonds, stocks, and real estate.
+介紹了yield在農業、金融和化學等領域的意義和應用，並詳細說明了在金融投資中的應用。
 
-2. What Is Yield? Definition, Formula, Calculation, and Examples. (n.d.). Corporate Finance Institute. Retrieved September 2, 2021, from https://corporatefinanceinstitute.com/resources/knowledge/finance/yield/
+2. Yield - 萊特幣百科
+https://litecoin.fandom.com/zh-tw/wiki/Yield
 
-This article provides a detailed explanation of yield and how it is calculated. It explains the various types of yield, including current yield, yield to maturity, and yield to call, and provides formulas for calculating each of these. The article also includes examples to illustrate how yield is used in finance.
+介紹了yield在加密貨幣領域的應用，特別是在萊特幣中的應用，解釋了yield的概念、計算方法和相關風險。
 
-3. What is Yield? A Comprehensive Guide for Investors. (n.d.). The Motley Fool. Retrieved September 2, 2021, from https://www.fool.com/investing/what-is-yield-a-comprehensive-guide-for-investors/
+3. Yield - 投資學
+https://www.investopedia.com/terms/y/yield.asp
 
-This article provides a comprehensive overview of yield and its importance to investors. It explains how yield can be used to evaluate different investments, and provides examples of high yield investments, such as dividend stocks and REITs. The article also discusses the risks and benefits of investing in high yield securities.
+介紹了yield在投資學中的應用，包括不同種類資產的yield、yield曲線、yield率、yield到期收益率以及各種投資工具中的yield計算方法等等。
 
-4. Yield Curve Definition. (n.d.). Investopedia. Retrieved September 2, 2021, from https://www.investopedia.com/terms/y/yieldcurve.asp
+4. Yield - 外匯百科
+https://www.forexbrokers.com/education/forexpedia/y/yield
 
-This article defines the yield curve and explains how it is used in finance. It describes the different types of yield curves, including normal, inverted, and flat, and explains what each of these can indicate about the economy. The article also includes a discussion of how investors can use the yield curve to make investment decisions.
+介紹了yield在外匯市場中的應用，包括債券、期權、外匯交易等等，以及相關的計算方法和風險管理措施。
 
-5. Understanding Yield on Bonds. (n.d.). The Balance. Retrieved September 2, 2021, from https://www.thebalance.com/yield-definition-and-examples-416373
+5. Yield - 台灣經濟新報
+https://money.udn.com/money/story/5612/4464941
 
-This article provides an in-depth explanation of bond yields and how they are calculated. It explains the difference between coupon rate and yield, and provides examples of how yield is affected by changes in interest rates. The article also includes a discussion of the risks and benefits of investing in bonds with different yield levels.   
+介紹了yield在投資中的基本概念和方法，著重解釋了債券的yield計算方式和相關風險，同時提供了一些實用的投資技巧和建議。   
 
