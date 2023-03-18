@@ -30,6 +30,10 @@
     color: #777777;
 }
 
+.ask-chatgpt-block {
+    background-color: #d2e9fd;
+}
+
 #top-github-link, #body #breadcrumbs {
     position: relative;
     top: 50%;
