@@ -1,3 +1,6 @@
++++
+title = "配置管理"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Configuration Management的問題

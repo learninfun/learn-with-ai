@@ -1,6 +1,9 @@
-## Preview
++++
+title = "%!s(<nil>)"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Cross-Site Request Forgery (CSRF)
+給我5題Cross-site request forgery (CSRF)的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Cross-Site Request Forgery (CSRF)
 4. What is the difference between CSRF and XSS (Cross-Site Scripting) attacks, and how are they similar/different in terms of their impact and prevention methods?
 5. What are some real-life examples of CSRF attacks that have caused significant damage to businesses or individuals, and what lessons can be learned from these incidents?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Cross-Site Request Forgery (CSRF) and give an example
+說明Cross-site request forgery (CSRF)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,9 +27,9 @@ For example, let's say a user is logged into their online banking account and ha
 
 In this example, the victim's web browser was unaware of the malicious request being sent, and since the request was performed with the user's session cookie, it was authorized by the website. This type of attack can be prevented by using anti-forgery tokens, session cookies with HttpOnly and Secure flags, and verifying user actions before allowing them to perform actions that require authorization.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Cross-Site Request Forgery (CSRF)
+條列Cross-site request forgery (CSRF)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +41,9 @@ List the key points of Cross-Site Request Forgery (CSRF)
 5. CSRF prevention includes using CSRF tokens, session cookie settings, verifying HTTP requests, and configuring server-side controls.
 6. To detect CSRF attacks, tools like ZAP, Burp Suite, and OWASP CSRF Tester can be used.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Cross-Site Request Forgery (CSRF)
+給我5題Cross-site request forgery (CSRF)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -60,9 +63,9 @@ Answer: Website visitors can protect themselves from CSRF attacks by disabling t
 5. Which web applications are most vulnerable to CSRF attacks?
 Answer: Any web application that relies on cookies or other browser-based authentication mechanisms is vulnerable to CSRF attacks. However, web applications that expose sensitive information or support financial transactions are particularly attractive targets for attackers.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Cross-Site Request Forgery (CSRF)
+給我5篇Cross-site request forgery (CSRF)的網路資料
 {{< /ask_chatgpt >}}
 
 

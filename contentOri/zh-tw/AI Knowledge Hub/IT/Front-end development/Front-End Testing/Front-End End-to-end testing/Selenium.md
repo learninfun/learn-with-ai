@@ -1,3 +1,6 @@
++++
+title = "Selenium"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Selenium的問題
@@ -43,7 +46,7 @@ Selenium是一個用於自動化Web應用程式測試的工具，它可以模擬
 3. 具備平台跨平台性，支援多種瀏覽器，例如Chrome，Firefox，Safari等等。
 4. 使用Selenium可以自動化進行測試任務，節省時間和人力成本。
 5. Selenium可以處理複雜的驗證場景，例如自動填寫表單，點擊按鈕，捕獲元素等等。
-6. 可以使用Selenium進行測試結果的自動分析和報告生成，以便開發人員和測試人員更好地瞭解測試結果。
+6. 可以使用Selenium進行測試結果的自動分析和報告生成，以便開發人員和測試人員更好地了解測試結果。
 7. 可以使用Selenium進行Web應用程式的UI測試，驗證頁面的元素和呈現方式是否符合預期。
 8. Selenium是一個開源項目，使得可以自由訪問和使用。   
 
@@ -54,7 +57,7 @@ Selenium是一個用於自動化Web應用程式測試的工具，它可以模擬
 
 
 
-1. 使用Selenium WebDriver如何選擇iframe內的元素?
+1. 使用Selenium WebDriver如何選擇iframe内的元素?
 答案：
 可以使用switch_to.frame()方法切換到iframe, 然後再使用find_element()方法查找元素
 

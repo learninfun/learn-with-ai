@@ -1,3 +1,6 @@
++++
+title = "圖形演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Graph Algorithms的問題
@@ -80,11 +83,11 @@ Graph Algorithms是指一類用於理解和處理圖數據結構的算法。圖�
 
 
 
-1. 給定一個無向圖，找到最小生成樹的權重。
+1. 给定一個無向圖，找到最小生成樹的權重。
 
 答案：Prim's algorithm 或 Kruskal's algorithm。
 
-2. 給定一個無向圖和其中的一個頂點，找到從該頂點到所有其他頂點的最短路徑。
+2. 给定一個無向圖和其中的一個頂點，找到從該頂點到所有其他頂點的最短路徑。
 
 答案：Dijkstra's algorithm 或 Bellman-Ford algorithm。
 
@@ -96,7 +99,7 @@ Graph Algorithms是指一類用於理解和處理圖數據結構的算法。圖�
 
 答案：DAG Shortest Path algorithm 或 Bellman-Ford algorithm。
 
-5. 給定一個有向圖和其中的一個頂點，找到從該頂點開始的所有強連通份量。
+5. 給定一個有向圖和其中的一個頂點，找到從該頂點開始的所有強連通分量。
 
 答案：Tarjan's algorithm 或 Kosaraju's algorithm。   
 

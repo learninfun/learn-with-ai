@@ -1,3 +1,6 @@
++++
+title = "數據結構"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Data Structure的問題

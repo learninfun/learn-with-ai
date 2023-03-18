@@ -1,3 +1,6 @@
++++
+title = "正規化和反正規化"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Normalization and Denormalization的問題

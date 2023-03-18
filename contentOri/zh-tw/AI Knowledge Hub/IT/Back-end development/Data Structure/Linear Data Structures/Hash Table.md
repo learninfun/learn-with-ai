@@ -1,3 +1,6 @@
++++
+title = "哈希表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Hash Table的問題
@@ -5,11 +8,11 @@
 
 
 
-1. 什麼是Hash Table，它是如何工作的？
+1. 什么是Hash Table，它是如何工作的？
 2. 如何在Hash Table中查找特定值？
-3. 如何在Hash Table中插入一項新的鍵-值對？
-4. 如何從Hash Table中刪除某個鍵-值對？
-5. 如何解決Hash Table中的哈希衝突（Hash Collision）問題？   
+3. 如何在Hash Table中插入一项新的键-值对？
+4. 如何从Hash Table中删除某个键-值对？
+5. 如何解决Hash Table中的哈希冲突（Hash Collision）问题？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
@@ -39,13 +42,13 @@
 
 
 
-1. Hash Table是一種數據結構，用於快速查找和訪問數據。
-2. Hash Table的基本原理是將數據存儲在數組中，通過哈希函數將數據的鍵映射為數組索引。
-3. 哈希函數需要滿足兩個特點：唯一性和均勻性，保證索引的分佈均勻而且不發生衝突。
-4. 在Hash Table中，對於每一個鍵值對，通過哈希函數得到的索引值即為該鍵值對在數組中的存儲位置。
-5. Hash Table的查找性能很高，可以實現常數級別的查找時間複雜度，但在處理大量衝突時性能會有所下降。
-6. 衝突處理方法包括鏈式法和開放地址法，前者是將衝突的元素存儲在同一索引下的鏈表中，而後者是通過探測找到其他索引來存儲衝突元素。
-7. Hash Table除了查找功能，還可以實現插入、刪除等操作，因此被廣泛用於算法設計和軟件開發中。   
+1. Hash Table是一种数据结构，用于快速查找和访问数据。
+2. Hash Table的基本原理是将数据存储在数组中，通过哈希函数将数据的键映射为数组索引。
+3. 哈希函数需要满足两个特点：唯一性和均匀性，保证索引的分布均匀而且不发生冲突。
+4. 在Hash Table中，对于每一个键值对，通过哈希函数得到的索引值即为该键值对在数组中的存储位置。
+5. Hash Table的查找性能很高，可以实现常数级别的查找时间复杂度，但在处理大量冲突时性能会有所下降。
+6. 冲突处理方法包括链式法和开放地址法，前者是将冲突的元素存储在同一索引下的链表中，而后者是通过探测找到其他索引来存储冲突元素。
+7. Hash Table除了查找功能，还可以实现插入、删除等操作，因此被广泛用于算法设计和软件开发中。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -86,7 +89,7 @@ Link: https://www.geeksforgeeks.org/hashing-set-1-introduction/
 
 This article provides an introduction to hash tables, explaining how they work and why they're important in computer science. It goes into detail about hash functions and collisions, and provides several examples of how hash tables can be used in various programming languages.
 
-2. "A Beginner』s Guide to Hash Tables" by FreeCodeCamp
+2. "A Beginner’s Guide to Hash Tables" by FreeCodeCamp
 Link: https://www.freecodecamp.org/news/a-beginners-guide-to-hash-tables/
 
 This article discusses the basics of hash tables, as well as their benefits and drawbacks compared to other data structures. It also includes examples of how hash tables are used in real-world applications, such as algorithms for searching and sorting.

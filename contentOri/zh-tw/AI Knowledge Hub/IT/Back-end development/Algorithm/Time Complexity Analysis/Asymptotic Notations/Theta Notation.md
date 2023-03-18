@@ -1,3 +1,6 @@
++++
+title = "Θ符號"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Theta Notation的問題

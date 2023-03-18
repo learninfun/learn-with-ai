@@ -1,3 +1,6 @@
++++
+title = "普利姆演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Prim's Algorithm的問題

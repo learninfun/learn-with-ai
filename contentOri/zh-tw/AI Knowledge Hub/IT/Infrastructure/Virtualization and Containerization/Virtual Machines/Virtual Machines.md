@@ -1,6 +1,9 @@
-## Preview
++++
+title = "虛擬機器"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Virtual Machines
+給我5題Virtual Machines的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Virtual Machines
 4. How do virtual machines differ from physical machines in terms of performance?
 5. What are the different types of virtual machines available?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Virtual Machines and give an example
+說明Virtual Machines並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,9 +32,9 @@ Virtual Machines (VMs) are beneficial for many reasons, including:
 
 An example of a virtual machine is VMWare Workstation, which allows users to run multiple virtual machines( windows, Linux, macOS, solaris) on a single physical machine. Analysts, developers and Quality assurance professionals use it to test different software on different OS without requiring multiple physical machines.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Virtual Machines
+條列Virtual Machines的重點
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +47,9 @@ List the key points of Virtual Machines
 - The performance of virtual machines can be affected by the hardware resources allocated to them, such as CPU, RAM, storage, and network connectivity.
 - There are different types of virtualization, including full virtualization, para-virtualization, and hardware virtualization, each with its unique advantages and constraints.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Virtual Machines
+給我5題Virtual Machines的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -66,9 +69,9 @@ Answer: Virtual machines are typically constructed by first defining the hardwar
 5. What is the difference between a virtual machine and a physical machine?
 Answer: A virtual machine runs on a host machine that provides resources such as CPU, memory, and storage, while a physical machine is a standalone device with its own hardware resources. Additionally, virtual machines can be easily replicated and moved, while physical machines require physical transport.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Virtual Machines
+給我5篇Virtual Machines的網路資料
 {{< /ask_chatgpt >}}
 
 

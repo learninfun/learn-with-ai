@@ -1,3 +1,6 @@
++++
+title = "安全性自動化和編排"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Security Automation and Orchestration的問題

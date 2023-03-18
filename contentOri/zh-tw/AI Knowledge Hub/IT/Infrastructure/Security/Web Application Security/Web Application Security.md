@@ -1,6 +1,9 @@
-## Preview
++++
+title = "Web應用安全"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Web Application Security
+給我5題Web Application Security的問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +18,9 @@ give me five question about Web Application Security
 
 5. What measures can be put in place to detect and respond to security incidents in web applications, and how can these processes be improved over time?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Web Application Security and give an example
+說明Web Application Security並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +31,9 @@ An example of a web application security attack is a SQL injection attack. In su
 
 To prevent such attacks, web application security measures like input validation, sanitization of user inputs, and parameterized queries must be implemented. Additionally, using secure network protocols like HTTPS and regularly scanning for vulnerabilities can also help ensure the security of a web application.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Web Application Security
+條列Web Application Security的重點
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +47,9 @@ List the key points of Web Application Security
 7. Data Protection: Web applications must protect sensitive data, such as personally identifiable information (PII) and financial data, from unauthorized access or disclosure. This involves the use of encryption, data masking, and secure storage practices.
 8. Threat Detection and Response: Web applications must be continuously monitored for security threats and vulnerabilities. This includes the use of intrusion detection and prevention systems (IDS/IPS) and logging suspicious activity to respond quickly to security incidents.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Web Application Security
+給我5題Web Application Security的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -66,9 +69,9 @@ Answer: Session hijacking is a type of web application vulnerability where attac
 5. What is a cross-site request forgery (CSRF) vulnerability and how can it be prevented?
 Answer: A cross-site request forgery (CSRF) vulnerability is a type of web application vulnerability where attackers trick a user』s browser into executing unauthorized actions on a legitimate website. It can be prevented by using a unique token for each user session, limiting the amount of time the token is valid, and implementing server-side validation to ensure that all requests are authenticated and authorized.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Web Application Security
+給我5篇Web Application Security的網路資料
 {{< /ask_chatgpt >}}
 
 

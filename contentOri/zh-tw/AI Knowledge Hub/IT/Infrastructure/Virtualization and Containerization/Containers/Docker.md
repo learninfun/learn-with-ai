@@ -1,6 +1,9 @@
-## Preview
++++
+title = "Docker"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Docker
+給我5題Docker的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Docker
 4. What security risks are associated with using Docker, and how can they be mitigated?
 5. How does Docker integrate with other technologies commonly used in modern software development, such as Kubernetes or Jenkins?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Docker and give an example
+說明Docker並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -22,9 +25,9 @@ Docker is an open-source software platform that enables developers to easily dep
 
 One popular example of using Docker is for web application development. In a typical web application stack, the application code, web server, and database are all installed on the same machine. This can lead to issues such as version conflicts and configuration problems. By using Docker, each component of the stack can be packaged into a separate container, making it easy to deploy and scale the application. For instance, a developer building a web application can create separate Docker containers for the front-end, API, and database, ensuring that each component runs in the same environment regardless of where the application is deployed.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Docker
+條列Docker的重點
 {{< /ask_chatgpt >}}
 
 
@@ -45,9 +48,9 @@ List the key points of Docker
 
 8. Docker has a large and active community, which provides support and contributes to the development of new features and tools for the platform.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Docker
+給我5題Docker的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -67,9 +70,9 @@ Answer: Docker-compose is a tool that enables developers to define and run multi
 5. How does Docker networking work?
 Answer: Docker networking is a way of connecting multiple Docker containers to allow them to communicate with each other. Docker networking uses virtual networks to provide isolated environments for communication between containers, allowing them to communicate securely without exposing their ports to the host machine.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Docker
+給我5篇Docker的網路資料
 {{< /ask_chatgpt >}}
 
 

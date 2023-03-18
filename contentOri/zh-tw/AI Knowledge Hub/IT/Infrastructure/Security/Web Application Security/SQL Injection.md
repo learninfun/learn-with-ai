@@ -1,6 +1,9 @@
-## Preview
++++
+title = "SQL注入攻擊"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about SQL Injection
+給我5題SQL Injection的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about SQL Injection
 4. What are the potential consequences of a successful SQL Injection attack?
 5. How can web developers and administrators protect their websites from SQL Injection attacks, and what best practices should be followed?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain SQL Injection and give an example
+說明SQL Injection並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -22,9 +25,9 @@ SQL Injection is a technique used by attackers to exploit vulnerabilities in the
 
 For example, let’s assume there is an e-commerce website that uses SQL to conduct transactions. A hacker could enter a malicious SQL code string such as "DROP TABLE Products" into the input field. Once the query is run, the entire products table will be deleted. SQL Injection can also be used to steal sensitive data such as credit card details or personal identifications that the web server might have. By successfully executing SQL Injection attacks, attackers can gain unauthorized access to a website’s vulnerable database and commit destructive actions against it.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of SQL Injection
+條列SQL Injection的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,9 +44,9 @@ There are several key points to be aware of when it comes to SQL injection attac
 
 5. Website owners and administrators should also regularly monitor their systems for suspicious activity and implement security measures like firewalls and intrusion detection systems.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about SQL Injection
+給我5題SQL Injection的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -63,9 +66,9 @@ Answer: Some warning signs that a website may be vulnerable to SQL Injection att
 5. Can SQL Injection attacks be prevented entirely?
 Answer: While it is possible to minimize the risk of SQL Injection attacks, it is nearly impossible to prevent them entirely. However, following best practices for secure coding and regular security assessments can greatly reduce the likelihood of successful attacks.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about SQL Injection
+給我5篇SQL Injection的網路資料
 {{< /ask_chatgpt >}}
 
 

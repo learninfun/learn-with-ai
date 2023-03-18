@@ -1,3 +1,6 @@
++++
+title = "平均情況時間複雜度"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Average-Case Time Complexity的問題

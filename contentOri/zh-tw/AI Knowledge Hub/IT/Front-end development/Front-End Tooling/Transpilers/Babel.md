@@ -1,3 +1,6 @@
++++
+title = "Babel"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Babel的問題
@@ -86,7 +89,7 @@ var greeting = function greeting(name) {
 
 
 2. 鏈表去重
-給定一個單向鏈表 head，請寫一個函數，刪除其中所有重複出現的節點（包括原始節點）。例如，`1 -> 2 -> 3 -> 2 -> 1 -> 4` 变为 `3 -> 4`。
+給定一個單向鏈表 head，請寫一個函數，刪除其中所有重複出現的節點（包括原始節點）。例如，`1 -> 2 -> 3 -> 2 -> 1 -> 4` 變為 `3 -> 4`。
 
 答案： https://babel.baidu.com/course/detail/3#homework/964
 

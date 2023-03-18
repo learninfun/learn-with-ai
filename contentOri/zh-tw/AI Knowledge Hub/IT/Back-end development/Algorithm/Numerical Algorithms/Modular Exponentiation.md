@@ -1,3 +1,6 @@
++++
+title = "模指數算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Modular Exponentiation的問題
@@ -18,13 +21,13 @@
 
 
 
-Modular Exponentiation是指在进行大数次方时，不直接进行指数次的运算，而是将每次运算的结果取余数，即对一个数取模，最后得到余数作为结果。这样做可以避免大数次方计算时产生的溢出和内存问题，同时也能大大提高运算速度。
+Modular Exponentiation是指在進行大數次方時，不直接進行指數次的運算，而是將每次運算的結果取餘數，即對一個數取模，最後得到餘數作為結果。這樣做可以避免大數次方計算時產生的溢出和內存問題，同時也能大大提高運算速度。
 
-例如7的1000次方，如果直接计算，会产生一个巨大的数，超过了计算机处理的范围；而使用Modular Exponentiation，则可以将每次运算的结果取模后存储，最后得到的余数就是答案。
+例如7的1000次方，如果直接計算，會產生一個巨大的數，超過了計算機處理的範圍；而使用Modular Exponentiation，則可以將每次運算的結果取模後存儲，最後得到的餘數就是答案。
 
-一个常见的例子是RSA算法中的操作：将两个大素数p和q相乘得到n，然后选择一个与(p-1)(q-1)互质的数e作为加密指数，再计算出一个与(p-1)(q-1)互质的数d作为解密指数。加密时，将明文m进行指数e次幂运算，并对n取模得到密文c，解密时，将密文c进行指数d次幂运算，并对n取模得到明文m。
+一個常見的例子是RSA算法中的操作：將兩個大素數p和q相乘得到n，然後選擇一個與(p-1)(q-1)互質的數e作為加密指數，再計算出一個與(p-1)(q-1)互質的數d作為解密指數。加密時，將明文m進行指數e次冪運算，並對n取模得到密文c，解密時，將密文c進行指數d次冪運算，並對n取模得到明文m。
 
-总之，Modular Exponentiation是一种将计算结果取模的算法，在大数次方计算中有很重要的应用，也是加密算法中的核心操作之一。   
+總之，Modular Exponentiation是一種將計算結果取模的算法，在大數次方計算中有很重要的應用，也是加密算法中的核心操作之一。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
@@ -33,13 +36,13 @@ Modular Exponentiation是指在进行大数次方时，不直接进行指数次�
 
 
 
-1. 模幂运算是一种处理大数幂对模数取余的算法。
-2. 它用于处理密码学中的加密和解密操作。
-3. 模幂运算的基础公式是：a^b mod m，其中a为底数，b为幂，m为模数。
-4. 模幂运算可以通过二进制幂算法来实现，将幂按照二进制拆分后依次进行运算。
-5. 模幂运算还可以利用蒙哥马利幂算法来加速，在模数较大的情况下效果更加明显。
-6. 模幂运算也可以使用同余变换来实现，将幂的指数转换为较小的值，进而降低计算复杂度。
-7. 模幂运算在密码学和计算机安全领域中具有重要意义，可以保护数据的隐私和安全。   
+1. 模冪運算是一種處理大數冪對模數取余的算法。
+2. 它用於處理密碼學中的加密和解密操作。
+3. 模冪運算的基礎公式是：a^b mod m，其中a為底數，b為冪，m為模數。
+4. 模冪運算可以通過二進制冪算法來實現，將冪按照二進制拆分後依次進行運算。
+5. 模冪運算還可以利用蒙哥馬利冪算法來加速，在模數較大的情況下效果更加明顯。
+6. 模冪運算也可以使用同余變換來實現，將冪的指數轉換為較小的值，進而降低計算複雜度。
+7. 模冪運算在密碼學和計算機安全領域中具有重要意義，可以保護數據的隱私和安全。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -55,7 +58,7 @@ Modular Exponentiation是指在进行大数次方时，不直接进行指数次�
 答案：a^b mod m = 1
 
 3. 說明在Modular Exponentiation算法中，使用了什麼樣的數學原理？請詳細說明。
-答案：Modular Exponentiation算法是基於模運算和指數運算規則設計的。當我們在計算幂時，可以把指數分成二進制的形式，然後在每個位上進行模運算，最終計算出整個幂的值。
+答案：Modular Exponentiation算法是基於模運算和指數運算規則設計的。當我們在計算冪時，可以把指數分成二進制的形式，然後在每個位上進行模運算，最終計算出整個冪的值。
 
 4. 請計算出2^1000 mod 1001的值。
 答案：2^1000 mod 1001 = 1 （可用Fermat's Little Theorem計算）
@@ -85,7 +88,7 @@ This article provides an introduction to modular exponentiation and explains how
 https://www.khanacademy.org/computing/computer-science/cryptography/modern-crypt/v/modular-exponentiation-and-rsa-cryptography
 This video lesson explores the use of modular exponentiation in the RSA encryption algorithm. It includes a step-by-step demonstration of how to encrypt and decrypt messages using modular exponentiation with large prime numbers.
 
-3. "A Modular Exponentiation Algorithm with Reduced Memory Complexity" - by F. Rodríguez-Henríquez and M. Sánchez-Avila:
+3. "A Modular Exponentiation Algorithm with Reduced Memory Complexity" - by F. Rodriguez-Henriquez and M. Sanchez-Avila:
 https://www.mdpi.com/2504-3900/25/1/28/htm
 This research paper describes an algorithm for modular exponentiation that reduces the amount of memory required for large calculations. It includes a detailed analysis of the algorithm's performance and efficiency, along with example results from running the algorithm on different hardware platforms.
 

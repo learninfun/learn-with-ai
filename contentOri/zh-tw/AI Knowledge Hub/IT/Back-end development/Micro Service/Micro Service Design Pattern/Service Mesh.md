@@ -1,3 +1,6 @@
++++
+title = "服務網格"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Service Mesh的問題
@@ -70,7 +73,7 @@ Service Mesh在新型基於微服務的架構中是非常常見的，因為微�
 
 3. Service Mesh的拓撲分析是什麼？它如何源自Service Mesh架構的數據？
 
-答：拓撲分析是Service Mesh中與顯示諸如線路，鏈路和訪問路由等各種基礎設施拓撲相關信息的技術。它通常與Service Mesh框架中的享元模式及其他打補丁的技術系結合使用，以更新並對Service Mesh架構中的流量進行管理及跟蹤。
+答：拓撲分析是Service Mesh中與顯示諸如線路，鏈路和訪問路由等各種基礎設施拓撲相關信息的技術。它通常與Service Mesh框架中的享元模式及其他打补丁的技術系結合使用，以更新並對Service Mesh架構中的流量進行管理及跟踪。
 
 4. 在Kubernetes中，Envoy如何成為一種被廣泛使用的Service Mesh代理？
 

@@ -1,3 +1,6 @@
++++
+title = "Windows服務器基礎"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Windows Server Basics的問題
@@ -78,7 +81,7 @@ Windows Server Basics是指使用Microsoft Windows Server作為伺服器操作�
 答案：點擊「開始」，輸入防火牆，然後點擊「Windows防火牆」。選擇設置管理員權限，分別開啟「入站規則」和「出站規則」 
 
 4. 在Windows Server中，如何添加新的LDAP目錄？ 
-答案：點擊「管理工具」，輸入「Active Directory執行中」と選擇該選項。然後，使用左側導航欄，進入「AD FS管理」和「信任關係」選項，添加新的LDAP目錄。 
+答案：點擊「管理工具」，輸入「Active Directory執行中」選擇該選項。然後，使用左側導航欄，進入「AD FS管理」和「信任關係」選項，添加新的LDAP目錄。 
 
 5. 如何設置Windows Server上的DHCP伺服器？ 
 答案：點擊「管理工具」，並選擇 DHCP 指令碼。然後輸入所需的網路和可用IP地址範圍等配置內容。 最後，啟用DHCP伺服器。   

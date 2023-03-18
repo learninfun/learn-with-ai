@@ -1,3 +1,6 @@
++++
+title = "Java異常處理"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Java exception handling的問題
@@ -22,27 +25,27 @@
 
 
 
-Java exception handling是一种解决代码运行时遇到异常情况的机制。Java的exception handling机制允许程序在运行时处理错误，避免异常使程序崩溃并减少对代码的影响。
+Java exception handling是一種解決代碼運行時遇到異常情況的機制。Java的exception handling機制允許程序在運行時處理錯誤，避免異常使程序崩潰並減少對代碼的影響。
 
-Java异常处理语句的结构是：
+Java異常處理語句的結構是：
 
 ```java
 try {
-      //代码块
+      //代碼塊
 } catch (exceptionType1 e1) {
-      //异常处理语句
+      //異常處理語句
 } catch (exceptionType2 e2) {
-      //异常处理语句
+      //異常處理語句
 } catch (exceptionType3 e3) {
-      //异常处理语句
+      //異常處理語句
 } finally {
-      //可选代码块
+      //可選代碼塊
 }
 ```
 
-其中，try块包含可能会造成异常的代码，catch块用于处理异常类型，finally块可选，包含在执行完try和catch块之后始终执行的代码。
+其中，try塊包含可能會造成異常的代碼，catch塊用於處理異常類型，finally塊可選，包含在執行完try和catch塊之後始終執行的代碼。
 
-以下是一个Java异常处理的示例，其中将尝试读取一个不存在的文件，捕获FileNotFoundException并输出错误信息：
+以下是一個Java異常處理的示例，其中將嘗試讀取一個不存在的文件，捕獲FileNotFoundException並輸出錯誤信息：
 
 ```java
 import java.io.*;
@@ -52,7 +55,7 @@ class ExceptionExample {
      public static void main(String[] args) {
 
           try {
-               // 打开文件
+               // 打開文件
                FileInputStream file = new FileInputStream("example.txt");
           } catch (FileNotFoundException e) {
                System.out.println("找不到文件");
@@ -63,7 +66,7 @@ class ExceptionExample {
 }
 ```
 
-在上述代码中，当程序尝试读取一个不存在的文件时，抛出FileNotFoundException异常。try块的打开文件代码可能会抛出异常，所以我们将其置于try块中。如果FileNotFoundException异常被抛出，则catch块将被执行。在catch块中，我们输出一个错误信息并使用e.printStackTrace()方法打印异常的调用栈信息，以帮助我们更好地理解错误原因。   
+在上述代碼中，當程序嘗試讀取一個不存在的文件時，拋出FileNotFoundException異常。try塊的打開文件代碼可能會拋出異常，所以我們將其置於try塊中。如果FileNotFoundException異常被拋出，則catch塊將被執行。在catch塊中，我們輸出一個錯誤信息並使用e.printStackTrace()方法打印異常的調用棧信息，以幫助我們更好地理解錯誤原因。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
@@ -72,10 +75,10 @@ class ExceptionExample {
 
 
 
-1. 知道哪些异常（Exceptions）需要處理（Handled Exceptions）；
+1. 知道哪些異常（Exceptions）需要處理（Handled Exceptions）；
 2. 使用try-catch區塊來處理異常；
 3. 瞭解異常的繼承關係（Exception Hierarchies）；
-4. 了解發生異常會如何影響程式流程；
+4. 瞭解發生異常會如何影響程式流程；
 5. 使用finally區塊來保護資源不會被釋放掉；
 6. 遵循Java API慣例，根據異常型別和程式邏輯，組織try-catch區塊。
 7. 瞭解何時可以使用throws關鍵字來處理異常。   

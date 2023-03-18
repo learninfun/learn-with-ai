@@ -1,3 +1,6 @@
++++
+title = "Edmonds-Karp演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Edmonds-Karp Algorithm的問題
@@ -116,7 +119,7 @@ Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找�
 
 1. Edmonds-Karp Algorithm - GeeksforGeeks 
 https://www.geeksforgeeks.org/edmonds-karp-algorithm/
-本網站提供了從基礎知識到詳細實現的Edmonds-Karp演算法的解釋。最初講解了最大流問題，之後介紹了Edmonds-Karp算法解決該問題的方式。從一般的算法描述，讓讀者了解每個步驟，到最終的完整代碼，這些資源一應俱全。
+本網站提供了從基礎知識到詳細實現的Edmonds-Karp演算法的解釋。最初講解了最大流問題，之後介紹了Edmonds-Karp算法解決該問題的方式。從一般的算法描述，讓讀者瞭解每個步驟，到最終的完整代碼，這些資源一應俱全。
 
 2. Edmonds-Karp algorithm - Wikipedia 
 https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm

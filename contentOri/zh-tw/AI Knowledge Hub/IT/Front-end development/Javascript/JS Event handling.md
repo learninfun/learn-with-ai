@@ -1,3 +1,6 @@
++++
+title = "JavaScript 事件處理"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題JS Event handling的問題
@@ -9,7 +12,7 @@
 2. 什麼是事件處理程序？
 3. 如何在JS中綁定事件處理程序？
 4. 如何防止事件冒泡？
-5. 如何禁止默认事件行為？   
+5. 如何禁止默認事件行為？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
@@ -38,7 +41,7 @@ button.addEventListener("click", function() {
 });
 ```
 
-在此範例中，我們首先通過`document.getElementById()`方法獲取一個id為`myButton`的按鈕元素。然後，使用`addEventListener()`方法添加一個`click`事件監聽器，該監聽器會在按鈕被點擊時執行一個匿名函式，該函式會顯示一個彈出框，其中包含一條消息“Button clicked!”。
+在此範例中，我們首先通過`document.getElementById()`方法獲取一個id為`myButton`的按鈕元素。然後，使用`addEventListener()`方法添加一個`click`事件監聽器，該監聽器會在按鈕被點擊時執行一個匿名函式，該函式會顯示一個彈出框，其中包含一條消息「Button clicked!」。
 
 當按鈕被點擊時，事件系統會檢測到這個事件並觸發添加的監聽器，該監聽器執行了匿名函式，顯示了彈出框。這種方式的好處是，它可以讓開發者將相關邏輯和操作與HTML分離，使代碼更加模塊化和易於維護。   
 

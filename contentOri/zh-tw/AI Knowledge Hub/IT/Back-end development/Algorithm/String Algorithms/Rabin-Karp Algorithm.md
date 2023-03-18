@@ -1,3 +1,6 @@
++++
+title = "Rabin-Karp演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Rabin-Karp Algorithm的問題

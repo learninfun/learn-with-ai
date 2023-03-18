@@ -1,3 +1,6 @@
++++
+title = "N叉樹"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題N-ary Tree的問題
@@ -148,7 +151,7 @@ public:
 答案:
 class Solution {
 public:
-//返回刪除後新生成的樹+獨立節點
+//返回删除后新生成的树+独立节点
     unordered_set<int> to_delete_set;
     vector<Node*> res;
     vector<Node*> delNodes(Node* root, vector<int>& to_delete) {

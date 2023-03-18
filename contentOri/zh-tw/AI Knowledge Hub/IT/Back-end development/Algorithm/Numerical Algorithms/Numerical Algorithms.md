@@ -1,3 +1,6 @@
++++
+title = "數值算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Numerical Algorithms的問題

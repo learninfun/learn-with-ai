@@ -1,6 +1,9 @@
-## Preview
++++
+title = "身份驗證和授權"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Authentication and Authorization
+給我5題Authentication and Authorization的問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +18,9 @@ give me five question about Authentication and Authorization
 
 5. What are some best practices for managing user access rights and permissions, and how can organizations minimize the risk of unauthorized access to sensitive data or systems?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Authentication and Authorization and give an example
+說明Authentication and Authorization並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +33,9 @@ Example:
 
 Suppose you want to access your online banking account. First, you need to enter your username and password (authentication). Once the bank verifies your identity, it will authorize you to access your account and perform transactions that you are authorized to perform. In this example, authentication and authorization work together to ensure the security of the banking system and prevent any unauthorized access to customers' accounts.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Authentication and Authorization
+條列Authentication and Authorization的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +54,9 @@ Authorization:
 4. Authorization can be managed centrally or separately for each application.
 5. Authorization should be reviewed regularly to ensure that access privileges are still appropriate.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Authentication and Authorization
+給我5題Authentication and Authorization的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -73,9 +76,9 @@ Answer: The principle of least privilege states that users should only be grante
 5. What is role-based access control?
 Answer: Role-based access control (RBAC) is an authorization model where access to resources is based on the user's role within an organization. Each role has a defined set of permissions that determine what actions they can perform and what data they can access.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Authentication and Authorization
+給我5篇Authentication and Authorization的網路資料
 {{< /ask_chatgpt >}}
 
 

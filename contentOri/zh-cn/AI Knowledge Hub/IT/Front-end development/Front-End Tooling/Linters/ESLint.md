@@ -1,0 +1,146 @@
++++
+title = "ESLint"
++++
+## 习题预习
+{{< ask_chatgpt >}}
+给我5题ESLint的问题
+{{< /ask_chatgpt >}}
+
+
+
+1. 什麼是ESLint？
+2. 如何在專案中安裝並配置ESLint？
+3. ESLint的主要作用是什麼？
+4. 如何設置ESLint的風格檢查規則？
+5. 如何在程式碼中使用斷行和縮進以符合ESLint的風格檢查規則？   
+
+## 说明知识
+{{< ask_chatgpt >}}
+说明ESLint并举例
+{{< /ask_chatgpt >}}
+
+
+
+ESLint是一個開源的靜態代碼檢查工具，用於找出JavaScript中的問題並將其標示為錯誤、警告或建議修復。它可以幫助開發者遵循一致的代碼風格，並在開發過程中捕捉潛在的錯誤。
+
+ESLint可以在命令行中運行，也可以作為集成到編輯器中的插件使用。它支持許多不同的JavaScript編程風格和框架，並有龐大的社區支持。
+
+以下是一個使用ESLint的示例：
+
+```javascript
+function calculateSum(a, b) {
+  return a + b;
+}
+
+calculateSum(1, 2);
+```
+
+在這個例子中，我們使用了一個非常簡單的函數來計算兩個數字的總和。我們可以使用ESLint來檢查它是否有任何問題。在命令行中運行以下命令：
+
+```
+eslint calculateSum.js
+```
+
+結果將顯示任何問題。如果我們在此函數中添加類型錯誤或錯誤的JavaScript語法，ESLint將標記它們為錯誤或警告，以幫助開發者更快地找到問題。   
+
+## 汇总重点
+{{< ask_chatgpt >}}
+条列ESLint的重点
+{{< /ask_chatgpt >}}
+
+
+
+1. 優化程式碼風格：ESLint可以檢查程式碼是否符合項目或公司的風格標準，幫助開發人員撰寫更一致且可讀性高的代碼。
+
+2. 風格指南設置：ESLint可以根據所需的風格指南，進行配置，從而保證整個專案的一致性。
+
+3. 去除冗餘代碼：ESLint可以自動找出冗餘的代碼，幫助開發人員更加有效地優化程式碼。
+
+4. 防止錯誤：ESLint可以檢查可能引起潛在錯誤的代碼，減少代碼錯誤帶來的風險。
+
+5. 提高代碼品質：ESLint可以檢查代碼中的一些常見問題，如未定義的變數和未使用的變數，從而提高代碼品質。
+
+6. 強制遵守最佳實踐：ESLint可以強制開發人員遵守最佳實踐，例如避免使用全域變數等。
+
+7. 提高團隊協作：ESLint可以幫助開發人員在相同的指導方針下開發，從而提高協作效率。
+
+8. 輕易的自訂規則：ESLint可以輕易地自訂規則，根據項目或公司特有的需求，給出相應的檢查與警告。   
+
+## 知识测验
+{{< ask_chatgpt >}}
+给我5题ESLint的中等难度问题，并在后面列出答案
+{{< /ask_chatgpt >}}
+
+
+
+1. 下列哪個選項是不合法的 ESLint 設定檔格式?
+A. `.eslintrc.json`
+B. `.eslintrc.yaml`
+C. `.eslintrc.cson`
+
+答案: C
+
+2. 下列哪個 ESLint 規則可以讓你檢查是否有需要移除的 console.log?
+
+A. no-debugger
+B. no-console
+C. no-unused-vars
+
+答案: B
+
+3. 下列哪個 ESLint 規則可以讓你檢查是否有不必要的 else 語句?
+
+A. no-else-return
+B. no-useless-return
+C. no-unreachable
+
+答案: A
+
+4. 下列哪個 ESLint 規則可以讓你檢查 callback 函數的第一個參數是否處理錯誤?
+
+A. no-console
+B. no-undef
+C. handle-callback-err
+
+答案: C
+
+5. 下列哪個 ESLint 規則可以讓你檢查是否使用了過時的 ES5 語法?
+
+A. no-var
+B. prefer-const
+C. no-useless-concat
+
+答案: A   
+
+## 网络数据
+{{< ask_chatgpt >}}
+给我5篇ESLint的网络数据
+{{< /ask_chatgpt >}}
+
+
+
+1. "ESLint - Pluggable JavaScript linter" from eslint.org
+- https://eslint.org/
+
+This official website provides all the information about ESLint, including installation, configuration, rules and plugins, and frequently asked questions. 
+
+2. "A Beginner’s Guide to ESLint" from sitepoint.com
+- https://www.sitepoint.com/beginners-guide-to-eslint/
+
+This article explains why using ESLint is important and how to get started with it. It includes step-by-step instructions for installation, setup and configuration for the ESLint extension on Visual Studio code.
+
+3. "ESLint: The Basics" from dev.to
+- https://dev.to/hardlydifficult/eslint-the-basics-540
+
+This tutorial covers the basics of ESLint, including why and how to use it, how to write custom rules and how to fix common issues using ESLint.
+
+4. "Improve Your Code Quality with ESLint" from scotch.io
+- https://scotch.io/tutorials/improve-your-code-quality-with-eslint
+
+This article provides a comprehensive guide on setting up and using ESLint in a project. It covers installing ESLint, configuring it to suit the project, setting rules, and adding plugins.
+
+5. "ESLint – The Pluggable JavaScript Linter – In-Depth Beginner’s Guide" from freecodecamp.org
+- https://www.freecodecamp.org/news/eslint-the-pluggable-javascript-linter-in-depth-beginners-guide-2d50c424c2b5/
+
+This guide covers everything about ESLint, including why it is important, how to install it, and how to configure it to fit your project. It also has a section on how to integrate ESLint with popular code editors like VS Code and Sublime Text.   
+

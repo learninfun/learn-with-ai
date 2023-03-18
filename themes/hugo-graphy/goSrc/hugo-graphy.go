@@ -269,7 +269,9 @@ func handleMarkdown(fileName, pathSourse, pathResult string, isFolderMd bool) bo
 	fmt.Println("isFolderMd:" + fileNameNoExt + ": " + strconv.FormatBool(isFolderMd))
 	//add page info
 	if isFolderMd {
-		newContent = fmt.Sprintf("+++\ntitle = \"%s\"\n+++", fileNameNoExt) + "\n" + newContent
+		if !strings.HasPrefix(newContent, "+++") {
+			newContent = fmt.Sprintf("+++\ntitle = \"%s\"\n+++\n", fileNameNoExt) + newContent
+		}
 	}
 
 	tools_convert.StringToFile(pathResult, newContent)

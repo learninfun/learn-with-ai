@@ -1,3 +1,6 @@
++++
+title = "Java泛型"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Java generics的問題

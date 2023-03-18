@@ -1,3 +1,6 @@
++++
+title = "矩陣乘法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Matrix Multiplication的問題

@@ -1,3 +1,6 @@
++++
+title = "模型-視圖-資料繫結 （MVVM）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Model-View-ViewModel (MVVM)的問題

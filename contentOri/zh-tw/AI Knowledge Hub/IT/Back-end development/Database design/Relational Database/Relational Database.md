@@ -1,3 +1,6 @@
++++
+title = "關聯數據庫"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Relational Database的問題

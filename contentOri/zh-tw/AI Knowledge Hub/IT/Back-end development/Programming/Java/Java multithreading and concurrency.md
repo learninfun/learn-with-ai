@@ -1,3 +1,6 @@
++++
+title = "Java多線程和並發"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Java multithreading and concurrency的問題

@@ -1,3 +1,6 @@
++++
+title = "模型-視圖-控制器 （MVC）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Model-View-Controller (MVC)的問題

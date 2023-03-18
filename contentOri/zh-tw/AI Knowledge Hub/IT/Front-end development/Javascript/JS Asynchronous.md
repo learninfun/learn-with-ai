@@ -1,3 +1,6 @@
++++
+title = "JavaScript 非同步"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題JS Asynchronous的問題

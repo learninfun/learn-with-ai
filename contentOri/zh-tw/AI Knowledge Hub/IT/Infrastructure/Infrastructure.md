@@ -1,3 +1,6 @@
++++
+title = "基礎設施"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Infrastructure的問題

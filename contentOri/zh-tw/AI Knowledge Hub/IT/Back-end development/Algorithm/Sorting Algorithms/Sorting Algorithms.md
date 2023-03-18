@@ -1,3 +1,6 @@
++++
+title = "排序演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Sorting Algorithms的問題
@@ -13,7 +16,7 @@
 
 4. Sorting Algorithms在什麼情況下可能會導致排序失敗？
 
-5. 什麼是“in-place sorting”？那些Sorting Algorithms可以實現in-place sorting？   
+5. 什麼是「in-place sorting」？那些Sorting Algorithms可以實現in-place sorting？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
@@ -62,7 +65,7 @@ There are many more sorting algorithms, each with its own advantages and disadva
 5. Selection Sort: 依次找出數列中最小的元素，放到數列起始位置，再從剩下的元素中找到最小值，將其放到已排序部分的結尾，直到整個數列有序。
 6. Shell Sort: 基於插入排序的一種算法，會先進行一次分組排序，然後逐漸縮小分組區間，最終當區間縮小成1時，整個數列也就有序了。
 7. Heap Sort: 利用二叉堆進行排序，先將數列變成一個最小堆或最大堆，然後將堆頂元素取出加入結果集，再把剩餘堆調整成新的堆，重複以上步驟直到整個數列有序。
-8. Counting Sort: 用于小范围整数排序，其核心理念在于将输入的数据值转化为键存储在额外开辟的数组空间中，然后依次把计数大于 1 的填回原数组。
+8. Counting Sort: 用於小範圍整數排序，其核心理念在於將輸入的數據值轉化為鍵存儲在額外開闢的數組空間中，然後依次把計數大於 1 的填回原數組。
 
 以上就是Sorting Algorithms的重點，各算法在時間複雜度和空間複雜度等方面都有不同優點和限制，需要根據應用場景選擇適合的算法來進行排序。   
 

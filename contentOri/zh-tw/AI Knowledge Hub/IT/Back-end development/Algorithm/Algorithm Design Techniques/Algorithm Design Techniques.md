@@ -1,3 +1,6 @@
++++
+title = "算法設計技巧"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Algorithm Design Techniques的問題

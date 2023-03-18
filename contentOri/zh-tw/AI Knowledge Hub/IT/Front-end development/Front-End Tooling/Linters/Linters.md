@@ -1,3 +1,6 @@
++++
+title = "Linters 程式碼檢查工具"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Linters的問題

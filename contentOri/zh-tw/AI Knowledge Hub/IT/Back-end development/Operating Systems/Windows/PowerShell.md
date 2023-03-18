@@ -1,3 +1,6 @@
++++
+title = "PowerShell"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題PowerShell的問題
@@ -47,21 +50,21 @@ PowerShell是一個非常強大的工具，可以使任務自動化，提高效�
 
 
 
-下面列出了 PowerShell 的重點：
+下面列出了 PowerShell 的重点：
 
-1. 管理和自動化任務： PowerShell是用於管理和自動化Windows操作系統的工具。它允許管理員執行一些複雜的任務，如批量管理Windows Server，編寫腳本來自動化常用的管理任務。
+1. 管理和自动化任务： PowerShell是用于管理和自动化Windows操作系统的工具。它允许管理员执行一些复杂的任务，如批量管理Windows Server，编写脚本来自动化常用的管理任务。
 
-2. 命令行工具： PowerShell提供了一個命令行界面，管理員可以使用該界面在Windows上執行各種任務。
+2. 命令行工具： PowerShell提供了一个命令行界面，管理员可以使用该界面在Windows上执行各种任务。
 
-3. 網絡支持： PowerShell通過PowerShell Remoting提供網絡支持，以允許管理員在網絡上執行遠程命令。
+3. 网络支持： PowerShell通过PowerShell Remoting提供网络支持，以允许管理员在网络上执行远程命令。
 
-4. 管道： PowerShell中的管道功能允許管理員將命令鏈在一起以完成特定任務，同時將輸出從一個命令傳遞到另一個命令。
+4. 管道： PowerShell中的管道功能允许管理员将命令链在一起以完成特定任务，同时将输出从一个命令传递到另一个命令。
 
-5. 腳本語言： PowerShell是一種編程語言，允許管理員編寫自己的腳本來執行各種管理任務。
+5. 脚本语言： PowerShell是一种编程语言，允许管理员编写自己的脚本来执行各种管理任务。
 
-6. 可擴展性： PowerShell可以通過添加模塊來擴展其功能。模塊是一組命令、函數和其他資源，可以在PowerShell中加載和使用。
+6. 可扩展性： PowerShell可以通过添加模块来扩展其功能。模块是一组命令、函数和其他资源，可以在PowerShell中加载和使用。
 
-7. 追蹤和分析日誌： PowerShell提供了用於追蹤和分析日誌的工具，允許管理員監控各種系統事件和活動。   
+7. 追踪和分析日志： PowerShell提供了用于追踪和分析日志的工具，允许管理员监控各种系统事件和活动。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -106,7 +109,7 @@ $files
 $output = Start-Process -FilePath "C:\Program Files (x86)\MyApp\MyApp.exe" -ArgumentList "-arg1", "-arg2" -NoNewWindow -PassThru -Wait -RedirectStandardOutput "C:\output.txt" -WindowStyle Hidden
 Get-Content "C:\output.txt"
 
-5. 問題：如何在PowerShell中使用Get-ADUser命令查找一個特定群組中的所有用戶，並將它們的電子郵件地址輸出到一個CSV文件中？
+5. 問題：如何在PowerShell中使用Get-ADUser命令查找一個特定群組中的所有用戶，并將它們的電子郵件地址輸出到一個CSV文件中？
 答案：
 
 $users = Get-ADGroupMember "MyGroup" | Where-Object {$_.objectClass -eq "user"}

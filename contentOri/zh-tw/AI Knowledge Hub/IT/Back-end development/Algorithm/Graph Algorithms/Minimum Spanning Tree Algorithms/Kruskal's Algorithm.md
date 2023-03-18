@@ -1,3 +1,6 @@
++++
+title = "克魯斯卡爾演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Kruskal's Algorithm的問題

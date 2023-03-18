@@ -1,3 +1,6 @@
++++
+title = "JDBC"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題JDBC的問題
@@ -97,7 +100,7 @@ public class JDBCTest {
 1. JDBC是Java Database Connectivity的縮寫，它提供了與關係型數據庫（如MySQL，Oracle等）進行交互的標準接口。
 2. JDBC使用一組API來訪問數據庫的操作，這些API包括Connection，Statement或PreparedStatement，和ResultSet等。
 3. Connection是 JDBC 中最基本的要素之一，它表示與數據庫之間的連接。該接口還包括其他許多重要功能，例如事務管理和自動提交。
-4. Statement或PreparedStatement用於執行SQL查詢或更新數據庫記錄。PreparedStatement是一種比Statement更進一步的對象，它允許開發人員編寫可變參數的SQL語句。
+4. Statement或PreparedStatement用於執行SQL查詢或更新數據庫記錄。PreparedStatement是一種比Statement更進一步的對象，它允許開發人員編寫可變参数的SQL語句。
 5. ResultSet則用於處理查詢結果集，從中檢索數據以進行顯示或計算等操作。
 6. JDBC程序實際上是通過建立Connection對象，創建Statement對象並執行SQL查詢來與數據庫進行交互。並且一定要在用完後關閉所有的資料庫資源，包括Connection，Statement和ResultSet。
 7. 除了純JDBC之外，也可以使用Spring JDBC等框架來更簡化和加快JDBC的開發。   

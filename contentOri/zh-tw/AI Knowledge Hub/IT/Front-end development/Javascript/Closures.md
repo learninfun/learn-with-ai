@@ -1,3 +1,6 @@
++++
+title = "閉包"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Closures的問題
@@ -51,7 +54,7 @@ print(result)  # 15
 1. Closures是一種函式內的函式，可以在函式中建立新的作用域。
 2. Closures允許內部函式訪問其外部函式的變數和參數。
 3. Closures允許內部函式保持其創建時外部作用域中的變數狀態，而不是在內部函式調用時重新定義這些變數。
-4. Closures在JavaScript中廣泛應用，特別是用於創建私有變數和方法，以及面向對像編程模式。
+4. Closures在JavaScript中廣泛應用，特別是用於創建私有變數和方法，以及面向對象編程模式。
 5. 在Closures中，外部函式可以返回內部函式，因此Closures也被稱為函數工廠。
 6. Closures和垃圾回收機制密切相關，不正確使用Closures可能會導致內存洩漏。   
 
@@ -128,7 +131,7 @@ var curriedAdd = curry(add);
 console.log(curriedAdd(1)(2)(3)); // 6
 ```
 
-4. 寫一個函數 sequence，讓它可以按順序執行一個或多個異步任務，如下所示：
+4. 写一个函数 sequence，让它可以按顺序执行一个或多个异步任务，如下所示：
 
 ```javascript
 function asyncTask1(callback) {
@@ -151,7 +154,7 @@ sequence(asyncTask1, asyncTask2, asyncTask3, function() {
 });
 ```
 
-輸出結果：
+输出结果：
 
 ```javascript
 asyncTask1
@@ -179,14 +182,14 @@ function sequence(...tasks) {
 }
 ```
 
-5. 編寫一個函數createKeyValueStore，可以創建一個簡單的鍵值存儲對象，並返回一個新的函數。當調用該函數時，鍵值存儲應該更新為指定的鍵和值。每當更新時，應該在控制台上打印出新的鍵值存儲。例如：
+5. 编写一个函数createKeyValueStore，可以创建一个简单的键值存储对象，并返回一个新的函数。当调用该函数时，键值存储应该更新为指定的键和值。每当更新时，应该在控制台上打印出新的键值存储。例如：
 
 ```javascript
 const keyValues = createKeyValueStore();
 keyValues('name', 'John');
 keyValues('age', 30);
 
-// 控制台輸出：
+// 控制台输出：
 // { name: 'John' }
 // { name: 'John', age: 30 }
 ```

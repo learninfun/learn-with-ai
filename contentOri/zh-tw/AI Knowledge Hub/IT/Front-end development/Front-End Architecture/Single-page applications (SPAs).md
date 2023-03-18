@@ -1,3 +1,6 @@
++++
+title = "單頁應用程式 （SPA）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Single-page applications (SPAs)的問題

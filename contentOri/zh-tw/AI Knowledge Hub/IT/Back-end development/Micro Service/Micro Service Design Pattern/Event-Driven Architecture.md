@@ -1,3 +1,6 @@
++++
+title = "事件驅動架構"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Event-Driven Architecture的問題

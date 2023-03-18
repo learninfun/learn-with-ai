@@ -1,3 +1,6 @@
++++
+title = "Java序列化和反序列化"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Java serialization and Deserialization的問題

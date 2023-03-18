@@ -1,3 +1,6 @@
++++
+title = "MongoDB"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題MongoDB的問題
@@ -45,7 +48,7 @@ MongoDB是一款非常流行的NoSQL数据库管理系统，支持多种数据�
 
 1. MongoDB是一個開源的文檔導向的Nosql數據庫系統，用於存儲非結構化或半結構化的數據。
 
-2. MongoDB使用JavaScript對象表示法（JSON）格式來存儲數據記錄，並支持動態模式和靜態模式。
+2. MongoDB使用JavaScript對像表示法（JSON）格式來存儲數據記錄，並支持動態模式和靜態模式。
 
 3. MongoDB支持分佈式數據庫，使它易於擴展和管理大規模數據。
 

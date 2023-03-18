@@ -1,3 +1,6 @@
++++
+title = "Java物件導向"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Java OO的問題
@@ -87,9 +90,9 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 以下是Java Object-Oriented (OO) 的重點：
 
-1. 抽象化 (Abstraction) - 用來隱藏複雜性質，將其簡化，以便於管理。
+1. 抽像化 (Abstraction) - 用來隱藏複雜性質，將其簡化，以便於管理。
 
-2. 封裝 (Encapsulation) - 資料、方法的保護，防止私有資料不被亂改造，保護資源分配。
+2. 封裝 (Encapsulation) - 資料、方法的保護，防止私有資料不被亂改造，保護資源分配。
 
 3. 繼承 (Inheritance) - 繼承能夠從一個類別獲得那些類別的資料和方法，使其成為一種新的類別。
 
@@ -99,7 +102,7 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 6. 物件 (Object) - 由類別 Instance 到的物件，在程式執行時，被物件所組成。
 
-7. 接口 (Interface) - 一種抽象的類型，Java 社群使用此類型來協調類。
+7. 接口 (Interface) - 一種抽像的類型，Java 社群使用此類型來協調類。
 
 8. 重載 (Overloading) - 在一個類別裡，不同的方法可以有相同的函式名稱，但參數類型不同或數目不同。
 
@@ -347,7 +350,7 @@ public class BankAccount {
 }
 ```
 
-5. 設計一個圖形(Geometry)抽象類別，包含以下抽象方法：
+5. 設計一個圖形(Geometry)抽像類別，包含以下抽像方法：
 
 方法：
 - 計算面積(getArea)

@@ -1,3 +1,6 @@
++++
+title = "效能優化"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Performance optimization的問題

@@ -1,6 +1,9 @@
-## Preview
++++
+title = "容器"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Containers
+給我5題Containers的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Containers
 4. Can containers be used for running stateful applications such as databases, or are they primarily useful for stateless microservices?
 5. How do security concerns and compliance requirements affect the use of containers in enterprise environments?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Containers and give an example
+說明Containers並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -22,9 +25,9 @@ Containers are a way to package and isolate applications with their dependencies
 
 An example of a container technology is Docker. Docker is an open-source container platform that simplifies the deployment of applications. It allows developers to create, deploy, and run applications inside containers. With Docker, containerized applications can be easily moved from one environment to another, such as from development to production or from on-premises to the cloud. Docker provides a platform-agnostic solution that enables developers to work with any language, framework, and application stack.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Containers
+條列Containers的重點
 {{< /ask_chatgpt >}}
 
 
@@ -43,9 +46,9 @@ List the key points of Containers
 
 7. Containers are often used as part of a microservices architecture, where applications are broken down into smaller, more manageable components that can be independently deployed and scaled.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Containers
+給我5題Containers的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -65,9 +68,9 @@ Answer: Containers can improve application performance by reducing overhead and 
 5. How do container orchestration tools such as Kubernetes help manage containerized applications?
 Answer: Container orchestration tools like Kubernetes provide a framework for automating container deployment, scaling, and management. They enable developers to manage multiple containers across different hosts, making it easier to deploy and manage applications at scale.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Containers
+給我5篇Containers的網路資料
 {{< /ask_chatgpt >}}
 
 

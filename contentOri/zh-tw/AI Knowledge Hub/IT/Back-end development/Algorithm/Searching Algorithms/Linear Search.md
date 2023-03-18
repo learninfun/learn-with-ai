@@ -1,3 +1,6 @@
++++
+title = "線性搜尋"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Linear Search的問題

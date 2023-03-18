@@ -1,3 +1,6 @@
++++
+title = "競爭分析"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Competitive Analysis的問題

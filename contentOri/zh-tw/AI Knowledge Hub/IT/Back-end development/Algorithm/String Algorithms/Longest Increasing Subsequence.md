@@ -1,3 +1,6 @@
++++
+title = "最長上升子序列"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Longest Increasing Subsequence的問題

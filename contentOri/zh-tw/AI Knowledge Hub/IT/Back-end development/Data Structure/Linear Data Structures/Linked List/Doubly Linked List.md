@@ -1,3 +1,6 @@
++++
+title = "雙向鏈表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Doubly Linked List的問題
@@ -23,8 +26,8 @@
 一個雙向鏈結串列節點通常被組織為包含三個元素：
 
 1. 值：存儲在節點中的數據元素
-2. 指向前一个節點的指針（previous pointer）
-3. 指向下一个節點的指針（next pointer）
+2. 指向前一個節點的指針（previous pointer）
+3. 指向下一個節點的指針（next pointer）
 
 對於第一個節點和最後一個節點，前一個節點指針和後一個節點指針可以為空指針（NULL）。
 
@@ -80,7 +83,7 @@ struct Node {
 
 1. Doubly linked list是一種常見的資料結構，它與 singly linked list 相似，但每個節點有兩個指向（前一個和後一個）而不是一個。
 
-2. Doubly linked list的主要優點是可以雙向遍歷列表。這意味着，可以通過列表的前面或後面尋找節點，而不必遞歸或反轉列表。
+2. Doubly linked list的主要優點是可以雙向遍歷列表。這意味著，可以通過列表的前面或後面尋找節點，而不必遞歸或反轉列表。
 
 3. Doubly linked list需要更多的空間來存儲指向前面節點的指針，這會增加記憶體使用量。
 

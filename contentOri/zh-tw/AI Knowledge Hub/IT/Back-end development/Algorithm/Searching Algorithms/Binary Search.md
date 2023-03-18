@@ -1,3 +1,6 @@
++++
+title = "二分搜尋"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Binary Search的問題

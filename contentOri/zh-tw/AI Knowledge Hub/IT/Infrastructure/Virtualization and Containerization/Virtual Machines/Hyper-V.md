@@ -1,6 +1,9 @@
-## Preview
++++
+title = "Hyper-V"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Hyper-V
+給我5題Hyper-V的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Hyper-V
 4. How do you create virtual machines in Hyper-V and what are the configuration options?
 5. How does Hyper-V handle virtual machine snapshots and backups?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Hyper-V and give an example
+說明Hyper-V並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -26,9 +29,9 @@ Hyper-V can be used to create a variety of virtual machines, ranging from simple
 
 An e-commerce company is managing multiple applications, including a web storefront, a payment processing application, and an inventory management system. They can use Hyper-V to set up three virtual machines on a single server, each of which runs one of the applications. Each virtual machine is isolated from the others and has its resources, ensuring that traffic to one application does not affect the others, and there is no potential for cross-contamination of data or code. This setup offers increased reliability, scalability, and security for the company's e-commerce systems.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Hyper-V
+條列Hyper-V的重點
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +47,9 @@ List the key points of Hyper-V
 9. Hyper-V also supports virtual desktop infrastructure (VDI) for remote desktop services. 
 10. It offers high availability options for VMs and supports disaster recovery through replication and backup.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Hyper-V
+給我5題Hyper-V的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -66,9 +69,9 @@ Answer: Live Migration is a feature in Hyper-V that allows you to move a running
 5. How do you troubleshoot a virtual machine that is not starting in Hyper-V?
 Answer: To troubleshoot a virtual machine that is not starting in Hyper-V, you can check the event logs for error messages, try restarting the Hyper-V Virtual Machine Management service, and ensure that the virtual machine's configuration is set up correctly.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Hyper-V
+給我5篇Hyper-V的網路資料
 {{< /ask_chatgpt >}}
 
 

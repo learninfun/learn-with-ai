@@ -1,3 +1,6 @@
++++
+title = "ARIA屬性"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題ARIA attributes的問題
@@ -74,21 +77,21 @@ ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者
 
 
 
-以下是ARIA属性的重点：
+以下是ARIA屬性的重點：
 
-1. 角色(attribute-role)属性：定义了元素在页面中扮演的角色，如菜单、按钮、文本框等。
+1. 角色(attribute-role)屬性：定義了元素在頁面中扮演的角色，如菜單、按鈕、文本框等。
 
-2. 描述(attribute-description)属性：提供了元素的额外描述信息，以便于屏幕阅读器能够更好的理解该元素的含义。
+2. 描述(attribute-description)屬性：提供了元素的額外描述信息，以便於屏幕閱讀器能夠更好的理解該元素的含義。
 
-3. 标签(attribute-label)属性：为元素提供了更容易被理解的标签，通常用来替代没有语义的标签，如checkbox、radio等。
+3. 標籤(attribute-label)屬性：為元素提供了更容易被理解的標籤，通常用來替代沒有語義的標籤，如checkbox、radio等。
 
-4. tab-index属性：定义了元素在页面中的tab键次序，以便于键盘导航。
+4. tab-index屬性：定義了元素在頁面中的tab鍵次序，以便於鍵盤導航。
 
-5. 表示状态的属性（attribute-state）：主要有三种表示状态的属性aria-checked，aria-selected和aria-disabled，用于标记元素的状态。
+5. 表示狀態的屬性（attribute-state）：主要有三種表示狀態的屬性aria-checked，aria-selected和aria-disabled，用於標記元素的狀態。
 
-6. 语义组(attribute-set)：用于将有关联性的元素如radiogroup、menu等组合到一个语义组中，以便于屏幕阅读器能够更好的理解相互关联的元素。
+6. 語義組(attribute-set)：用於將有關聯性的元素如radiogroup、menu等組合到一個語義組中，以便於屏幕閱讀器能夠更好的理解相互關聯的元素。
 
-7. 辅助功能的提示信息（attribute-popup）：定义了与元素相关的提示信息，如弹出窗口、帮助文本等。这些提示信息可以帮助用户更好地理解元素的功能和用途。   
+7. 輔助功能的提示信息（attribute-popup）：定義了與元素相關的提示信息，如彈出窗口、幫助文本等。這些提示信息可以幫助用戶更好地理解元素的功能和用途。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -104,13 +107,13 @@ ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者
 答案：aria-describedby屬性可以闡述與元素相關的附加描述。它可以被用來作為輔助技術的提示，也可以用來提供更詳細的元素內容。
 
 3. 什麼是aria-expanded屬性？
-答案：aria-expanded屬性用於指示具有展開/收起功能的元素的當前狀態。它可以被設置為“true”或“false”，用於指示元素是否打開或關閉。
+答案：aria-expanded屬性用於指示具有展開/收起功能的元素的當前狀態。它可以被設置為「true」或「false」，用於指示元素是否打開或關閉。
 
 4. 如何使用aria-label屬性？
 答案：aria-label屬性用於為元素提供可讀的名稱，通常被用於沒有文本描述的圖像、按鈕和表單控件等元素。這可以幫助輔助技術用戶更好地理解頁面內容。
 
 5. 什麼是aria-hidden屬性？
-答案：aria-hidden屬性可以用於隱藏屏幕閱讀器不應該讀取的元素。當aria-hidden屬性被設置為“true”時，元素將被隱藏並從輔助技術的焦點序列中移除。   
+答案：aria-hidden屬性可以用於隱藏屏幕閱讀器不應該讀取的元素。當aria-hidden屬性被設置為「true」時，元素將被隱藏並從輔助技術的焦點序列中移除。   
 
 ## 網路資料
 {{< ask_chatgpt >}}

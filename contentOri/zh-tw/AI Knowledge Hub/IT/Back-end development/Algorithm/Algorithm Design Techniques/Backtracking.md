@@ -1,3 +1,6 @@
++++
+title = "回溯法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Backtracking的問題
@@ -86,24 +89,24 @@ def backtrack(start, end, grid, visited):
 
 
 
-1.  全排列問題（Permutations Problem）
-給定數字集合，找到所有可能的排列。
+1.  全排列问题（Permutations Problem）
+给定数字集合，找到所有可能的排列。
 答案：https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/
 
-2.  組合總數問題（Combination Sum Problem）
-給定一組數字集合和一個目標數字，找到集合中所有相加等於目標數字的組合。
+2.  组合总数问题（Combination Sum Problem）
+给定一组数字集合和一个目标数字，找到集合中所有相加等于目标数字的组合。
 答案：https://leetcode.com/problems/combination-sum/
 
-3.  單詞搜索問題（Word Search Problem）
-給定一個矩陣和一個單詞，找到該單詞是否存在於矩陣中。單詞可以是垂直或水平排列的。
+3.  单词搜索问题（Word Search Problem）
+给定一个矩阵和一个单词，找到该单词是否存在于矩阵中。单词可以是垂直或水平排列的。
 答案：https://leetcode.com/problems/word-search/
 
-4.  n皇后問題（N-Queens Problem）
-給定棋盤大小n和皇后的數量，找到皇后可以互相攻擊的所有可能排列位置。
+4.  n皇后问题（N-Queens Problem）
+给定棋盘大小n和皇后的数量，找到皇后可以互相攻击的所有可能排列位置。
 答案：https://leetcode.com/problems/n-queens/
 
-5.  數獨問題（Sudoku Problem）
-給定一個9x9的空數獨遊戲板，找到解決方案。
+5.  数独问题（Sudoku Problem）
+给定一个9x9的空数独游戏板，找到解决方案。
 答案：https://leetcode.com/problems/sudoku-solver/   
 
 ## 網路資料

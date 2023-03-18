@@ -1,3 +1,6 @@
++++
+title = "旅行商問題"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Traveling Salesman Problem的問題

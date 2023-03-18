@@ -1,3 +1,6 @@
++++
+title = "JavaScript 函數式編程"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題JS functional programming的問題

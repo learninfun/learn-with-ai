@@ -1,3 +1,6 @@
++++
+title = "漸進符號"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Asymptotic Notations的問題

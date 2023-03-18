@@ -1,6 +1,9 @@
-## Preview
++++
+title = "%!s(<nil>)"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Cross-Site Scripting (XSS)
+給我5題Cross-site scripting (XSS)的問題
 {{< /ask_chatgpt >}}
 
 
@@ -11,9 +14,9 @@ give me five question about Cross-Site Scripting (XSS)
 4. What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks? 
 5. How does the development of modern web technologies (such as Single-page Applications and APIs) impact the risk and mitigation of XSS attacks?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Cross-Site Scripting (XSS) and give an example
+說明Cross-site scripting (XSS)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -24,9 +27,9 @@ An example of cross-site scripting involves an attacker exploiting an insecure w
 
 For instance, imagine that a user named Alice visits a website that allows users to post comments. Alice has no malicious intent, so she posts a comment with her name and a benign message. However, an attacker named Bob spots the vulnerability and decides to abuse it. Bob posts a comment containing a script that, when run on Alice's computer, sends Alice's login credentials to Bob's server. Now, when Alice tries to log in, Bob is able to steal her information and use it for his own purposes. This is just one example of how cross-site scripting can be used as an attack vector.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Cross-Site Scripting (XSS)
+條列Cross-site scripting (XSS)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -41,9 +44,9 @@ List the key points of Cross-Site Scripting (XSS)
 
 5. Users can protect themselves by keeping their software up to date, using anti-malware software, disabling or limiting scripting and plugin capabilities in their browsers, and being cautious of clicking on links or downloading attachments from suspicious sources.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Cross-Site Scripting (XSS)
+給我5題Cross-site scripting (XSS)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -63,9 +66,9 @@ A: XSS attacks can be prevented by properly validating and sanitizing user input
 5. What are some common signs that a website is vulnerable to XSS attacks?
 A: Some common signs that a website may be vulnerable to XSS include: unvalidated or unsanitized user input that is displayed on a web page, a lack of encoding or escaping of special characters, and the absence of measures to prevent or detect XSS attacks, such as CSP or web application firewalls (WAFs).   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Cross-Site Scripting (XSS)
+給我5篇Cross-site scripting (XSS)的網路資料
 {{< /ask_chatgpt >}}
 
 

@@ -1,3 +1,6 @@
++++
+title = "加密和金鑰管理"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Encryption and Key Management的問題

@@ -1,3 +1,6 @@
++++
+title = "入侵檢測和預防系統（IDPS）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Intrusion Detection and Prevention Systems (IDPS)的問題

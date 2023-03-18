@@ -1,3 +1,6 @@
++++
+title = "鏈表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Linked List的問題
@@ -113,46 +116,46 @@ class LinkedList {
 5. Linked List Cycle II
 
 1. Reverse Linked List II:
-題目描述： 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
+題目描述： 反轉從位置 m 到 n 的鏈表。請使用一趟掃瞄完成反轉。
 示例: 
-输入: 1->2->3->4->5->NULL, m = 2, n = 4
-输出: 1->4->3->2->5->NULL
-答案链接: https://leetcode.com/problems/reverse-linked-list-ii/
+輸入: 1->2->3->4->5->NULL, m = 2, n = 4
+輸出: 1->4->3->2->5->NULL
+答案鏈接: https://leetcode.com/problems/reverse-linked-list-ii/
 
 2. Copy List with Random Pointer:
-題目描述： 给定一个链表，每个节点包含一个额外增加的随机指针，
-该指针可以指向链表中的任何节点或空节点。
-要求返回这个链表的 深拷贝。 
+題目描述： 給定一個鏈表，每個節點包含一個額外增加的隨機指針，
+該指針可以指向鏈表中的任何節點或空節點。
+要求返回這個鏈表的 深拷貝。 
 示例：
-输入：
+輸入：
 {"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}
-解释：
-节点 1 的值是 1，它的下一个指针和随机指针都指向节点 2 。
-节点 2 的值是 2，它的下一个指针指向 null，随机指针指向它本身。
-答案链接：https://leetcode.com/problems/copy-list-with-random-pointer/
+解釋：
+節點 1 的值是 1，它的下一個指針和隨機指針都指向節點 2 。
+節點 2 的值是 2，它的下一個指針指向 null，隨機指針指向它本身。
+答案鏈接：https://leetcode.com/problems/copy-list-with-random-pointer/
 
 3. Remove Nth Node From End of List:
-題目描述： 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。 
+題目描述： 給定一個鏈表，刪除鏈表的倒數第 n 個節點，並且返回鏈表的頭結點。 
 示例：
-输入: 1->2->3->4->5, n = 2
-输出: 1->2->3->5
-答案链接： https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+輸入: 1->2->3->4->5, n = 2
+輸出: 1->2->3->5
+答案鏈接： https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 4. Partition List:
-題目描述： 给定一个链表和一个特定值 x，对链表进行分隔，
-使得所有小于 x 的节点都在大于或等于 x 的节点之前。
-你应当保留两个分区中每个节点的初始相对位置。
+題目描述： 給定一個鏈表和一個特定值 x，對鏈表進行分隔，
+使得所有小於 x 的節點都在大於或等於 x 的節點之前。
+你應當保留兩個分區中每個節點的初始相對位置。
 示例：
-输入: head = 1->4->3->2->5->2, x = 3
-输出: 1->2->2->4->3->5
-答案链接： https://leetcode.com/problems/partition-list/
+輸入: head = 1->4->3->2->5->2, x = 3
+輸出: 1->2->2->4->3->5
+答案鏈接： https://leetcode.com/problems/partition-list/
 
 5. Linked List Cycle II:
-題目描述： 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
+題目描述： 給定一個鏈表，返回鏈表開始入環的第一個節點。 如果鏈表無環，則返回 null。
 示例：
-输入：head = [3,2,0,-4], pos = 1
-输出：tail connects to node index 1
-答案链接： https://leetcode.com/problems/linked-list-cycle-ii/   
+輸入：head = [3,2,0,-4], pos = 1
+輸出：tail connects to node index 1
+答案鏈接： https://leetcode.com/problems/linked-list-cycle-ii/   
 
 ## 網路資料
 {{< ask_chatgpt >}}

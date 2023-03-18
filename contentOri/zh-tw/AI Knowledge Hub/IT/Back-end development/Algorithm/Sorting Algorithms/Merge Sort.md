@@ -1,3 +1,6 @@
++++
+title = "合併排序"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Merge Sort的問題
@@ -55,21 +58,21 @@ Merge Sort是一種分治法排序演算法，它的基本概念是將待排序�
 
 
 
-1. Divide and conquer: Merge Sort使用「分而治之」的策略，將一個大問題分解成較小的子問題，並且解決每個子問題，最後將它們合併成一個有序的問題。
+1. Divide and conquer: Merge Sort使用“分而治之”的策略，将一个大问题分解成较小的子问题，并且解决每个子问题，最后将它们合并成一个有序的问题。
 
-2. Recursion: Merge Sort使用遞歸的形式實現分治法，每遞歸一層都會分解原問題並且排序子數組。
+2. Recursion: Merge Sort使用递归的形式实现分治法，每递归一层都会分解原问题并且排序子数组。
 
-3. Merge: Merge Sort將兩個已排序的子數組合併為一個已排序的數組，使得最終的數組保持正確的順序。
+3. Merge: Merge Sort将两个已排序的子数组合并为一个已排序的数组，使得最终的数组保持正确的顺序。
 
-4. Time complexity: Merge Sort的時間複雜度為nlogn，是一種高效的排序算法。
+4. Time complexity: Merge Sort的时间复杂度为nlogn，是一种高效的排序算法。
 
-5. Space complexity: Merge Sort的空間複雜度是O(n)，因為必須在排序過程中創建一個與輸入數組大小相同的臨時數組。
+5. Space complexity: Merge Sort的空间复杂度是O(n)，因为必须在排序过程中创建一个与输入数组大小相同的临时数组。
 
-6. Stability: Merge Sort是穩定的，因為它使用了相等的情況的規則，以保持同等大小的數字的相對位置。
+6. Stability: Merge Sort是稳定的，因为它使用了相等的情况的规则，以保持同等大小的数字的相对位置。
 
-7. Adaptive: Merge Sort也是自適應的，可以在原地排序的情況下使用。
+7. Adaptive: Merge Sort也是自适应的，可以在原地排序的情况下使用。
 
-8. Parallel: Merge Sort還有一個顯著的特性，就是它很容易實現並發排序，因為它將大數組分成許多小的子數組進行排序，並且這些子數組可以並發處理   
+8. Parallel: Merge Sort还有一个显著的特性，就是它很容易实现并发排序，因为它将大数组分成许多小的子数组进行排序，并且这些子数组可以并发处理   
 
 ## 知識測驗
 {{< ask_chatgpt >}}

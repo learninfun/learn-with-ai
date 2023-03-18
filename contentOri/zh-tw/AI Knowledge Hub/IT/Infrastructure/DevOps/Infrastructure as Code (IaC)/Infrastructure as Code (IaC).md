@@ -1,3 +1,6 @@
++++
+title = "基礎架構即代碼 (IaC)"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Infrastructure as Code (IaC)的問題

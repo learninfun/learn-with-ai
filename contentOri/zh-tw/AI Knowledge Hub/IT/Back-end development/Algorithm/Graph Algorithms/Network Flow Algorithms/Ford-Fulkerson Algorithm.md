@@ -1,3 +1,6 @@
++++
+title = "Ford-Fulkerson演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Ford-Fulkerson Algorithm的問題

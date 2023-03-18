@@ -1,3 +1,6 @@
++++
+title = "快速排序"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Quick Sort的問題
@@ -40,17 +43,17 @@ Quick Sort是一種常見的排序方法，它使用分治策略來排序一個�
 
 
 
-1. Quick Sort是一種快速、高效的排序算法，具有動態性的特點，能夠在大數據量的情況下快速排序。
+1. Quick Sort是一种快速、高效的排序算法，具有动态性的特点，能够在大数据量的情况下快速排序。
 
-2. Quick Sort採用遞歸的方式實現，分治思想是它的核心，將待排序的序列分成兩個子序列，一個序列中的所有元素都小於另一個序列中的所有元素。
+2. Quick Sort采用递归的方式实现，分治思想是它的核心，将待排序的序列分成两个子序列，一个序列中的所有元素都小于另一个序列中的所有元素。
 
-3. Quick Sort的基本思想是先選定一個主元（pivot）元素，將待排序的序列劃分成兩部分。一部分是小於主元的，另一部分是大於主元的。
+3. Quick Sort的基本思想是先选定一个主元（pivot）元素，将待排序的序列划分成两部分。一部分是小于主元的，另一部分是大于主元的。
 
-4. 在 Quick Sort 的過程中，主元素的選擇很關鍵，採用不同的選擇方式會影響其排序的效率。一般情況下，可以選擇待排序序列的第一個元素、中間元素、最後元素或隨機元素作為主元素。
+4. 在 Quick Sort 的过程中，主元素的选择很关键，采用不同的选择方式会影响其排序的效率。一般情况下，可以选择待排序序列的第一个元素、中间元素、最后元素或随机元素作为主元素。
 
-5. Quick Sort的時間複雜度是O(nlogn)，在最壞情況下是O(n^2)。但是，在普通情況下，Quick Sort的平均性能比較好，是常用的排序算法之一。
+5. Quick Sort的时间复杂度是O(nlogn)，在最坏情况下是O(n^2)。但是，在普通情况下，Quick Sort的平均性能比较好，是常用的排序算法之一。
 
-6. Quick Sort是一種穩定的排序算法，不需要額外的內存佔用，實現起來比較簡單，容易理解和修改。   
+6. Quick Sort是一种稳定的排序算法，不需要额外的内存占用，实现起来比较简单，容易理解和修改。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -82,7 +85,7 @@ https://www.geeksforgeeks.org/quick-sort/
 2. Quick Sort Algorithm in C++ - Programiz
 https://www.programiz.com/dsa/quick-sort
 
-這是一個教學文章，以 C++ 程式語言實現 Quick Sort 程式。文章講解了 Quick Sort 演算法的核心概念和實現方式，並提供了多組範例源碼，讓讀者可以輕鬆瞭解 Quick Sort 的運作原理。
+這是一個教學文章，以 C++ 程式語言實現 Quick Sort 程式。文章講解了 Quick Sort 演算法的核心概念和實現方式，並提供了多組範例源碼，讓讀者可以輕鬆了解 Quick Sort 的運作原理。
 
 3. Quick Sort - Tutorialspoint
 https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm
@@ -97,5 +100,5 @@ https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/o
 5. Quick Sort - YouTube
 https://www.youtube.com/watch?v=COk73cpQbFQ
 
-這是一個 YouTube 視頻教學，從實例出發，詳細講解了 Quick Sort 演算法的概念、實現方式，並提供了多個範例程式碼。視頻講解簡潔明瞭，運用圖解方式讓讀者更容易理解，非常適合初學者參考。   
+這是一個 YouTube 視頻教學，從實例出發，詳細講解了 Quick Sort 演算法的概念、實現方式，並提供了多個範例程式碼。視頻講解簡潔明了，運用圖解方式讓讀者更容易理解，非常適合初學者參考。   
 

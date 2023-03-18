@@ -1,3 +1,6 @@
++++
+title = "數據庫設計"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Database design的問題

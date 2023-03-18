@@ -1,3 +1,6 @@
++++
+title = "StyleLint"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題StyleLint的問題
@@ -76,37 +79,37 @@ StyleLint是一種基於靜態分析的工具，用於檢查CSS、SCSS和LESS等
 
 
 
-1. 如何避免在CSS文件中使用!important的StyleLint規則?
-答案: no-important規則,例如：
+1. 如何避免在CSS文件中使用!important的StyleLint规则?
+答案: no-important规则,例如：
 ```
-"no-important": true // 不允許使用!important
-```
-
-2. 如何禁止 對於某些選擇器使用ID的StyleLint規則?
-答案: selector-no-id規則,例如：
-```
-"selector-no-id": true, // 不允許使用ID
-"selector-max-id": 0 // 最多0個ID選擇器
+"no-important": true // 不允许使用!important
 ```
 
-3. 如何檢查CSS文件中使用的顏色值是否符合特定的約定？例如使用色輪系統。
-答案: color-named規則，使用指南如下：
+2. 如何禁止 对于某些选择器使用ID的StyleLint规则?
+答案: selector-no-id规则,例如：
+```
+"selector-no-id": true, // 不允许使用ID
+"selector-max-id": 0 // 最多0个ID选择器
+```
+
+3. 如何检查CSS文件中使用的颜色值是否符合特定的约定？例如使用色轮系统。
+答案: color-named规则，使用指南如下：
 ```
 "color-named": "never",
 "color-hex-case": "lower",
 "color-hex-length": "long"
 ```
 
-4. 如何禁止使用未知的偽類或偽元素？
-答案: selector-pseudo-class-no-unknown規則，例如：
+4. 如何禁止使用未知的伪类或伪元素？
+答案: selector-pseudo-class-no-unknown规则，例如：
 ```
 "selector-pseudo-class-no-unknown": [true, { ignorePseudoClasses: ["global", "local"] }]
 ```
 
-5. 如何禁止使用!important來優先處理element的StyleLint規則？
-答案：declaration-no-important規則,例如：
+5. 如何禁止使用!important来优先处理element的StyleLint规则？
+答案：declaration-no-important规则,例如：
 ```
-"declaration-no-important": true, // 不允許使用!important
+"declaration-no-important": true, // 不允许使用!important
 ```   
 
 ## 網路資料

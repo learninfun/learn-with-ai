@@ -1,3 +1,6 @@
++++
+title = "Sidecar模式"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Sidecar Pattern的問題

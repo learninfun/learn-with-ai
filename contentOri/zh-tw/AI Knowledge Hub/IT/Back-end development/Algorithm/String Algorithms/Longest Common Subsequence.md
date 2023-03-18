@@ -1,3 +1,6 @@
++++
+title = "最長共同子序列"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Longest Common Subsequence的問題

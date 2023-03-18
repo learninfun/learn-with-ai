@@ -1,3 +1,6 @@
++++
+title = "歐幾里德算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Euclid's Algorithm的問題

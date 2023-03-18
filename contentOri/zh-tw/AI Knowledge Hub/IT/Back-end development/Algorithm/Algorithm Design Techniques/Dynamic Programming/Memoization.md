@@ -1,3 +1,6 @@
++++
+title = "記憶化搜尋"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Memoization的問題

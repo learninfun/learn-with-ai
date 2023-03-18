@@ -1,3 +1,6 @@
++++
+title = "循環鏈表"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Circular Linked List的問題

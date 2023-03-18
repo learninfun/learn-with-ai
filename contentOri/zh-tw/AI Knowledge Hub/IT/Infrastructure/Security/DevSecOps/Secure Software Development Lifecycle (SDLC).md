@@ -1,3 +1,6 @@
++++
+title = "安全的軟體開發生命週期（SDLC）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Secure Software Development Lifecycle (SDLC)的問題

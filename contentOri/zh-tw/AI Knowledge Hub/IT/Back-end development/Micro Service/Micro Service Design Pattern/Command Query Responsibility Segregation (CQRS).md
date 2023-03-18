@@ -1,3 +1,6 @@
++++
+title = "命令查詢責任分離 (CQRS)"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Command Query Responsibility Segregation (CQRS)的問題

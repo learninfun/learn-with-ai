@@ -1,3 +1,6 @@
++++
+title = "搜尋演算法"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Searching Algorithms的問題

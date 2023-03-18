@@ -1,3 +1,6 @@
++++
+title = "動態規劃"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Dynamic Programming的問題

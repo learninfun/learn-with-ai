@@ -1,3 +1,6 @@
++++
+title = "虛擬私人網路（VPN）"
++++
 ## 習題預習
 {{< ask_chatgpt >}}
 給我5題Virtual Private Network (VPN)的問題

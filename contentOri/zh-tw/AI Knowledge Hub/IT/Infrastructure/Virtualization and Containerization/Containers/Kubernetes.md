@@ -1,6 +1,9 @@
-## Preview
++++
+title = "Kubernetes"
++++
+## 習題預習
 {{< ask_chatgpt >}}
-give me five question about Kubernetes
+給我5題Kubernetes的問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +18,9 @@ give me five question about Kubernetes
 
 5. How can Kubernetes be used to manage microservices architectures and help teams move towards a more modular and scalable application development approach?   
 
-## Explain
+## 說明知識
 {{< ask_chatgpt >}}
-Explain Kubernetes and give an example
+說明Kubernetes並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +31,9 @@ In simple terms, Kubernetes is used to manage and automate the deployment and sc
 
 For example, if an e-commerce website is built on a container-based architecture, Kubernetes can be used to manage the deployment and scaling of the application. With Kubernetes, the application can be automatically scaled up or down based on the traffic load and resource requirements, ensuring optimal performance and availability. Kubernetes can also provide advanced features such as service discovery and load balancing, making it easier for the application to handle requests from multiple sources.   
 
-## Keypoint
+## 彙總重點
 {{< ask_chatgpt >}}
-List the key points of Kubernetes
+條列Kubernetes的重點
 {{< /ask_chatgpt >}}
 
 
@@ -46,9 +49,9 @@ List the key points of Kubernetes
 9. Kubernetes has a robust API and CLI for easy management and automation of clusters. 
 10. It is widely adopted by organizations for its ability to streamline and automate application deployment and management.   
 
-## Review
+## 知識測驗
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Kubernetes
+給我5題Kubernetes的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -68,9 +71,9 @@ Answer: Kubernetes manages containerized applications through a series of contro
 5. How can Kubernetes help organizations implement DevOps practices?
 Answer: Kubernetes provides a flexible, scalable platform for implementing DevOps practices, including continuous integration and deployment, infrastructure automation, and collaboration between development and operations teams.   
 
-## Related webpage
+## 網路資料
 {{< ask_chatgpt >}}
-List the relevant introduction webpages about Kubernetes
+給我5篇Kubernetes的網路資料
 {{< /ask_chatgpt >}}
 
 

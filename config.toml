@@ -18,11 +18,17 @@ defaultContentLanguageInSubdir= true
     title = "Learn with AI"
     weight = 1
     languageName = "English"
+  [Languages.zh-cn]
+    contentDir = "content/zh-cn"
+    landingPageURL = "/learn-with-ai/zh-cn"
+    title = "Learn with AI"
+    weight = 2
+    languageName = "簡體中文"
   [Languages.zh-tw]
     contentDir = "content/zh-tw"
     landingPageURL = "/learn-with-ai/zh-tw"
     title = "Learn with AI"
-    weight = 2
+    weight = 3
     languageName = "繁體中文"
 
 
