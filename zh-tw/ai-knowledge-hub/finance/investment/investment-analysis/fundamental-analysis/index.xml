@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>基本面分析 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/</link><description>Recent content in 基本面分析 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>比率</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/ratios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/ratios/</guid><description>習題預習 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>基本面分析 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/</link><description>Recent content in 基本面分析 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/index.xml" rel="self" type="application/rss+xml"/><item><title>財務報表</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/financial-statements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/financial-statements/</guid><description>習題預習 User ask:
+給我5題Financial Statements的中文問題 ChatGPT answer:
+財務報表的主要目的是什麼？ 關於資產負債表，你了解哪些重要資訊？ 現金流量表的作用是什麼？為什麼它對投資人和公司管理層很重要？ 什麼是綜合損益表？它提供了哪些有用的信息？ 什麼是財務比率？列舉幾個常用的財務比率並說明它們的意義。 說明知識 User ask:
+以中文說明Financial Statements並舉例 ChatGPT answer:
+Financial statements是公司或企業向外界展示其財務狀況的文件或報表。此類文件或報表包括：
+資產負債表（Balance Sheet）：它顯示公司的資產、負債和股東權益，並反映公司的凈值。
+綜合損益表（Income Statement）：它顯示公司過去一年的營業收入和支出，以及凈利潤。
+現金流量表（Cash Flow Statement）：它顯示公司過去一年的現金流入和流出情況，以及現金的變化情況。
+股東權益變動表（Statement of Changes in Equity）：它顯示公司過去一年的股東權益變化情況。
+舉例來說，Apple公司的財務報表可以作為一個例子。在2021財年第二季度，Apple公司的資產負債表顯示其總資產為2939.6億美元，負債為1,899.2億美元，股東權益為1040.4億美元。在綜合損益表中，其營業收入為896.3億美元，營業成本為579.1億美元，凈利潤為235.2億美元。在現金流量表中，它顯示了Apple公司在2021財年第二季度的現金流入和流出情況，並呈現了其現金的變化情況。在股東權益變動表中，它顯示了Apple公司的股東權益在2021財年第二季度的變化情況。
+彙總重點 User ask:
+以中文條列Financial Statements的重點 ChatGPT answer:
+財務報表主要包括以下三大類：
+資產負債表（Balance Sheet）：顯示公司某一時間點上的資產、負債及股東權益情況，表示公司的總資產、負債和股東權益的狀況。
+損益表（Income Statement）：顯示公司某一期間內的收入、成本和淨利潤狀況，反映公司營業活動的收入和支出情況。
+現金流量表（Cash Flow Statement）：反映公司某一期間的營業、投資和籌資活動所產生的現金流量情況，反映公司的現金流入和流出狀況，以及現金流量的來源和用途。
+財務報表的重點可以從以下方面來看：
+資產負債表：重點關注公司的總資產、負債和股東權益額度，以及各項資產和負債的組成情況。
+損益表：重點關注公司的營業收入、成本和淨利潤情況，以及各項費用和收入的組成情況。
+現金流量表：重點關注公司的現金流入和流出情況，以及現金流量的來源和用途情況，特別關注公司營業、投資和籌資活動所產生的現金流情況。
+總體上，財務報表關注公司的資產、負債、股東權益、收入、支出，以及現金流量情況，目的是反映公司的整體經濟情況和經營活動水平。
+知識測驗 User ask:
+以中文給我5題Financial Statements的中等難度問題，並在後面列出答案 ChatGPT answer:
+公司ABC在2019年的利潤為$100,000，2018年的利潤為$80,000。該公司的利潤增長率是多少？ 答案：利潤增長率為25%。(($100,000-$80,000)/$80,000)*100%)
+公司DEF在2019年的總資產為$500,000，2018年的總資產為$400,000。該公司的總資產增長率是多少？ 答案：總資產增長率為25%。(($500,000-$400,000)/$400,000)*100%)
+公司GHI的總資產為$1,000,000，總負債為$500,000，股東權益為多少？ 答案：股東權益為$500,000。($1,000,000-$500,000=$500,000)
+公司JKL在2019年的稅後利潤為$200,000，2019年的總負債為$300,000，2019年的總資產為$700,000。該公司的資產負債比率是多少？ 答案：資產負債比率為42.86%。($300,000/$700,000)*100%)
+公司MNO在2019年的營業額為$1,000,000，毛利率為30%，該公司的毛利是多少？ 答案：毛利為$300,000。($1,000,000*30%)</description></item><item><title>比率</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/ratios/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/ratios/</guid><description>習題預習 User ask:
 給我5題Ratios的中文問題 ChatGPT answer:
 一個公司的財務報表顯示每股盈利為5元，股票市價為30元，該公司的市盈率是多少？ 一個工廠在一個月內生產了500單位，使用了1000小時的人工，則每個單位所需的人工時間是多少？ 一家零售店的營業額為100萬元，總成本為80萬元，則它的毛利率是多少？ 一個製造商的固定成本為10萬元，每個單位的變動成本為5元，如果售價為10元，每個單位的利潤是多少？ 一家公司的流動資產為50萬元，流動負債為30萬元，則它的流動比率是多少？ 說明知識 User ask:
 以中文說明Ratios並舉例 ChatGPT answer:
@@ -27,34 +54,7 @@ Ratio（比率）是用兩個或多個數字來描述兩種不同的事物之間
 償債能力比率 償債能力比率主要用來評估一個公司的還債能力，包括總資產週轉率、淨資產週轉率、應收帳款週轉率、存貨週轉率等。通過這些比率的分析，我們可以了解一個公司是否具備還債的能力，以及是否存在還債風險。
 經營能力比率 經營能力比率主要用來評估一個公司的經營能力，包括總資產報酬率、淨利率、毛利率等。通過這些比率的分析，我們可以了解一個公司的經營能力是否足夠強大，以及其生產和經營效率是否高效。
 盈利能力比率 盈利能力比率主要用來評估一個公司的盈利能力，包括收益率、資產報酬率、股東權益報酬率等。通過這些比率的分析，我們可以了解一個公司的盈利能力如何，以及其在市場競爭中的地位和前景。
-以上是關於財務比率的一些網路資料，希望能對你有所幫助。</description></item><item><title>財務報表</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/financial-statements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/financial-statements/</guid><description>習題預習 User ask:
-給我5題Financial Statements的中文問題 ChatGPT answer:
-財務報表的主要目的是什麼？ 關於資產負債表，你瞭解哪些重要資訊？ 現金流量表的作用是什麼？為什麼它對投資人和公司管理層很重要？ 什麼是綜合損益表？它提供了哪些有用的信息？ 什麼是財務比率？列舉幾個常用的財務比率並說明它們的意義。 說明知識 User ask:
-以中文說明Financial Statements並舉例 ChatGPT answer:
-Financial statements是公司或企業向外界展示其財務狀況的文件或報表。此類文件或報表包括：
-資產負債表（Balance Sheet）：它顯示公司的資產、負債和股東權益，並反映公司的淨值。
-綜合損益表（Income Statement）：它顯示公司過去一年的營業收入和支出，以及淨利潤。
-現金流量表（Cash Flow Statement）：它顯示公司過去一年的現金流入和流出情況，以及現金的變化情況。
-股東權益變動表（Statement of Changes in Equity）：它顯示公司過去一年的股東權益變化情況。
-舉例來說，Apple公司的財務報表可以作為一個例子。在2021財年第二季度，Apple公司的資產負債表顯示其總資產為2939.6億美元，負債為1,899.2億美元，股東權益為1040.4億美元。在綜合損益表中，其營業收入為896.3億美元，營業成本為579.1億美元，淨利潤為235.2億美元。在現金流量表中，它顯示了Apple公司在2021財年第二季度的現金流入和流出情況，並呈現了其現金的變化情況。在股東權益變動表中，它顯示了Apple公司的股東權益在2021財年第二季度的變化情況。
-彙總重點 User ask:
-以中文條列Financial Statements的重點 ChatGPT answer:
-財務報表主要包括以下三大類：
-資產負債表（Balance Sheet）：顯示公司某一時間點上的資產、負債及股東權益情況，表示公司的總資產、負債和股東權益的狀況。
-損益表（Income Statement）：顯示公司某一期間內的收入、成本和淨利潤狀況，反映公司營業活動的收入和支出情況。
-現金流量表（Cash Flow Statement）：反映公司某一期間的營業、投資和籌資活動所產生的現金流量情況，反映公司的現金流入和流出狀況，以及現金流量的來源和用途。
-財務報表的重點可以從以下方面來看：
-資產負債表：重點關注公司的總資產、負債和股東權益額度，以及各項資產和負債的組成情況。
-損益表：重點關注公司的營業收入、成本和淨利潤情況，以及各項費用和收入的組成情況。
-現金流量表：重點關注公司的現金流入和流出情況，以及現金流量的來源和用途情況，特別關注公司營業、投資和籌資活動所產生的現金流情況。
-總體上，財務報表關注公司的資產、負債、股東權益、收入、支出，以及現金流量情況，目的是反映公司的整體經濟情況和經營活動水平。
-知識測驗 User ask:
-以中文給我5題Financial Statements的中等難度問題，並在後面列出答案 ChatGPT answer:
-公司ABC在2019年的利潤為$100,000，2018年的利潤為$80,000。該公司的利潤增長率是多少？ 答案：利潤增長率為25%。(($100,000-$80,000)/$80,000)*100%)
-公司DEF在2019年的總資產為$500,000，2018年的總資產為$400,000。該公司的總資產增長率是多少？ 答案：總資產增長率為25%。(($500,000-$400,000)/$400,000)*100%)
-公司GHI的總資產為$1,000,000，總負債為$500,000，股東權益為多少？ 答案：股東權益為$500,000。($1,000,000-$500,000=$500,000)
-公司JKL在2019年的稅後利潤為$200,000，2019年的總負債為$300,000，2019年的總資產為$700,000。該公司的資產負債比率是多少？ 答案：資產負債比率為42.86%。($300,000/$700,000)*100%)
-公司MNO在2019年的營業額為$1,000,000，毛利率為30%，該公司的毛利是多少？ 答案：毛利為$300,000。($1,000,000*30%)</description></item><item><title>產業分析</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/industry-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/industry-analysis/</guid><description>習題預習 User ask:
+以上是關於財務比率的一些網路資料，希望能對你有所幫助。</description></item><item><title>產業分析</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/industry-analysis/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/investment/investment-analysis/fundamental-analysis/industry-analysis/</guid><description>習題預習 User ask:
 給我5題Industry Analysis的中文問題 ChatGPT answer:
 你認為目前這個行業的發展趨勢是什麼？ 在目前的市場競爭中，哪些企業在該行業中處於領先地位？ 你認為目前的技術發展和創新會對這個行業有什麼影響？ 目前這個行業的法規和政策對企業有何影響？還有哪些潛在風險？ 在目前的環境下，哪些因素會影響企業的生產力和利潤？ 說明知識 User ask:
 以中文說明Industry Analysis並舉例 ChatGPT answer:
