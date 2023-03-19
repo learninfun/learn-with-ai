@@ -1,5 +1,6 @@
 +++
 title = "全球投資"
+weight = "10"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

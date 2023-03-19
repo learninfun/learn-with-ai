@@ -1,5 +1,6 @@
 +++
 title = "指數型基金"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

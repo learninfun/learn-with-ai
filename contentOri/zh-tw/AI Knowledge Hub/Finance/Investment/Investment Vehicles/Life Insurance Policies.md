@@ -1,5 +1,6 @@
 +++
 title = "人壽保險單"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

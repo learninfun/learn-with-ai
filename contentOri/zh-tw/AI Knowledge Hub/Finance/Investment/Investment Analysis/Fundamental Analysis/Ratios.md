@@ -1,5 +1,6 @@
 +++
 title = "比率"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

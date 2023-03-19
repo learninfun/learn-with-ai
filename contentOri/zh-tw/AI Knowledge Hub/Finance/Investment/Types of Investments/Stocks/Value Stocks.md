@@ -1,5 +1,6 @@
 +++
 title = "價值股"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
@@ -21,17 +22,17 @@ title = "價值股"
 
 
 
-Value Stocks指的是那些股票的價格較低，市場對其估值較低，但其內在價值高於其現在的市值，從而有潛在的增值空間。Value Stocks往往屬於穩定成長型企業，其業績表現穩定，具有較高的分紅率和股息收益率。
+Value Stocks指的是那些股票的价格较低，市场对其估值较低，但其内在价值高于其现在的市值，从而有潜在的增值空间。Value Stocks往往属于稳定成长型企业，其业绩表现稳定，具有较高的分红率和股息收益率。
 
-以下是一些常見的Value Stocks舉例：
+以下是一些常见的Value Stocks举例：
 
-1. 能源領域：埃克森美孚公司（Exxon Mobil）
-2. 銀行業：美國銀行（Bank of America）、富國銀行（Wells Fargo）
-3. 零售業：萬達集團（Wanda Group）、沃爾瑪（Walmart）
-4. 快消品行業：可口可樂（Coca-Cola）、百事可樂（PepsiCo）
-5. 公用事業行業：新澤西公用事業公司（New Jersey Resources Corporation）
+1. 能源领域：埃克森美孚公司（Exxon Mobil）
+2. 银行业：美国银行（Bank of America）、富国银行（Wells Fargo）
+3. 零售业：万达集团（Wanda Group）、沃尔玛（Walmart）
+4. 快消品行业：可口可乐（Coca-Cola）、百事可乐（PepsiCo）
+5. 公用事业行业：新泽西公用事业公司（New Jersey Resources Corporation）
 
-在投資Value Stocks時，需要對行業和企業進行全面的研究，尋找那些被市場低估且具有內在價值的股票，並在持有一段時間後等待其實現價值的增長。   
+在投资Value Stocks时，需要对行业和企业进行全面的研究，寻找那些被市场低估且具有内在价值的股票，并在持有一段时间后等待其实现价值的增长。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}

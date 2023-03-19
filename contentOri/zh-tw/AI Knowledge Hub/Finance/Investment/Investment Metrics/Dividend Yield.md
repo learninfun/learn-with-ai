@@ -1,5 +1,6 @@
 +++
 title = "股息收益率"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

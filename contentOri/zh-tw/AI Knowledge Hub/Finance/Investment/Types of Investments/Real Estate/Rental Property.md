@@ -1,5 +1,6 @@
 +++
 title = "出租物業"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

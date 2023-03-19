@@ -1,5 +1,6 @@
 +++
 title = "投資工具"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

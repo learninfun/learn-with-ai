@@ -1,5 +1,6 @@
 +++
 title = "遺產稅"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

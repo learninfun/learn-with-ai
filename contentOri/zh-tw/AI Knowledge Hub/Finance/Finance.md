@@ -1,5 +1,6 @@
 +++
 title = "財務"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

@@ -1,5 +1,6 @@
 +++
 title = "多元化"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

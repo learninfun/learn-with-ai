@@ -1,5 +1,6 @@
 +++
 title = "趨勢線"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

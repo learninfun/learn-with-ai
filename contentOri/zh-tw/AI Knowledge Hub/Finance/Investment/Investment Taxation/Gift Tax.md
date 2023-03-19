@@ -1,5 +1,6 @@
 +++
 title = "贈與稅"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
@@ -36,21 +37,21 @@ Gift tax是指在一些國家中對於贈與他人的贈禮產生的稅種。當
 
 
 
-1. Gift Tax是指在某些情況下，收到的財產禮物需要繳納的稅款。
+1. Gift Tax是指在某些情况下，收到的财产礼物需要缴纳的税款。
 
-2. 禮物的價值越高，需要繳納的稅款也越多。
+2. 礼物的价值越高，需要缴纳的税款也越多。
 
-3. Gift Tax適用於任何形式的財產，包括現金、不動產、有價證券和物品等。
+3. Gift Tax适用于任何形式的财产，包括现金、不动产、有价证券和物品等。
 
-4. 每個納稅人在一年內可以免費贈送一定金額的禮物，稱為年度贈與免稅額。
+4. 每个纳税人在一年内可以免费赠送一定金额的礼物，称为年度赠与免税额。
 
-5. Gift Tax法規和標準因國家而異，因此需要在弄清楚自己所處地區的相關規定後才能進行具體操作。
+5. Gift Tax法规和标准因国家而异，因此需要在弄清楚自己所处地区的相关规定后才能进行具体操作。
 
-6. 如果不按照規定繳納Gift Tax，則可能面臨罰款和其他法律後果。
+6. 如果不按照规定缴纳Gift Tax，则可能面临罚款和其他法律后果。
 
-7. 有些情況下，為了避免Gift Tax的支付，人們會選擇通過信託等方法進行資產轉移。
+7. 有些情况下，为了避免Gift Tax的支付，人们会选择通过信托等方法进行资产转移。
 
-8. 需要注意的是，Gift Tax並不影響遺產稅的計算，因為這兩種稅款是分開徵收的。   
+8. 需要注意的是，Gift Tax并不影响遗产税的计算，因为这两种税款是分开征收的。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
@@ -94,7 +95,7 @@ https://www.investopedia.com/terms/g/gifttax.asp
 2. 「The Gift Tax: What It Is and When It Applies」
 https://www.thebalance.com/the-gift-tax-what-it-is-and-when-it-applies-3192904
 
-這篇文章講解了禮品稅的細節，包括哪些項目被視為禮品、禮品稅率、如何報告禮品稅等。它還提供了一些例子，幫助讀者更好地瞭解禮品稅的運作方式。
+這篇文章講解了禮品稅的細節，包括哪些項目被視為禮品、禮品稅率、如何報告禮品稅等。它還提供了一些例子，幫助讀者更好地了解禮品稅的運作方式。
 
 3. 「Gift Tax Basics: What You Need to Know」
 https://www.nolo.com/legal-encyclopedia/gift-tax-basics-what-you-29938.html
@@ -109,5 +110,5 @@ https://www.smartasset.com/taxes/what-is-the-gift-tax
 5. 「Understanding the Gift Tax: Do I Need to Pay One?」
 https://www.moneyunder30.com/gift-tax-101-do-i-need-to-pay-one
 
-這篇文章解釋了禮品稅的基礎知識，包括禮品稅率、如何計算禮品稅、如何報告禮品稅等。它還講解了一些例外情況，讓讀者瞭解何時可以避免支付禮品稅。   
+這篇文章解釋了禮品稅的基礎知識，包括禮品稅率、如何計算禮品稅、如何報告禮品稅等。它還講解了一些例外情況，讓讀者了解何時可以避免支付禮品稅。   
 

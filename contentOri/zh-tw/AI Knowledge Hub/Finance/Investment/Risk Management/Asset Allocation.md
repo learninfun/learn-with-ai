@@ -1,5 +1,6 @@
 +++
 title = "資產配置"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
@@ -84,7 +85,7 @@ Asset Allocation是指投資者在投資組合中將資金分配到不同類別�
  該教育中心以圖表和數據形式呈現了不同資產類別的表現，提供了專家的見解以及如何建立自己的資產配置策略的指南。
 
 3. Schwab網站上的Asset Allocation建議：https://www.schwab.com/resource-center/insights/content/how-to-allocate-your-assets-interactive-guide 
- Schwab的互動指南可幫助閱讀者確定其資產配置策略。它提供了一個問卷，以幫助人們瞭解自己的投資目標和風險偏好。
+ Schwab的互動指南可幫助閱讀者確定其資產配置策略。它提供了一個問卷，以幫助人們了解自己的投資目標和風險偏好。
 
 4. Fidelity的Asset Allocation指南：https://www.fidelity.com/learning-center/investment-products/mutual-funds/asset-allocation
  這篇指南提供了有關資產配置的基本知識，包括如何確定投資目標和選擇資產類別。它還提供了幾種不同的資產配置策略，以及如何保持您的投資組合平衡。

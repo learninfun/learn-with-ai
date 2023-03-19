@@ -1,96 +1,98 @@
-- Types of Investments
-  - Stocks
-    - Common Stocks
-    - Preferred Stocks
-    - Blue Chip Stocks
-    - Growth Stocks
-    - Value Stocks
-  - Bonds
-    - Corporate Bonds
-    - Government Bonds
-    - Municipal Bonds
-    - High-Yield Bonds
-    - Treasury Bonds
-  - Mutual Funds
-    - Equity Funds
-    - Fixed-Income Funds
-    - Index Funds
-    - Balanced Funds
-    - Sector Funds
-  - Exchange-Traded Funds (ETFs)
-    - Stock ETFs
-    - Bond ETFs
-    - Commodity ETFs
-    - Sector ETFs
-    - Inverse ETFs
-  - Real Estate
-    - Rental Property
-    - REITs (Real Estate Investment Trusts)
-    - Real Estate Crowdfunding
-    - Real Estate Limited Partnerships
-    - Real Estate ETFs
-- Investment Strategies
-  - Buy and Hold
-  - Dollar-Cost Averaging
-  - Value Investing
-  - Growth Investing
-  - Index Investing
-- Risk Management
-  - Asset Allocation
-  - Diversification
-  - Rebalancing
-  - Hedging
-  - Stop Loss Orders
-- Investment Analysis
-  - Fundamental Analysis
-    - Financial Statements
-    - Ratios
-    - Industry Analysis
-  - Technical Analysis
-    - Charts
-    - Technical Indicators
-    - Trend Lines
-  - Quantitative Analysis
-    - Data Mining
-    - Algorithmic Trading
-    - Statistical Models
-- Investment Vehicles
-  - Individual Retirement Accounts (IRAs)
-    - Traditional IRAs
-    - Roth IRAs
-    - SEP IRAs
-    - SIMPLE IRAs
-  - 401(k) Plans
-  - Annuities
-  - Life Insurance Policies
-  - Education Savings Accounts (ESAs)
-- Investment Metrics
-  - Return on Investment (ROI)
-  - Risk-Adjusted Return
-  - Yield
-  - Price-to-Earnings Ratio
-  - Dividend Yield
-- Investment Psychology
-  - Behavioral Finance
-  - Investor Biases
-  - Emotional Investing
-  - Herd Mentality
-  - Fear and Greed
-- Investment Regulations
-  - Securities and Exchange Commission (SEC)
-  - Financial Industry Regulatory Authority (FINRA)
-  - State Securities Regulators
-  - Investment Advisers Act of 1940
-  - Securities Act of 1933
-- Investment Taxation
-  - Capital Gains Tax
-  - Dividend Tax
-  - Income Tax
-  - Estate Tax
-  - Gift Tax
-- Global Investment
-  - International Stocks
-  - Emerging Markets
-  - Foreign Exchange (Forex) Trading
-  - International Mutual Funds
-  - Global Economic Trends
+- Finance
+  - Investment
+    - Types of Investments
+      - Stocks
+        - Common Stocks
+        - Preferred Stocks
+        - Blue Chip Stocks
+        - Growth Stocks
+        - Value Stocks
+      - Bonds
+        - Corporate Bonds
+        - Government Bonds
+        - Municipal Bonds
+        - High-Yield Bonds
+        - Treasury Bonds
+      - Mutual Funds
+        - Equity Funds
+        - Fixed-Income Funds
+        - Index Funds
+        - Balanced Funds
+        - Sector Funds
+      - Exchange-Traded Funds (ETFs)
+        - Stock ETFs
+        - Bond ETFs
+        - Commodity ETFs
+        - Sector ETFs
+        - Inverse ETFs
+      - Real Estate
+        - Rental Property
+        - REITs (Real Estate Investment Trusts)
+        - Real Estate Crowdfunding
+        - Real Estate Limited Partnerships
+        - Real Estate ETFs
+    - Investment Strategies
+      - Buy and Hold
+      - Dollar-Cost Averaging
+      - Value Investing
+      - Growth Investing
+      - Index Investing
+    - Risk Management
+      - Asset Allocation
+      - Diversification
+      - Rebalancing
+      - Hedging
+      - Stop Loss Orders
+    - Investment Analysis
+      - Fundamental Analysis
+        - Financial Statements
+        - Ratios
+        - Industry Analysis
+      - Technical Analysis
+        - Charts
+        - Technical Indicators
+        - Trend Lines
+      - Quantitative Analysis
+        - Data Mining
+        - Algorithmic Trading
+        - Statistical Models
+    - Investment Vehicles
+      - Individual Retirement Accounts (IRAs)
+        - Traditional IRAs
+        - Roth IRAs
+        - SEP IRAs
+        - SIMPLE IRAs
+      - 401(k) Plans
+      - Annuities
+      - Life Insurance Policies
+      - Education Savings Accounts (ESAs)
+    - Investment Metrics
+      - Return on Investment (ROI)
+      - Risk-Adjusted Return
+      - Yield
+      - Price-to-Earnings Ratio
+      - Dividend Yield
+    - Investment Psychology
+      - Behavioral Finance
+      - Investor Biases
+      - Emotional Investing
+      - Herd Mentality
+      - Fear and Greed
+    - Investment Regulations
+      - Securities and Exchange Commission (SEC)
+      - Financial Industry Regulatory Authority (FINRA)
+      - State Securities Regulators
+      - Investment Advisers Act of 1940
+      - Securities Act of 1933
+    - Investment Taxation
+      - Capital Gains Tax
+      - Dividend Tax
+      - Income Tax
+      - Estate Tax
+      - Gift Tax
+    - Global Investment
+      - International Stocks
+      - Emerging Markets
+      - Foreign Exchange (Forex) Trading
+      - International Mutual Funds
+      - Global Economic Trends

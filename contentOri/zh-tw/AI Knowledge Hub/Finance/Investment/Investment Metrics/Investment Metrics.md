@@ -1,5 +1,6 @@
 +++
 title = "投資指標"
+weight = "6"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

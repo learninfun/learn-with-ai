@@ -1,5 +1,6 @@
 +++
 title = "買進持有"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

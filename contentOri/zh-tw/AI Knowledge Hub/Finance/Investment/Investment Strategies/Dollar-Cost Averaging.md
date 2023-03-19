@@ -1,5 +1,6 @@
 +++
 title = "定期定額投資"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

@@ -1,5 +1,6 @@
 +++
 title = "投資心理學"
+weight = "7"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

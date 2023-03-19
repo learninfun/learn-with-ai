@@ -1,5 +1,6 @@
 +++
 title = "資本利得稅"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

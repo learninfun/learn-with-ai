@@ -7,8 +7,6 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"path/filepath"
-	"strconv"
 	"strings"
 	"text/template"
 
@@ -24,12 +22,11 @@ import (
 var (
 	command              string
 	workzone             string
-	sourseFolder         string
 	resultFolder         string
 	cacheFolder          string
 	pathMK               string
 	lang                 string
-	sourseFolderLen      int
+	resultFolderLen      int
 	errorNum             int
 	questionInfoSlice    []QuestionInfo
 	answerOutputTemplate *template.Template
@@ -63,9 +60,17 @@ func main() {
 			//initRole()
 		}
 
+		err := os.RemoveAll(resultFolder) //clear ori result
+		checkErr(err)
+
+		rootTreeNode := mdListToTreeNode()
+		for childIdx, child := range rootTreeNode.Children {
+			traverseTreeNode(child, resultFolder, childIdx)
+		}
+
 		//filepath.Walk(sourseFolder, walkAllFile)
 	} else if command == "yamlListToFile" {
-		mdListToTreeFiles()
+		//mdListToTreeFiles()
 	}
 
 }
@@ -95,9 +100,8 @@ func initGlobalVar() {
 		workzone = currentFolder + pathMK + "workzone"
 	}
 
-	sourseFolder = workzone + pathMK + "result" + pathMK + lang
-	sourseFolderLen = len(sourseFolder)
 	resultFolder = workzone + pathMK + "result" + pathMK + lang
+	resultFolderLen = len(resultFolder)
 	cacheFolder = workzone + pathMK + "cache" + pathMK + lang
 
 	if command == "fetch" {
@@ -116,7 +120,7 @@ type TreeNode struct {
 	Children []*TreeNode
 }
 
-func mdListToTreeFiles() {
+func mdListToTreeNode() *TreeNode {
 	inputFilePath := workzone + "\\input.md"
 	fmt.Println(inputFilePath)
 	inputStr := io.FileToString(inputFilePath)
@@ -128,7 +132,7 @@ func mdListToTreeFiles() {
 	mdParser := goldmark.DefaultParser()
 	node := mdParser.Parse(reader)
 
-	rootTreeNode := &TreeNode{Name: "Parent"}
+	rootTreeNode := &TreeNode{Name: "Dummy"}
 	//child := &TreeNode{Name: "Child", Parent: rootNode}
 	//rootNode.Children = append(rootNode.Children, child)
 
@@ -157,60 +161,28 @@ func mdListToTreeFiles() {
 	}, 0)
 
 	fmt.Println(currentTreeNode)
+
+	return rootTreeNode
 }
 
-func mdListToTreeFilesOri() {
-	inputFilePath := workzone + "\\input.md"
-	fmt.Println(inputFilePath)
-	inputStr := io.FileToString(inputFilePath)
-	fmt.Println(inputStr)
+func traverseTreeNode(node *TreeNode, folderPath string, idx int) {
+	var storeFolder string
+	if node.Children == nil { //leaf
+		storeFolder = folderPath
+	} else { //folder
+		storeFolder = folderPath + pathMK + node.Name
+		fmt.Println("mkDir:" + storeFolder)
+		err := os.MkdirAll(storeFolder, 0755)
+		checkErr(err)
 
-	source := []byte(inputStr)
-	reader := text.NewReader(source)
-
-	mdParser := goldmark.DefaultParser()
-	node := mdParser.Parse(reader)
-
-	// Traverse the Markdown AST and find all list nodes
-	// Traverse the Markdown AST and find all list nodes
-	resultPath := resultFolder
-	Walk(node, func(node ast.Node, entering bool, idx int) (ast.WalkStatus, error) {
-		if listItem, ok := node.(*ast.ListItem); ok {
-			listText := string(listItem.FirstChild().Text(source))
-
-			if entering {
-				resultPath += "\\" + listText
-				//fmt.Printf("- %s [%d]\n", resultPath, node.ChildCount())
-
-				if node.ChildCount() == 1 { //leaf
-					filePath := resultPath + ".md"
-					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
-					if !io.FileExists(filePath) {
-						io.StringToFile(filePath, "")
-					}
-				} else { //node
-					filePath := resultPath + "\\" + listText + ".md"
-
-					fmt.Println("mkdir: " + resultPath)
-					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
-
-					if !io.FileExists(resultPath) {
-						err := os.Mkdir(resultPath, 0755)
-						checkErr(err)
-					}
-
-					if !io.FileExists(filePath) {
-						io.StringToFile(filePath, "")
-					}
-				}
-
-			} else {
-				resultPath = resultPath[:len(resultPath)-1-len(listText)]
-			}
+		for childIdx, child := range node.Children {
+			traverseTreeNode(child, storeFolder, childIdx)
 		}
+	}
 
-		return ast.WalkContinue, nil
-	}, 0)
+	var pathRelative = storeFolder[resultFolderLen:]
+	var pathCache = cacheFolder + pathRelative
+	extractKnowledge(node.Name, storeFolder, pathCache, idx)
 }
 
 func initQuestion() {
@@ -336,60 +308,43 @@ func initTranslation() {
 	}
 
 	translationPath := workzone + pathMK + "translation" + pathMK + lang + ".json"
-	translationStr := io.FileToString(translationPath)
-	err := json.Unmarshal([]byte(translationStr), &translateMap)
-	checkErr(err)
-
+	if io.FileExists(translationPath) {
+		translationStr := io.FileToString(translationPath)
+		err := json.Unmarshal([]byte(translationStr), &translateMap)
+		checkErr(err)
+	}
 }
 
-func walkAllFile(filePath string, fileInfo os.FileInfo, err error) error {
-	checkErr(err)
-
-	var pathRelative = filePath[sourseFolderLen:]
-	var pathResult = resultFolder + pathRelative
-	if fileInfo.IsDir() {
-		fmt.Printf("Folder Name: %s\n", pathRelative)
-		if !io.FileExists(pathResult) {
-			err := os.Mkdir(pathResult, 0755)
-			checkErr(err)
-		}
-	} else {
-		if fileInfo.Size() == 0 {
-			var pathCache = cacheFolder + pathRelative
-			extractKnowledge(fileInfo.Name(), pathResult, pathCache)
-		}
-	}
-
-	return nil
-}
-
-func extractKnowledge(fileName, pathResult, pathCache string) error {
-	if strings.ToLower(filepath.Ext(fileName)) != ".md" { //only handle markdown
-		return nil
-	}
-
+func extractKnowledge(keyWord, thisResultFolder, thisCacheFolder string, idx int) error {
 	var err error
-	fmt.Println("extractKnowledge: " + fileName)
-	keyWord := io.FileNameNoExt(fileName)
+	fmt.Println("extractKnowledge: " + keyWord)
 
+	pathResult := thisResultFolder + pathMK + keyWord + ".md"
 	f, err := os.OpenFile(pathResult, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
 	checkErr(err)
 
-	if lang != "english" {
-		keyWordTranslated := translateMap[keyWord]
-		if keyWordTranslated != nil {
-			f.WriteString(fmt.Sprintf("+++\ntitle = \"%s\"\n+++\n", keyWordTranslated))
-		}
+	var keyWordTranslated string
+	if translateMap != nil {
+		keyWordTranslated = translateMap[keyWord].(string)
+	}
+
+	if keyWordTranslated != "" {
+		f.WriteString(fmt.Sprintf("+++\n"+
+			"title = \"%s\"\n"+
+			"weight = \"%d\"\n"+
+			"+++\n", keyWordTranslated, idx+1))
+	} else {
+		f.WriteString(fmt.Sprintf("+++\n"+
+			"weight = \"%d\"\n"+
+			"+++\n", idx+1))
 	}
 
 	for _, questionInfo := range questionInfoSlice {
 		var answerInfo AnswerInfo
 		answerInfo.QuestionDesc = questionInfo.desc
 		answerInfo.Question = fmt.Sprintf(questionInfo.template, keyWord)
-		folderCache := pathCache[:len(pathCache)-len(fileName)]
-		//fmt.Println("pathResult=" + pathResult)
-		//fmt.Println("folderCache=" + folderCache)
-		thisPathCache := pathCache[:len(pathCache)-len(fileName)] + keyWord + "_" + questionInfo.cacheKey + ".md"
+
+		thisPathCache := thisCacheFolder + pathMK + keyWord + "_" + questionInfo.cacheKey + ".md"
 		//fmt.Println("thisPathCache=" + thisPathCache)
 
 		if io.FileExists(thisPathCache) {
@@ -399,10 +354,6 @@ func extractKnowledge(fileName, pathResult, pathCache string) error {
 
 			if answerInfo.Answer != "" {
 				errorNum = 0 //get answer reset errorNum
-
-				if !io.FileExists(folderCache) {
-					os.MkdirAll(folderCache, 0755)
-				}
 				io.StringToFile(thisPathCache, answerInfo.Answer)
 			} else {
 				fmt.Println("No answer=" + keyWord)

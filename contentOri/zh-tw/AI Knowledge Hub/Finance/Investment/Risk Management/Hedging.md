@@ -1,5 +1,6 @@
 +++
 title = "避險"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

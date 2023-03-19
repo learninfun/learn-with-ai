@@ -1,5 +1,6 @@
 +++
 title = "產業分析"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

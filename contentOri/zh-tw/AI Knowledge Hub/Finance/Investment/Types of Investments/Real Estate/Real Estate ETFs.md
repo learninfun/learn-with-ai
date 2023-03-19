@@ -1,5 +1,6 @@
 +++
 title = "房地產交易所交易基金（ETF）"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
@@ -65,7 +66,7 @@ title = "房地產交易所交易基金（ETF）"
 
 3. 目前市場上最受歡迎的Real Estate ETF之一是什麼？
 
-4. 有哪些Real Estate ETFs以REITs為投資對像？
+4. 有哪些Real Estate ETFs以REITs為投資對象？
 
 5. 若要在Real Estate ETFs中建構均衡投資組合，該分別投資哪些ETF？
 

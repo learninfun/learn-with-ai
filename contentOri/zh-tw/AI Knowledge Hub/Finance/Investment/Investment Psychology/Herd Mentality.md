@@ -1,5 +1,6 @@
 +++
 title = "羊群效應"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

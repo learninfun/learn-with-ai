@@ -1,5 +1,6 @@
 +++
 title = "投資法規"
+weight = "8"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
