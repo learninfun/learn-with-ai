@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"log"
 	"os"
 	"path/filepath"
 	"strconv"
@@ -33,6 +34,7 @@ var (
 	questionInfoSlice    []QuestionInfo
 	answerOutputTemplate *template.Template
 	translateMap         map[string]interface{}
+	openAIKey            string
 )
 
 type QuestionInfo struct {
@@ -47,6 +49,10 @@ type AnswerInfo struct {
 	Answer       string
 }
 
+type Data struct {
+	Root []interface{} `yaml:"tree"`
+}
+
 func main() {
 	initGlobalVar()
 	if command == "fetch" || command == "regen" {
@@ -54,11 +60,11 @@ func main() {
 		initQuestion()
 		initTranslation()
 		if command == "fetch" {
-			initRole()
+			//initRole()
 		}
 
-		filepath.Walk(sourseFolder, walkAllFile)
-	} else if command == "mdToFile" {
+		//filepath.Walk(sourseFolder, walkAllFile)
+	} else if command == "yamlListToFile" {
 		mdListToTreeFiles()
 	}
 
@@ -72,6 +78,11 @@ func initGlobalVar() {
 	currentFolder, err := os.Getwd()
 	checkErr(err)
 	fmt.Println(currentFolder)
+
+	//exePath, err := os.Executable()
+	//if err != nil {
+	//	panic(err)
+	//}
 
 	//lang = "zh-tw"
 	if len(os.Args) >= 4 {
@@ -89,7 +100,117 @@ func initGlobalVar() {
 	resultFolder = workzone + pathMK + "result" + pathMK + lang
 	cacheFolder = workzone + pathMK + "cache" + pathMK + lang
 
+	if command == "fetch" {
+		openAIKey = io.FileToString(currentFolder + pathMK + ".." + pathMK + "config" + pathMK + "openAI_api_key.txt")
+		if openAIKey == "" {
+			panic(errors.New("openAI_api_key.txt not exist"))
+		}
+	}
+
 	errorNum = 0 //init no error
+}
+
+type TreeNode struct {
+	Name     string
+	Parent   *TreeNode
+	Children []*TreeNode
+}
+
+func mdListToTreeFiles() {
+	inputFilePath := workzone + "\\input.md"
+	fmt.Println(inputFilePath)
+	inputStr := io.FileToString(inputFilePath)
+	fmt.Println(inputStr)
+
+	source := []byte(inputStr)
+	reader := text.NewReader(source)
+
+	mdParser := goldmark.DefaultParser()
+	node := mdParser.Parse(reader)
+
+	rootTreeNode := &TreeNode{Name: "Parent"}
+	//child := &TreeNode{Name: "Child", Parent: rootNode}
+	//rootNode.Children = append(rootNode.Children, child)
+
+	currentTreeNode := rootTreeNode
+	//level := 0
+	// Traverse the Markdown AST and find all list nodes
+	// Traverse the Markdown AST and find all list nodes
+	//resultPath := resultFolder
+	Walk(node, func(node ast.Node, entering bool, idx int) (ast.WalkStatus, error) {
+		if listItem, ok := node.(*ast.ListItem); ok {
+			listText := string(listItem.FirstChild().Text(source))
+			if entering {
+				fmt.Println("enter:" + listText + ", current:" + currentTreeNode.Name)
+				childTreeNode := &TreeNode{Name: listText, Parent: currentTreeNode}
+				currentTreeNode.Children = append(currentTreeNode.Children, childTreeNode)
+				currentTreeNode = childTreeNode
+
+			} else {
+				//resultPath = resultPath[:len(resultPath)-1-len(listText)]
+				fmt.Println("leave:" + listText + ", current:" + currentTreeNode.Name)
+				currentTreeNode = currentTreeNode.Parent
+			}
+		}
+
+		return ast.WalkContinue, nil
+	}, 0)
+
+	fmt.Println(currentTreeNode)
+}
+
+func mdListToTreeFilesOri() {
+	inputFilePath := workzone + "\\input.md"
+	fmt.Println(inputFilePath)
+	inputStr := io.FileToString(inputFilePath)
+	fmt.Println(inputStr)
+
+	source := []byte(inputStr)
+	reader := text.NewReader(source)
+
+	mdParser := goldmark.DefaultParser()
+	node := mdParser.Parse(reader)
+
+	// Traverse the Markdown AST and find all list nodes
+	// Traverse the Markdown AST and find all list nodes
+	resultPath := resultFolder
+	Walk(node, func(node ast.Node, entering bool, idx int) (ast.WalkStatus, error) {
+		if listItem, ok := node.(*ast.ListItem); ok {
+			listText := string(listItem.FirstChild().Text(source))
+
+			if entering {
+				resultPath += "\\" + listText
+				//fmt.Printf("- %s [%d]\n", resultPath, node.ChildCount())
+
+				if node.ChildCount() == 1 { //leaf
+					filePath := resultPath + ".md"
+					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
+					if !io.FileExists(filePath) {
+						io.StringToFile(filePath, "")
+					}
+				} else { //node
+					filePath := resultPath + "\\" + listText + ".md"
+
+					fmt.Println("mkdir: " + resultPath)
+					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
+
+					if !io.FileExists(resultPath) {
+						err := os.Mkdir(resultPath, 0755)
+						checkErr(err)
+					}
+
+					if !io.FileExists(filePath) {
+						io.StringToFile(filePath, "")
+					}
+				}
+
+			} else {
+				resultPath = resultPath[:len(resultPath)-1-len(listText)]
+			}
+		}
+
+		return ast.WalkContinue, nil
+	}, 0)
 }
 
 func initQuestion() {
@@ -311,7 +432,7 @@ func askChatGpt(question string) string {
 	fmt.Println("askChatGpt: " + question)
 
 	for i := 0; i < 3; i++ {
-		client := openai.NewClient("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")
+		client := openai.NewClient(openAIKey)
 		resp, err := client.CreateChatCompletion(
 			context.Background(),
 			openai.ChatCompletionRequest{
@@ -336,64 +457,9 @@ func askChatGpt(question string) string {
 	return ""
 }
 
-func mdListToTreeFiles() {
-	inputFilePath := workzone + "\\input.md"
-	fmt.Println(inputFilePath)
-	inputStr := io.FileToString(inputFilePath)
-	fmt.Println(inputStr)
-
-	source := []byte(inputStr)
-	reader := text.NewReader(source)
-
-	mdParser := goldmark.DefaultParser()
-	node := mdParser.Parse(reader)
-
-	// Traverse the Markdown AST and find all list nodes
-	// Traverse the Markdown AST and find all list nodes
-	resultPath := resultFolder
-	Walk(node, func(node ast.Node, entering bool, idx int) (ast.WalkStatus, error) {
-		if listItem, ok := node.(*ast.ListItem); ok {
-			listText := string(listItem.FirstChild().Text(source))
-
-			if entering {
-				resultPath += "\\" + listText
-				//fmt.Printf("- %s [%d]\n", resultPath, node.ChildCount())
-
-				if node.ChildCount() == 1 { //leaf
-					filePath := resultPath + ".md"
-					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
-					if !io.FileExists(filePath) {
-						io.StringToFile(filePath, "")
-					}
-				} else { //node
-					filePath := resultPath + "\\" + listText + ".md"
-
-					fmt.Println("mkdir: " + resultPath)
-					fmt.Println("mkobj " + strconv.Itoa(idx) + ": " + filePath)
-
-					if !io.FileExists(resultPath) {
-						err := os.Mkdir(resultPath, 0755)
-						checkErr(err)
-					}
-
-					if !io.FileExists(filePath) {
-						io.StringToFile(filePath, "")
-					}
-				}
-
-			} else {
-				resultPath = resultPath[:len(resultPath)-1-len(listText)]
-			}
-		}
-
-		return ast.WalkContinue, nil
-	}, 0)
-}
-
-func checkErr(e error) {
-	if e != nil {
-		fmt.Printf("error: %w", e)
-		panic(e)
+func checkErr(err error) {
+	if err != nil {
+		log.Fatal(err)
 	}
 }
 
