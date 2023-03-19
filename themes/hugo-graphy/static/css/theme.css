@@ -319,10 +319,10 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul li.active > a {
     background: #fff;
     color: #777 !important;
-    margin-left: -1rem;
+    /*margin-left: -1rem;
     margin-right: -1rem;
     padding-left: 1rem;
-    padding-right: 1rem;
+    padding-right: 1rem;*/
 }
 #sidebar ul li {
     padding: 0;

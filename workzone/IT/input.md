@@ -87,31 +87,31 @@
                 - Redis
     - Design Pattern
         - Creational Patterns
-            - Abstract Factory
-            - Builder
-            - Factory Method
-            - Prototype
-            - Singleton
+            - Abstract Factory Pattern
+            - Builder Pattern
+            - Factory Pattern
+            - Prototype Pattern
+            - Singleton Pattern
         - Structural Patterns
-            - Adapter
-            - Bridge
-            - Composite
-            - Decorator
-            - Facade
-            - Flyweight
-            - Proxy
+            - Adapter Pattern
+            - Bridge Pattern
+            - Composite Pattern
+            - Decorator Pattern
+            - Facade Pattern
+            - Flyweight Pattern
+            - Proxy Pattern
         - Behavioral Patterns
-            - Chain of Responsibility
-            - Command
-            - Interpreter
-            - Iterator
-            - Mediator
-            - Memento
-            - Observer
-            - State
-            - Strategy
-            - Template Method
-            - Visitor
+            - Chain of Responsibility Pattern
+            - Command Pattern
+            - Interpreter Pattern
+            - Iterator Pattern
+            - Mediator Pattern
+            - Memento Pattern
+            - Observer Pattern
+            - State Pattern
+            - Strategy Pattern
+            - Template Method Pattern
+            - Visitor Pattern
     - Operating Systems
         - Linux
             - Linux Basics
@@ -155,7 +155,6 @@
                     - Red-Black Tree
                     - B-Tree
                         - B+ Tree
-                        - B* Tree
                 - N-ary Tree
                 - Trie
                 - Huffman Tree

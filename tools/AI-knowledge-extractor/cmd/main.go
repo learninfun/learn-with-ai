@@ -145,14 +145,12 @@ func mdListToTreeNode() *TreeNode {
 		if listItem, ok := node.(*ast.ListItem); ok {
 			listText := string(listItem.FirstChild().Text(source))
 			if entering {
-				fmt.Println("enter:" + listText + ", current:" + currentTreeNode.Name)
 				childTreeNode := &TreeNode{Name: listText, Parent: currentTreeNode}
 				currentTreeNode.Children = append(currentTreeNode.Children, childTreeNode)
 				currentTreeNode = childTreeNode
 
 			} else {
 				//resultPath = resultPath[:len(resultPath)-1-len(listText)]
-				fmt.Println("leave:" + listText + ", current:" + currentTreeNode.Name)
 				currentTreeNode = currentTreeNode.Parent
 			}
 		}
@@ -325,7 +323,9 @@ func extractKnowledge(keyWord, thisResultFolder, thisCacheFolder string, idx int
 
 	var keyWordTranslated string
 	if translateMap != nil {
-		keyWordTranslated = translateMap[keyWord].(string)
+		if translated, ok := translateMap[keyWord].(string); ok {
+			keyWordTranslated = translated
+		}
 	}
 
 	if keyWordTranslated != "" {
