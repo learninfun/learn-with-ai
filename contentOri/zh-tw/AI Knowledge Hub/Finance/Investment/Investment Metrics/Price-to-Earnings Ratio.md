@@ -1,6 +1,6 @@
 +++
-title = "市盈率"
-weight = "4"
+title = "本益比"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}

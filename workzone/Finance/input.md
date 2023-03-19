@@ -46,7 +46,6 @@
     - Investment Analysis
       - Fundamental Analysis
         - Financial Statements
-        - Ratios
         - Industry Analysis
       - Technical Analysis
         - Charts
@@ -67,11 +66,14 @@
       - Life Insurance Policies
       - Education Savings Accounts (ESAs)
     - Investment Metrics
-      - Return on Investment (ROI)
-      - Risk-Adjusted Return
-      - Yield
       - Price-to-Earnings Ratio
-      - Dividend Yield
+      - Yield
+      - Price-Earnings to Growth Ratio (PEG Ratio)
+      - Net Asset Value (NAV)
+      - Return on Investment (ROI)
+      - Volatility
+      - Risk-Adjusted Return
+      - Financial Ratios
     - Investment Psychology
       - Behavioral Finance
       - Investor Biases

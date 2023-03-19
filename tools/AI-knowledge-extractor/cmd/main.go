@@ -57,7 +57,7 @@ func main() {
 		initQuestion()
 		initTranslation()
 		if command == "fetch" {
-			//initRole()
+			initRole()
 		}
 
 		err := os.RemoveAll(resultFolder) //clear ori result
