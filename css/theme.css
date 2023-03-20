@@ -3,6 +3,7 @@
 /* Tags */
 @import "tags.css";
 
+/*
 #sidebar li.dd-item > a {
     position: relative;
     padding-left: 20px;
@@ -29,6 +30,27 @@
     content: '\f054';    
     color: #777777;
 }
+*/
+
+#sidebar li.dd-item > a {
+    padding-left: 5px;
+}
+
+#sidebar .expanded-btn, #sidebar .notexpanded-btn {
+    display: none;
+    cursor: pointer;
+}
+
+#sidebar li.dd-item.expanded > .expanded-btn {
+    color: #FFFFFF;
+    display: inline;
+}
+
+#sidebar li.dd-item.notexpanded > .notexpanded-btn {
+    color: #777777;
+    display: inline;
+}
+
 
 .ask-chatgpt-block {
     background-color: #d2e9fd;
@@ -237,7 +259,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     line-height: 2;
 }
 #sidebar h5 a {
-    display: block;
+    display: inline-block;
     margin-left: 0;
     margin-right: 0;
     padding-left: 1rem;
@@ -295,7 +317,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 #sidebar ul.topics ul ul {
     padding-bottom: 0;
 }
-#sidebar ul.topics li.parent > ul, #sidebar ul.topics li.active > ul {
+#sidebar ul.topics li.expanded > ul {
     display: block;
 }
 #sidebar ul.topics > li > a {
@@ -325,20 +347,21 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
     padding-right: 1rem;*/
 }
 #sidebar ul li {
-    padding: 0;
+    padding-left: 0px;
+    padding-top: 6px;
 }
 #sidebar ul li.visited + span {
     margin-right: 16px;
 }
 #sidebar ul li a {
-    display: block;
+    display: inline;/*Brad*/
     padding: 2px 0;
 }
 #sidebar ul li a span {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    display: block;
+    display: inline-block;
 }
 #sidebar ul li > a {
     padding: 4px 0;
