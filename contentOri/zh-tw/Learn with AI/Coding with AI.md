@@ -62,7 +62,7 @@ mindmap
   - 系統架構規劃
     - 範例：`設計一個高可用性的Golang網站，有哪些需考慮的要素`
 
-# 進階學習
+## 進階學習
 也可以向ChatGPT學習、回顧可以使用的進階軟體開發知識
 Example
 - [設計模式](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/design-pattern/)
