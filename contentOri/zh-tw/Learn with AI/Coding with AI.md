@@ -15,7 +15,7 @@ mindmap
       測試和除錯
     架構規劃
       技術選型
-      程式碼存放架構規劃
+      程式架構規劃
       系統架構規劃
 ```
 
@@ -48,7 +48,13 @@ mindmap
     - 範例：`推薦Golang剖析markdown的套件`
     - 範例：`比較Goldmark與Blackfriday`
     - 範例：`如果我需要讀取markdown，並且使用自定義標記，應該使用什麼Golang套件`
-  - 程式碼存放架構規劃
-    - 範例：`Golang程式碼存放架構範例，包含主程式、共用元件、私有元件、設定檔、多國語系資料`
+  - 程式架構規劃
+    - 範例：`Golang程式架構範例，需要有主程式、共用元件、私有元件、設定檔、並處理多國語系資料`
   - 系統架構規劃
     - 範例：`設計一個高可用性的Golang網站，有哪些需考慮的要素`
+
+# 進階學習
+也可以向ChatGPT學習、回顧可以使用的進階軟體開發知識
+Example
+- [設計模式](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/design-pattern/)
+- [演算法](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/)
