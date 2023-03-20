@@ -91,4 +91,14 @@ jQuery(document).ready(function() {
     var content = $(element).html().replace(/&amp;/g, '&');
     $(element).parent().replaceWith('<div class="mermaid" align="center">' + content + '</div>');
   });
+
+  $("#sidebar").on('click', '.expanded-btn', function(e) {
+    $(this).parent().addClass('notexpanded');
+    $(this).parent().removeClass('expanded');
+  });
+
+  $("#sidebar").on('click', '.notexpanded-btn', function(e) {
+    $(this).parent().addClass('expanded');
+    $(this).parent().removeClass('notexpanded');
+  });
 });

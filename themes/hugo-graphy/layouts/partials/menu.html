@@ -118,6 +118,9 @@
           notexpanded                                                                      
         {{end}}
         ">
+        
+      <i class="fas fa-chevron-right notexpanded-btn"></i>
+      <i class="fas fa-chevron-down expanded-btn"></i>
       <a href="{{.RelPermalink}}">
           {{safeHTML .Params.Pre}}{{or .Params.menuTitle .LinkTitle .Title .File.BaseFileName}}{{safeHTML .Params.Post}}
           {{ if $showvisitedlinks}}
@@ -126,6 +129,7 @@
       </a>
       {{ $numberOfPages := (add (len ( where .Pages "Params.hidden" "ne" true )) (len ( where .Sections "Params.hidden" "ne" true ))) }}
       {{ if ne $numberOfPages 0 }}
+        
         <ul>
           {{ $currentNode.Scratch.Set "pages" .Pages }}
           {{ if .Sections}}
