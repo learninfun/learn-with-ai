@@ -50,7 +50,6 @@ mindmap
 
 ## Example result
 If you find the above approach too abstract, you can refer to the example below for guidance.
-- [Learn Finance](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/finance/)
 - [Learn Software Development](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/it/back-end-development/)
 
 ## Explain
