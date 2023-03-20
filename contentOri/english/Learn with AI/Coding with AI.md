@@ -43,7 +43,11 @@ mindmap
       - Example: `How to optimize the memory usage in this code snippet`
     - Understanding and explaining code content
       - Example: `Explaining the main logic of this code snippet`
+    - Write regex
+      - Example: `Write a regex to parse a CSV file that is separated by commas, but some columns have data with commas and are surrounded by double quotes`
   - Testing and debugging
+    - Write test case
+      - Example: `Write 5 test cases for a Golang command line program with 2 parameter, first parameter must in A, B, C, second parameter must is int`
     - Debugging error messages
       - Example: `What is the reason for this error message, and how to resolve it: cannot use x (type []int) as type []interface {} in argument to foo`
     - Debugging code snippets
