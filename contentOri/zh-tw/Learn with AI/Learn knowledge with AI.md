@@ -51,6 +51,10 @@ mindmap
     - 知識測驗: `給我5題關於"價值投資"的中等難度問題，並在後面列出答案`
     - 網路資料: `給我5篇，有關"價值投資"的網路資料`
     
+## 作法結果範例
+如果覺得上述做法太抽象，可以參考下方使用的範例
+- [學習財務知識](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/finance/)
+- [學習軟體開發](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/)
 
 ## 作法框架說明
 
