@@ -44,7 +44,7 @@ mindmap
     - Understanding and explaining code content
       - Example: `Explaining the main logic of this code snippet`
     - Write regex
-      - Example: `Write a regex to parse a CSV file that is separated by commas, but some columns have data with commas surrounded by double quotes`
+      - Example: `Write a regex to parse a CSV file that is separated by commas, but some columns have commas and surrounded by double quotes`
   - Testing and debugging
     - Write test case
       - Example: `Write 5 test cases for a Golang command line program with 2 parameter, first parameter must in A, B, C, second parameter must is int`
