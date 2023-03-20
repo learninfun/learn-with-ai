@@ -1,3 +1,8 @@
++++
+title = "Coding with AI"
+weight = 2
++++
+
 ## Concept
 When developing programs, we need to do many things, including setting up the environment, learning languages, writing code, testing, and debugging. 
 These tasks require a lot of time and effort, but if we make good use of artificial intelligence (AI) technology, we can speed up the process.
