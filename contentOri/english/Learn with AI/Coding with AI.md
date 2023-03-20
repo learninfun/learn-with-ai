@@ -62,7 +62,7 @@ mindmap
   - System architecture planning
     - Example: `Designing a highly available Golang website, what factors should be considered`
 
-# Advanced learning
+## Advanced learning
 You can learn and review advanced software development knowledge that can be used by asking AI.
 Example
 - [Design Pattern](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/it/back-end-development/design-pattern/)
