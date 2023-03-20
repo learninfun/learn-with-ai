@@ -1,6 +1,6 @@
 +++
 title = "AI協同軟體開發"
-weight = 1
+weight = 2
 +++
 
 ## 概念
