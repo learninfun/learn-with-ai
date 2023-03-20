@@ -16,7 +16,7 @@ mindmap
       debugging
     Architecture
       Technical selection
-      Code storage architecture planning
+      Program architecture design
       System architecture planning
 ```
 
@@ -48,7 +48,13 @@ mindmap
     - Example: `Recommended package for parsing markdown in Golang`
     - Example: `Comparing Goldmark and Blackfriday`
     - Example: `Which Golang package should I use to read markdown and use custom tags?`
-  - Code storage architecture planning
-    - Example: `Example of Golang code storage architecture, including main program, shared components, private components, configuration files, and multilingual data`
+  - Program architecture design
+    - Example: `An example of Golang program architecture should include a main program, shared components, private components, configuration files, and handling of multilingual data.`
   - System architecture planning
     - Example: `Designing a highly available Golang website, what factors should be considered`
+
+# Advanced learning
+You can learn and review advanced software development knowledge that can be used by asking AI.
+Example
+- [Design Pattern](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/it/back-end-development/design-pattern/)
+- [Algorithm](https://learninfun.github.io/learn-with-ai/ai-knowledge-hub/it/back-end-development/algorithm/)
