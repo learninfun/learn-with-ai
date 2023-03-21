@@ -1,6 +1,7 @@
 +++
-title = "Coding with AI"
-weight = 2
+title = "Cheat Sheet: Coding with ChatGPT"
+linkTitle = "Cheat Sheet: Coding"
+weight = 3
 +++
 
 ## Concept
