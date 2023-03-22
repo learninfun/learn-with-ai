@@ -1,6 +1,6 @@
 +++
-title = "Cheat Sheet: Kids learn knowledge with AI"
-linkTitle = "Kids learn with AI"
+title = "Cheat Sheet: Student learning"
+linkTitle = "Student learning"
 weight = 2
 +++
 
