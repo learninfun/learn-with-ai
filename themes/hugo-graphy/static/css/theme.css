@@ -509,7 +509,7 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 body {
     font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1.6;
     font-size: 18px !important;
 }
