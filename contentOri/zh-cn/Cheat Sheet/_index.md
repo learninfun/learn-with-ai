@@ -1,5 +1,5 @@
 +++
-title = "AI智學"
+title = "AI指令集"
 weight = 1
 +++
 

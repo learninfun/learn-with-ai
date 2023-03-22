@@ -1,6 +1,6 @@
 +++
 title = "指令集: 與 ChatGPT 一起打造優質軟體"
-linkTitle = "指令集: 軟體開發"
+linkTitle = "軟體開發"
 weight = 3
 +++
 

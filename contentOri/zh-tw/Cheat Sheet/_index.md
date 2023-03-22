@@ -1,5 +1,5 @@
 +++
-title = "Learn with AI"
+title = "AI指令集"
 weight = 1
 +++
 

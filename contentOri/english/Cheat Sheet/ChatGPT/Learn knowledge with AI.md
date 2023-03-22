@@ -1,6 +1,6 @@
 +++
 title = "Cheat Sheet: Learn knowledge with ChatGPT"
-linkTitle = "Cheat Sheet: Learn knowledge"
+linkTitle = "Learn knowledge"
 weight = 1
 +++
 

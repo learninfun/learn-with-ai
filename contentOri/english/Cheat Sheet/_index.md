@@ -1,5 +1,5 @@
 +++
-title = "Learn with AI"
+title = "AI Cheat Sheet"
 weight = 1
 +++
 

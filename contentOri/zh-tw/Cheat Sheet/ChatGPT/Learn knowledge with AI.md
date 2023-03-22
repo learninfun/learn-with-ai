@@ -1,6 +1,6 @@
 +++
 title = "指令集: 與 ChatGPT 一起學習，強化你的知識技能"
-linkTitle = "指令集: 學習新知"
+linkTitle = "學習新知"
 weight = 1
 +++
 
