@@ -1,5 +1,5 @@
 +++
-title = "指令集: Kids learn knowledge with AI"
+title = "Cheat Sheet: Kids learn knowledge with AI"
 linkTitle = "Kids learn with AI"
 weight = 2
 +++
