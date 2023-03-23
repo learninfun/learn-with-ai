@@ -1,9 +1,10 @@
 +++
 title = "責任鏈模式"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Chain of Responsibility Pattern的問題
+給我5題Chain of Responsibility Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "責任鏈模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Chain of Responsibility Pattern並舉例
+以中文說明Chain of Responsibility Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Chain of Responsibility Pattern是一種行為型設計模式，目的是在多�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Chain of Responsibility Pattern的重點
+以中文條列Chain of Responsibility Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Chain of Responsibility Pattern是一種行為型設計模式，目的是在多�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Chain of Responsibility Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Chain of Responsibility Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -543,21 +544,4 @@ $handler1->handle($comment3);
 Basic review is displayed directly.
 Certified review has to be approved before being displayed.
 Pro review is sent to a specialist for reply.   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Chain of Responsibility Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Chain of Responsibility Pattern in Java." DZone, 4 Nov. 2020, dzone.com/articles/chain-of-responsibility-pattern-in-java.
-
-2. "Chain of Responsibility Design Pattern." GeeksforGeeks, www.geeksforgeeks.org/chain-responsibility-design-pattern/.
-
-3. "Chain of Responsibility - Design Patterns." Tutorialspoint, www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm.
-
-4. "Mastering Chain of Responsibility Design Pattern." Java Code Geeks, 26 Sept. 2021, www.javacodegeeks.com/mastering-chain-of-responsibility-design-pattern.
-
-5. "Chain of Responsibility Pattern." SourceMaking, sourcemaking.com/design_patterns/chain_of_responsibility.   
 

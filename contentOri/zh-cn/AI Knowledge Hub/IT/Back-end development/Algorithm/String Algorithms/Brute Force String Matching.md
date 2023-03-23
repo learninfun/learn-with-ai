@@ -1,5 +1,6 @@
 +++
 title = "暴力字串比对"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -25,15 +26,15 @@ title = "暴力字串比对"
 
 
 
-Brute Force String Matching是一種字串搜尋演算法，可在一個較長的文字（T）中找到一個較短的字串（P）的開始位置。
+Brute Force String Matching是一种字串搜寻演算法，可在一个较长的文字（T）中找到一个较短的字串（P）的开始位置。
 
-演算法的基本思想是從T的第一個字符開始，依次與P的每一個字符進行比較，如果發現不匹配，則向右移動一個字符，再次從該位置開始進行比較，直到找到匹配的子串或者T中沒有剩餘的字符。
+演算法的基本思想是从T的第一个字符开始，依次与P的每一个字符进行比较，如果发现不匹配，则向右移动一个字符，再次从该位置开始进行比较，直到找到匹配的子串或者T中没有剩余的字符。
 
 以下是Brute Force String Matching的例子：
 
-假設T為"this is an example"，P為"ex"。可以從T的第一個字符"t"開始，依次與P的每一個字符進行比較。在T的第14個位置，也就是"e"字符的位置，發現該字符與P的第一個字符"e"相同，進行下一步比較。然後在T的第15個位置，也就是"x"字符的位置，發現該字符與P的第二個字符"x"相同，進行比較。由於最後一個字符匹配，所以找到了字串P，其開始位置為T中的第13個位置。
+假设T为"this is an example"，P为"ex"。可以从T的第一个字符"t"开始，依次与P的每一个字符进行比较。在T的第14个位置，也就是"e"字符的位置，发现该字符与P的第一个字符"e"相同，进行下一步比较。然后在T的第15个位置，也就是"x"字符的位置，发现该字符与P的第二个字符"x"相同，进行比较。由于最后一个字符匹配，所以找到了字串P，其开始位置为T中的第13个位置。
 
-儘管Brute Force String Matching演算法簡單易懂，但是當字串長度較大時，它的效率會變得很低。這是因為需要逐個比較每一個字符，可能需要進行大量的比較操作。因此，在實際的應用中，需要選擇更有效率的字串搜尋演算法。   
+尽管Brute Force String Matching演算法简单易懂，但是当字串长度较大时，它的效率会变得很低。这是因为需要逐个比较每一个字符，可能需要进行大量的比较操作。因此，在实际的应用中，需要选择更有效率的字串搜寻演算法。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -79,36 +80,4 @@ Brute Force String Matching是一種字串搜尋演算法，可在一個較長�
 
 5. 问题描述：给出一个长度为n的整数数组，找到其中所有相邻数字同数的片段并返回数量。 
 答案：https://leetcode.com/problems/arithmetic-slices/   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Brute Force String Matching的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Brute Force String Matching Algorithm"
-https://www.geeksforgeeks.org/brute-force-string-matching/
-
-This article from GeeksforGeeks explains the Brute Force String Matching algorithm, including its algorithmic complexity and example code in various programming languages.
-
-2. "Brute-Force String Matching"
-https://www.cs.cmu.edu/~avrim/451f09/lectures/lect0917.pdf
-
-This detailed slide presentation by Avrim Blum at Carnegie Mellon University discusses the Brute Force String Matching algorithm, its significance and some variations of it. 
-
-3. "Brute Force String Matching - C Program"
-https://www.thecrazyprogrammer.com/2017/12/c-program-for-brute-force-string-matching.html
-
-This blog post provides a simple implementation of the Brute Force String Matching algorithm in the C programming language, complete with code snippets and an explanation of how the algorithm works.
-
-4. "Brute-Force Pattern Matching Algorithm"
-https://www.tutorialspoint.com/brute-force-pattern-matching-algorithm
-
-This tutorial from Tutorialspoint explains the Brute Force Pattern Matching algorithm, which is a variation of the Brute Force String Matching algorithm specifically used for identifying a pattern within a larger string.
-
-5. "String Matching with the Brute-Force Algorithm"
-https://www.educative.io/edpresso/string-matching-with-the-brute-force-algorithm
-
-This article from educative.io gives a clear explanation of the Brute Force String Matching algorithm, its algorithmic complexity, implementation in Python, and an example scenario where it might be used.   
 

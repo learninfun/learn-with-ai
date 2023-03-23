@@ -1,8 +1,8 @@
 
 
-1. 如何实现一个下拉式选单？
+1. 如何實現一個下拉式選單？
 
-答案：可以利用HTML的select标签和option标签来创建下拉式选单，也可以使用CSS和Javascript来制作自定义下拉式选单。下面是一个基本的HTML下拉式选单：
+答案：可以利用HTML的select標籤和option標籤來創建下拉式選單，也可以使用CSS和Javascript來製作自定義下拉式選單。下面是一個基本的HTML下拉式選單：
 
 ```
 <select>
@@ -12,9 +12,9 @@
 </select>
 ```
 
-2. 如何实现一个漂亮的图片轮播？
+2. 如何實現一個漂亮的圖片輪播？
 
-答案：可以使用一些Javascript轮播插件，如Swiper、Slick等。或者也可以自己编写轮播功能的Javascript代码。下面是一个使用Swiper插件的例子：
+答案：可以使用一些Javascript輪播插件，如Swiper、Slick等。或者也可以自己編寫輪播功能的Javascript代碼。下面是一個使用Swiper插件的例子：
 
 ```
 <div class="swiper-container">
@@ -29,9 +29,9 @@
 </div>
 ```
 
-3. 如何实现一个手风琴效果的列表？
+3. 如何實現一個手風琴效果的列表？
 
-答案：可以使用CSS的transition和transform属性来制作手风琴效果。下面是一个例子：
+答案：可以使用CSS的transition和transform屬性來製作手風琴效果。下面是一個例子：
 
 ```
 .accordion {
@@ -69,9 +69,9 @@
 }
 ```
 
-4. 如何让一个元素在页面卷动时固定在顶部？
+4. 如何讓一個元素在頁面捲動時固定在頂部？
 
-答案：可以使用CSS的position和top属性来让元素固定在顶部。下面是一个例子：
+答案：可以使用CSS的position和top屬性來讓元素固定在頂部。下面是一個例子：
 
 ```
 .fixed-header {
@@ -84,9 +84,9 @@
 }
 ```
 
-5. 如何实现一个可以拖拽排序的列表？
+5. 如何實現一個可以拖拽排序的列表？
 
-答案：可以使用一些Javascript拖拽排序的插件，如Sortable、Dragula等。或者也可以自己编写拖拽排序功能的Javascript代码。下面是一个使用Sortable插件的例子：
+答案：可以使用一些Javascript拖拽排序的插件，如Sortable、Dragula等。或者也可以自己編寫拖拽排序功能的Javascript代碼。下面是一個使用Sortable插件的例子：
 
 ```
 <ul id="sort-list">

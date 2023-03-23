@@ -1,9 +1,10 @@
 +++
 title = "算法設計技巧"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Algorithm Design Techniques的問題
+給我5題Algorithm Design Techniques的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "算法設計技巧"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Algorithm Design Techniques並舉例
+以中文說明Algorithm Design Techniques並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -46,7 +47,7 @@ Algorithm Design Techniques簡單來說是指在設計演算法時，使用的�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Algorithm Design Techniques的重點
+以中文條列Algorithm Design Techniques的重點
 {{< /ask_chatgpt >}}
 
 
@@ -63,7 +64,7 @@ Algorithm Design Techniques簡單來說是指在設計演算法時，使用的�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Algorithm Design Techniques的中等難度問題，並在後面列出答案
+以中文給我5題Algorithm Design Techniques的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -94,31 +95,4 @@ Algorithm Design Techniques簡單來說是指在設計演算法時，使用的�
 答案: Hierholzer Algorithm
 
 以上問題僅供參考，實際上任何算法設計題目都可以根據不同難度等級進行分類。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Algorithm Design Techniques的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Divide and Conquer Algorithm Design Technique
-- https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/
-- This website provides a detailed definition and explanation of divide and conquer algorithm design technique, including examples of its application in solving problems.
-
-2. Dynamic Programming Algorithm Design Technique
-- https://www.geeksforgeeks.org/dynamic-programming/
-- This article explains dynamic programming algorithm design technique, with clear examples and illustrations to show the practical application of the technique in solving complex problems.
-
-3. Greedy Algorithm Design Technique
-- https://www.geeksforgeeks.org/greedy-algorithms/
-- GeeksforGeeks also provided a comprehensive analysis of the greedy algorithm design technique, including its advantages and disadvantages. The article also gives several examples to help readers understand the topic better.
-
-4. Backtracking Algorithm Design Technique
-- https://www.geeksforgeeks.org/backtracking-algorithms/
-- This tutorial provides an overview of backtracking algorithm design technique, including how it works and how to apply it in solving problems. The website also gives examples of its applications in practice and related resources for in-depth learning.
-
-5. Brute Force Algorithm Design Technique
-- https://www.geeksforgeeks.org/brute-force-algorithms/
-- Lastly, this article introduces the brute force algorithm design technique, including its characteristics and types of problems that can be solved using it. As always, the website includes examples and codes to guide readers in their understanding of the topic.   
 

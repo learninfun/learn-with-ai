@@ -1,5 +1,6 @@
 +++
 title = "设计模式"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -114,21 +115,4 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 問題：你想要在不修改現有對象代碼的情況下，擴展特定對象的功能。怎麼辦？
 
 答案：Decorator Pattern（裝飾器模式）可以提供一個對象，它可以擴展特定對象的功能。在本例中，你可以將現有的對象傳遞到一個稱為Decorator的裝飾器對象中，這個裝飾器對象可以擴展原有對象的功能但不影響原有對象的代碼。這可以幫助你在不修改本質代碼的前提下，增加對象的功能。舉一個例子，你可以創建一個名為CarDecorator的類別，它可以將一個Car的類別與其他類別結合起來完成額外的操作。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Design Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Design Patterns by the Gang of Four (GoF) - Java Tutorials. https://www.javatpoint.com/design-patterns-tutorial
-
-2. What is Software Design Pattern? Types of Design Patterns. https://www.guru99.com/design-patterns.html
-
-3. Introduction to Design Patterns. https://www.tutorialspoint.com/design_pattern/index.htm
-
-4. The 23 Gang of Four Design Patterns. https://sourcemaking.com/design_patterns
-
-5. Design patterns in Java. https://www.javatpoint.com/design-patterns-in-java   
 

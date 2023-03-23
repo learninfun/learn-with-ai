@@ -1,9 +1,10 @@
 +++
 title = "Ford-Fulkerson演算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Ford-Fulkerson Algorithm的問題
+給我5題Ford-Fulkerson Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "Ford-Fulkerson演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Ford-Fulkerson Algorithm並舉例
+以中文說明Ford-Fulkerson Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ step 3，尋找增廣路，以S為起點，從2邊增廣，將流量設定為2�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Ford-Fulkerson Algorithm的重點
+以中文條列Ford-Fulkerson Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -85,7 +86,7 @@ Ford-Fulkerson算法先將圖形建立為流量網絡，其中包括節點、邊
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Ford-Fulkerson Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Ford-Fulkerson Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -119,31 +120,4 @@ Ford-Fulkerson算法先將圖形建立為流量網絡，其中包括節點、邊
 ![ford-fulkerson-5](https://i.imgur.com/EaysuY7.png)
 
 答案：最大流為23   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Ford-Fulkerson Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Ford Fulkerson Algorithm." Tutorialspoint, www.tutorialspoint.com/Ford-Fulkerson-Algorithm.
-
-This website provides a comprehensive tutorial on the Ford-Fulkerson Algorithm. It covers the basic concepts, the algorithm's steps, an example with diagrams, and its applications. Additionally, it has a code snippet in Python for readers to implement the algorithm themselves.
-
-2. "The Ford-Fulkerson Algorithm in 15 Minutes." YouTube, uploaded by Paul Cochrane, 8 Oct. 2017, youtu.be/Wj7xW6ZxGpY.
-
-This video is a great resource for those who prefer a visual explanation. It covers how the algorithm works and the logic behind it in just 15 minutes. The speaker uses clear examples and animations to illustrate the concepts.
-
-3. "Max-Flow (Ford-Fulkerson Algorithm)." GeeksforGeeks, www.geeksforgeeks.org/max-flow-problem-introduction/.
-
-GeeksforGeeks is a well-known learning platform for computer science and engineering students. This page explains the Max-Flow problem and the Ford-Fulkerson Algorithm in a simple and straightforward manner. It includes a step-by-step guide and a C++ implementation.
-
-4. "Ford-Fulkerson Algorithm for Maximum Flow Problem." Programiz, www.programiz.com/dsa/ford-fulkerson-algorithm.
-
-This website provides a detailed explanation of the Ford-Fulkerson Algorithm with examples and diagrams. It also includes a Python implementation and a comparison between the Edmonds-Karp Algorithm and the Ford-Fulkerson Algorithm.
-
-5. "Ford-Fulkerson Algorithm | Edmon-Karp Algorithm | Network Flows." Byju's, byjus.com/maths/ford-fulkerson-algorithm/.
-
-Byju's is an online tutoring and learning platform that provides interactive video lectures on various topics. This video lecture covers the Ford-Fulkerson Algorithm and the Edmonds-Karp Algorithm in-depth. It explores how both algorithms work and the advantages and disadvantages of each.   
 

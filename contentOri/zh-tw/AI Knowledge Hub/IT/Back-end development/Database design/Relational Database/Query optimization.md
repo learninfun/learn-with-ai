@@ -1,9 +1,10 @@
 +++
 title = "查詢優化"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Query optimization的問題
+給我5題Query optimization的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "查詢優化"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Query optimization並舉例
+以中文說明Query optimization並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Query optimization是指將複雜的查詢轉換為更有效率的方式，以�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Query optimization的重點
+以中文條列Query optimization的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ Query optimization是指將複雜的查詢轉換為更有效率的方式，以�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Query optimization的中等難度問題，並在後面列出答案
+以中文給我5題Query optimization的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -96,21 +97,4 @@ SELECT table_1.id, table_1.name
 FROM table_1
 INNER JOIN table_2 ON table_1.name = table_2.name
 ORDER BY table_1.id;   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Query optimization的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Query Optimization in Oracle Database" - Oracle官方網站提供的Query Optimization解說。這篇文章提供了有關在Oracle數據庫中進行查詢優化的詳細信息，並提供了使用各種技術的建議。
-
-2. "Understanding Query Optimization in SQL Server" - 這篇文章提供了SQL Server數據庫中查詢優化的詳細解釋。它涵蓋了SQL Server中的優化器及其基本操作。
-
-3. "MySQL Query Optimization Techniques with Examples" - 這篇文章探討了MySQL查詢優化的技術，以及如何使用這些技術來改善查詢性能。它還提供了許多實用示例，以幫助您學習如何優化MySQL查詢。
-
-4. "Top PostgreSQL Query Optimization Tips for Developers" - 這篇文章介紹了PostgreSQL查詢優化的一些基本技巧，並提供了一些示例來幫助您優化您的查詢性能。它還包括有關如何使用PostgreSQL的內置優化器的信息。
-
-5. "Query Optimization Techniques in MongoDB" - 這篇文章探討了在MongoDB中優化查詢的技術。它詳細介紹了如何使用索引和聚合操作來優化查詢性能，並提供了一些有用的示例。   
 

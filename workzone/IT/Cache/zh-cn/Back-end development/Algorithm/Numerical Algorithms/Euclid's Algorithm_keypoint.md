@@ -1,10 +1,7 @@
 
 
-1. Euclid's Algorithm is a method to find the greatest common divisor (GCD) of two integers.
-2. The algorithm states that the GCD of two integers a and b is equal to the GCD of b and the remainder of a divided by b.
-3. The algorithm uses repeated division to find the GCD and is based on the fact that if a and b are integers, and b divides a, then the GCD of a and b is b.
-4. Euclid's Algorithm is also known as the Euclidean Algorithm or the Euclidean Division Algorithm.
-5. The algorithm can be extended to find the GCD of multiple integers by applying the algorithm repeatedly.
-6. Euclid's Algorithm can also be used to find the least common multiple (LCM) of two integers by the formula: LCM(a, b) = (a x b) / GCD(a, b).
-7. The time complexity of Euclid's Algorithm is O(log n) where n is the maximum of a and b.
-8. The algorithm has been known since ancient times and is named after the Greek mathematician Euclid.
+1. Euclid's Algorithm是求两个正整数最大公因数的方法。
+2. 求法是用除法求余数，将较小的数不断与余数进行除法求余数，直到余数为零，那么最后被除数即为两数的最大公因数。
+3. Euclid's Algorithm可以用递回或循环的方法实现。
+4. 堆栈或递归空间的使用可以通过在每次递回或循环中保留较小数和余数来控制。
+5. Euclid's Algorithm的时间复杂度为O(log n)，其中n为输入数的位数。

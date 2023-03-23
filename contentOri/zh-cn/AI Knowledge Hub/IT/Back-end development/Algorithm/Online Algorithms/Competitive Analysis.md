@@ -1,5 +1,6 @@
 +++
 title = "竞争分析"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "竞争分析"
 
 
 
-1. What are the main competitors in the target market, and what are their strengths and weaknesses compared to the company? 
-2. How do the competitors price their products and services, and how does the company's pricing strategy compare? 
-3. What marketing and advertising strategies are the competitors using, and how effective are they compared to the company's strategies? 
-4. How do the competitors deliver their products and services, and how does their customer service compare to the company's? 
-5. Are there any emerging competitors that could disrupt the market, and what are their strengths and weaknesses compared to the company and existing competitors?   
+1. 你公司如何与竞争对手进行比较分析？
+2. 您认为您公司的竞争优势在哪里？相对应的，您认为竞争对手的优势是什么？
+3. 你如何定义行业竞争对手？你公司是否在瞄准同一个目标客户群，或者有其他竞争策略？
+4. 你公司在哪些方面较胜竞争对手？然而，你能想到哪些方面是你公司的弱点，需要进行改进？
+5. 你认为该行业内哪些趋势和变化会影响你公司的竞争力，并对竞争对手产生影响？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -40,25 +41,25 @@ title = "竞争分析"
 
 
 
-1. 產品特點：分析對手產品的功能、性能、質量、價格等特點。
+1. 产品特点：分析对手产品的功能、性能、质量、价格等特点。
 
-2. 客戶關注點：分析對手的客戶群體、客戶需求等方面，對市場需求進行分析。
+2. 客户关注点：分析对手的客户群体、客户需求等方面，对市场需求进行分析。
 
-3. 市場佔有率：分析競爭對手在市場上的份額，盡力保持自己在市場上優勢。
+3. 市场占有率：分析竞争对手在市场上的份额，尽力保持自己在市场上优势。
 
-4. 市場變化：分析市場的變化，提前進行準備，以應對市場變化的不確定性。
+4. 市场变化：分析市场的变化，提前进行准备，以应对市场变化的不确定性。
 
-5. 競爭策略：了解對手的營銷策略，以及其在客戶群體中的定位和方法。
+5. 竞争策略：了解对手的营销策略，以及其在客户群体中的定位和方法。
 
-6. 研發能力：瞭解對手的技術研發能力，並在原有基礎上不斷提升自身技術競爭力。
+6. 研发能力：了解对手的技术研发能力，并在原有基础上不断提升自身技术竞争力。
 
-7. 合作夥伴：分析競爭對手的合作夥伴關係，以及自己的關係網絡。
+7. 合作伙伴：分析竞争对手的合作伙伴关系，以及自己的关系网络。
 
-8. 品牌形象：瞭解對手的品牌力量，提升自身品牌形象，以增強市場競爭力。
+8. 品牌形象：了解对手的品牌力量，提升自身品牌形象，以增强市场竞争力。
 
-9. 客戶忠誠度：分析對手的客戶忠誠度，以及自身與客戶之間的互動，提高客戶忠誠度。
+9. 客户忠诚度：分析对手的客户忠诚度，以及自身与客户之间的互动，提高客户忠诚度。
 
-10. 市場趨勢：分析市場趨勢，了解競爭對手的市場表現，以及市場變化的可能性。   
+10. 市场趋势：分析市场趋势，了解竞争对手的市场表现，以及市场变化的可能性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -86,31 +87,4 @@ title = "竞争分析"
 5. 比较公司的定价策略和竞争对手的定价策略
 
 答案：此问题需要进行市场调查和价格分析，收集有关公司和竞争对手的定价策略和定价模型，进行对比分析，确定哪家公司在产品定价方面更具竞争力，哪家公司有更好的价格策略。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Competitive Analysis的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. “竞争分析大师”：Competitor analysis网路文章
-https://www.iacademy.hk/content.php?newsId=01181701
-这篇网路文章探讨了竞争分析在企业中的重要性，以及进行竞争分析的方法和步骤。作者介绍了一些工具，例如 SWOT 分析、五力分析和对手策略分析，以帮助读者进行更深入的竞争分析。
-
-2. 网路行销策略：Industry and Competitive Analysis
-https://www.mindtools.com/pages/article/newTMC_08.htm
-这篇网路文章探讨了如何通过行业和竞争分析来制定网路市场行销策略。作者介绍了一些工具和技术，例如 Porter 的五力分析和 SWOT 分析，以及一些竞争分析的步骤和指南。
-
-3. 竞争分析：如何确定你的竞争对手是谁？
-https://www.crazyegg.com/blog/how-to-identify-competitors/
-这篇网路文章介绍了如何确定企业的竞争对手。作者提供了一些方法，例如使用 Google 搜索、社交媒体、电子商务平台等，选择适合自己的竞争对手以进行更准确的竞争分析。
-
-4. 教你如何进行竞争分析，比对出领先优势
-https://www.etnet.com.hk/www/tcn/report/wrapup/report20190426_tc.htm
-这篇网路文章介绍了如何进行竞争分析，以找到企业的领先优势。作者在文中提到了比较汇集、竞争矩阵和 SWOT 分析等竞争分析工具，以及相关的竞争策略和实施方法。
-
-5. 竞争分析－行销- 资讯 -策略 -方法 -工具
-https://www.picardevelopmentinc.com/blog0q3tw/1618636201.html
-这篇网路文章介绍了竞争分析在企业中的作用和使用方法。作者详细介绍了一些工具和技术，例如 SWOT 分析、竞争概览、市场需求分析等，以及如何使用这些工具进行深入的竞争分析，帮助企业确定发展方向和制定策略。   
 

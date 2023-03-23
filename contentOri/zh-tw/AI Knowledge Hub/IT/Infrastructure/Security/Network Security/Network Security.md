@@ -1,9 +1,10 @@
 +++
 title = "網路安全"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Network Security的問題
+給我5題Network Security的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "網路安全"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Network Security並舉例
+以中文說明Network Security並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ title = "網路安全"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Network Security的重點
+以中文條列Network Security的重點
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +63,7 @@ title = "網路安全"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Network Security的中等難度問題，並在後面列出答案
+以中文給我5題Network Security的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -86,26 +87,4 @@ title = "網路安全"
 5. 什麼是SQL注入攻擊？如何防止這種攻擊？
 
 答案：SQL注入攻擊是一種攻擊者通過將恶意的SQL代碼傳輸到資料庫系統進行攻擊，使得攻擊者能夠獲取資料庫系統中的敏感資訊或者繞過並取得操作權限。 防止這種攻擊的方法包括使用參數化查詢來防止入侵者向資料庫傳播惡意腳本、排除無有效輸入并設置良好的權限以限制資料庫內成員的權限、以及更新資料庫軟件并常規測試以確保本質上免疫SQL注入攻擊。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Network Security的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is Network Security and Why is it Important?" by Cisco Systems: https://www.cisco.com/c/en/us/products/security/what-is-network-security.html
-This article from Cisco explains the importance of network security, including the risks of cyber attacks, the types of threats that can target networks, and the ways in which network security is implemented and maintained.
-
-2. "Top 10 Network Security Threats to Watch Out For" by Infradata: https://www.infradata.com/en/resources/threats-to-watch-out-for/
-In this article, Infradata outlines the top ten network security threats organizations need to be aware of, including malware, phishing attacks, wireless vulnerabilities, and more. The article provides helpful tips for preventing these threats.
-
-3. "Network Security Basics" by the National Cyber Security Alliance: https://staysafeonline.org/wp-content/uploads/2018/03/NCSA-Network-Security-Basics-1.pdf
-The National Cyber Security Alliance provides a comprehensive guide to network security basics in this PDF. Topics covered include passwords, firewalls, malware prevention, network monitoring, and more.
-
-4. "The Importance of Network Security Testing" by Security Compass: https://securitycompass.com/blog/the-importance-of-network-security-testing/
-This article from Security Compass explains the importance of network security testing, including different types of testing methods like vulnerability scans, penetration testing, and social engineering testing. The article also provides guidance on how often to test your network.
-
-5. "How to Improve Network Security in 5 Steps" by Tech Target: https://searchnetworking.techtarget.com/tip/How-to-improve-network-security-in-5-steps
-This article provides five practical steps that organizations can take to improve network security, including implementing access controls, monitoring network traffic, and keeping software up to date. The article also includes tips on educating employees about network security best practices.   
 

@@ -2,7 +2,7 @@
 
 Observer Pattern是一种经典的行为型设计模式，它定义了对象间的一种一对多（one-to-many）的依赖关系，以便当一个对象的状态发生改变时，其所有依赖对象都能够自动收到通知并更新状态。
 
-该模式中包含三种角色：Subject（目标对象）、Observer（观察者对象）和ConcreteObserver（具体的观察者对象）。
+该模式中包含三种角色：Subject（目标对像）、Observer（观察者对像）和ConcreteObserver（具体的观察者对像）。
 
 Subject是被观察的对象，它维护一组Observer对象，当它的状态发生变化时，会遍历这些Observer对象，并调用它们的update()方法通知它们。
 

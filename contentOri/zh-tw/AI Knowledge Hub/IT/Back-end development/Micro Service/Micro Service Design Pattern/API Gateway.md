@@ -1,9 +1,10 @@
 +++
 title = "API網關"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題API Gateway的問題
+給我5題API Gateway的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "API網關"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明API Gateway並舉例
+以中文說明API Gateway並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ API Gateway是一個基於RESTful, HTTP或者SOAP通信協議，在多個後端�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列API Gateway的重點
+以中文條列API Gateway的重點
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ API Gateway是一個基於RESTful, HTTP或者SOAP通信協議，在多個後端�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題API Gateway的中等難度問題，並在後面列出答案
+以中文給我5題API Gateway的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 1. 如何在API Gateway中實現OAuth2.0驗證？
@@ -60,21 +61,4 @@ API Gateway是一個基於RESTful, HTTP或者SOAP通信協議，在多個後端�
 3. 使用API Gateway提供的協議適配器，將不同的協議轉換為統一的API調用協議，並根據協議的特點進行相應的配置和優化。
 4. 使用API Gateway提供的負載均衡和自動縮放功能，利用雲端計算的彈性資源管理能力，實現系統的高可用和自動擴展。
 5. 使用API Gateway提供的安全性能和加密功能，採用端到端的數據加密和解密方案，保護API的數據傳輸和存儲安全。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇API Gateway的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Getting started with API Gateway" by Amazon Web Services (AWS): This guide provides an overview of API Gateway, explains its features and benefits, and walks you through the process of creating and deploying your first API using the service.
-
-2. "Introduction to API Gateway" by Google Cloud: This article explores the basics of API Gateway, including how it works, what it does, and who should use it. It also provides examples of use cases and best practices for using the service.
-
-3. "API Gateway: The Ultimate Guide" by Tyk: This comprehensive guide covers everything you need to know about API Gateway, including its role in modern IT architectures, the benefits of using it, and best practices for designing and deploying APIs.
-
-4. "How to choose the right API Gateway" by Red Hat: This article takes a closer look at the different types of API Gateways available, including open source and proprietary solutions, and provides guidance on how to choose the right one for your specific needs.
-
-5. "API Gateway vs. Service Mesh: What's the Difference?" by Kong: This informative article explores the similarities and differences between API Gateways and service meshes, and explains when and why you might choose one over the other for your specific use case.   
 

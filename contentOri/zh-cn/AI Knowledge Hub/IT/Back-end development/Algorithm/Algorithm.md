@@ -1,5 +1,6 @@
 +++
 title = "算法"
+weight = "8"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "算法"
 
 
 
-1. 在一个未排序的整数列表中，找到只出现一次的数字。  
-2. 给定一个矩阵，从左上角出发，只能往右或往下走，找到一个到右下角的最短路径。  
-3. 给定一个整数列表和一个值，找到这个值在列表中的起始位置和结束位置。  
-4. 给定一个排序好的整数列表和一个值，使用二分搜寻算法找到这个值的索引位置。  
-5. 给定一个无向图和起始节点，使用深度优先搜索算法找到整个图中的连通区域。   
+1. 在一個未排序的整數列表中，找到只出現一次的數字。  
+2. 給定一個矩陣，從左上角出發，只能往右或往下走，找到一個到右下角的最短路徑。  
+3. 給定一個整數列表和一個值，找到這個值在列表中的起始位置和結束位置。  
+4. 給定一個排序好的整數列表和一個值，使用二分搜尋算法找到這個值的索引位置。  
+5. 給定一個無向圖和起始節點，使用深度優先搜索算法找到整個圖中的連通區域。   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,16 +22,16 @@ title = "算法"
 
 
 
-Algorithm是一系列明确定义的指示，用于解决特定问题或完成特定任务。通常用文字或流程图的形式来描述，并且遵循诸如计算机科学中的逻辑、数学和工程等基础原理。以下是一个简单的算法示例：
+Algorithm是一系列明確定義的指示，用於解決特定問題或完成特定任務。通常用文字或流程圖的形式來描述，並且遵循諸如計算機科學中的邏輯、數學和工程等基礎原理。以下是一個簡單的算法示例：
 
-算法名称：找到最大数
+算法名稱：找到最大數
 
-1. 定义一个变量max，其初始值为列表中的任何一个数。
-2. 遍历列表中每个数。
-3. 如果当前遍历的数值大于max，则将max变量的值设置为该数值。
-4. 完成遍历时，max变量存储的值即是列表中的最大数。
+1. 定義一個變量max，其初始值為列表中的任何一個數。
+2. 遍歷列表中每個數。
+3. 如果當前遍歷的數值大於max，則將max變量的值設置為該數值。
+4. 完成遍歷時，max變量存儲的值即是列表中的最大數。
 
-举例来说，假设我们有一个包含以下数字的列表：[1, 8, 2, 15, 3, 11, 9]。那么使用上面定义的算法，我们将依次检查所有数字，并找到最大数。当我们进行遍历列表时，变量max的值将任何时候都储存当前的最大值，因此该算法将最终返回值为15 (即列表的最大数)。   
+舉例來說，假設我們有一個包含以下數字的列表：[1, 8, 2, 15, 3, 11, 9]。那麼使用上面定義的算法，我們將依次檢查所有數字，並找到最大數。當我們進行遍歷列表時，變量max的值將任何時候都儲存當前的最大值，因此該算法將最終返回值為15 (即列表的最大數)。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -79,41 +80,4 @@ Answer: https://leetcode.com/problems/house-robber-ii/discuss/59998/My-Java-DP-s
 5. LeetCode 207. Course Schedule 
 題目：https://leetcode.com/problems/course-schedule/
 Answer: https://leetcode.com/problems/course-schedule/solution/   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. 算法 - 維基百科，自由的百科全書 (Algorithm - Wikipedia, the free encyclopedia)
-
-https://zh.wikipedia.org/wiki/算法
-
-本文講解了算法的基本概念、特點以及分類，還介紹了算法在計算機科學、人工智能等領域的應用。
-
-2. Algorithm - GeeksforGeeks
-
-https://www.geeksforgeeks.org/fundamentals-of-algorithms/
-
-本文介紹了算法的基本概念、時間複雜度、空間複雜度、排序算法、查找算法等。
-
-3. Algorithm in C – TechCrunch
-
-https://techcrunch.com/2013/08/08/algorithm-in-c/
-
-這篇文章介紹了用C語言編寫算法的方法和技巧，並提供了一些例子和代碼。
-
-4. An Introduction to Algorithms and Data Structures – Flavio Copes
-
-https://flaviocopes.com/data-structures-algorithms/
-
-本文提供了一個算法和數據結構的簡介，介紹了常見的數據結構和算法的時間複雜度，並提供了Python代碼示例。
-
-5. The Art of Computer Programming – Donald E. Knuth
-
-https://www-cs-faculty.stanford.edu/~knuth/taocp.html
-
-這本書是算法和計算機程序的經典之作，由計算機科學家Donald E. Knuth撰寫，涵蓋了從數學基礎到高級算法的各個方面。這本書是每個計算機科學家必讀的書籍之一。   
 

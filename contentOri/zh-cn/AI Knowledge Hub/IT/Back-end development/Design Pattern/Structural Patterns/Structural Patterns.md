@@ -1,5 +1,6 @@
 +++
 title = "结构型模式"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,15 @@ title = "结构型模式"
 
 
 
-1. 什么是Structural Patterns？它们如何区分于其他设计模式？
+1. 什麼是Structural Patterns？它們如何區分於其他設計模式？
 
-2. 何时应该使用Adapter Pattern？它如何协助解决系统中的问题？
+2. 何時應該使用Adapter Pattern？它如何協助解決系統中的問題？
 
-3. Decorator Pattern和Proxy Pattern的区别是什么？这些模式如何用于提高代码的可读性和可维护性？
+3. Decorator Pattern和Proxy Pattern的區別是什麼？這些模式如何用於提高代碼的可讀性和可維護性？
 
-4. 在使用Facade Pattern时，如何设计接口以支持系统的简化和压缩？你可以举例说明吗？
+4. 在使用Facade Pattern時，如何設計接口以支持系統的簡化和壓縮？你可以舉例說明嗎？
 
-5. Bridge Pattern如何协助开发人员更好地设计具有多层次抽象的软件系统，并优化代码的可维护性和扩展性？   
+5. Bridge Pattern如何協助開發人員更好地設計具有多層次抽像的軟件系統，並優化代碼的可維護性和擴展性？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -25,23 +26,23 @@ title = "结构型模式"
 
 
 
-Structural Patterns是指将类和对象组合在一起形成更大的结构，用于解决对象的组合，继承等结构性问题。
+Structural Patterns是指將類和對像組合在一起形成更大的結構，用於解決對象的組合，繼承等結構性問題。
 
-以下是几个常见的Structural Patterns：
+以下是幾個常見的Structural Patterns：
 
-1. Adapter Pattern：将一个类的接口转换成客户希望的另一个接口。例如，将老版本的类适配成新版本的类。
+1. Adapter Pattern：將一個類的接口轉換成客戶希望的另一個接口。例如，將老版本的類適配成新版本的類。
 
-2. Bridge Pattern：将抽象部分与它的实现部分分离，使得它们可以独立地变化。例如，将操作系统与应用程序分离，这样就可以实现不同操作系统的应用程序了。
+2. Bridge Pattern：將抽像部分與它的實現部分分離，使得它們可以獨立地變化。例如，將操作系統與應用程序分離，這樣就可以實現不同操作系統的應用程序了。
 
-3. Composite Pattern：用于管理树形结构的类，把相同的方法应用到每个元素上。例如，一个树形菜单，每个菜单项都有相同的方法。
+3. Composite Pattern：用於管理樹形結構的類，把相同的方法應用到每個元素上。例如，一個樹形菜單，每個菜單項都有相同的方法。
 
-4. Decorator Pattern：动态地给一个对象添加一些额外的职责，同时又不改变其结构。例如，装饰者模式可以增强一个类的功能，但不需要修改这个类本身。
+4. Decorator Pattern：動態地給一個對像添加一些額外的職責，同時又不改變其結構。例如，裝飾者模式可以增強一個類的功能，但不需要修改這個類本身。
 
-5. Facade Pattern：为一组复杂的子系统提供一个简单的接口，通过这个接口来访问这个子系统。例如，一个文件系统的Facade可以让用户通过一个简单的接口来访问所有的文件。
+5. Facade Pattern：為一組複雜的子系統提供一個簡單的接口，通過這個接口來訪問這個子系統。例如，一個文件系統的Facade可以讓用戶通過一個簡單的接口來訪問所有的文件。
 
-6. Flyweight Pattern：运用共享技术有效地支持大量细粒度的对象。例如，一个网站可以使用Flyweight模式来减少服务器的压力。
+6. Flyweight Pattern：運用共享技術有效地支持大量細粒度的對象。例如，一個網站可以使用Flyweight模式來減少服務器的壓力。
 
-这些模式可以提高代码的复用性，使代码更加灵活和可扩展。   
+這些模式可以提高代碼的復用性，使代碼更加靈活和可擴展。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -50,7 +51,7 @@ Structural Patterns是指将类和对象组合在一起形成更大的结构，�
 
 
 
-1.提供对系统内部结构的抽象表示
+1.提供对系统内部结构的抽像表示
 
 2.允许随着时间的推移进行系统内部的变化，同时不影响系统外部的用户界面
 
@@ -62,7 +63,7 @@ Structural Patterns是指将类和对象组合在一起形成更大的结构，�
 
 6.提高系统的性能和效率，降低系统运行时所需的资源成本
 
-7.提供对系统中不同部分的通信方式的抽象表示，使得系统之间的交互更加简单和易于管理
+7.提供对系统中不同部分的通信方式的抽像表示，使得系统之间的交互更加简单和易于管理
 
 8.在软件设计过程中，提供一个共通的框架，方便开发人员进行协作、集成和测试   
 
@@ -292,21 +293,4 @@ class Facade {
 const client = new Facade();
 client.operation1();
 client.operation2();   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Structural Patterns的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Structural Design Patterns in Java" by TutorialsPoint: This article provides a comprehensive overview of the various Structural Design Patterns in Java, including the Adapter, Bridge, Composite, Decorator, and Facade patterns. It explains the purpose and implementation of each pattern, along with code examples for better understanding.
-
-2. "Structural Patterns" by SourceMaking: This website offers a detailed explanation of Structural Patterns, including the Adapter, Bridge, Composite, Decorator, Façade and Flyweight design patterns. The site also provides code examples in Java to demonstrate how to implement each pattern.
-
-3. "The Top 5 Structural Design Patterns for Beginners" by DZone: This article is intended for beginners and provides an overview of five of the most commonly used Structural Design Patterns. It explains each pattern with examples and how to use it in different scenarios.
-
-4. "Structural Design Patterns: A Guide to Decoding Software Architecture" by Stackify: This article provides an in-depth explanation of Structural Design Patterns, including information about their purpose and how to apply them in real-world situations. Additionally, it has code examples in C# to help readers better understand this programming concept.
-
-5. "Structural Design Patterns" by GeeksforGeeks: This website provides an easy-to-understand explanation of Structural Design Patterns, including the Adapter, Bridge, Composite, Decorator, Flyweight, and Facade patterns. It includes diagrams and examples in Java to help readers understand the concept behind each pattern.   
 

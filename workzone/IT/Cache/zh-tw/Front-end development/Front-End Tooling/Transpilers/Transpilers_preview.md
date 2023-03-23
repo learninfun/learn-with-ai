@@ -1,7 +1,7 @@
 
 
-1. What is a transpiler and how does it differ from a compiler?
-2. What types of languages can be transpiled, and what are some common use cases?
-3. How do transpilers convert code from one language to another, and what types of optimizations can be applied in the process?
-4. Can transpilers handle complex programming concepts and syntax, and what are some limitations to their functionality?
-5. What are some popular transpilers in use today, and how do they compare in terms of performance, reliability, and ease of use?
+1. Transpiler是什麼？與Compiler和Interpreter有何不同之處？
+2. 請列舉幾個目前市面上常用的Transpilers。
+3. 如何使用Transpiler來編譯ES6以上的JavaScript代碼？
+4. 在使用Transpiler時，我們該如何處理不同版本的瀏覽器對JavaScript的支援問題？
+5. Transpiler在編譯代碼時是否會對性能產生影響？如果有，我們該如何減少這種影響？

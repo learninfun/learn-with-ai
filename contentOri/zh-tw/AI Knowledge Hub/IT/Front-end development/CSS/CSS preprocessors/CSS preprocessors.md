@@ -1,9 +1,10 @@
 +++
 title = "CSS 預處理器"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題CSS preprocessors的問題
+給我5題CSS preprocessors的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "CSS 預處理器"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明CSS preprocessors並舉例
+以中文說明CSS preprocessors並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -46,7 +47,7 @@ $primary-color: #4D4D4D;
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列CSS preprocessors的重點
+以中文條列CSS preprocessors的重點
 {{< /ask_chatgpt >}}
 
 1. 增加可讀性和維護性：CSS預處理器通過較簡單的語法和拓展引入，提高了CSS的可讀性和維護性。
@@ -59,7 +60,7 @@ $primary-color: #4D4D4D;
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題CSS preprocessors的中等難度問題，並在後面列出答案
+以中文給我5題CSS preprocessors的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,21 +79,4 @@ $primary-color: #4D4D4D;
 
 5. 在PostCSS中，如何實現自動添加前綴的功能？
 答案：使用autoprefixer插件。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇CSS preprocessors的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What are CSS preprocessors and why should I use them?" by SitePoint: https://www.sitepoint.com/css-preprocessors-and-why-to-use-them/
-
-2. "Sass vs. LESS vs. Stylus: Preprocessor Shootout" by Smashing Magazine: https://www.smashingmagazine.com/2015/07/death-to-icon-fonts/
-
-3. "Getting Started with Sass, Less, and Stylus" by TutsPlus: https://code.tutsplus.com/tutorials/getting-started-with-css-preprocessors-sass-less-and-stylus--cms-20157
-
-4. "Why You Should Use a CSS Preprocessor (And You Really Should)" by CSS-Tricks: https://css-tricks.com/why-you-should-use-a-css-preprocessor-and-you-really-should/
-
-5. "CSS Preprocessors: A Comparison of Sass, Less and Stylus" by Scotch.io: https://scotch.io/tutorials/css-preprocessors-a-comparison-of-sass-less-and-stylus   
 

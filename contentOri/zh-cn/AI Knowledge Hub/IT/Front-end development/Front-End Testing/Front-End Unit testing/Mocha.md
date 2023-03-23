@@ -1,5 +1,6 @@
 +++
 title = "Mocha"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -171,26 +172,4 @@ function getAverageValue(arr, propertyName) {
   return sum / arr.length;
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Mocha的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Mocha: 知名的 JavaScript 测试框架
-Mocha 是一个知名的 JavaScript 测试框架，用于编写前端和后端应用程式的自动化测试。它提供了丰富的 API 以便于编写和执行测试，并且支援各种浏览器和 Node.js 环境。此外，Mocha 也具有易于扩展的结构，使得它可以匹配各种开发需求。
-
-2. 使用 Mocha 进行 JavaScript 测试
-Mocha 是目前一款最为流行的 JavaScript 测试框架之一，它具有高度的灵活性和可扩展性，可以应用到各种代码测试需求中。在这篇文章中，您将了解到如何使用 Mocha 框架对 JavaScript 应用程式进行测试，包括基本的语法和常用的 API。
-
-3. Mocha 与 Chai 的结合
-Mocha 框架提供许多内置方法和 API，但如果需要更灵活和复杂的方法，我们可以通过集成 Chai 断言库来扩展框架。在这篇文章中，您将学习到如何在 Mocha 中使用 Chai 断言库，以及如何编写不同类型的断言。
-
-4. 如何使用 Mocha 覆盖率报告
-覆盖率报告可以为开发人员提供关于测试质量的重要信息，透过这个报告，开发人员可以快速发现并解决代码中的问题。在这篇文章中，您将学习到如何使用 Mocha 产生覆盖率报告，以及如何分析和优化测试质量。
-
-5. Mocha 与 Sinon 的结合
-Sinon.js 是一个独立的 JavaScript 库，可用于协助实现 JavaScript 的单元测试和集成测试。在结合 Mocha 和 Sinon 之后，可以更好地增加测试效率和可靠性，让应用程式的代码更稳定和可靠。在这篇文章中，您将学习到如何使用 Mocha 和 Sinon 进行 JavaScript 测试。   
 

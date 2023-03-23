@@ -1,9 +1,10 @@
 +++
 title = "最小生成樹"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Minimum Spanning Tree的問題
+給我5題Minimum Spanning Tree的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "最小生成樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Minimum Spanning Tree並舉例
+以中文說明Minimum Spanning Tree並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ C - 5 - D - 1 - E
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Minimum Spanning Tree的重點
+以中文條列Minimum Spanning Tree的重點
 {{< /ask_chatgpt >}}
 
 
@@ -79,7 +80,7 @@ MST可以用來解決很多最小化成本或限制的問題，比如最小化�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Minimum Spanning Tree的中等難度問題，並在後面列出答案
+以中文給我5題Minimum Spanning Tree的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -103,31 +104,4 @@ MST可以用來解決很多最小化成本或限制的問題，比如最小化�
 5. 給定一個有權重和有向圖，求出其中一個特定頂點到其他所有頂點的最小權重和。
 
 題解：可以使用Dijkstra或Bellman-Ford演算法求解該頂點到其他所有頂點的最小權重和，時間複雜度為O(ElogV)或O(VE)。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Minimum Spanning Tree的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Minimum Spanning Tree - GeeksforGeeks
-來源：https://www.geeksforgeeks.org/minimum-spanning-tree/
-這是一篇由GeeksforGeeks所提供的關於Minimum Spanning Tree概念、算法、Python程式範例等的詳細教學文章，包含了Prim's和Kruskal's兩種方法的詳細解釋和比較，對於初學者來說非常易懂。
-
-2. Minimum Spanning Tree - Wikiwand 
-來源：https://www.wikiwand.com/en/Minimum_spanning_tree
-這是一篇較為專業的Minimum Spanning Tree介紹文章，在此逐步介紹了Kruskal和Prim演算法的概念、應用和分析，並附上了例子和圖示。對於學習的人來說，可以讓您更加深刻的理解Minimum Spanning Tree。
-
-3. Minimum Spanning Trees -Brilliant 
-來源：https://brilliant.org/wiki/minimum-spanning-trees-mst/
-這是由Brilliant所提供的教學資料，其中包含了對Prim's和Kruskal's演算法做更加深入的解釋。並且通過一些很好的圖示來幫助讀者易於理解。除此之外，文中也提到了一些應用，如Spanning Tree Protocol等。
-
-4. Minimum Spanning Trees - 楊志謙的網路日誌 
-來源：http://blog.csdn.net/v_july_v/article/details/6087281
-這是一篇很有實用價值的Minimum Spanning Tree教學文章，其中包含了Kruskal和Prim算法的原理和實現，並且通過一些圖表來演示算法的執行過程。此外，文章中亦有提到了Floyd演算法和Dijkstra演算法，讓讀者能更好的理解算法的應用。
-
-5. Prim's Minimum Spanning Tree Algorithm - Programiz
-來源：https://www.programiz.com/dsa/prim-algorithm
-這是一篇對Prim演算法的介紹文章，該文章從概念、算法到實現都講解地非常清楚，還有一個Python程式碼示例。對於Python初學者來說是一個非常方便的學習資源。   
 

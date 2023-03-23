@@ -1,5 +1,6 @@
 +++
 title = "渐进式 Web 应用程式 （PWA）"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "渐进式 Web 应用程式 （PWA）"
 
 
 
-1. 什麼是Progressive Web Apps？它們如何與傳統的網頁和應用程式不同？
-2. Progressive Web Apps 的優點是什麼？為何越來越多公司和開發者將其作為首選技術？
-3. Progressive Web Apps 中的Service Worker是什麼？它如何幫助網頁提供更好的使用體驗？
-4. 可以列舉出一些知名的Progressive Web Apps，以及這些應用程式如何使用這項技術優化使用體驗與性能？
-5. Progressive Web Apps 會不會取代原生應用程式？若不會，二者的差異為何？   
+1. 什么是Progressive Web Apps？它们如何与传统的网页和应用程式不同？
+2. Progressive Web Apps 的优点是什么？为何越来越多公司和开发者将其作为首选技术？
+3. Progressive Web Apps 中的Service Worker是什么？它如何帮助网页提供更好的使用体验？
+4. 可以列举出一些知名的Progressive Web Apps，以及这些应用程式如何使用这项技术优化使用体验与性能？
+5. Progressive Web Apps 会不会取代原生应用程式？若不会，二者的差异为何？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,21 +22,21 @@ title = "渐进式 Web 应用程式 （PWA）"
 
 
 
-Progressive Web Apps（進階網絡應用程式）是一種新型的應用程式開發方式，它結合了Web和原生應用程式的優點。它們是使用Web技術（如HTML，CSS和JavaScript）開發的網頁應用程式，但可以像原生應用程序一樣在手機或桌面上安裝和運行。最大的獨特之處在於，它們可以在脫離網絡時更新，並且具有快速啟動速度、優化的性能和完整的安全措施。
+Progressive Web Apps（进阶网络应用程式）是一种新型的应用程式开发方式，它结合了Web和原生应用程式的优点。它们是使用Web技术（如HTML，CSS和JavaScript）开发的网页应用程式，但可以像原生应用程序一样在手机或桌面上安装和运行。最大的独特之处在于，它们可以在脱离网络时更新，并且具有快速启动速度、优化的性能和完整的安全措施。
 
 以下是一些Progressive Web Apps的例子：
 
-1. Twitter Lite：Twitter Lite是Twitter的PWA版本，速度更快，佔用空間更小，提供在線和離線使用體驗。
+1. Twitter Lite：Twitter Lite是Twitter的PWA版本，速度更快，占用空间更小，提供在线和离线使用体验。
 
-2. Flipkart：Flipkart是印度最大的在線市場之一，在全球擁有2.1億用戶，已將Web體驗與PWA結合使其快速，可靠且易於使用。
+2. Flipkart：Flipkart是印度最大的在线市场之一，在全球拥有2.1亿用户，已将Web体验与PWA结合使其快速，可靠且易于使用。
 
-3. Pinterest：Pinterest的PWA版本提供快速加載的體驗，可以在桌面和移動設備上使用，獲得更高的用戶粘性。
+3. Pinterest：Pinterest的PWA版本提供快速加载的体验，可以在桌面和移动设备上使用，获得更高的用户粘性。
 
-4. Starbucks：星巴克的PWA版本提供了一種從線下到線上的無縫體驗，從而實現了與客戶的更好互動，便於用戶獲得星巴克產品的資訊，並且方便用戶獲得星巴克咖啡店的位置和網上訂購的服務。
+4. Starbucks：星巴克的PWA版本提供了一种从线下到线上的无缝体验，从而实现了与客户的更好互动，便于用户获得星巴克产品的资讯，并且方便用户获得星巴克咖啡店的位置和网上订购的服务。
 
-5. Uber：Uber的PWA版本提供了快速的體驗，即使在電池電量較低或網絡不穩定的情況下，也能夠順暢運行，可以脫離網絡的情況下使用。
+5. Uber：Uber的PWA版本提供了快速的体验，即使在电池电量较低或网络不稳定的情况下，也能够顺畅运行，可以脱离网络的情况下使用。
 
-總之，PWAs是一種擴展Web應用程式並提供原生應用程序體驗的方法。隨著更多的企業用戶和開發人員採用該技術，PWAs將有望逐漸成為應用程序開發的新趨勢。   
+总之，PWAs是一种扩展Web应用程式并提供原生应用程序体验的方法。随着更多的企业用户和开发人员采用该技术，PWAs将有望逐渐成为应用程序开发的新趋势。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -81,36 +82,4 @@ Progressive Web Apps（進階網絡應用程式）是一種新型的應用程式
 
 5. PWA的安装是怎样的一个过程，什么条件才能够安装APP到使用者装置上？ 
 答案: 安装PWA需要满足以下条件：使用者使用的浏览器需要支援PWA的相关技术，并且网站需要提供Web App Manifest文件和一个Service Worker。安装需要使用者点击安装按钮，然后提示使用者安装APP到使用者装置上，使用者可以选择添加到主画面或安装到PC上。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Progressive Web Apps (PWAs)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Introduction to Progressive Web Apps (PWAs)
-https://www.smashingmagazine.com/2016/08/a-beginners-guide-to-progressive-web-apps/
-
-This article from Smashing Magazine is a great starting point for learning about PWAs. It explains what a PWA is, how it works, and why it’s important. It also talks about some of the benefits of PWAs, as well as some of the challenges that developers may face when building them.
-
-2. Building Progressive Web Apps: A Comprehensive Guide
-https://www.sitepoint.com/building-progressive-web-apps-a-comprehensive-guide/
-
-SitePoint’s guide to building PWAs covers everything from the basics to more advanced topics like service workers, offline caching, and push notifications. It provides examples and code snippets throughout the article, making it a great resource for developers looking to build their own PWAs.
-
-3. The Future of Progressive Web Apps
-https://www.smashingmagazine.com/2018/11/the-future-of-progressive-web-apps/
-
-Another great article from Smashing Magazine, this one focuses on the future of PWAs. It discusses emerging technologies like web components and web workers, as well as how PWAs could be used in industries like e-commerce and fintech. It also looks at some of the challenges that PWAs may face in the coming years.
-
-4. How to Build a Progressive Web App
-https://medium.com/@addyosmani/how-to-build-a-progressive-web-app-2d5ddc68aa37
-
-This Medium post by Addy Osmani, a Google engineer who works on Chrome and web platform tools, provides a step-by-step guide to building a PWA. It includes tips on optimizing performance, using the right tools and libraries, and leveraging the latest web technologies.
-
-5. The Pros and Cons of Progressive Web Apps
-https://www.cmswire.com/customer-experience/the-pros-and-cons-of-progressive-web-apps/
-
-This CMSWire article takes a balanced approach to discussing the pros and cons of PWAs. It covers topics like user experience, ease of deployment, and the potential for increased engagement and retention. It also looks at some of the drawbacks, such as limited support on older devices, and the lack of native features.   
 

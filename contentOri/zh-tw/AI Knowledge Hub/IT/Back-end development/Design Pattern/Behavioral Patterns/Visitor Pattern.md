@@ -1,9 +1,10 @@
 +++
 title = "訪問者模式"
+weight = "11"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Visitor Pattern的問題
+給我5題Visitor Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "訪問者模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Visitor Pattern並舉例
+以中文說明Visitor Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Visitor Pattern是一種設計模式，用於在不修改現有物件結構的�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Visitor Pattern的重點
+以中文條列Visitor Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ Visitor Pattern是一種設計模式，用於在不修改現有物件結構的�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Visitor Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Visitor Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -67,36 +68,4 @@ Visitor Pattern是一種設計模式，用於在不修改現有物件結構的�
 
 5. 實現一個簡單的社交媒體系統，使用Visitor Pattern來實現不同類型的用戶狀態的訪問和處理，可以對用戶狀態進行評論、分享、收藏等操作。
 答案：這道問題需要使用Visitor Pattern來實現不同類型用戶狀態之間的訪問和處理，包括評論、分享、收藏等操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Visitor Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Design Patterns - Visitor Pattern:
-https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm
-
-This tutorial on Tutorialspoint provides a detailed explanation of the Visitor Pattern in Java, including an overview of the pattern, its participants, and its implementation.
-
-2. Visitor Pattern: Real Life Example:
-https://www.geeksforgeeks.org/visitor-pattern-real-life-example/
-
-GeeksForGeeks provides a real-life example of the Visitor Pattern using a story of a robot and its parts. The article explains how the Visitor Pattern can be used to separate the functionality of the robot and its parts.
-
-3. Visitor Pattern - Behavioral Pattern:
-https://www.javatpoint.com/visitor-pattern
-
-This article on Javatpoint explains the Visitor Pattern in detail, including its need, structure, and implementation. It also includes a sample program to demonstrate the pattern in action.
-
-4. The Visitor Design Pattern Explained:
-https://sourcemaking.com/design_patterns/visitor
-
-This article on Sourcemaking provides a clear explanation of the Visitor Pattern, its structure, and its application. The article also includes a sample program to illustrate the pattern in action.
-
-5. Visitor Design Pattern in Java with Examples:
-https://www.baeldung.com/java-visitor-pattern
-
-This article on Baeldung provides a detailed explanation of the Visitor Pattern in Java, including its implementation strategy and examples of how it can be used in real-world scenarios.   
 

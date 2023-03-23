@@ -1,5 +1,6 @@
 +++
 title = "闭包"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -51,12 +52,12 @@ print(result)  # 15
 
 
 
-1. Closures是一种函式内的函式，可以在函式中建立新的作用域。
-2. Closures允许内部函式访问其外部函式的变数和参数。
-3. Closures允许内部函式保持其创建时外部作用域中的变数状态，而不是在内部函式调用时重新定义这些变数。
-4. Closures在JavaScript中广泛应用，特别是用于创建私有变数和方法，以及面向对象编程模式。
-5. 在Closures中，外部函式可以返回内部函式，因此Closures也被称为函数工厂。
-6. Closures和垃圾回收机制密切相关，不正确使用Closures可能会导致内存泄漏。   
+1. Closures是一種函式內的函式，可以在函式中建立新的作用域。
+2. Closures允許內部函式訪問其外部函式的變數和參數。
+3. Closures允許內部函式保持其創建時外部作用域中的變數狀態，而不是在內部函式調用時重新定義這些變數。
+4. Closures在JavaScript中廣泛應用，特別是用於創建私有變數和方法，以及面向對象編程模式。
+5. 在Closures中，外部函式可以返回內部函式，因此Closures也被稱為函數工廠。
+6. Closures和垃圾回收機制密切相關，不正確使用Closures可能會導致內存洩漏。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -209,41 +210,4 @@ const keyValues = createKeyValueStore();
 keyValues('name', 'John');
 keyValues('age', 30);
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Closures的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Understanding JavaScript Closures
-
-This article from SitePoint gives a comprehensive overview of closures in JavaScript, including how they work, why they are useful, and examples of how to use closures in your code. It's a great starting point for anyone looking to understand closures better.
-
-Link: https://www.sitepoint.com/javascript-closures/
-
-2. Mastering JavaScript Closures
-
-This article from Medium provides a more in-depth look at closures, including practical examples of how to use them in your code. It covers topics such as lexical scoping, the "this" keyword, and closures and memory management.
-
-Link: https://medium.com/@prashantramnyc/mastering-javascript-closures-9d7e5eb5d5df
-
-3. JavaScript Closures: A Comprehensive Guide
-
-This guide from Toptal goes into great detail about closures in JavaScript, including how they work, common use cases, and best practices for using them. It also includes multiple code examples and exercises to help you practice using closures in your own code.
-
-Link: https://www.toptal.com/javascript/closures
-
-4. The Magic of JavaScript Closures
-
-This article from Codeburst provides a more conceptual overview of closures in JavaScript, discussing how they allow for encapsulation, creating private variables, and maintaining state in your code. It includes helpful code examples and visuals to illustrate the concepts.
-
-Link: https://codeburst.io/the-magic-of-javascript-closures-2b22bebe69af
-
-5. Unraveling Closure Functions in JavaScript
-
-This article from Scotch.io provides a beginner-friendly look at closures in JavaScript, including how they work, basic syntax, and common patterns for using closures in your code. It also includes helpful visuals and code examples to illustrate the concepts.
-
-Link: https://scotch.io/tutorials/unraveling-closure-functions-in-javascript   
 

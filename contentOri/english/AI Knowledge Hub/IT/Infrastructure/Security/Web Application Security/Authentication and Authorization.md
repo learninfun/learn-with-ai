@@ -1,3 +1,7 @@
++++
+title = "Authentication and Authorization"
+weight = "4"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Authentication and Authorization
@@ -66,22 +70,4 @@ Answer: RBAC is a security model that defines a set of roles within a system and
 
 5) What are some common types of authentication attacks and how can they be prevented?
 Answer: Some common types of authentication attacks include brute force attacks, password spraying, and phishing scams. These attacks can be prevented by implementing strong password policies, limiting login attempts, and educating users on how to identify and avoid phishing scams.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Authentication and Authorization
-{{< /ask_chatgpt >}}
-
-
-
-1. Authentication and Authorization - Microsoft Docs
-2. Introduction to Web Authentication and Authorization - Oracle
-3. Authentication vs. Authorization: What's the Difference? - Duo Security
-4. What is Authentication and Authorization? - IBM Developer
-5. Authentication and Authorization - Amazon Web Services (AWS)
-6. Understanding Authentication and Authorization in Web Applications - Okta
-7. Authentication and Authorization - W3C
-8. Introduction to Authentication and Authorization | Django documentation | Django
-9. Authentication and Authorization in ASP.NET Core | Microsoft Docs
-10. Web Authentication and Authorization Overview | Google Cloud.   
 

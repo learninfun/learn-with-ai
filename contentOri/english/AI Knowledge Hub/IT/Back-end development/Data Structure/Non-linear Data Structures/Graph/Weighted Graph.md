@@ -1,3 +1,7 @@
++++
+title = "Weighted Graph"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Weighted Graph
@@ -60,23 +64,4 @@ Answer: Yes, a weighted graph can have negative edge weights. Negative edge weig
 
 5. What is Dijkstra's algorithm? 
 Answer: Dijkstra's algorithm is an algorithm used to find the shortest path between two nodes in a weighted graph. It works by maintaining a set of unvisited nodes and assigning tentative distances to each node in the graph, then selecting the node with the smallest tentative distance and updating its neighbors' tentative distances. This process is repeated until the desired endpoint is reached, and the shortest path is calculated based on the distances assigned to each node.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Weighted Graph
-{{< /ask_chatgpt >}}
-
-
-
-1. "Understanding Weighted Graphs" - This webpage provides an introduction to the concept of weighted graphs, including a definition, examples, and applications in various fields.
-
-2. "Weighted Graphs 101" - This webpage offers a beginner's guide to weighted graphs, including a discussion of basic terminology, algorithms, and visualization techniques.
-
-3. "Applications of Weighted Graphs" - This webpage explores real-world applications of weighted graphs, such as network analysis, transportation planning, and scheduling.
-
-4. "Graph Theory and Weighted Graphs" - This webpage provides an overview of the field of graph theory, including the concept of weighted graphs and their relevance to graph theory.
-
-5. "Graph Algorithms for Weighted Graphs" - This webpage discusses popular algorithms used for solving problems on weighted graphs, such as Dijkstra's algorithm and the minimum spanning tree algorithm.
-
-6. "Visualizing Weighted Graphs" - This webpage explores different visualization techniques for weighted graphs, including heat maps, node-link diagrams, and network matrices.   
 

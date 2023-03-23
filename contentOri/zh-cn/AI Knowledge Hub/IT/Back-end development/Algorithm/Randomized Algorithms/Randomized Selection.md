@@ -1,5 +1,6 @@
 +++
 title = "随机选择"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -56,19 +57,19 @@ def randomized_selection(arr, k):
 
 
 
-1. Randomized Selection是一种利用随机化算法来找到数组中第k小元素的算法。
+1. Randomized Selection是一種利用隨機化算法來找到數組中第k小元素的算法。
 
-2. 该算法的关键是在每一次遍历数组时随机选择一个pivot元素，把小于pivot的元素放到pivot左边，大于pivot的元素放到pivot右边，然后根据pivot的位置决定接下来的操作。
+2. 該算法的關鍵是在每一次遍歷數組時隨機選擇一個pivot元素，把小於pivot的元素放到pivot左邊，大於pivot的元素放到pivot右邊，然後根據pivot的位置決定接下來的操作。
 
-3. 如果pivot的位置恰好是k-1，那么第k小元素就是pivot；如果pivot的位置小于k-1，则在右侧子数组中递归查找第k-pivot位置的元素；如果pivot的位置大于k-1，则在左侧子数组中递归查找第k个元素。
+3. 如果pivot的位置恰好是k-1，那麼第k小元素就是pivot；如果pivot的位置小於k-1，則在右側子數組中遞歸查找第k-pivot位置的元素；如果pivot的位置大於k-1，則在左側子數組中遞歸查找第k個元素。
 
-4. 该算法的时间复杂度为平均情况下O(n)，最坏情况下O(n^2)。
+4. 該算法的時間複雜度為平均情況下O(n)，最壞情況下O(n^2)。
 
-5. 为了避免最坏情况的发生，可以在每次递归时随机选择pivot，而不是固定选择数组的第一个元素或最后一个元素。
+5. 為了避免最壞情況的發生，可以在每次遞歸時隨機選擇pivot，而不是固定選擇數組的第一個元素或最後一個元素。
 
-6. Randomized Selection常用于解决第k小元素或第k大元素的问题，例如找到中位数或top k问题。
+6. Randomized Selection常用於解決第k小元素或第k大元素的問題，例如找到中位數或top k問題。
 
-7. 总之，Randomized Selection是一种简单、高效的算法，适用于快速查找数组中第k小元素。   
+7. 總之，Randomized Selection是一種簡單、高效的算法，適用於快速查找數組中第k小元素。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -96,31 +97,4 @@ def randomized_selection(arr, k):
 5. 给定一个整数数组，找到最大的k个元素。
 
 答案：使用Randomized Selection算法，将数组切分为左右两部分，递归查找前k大的元素，然后归并两个子数组。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Randomized Selection的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Randomized Selection - An Introduction." by GeeksforGeeks. https://www.geeksforgeeks.org/randomized-selection-an-introduction/
-
-This article provides a simple introduction to randomized selection, explaining the algorithm and its applications in finding the kth smallest element in an array.
-
-2. "Randomized Selection: A Practical Algorithm for QuickSelect." by Saad El-Dein Ahmed. https://towardsdatascience.com/randomized-selection-a-practical-algorithm-for-quickselect-1bc5e1fee936
-
-This article explains the randomized selection algorithm in detail, highlighting its advantages over other selection algorithms and providing a step-by-step demonstration of how it works.
-
-3. "Randomized Selection with QuickSelect Algorithm." by Yahya Al-Hazmi. https://towardsdatascience.com/randomized-selection-with-quickselect-algorithm-dc85845afe3c
-
-This article provides a basic overview of the randomized selection algorithm using the QuickSelect method, with clear code examples in Python.
-
-4. "Randomized Selection (QuickSelect) Algorithm." by Vivek Vardhan. https://www.csestack.org/randomized-selection-quickselect-algorithm/
-
-This article provides a detailed explanation of the QuickSelect algorithm as it applies to randomized selection, with code examples and a discussion of its time complexity.
-
-5. "Randomized selection algorithm." by Wikipedia. https://en.wikipedia.org/wiki/Randomized_selection_algorithm
-
-This article is a comprehensive entry on randomized selection in the online encyclopedia Wikipedia, providing a detailed explanation of the algorithm, its advantages and disadvantages, and additional resources for further study.   
 

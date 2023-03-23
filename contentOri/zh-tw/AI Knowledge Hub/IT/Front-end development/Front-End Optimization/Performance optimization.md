@@ -1,9 +1,10 @@
 +++
 title = "效能優化"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Performance optimization的問題
+給我5題Performance optimization的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "效能優化"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Performance optimization並舉例
+以中文說明Performance optimization並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Performance optimization是一種優化程序，旨在提高系統、軟體、�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Performance optimization的重點
+以中文條列Performance optimization的重點
 {{< /ask_chatgpt >}}
 
 
@@ -76,7 +77,7 @@ Performance optimization是一種優化程序，旨在提高系統、軟體、�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Performance optimization的中等難度問題，並在後面列出答案
+以中文給我5題Performance optimization的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -100,31 +101,4 @@ Performance optimization是一種優化程序，旨在提高系統、軟體、�
 5.問題：如何減少網站的請求次數？
 
 答案：可藉由合併CSS和JS 、使用精靈圖或Base64、選擇適當的圖片格式並進行壓縮、使用CDN、減少http請求等方式來減少網站的請求次數。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Performance optimization的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "10 Tips for Website Performance Optimization" (https://www.cloudflare.com/learning/performance/tips-for-website-performance-optimization/)
-
-This article from Cloudflare offers ten tips for optimizing website performance, including optimizing images and videos, using a content delivery network (CDN), and minimizing HTTP requests.
-
-2. "Website Performance Optimization: Best Practices & Techniques" (https://www.keycdn.com/blog/website-performance-optimization)
-
-KeyCDN provides an in-depth guide to website performance optimization, covering topics such as image optimization, caching, minifying CSS and JavaScript, and leveraging browser caching.
-
-3. "A Comprehensive Guide to Website Performance Optimization" (https://www.abtasty.com/blog/website-performance-optimization-guide/)
-
-AB Tasty offers a comprehensive guide to website performance optimization that covers topics such as improving server response time, optimizing CSS and JavaScript delivery, and reducing the size of web pages.
-
-4. "The Ultimate Website Performance Optimization Guide" (https://www.plesk.com/blog/guides/website-performance-optimization-guide)
-
-Plesk provides a detailed guide to optimizing website performance, covering topics such as optimizing database queries, leveraging browser caching, and using a CDN. The guide also offers tips for optimizing WordPress websites specifically.
-
-5. "Web Performance Optimization Guide" (https://developers.google.com/web/fundamentals/performance/)
-
-Google's Web Performance Optimization Guide offers best practices and techniques for optimizing website performance, including reducing the number of HTTP requests, optimizing images and videos, and improving server response time. The guide also covers topics such as web fonts, JavaScript performance, and resource prioritization.   
 

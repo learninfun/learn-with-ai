@@ -1,9 +1,10 @@
 +++
 title = "模型-視圖-資料繫結 （MVVM）"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Model-View-ViewModel (MVVM)的問題
+給我5題Model-View-ViewModel (MVVM)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "模型-視圖-資料繫結 （MVVM）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Model-View-ViewModel (MVVM)並舉例
+以中文說明Model-View-ViewModel (MVVM)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Model-View-ViewModel (MVVM)的重點
+以中文條列Model-View-ViewModel (MVVM)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Model-View-ViewModel (MVVM)的中等難度問題，並在後面列出答案
+以中文給我5題Model-View-ViewModel (MVVM)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,31 +78,4 @@ Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程�
 
 5. 在MVVM中，如何實現跨平台開發？有哪些工具和框架可以使用？
 答：MVVM框架和Xamarin是常見的跨平台開發工具。Xamarin是一個跨平台的應用開發平台，可以使開發人員使用C#和.NET Framework等熟悉的技術開發IOS、Android和Windows等各種平台的應用程序。常見的MVVM框架有Prism、MvvmCross和FreshMVVM等，可以用來簡化MVVM的開發過程。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Model-View-ViewModel (MVVM)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. MVVM Design Pattern: A Guide for Beginners (https://www.toptal.com/windows/mvvm-windows-8-1)
-
-This article provides a beginner's guide to the Model-View-ViewModel design pattern. It covers the basics of how the pattern works and how it can be used in Windows 8.1 applications. The article also provides examples of how to implement the pattern in a sample application.
-
-2. MVVM pattern - Introduction (https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
-
-This article from Microsoft provides an introduction to the Model-View-ViewModel (MVVM) pattern, including its benefits and how it can be used in Xamarin.Forms applications. It also provides guidance on how to implement the pattern in Xamarin.Forms.
-
-3. Understanding Model-View-ViewModel (MVVM) (https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm)
-
-This tutorial from TutorialsPoint provides a comprehensive explanation of the Model-View-ViewModel (MVVM) pattern, including its advantages and how it can be used in software architecture. It also covers the key components of MVVM and how they interact with each other.
-
-4. What is MVVM? Model-View-ViewModel Explained (https://www.codementor.io/@karthikramasamy1994/what-is-mvvm-model-view-view-model-explained-oozhr0a1u)
-
-This article from Codementor explains the Model-View-ViewModel (MVVM) pattern and how it can be used in software development. It also covers the benefits of MVVM and provides practical examples of using the pattern in real-world applications.
-
-5. Building a Universal Windows Platform App: The Model-View-ViewModel (MVVM) Design Pattern (https://www.c-sharpcorner.com/article/building-a-universal-windows-platform-app-the-mvvm-design-pattern/)
-
-This article from C# Corner provides an introduction to the Model-View-ViewModel (MVVM) pattern and how it can be used to develop mobile applications for the Universal Windows Platform (UWP). It also provides practical examples of how to implement MVVM in a sample UWP application.   
 

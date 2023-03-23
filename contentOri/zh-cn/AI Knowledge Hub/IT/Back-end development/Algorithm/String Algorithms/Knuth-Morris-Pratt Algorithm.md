@@ -1,5 +1,6 @@
 +++
 title = "Knuth-Morris-Pratt演算法"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -111,12 +112,12 @@ KMP算法的时间复杂度为O(n+m)，其中n和m分别是主串和模式串的
    KMP算法的基本想法是，當匹配錯誤發生時，已經匹配的那些字符很可能包含有關我們可以跳過的位置的信息，因此可以使用這些信息進行匹配，跳過一些不必要的字符。 
    
    
-2. 問題：给定一个字符数组和一个模式串，返回模式在字符数组中的所有匹配位置（字符串可以重叠）。
+2. 問題：給定一個字符數組和一個模式串，返回模式在字符數組中的所有匹配位置（字符串可以重疊）。
    答案: KMP算法
    解答:
    KMP算法是一種用於查找字符串中子串的快速算法。基於該算法，可以實現一個函數或類，用於在文章中查找指定的關鍵字，或在編輯器中查找指定的代碼片段。 
    
-3. 問題：给定一个文本串和一个模式串，将文本串中与模式串匹配的字符替换为另一指定字符。
+3. 問題：給定一個文本串和一個模式串，將文本串中與模式串匹配的字符替換為另一指定字符。
    答案: KMP算法
    解答:
    KMP算法通常使用在字符串匹配問題上。但是，當使用KMP算法將一個字符串保存到另一個字符串中時，也可以將其視為字符串匹配問題。可以逐個字母遍歷字符串，將找到的字符替換成另一個字符。 
@@ -130,26 +131,4 @@ KMP算法的时间复杂度为O(n+m)，其中n和m分别是主串和模式串的
    答案: KMP算法
    解答:
    KMP算法可以用於查找文本串中所有匹配模式串的字符。使用KMP算法時，可以選擇是否需要計算和返回所有匹配字符的個數。在使用KMP算法時，可以要求函數或類將計數和返回值分開處理。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Knuth-Morris-Pratt Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. 维基百科 - Knuth-Morris-Pratt算法
-https://zh.wikipedia.org/wiki/Knuth-Morris-Pratt%E7%AE%97%E6%B3%95
-
-2. GeeksforGeeks - Knuth-Morris-Pratt (KMP) Algorithm
-https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
-
-3. TutorialsPoint - Knuth-Morris-Pratt Algorithm
-https://www.tutorialspoint.com/Knuth-Morris-Pratt-algorithm
-
-4. Brilliant - Knuth-Morris-Pratt Algorithm
-https://brilliant.org/wiki/knuth-morris-pratt-algorithm/
-
-5. Programiz - Knuth-Morris-Pratt (KMP) Algorithm
-https://www.programiz.com/dsa/knuth-morris-pratt-algorithm   
 

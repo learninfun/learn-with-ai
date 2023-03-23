@@ -1,9 +1,10 @@
 +++
 title = "模組打包器"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Module bundlers的問題
+給我5題Module bundlers的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "模組打包器"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Module bundlers並舉例
+以中文說明Module bundlers並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Module bundlers是一種將多個模組(Module)合併成單一檔案的工具，
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Module bundlers的重點
+以中文條列Module bundlers的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Module bundlers是一種將多個模組(Module)合併成單一檔案的工具，
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Module bundlers的中等難度問題，並在後面列出答案
+以中文給我5題Module bundlers的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -74,26 +75,4 @@ Module bundlers是一種將多個模組(Module)合併成單一檔案的工具，
 5. 請問 Rollup 與 Webpack 有哪些不同點？
 
 答：Rollup 的優點是產生的 bundle 更小、更快，並且更適合用於打包開源庫等程式庫，而 Webpack 則更適合用於打包應用程式，並且支援更多的優化方式，如 Tree Shaking、Code Splitting 等。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Module bundlers的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Webpack" from the official website of Webpack
-https://webpack.js.org/
-
-2. "An Introduction to JavaScript Module Bundling with Webpack" by Tania Rascia on Scotch.io
-https://scotch.io/tutorials/javascript-module-bundling-an-introduction-with-webpack
-
-3. "Beginner's guide to Webpack" by Sumit Kumar on Medium
-https://medium.com/@souravdey/beginners-guide-to-webpack-b63d18bc7db#.emlt24sv4
-
-4. "Getting Started with Browserify and Gulp" by Blake Embrey on SitePoint
-https://www.sitepoint.com/getting-started-browserify-gulp/
-
-5. "Understanding JavaScript Modules: Bundling & Transpiling" by T.J. VanToll on Telerik Developer Network
-http://developer.telerik.com/content-types/tutorials/understanding-javascript-modules-bundling-transpiling/   
 

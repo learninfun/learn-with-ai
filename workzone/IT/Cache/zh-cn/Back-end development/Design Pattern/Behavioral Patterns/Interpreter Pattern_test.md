@@ -12,4 +12,4 @@
 2. Interpreter Pattern适合用于需要解释一些复杂的语法或表达式的场景，例如解释正则表达式、编程语言的语法等。
 3. Abstract Expression用于定义表达式的解释方法，包含接受方法，可以实现表达式的递归解释。
 4. Terminal Expression可以直接实现表达式的解释。它构成表达式的基本组成单位，终止表达式的递归处理。
-5. Interpreter Pattern和Visitor Pattern都是行为型模式，但是它们所关注的重点不同。Interpreter Pattern用于对语言中的表达式进行解释，而Visitor Pattern用于对一个对象进行操作。
+5. Interpreter Pattern和Visitor Pattern都是行为型模式，但是它们所关注的重点不同。Interpreter Pattern用于对语言中的表达式进行解释，而Visitor Pattern用于对一个对像进行操作。

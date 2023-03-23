@@ -1,9 +1,10 @@
 +++
 title = "安全的軟體開發生命週期（SDLC）"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Secure Software Development Lifecycle (SDLC)的問題
+給我5題Secure Software Development Lifecycle (SDLC)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "安全的軟體開發生命週期（SDLC）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Secure Software Development Lifecycle (SDLC)並舉例
+以中文說明Secure Software Development Lifecycle (SDLC)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +58,7 @@ Secure Software Development Lifecycle（SDLC）包括以下階段：
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Secure Software Development Lifecycle (SDLC)的重點
+以中文條列Secure Software Development Lifecycle (SDLC)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -84,7 +85,7 @@ Secure Software Development Lifecycle（SDLC）包括以下階段：
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Secure Software Development Lifecycle (SDLC)的中等難度問題，並在後面列出答案
+以中文給我5題Secure Software Development Lifecycle (SDLC)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -103,36 +104,4 @@ Secure Software Development Lifecycle（SDLC）包括以下階段：
 
 5. Secure SDLC 如何與開發方法相關聯？
 答案：Secure SDLC 可以與各種開發方法相關聯，如敏捷、瀑布、DevOps等。集成Secure SDLC 的開發方法可以在整個軟件開發生命週期中注重安全性，同時也可以更快速地引入和修復安全漏洞。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Secure Software Development Lifecycle (SDLC)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Secure Software Development Lifecycle (SSDLC)" by OWASP: 
-https://owasp.org/www-project-sd-lifecycle/
-
-This resource provides an overview of the Secure Software Development Lifecycle (SSDLC) which is a model for integrating security into the software development process. It describes the various stages of the SSDLC and provides guidance on how to implement it in an organization.
-
-2. "Secure Software Development Lifecycle (SDLC)" by Purdue University: 
-https://www.cs.purdue.edu/homes/xd/Publications/Secure-SDLC-White-Paper-2017.pdf
-
-This whitepaper from Purdue University provides an in-depth discussion of the Secure Software Development Lifecycle (SDLC). It includes information on the principles of secure software development, as well as specific examples and recommendations for implementing an effective SDLC.
-
-3. "Secure Software Development Lifecycle (SSDLC) Best Practices" by Synopsys: 
-https://www.synopsys.com/blogs/software-security/secure-software-development-lifecycle-ssdlc-best-practices/
-
-This blog post by Synopsys provides an overview of the key aspects of a Secure Software Development Lifecycle (SSDLC). It includes recommendations for mitigating security risks at various stages of the software development process and highlights common mistakes to avoid.
-
-4. "The Secure Software Development Lifecycle: The Definitive Guide" by Checkmarx: 
-https://www.checkmarx.com/resources/guides/secure-software-development-lifecycle/
-
-Checkmarx』s comprehensive ebook provides a detailed discussion of the Secure Software Development Lifecycle (SSDLC), including how to implement it in an organization. The guide covers best practices, common challenges, and strategies for success in each stage of the SSDLC.
-
-5. "Secure Software Development Lifecycle (SSDLC) vs. Traditional SDLC" by IT Governance: 
-https://www.itgovernance.co.uk/blog/secure-software-development-lifecycle-ssdlc-vs-traditional-sdlc
-
-This blog post from IT Governance compares the Secure Software Development Lifecycle (SSDLC) to the traditional SDLC, highlighting the key differences between the two approaches. It provides insights into why SSDLC is gaining in popularity and how to implement it effectively in an organization.   
 

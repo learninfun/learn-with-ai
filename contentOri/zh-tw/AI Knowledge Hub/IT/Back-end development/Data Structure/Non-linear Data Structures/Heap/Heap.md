@@ -1,9 +1,10 @@
 +++
 title = "堆"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Heap的問題
+給我5題Heap的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "堆"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Heap並舉例
+以中文說明Heap並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ Heap是一種樹形資料結構，其中每個節點都具有一個值，並且�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Heap的重點
+以中文條列Heap的重點
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +54,7 @@ Heap是一種樹形資料結構，其中每個節點都具有一個值，並且�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Heap的中等難度問題，並在後面列出答案
+以中文給我5題Heap的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -65,36 +66,4 @@ Heap是一種樹形資料結構，其中每個節點都具有一個值，並且�
 5. LeetCode 295. Find Median from Data Stream
 
 答案不提供，希望試著自己解決問題。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Heap的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Heap Data Structure: Introduction, Implementation, and Applications 
-https://www.geeksforgeeks.org/heap-data-structure/#intro 
-
-This article provides an introduction to heap data structure, including its definition and applications. It also offers thorough explanations of heap operations and implementation in C++ programming language. 
-
-2. Heap (data structure) - Wikipedia 
-https://en.wikipedia.org/wiki/Heap_(data_structure)
-
-This wikipedia page contains comprehensive information about heap data structure, including its history, types, and analysis. It also offers a step-by-step visual guide in understanding heap operation. 
-
-3. Heap Sort Algorithm – How it works? - The Crazy Programmer
-https://www.thecrazyprogrammer.com/2016/11/heap-sort-algorithm-program.html
-
-This article discusses the Heap Sort algorithm, which utilizes heap data structure to sort elements in ascending or descending order. It presents a sample code in C programming language for easy comprehension. 
-
-4. The Heap Data Structure – A First Approach - CS50 Docs
-https://cs50.readthedocs.io/heap.html
-
-This resource provides a beginner-friendly explanation of heap data structure, illustrating its properties and operations using Python programming language. It also comes with suggested exercises to improve understanding. 
-
-5. Heap Data Structure - Tutorialspoint
-https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
-
-This tutorial discusses the various operations of heap data structure, such as insertion, deletion, and heapifying. It also features an example of Heap Sort algorithm in Java programming language.   
 

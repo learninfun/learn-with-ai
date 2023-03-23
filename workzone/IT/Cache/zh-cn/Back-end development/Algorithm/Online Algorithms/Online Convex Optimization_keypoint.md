@@ -1,13 +1,17 @@
 
 
-1. Online Convex Optimization is a method for solving optimization problems where the objective function is not known in advance.
+1. 在online convex optimization中，目标是最小化目标函数的平均值，其中目标函数由一系列损失函数组成。
 
-2. Online Convex Optimization algorithms are designed to handle situations where the data arrives in a stream and is not pre-processed.
+2. 在每一个时刻，线性预测器被用来进行预测，然后依据实际数据进行调整。
 
-3. Online Convex Optimization algorithms make use of the gradient of the objective function to update the solution as new data arrives.
+3. 此外，施加条件限制可以帮助改进收敛速度。
 
-4. The performance of Online Convex Optimization algorithms is typically measured by the regret, which is the difference between the objective function value of the algorithm and that of the optimal solution.
+4. 机器学习中常用的支持向量机模型就是基于online convex optimization的算法之一。
 
-5. The main advantage of Online Convex Optimization is that it allows for fast adaptation to changing environments and can be used in a wide range of applications, such as machine learning, signal processing, and control.
+5. 选择不同的损失函数可以使得算法适用于不同的问题，例如线性回归、分类、排序等。
 
-6. Online Convex Optimization has many practical applications, including online advertising, recommendation systems, and financial modeling.
+6. 选择适当的学习率可以改善算法的收敛速度和准确性。
+
+7. 不断适应新数据的能力使得online convex optimization适合处理大数据问题。
+
+8. 最终的模型应该基于所有过去数据的平均值，而不是只依赖最新的一个数据点。

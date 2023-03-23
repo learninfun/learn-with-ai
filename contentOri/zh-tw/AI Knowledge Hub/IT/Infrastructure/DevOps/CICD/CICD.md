@@ -1,9 +1,10 @@
 +++
 title = "持續集成/持續交付"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題CICD的問題
+給我5題CICD的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "持續集成/持續交付"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明CICD並舉例
+以中文說明CICD並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ CICD是指Continuous Integration（持續集成）和Continuous Delivery（持�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列CICD的重點
+以中文條列CICD的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ CICD是指Continuous Integration（持續集成）和Continuous Delivery（持�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題CICD的中等難度問題，並在後面列出答案
+以中文給我5題CICD的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -80,26 +81,4 @@ CICD是指Continuous Integration（持續集成）和Continuous Delivery（持�
 5. 如何實現CI/CD流程的可視化和監控？
 
 答案：可以使用監控工具和數據可視化工具，例如Grafana，Prometheus，Elastic Stack等來實現對CI/CD流程的監控和可視化。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇CICD的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is CI/CD? Continuous integration and continuous delivery explained" - TechBeacon
-https://techbeacon.com/devops/what-cicd-continuous-integration-continuous-delivery-explained
-
-2. "A Beginner's Guide to CI/CD" - Dzone
-https://dzone.com/articles/a-beginners-guide-to-cicd
-
-3. "CI/CD: Best practices for continuous integration and delivery" - InfoWorld
-https://www.infoworld.com/article/3543202/ci-cd-best-practices-for-continuous-integration-and-delivery.html
-
-4. "The Benefits of Adopting Continuous Integration and Continuous Delivery (CI/CD)" - DevOps.com
-https://devops.com/the-benefits-of-adopting-continuous-integration-and-continuous-delivery-ci-cd/
-
-5. "Continuous Integration and Continuous Deployment: The Essentials" - IBM
-https://www.ibm.com/cloud/learn/continuous-integration-and-continuous-deployment-essentials   
 

@@ -1,22 +1,27 @@
 +++
 title = "圖形上的動態規劃"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dynamic Programming on Graphs的問題
+給我5題Dynamic Programming on Graphs的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. Longest Path in a Directed Acyclic Graph (DAG): Given a DAG, find the longest path from a source vertex to a sink vertex.
-2. Shortest Path in a weighted DAG: Given a DAG with weighted edges, find the shortest path from a source vertex to all other vertices.
-3. Travelling Salesman Problem (TSP): Given a complete weighted graph, find the shortest possible route that visits every vertex exactly once and returns to the starting vertex.
-4. Maximum Flow in a graph: Given a graph with capacities on the edges, find the maximum flow that can be sent from a source vertex to a sink vertex.
-5. Minimum Spanning Tree (MST): Given a weighted graph, find a subset of edges that connects all vertices and their total weight is minimized.   
+1. 在一個有向圖中，從起點到終點有多少條路徑可以經過恰好k個邊？
+
+2. 在一個加權有向圖中，找到起點到終點的最短路徑。
+
+3. 已知一個無向圖，選出一些邊使得所得的圖是一棵樹，並且所有邊權值總和最小。
+
+4. 在一個有向圖中，找到從起點到終點的任意一條路徑上權值最小的邊的權值。
+
+5. 已知一個有向無環圖（DAG），計算從起點到終點的最長路徑長度。   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dynamic Programming on Graphs並舉例
+以中文說明Dynamic Programming on Graphs並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,7 +43,7 @@ title = "圖形上的動態規劃"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dynamic Programming on Graphs的重點
+以中文條列Dynamic Programming on Graphs的重點
 {{< /ask_chatgpt >}}
 
 
@@ -69,7 +74,7 @@ title = "圖形上的動態規劃"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dynamic Programming on Graphs的中等難度問題，並在後面列出答案
+以中文給我5題Dynamic Programming on Graphs的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -98,21 +103,4 @@ title = "圖形上的動態規劃"
 在一個帶有權重的有向無環圖中，尋找其中一條環。
 
 答案：https://www.acwing.com/problem/content/description/2577/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Dynamic Programming on Graphs的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dynamic Programming on Graphs" by Erik D. Demaine and MIT OpenCourseWare: This course provides an introduction to the techniques and algorithms used in dynamic programming on graphs, with a focus on a variety of applications including shortest paths, minimum spanning trees, network flow, and more.
-
-2. "Dynamic Programming on Graphs" by Philip N. Klein: This paper discusses various graph algorithms based on dynamic programming, including the Bellman-Ford algorithm for shortest paths, Dijkstra's algorithm for single-source shortest paths, and more.
-
-3. "Dynamic Programming on Graphs with Applications to Optimization and Control" by Emre Kiciman: This article provides an overview of dynamic programming on graphs, with a focus on applications to optimization and control problems.
-
-4. "Dynamic Programming on Graphs: An Exercise in Graph Algorithms and Optimization" by Bertrand M. Hochreiter: This paper discusses dynamic programming optimization techniques for problems in graph theory, including graphs with cycles and DAGs.
-
-5. "Optimizing Graph Algorithms using Dynamic Programming" by Michael Mitzenmacher: This article provides an in-depth look at how dynamic programming techniques can be used to optimize graph algorithms, including graph coloring, minimum spanning trees, and more.   
 

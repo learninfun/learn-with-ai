@@ -1,9 +1,10 @@
 +++
 title = "漸進符號"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Asymptotic Notations的問題
+給我5題Asymptotic Notations的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "漸進符號"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Asymptotic Notations並舉例
+以中文說明Asymptotic Notations並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,30 +44,22 @@ Big O Notation 用於描述算法最壞情況下的時間複雜度。當輸入�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Asymptotic Notations的重點
+以中文條列Asymptotic Notations的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Asymptotic notations are mathematical tools used in the analysis of algorithms that describe the growth rate of the algorithm as the input size increases.
-
-2. The three most commonly used asymptotic notations are big O, omega, and theta.
-
-3. Big O notation is used to provide an upper bound on the growth rate of the algorithm, whereas omega notation provides a lower bound.
-
-4. Theta notation provides a tight bound on the growth rate, where the algorithm's growth rate is between a constant multiple of the upper and lower bounds.
-
-5. Asymptotic notations are used to compare the efficiency of different algorithms and to determine the best algorithm for a specific problem.
-
-6. Asymptotic notations are represented by mathematical symbols, and the growth rate is expressed as a function of the input size.
-
-7. Different input sizes may have different growth rates, but the asymptotic notations provide a way to compare the algorithms' efficiency regardless of the input size.
-
-8. Asymptotic notations are used in the design and analysis of algorithms, computer science, and other related fields.   
+1. 渐进符号代表算法的运行时间在大规模输入情况下的增长速度。
+2. 渐进符号分为大O符号、Ω符号和Θ符号。
+3. 大O符号表示算法的最坏运行时间，即在所有输入情况下，算法的运行时间都不会超过O(某个函数)。
+4. Ω符号表示算法的最好运行时间，即在某些输入情况下，算法的运行时间不会低于Ω(某个函数)。
+5. Θ符号代表算法的平均运行时间或者所有输入情况下的紧密边界，即算法的运行时间在Θ(某个函数)。
+6. 渐近符号不表示精确的运行时间，但它们提供了有关算法运行时间增长速度的重要信息。
+7. 渐进符号通常用于分析算法的复杂度，并比较不同算法之间的性能。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Asymptotic Notations的中等難度問題，並在後面列出答案
+以中文給我5題Asymptotic Notations的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,36 +83,4 @@ Big O Notation 用於描述算法最壞情況下的時間複雜度。當輸入�
 5. 給定一個算法的時間複雜度為O(1)，請問此算法的執行時間是否隨著n的增加而增加？
 
 答案：此算法的執行時間不會隨著n的增加而增加，而是恆定的。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Asymptotic Notations的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Asymptotic Notations in Algorithm Analysis:
-https://www.geeksforgeeks.org/asymptotic-notations-algorithm-analysis/
-
-This article from GeeksforGeeks explains the concept of asymptotic notations along with various examples. It discusses Big O, Big Omega, and Big Theta notations and their significance in analyzing the time complexity of algorithms. The author highlights the importance of asymptotic notations for determining the efficiency of an algorithm.
-
-2. Asymptotic Notations in Data Structures and Algorithms:
-https://www.tutorialspoint.com/asymptotic-notations-in-data-structures-and-algorithms
-
-This tutorial from TutorialsPoint explains the basics of asymptotic notations and their application in data structures and algorithms. It covers Big O, Big Omega, and Big Theta functions, and explains how to derive asymptotic bounds for various algorithms. The article also provides practical examples to illustrate the use of asymptotic notations.
-
-3. Asymptotic Notation – Big O, Big Theta, and Big Omega:
-https://www.interviewbit.com/courses/programming/topics/asymptotic-notation/
-
-This tutorial from InterviewBit discusses the three asymptotic notations - Big O, Big Theta, and Big Omega - and how they are used to describe the time complexity of algorithms. It provides examples to illustrate the differences between these notations and demonstrates how to analyze the efficiency of an algorithm using asymptotic notations.
-
-4. Understanding Asymptotic Notations in Algorithm Analysis:
-https://www.baeldung.com/cs/asymptotic-notations-algorithm-analysis
-
-This article from Baeldung provides an in-depth understanding of asymptotic notations and how they are used to analyze the performance of algorithms. It covers Big O, Big Omega, and Big Theta notations and their properties. The author explains how to calculate the time complexity of various algorithms using asymptotic notations and provides coding examples to illustrate the concept.
-
-5. Asymptotic Notations in Computer Science:
-https://www.educative.io/courses/algorithms-data-structures-for-developers/gmOZeGdGl1p
-
-This tutorial from Educative covers the basics of asymptotic notations and their importance in computer science. It explains the concept of worst-case analysis and demonstrates how to determine the time complexity of algorithms using Big O notation. The tutorial also discusses common pitfalls and mistakes when using asymptotic notations and provides useful tips to avoid them.   
 

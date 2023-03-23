@@ -1,3 +1,7 @@
++++
+title = "Micro Service"
+weight = "6"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Micro Service
@@ -77,21 +81,4 @@ Answer: Microservices typically use a database per service approach, where each 
 5. What are some common challenges of working with a microservice architecture, and how can they be addressed?
 
 Answer: Some common challenges of working with a microservice architecture include complexity in managing service interactions, ensuring data consistency across multiple services, and maintaining the correct service dependencies. These challenges can be addressed through thoughtful service design, the use of API gateways to manage interactions, and implementing practices like service discovery and circuit breaking to mitigate failures.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Micro Service
-{{< /ask_chatgpt >}}
-
-
-
-1. Microservices.io: This is a comprehensive introduction to microservices and offers a wealth of information and resources on the subject, including articles, tutorials, books, and case studies. The site is maintained by Richard Rodger, an expert in distributed systems, and provides an overview of the key concepts, benefits, and challenges of microservices.
-
-2. Martin Fowler: Martin Fowler is a well-known software engineering expert who has written extensively about microservices. His website offers a range of articles, talks, and presentations that cover different aspects of microservices, including architecture, implementation, testing, and deployment. The site is a great starting point for anyone looking to learn more about microservices from one of the industry's leading voices.
-
-3. Kubernetes: Kubernetes is a popular container orchestration platform that is often used to deploy and manage microservices. The Kubernetes website provides a useful introduction to microservices, explaining how they differ from monolithic architectures and outlining the benefits of using a container-based approach. The site also offers tutorials and guides on how to deploy and manage microservices using Kubernetes.
-
-4. Amazon Web Services: Amazon Web Services (AWS) is one of the leading cloud computing providers and offers a range of tools and services that are well-suited for microservices architectures. The AWS website provides an introduction to microservices, outlining the key benefits and challenges of this approach, and explaining how AWS can help you build and deploy microservices at scale.
-
-5. IBM Developer: IBM Developer is an online resource for developers that offers a range of tutorials, articles, and tools for building modern applications, including microservices. The site provides an introductory guide to microservices that covers the basic concepts, architecture, and implementation strategies. It also offers practical advice on how to design, develop, and deploy microservices using IBM tools and services.   
 

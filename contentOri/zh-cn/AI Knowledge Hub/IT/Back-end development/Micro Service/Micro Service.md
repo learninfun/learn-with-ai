@@ -1,5 +1,6 @@
 +++
 title = "微服务"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -80,26 +81,4 @@ Micro Service是一種軟體設計模式，它將大型的複雜應用程式拆�
 
 5. 如何實現微服務的自動化部署？
 答：可以使用容器技術、CI/CD管道、自動化測試等方式進行自動化部署。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Micro Service的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "微服務架構（Microservice Architecture）介紹"
-   網址：https://www.ithome.com.tw/news/96058
-
-2. "Microservices: The pros and cons"
-   網址：https://www.techrepublic.com/article/microservices-the-pros-and-cons/
-
-3. "What Are Microservices and Why Are They Important?"
-   網址：https://www.redhat.com/en/topics/microservices/what-are-microservices
-
-4. "10 Benefits of Microservices Architecture for Modern Apps"
-   網址：https://www.cabottechnology.com/blog/10-benefits-of-microservices-architecture-for-modern-apps/
-
-5. "Comparing Monolithic, SOA, and Microservices Architectures"
-   網址：https://www.tatvasoft.com/blog/comparing-monolithic-soa-and-microservices-architectures   
 

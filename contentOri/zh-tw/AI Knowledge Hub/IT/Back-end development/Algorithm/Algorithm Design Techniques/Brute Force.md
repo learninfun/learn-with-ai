@@ -1,9 +1,10 @@
 +++
 title = "暴力算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Brute Force的問題
+給我5題Brute Force的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "暴力算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Brute Force並舉例
+以中文說明Brute Force並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ Brute Force（蠻力破解）是一種基於暴力嘗試所有可能性的攻擊
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Brute Force的重點
+以中文條列Brute Force的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ Brute Force（蠻力破解）是一種基於暴力嘗試所有可能性的攻擊
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Brute Force的中等難度問題，並在後面列出答案
+以中文給我5題Brute Force的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -71,17 +72,4 @@ Brute Force（蠻力破解）是一種基於暴力嘗試所有可能性的攻擊
    
 5. 題目：給定一個由'a'和'b'組成的字符串s，請計算s中最長的連續子串，滿足其中'a'的個數等於'b'的個數。
    答案：該問題可以使用暴力枚舉法進行解答，即對於s的每個子串，都計算其中'a'和'b'的個數，如果相等，就繼續向後拓展，求出最長的符合條件的連續子串長度。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Brute Force的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Brute Force Attack". OWASP Foundation. https://owasp.org/www-community/attacks/Brute_force_attack
-2. "Brute-Force Attacks Explained". Imperva. https://www.imperva.com/learn/application-security/brute-force-attack/
-3. "The Basics of Brute Force Attacks". ESET. https://www.eset.com/int/blog/threat-explainer/the-basics-of-brute-force-attacks/
-4. "How Brute Force Attacks Work and How to Stop Them". Norton. https://us.norton.com/internetsecurity-malware-what-is-a-brute-force-attack.html
-5. "What is Brute Force Hacking and How can you Prevent It?". Techradar. https://www.techradar.com/news/what-is-brute-force-hacking-and-how-can-you-prevent-it   
 

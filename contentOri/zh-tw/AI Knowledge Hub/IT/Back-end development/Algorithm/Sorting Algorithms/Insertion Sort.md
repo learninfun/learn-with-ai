@@ -1,9 +1,10 @@
 +++
 title = "插入排序"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Insertion Sort的問題
+給我5題Insertion Sort的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "插入排序"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Insertion Sort並舉例
+以中文說明Insertion Sort並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -75,7 +76,7 @@ title = "插入排序"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Insertion Sort的重點
+以中文條列Insertion Sort的重點
 {{< /ask_chatgpt >}}
 
 
@@ -89,7 +90,7 @@ title = "插入排序"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Insertion Sort的中等難度問題，並在後面列出答案
+以中文給我5題Insertion Sort的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -113,36 +114,4 @@ title = "插入排序"
 5. 設計一個Insertion Sort的演算法，將一個隨機排列的整數陣列排序，並詳細解釋演算法思路和時間複雜度。
 
 答案： 由於Insertion Sort在最壞情況下的時間複雜度為O(n^2)，因此在隨機排列的陣列上，Insertion Sort的平均時間複雜度為O(n^2)。首先，將第一個元素當作已排好序的部分。然後，從第二個元素開始，遍歷整個陣列，每次將當前元素插入到已排好序的部分中的適當位置。插入時，可以倒序遍歷已排好序的部分，找到合適的位置。最終，整個陣列都會被排序。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Insertion Sort的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Insertion Sort
-https://www.geeksforgeeks.org/insertion-sort/
-
-This article provides a detailed explanation of insertion sort with an example. It covers the algorithm, time and space complexity, advantages and disadvantages, and more.
-
-2. TutorialsPoint: Insertion Sort
-https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm
-
-This article provides a simple explanation of insertion sort with an example code snippet in C. It also covers the time and space complexity and the working of insertion sort.
-
-3. Programiz: Insertion Sort
-https://www.programiz.com/dsa/insertion-sort
-
-This article provides a step-by-step tutorial on how to sort an array using insertion sort. It includes an example program, time and space complexity, and variations of insertion sort.
-
-4. Studytonight: Insertion Sort Algorithm
-https://www.studytonight.com/data-structures/insertion-sort
-
-This article provides an explanation of insertion sort with an example program in Java. It also covers concepts like stability, adaptivity, and in-place sorting.
-
-5. Hackerearth: Insertion Sort
-https://www.hackerearth.com/practice/algorithms/sorting/insertion-sort/tutorial/
-
-This article provides a quick and easy-to-understand explanation of insertion sort with a step-by-step approach. It includes an example program in C++ and discusses the time and space complexity of insertion sort.   
 

@@ -1,5 +1,6 @@
 +++
 title = "表格法"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -66,172 +67,18 @@ Tabulation方法可以大大簡化動態規劃問題的求解過程。它還可�
 
 
 
-1. Problem statement: 
-Given an integer n, write a function to return the count of possible ways to climb n stairs. You can climb 1 or 2 stairs at a time.
+1.问题：斐波那契数列的第 n 项是什么？
+答案：1,1,2,3,5,8,13，...
 
-Answer: 
+2.问题：给定一个整数数组和一个目标值，找到数组中和为目标值的两个数字的索引。
+答案：[0,1]
 
-def climb_stairs(n):
-    if n == 1:
-        return 1
-    if n == 2:
-        return 2
-    table = [0]*(n+1)
-    table[1] = 1
-    table[2] = 2
-    for i in range(3, n+1):
-        table[i] = table[i-1] + table[i-2]
-    return table[n]
+3.问题：给定一个非空字符串 s 和一个字典 wordDict ，判断 s 是否可以被空格拆分成一个或多个在字典中出现的单词。
+答案：True
 
-Example input: climb_stairs(5)
-Example output: 8
+4.问题：给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+答案：6 （从第一位开始，连续的子数组可为 [−2,1,−3,4,-1,2,1,-5,4]，最大连续子数组为 [4,-1,2,1]，其和为 6）
 
-2. Problem statement: 
-Given an array of integers, find the maximum sum subsequence where the subsequence contains no adjacent elements.
-
-Answer: 
-
-def max_sum_subseq(arr):
-    n = len(arr)
-    if n == 0:
-        return 0
-    if n == 1:
-        return arr[0]
-    table = [0]*n
-    table[0] = arr[0]
-    table[1] = max(arr[0], arr[1])
-    for i in range(2, n):
-        table[i] = max(table[i-2]+arr[i], table[i-1])
-    return table[n-1]
-
-Example input: max_sum_subseq([5, 1, 1, 5])
-Example output: 10
-
-3. Problem statement: 
-Given a list of non-negative integers, find the maximum sum of a subsequence with the constraint that no two numbers in the sequence should be adjacent in the array.
-
-Answer: 
-
-def max_sum_nonadj(arr):
-    n = len(arr)
-    if n == 0:
-        return 0
-    if n == 1:
-        return arr[0]
-    table = [0]*n
-    table[0] = arr[0]
-    table[1] = max(arr[0], arr[1])
-    for i in range(2, n):
-        table[i] = max(table[i-2]+arr[i], table[i-1])
-    return table[n-1]
-
-Example input: max_sum_nonadj([3, 2, 5, 10, 7])
-Example output: 15
-
-4. Problem statement: 
-Given an array arr of n integers, construct a Maximum Sum Subsequence of the given array where no two consecutive elements in the subsequence are adjacent in the given array.
-
-Answer: 
-
-def max_sum_nocnx(arr):
-    n = len(arr)
-    if n == 0:
-        return []
-    if n == 1:
-        return [arr[0]]
-    table = [0]*n
-    table[0] = arr[0]
-    table[1] = max(arr[0], arr[1])
-    for i in range(2, n):
-        table[i] = max(table[i-2]+arr[i], table[i-1])
-    subseq = []
-    i = n-1
-    while i >= 0:
-        if i == 0:
-            subseq.append(arr[i])
-            break
-        elif i == 1:
-            subseq.append(arr[i-1])
-            break
-        elif table[i]-table[i-2] == arr[i]:
-            subseq.append(arr[i])
-            i -= 2
-        else:
-            i -= 1
-    subseq.reverse()
-    return subseq
-
-Example input: max_sum_nocnx([3, 2, 5, 10, 7])
-Example output: [3, 5, 7]
-
-5. Problem statement: 
-Given a list of strings, return the largest word you can create by concatenating subsequent words together.
-
-Answer: 
-
-def largest_conc_word(words):
-    n = len(words)
-    if n == 0:
-        return ''
-    table = [[]]*(n+1)
-    table[0] = ['']
-    for i in range(1, n+1):
-        maxlen = 0
-        maxidx = 0
-        for j in range(i):
-            if len(words[j]) > maxlen and words[i-1].startswith(words[j]):
-                maxlen = len(words[j])
-                maxidx = j
-        table[i] = table[maxidx] + [words[i-1]]
-    return ''.join(max(table, key=len))
-
-Example input: largest_conc_word(['cat', 'dog', 'catdog'])
-Example output: 'catdog'   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Tabulation的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. GDP by Country
-Country | 2017 GDP (in Trillions) | 2018 GDP (in Trillions) | % Change
-United States | 19.39 | 20.49 | 5.67%
-China | 12.24 | 13.61 | 11.16%
-Japan | 4.87 | 4.97 | 2.12%
-Germany | 3.68 | 3.94 | 7.07%
-United Kingdom | 2.62 | 2.63 | 0.38%
-
-2. Smartphone Market Share by Brand
-Brand | Q3 2021 Market Share | Q3 2020 Market Share | % Change
-Samsung | 19.2% | 21.9% | -2.7%
-Apple | 15.7% | 11.9% | 3.8%
-Xiaomi | 13.9% | 10.5% | 3.1%
-Oppo | 10.2% | 8.2% | 2.0%
-Vivo | 9.0% | 8.0% | 1.0%
-
-3. Top 5 Most Visited Websites
-Website | Monthly Traffic (estimated) | Country of Origin
-Google | 94.4 billion | United States
-YouTube | 34.6 billion | United States
-Facebook | 25.5 billion | United States
-Baidu | 11.3 billion | China
-Wikipedia | 8.6 billion | United States
-
-4. Average Hourly Wages by Occupation
-Occupation | Average Hourly Wage | % Change since 2019
-Registered Nurse | $36.22 | 4.7%
-Software Developer | $54.03 | 2.1%
-Security Guard | $14.32 | 2.2%
-Accountant | $28.22 | 1.8%
-Construction Worker | $21.39 | 3.5%
-
-5. Global Carbon Emissions by Country
-Country | 2019 Emissions (in million metric tons) | % of Global Total
-China | 10,170 | 29.7%
-United States | 5,131 | 14.9%
-India | 2,654 | 7.7%
-Russia | 1,711 | 5.0%
-Japan | 1,244 | 3.6%   
+5.问题：给定两个单词 word1 和 word2，找到使得 word1 转换成 word2 所需的最少操作数。你可以对一个单词进行如下三种操作：插入一个字符，删除一个字符，替换一个字符。
+答案：3   
 

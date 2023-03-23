@@ -1,9 +1,10 @@
 +++
 title = "ARIA屬性"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題ARIA attributes的問題
+給我5題ARIA attributes的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "ARIA屬性"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明ARIA attributes並舉例
+以中文說明ARIA attributes並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -72,7 +73,7 @@ ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列ARIA attributes的重點
+以中文條列ARIA attributes的重點
 {{< /ask_chatgpt >}}
 
 
@@ -95,7 +96,7 @@ ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題ARIA attributes的中等難度問題，並在後面列出答案
+以中文給我5題ARIA attributes的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -114,36 +115,4 @@ ARIA是Accessible Rich Internet Applications的縮寫，是一種協助開發者
 
 5. 什麼是aria-hidden屬性？
 答案：aria-hidden屬性可以用於隱藏屏幕閱讀器不應該讀取的元素。當aria-hidden屬性被設置為「true」時，元素將被隱藏並從輔助技術的焦點序列中移除。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇ARIA attributes的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "ARIA Attributes" by Mozilla:
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute
-
-This article by Mozilla covers several ARIA attributes, including the aria-label attribute. It explains how this attribute can be used to provide a more descriptive label for an element, improving its accessibility for people using screen readers and other assistive technologies.
-
-2. "ARIA Landmarks" by WebAIM:
-https://webaim.org/techniques/aria/landmarks/
-
-This article by WebAIM explores ARIA landmarks, which are used to indicate the purpose and role of different areas of a webpage. The article explains how landmarks can help users navigate and understand a page's content, and provides examples of how to implement different types of landmarks using ARIA attributes.
-
-3. "ARIA Attributes" by W3C:
-https://www.w3.org/TR/wai-aria-1.2/#intro-aria
-
-This page from the Web Accessibility Initiative (WAI) of the World Wide Web Consortium (W3C) provides an overview of ARIA attributes and their purpose. It also includes links to more detailed documentation about specific attributes, as well as guidance on how to use ARIA effectively to improve accessibility.
-
-4. "ARIA Hidden and aria-describedby" by Deque:
-https://www.deque.com/blog/aria-hidden-and-aria-describedby/
-
-This article by Deque covers two common ARIA attributes: aria-hidden and aria-describedby. It explains how these attributes can be used to hide or describe content on a webpage, and provides examples of situations where they might be useful.
-
-5. "ARIA Roles" by Accessible University:
-https://accessibleuniversity.com/courses/the-what-and-why-of-aria/lessons/the-roles-of-aria/
-
-This article by Accessible University focuses specifically on ARIA roles, which are used to describe the type or purpose of an element on a webpage. The article provides a list of common ARIA roles and explains how they can be used to improve accessibility for different types of users.   
 

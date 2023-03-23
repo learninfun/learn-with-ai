@@ -1,9 +1,10 @@
 +++
 title = "前端測試"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Front-End Testing的問題
+給我5題Front-End Testing的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "前端測試"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Front-End Testing並舉例
+以中文說明Front-End Testing並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ title = "前端測試"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Front-End Testing的重點
+以中文條列Front-End Testing的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ title = "前端測試"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Front-End Testing的中等難度問題，並在後面列出答案
+以中文給我5題Front-End Testing的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -84,26 +85,4 @@ title = "前端測試"
 5. 請問你在進行前端測試時採用哪些最佳實踐？
 
 答：前端測試的最佳實踐主要包括：使用單元測試、將測試視為一個冒煙測試、使用模擬服務器進行集成測試、測試用例與代碼保持一致、避免假陰性和假陽性、寫易於理解的測試代碼等等。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Front-End Testing的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Ultimate Guide to Frontend Testing" by Semaphore
-URL: https://semaphoreci.com/blog/the-ultimate-guide-to-front-end-testing
-
-2. "Getting Started with Frontend Testing in 2021" by TechMagic
-URL: https://medium.com/techmagic/getting-started-with-frontend-testing-in-2021-f672dd2f4558
-
-3. "A Guide to Front-End Development Testing" by DZone
-URL: https://dzone.com/articles/a-guide-to-front-end-development-testing
-
-4. "Effective Front-end Testing with Cypress.io" by SitePoint
-URL: https://www.sitepoint.com/front-end-testing-with-cypress-io/
-
-5. "10 Front-End Testing Tools Every Developer Should Know" by Cypress
-URL: https://www.cypress.io/blog/2020/06/22/tools-for-testing-frontend-apps/   
 

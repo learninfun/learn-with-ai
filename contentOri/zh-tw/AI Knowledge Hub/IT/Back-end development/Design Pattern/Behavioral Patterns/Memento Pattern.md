@@ -1,9 +1,10 @@
 +++
 title = "備忘錄模式"
+weight = "6"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Memento Pattern的問題
+給我5題Memento Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "備忘錄模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Memento Pattern並舉例
+以中文說明Memento Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -80,7 +81,7 @@ class TextEditorCaretaker:
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Memento Pattern的重點
+以中文條列Memento Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -93,7 +94,7 @@ class TextEditorCaretaker:
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Memento Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Memento Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -112,21 +113,4 @@ class TextEditorCaretaker:
 
 5. 如何使用Memento Pattern來保存繪圖軟件的繪圖步驟？
 答案：創建一個Memento Class，存儲當前的繪圖狀態。在Painter Class中定義createMemento()和restoreFromMemento()方法，用於創建和恢復繪圖步驟。在History Class中維護一個Memento List，存儲所有的繪圖步驟，實現撤銷和重做操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Memento Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. https://dzone.com/articles/design-patterns-memento-pattern
-
-2. https://refactoring.guru/design-patterns/memento
-
-3. https://sourcemaking.com/design_patterns/memento
-
-4. https://www.geeksforgeeks.org/memento-design-pattern/
-
-5. https://www.tutorialspoint.com/design_pattern/memento_pattern.htm   
 

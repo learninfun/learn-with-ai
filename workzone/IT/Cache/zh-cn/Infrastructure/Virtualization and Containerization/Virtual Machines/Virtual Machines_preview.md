@@ -1,7 +1,7 @@
 
 
-1. What is a virtual machine?
-2. What are the benefits of using virtual machines?
-3. How are virtual machines created?
-4. How do virtual machines differ from physical machines in terms of performance?
-5. What are the different types of virtual machines available?
+1. 什么是虚拟机器？它与传统的实体机器有什么区别？
+2. 虚拟机器的运行环境如何建立？需要哪些工具和设置？
+3. 虚拟机器可以用来做什么？在企业环境中有哪些应用场景？
+4. 虚拟机器对系统性能有什么影响？如何避免过度使用虚拟化对系统性能造成影响？
+5. 如何管理虚拟机器，包括安装、配置、部署、储存和监控等相关任务？有哪些好的工具或平台可供使用？

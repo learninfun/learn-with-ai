@@ -1,5 +1,6 @@
 +++
 title = "单页应用程式 （SPA）"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "单页应用程式 （SPA）"
 
 
 
-1. 什么是 Single-page applications (SPAs)？
-2. SPAs 相较于一般网页有哪些优缺点？
-3. SPAs 的资料流程与常见的框架有哪些？
-4. 如何在 SPAs 中实现页面切换与资料处理的功能？
-5. SPAs 的安全性与资料保护措施有哪些？   
+1. 什麼是 Single-page applications (SPAs)？
+2. SPAs 相較於一般網頁有哪些優缺點？
+3. SPAs 的資料流程與常見的框架有哪些？
+4. 如何在 SPAs 中實現頁面切換與資料處理的功能？
+5. SPAs 的安全性與資料保護措施有哪些？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,19 +22,19 @@ title = "单页应用程式 （SPA）"
 
 
 
-Single-page applications (SPAs)是一种建立在Web技术上的应用程序，它们被设计成只有一个HTML页面，并且所有内容都统一在页面上呈现。SPAs使用Ajax和JavaScript等技术在后台和伺服器之间进行通讯，从而为用户提供快速和流畅的体验。
+Single-page applications (SPAs)是一種建立在Web技術上的應用程序，它們被設計成只有一個HTML頁面，並且所有內容都統一在頁面上呈現。SPAs使用Ajax和JavaScript等技術在後臺和伺服器之間進行通訊，從而為用戶提供快速和流暢的體驗。
 
 一些典型的Single-page applications (SPAs)包括：
 
-1. Gmail：Gmail是一个经典的单页应用程序，它使用Ajax技术将新电子邮件添加到您的收件箱中，而无需刷新整个页面。
+1. Gmail：Gmail是一個經典的單頁應用程序，它使用Ajax技術將新電子郵件添加到您的收件箱中，而無需刷新整個頁面。
 
-2. Facebook：Facebook包含许多单页应用程序，例如聊天，回覆评论，浏览照片等。
+2. Facebook：Facebook包含許多單頁應用程序，例如聊天，回覆評論，瀏覽照片等。
 
-3. Google Maps：Google Maps是另一个经典的单页应用程序，用户可以在地图上浏览位置，搜索地址，查看交通等等功能。
+3. Google Maps：Google Maps是另一個經典的單頁應用程序，用戶可以在地圖上瀏覽位置，搜索地址，查看交通等等功能。
 
-4. Trello：Trello是一个透过单页应用程序展示便条板和待办事项的管理工具。
+4. Trello：Trello是一個透過單頁應用程序展示便條板和待辦事項的管理工具。
 
-5. Twitter：Twitter的部分功能也采用Single-page applications (SPAs)，例如用户在推文页面上动态加载新推文，而不需要刷新整个网页。   
+5. Twitter：Twitter的部分功能也採用Single-page applications (SPAs)，例如用戶在推文頁面上動態加載新推文，而不需要刷新整個網頁。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -77,21 +78,4 @@ Single-page applications (SPAs)是一种建立在Web技术上的应用程序，�
 
 5. 如何实现SPA中的客户端验证？
 答案：可以使用JWT或OAuth等授权框架实现客户端验证。在登录成功后，服务器返回一个JWT和Refresh Token，客户端使用JWT去访问API，而不是每个请求都携带用户名和密码。当JWT过期时，可以使用Refresh Token去服务器交换新的JWT。同时也可以使用客户端验证库如Passport.js等简化验证过程。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Single-page applications (SPAs)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Single-page Application (SPA) | Vue.js : https://vuejs.org/v2/guide/single-file-components.html
-
-2. Advantages and disadvantages of single-page applications: https://searchcio.techtarget.com/answer/What-are-the-advantages-and-disadvantages-of-single-page-applications
-
-3. Building Single-Page Applications Using AngularJS and RESTful Web Services: https://developer.ibm.com/technologies/web-development/tutorials/wa-angularrest/
-
-4. Single-page apps: I don't understand why people like them: https://www.infoworld.com/article/3179377/single-page-apps-i-dont-understand-why-people-like-them.html
-
-5. Is it worth implementing a single-page application?: https://www.creativebloq.com/inspiration/is-it-worth-implementing-a-single-page-application   
 

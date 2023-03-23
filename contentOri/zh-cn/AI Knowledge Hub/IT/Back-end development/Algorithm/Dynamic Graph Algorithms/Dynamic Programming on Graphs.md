@@ -1,5 +1,6 @@
 +++
 title = "图形上的动态规划"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,15 @@ title = "图形上的动态规划"
 
 
 
-1. Longest Path in a Directed Acyclic Graph (DAG): Given a DAG, find the longest path from a source vertex to a sink vertex.
-2. Shortest Path in a weighted DAG: Given a DAG with weighted edges, find the shortest path from a source vertex to all other vertices.
-3. Travelling Salesman Problem (TSP): Given a complete weighted graph, find the shortest possible route that visits every vertex exactly once and returns to the starting vertex.
-4. Maximum Flow in a graph: Given a graph with capacities on the edges, find the maximum flow that can be sent from a source vertex to a sink vertex.
-5. Minimum Spanning Tree (MST): Given a weighted graph, find a subset of edges that connects all vertices and their total weight is minimized.   
+1. 在一個有向圖中，從起點到終點有多少條路徑可以經過恰好k個邊？
+
+2. 在一個加權有向圖中，找到起點到終點的最短路徑。
+
+3. 已知一個無向圖，選出一些邊使得所得的圖是一棵樹，並且所有邊權值總和最小。
+
+4. 在一個有向圖中，找到從起點到終點的任意一條路徑上權值最小的邊的權值。
+
+5. 已知一個有向無環圖（DAG），計算從起點到終點的最長路徑長度。   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,20 +26,20 @@ title = "图形上的动态规划"
 
 
 
-动态规划在图形上的应用可以帮助我们找到图形中的最优解。动态规划基于一个子问题的累计解法，将问题分解为更小的子问题并将这些解合并为原始问题的解。在图形中，这意味着找到图形中所有可能路径的最优解，并将这些最优解合并为图形的整体最优解。
+動態規劃在圖形上的應用可以幫助我們找到圖形中的最優解。動態規劃基於一個子問題的累計解法，將問題分解為更小的子問題並將這些解合併為原始問題的解。在圖形中，這意味著找到圖形中所有可能路徑的最優解，並將這些最優解合併為圖形的整體最優解。
 
-例如，考虑以下图形：
+例如，考慮以下圖形：
 
     A—>B
     | \ |
     v  v|
     D—>C
 
-假设我们想要找到从节点A到节点C的最短路径。我们可以使用动态规划来解决这个问题。我们首先从节点A开始，并计算到达节点B的最短路径。然后，我们更新节点A到节点C的最短路径，使用节点B到节点C的最短路径来确定这个值。最后，我们找到到达节点D的最短路径，并更新从节点A到节点D的路径。这样，我们就可以找到节点A到节点C的最短路径。
+假設我們想要找到從節點A到節點C的最短路徑。我們可以使用動態規劃來解決這個問題。我們首先從節點A開始，並計算到達節點B的最短路徑。然後，我們更新節點A到節點C的最短路徑，使用節點B到節點C的最短路徑來確定這個值。最後，我們找到到達節點D的最短路徑，並更新從節點A到節點D的路徑。這樣，我們就可以找到節點A到節點C的最短路徑。
 
-动态规划在图形上的另一个应用是最大权重匹配。在这种情况下，我们需要准确地匹配每个节点，以确保获得最大权重的匹配。使用动态规划，我们可以搜索图形并找到每个节点的最大权重匹配。然后，我们可以将这些最大权重匹配合并为图形的整体最大权重匹配。
+動態規劃在圖形上的另一個應用是最大權重匹配。在這種情況下，我們需要準確地匹配每個節點，以確保獲得最大權重的匹配。使用動態規劃，我們可以搜索圖形並找到每個節點的最大權重匹配。然後，我們可以將這些最大權重匹配合併為圖形的整體最大權重匹配。
 
-总体而言，动态规划在图形上的应用可以帮助我们有效地解决各种问题，包括最短路径和最大权重匹配等。   
+總體而言，動態規劃在圖形上的應用可以幫助我們有效地解決各種問題，包括最短路徑和最大權重匹配等。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -43,29 +48,29 @@ title = "图形上的动态规划"
 
 
 
-1. 最短路径算法
+1. 最短路徑算法
 
-2. 最长路径算法
+2. 最長路徑算法
 
-3. 最小生成树算法
+3. 最小生成樹算法
 
 4. 最大流算法
 
 5. 最小割算法
 
-6. 图上最大匹配算法
+6. 圖上最大匹配算法
 
-7. 图上最小点覆盖算法
+7. 圖上最小點覆蓋算法
 
-8. 图上最大独立集算法
+8. 圖上最大獨立集算法
 
-9. 形成图的演算法
+9. 形成圖的演算法
 
 10. 快速算法
 
-11. 模型签名
+11. 模型簽名
 
-12. 图形划分算法   
+12. 圖形劃分算法   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -74,45 +79,28 @@ title = "图形上的动态规划"
 
 
 
-1. 雙語詞典（Bilingual Dictionary）
-給定一個雙語詞典，以及一系列的單詞對。你的任務是通過這個詞典進行翻譯，找到所有這些單詞對之間的翻譯路徑，並且使得翻譯路徑的總長度最小。
+1. 双语词典（Bilingual Dictionary）
+给定一个双语词典，以及一系列的单词对。你的任务是通过这个词典进行翻译，找到所有这些单词对之间的翻译路径，并且使得翻译路径的总长度最小。
 
 答案：https://www.acwing.com/problem/content/description/2573/
 
-2. 網絡延遲時間（Network Delay Time）
-在給定的網絡上，有n個節點和m條有向邊。每條邊都有一個與之相關的時間代價。請你找到一個節點，使得從該節點出發，能夠到達其它所有節點的最短時間為何。
+2. 网络延迟时间（Network Delay Time）
+在给定的网络上，有n个节点和m条有向边。每条边都有一个与之相关的时间代价。请你找到一个节点，使得从该节点出发，能够到达其它所有节点的最短时间为何。
 
 答案：https://leetcode-cn.com/problems/network-delay-time/
 
-3. 拓撲排序問題（Topological Sorting）
-在一個有向無環圖中，進行所有節點的拓撲排序。
+3. 拓扑排序问题（Topological Sorting）
+在一个有向无环图中，进行所有节点的拓扑排序。
 
 答案：https://www.acwing.com/problem/content/description/3689/
 
-4. 最長路徑問題（Longest Path）
-在一個加權有向無環圖中，找到最長的路徑（邊權值之和最大的路徑）。
+4. 最长路径问题（Longest Path）
+在一个加权有向无环图中，找到最长的路径（边权值之和最大的路径）。
 
 答案：https://www.acwing.com/problem/content/description/3691/
 
-5. 尋找一條環（Finding a Cycle）
-在一個帶有權重的有向無環圖中，尋找其中一條環。
+5. 寻找一条环（Finding a Cycle）
+在一个带有权重的有向无环图中，寻找其中一条环。
 
 答案：https://www.acwing.com/problem/content/description/2577/   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Dynamic Programming on Graphs的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dynamic Programming on Graphs" by Erik D. Demaine and MIT OpenCourseWare: This course provides an introduction to the techniques and algorithms used in dynamic programming on graphs, with a focus on a variety of applications including shortest paths, minimum spanning trees, network flow, and more.
-
-2. "Dynamic Programming on Graphs" by Philip N. Klein: This paper discusses various graph algorithms based on dynamic programming, including the Bellman-Ford algorithm for shortest paths, Dijkstra's algorithm for single-source shortest paths, and more.
-
-3. "Dynamic Programming on Graphs with Applications to Optimization and Control" by Emre Kiciman: This article provides an overview of dynamic programming on graphs, with a focus on applications to optimization and control problems.
-
-4. "Dynamic Programming on Graphs: An Exercise in Graph Algorithms and Optimization" by Bertrand M. Hochreiter: This paper discusses dynamic programming optimization techniques for problems in graph theory, including graphs with cycles and DAGs.
-
-5. "Optimizing Graph Algorithms using Dynamic Programming" by Michael Mitzenmacher: This article provides an in-depth look at how dynamic programming techniques can be used to optimize graph algorithms, including graph coloring, minimum spanning trees, and more.   
 

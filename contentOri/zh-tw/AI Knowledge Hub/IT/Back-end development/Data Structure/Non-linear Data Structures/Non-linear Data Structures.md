@@ -1,9 +1,10 @@
 +++
 title = "非線性數據結構"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Non-linear Data Structures的問題
+給我5題Non-linear Data Structures的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "非線性數據結構"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Non-linear Data Structures並舉例
+以中文說明Non-linear Data Structures並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +42,7 @@ title = "非線性數據結構"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Non-linear Data Structures的重點
+以中文條列Non-linear Data Structures的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ title = "非線性數據結構"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Non-linear Data Structures的中等難度問題，並在後面列出答案
+以中文給我5題Non-linear Data Structures的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -75,31 +76,4 @@ title = "非線性數據結構"
 
 5. 什麼是堆？如何實現堆排序？
 答：堆是一種數據結構，它通常被實現為一個完全二叉樹，其中每個節點都大於或小於其子節點。堆通常用於實現優先級隊列，其中較高優先級的元素會被先取出。堆排序是一種基於堆的排序算法，它利用堆的特性，將數組轉換為堆，然後從堆的最頂部開始選擇元素，將其從堆中刪除，並添加到已排序的數組中。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Non-linear Data Structures的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 「A Beginner』s Guide to Non-Linear Data Structures」 by Mithun Krishna, Towards Data Science (https://towardsdatascience.com/a-beginners-guide-to-non-linear-data-structures-783bfed97b92)
-
-This article provides a clear and concise introduction to non-linear data structures such as graphs, trees, and heaps, with examples and code snippets in Python.
-
-2. 「Non-linear data structures in Python」 by Vikas Prasad, Medium (https://medium.com/@vikasprasad/non-linear-data-structures-in-python-5c5e83d0877)
-
-This post delves into various non-linear data structures like binary search trees, AVL trees, and red-black trees, and demonstrates their implementation in Python.
-
-3. 「Understanding Non-Linear Data Structures – Trees and Graphs」 by Ardhendu Mandal, Towards AI (https://towardsai.net/p/programming/understanding-non-linear-data-structures-trees-and-graphs-7d87568a1e41)
-
-In this article, the author discusses the concepts of trees and graphs, their applications, and different types of trees such as binary search trees, heap trees, and balanced trees.
-
-4. 「Graph Data Structure 101」 by Vivian Zhang, Towards Data Science (https://towardsdatascience.com/graph-data-structure-101-ccf9b1de33ca)
-
-This piece explains the basics of graph data structures, their types, and common algorithms used with graphs like the shortest path algorithm.
-
-5. 「Non-Linear Data Structures in Java」 by Anshul Goyal, Baeldung (https://www.baeldung.com/java-non-linear-data-structures)
-
-This tutorial illustrates various non-linear data structures like trees, heaps, and graphs in Java, along with their implementation examples and use cases.   
 

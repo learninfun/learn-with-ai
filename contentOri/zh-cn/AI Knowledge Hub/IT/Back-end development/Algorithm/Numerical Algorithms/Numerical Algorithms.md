@@ -1,5 +1,6 @@
 +++
 title = "数值算法"
+weight = "9"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "数值算法"
 
 
 
-1. What is the difference between Newton-Raphson and the Bisection method in solving a nonlinear equation?
-2. How does the Gaussian elimination method simplify the process of solving a linear system of equations?
-3. Why is the Runge-Kutta method more accurate than the Euler method when solving ordinary differential equations?
-4. How do iterative methods such as the Jacobi or Gauss-Seidel method work in solving linear systems of equations?
-5. What is the purpose of eigenvalue/eigenvector computations and how are they used in numerical algorithms?   
+1. 什么是牛顿法？如何使用牛顿法求解方程组的解？
+2. 怎样使用拉格朗日插值法对离散数据进行曲线拟合？
+3. 如何使用欧拉法（Euler's method）求解常微分方程的数值解？
+4. 什么是矩阵的QR分解？在数值计算中，有什么重要的应用？
+5. 如何利用最小二乘法对数据进行线性回归？在实际应用中，有哪些注意事项？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,21 +22,25 @@ title = "数值算法"
 
 
 
-Numerical algorithms refer to mathematical techniques or procedures that are used to solve numerical problems. These algorithms are designed to perform computations on a computer using numerical data, typically in the form of arrays, matrices, or vectors. Numerical algorithms are essential in many scientific and engineering applications, where accurate and efficient numerical solutions are required.
+数值算法 (Numerical Algorithms) 是一种以数值计算为基础的演算法，主要目的是使用计算机来处理数字和数值数据。
 
-Some common examples of numerical algorithms include:
+常见的数值算法包括：
 
-1. Linear regression - this is a statistical method used to determine the relationship between two variables by fitting a linear equation to the data.
+1. 数值积分 (Numerical Integration) ：用近似方法计算定积分，例如梯形法、辛普森法、龙贝格法等。
 
-2. Newton's method - this is a numerical method used to find the roots of a function. It involves iteratively refining an initial guess until a satisfactory level of accuracy is achieved.
+2. 数值微分 (Numerical Differentiation)：用近似方法计算微分，例如前向差分、后向差分、中心差分等。
 
-3. Gradient descent - this is an optimization algorithm used to minimize a function by iteratively adjusting the parameters in the direction of the negative gradient.
+3. 线性代数 (Linear Algebra)：为求解线性方程组、求特征值、特征向量等线性代数问题所使用的数值算法，例如高斯消元法、LU分解、QR分解等。
 
-4. Singular value decomposition - this is a matrix decomposition method used to reduce a matrix to its constituent parts, namely its singular values and singular vectors.
+4. 插值 (Interpolation)：根据已知数据点建立一个连续函数，例如拉格朗日插值、牛顿插值等。
 
-5. Fast Fourier transform - this is an algorithm used to compute the discrete Fourier transform of a set of data points, which is widely used in signal processing and image analysis.
+5. 最优化 (Optimization)：寻找最小值或最大值的方法，例如梯度下降法、牛顿法等。
 
-Overall, numerical algorithms play a crucial role in many scientific and engineering applications, helping to solve complex problems that would otherwise be difficult or impossible to solve using traditional analytical methods.   
+6. 常微分方程式 (Ordinary Differential Equations)：求解常微分方程式的数值方法，例如欧拉法、龙格-库塔法等。
+
+7. 求根 (Root-finding)：寻找函数零点的算法，例如二分法、牛顿法等。
+
+举例，将数值算法应用于股票市场，可以使用时间序列分析 (Time Series Analysis) 方法，将实时的股票数据转换成对应的股票趋势图，并进行分析预测。另外，还可以使用聚类分析 (Cluster Analysis) 方法，将相似的股票分为一类，进而预测未来股票市场走势。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -58,7 +63,7 @@ Overall, numerical algorithms play a crucial role in many scientific and enginee
 
 7. 數值微分算法：以數值方法逼近微分值，包括一階和高階微分算法。
 
-8. 最小二乘算法：以最小化預測誤差為目標，進行數據拟合，包括線性最小二乘法、非線性最小二乘法等。
+8. 最小二乘算法：以最小化預測誤差為目標，進行數據擬合，包括線性最小二乘法、非線性最小二乘法等。
 
 9. 常微分方程數值解算法：以數值方法解常微分方程，包括歐拉方法、中點法、龍格-庫塔法等。
 
@@ -161,31 +166,4 @@ clf = svm.SVC(kernel='linear', C=1000)
 clf.fit(X, y)
 print(clf.predict([[2, 2]])) # output: [1]
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Numerical Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Numerical Algorithms Group (NAG)
-网址：https://www.nag.com/
-介绍：NAG 提供了用于求解科学和工程问题的高品质软件和服务，其中包括数值算法、数学建模和数据分析。
-
-2. Journal of Numerical Algorithms
-网址：https://www.springer.com/journal/12004
-介绍：这是一份由 Springer 出版的学术期刊，发表了关于数值算法方面的原始研究论文，以及算法实现和应用的文献评论。
-
-3. Numerical Recipes
-网址：https://www.nr.com/
-介绍：这是一本出版了多个版本的经典书籍，其中包含了关于数值分析、统计分析和科学计算的算法和代码实现。
-
-4. Applied Numerical Mathematics
-网址：https://www.journals.elsevier.com/applied-numerical-mathematics/
-介绍：这是一份由 Elsevier 出版的数学期刊，专门发表有关数值算法和计算方法在实践中的应用研究。
-
-5. ACM Transactions on Mathematical Software (TOMS)
-网址：https://dl.acm.org/journal/toms
-介绍：这是一份由 ACM 出版的软件期刊，专门发表有关数值算法、数值软件和数值计算的研究论文。   
 

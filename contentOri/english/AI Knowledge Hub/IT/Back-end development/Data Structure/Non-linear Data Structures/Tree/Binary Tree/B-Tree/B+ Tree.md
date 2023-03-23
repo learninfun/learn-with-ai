@@ -1,3 +1,7 @@
++++
+title = "B+ Tree"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about B+ Tree
@@ -65,17 +69,4 @@ Answer: The complexity of searching for a specific record in a B+ tree is O(log 
 
 5. How does a B+ tree support range queries?
 Answer: B+ trees support range queries by either performing a binary search to locate the starting index of the range and then scanning sequentially until the end of the range is reached, or by using a technique called range splitting. Range splitting involves splitting the range query into several smaller queries that can be performed separately on each node in the tree.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about B+ Tree
-{{< /ask_chatgpt >}}
-
-
-
-1. B+ Tree - GeeksforGeeks: This webpage provides a brief introduction to B+ Trees, their structure, and their advantages over other types of data structures. It also includes examples of how B+ Trees are used in databases and file systems. 
-2. Introduction to B+ Trees - HackerEarth: This webpage gives a detailed explanation of B+ Trees, including the differences between B Trees and B+ Trees, the structure of a B+ Tree, and how B+ Trees are used in databases. It also includes animations and examples to help readers better understand the concept. 
-3. Understanding the B+ Tree Data Structure - CleverTap: This webpage explains the basic concepts of B+ Trees, their structure, and how they are used to index data in databases. It also provides examples of how B+ Trees can improve performance in searching and sorting data. 
-4. B+ Trees: From Theory to Implementation - Toptal Engineering: This webpage offers an in-depth exploration of B+ Trees, including their history, structure, and practical applications. It also includes information about how B+ Trees are implemented in programming languages like C++ and Python. 
-5. Introduction to B+ Trees - BinaryTides: This webpage provides a concise introduction to B+ Trees, their properties, and how they are used in computer science. It also includes code examples of how to implement a B+ Tree in C++.   
 

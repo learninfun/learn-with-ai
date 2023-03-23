@@ -1,6 +1,6 @@
 
 
-1. 如何在網頁載入完成後執行一個函數？
+1. 如何在网页载入完成后执行一个函数？
 
 答案：
 
@@ -10,44 +10,44 @@ window.addEventListener('load', function() {
 });
 ```
 
-2. 如何防止點擊一個連結時頁面跳轉？
+2. 如何防止点击一个连结时页面跳转？
 
 答案：
 
 ```js
 document.addEventListener('click', function(event) {
-  // 防止連結默認行為
+  // 防止连结默认行为
   event.preventDefault();
 });
 ```
 
-3. 如何在滑鼠移到一個元素時顯示一個提示框？
+3. 如何在滑鼠移到一个元素时显示一个提示框？
 
 答案：
 
 ```js
 var element = document.getElementById('myElement');
 element.addEventListener('mouseover', function() {
-  // 顯示提示框
+  // 显示提示框
   alert('Hello, World!');
 });
 ```
 
-4. 如何在按下鍵盤上的某個按鍵時執行一個函數？
+4. 如何在按下键盘上的某个按键时执行一个函数？
 
 答案：
 
 ```js
 document.addEventListener('keydown', function(event) {
-  // 判斷按下的鍵是哪個
+  // 判断按下的键是哪个
   if (event.key === 'Enter') {
-    // 執行函數
+    // 执行函数
     doSomething();
   }
 });
 ```
 
-5. 如何在拖動一個元素時修改它的位置？
+5. 如何在拖动一个元素时修改它的位置？
 
 答案：
 
@@ -56,7 +56,7 @@ var element = document.getElementById('myElement');
 var x, y;
 
 element.addEventListener('mousedown', function(event) {
-  // 記住滑鼠位置
+  // 记住滑鼠位置
   x = event.clientX - element.offsetLeft;
   y = event.clientY - element.offsetTop;
   
@@ -68,11 +68,11 @@ document.addEventListener('mouseup', function() {
 });
 
 function moveElement(event) {
-  // 計算新位置
+  // 计算新位置
   var newX = event.clientX - x;
   var newY = event.clientY - y;
 
-  // 設定新位置
+  // 设定新位置
   element.style.left = newX + 'px';
   element.style.top = newY + 'px';
 }

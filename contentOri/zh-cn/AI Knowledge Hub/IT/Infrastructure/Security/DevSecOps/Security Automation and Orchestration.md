@@ -1,5 +1,6 @@
 +++
 title = "安全性自动化和编排"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "安全性自动化和编排"
 
 
 
-1. 什么是安全自动化和协调，以及它如何帮助组织维护安全？
-2. 安全自动化和协调如何与现有的安全技术和流程集成，以实现更高效和更快速的漏洞处理？
-3. 安全自动化和协调如何保护企业免受内部和外部威胁？
-4. 安全自动化和协调能够提供哪些真实时间的数据以检测和解决风险？
-5. 安全自动化和协调对于大型企业和中小型企业有何不同的适用性？   
+1. 什麼是安全自動化和協調，以及它如何幫助組織維護安全？
+2. 安全自動化和協調如何與現有的安全技術和流程集成，以實現更高效和更快速的漏洞處理？
+3. 安全自動化和協調如何保護企業免受內部和外部威脅？
+4. 安全自動化和協調能夠提供哪些真實時間的數據以檢測和解決風險？
+5. 安全自動化和協調對於大型企業和中小型企業有何不同的適用性？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,17 +22,17 @@ title = "安全性自动化和编排"
 
 
 
-Security Automation and Orchestration (SAO) 是指在安全操作和事件管理中，利用自动化和协调的技术实现自动化响应和优化工作流程，以加快响应时间和降低人为误差的风险。在SAO系统中，安全事件从检测开始就得到自动处理，无需干预人员，以快速防止和解决威胁。通过自动化，企业可以获得更严密的安全控制，大大优化人力成本，减少时间和费用。
+Security Automation and Orchestration (SAO) 是指在安全操作和事件管理中，利用自動化和協調的技術實現自動化響應和優化工作流程，以加快響應時間和降低人為誤差的風險。在SAO系統中，安全事件從檢測開始就得到自動處理，無需干預人員，以快速防止和解決威脅。通過自動化，企業可以獲得更嚴密的安全控制，大大優化人力成本，減少時間和費用。
 
-举例： 
+舉例： 
 
-1.安全事件响应：在网络中如果发现已知的恶意软件代码，SAO系统会利用自动化流程来处理，例如将文件划分入黑名单，以防止潜在风险等。 
+1.安全事件響應：在網絡中如果發現已知的惡意軟件代碼，SAO系統會利用自動化流程來處理，例如將文件劃分入黑名單，以防止潛在風險等。 
 
-2.工作流程协调：当企业收到协调审计的任务时，SAO系统将自动执行程序并生成必要文档，以保持法律合规性。 
+2.工作流程協調：當企業收到協調審計的任務時，SAO系統將自動執行程序並生成必要文檔，以保持法律合規性。 
 
-3.风险评估：当发现风险时，SAO系统可以根据企业特定的安全标准自动评估其影响，然后发挥其最佳作用，并将结果通知适当的团队成员进行筛选。
+3.風險評估：當發現風險時，SAO系統可以根據企業特定的安全標準自動評估其影響，然後發揮其最佳作用，並將結果通知適當的團隊成員進行篩選。
 
-4.事件管理：当发现安全事件时，SAO系统可以在整个安全生命周期内自动跟踪事件管理，并使所有有关事件的参与者随时始终通过网络和移动设备保持联系。   
+4.事件管理：當發現安全事件時，SAO系統可以在整個安全生命週期內自動跟蹤事件管理，並使所有有關事件的參與者隨時始終通過網絡和移動設備保持聯繫。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -40,25 +41,25 @@ Security Automation and Orchestration (SAO) 是指在安全操作和事件管理
 
 
 
-1.自动化与协调的结合：透过工作流以及自动化脚本自动化一般性任务,并整合各种不同保安工具。
+1.自動化與協調的結合：透過工作流以及自動化腳本自動化一般性任務,並整合各種不同保安工具。
 
-2.提高安全事件响应速度：自动化与自动化流程使安全预警和事件得以及时响应。
+2.提高安全事件響應速度：自動化與自動化流程使安全預警和事件得以及時響應。
 
-3.减少人工介入：自动化可以减少IT和安全专业人员的负担，并减少手动错误的可能性。
+3.減少人工介入：自動化可以減少IT和安全專業人員的負擔，並減少手動錯誤的可能性。
 
-4.提高可视化：与自动化产生关系的产品通常会提供更广泛的API和数据收集，以支持强大的监控和调试。
+4.提高可視化：與自動化產生關係的產品通常會提供更廣泛的API和數據收集，以支持強大的監控和調試。
 
-5.流程的可再现性：自动化流程可以重复使用，使维护更为有效率。
+5.流程的可再現性：自動化流程可以重複使用，使維護更為有效率。
 
-6.扩展性：自动化能够支持对大量安全事件的自动化响应，通过延伸可大幅降低人工成本。
+6.擴展性：自動化能夠支持對大量安全事件的自動化響應，通過延伸可大幅降低人工成本。
 
-7.综合性：将不同的保安工具结合在一起，自动化迅速解决安全威胁。
+7.綜合性：將不同的保安工具結合在一起，自動化迅速解決安全威脅。
 
-8.威胁情报导入自动化：将威胁情报集成到自动化流程中，能够更全面地对威胁事件做出响应。
+8.威脅情報導入自動化：將威脅情報集成到自動化流程中，能夠更全面地對威脅事件做出響應。
 
-9.集成API：结合多个安全工具的API，能够更有效地进行信息收集，并且标准化不同时期和不同产品的数据。
+9.集成API：結合多個安全工具的API，能夠更有效地進行信息收集，並且標準化不同時期和不同產品的數據。
 
-10.人工智能：智能安全感知技术能够自动检测漏洞和威胁，并且自动检测出问题。   
+10.人工智能：智能安全感知技術能夠自動檢測漏洞和威脅，並且自動檢測出問題。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -86,21 +87,4 @@ Security Automation and Orchestration (SAO) 是指在安全操作和事件管理
 5. 安全自动化和协调的成功因素有哪些？
 
 答案：安全自动化和协调的成功因素包括：有效的规则和程序、参与各部门和团队、合适的自动化工具选择、建立正确的应急反应流程和角色（职责），以及不断的关注和修正。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Security Automation and Orchestration的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Security Automation and Orchestration: Understanding the Basics." https://www.cisecurity.org/blog/security-automation-and-orchestration-understanding-the-basics/. This article from the Center for Internet Security provides an overview of security automation and orchestration concepts and technologies.
-
-2. "10 Security Automation and Orchestration Tools You Should Use." https://www.csoonline.com/article/3539127/10-security-automation-and-orchestration-tools-you-should-use.html. This article from CSO Online reviews several popular security automation and orchestration tools.
-
-3. "What is Security Automation and Orchestration?" https://www.ibm.com/security/what-is-security-automation-orchestration. This article from IBM defines security automation and orchestration and outlines its benefits for organizations.
-
-4. "The Role of Security Automation and Orchestration in Incident Response." https://securityintelligence.com/posts/the-role-of-security-automation-and-orchestration-in-incident-response/. This article from Security Intelligence discusses the importance of security automation and orchestration in incident response and provides examples of how it can be used.
-
-5. "Security Automation and Orchestration: Reducing the Cost of Cybersecurity." https://www.darkreading.com/endpoint/security-automation-and-orchestration--reducing-the-cost-of-cybersecurity/a/d-id/1333155. This article from Dark Reading explores how security automation and orchestration can help reduce the cost of cybersecurity operations.   
 

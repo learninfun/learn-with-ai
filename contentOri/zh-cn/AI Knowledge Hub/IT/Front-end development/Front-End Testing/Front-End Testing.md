@@ -1,5 +1,6 @@
 +++
 title = "前端测试"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -84,26 +85,4 @@ title = "前端测试"
 5. 請問你在進行前端測試時採用哪些最佳實踐？
 
 答：前端測試的最佳實踐主要包括：使用單元測試、將測試視為一個冒煙測試、使用模擬服務器進行集成測試、測試用例與代碼保持一致、避免假陰性和假陽性、寫易於理解的測試代碼等等。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Front-End Testing的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Ultimate Guide to Frontend Testing" by Semaphore
-URL: https://semaphoreci.com/blog/the-ultimate-guide-to-front-end-testing
-
-2. "Getting Started with Frontend Testing in 2021" by TechMagic
-URL: https://medium.com/techmagic/getting-started-with-frontend-testing-in-2021-f672dd2f4558
-
-3. "A Guide to Front-End Development Testing" by DZone
-URL: https://dzone.com/articles/a-guide-to-front-end-development-testing
-
-4. "Effective Front-end Testing with Cypress.io" by SitePoint
-URL: https://www.sitepoint.com/front-end-testing-with-cypress-io/
-
-5. "10 Front-End Testing Tools Every Developer Should Know" by Cypress
-URL: https://www.cypress.io/blog/2020/06/22/tools-for-testing-frontend-apps/   
 

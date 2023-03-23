@@ -1,5 +1,6 @@
 +++
 title = "非线性数据结构"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,15 @@ title = "非线性数据结构"
 
 
 
-1. 意大利餐廳的菜單可以用哪種非線性數據結構來存儲，方便查詢和修改？
+1. 意大利餐厅的菜单可以用哪种非线性数据结构来存储，方便查询和修改？
 
-2. 如何通過使用非線性數據結構來處理圖像和視頻數據？
+2. 如何通过使用非线性数据结构来处理图像和视频数据？
 
-3. 如何在非線性數據結構中儲存和表達音樂文件？
+3. 如何在非线性数据结构中储存和表达音乐文件？
 
-4. 如何通過使用非線性數據結構來處理地圖和地理位置相關的數據？
+4. 如何通过使用非线性数据结构来处理地图和地理位置相关的数据？
 
-5. 如何使用非線性數據結構來儲存和分析社交媒體數據，比如推特或Facebook？   
+5. 如何使用非线性数据结构来储存和分析社交媒体数据，比如推特或Facebook？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -25,19 +26,19 @@ title = "非线性数据结构"
 
 
 
-非線性資料結構是指資料元素之間的關係不是簡單的線性排列，而是有著複雜的層次結構或分支結構，例如樹、圖、堆、散列表等。非線性資料結構在許多應用領域中都有廣泛的應用，例如計算機圖形學、資料庫管理系統等。
+非线性资料结构是指资料元素之间的关系不是简单的线性排列，而是有着复杂的层次结构或分支结构，例如树、图、堆、散列表等。非线性资料结构在许多应用领域中都有广泛的应用，例如计算机图形学、资料库管理系统等。
 
-以下是幾種常見的非線性資料結構：
+以下是几种常见的非线性资料结构：
 
-1. 樹(Tree)：樹是一種非線性資料結構，它由一個根節點(root)和若干個子樹(subtree)組成。每個節點都有一個父節點(parent)和零或多個子節點(child)。例如二叉樹(Binary Tree)、AVL樹、紅黑樹、B樹等。
+1. 树(Tree)：树是一种非线性资料结构，它由一个根节点(root)和若干个子树(subtree)组成。每个节点都有一个父节点(parent)和零或多个子节点(child)。例如二叉树(Binary Tree)、AVL树、红黑树、B树等。
 
-2. 圖(Graph)：圖是一種非線性資料結構，它由一些節點(node)和它們之間的邊(edge)組成。節點也被稱為頂點(vertex)，邊也被稱為邊界(edge)。圖可以是有向(directed)或無向(undirected)，例如帶權圖(weighted graph)、完全圖(complete graph)等。
+2. 图(Graph)：图是一种非线性资料结构，它由一些节点(node)和它们之间的边(edge)组成。节点也被称为顶点(vertex)，边也被称为边界(edge)。图可以是有向(directed)或无向(undirected)，例如带权图(weighted graph)、完全图(complete graph)等。
 
-3. 堆(Heap)：堆是一種非線性資料結構，它是一個完整的二叉樹，並且滿足堆性質(heap property)，即父節點的值總是大於或等於子節點的值(最大堆)或小於或等於子節點的值(最小堆)。堆主要用於實現優先級隊列(priority queue)。
+3. 堆(Heap)：堆是一种非线性资料结构，它是一个完整的二叉树，并且满足堆性质(heap property)，即父节点的值总是大于或等于子节点的值(最大堆)或小于或等于子节点的值(最小堆)。堆主要用于实现优先级队列(priority queue)。
 
-4. 散列表(Hash Table)：散列表是一種非線性資料結構，它通過哈希函數將關鍵字映射到一個索引(index)上，然後在該索引處存儲對應的數據。散列表通常用於實現字典(dictionary)、快速查找和去重等功能。
+4. 散列表(Hash Table)：散列表是一种非线性资料结构，它通过哈希函数将关键字映射到一个索引(index)上，然后在该索引处存储对应的数据。散列表通常用于实现字典(dictionary)、快速查找和去重等功能。
 
-以上是幾種常見的非線性資料結構，每種資料結構都有其特定的應用場景和優缺點。選擇合適的資料結構可以提高算法效率和程式設計的靈活性。   
+以上是几种常见的非线性资料结构，每种资料结构都有其特定的应用场景和优缺点。选择合适的资料结构可以提高算法效率和程式设计的灵活性。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -46,13 +47,13 @@ title = "非线性数据结构"
 
 
 
-- 非線性數據結構是指其节点之間存在多種不同的關係，而不僅僅是「前驅-後繼」的線性關係。這些關係可以是層次（如樹形結構、圖形結構）、交叉（如森林結構）等。
+- 非线性数据结构是指其节点之间存在多种不同的关系，而不仅仅是“前驱-后继”的线性关系。这些关系可以是层次（如树形结构、图形结构）、交叉（如森林结构）等。
 
-- 非線性數據結構具有很高的應用價值。例如，樹形結構常用於優化數據搜索和排序，圖形結構常用於表示復雜的關係網路，而森林結構則經常用於遞歸搜索和分類問題。
+- 非线性数据结构具有很高的应用价值。例如，树形结构常用于优化数据搜索和排序，图形结构常用于表示复杂的关系网路，而森林结构则经常用于递归搜索和分类问题。
 
-- 常見的非線性數據結構包括：樹、二叉樹、平衡二叉樹、AVL樹、紅黑樹、B樹、B+樹、堆積、圖形、森林等。
+- 常见的非线性数据结构包括：树、二叉树、平衡二叉树、AVL树、红黑树、B树、B+树、堆积、图形、森林等。
 
-- 工程實踐中，需要根據具體的問題，選擇適合的非線性數據結構，且需要注重數據結構的設計和實現方法，以確保算法的效率和穩定性。   
+- 工程实践中，需要根据具体的问题，选择适合的非线性数据结构，且需要注重数据结构的设计和实现方法，以确保算法的效率和稳定性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -75,31 +76,4 @@ title = "非线性数据结构"
 
 5. 什麼是堆？如何實現堆排序？
 答：堆是一種數據結構，它通常被實現為一個完全二叉樹，其中每個節點都大於或小於其子節點。堆通常用於實現優先級隊列，其中較高優先級的元素會被先取出。堆排序是一種基於堆的排序算法，它利用堆的特性，將數組轉換為堆，然後從堆的最頂部開始選擇元素，將其從堆中刪除，並添加到已排序的數組中。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Non-linear Data Structures的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. “A Beginner’s Guide to Non-Linear Data Structures” by Mithun Krishna, Towards Data Science (https://towardsdatascience.com/a-beginners-guide-to-non-linear-data-structures-783bfed97b92)
-
-This article provides a clear and concise introduction to non-linear data structures such as graphs, trees, and heaps, with examples and code snippets in Python.
-
-2. “Non-linear data structures in Python” by Vikas Prasad, Medium (https://medium.com/@vikasprasad/non-linear-data-structures-in-python-5c5e83d0877)
-
-This post delves into various non-linear data structures like binary search trees, AVL trees, and red-black trees, and demonstrates their implementation in Python.
-
-3. “Understanding Non-Linear Data Structures – Trees and Graphs” by Ardhendu Mandal, Towards AI (https://towardsai.net/p/programming/understanding-non-linear-data-structures-trees-and-graphs-7d87568a1e41)
-
-In this article, the author discusses the concepts of trees and graphs, their applications, and different types of trees such as binary search trees, heap trees, and balanced trees.
-
-4. “Graph Data Structure 101” by Vivian Zhang, Towards Data Science (https://towardsdatascience.com/graph-data-structure-101-ccf9b1de33ca)
-
-This piece explains the basics of graph data structures, their types, and common algorithms used with graphs like the shortest path algorithm.
-
-5. “Non-Linear Data Structures in Java” by Anshul Goyal, Baeldung (https://www.baeldung.com/java-non-linear-data-structures)
-
-This tutorial illustrates various non-linear data structures like trees, heaps, and graphs in Java, along with their implementation examples and use cases.   
 

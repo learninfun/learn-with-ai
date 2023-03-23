@@ -1,9 +1,10 @@
 +++
 title = "裝飾者模式"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Decorator Pattern的問題
+給我5題Decorator Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "裝飾者模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Decorator Pattern並舉例
+以中文說明Decorator Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Decorator Pattern 是指在不改變現有物件結構的情況下，動態地�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Decorator Pattern的重點
+以中文條列Decorator Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ Decorator Pattern（裝飾者模式）是一種結構型設計模式，重點如
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Decorator Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Decorator Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -82,36 +83,4 @@ Decorator Pattern（裝飾者模式）是一種結構型設計模式，重點如
 4. 實現DataSource接口和FileDataSource類，然後實現EncryptionDataSourceDecorator和CompressionDataSourceDecorator，這些裝飾器可以對數據進行加密和壓縮。
 
 5. 實現Shape接口和幾個形狀類，例如Rectangle, Circle和Triangle。然後創建RedShapeDecorator和BlueShapeDecorator裝飾器，並實現DoubleColorShapeDecorator，這個裝飾器可以將兩種顏色結合在一起。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Decorator Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Decorator Pattern - Refactoring Guru
-https://refactoring.guru/design-patterns/decorator
-
-This site provides an in-depth explanation of the Decorator pattern, including its structure, participants, benefits, and drawbacks. It includes code examples in Java and PHP, as well as an interactive demo that allows you to experiment with the pattern.
-
-2. Decorator Design Pattern - GeeksforGeeks
-https://www.geeksforgeeks.org/decorator-pattern/
-
-This article on GeeksforGeeks provides a beginner-friendly introduction to the Decorator pattern, explaining its purpose and implementation in simple terms. It includes code examples in Java, Python, and C++, as well as real-world examples of the pattern in use.
-
-3. Decorator Design Pattern - Tutorialspoint
-https://www.tutorialspoint.com/design_pattern/decorator_pattern.htm
-
-This tutorial on Tutorialspoint provides a concise introduction to the Decorator pattern, explaining its purpose and implementation in a clear and easy-to-understand manner. It includes code examples in Java, as well as a UML diagram of the pattern.
-
-4. Decorator Pattern - Wikipedia
-https://en.wikipedia.org/wiki/Decorator_pattern
-
-This article on Wikipedia provides a detailed overview of the Decorator pattern, including its history, structure, applicability, implementation, and variations. It includes code examples in different programming languages, as well as a list of other design patterns related to the Decorator pattern.
-
-5. Decorator Design Pattern - DZone
-https://dzone.com/articles/decorator-design-pattern-in-java
-
-This article on DZone provides a comprehensive explanation of the Decorator pattern, including its definition, structure, benefits, and drawbacks. It includes code examples in Java, as well as a real-life example of the pattern being used in a web application.   
 

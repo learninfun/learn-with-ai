@@ -1,9 +1,10 @@
 +++
 title = "網路流演算法"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Network Flow Algorithms的問題
+給我5題Network Flow Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "網路流演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Network Flow Algorithms並舉例
+以中文說明Network Flow Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +44,7 @@ Network Flow Algorithm是一種用於最大/最小流量問題的算法，它用
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Network Flow Algorithms的重點
+以中文條列Network Flow Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ Network Flow Algorithm是一種用於最大/最小流量問題的算法，它用
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Network Flow Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Network Flow Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,36 +91,4 @@ Network Flow Algorithm是一種用於最大/最小流量問題的算法，它用
 5. 最大密度子圖問題：在一個無向圖中，找到一個最大密度子圖，使得該子圖的邊權值之和與節點數的比值最大化。 
 
 答案：最大密度子圖算法等。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Network Flow Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Max-Flow Min-Cut Theorem and its Applications" by GeeksforGeeks:
-https://www.geeksforgeeks.org/max-flow-min-cut-theorem-and-its-applications/
-
-This website provides a comprehensive explanation of the max-flow min-cut theorem and how it is used in solving network flow problems. It also includes examples of different algorithms such as Ford-Fulkerson, Edmonds-Karp, and Dinic's algorithm.
-
-2. "Introduction to Network Flow Algorithms" by Topcoder:
-https://www.topcoder.com/thrive/articles/Introduction%20to%20Network%20Flow%20Algorithms
-
-This article introduces the concept of network flow and different algorithms used to solve network flow problems, such as the augmenting path algorithm and Dinic's algorithm. It also discusses the properties and applications of network flow algorithms.
-
-3. "Network Flow Algorithms" by Stanford University:
-https://web.stanford.edu/class/cs97si/06-network-flow-algorithms.pdf
-
-This lecture slides provides a detailed explanation of different network flow algorithms such as Ford-Fulkerson, Edmonds-Karp, and Dinic's algorithm. It also discusses the complexity and applications of these algorithms in solving real-world problems.
-
-4. "Network Flow Algorithms" by Competitive Programming:
-https://cp-algorithms.com/graph/network-flow.html
-
-This website provides a brief but detailed explanation of different network flow algorithms such as the augmenting path algorithm, Dinic's algorithm, and the push-relabel algorithm. It includes sample code and visualizations to better understand the algorithms.
-
-5. "Flow networks and their Applications" by Stanford University:
-https://stanford.edu/~rezab/classes/cme323/S16/notes/lec9.pdf
-
-This lecture notes provide an in-depth explanation of flow networks and the max-flow min-cut theorem. It discusses different algorithms such as Ford-Fulkerson, Edmonds-Karp, and Dinic's algorithm, and their applications in solving real-world problems such as network flow optimization and transportation planning.   
 

@@ -1,9 +1,10 @@
 +++
 title = "暴力字串比對"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Brute Force String Matching的問題
+給我5題Brute Force String Matching的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "暴力字串比對"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Brute Force String Matching並舉例
+以中文說明Brute Force String Matching並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Brute Force String Matching是一種字串搜尋演算法，可在一個較長�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Brute Force String Matching的重點
+以中文條列Brute Force String Matching的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ Brute Force String Matching是一種字串搜尋演算法，可在一個較長�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Brute Force String Matching的中等難度問題，並在後面列出答案
+以中文給我5題Brute Force String Matching的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -79,36 +80,4 @@ Brute Force String Matching是一種字串搜尋演算法，可在一個較長�
 
 5. 問題描述：給出一個長度為n的整數數組，找到其中所有相鄰數字同數的片段並返回數量。 
 答案：https://leetcode.com/problems/arithmetic-slices/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Brute Force String Matching的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Brute Force String Matching Algorithm"
-https://www.geeksforgeeks.org/brute-force-string-matching/
-
-This article from GeeksforGeeks explains the Brute Force String Matching algorithm, including its algorithmic complexity and example code in various programming languages.
-
-2. "Brute-Force String Matching"
-https://www.cs.cmu.edu/~avrim/451f09/lectures/lect0917.pdf
-
-This detailed slide presentation by Avrim Blum at Carnegie Mellon University discusses the Brute Force String Matching algorithm, its significance and some variations of it. 
-
-3. "Brute Force String Matching - C Program"
-https://www.thecrazyprogrammer.com/2017/12/c-program-for-brute-force-string-matching.html
-
-This blog post provides a simple implementation of the Brute Force String Matching algorithm in the C programming language, complete with code snippets and an explanation of how the algorithm works.
-
-4. "Brute-Force Pattern Matching Algorithm"
-https://www.tutorialspoint.com/brute-force-pattern-matching-algorithm
-
-This tutorial from Tutorialspoint explains the Brute Force Pattern Matching algorithm, which is a variation of the Brute Force String Matching algorithm specifically used for identifying a pattern within a larger string.
-
-5. "String Matching with the Brute-Force Algorithm"
-https://www.educative.io/edpresso/string-matching-with-the-brute-force-algorithm
-
-This article from educative.io gives a clear explanation of the Brute Force String Matching algorithm, its algorithmic complexity, implementation in Python, and an example scenario where it might be used.   
 

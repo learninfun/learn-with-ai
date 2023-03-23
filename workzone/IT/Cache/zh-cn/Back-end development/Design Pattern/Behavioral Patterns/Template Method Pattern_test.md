@@ -8,7 +8,7 @@
 - 开始游戏
 
 答案：
-抽象类别Character：
+抽像类别Character：
 - 选择角色(selectCharacter方法)
 - 显示角色资讯(displayInformation方法)
 - 显示角色能力详情(displayAbility方法)
@@ -25,7 +25,7 @@
 - 过关
 
 答案：
-抽象类别Level：
+抽像类别Level：
 - 进入关卡(enterLevel方法)
 - 显示关卡地图(displayMap方法)
 - 开始战斗(startFight方法)
@@ -40,7 +40,7 @@
 - 显示文档内容
 
 答案：
-抽象类别Document：
+抽像类别Document：
 - 开启文档(openDocument方法)
 - 读取文档(readDocument方法)
 - 显示文档内容(displayDocument方法)
@@ -54,7 +54,7 @@
 - 更新库存
 
 答案：
-抽象类别CheckOut：
+抽像类别CheckOut：
 - 确认订单明细(confirmOrder方法)
 - 计算运费(calculateFreight方法)
 - 确认客户付款(confirmPayment方法)
@@ -69,7 +69,7 @@
 - 关闭聊天室
 
 答案：
-抽象类别ChatRoom：
+抽像类别ChatRoom：
 - 连接聊天室(connectChatRoom方法)
 - 发送讯息(sendMessage方法)
 - 接收讯息(receiveMessage方法)

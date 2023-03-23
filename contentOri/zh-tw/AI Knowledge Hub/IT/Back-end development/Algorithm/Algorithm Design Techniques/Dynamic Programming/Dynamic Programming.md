@@ -1,9 +1,10 @@
 +++
 title = "動態規劃"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dynamic Programming的問題
+給我5題Dynamic Programming的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "動態規劃"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dynamic Programming並舉例
+以中文說明Dynamic Programming並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Dynamic Programming 是一種以分治法為基礎的演算法設計技術，通
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dynamic Programming的重點
+以中文條列Dynamic Programming的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ Dynamic Programming 是一種以分治法為基礎的演算法設計技術，通
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dynamic Programming的中等難度問題，並在後面列出答案
+以中文給我5題Dynamic Programming的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -85,31 +86,4 @@ Dynamic Programming 是一種以分治法為基礎的演算法設計技術，通
 給定一個整數數組，找到其中和最大的子陣列。
 
 答案：https://leetcode.com/problems/maximum-subarray/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Dynamic Programming的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dynamic Programming" by GeeksforGeeks - https://www.geeksforgeeks.org/dynamic-programming/
-
-This comprehensive guide by GeeksforGeeks covers all aspects of dynamic programming, from its definition, types, characteristics, and implementation. It also includes examples of dynamic programming problems and their solutions.
-
-2. "Introduction to Dynamic Programming - Programiz" - https://www.programiz.com/dsa/dynamic-programming
-
-Programiz's beginner-friendly guide to dynamic programming provides a detailed explanation of the concept, its use cases, and how it works. It includes sample problems and step-by-step solutions to help readers understand the process.
-
-3. "Dynamic Programming - Tutorialspoint" - https://www.tutorialspoint.com/dynamic_programming/index.htm
-
-Tutorialspoint's dynamic programming guide explains dynamic programming in simple terms and provides examples of its applications, including the Fibonacci sequence, the Knapsack problem, and the Longest Common Substring problem.
-
-4. "Dynamic Programming Explained: A Comprehensive Introduction" by Towards Data Science - https://towardsdatascience.com/dynamic-programming-explained-8d575c840079
-
-This article on Toward Data Science provides an in-depth explanation of dynamic programming, its common problems, and how it can be applied to machine learning and data science. It also includes sample problems and solutions.
-
-5. "Dynamic Programming: An Optimization Technique for Solving Complex Problems" by UpGrad - https://www.upgrad.com/blog/dynamic-programming/
-
-UpGrad's dynamic programming guide provides a comprehensive overview of the concept, its use cases, and how it can help solve complex problems. It includes examples of dynamic programming problems and their solutions, as well as tips on how to optimize performance.   
 

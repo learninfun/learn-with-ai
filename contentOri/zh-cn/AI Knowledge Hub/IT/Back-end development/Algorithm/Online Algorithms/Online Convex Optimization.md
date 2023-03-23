@@ -1,5 +1,6 @@
 +++
 title = "在线凸优化"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -21,13 +22,13 @@ title = "在线凸优化"
 
 
 
-Online Convex Optimization (OCO) 是一種最佳化方法，主要用於解決資料流進來時需要即時作出決策的問題。這種方法通常用在動態環境下的應用中，例如網路廣告投放、智慧家居控制和機器人路徑規劃等。
+Online Convex Optimization (OCO) 是一种最佳化方法，主要用于解决资料流进来时需要即时作出决策的问题。这种方法通常用在动态环境下的应用中，例如网路广告投放、智慧家居控制和机器人路径规划等。
 
-在 OCO 中，我們試圖最小化一個訓練目標函數的值，這個函數包括當前時間步的損失和上一時間步的解。然而，當新的數據流進來時，我們需要在不斷更新的數據中進行最佳決策。因此，我們需要使用一些演算法來處理這些挑戰。
+在 OCO 中，我们试图最小化一个训练目标函数的值，这个函数包括当前时间步的损失和上一时间步的解。然而，当新的数据流进来时，我们需要在不断更新的数据中进行最佳决策。因此，我们需要使用一些演算法来处理这些挑战。
 
-最常用的 OCO 演算法之一是隨機梯度下降法（Stochastic Gradient Descent，SGD）。SGD 能夠通過更新參數來最小化损失函数，以適應新的數據流。
+最常用的 OCO 演算法之一是随机梯度下降法（Stochastic Gradient Descent，SGD）。SGD 能够通过更新参数来最小化损失函数，以适应新的数据流。
 
-例如，假設我們要以 OCO 方法來解決在線廣告投放的問題。當有新的用戶訪問時，系統需要決定向該用戶展示哪個廣告來最大化收益。使用 OCO 模型，系統能夠學習並基於上一次展示廣告的成果來做出更好的決策。通過SGD，系統可以自動更新其簡單的投放策略，以使其收益最大化。   
+例如，假设我们要以 OCO 方法来解决在线广告投放的问题。当有新的用户访问时，系统需要决定向该用户展示哪个广告来最大化收益。使用 OCO 模型，系统能够学习并基于上一次展示广告的成果来做出更好的决策。通过SGD，系统可以自动更新其简单的投放策略，以使其收益最大化。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -36,17 +37,21 @@ Online Convex Optimization (OCO) 是一種最佳化方法，主要用於解決�
 
 
 
-1. Online Convex Optimization is a method for solving optimization problems where the objective function is not known in advance.
+1. 在online convex optimization中，目标是最小化目标函数的平均值，其中目标函数由一系列损失函数组成。
 
-2. Online Convex Optimization algorithms are designed to handle situations where the data arrives in a stream and is not pre-processed.
+2. 在每一个时刻，线性预测器被用来进行预测，然后依据实际数据进行调整。
 
-3. Online Convex Optimization algorithms make use of the gradient of the objective function to update the solution as new data arrives.
+3. 此外，施加条件限制可以帮助改进收敛速度。
 
-4. The performance of Online Convex Optimization algorithms is typically measured by the regret, which is the difference between the objective function value of the algorithm and that of the optimal solution.
+4. 机器学习中常用的支持向量机模型就是基于online convex optimization的算法之一。
 
-5. The main advantage of Online Convex Optimization is that it allows for fast adaptation to changing environments and can be used in a wide range of applications, such as machine learning, signal processing, and control.
+5. 选择不同的损失函数可以使得算法适用于不同的问题，例如线性回归、分类、排序等。
 
-6. Online Convex Optimization has many practical applications, including online advertising, recommendation systems, and financial modeling.   
+6. 选择适当的学习率可以改善算法的收敛速度和准确性。
+
+7. 不断适应新数据的能力使得online convex optimization适合处理大数据问题。
+
+8. 最终的模型应该基于所有过去数据的平均值，而不是只依赖最新的一个数据点。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -55,113 +60,33 @@ Online Convex Optimization (OCO) 是一種最佳化方法，主要用於解決�
 
 
 
-1. Consider a stochastic gradient descent algorithm for minimizing a convex function f(x) over a convex set C, where at each iteration t, we draw a random sample i(t) from a set of n possible samples, and update the current iterate x(t) as follows: x(t+1) = x(t) - η(t) * g(i(t)), where η(t) is a stepsize parameter and g(i) is the subgradient of f at sample i. Assume that f is L-Lipschitz, i.e., |f(x) - f(y)| ≤ L*||x-y|| for all x, y in C. Show that if we choose η(t) = η/t, where η > 0 is a constant and t is the iteration number, then the expected regret R(T) = E[Σt=1...T (f(x(t)) - f(x*))], where x* is the optimizer of f over C, satisfies R(T) ≤ O(η*L*sqrt(n*T)).
+1. 在Online Convex Optimization的框架下考虑线性回归问题，若目标函数为$w\in W\mapsto \sum_{i=1}^n(w\cdot x_i-y_i)^2$，其中$x_i\in R^d,y_i\in R$，请问所采用的算法应该是哪种？
 
-Solution: We can write the update rule as x(t+1) - x* = x(t) - x* - η(t) * (g(i(t)) - ∇f(x*)), where ∇f(x*) = 0 due to optimality of x* over C. Hence, we have
-
-||x(t+1) - x*||^2 = ||x(t) - x*||^2 - 2η(t) * (g(i(t)) - ∇f(x*))^T * (x(t) - x*) + η(t)^2 * ||g(i(t)) - ∇f(x*)||^2.
-
-Taking expectations over i(t), we get E[g(i(t))] = ∇f(x(t)), and hence
-
-E[||x(t+1) - x*||^2] = ||x(t) - x*||^2 - 2η(t) * (∇f(x(t)) - ∇f(x*))^T * (x(t) - x*) + η(t)^2 * E[||∇f(x(t)) - ∇f(x*)||^2].
-
-Now, using the Lipschitz property of f, we can bound the last term as follows:
-
-E[||∇f(x(t)) - ∇f(x*)||^2] ≤ L^2 * E[||x(t) - x*||^2].
-
-Substituting this bound and taking expectations over t, we get
-
-E[Σt=1...T ||x(t+1) - x*||^2] ≤ ||x(1) - x*||^2 + η^2 * L^2 * E[Σt=1...T ||x(t) - x*||^2].
-
-We can simplify this recurrence relation by dividing both sides by T^2 and using the inequality t^2 ≤ Σj=1...t j^2 ≤ t^3, which follows from the sum of squares identity. This gives us
-
-(E[||x(T+1) - x*||^2] - ||x(1) - x*||^2/T) / T ≤ η^2 * L^2 * E[Σt=1...T ||x(t) - x*||^2] / T^2.
-
-Now, using the convexity of f, we can write f(x(t)) - f(x*) ≤ (x(t) - x*)^T * (∇f(x(t)) - ∇f(x*)), and hence
-
-E[f(x(t))] - f(x*) ≤ E[(x(t) - x*)^T] * E[∇f(x(t)) - ∇f(x*)] = E[||x(t) - x*||^2] * E[||∇f(x(t)) - ∇f(x*)||],
-
-where we used Cauchy-Schwarz inequality in the last step. Therefore, we have
-
-E[f(x(t))] - f(x*) ≤ sqrt(E[||x(t) - x*||^2]) * sqrt(E[||∇f(x(t)) - ∇f(x*)||^2]).
-
-Substituting the previous inequality and using Jensen's inequality for the square root, we get
-
-(E[Σt=1...T (f(x(t)) - f(x*))] - T*(f(x*) - f(x(1)))) / T ≤ η * L * sqrt(E[Σt=1...T ||x(t) - x*||^2]).
-
-Finally, using the inequality between arithmetic and geometric means, i.e.,
-
-(E[Σt=1...T ||x(t) - x*||^2] / T)^{1/2} ≤ (1/T) * Σt=1...T ||x(t) - x*||,
-
-and telescoping sums, we can simplify the above inequality as
-
-R(T) ≤ f(x(1)) - f(x*) + η * L * (1/η) * sqrt(T * Σt=1...T ||g(i(t)) - ∇f(x*)||^2),
-
-where we used the fact that E[∇f(x(t))] = ∇f(x*), and hence ||∇f(x(t)) - ∇f(x*)||^2 = ||g(i(t)) - ∇f(x*)||^2. Now, using the stochastic Lipschitz assumption that ||g(i)|| ≤ L for all i, we can further simplify the last term as
-
-sqrt(T * Σt=1...T ||g(i(t)) - ∇f(x*)||^2) ≤ L * sqrt(T * n),
-
-which follows from the fact that the sum of n L-Lipschitz functions is also L-Lipschitz over the convex set C. Substituting this bound, we get the desired result that R(T) ≤ O(η*L*sqrt(n*T)).
-
-2. Consider a distributed optimization problem where a set of nodes {1, 2, ..., N} each have access to a local convex function f_i(x) that is L-Lipschitz over a convex set C, and want to collaborate to find a common minimizer x* of the sum of their functions f(x) = Σi=1...N f_i(x). Assume that the nodes can communicate with each other through an undirected graph G = (V, E), where each node represents a vertex in V and each edge in E represents a communication link that can transmit the current iterate x(t) between its endpoints. Show that if we use the Update Rule x_i(t+1) = Σj∈N(i) a_ij(t) * x_j(t) - η(t) * g_i(t), where N(i) is the set of neighbors of node i, a_ij(t) = 1/d_i(t) if (i, j)∈E and a_ij(t) = 0 otherwise, d_i(t) = Σj∈N(i) ||x_j(t) - x_i(t)||^2 is the diagonal weight matrix, and g_i(t) is a subgradient of f_i at x_i(t), then the expected regret R(T) = E[Σt=1...T (f(x(t)) - f(x*))], where x* is the optimizer of f over C, satisfies R(T) ≤ O(L*sqrt(N*T)).
-
-Solution: Let x(t) be the N-dimensional vector consisting of x_1(t), x_2(t), ..., x_N(t), and let H(t) be the graph Laplacian matrix of G with respect to x(t), i.e., H(t) = D(t) - A(t), where D(t) is the diagonal degree matrix with entries d_i(t), and A(t) is the adjacency matrix with entries a_ij(t). We can write the Update Rule in matrix form as x(t+1) = x(t) - η(t) * H(t) * g(t), where g(t) is a subgradient vector of f(x(t)) that consists of the local subgradients g_i(t) of the nodes. Since f(x) is L-Lipschitz, we have ||g(t)|| ≤ L for all t, and hence ||g(t+1)|| ≤ ||g(t)||, which implies that the norms of the subgradient vectors are non-increasing.
-
-Now, we can use the convexity of f to derive the following inequality:
-
-f(x(t)) - f(x*) ≤ g(t)^T * (x(t) - x*) = -||g(t)||^2 * ((x(t) - x*) / ||g(t)||)^T + g(t)^T * ((x(t) - x*) / ||g(t)||),
-
-where we used the Cauchy-Schwarz inequality in the last step. Using the gradient inequality for convex functions, we have f(x(t+1)) - f(x*) ≤ f(x(t)) - f(x*) + g(t)^T * (x(t+1) - x(t)), which implies that
-
-E[Σt=1...T (f(x(t+1)) - f(x*))] ≤ Σt=1...T E[(g(t))^T * (x(t+1) - x(t))].
-
-Substituting the Update Rule and expanding the terms, we get
-
-E[Σt=1...T (f(x(t+1)) - f(x*))] = Σt=1...T Σi∈V (d_i(t)/2η(t)) * E[(x_i(t+1) - x_i(t))^2] - Σt=1...T Σi∈V (d_i(t)/2η(t)) * E[g_i(t)^T * (x_j(t) - x_i(t))],
-
-where we used the fact that H(t) = 1/2η(t) * (D(t)/2η(t) - A(t)) and x(t+1) - x(t) = -η(t) * H(t) * g(t). The first term on the right-hand side can be bounded using the inequality ||a_ij(t)|| ≤ 1/2sqrt(d_i(t)*d_j(t)), which follows from the fact that ||x_i(t) - x_j(t)||^2 = (x_i(t) - x_j(t))^T * (x_i(t) - x_j(t)) = x_i(t)^T * x_i(t) + x_j(t)^T * x_j(t) - 2*x_i(t)^T * x_j(t) ≤ 2*(x_i(t)^T * x_i(t) + x_j(t)^T * x_j(t)) = 2*d_i(t) + 2*d_j(t), and hence
-
-Σt=1...T Σi∈V (d_i(t)/2η(t)) * E[(x_i(t+1) - x_i(t))^2] ≤ Σi∈V (1/η(0)) * ||x(0) - x*||^2 + Σt=1...T Σ(i,j)∈E a_ij(t) * E[(x_i(t) - x_j(t))^2] ≤ 2L^2 * Σt=1...T Tr(H(t)) = 2L^2 * T * Tr(H(0)),
-
-where Tr(H) is the trace of matrix H. For the second term on the right-hand side, we can use the Lipschitz property of f_i to write g_i(t)^T * (x_j(t) - x_i(t)) ≤ L * ||x_j(t) - x_i(t)||^2 ≤ 2L/d_i(t) * (d_i(t) * d_j(t))^(1/2) * ||x_j(t) - x_i(t)||,
-
-where we again used the inequality ||a_ij(t)|| ≤ 1/2sqrt(d_i(t)*d_j(t)). Substituting this bound and using the fact that H(t) is symmetric and positive semidefinite, we can bound the expected regret as follows:
-
-E[Σt=1...T (f(x(t+1)) - f(x*))] ≤ 2L^2 * T * Tr(H(0)) + 2L * Σ(i,j)∈E Σt=1...T (d_i(t) * d_j(t))^(1/2) * ||x_j(t) - x_i(t)|| / d_i(t).
-
-Now, using the Cauchy-Schwarz inequality, we can bound the denominator as
-
-Σ(i,j)∈E d_i(t) * (d_j(t))^(1/2) / d_i(t) ≤ (Σ(i,j)∈E d_j(t))^(1/2) * (Σ(i,j)∈E d_i(t))^(1/2) = Tr(D(t))^(1/2) * N^(1/2),
-
-where we used the fact that A(t) is symmetric and d_i(t) = Σj∈N(i) ||x_j(t) - x_i(t)||^2. We can further bound the numerator as follows:
-
-Σ(i,j)∈E d_i(t) * (d_j(t))^(1/2) * ||x_j(t) - x_i(t)|| ≤ 2 * Σ(i,j)∈E ((d_i(t))^2 + (d_j(t))^2)^(1/2) * ||x_j(t) - x_i(t)|| ≤ 2 * ||x(t)||^2 * Tr(H(t)),
-
-where we again used the inequality ||a_ij(t)|| ≤ 1/2sqrt(d_i(t)*d_j(t)) and the fact that ||x(t)||^2 = Σi∈V ||x_i(t)||^2. Finally, substituting these bounds and using the fact that Tr(D(t)) ≥ N for all t, we get the desired result that
-
-R(T) ≤ 2L^2 * Tr(H(0)) * T + 4L * ||x(0)||^2 * sqrt(N) * Tr(H(t)) / N^(3/2) ≤ O(L*sqrt(N*T)),
-
-where we used the fact that H(0) is positive semidefinite, and hence has non-negative trace.   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Online Convex Optimization的网络数据
-{{< /ask_chatgpt >}}
+答案：梯度下降法。
 
 
+2. 在Online Convex Optimization的框架下考虑逻辑回归问题，若目标函数为$w\in W\mapsto \sum_{i=1}^n\log(1+e^{-y_iw\cdot x_i})$，其中$x_i\in R^d,y_i\in \{-1,1\}$，请问所采用的算法应该是哪种？
 
-1. "Online Convex Optimization" by Shai Shalev-Shwartz
-http://www.cs.huji.ac.il/~shais/Online-Convex-Optimization/online-convex.pdf
+答案：随机梯度下降法。
 
-2. "Convex Optimization for Machine Learning" by Stephen Boyd and Lieven Vandenberghe
-https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
 
-3. "Introduction to Convex Optimization" by Stephen Boyd and Lieven Vandenberghe
-https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf
+3. 在Online Convex Optimization的框架下考虑最小化加权分类误差问题，若目标函数为$w\in W\mapsto \sum_{i=1}^n\varphi(\langle w,x_i\rangle,y_i)$，其中$\varphi:\mathbb{R}\times \{-1,1\}\rightarrow \mathbb{R}$为下凸函数，$x_i\in R^d,y_i\in \{-1,1\}$且有相应的权重$w_i$，请给出一个求解该问题的随机算法并进行推导。
 
-4. "Stochastic Optimization and Online Learning" by Elad Hazan and Satyen Kale
-https://arxiv.org/abs/1902.04947
+答案：Stochastic Subgradient Descent (SSGD)。算法流程：
+1. 初始化$\theta_1$为0。
+2. 对于$t=2,\ldots,T$：
+   a. 选择一个样本$(x_i,y_i)$，计算梯度下降方向$g_t$
+   $$g_t=\theta_t'-w_i\nabla_1\varphi(\langle \theta_t,x_i\rangle,y_i)x_i$$
+   b. 更新$\theta_t$
+   $$\theta_{t+1}=\frac{1}{\sqrt{t}}\sum_{i=1}^tg_i$$
+   其中$\theta_t'$为$\theta_t$的一个随机修正，用来解决部分精度梯度问题。
 
-5. "Convex Optimization: Algorithms and Complexity" by Sébastien Bubeck
-http://research.microsoft.com/pubs/192769/bubeck14convex.pdf   
+4. 在Online Convex Optimization的框架下考虑最小化$L_1$正则化的线性回归问题，若目标函数为$w\in W\mapsto \sum_{i=1}^n(w\cdot x_i-y_i)^2+\lambda \Vert w\Vert_1$，其中$x_i\in R^d,y_i\in R$，请问所采用的算法应该是哪种？
+
+答案：Subgradient Descent。
+
+
+5. 在Online Convex Optimization的框架下考虑最小化Huber损失函数的线性回归问题，若目标函数为$w\in W\mapsto \sum_{i=1}^n\varphi(w\cdot x_i-y_i)$，其中$\varphi:\mathbb{R}\rightarrow \mathbb{R}$为下凸函数，并且$\varphi(z)=z^2/2$，当$|z|\leq \delta$，且$\varphi(z)=\delta|z|-\delta^2/2$，当$|z|>\delta$，请问所采用的算法应该是哪种？
+
+答案：Subgradient Descent。   
 

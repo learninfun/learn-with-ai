@@ -1,5 +1,6 @@
 +++
 title = "基础架构即代码 (IaC)"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -41,7 +42,7 @@ IaC的优点在于：
 
 3. Terraform: Terraform 是 HashiCorp 公司开发的可让管理员定义基础设施的工具。它提供了丰富的功能，支援多种基础架构提供商，包括 Amazon Web Services、Google Cloud 和 Azure。
 
-4. Chef: Chef是一种开源的系统管理自动化工具，它使用基于 Ruby 的语言来描述系统配置。它提供了一个命令式管理架构和配置的抽象层。
+4. Chef: Chef是一种开源的系统管理自动化工具，它使用基于 Ruby 的语言来描述系统配置。它提供了一个命令式管理架构和配置的抽像层。
 
 5. Puppet: Puppet是一种自动化IT土建设的解决方案，它可以编写程式码来部署、配置和管理伺服器，并自动检测和修补偏差。   
 
@@ -150,36 +151,4 @@ Resources:
               TransitionInDays: 30
 ```
    
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Infrastructure as Code (IaC)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Infrastructure as Code: What Is It, and Why Should You Care?" by DigitalOcean 
-Link: https://www.digitalocean.com/community/tutorials/what-is-infrastructure-as-code-and-why-should-you-care 
-
-This article provides a comprehensive definition and explanation of what Infrastructure as Code (IaC) is and why it is important. It covers the benefits of IaC, the principles of IaC, and the tools and technologies that are commonly used in implementing IaC.
-
-2. "Infrastructure as Code: A Beginner's Guide" by Hashicorp 
-Link: https://www.hashicorp.com/resources/what-is-infrastructure-as-code 
-
-This blog post provides a beginner's guide to Infrastructure as Code (IaC). It explains what IaC is, how it works, and the benefits it can provide. It also covers some of the most popular tools and technologies used in IaC, as well as best practices and common use cases.
-
-3. "Infrastructure as Code: An Introduction" by Red Hat 
-Link: https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code 
-
-This article from Red Hat provides a comprehensive introduction to Infrastructure as Code (IaC). It covers the basics of IaC, including its definition, how it works, and the benefits it can provide. It also explores some of the most popular IaC tools and technologies, as well as how IaC can be used in cloud-native environments.
-
-4. "The Beginner's Guide to Infrastructure as Code" by AWS 
-Link: https://aws.amazon.com/getting-started/hands-on/getting-started-infrastructure-as-code/ 
-
-This guide from AWS provides a step-by-step introduction to Infrastructure as Code (IaC). It covers the basics of IaC, including its definition, benefits, and principles. It also provides a hands-on tutorial that demonstrates how to use AWS CloudFormation to create and manage infrastructure as code.
-
-5. "Getting Started with Infrastructure as Code" by Microsoft Azure 
-Link: https://docs.microsoft.com/en-us/azure/developer/terraform/getting-started-infrastructure-as-code 
-
-This guide from Microsoft Azure provides a comprehensive introduction to Infrastructure as Code (IaC) using Terraform. It covers the basics of IaC, best practices, and the benefits of using Terraform for IaC. It also provides a hands-on tutorial that demonstrates how to create an infrastructure environment using Terraform.   
 

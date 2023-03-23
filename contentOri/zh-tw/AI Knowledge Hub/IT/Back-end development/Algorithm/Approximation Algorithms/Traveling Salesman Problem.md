@@ -1,9 +1,10 @@
 +++
 title = "旅行商問題"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Traveling Salesman Problem的問題
+給我5題Traveling Salesman Problem的中文問題
 {{< /ask_chatgpt >}}
 
 1. 在一個城市之間有多少種最短路徑？
@@ -14,7 +15,7 @@ title = "旅行商問題"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Traveling Salesman Problem並舉例
+以中文說明Traveling Salesman Problem並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ title = "旅行商問題"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Traveling Salesman Problem的重點
+以中文條列Traveling Salesman Problem的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ title = "旅行商問題"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Traveling Salesman Problem的中等難度問題，並在後面列出答案
+以中文給我5題Traveling Salesman Problem的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -169,26 +170,4 @@ F到H：8
 G到H：9
 
 答案：A->D->E->H->C->B->F->G->A，總路程為34   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Traveling Salesman Problem的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Wikipedia Traveling Salesman Problem page: 
-https://en.wikipedia.org/wiki/Travelling_salesman_problem 
-
-2. The Travelling Salesman Problem website: 
-https://www.math.uwaterloo.ca/tsp/index.html 
-
-3. The Traveling Salesman Problem: A Computational Study book by David L. Applegate, Robert E. Bixby, Vasek Chvatal, and William J. Cook: 
-https://www.liveresearchgroup.com/wp-content/uploads/2018/03/TSPPDFApril2007.pdf 
-
-4. An overview of Traveling Salesman Problem and its solutions: 
-https://www.toptal.com/algorithms/traveling-salesman-problem 
-
-5. Solving the Traveling Salesman Problem using a Genetic Algorithm: 
-https://towardsdatascience.com/solving-the-traveling-salesman-problem-using-genetic-algorithms-5d9a388616c9   
 

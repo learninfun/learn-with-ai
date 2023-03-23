@@ -1,9 +1,10 @@
 +++
 title = "Jest"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Jest的問題
+給我5題Jest的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Jest"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Jest並舉例
+以中文說明Jest並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +63,7 @@ Jest指示測試通過，並且提供了測試的描述以及耗時。這個簡�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Jest的重點
+以中文條列Jest的重點
 {{< /ask_chatgpt >}}
 
 
@@ -78,7 +79,7 @@ Jest指示測試通過，並且提供了測試的描述以及耗時。這個簡�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Jest的中等難度問題，並在後面列出答案
+以中文給我5題Jest的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -189,31 +190,4 @@ test("getDayOfWeek function works correctly", () => {
   expect(getDayOfWeek(2030, 12, 25)).toBe("Wednesday");
 });
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Jest的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 官方網站：https://jestjs.io/
-
-Jest是由Facebook開發的JavaScript測試框架。它支持自動化測試和手動測試，可用於單元測試、集成測試和端對端測試等多種測試類型。官方網站提供了詳細的文檔和教程，方便開發者快速上手使用。
-
-2. Medium文章：https://medium.com/welldone-software/an-intro-to-jest-what-it-is-and-how-to-use-it-27b1f3dcaf5c
-
-該Medium文章是一個對Jest的簡介，主要介紹了Jest的目的、功能以及如何使用它。它還包含了示例代碼和實際的測試用例，幫助讀者更好地理解Jest的工作方式。
-
-3. React中文文檔：https://zh-hans.reactjs.org/docs/testing.html#jest
-
-Jest是React社區中使用最廣泛的測試框架之一。React中文文檔專門介紹了如何在React項目中使用Jest進行單元測試和端對端測試。該文檔還提供了許多有用的示例代碼和指南，可讓讀者更好地理解如何使用Jest進行React測試。
-
-4. GitHub庫：https://github.com/facebook/jest
-
-Jest是一個開源項目，它的代碼存儲在GitHub上。GitHub庫提供了Jest核心代碼的最新版本，開發者可以通過分支、拉取請求等方式對代碼進行貢獻。在GitHub庫中還可以找到Jest的說明文檔、問題跟蹤、社區討論等信息。
-
-5. Udemy課程：https://www.udemy.com/course/react-testing-with-jest-and-enzyme/
-
-該Udemy課程是一個更深入地學習Jest的資源。它提供了詳細的課程內容，幫助學員學習如何使用Jest進行React測試。該課程包含了許多有用的示例代碼和小測試項目，讓學員可以實際練習Jest的使用方法。   
 

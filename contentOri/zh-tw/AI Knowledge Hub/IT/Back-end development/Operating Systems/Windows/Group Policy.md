@@ -1,9 +1,10 @@
 +++
 title = "組策略"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Group Policy的問題
+給我5題Group Policy的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "組策略"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Group Policy並舉例
+以中文說明Group Policy並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Group Policy是一種用於管理計算機和用戶設置的Microsoft技術，�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Group Policy的重點
+以中文條列Group Policy的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ Group Policy是一種用於管理計算機和用戶設置的Microsoft技術，�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Group Policy的中等難度問題，並在後面列出答案
+以中文給我5題Group Policy的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,36 +79,4 @@ Group Policy是一種用於管理計算機和用戶設置的Microsoft技術，�
 5. 如何在群組原則中設置密碼策略，以強制用戶設置更強的密碼？ 
 
 答案：可以使用群組原則中的安全性節點來設置密碼策略，包括密碼複雜性、最小密碼長度等設置，以強制用戶設置更強的密碼。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Group Policy的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Microsoft: Group Policy Overview
-https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/gpresult
-
-This overview from Microsoft provides a detailed explanation of Group Policy, including how it works and what it can be used for. It covers topics like creating and editing policies, configuring policy settings, and troubleshooting group policy issues.
-
-2. How to Use Group Policy to Manage and Secure Windows 10
-https://www.techrepublic.com/article/how-to-use-group-policy-to-manage-and-secure-windows-10/
-
-This TechRepublic article provides step-by-step instructions on how to use Group Policy to manage and secure Windows 10. It covers topics like managing updates, configuring security policies, and managing user accounts and settings.
-
-3. Group Policy Best Practices
-https://www.grouppolicy.biz/2010/01/group-policy-best-practices/
-
-This article from Group Policy MVP Alan Burchill outlines several best practices for implementing and managing Group Policy. It covers topics like creating a Group Policy plan, creating security policies, and troubleshooting issues with Group Policy.
-
-4. Windows Server Group Policy Basics
-https://www.youtube.com/watch?v=U6hHJ6dCMC8
-
-This video from IT training provider CBT Nuggets provides an introduction to Group Policy and how it works in Windows Server. It covers topics like creating and editing Group Policy objects, configuring settings using Group Policy, and troubleshooting common issues.
-
-5. How to Apply Group Policy to Only Certain Computers in Windows
-https://www.howtogeek.com/322582/how-to-apply-group-policy-to-only-certain-computers-in-windows/
-
-This How-To Geek article provides instructions on how to apply Group Policy to specific computers in a domain environment. It covers topics like creating and linking a security group, configuring security filtering settings, and troubleshooting issues with Group Policy.   
 

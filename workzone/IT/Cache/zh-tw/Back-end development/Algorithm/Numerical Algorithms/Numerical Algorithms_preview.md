@@ -1,7 +1,7 @@
 
 
-1. What is the difference between Newton-Raphson and the Bisection method in solving a nonlinear equation?
-2. How does the Gaussian elimination method simplify the process of solving a linear system of equations?
-3. Why is the Runge-Kutta method more accurate than the Euler method when solving ordinary differential equations?
-4. How do iterative methods such as the Jacobi or Gauss-Seidel method work in solving linear systems of equations?
-5. What is the purpose of eigenvalue/eigenvector computations and how are they used in numerical algorithms?
+1. 什麼是牛頓法？如何使用牛頓法求解方程組的解？
+2. 怎樣使用拉格朗日插值法對離散數據進行曲線擬合？
+3. 如何使用歐拉法（Euler's method）求解常微分方程的數值解？
+4. 什麼是矩陣的QR分解？在數值計算中，有什麼重要的應用？
+5. 如何利用最小二乘法對數據進行線性回歸？在實際應用中，有哪些注意事項？

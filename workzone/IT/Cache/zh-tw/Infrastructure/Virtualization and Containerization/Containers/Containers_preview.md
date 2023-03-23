@@ -1,7 +1,7 @@
 
 
-1. What is a container and how is it different from a virtual machine?
-2. What are some of the benefits and drawbacks of using containers for application deployment?
-3. How do container orchestration tools such as Kubernetes help with managing large numbers of containerized applications?
-4. Can containers be used for running stateful applications such as databases, or are they primarily useful for stateless microservices?
-5. How do security concerns and compliance requirements affect the use of containers in enterprise environments?
+1. 什麼是容器？在系統管理中有什麼作用？
+2. 容器和虛擬機有什麼不同？容器的優缺點是什麼？
+3. 如何建立與管理Docker容器？有哪些最佳實踐？
+4. Kubernetes是什麼？它如何管理容器集群？
+5. 如何保護容器的安全性？容器漏洞可能造成什麼影響？

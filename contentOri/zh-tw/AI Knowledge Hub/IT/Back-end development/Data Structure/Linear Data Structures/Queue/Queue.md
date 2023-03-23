@@ -1,9 +1,10 @@
 +++
 title = "佇列"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Queue的問題
+給我5題Queue的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "佇列"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Queue並舉例
+以中文說明Queue並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Queue是一種資料結構，它遵循"FIFO"(First In First Out)的原則，也�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Queue的重點
+以中文條列Queue的重點
 {{< /ask_chatgpt >}}
 
 
@@ -42,7 +43,7 @@ Queue是一種資料結構，它遵循"FIFO"(First In First Out)的原則，也�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Queue的中等難度問題，並在後面列出答案
+以中文給我5題Queue的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -85,36 +86,4 @@ Queue是一種資料結構，它遵循"FIFO"(First In First Out)的原則，也�
 例如，下圖中線段表示充電器的充電範圍，黑點表示現有充電器的位置。最少需要安排2個新的充電器，位置分別在[1, 5] 和 [8, 12]，才能夠在達到所有充電需求的前提下，最小化充電器的使用量。
 
 答案: https://leetcode.com/problems/minimum-number-of-refueling-stops/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Queue的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is a Queue in Data Structures?" by GeeksforGeeks
-Link: https://www.geeksforgeeks.org/queue-data-structure/
-
-This article by GeeksforGeeks is an informative guide on queue data structures, explaining the concept, properties, and implementation of queues. It provides a detailed explanation of different types of queues, operations performed on a queue, and the algorithm used for different queue data structures.
-
-2. "Queue (abstract data type)" by Wikipedia
-Link: https://en.wikipedia.org/wiki/Queue_(abstract_data_type)
-
-This Wikipedia article provides a thorough introduction to the concept of a queue as an abstract data type in computer science. It includes explanations of various real-life applications of queues, different types of queues, and their implementation in various programming languages.
-
-3. "The Queue Data Structure" by Codecademy
-Link: https://www.codecademy.com/articles/queue-data-structure
-
-Codecademy's article on queue data structures provides a simplified explanation of the concept along with practical examples of their implementation in code. It includes an introduction to various types of queues and their differences.
-
-4. "Queue Data Structure – A Conceptual Overview" by Analytics Vidhya
-Link: https://www.analyticsvidhya.com/blog/2021/07/queue-data-structure-a-conceptual-overview/
-
-This Analytics Vidhya article provides a conceptual overview of the queue data structure and its use in real-world applications. It explains the different types of queues and how they can be used to improve the efficiency of data processing in various industries.
-
-5. "Java Queue Interface in Depth" by Baeldung
-Link: https://www.baeldung.com/java-queue-interface
-
-This article by Baeldung delves into the Queue interface of the Java programming language, explaining its properties, implementation, and usage through detailed examples. It also covers various types of queues and their differences in Java.   
 

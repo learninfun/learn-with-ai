@@ -4,7 +4,7 @@
 
 答: 使用块
 
-2. 在Handlebars模板引擎中，如何遍历对象？
+2. 在Handlebars模板引擎中，如何遍历对像？
 
 答: 使用{{#each}} helper
 

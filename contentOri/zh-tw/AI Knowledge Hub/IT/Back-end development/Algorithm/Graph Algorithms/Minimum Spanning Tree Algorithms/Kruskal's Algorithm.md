@@ -1,9 +1,10 @@
 +++
 title = "克魯斯卡爾演算法"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Kruskal's Algorithm的問題
+給我5題Kruskal's Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -22,7 +23,7 @@ title = "克魯斯卡爾演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Kruskal's Algorithm並舉例
+以中文說明Kruskal's Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -77,30 +78,21 @@ Kruskal's Algorithm步驟如下：
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Kruskal's Algorithm的重點
+以中文條列Kruskal's Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Kruskal's Algorithm is used to find the Minimum Spanning Tree (MST) of a given graph.
-
-2. The algorithm works by sorting the edges of the graph by weight, and then adding the edges with the lowest weight first, as long as they do not create a cycle.
-
-3. To determine whether an edge will create a cycle, the algorithm uses a Union-Find data structure.
-
-4. The running time of Kruskal's Algorithm is O(E log E) where E is the number of edges in the graph.
-
-5. Kruskal's Algorithm is a greedy algorithm, meaning that it makes the locally optimal choice at each step, in the hope that this will lead to a globally optimal solution.
-
-6. The MST of a graph is a tree that spans all the vertices of the graph, while minimizing the total weight of the edges.
-
-7. Kruskal's Algorithm can handle graphs with both positive and negative edge weights, but will only work on connected graphs.
-
-8. Kruskal's Algorithm can be used in a variety of applications, including network design, clustering, and image segmentation.   
+1. 將所有的邊按照權值從小到大排序
+2. 開始遍歷所有邊，如果遇到的邊不會形成環路，就將該邊加入最小生成樹中
+3. 判斷環路的方法可以是利用Union-Find資料結構
+4. 當所有邊都遍歷完畢或是最小生成樹中的邊數已達到其頂點數-1時結束
+5. Kruskal's Algorithm具有貪心的思想，每次選擇權值最小的邊，是獲得最小生成樹的保證
+6. 時間複雜度為O(ElogE)，其中E為邊的數量，因為排序需要O(ElogE)的時間，接著進行E次尋找，每次尋找需要O(1)的時間   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Kruskal's Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Kruskal's Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -124,36 +116,4 @@ Kruskal's Algorithm步驟如下：
 5. 給定一個無向圖，使用Kruskal's Algorithm找到最小生成樹。圖的邊權重如下：[(1, 2, 2), (2, 3, 4), (1, 4, 1), (4, 3, 3), (4, 5, 8), (3, 5, 6), (3, 6, 9), (5, 6, 5)]。
 
 答案：最小生成樹的邊為[(1, 4, 1), (1, 2, 2), (2, 3, 4), (4, 5, 8), (5, 6, 5)]，總權重為20。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Kruskal's Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Kruskal's Algorithm - Implementations in C++ and Java
-https://www.geeksforgeeks.org/kruskals-algorithm-simple-implementation-for-adjacency-matrix/
-
-This resource provides a simple implementation of Kruskal's algorithm for finding a minimum spanning tree in a graph with an adjacency matrix. The article includes C++ and Java code examples with detailed explanations of each step in the algorithm.
-
-2. Kruskal's Algorithm - Explanation and Visualization
-https://visualgo.net/en/mst
-
-This website provides a visual explanation of Kruskal's algorithm, explaining each step in the process with animations and diagrams. The resource also provides an interactive visualizer that allows users to create their own graphs and run the algorithm.
-
-3. Kruskal's Algorithm - Complexity Analysis
-https://www.tutorialspoint.com/Kruskal-s-algorithm
-
-This tutorial from TutorialsPoint provides a detailed explanation of the complexity analysis of Kruskal's algorithm. The article explains the time and space complexities of the algorithm and provides examples to help readers understand the concept.
-
-4. Kruskal's Algorithm - Real-World Applications
-https://www.techopedia.com/definition/26459/kruskals-algorithm
-
-This article from Techopedia explores the real-world applications of Kruskal's algorithm. The article explains how Kruskal's algorithm is used in various fields such as telecommunications, transportation, and computer networks.
-
-5. Kruskal's Algorithm - Variations and Extensions
-https://www.cs.princeton.edu/courses/archive/spr03/cs226/lectures/mst.pdf
-
-This resource from Princeton University provides an in-depth look into the variations and extensions of Kruskal's algorithm. The article explains how the algorithm can be modified to handle different constraints in the graph such as negative weights or directed edges. The resource also provides examples and illustrations to help readers understand the variations.   
 

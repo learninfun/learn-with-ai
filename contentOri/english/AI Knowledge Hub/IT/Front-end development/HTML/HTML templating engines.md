@@ -1,3 +1,7 @@
++++
+title = "HTML templating engines"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about HTML templating engines
@@ -93,25 +97,4 @@ Answer: HTML templating engines use special syntax to define placeholders in a w
 
 5. What are some advantages of using an HTML templating engine? 
 Answer: Some advantages of using an HTML templating engine include improved organization and maintainability of code, increased development speed, and better support for dynamic content. Templating engines also make it easier to create responsive web designs, as templates can be easily adapted to different screen sizes and devices.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about HTML templating engines
-{{< /ask_chatgpt >}}
-
-
-
-1. Handlebars.js: https://handlebarsjs.com/
-2. Mustache: https://mustache.github.io/
-3. EJS (Embedded JavaScript Templating): https://ejs.co/
-4. Pug (formerly known as Jade): https://pugjs.org/
-5. Nunjucks: https://mozilla.github.io/nunjucks/
-6. Twig: https://twig.symfony.com/
-7. Haml (HTML Abstraction Markup Language): http://haml.info/
-8. Jinja2: https://jinja.palletsprojects.com/en/3.0.x/
-9. Liquid: https://shopify.github.io/liquid/
-10. Chameleon: https://chameleon.readthedocs.io/en/latest/
-11. Dust.js: https://github.com/linkedin/dustjs
-12. Plates.js: https://www.npmjs.com/package/plates
-13. Reactive Templates: https://projectglow.github.io/reactive-templates/   
 

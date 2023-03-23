@@ -1,16 +1,21 @@
 
 
-1. What is Cross-Site Scripting (XSS)? 
-A: Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. 
+1. 假设有一个网站使用非安全的Cookie储存用户讯息，请问攻击者可否透过XSS攻击偷取此Cookie？
 
-2. Why is XSS dangerous?
-A: XSS can be used to steal sensitive information, such as login credentials, and can allow attackers to hijack user accounts, spread malware, and perform other malicious actions without the user's knowledge.
+答案：是。攻击者可以透过注入一段含有恶意的JavaScript程式码，使用户浏览器执行此程式码，从而窃取Cookie储存的用户讯息。
 
-3. What are the different types of XSS?
-A: There are three main types of XSS: persistent, reflected, and DOM-based. Persistent XSS occurs when malicious code is stored on the server and executed when the user visits the affected page. Reflected XSS occurs when the malicious code is sent as part of a URL to the server, which returns it back to the user's browser. DOM-based XSS, on the other hand, involves manipulating the Document Object Model (DOM) of a web page to inject malicious code.
+2. 请问DOM-Based XSS攻击与传统的反射型XSS攻击有何区别？
 
-4. How can XSS attacks be prevented?
-A: XSS attacks can be prevented by properly validating and sanitizing user input on both the client and server side, setting appropriate HTTP headers, using Content Security Policy (CSP), and implementing proper authentication and authorization mechanisms.
+答案：DOM-Based XSS攻击是针对使用JavaScript动态修改HTML DOM的网页，而非直接注入HTML标签内容的XSS攻击。攻击方式类似反射型XSS攻击，但注入点在JavaScript，而非在HTTP回应中。
 
-5. What are some common signs that a website is vulnerable to XSS attacks?
-A: Some common signs that a website may be vulnerable to XSS include: unvalidated or unsanitized user input that is displayed on a web page, a lack of encoding or escaping of special characters, and the absence of measures to prevent or detect XSS attacks, such as CSP or web application firewalls (WAFs).
+3. 如果一个网站使用HTTP而不是HTTPS连线，请问攻击者可否透过中间人攻击进行XSS注入？
+
+答案：是。由于HTTP传输的讯息是明文的，攻击者可在传输过程中修改HTTP回应内容，进行XSS注入攻击。
+
+4. 请问在提交表单时，为何需要使用CSRF Token保护？如何预防XSS攻击？
+
+答案：提交表单时需要使用CSRF Token保护，因为攻击者可透过XSS攻击获取用户的身份验证Cookie，进而伪造请求，对该用户的资料进行恶意操作。在预防XSS攻击方面，可使用输入验证、过滤输入内容、安全储存敏感资料等方式。
+
+5. 请问如何使用Content Security Policy (CSP)保护网站免受XSS攻击？
+
+答案：可透过设定Content Security Policy (CSP)限制网站可以载入的资源，防止攻击者的脚本注入到网页中。具体的措施可以包括限制脚本的来源、禁用内联脚本等。另外，也可使用跨站点脚本攻击防御框架，如X-XSS-Protection等。

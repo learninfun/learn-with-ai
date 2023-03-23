@@ -1,7 +1,7 @@
 
 
-1. How do you measure the performance of your team members?
-2. What metrics do you use to evaluate the success of a new product launch?
-3. What strategies do you employ to track and improve customer satisfaction metrics?
-4. How do you determine the success of a marketing campaign?
-5. What key performance indicators do you track to evaluate the effectiveness of your company's overall business strategy?
+1. 什麼是性能測試，它的目的是什麼？
+2. 性能測試中常用的指標有哪些，它們的意義是什麼？
+3. 如何設計一個有效的性能測試計劃？
+4. 性能測試有哪些常用的方法和工具？
+5. 性能測試過程中可能會遇到哪些問題，如何解決這些問題？

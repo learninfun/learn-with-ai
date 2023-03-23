@@ -1,9 +1,10 @@
 +++
 title = "數據庫設計"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Database design的問題
+給我5題Database design的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "數據庫設計"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Database design並舉例
+以中文說明Database design並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ Note: The answer is provided by the AI language model and may contain errors or 
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Database design的重點
+以中文條列Database design的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Note: The answer is provided by the AI language model and may contain errors or 
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Database design的中等難度問題，並在後面列出答案
+以中文給我5題Database design的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -87,36 +88,4 @@ Note: The answer is provided by the AI language model and may contain errors or 
 
 5. 請設計一個購物車系統的資料庫結構，包含會員、商品、訂單和購物車等資料表。
 解答：會員表（ID，姓名，密碼，地址，電話）商品表（ID，名稱，價格）訂單表（ID，會員ID，下訂時間）購物車表（ID，會員ID，商品ID，數量）   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Database design的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1.「Database Design」 by Oracle
-https://docs.oracle.com/cd/B19306_01/server.102/b14220/design.htm
-
-此網頁提供了Oracle的Database Design文件，介紹數據庫設計的基本概念、命名規則、關鍵字、數據類型、表關聯等。
-
-2.「Database Design and Implementation」 by Coursera
-https://www.coursera.org/learn/database-design/home/welcome
-
-Coursera提供一系列的Database Design課程，包括數據庫設計和實施、數據建模、數據庫管理和SQL等，可供學習。 
-
-3.「Introduction to Database Design」 by geeksforgeeks
-https://www.geeksforgeeks.org/introduction-to-database-design/
-
-該網頁提供數據庫設計的簡介，包括實體關係模型、關鍵字、一致性等，適合初學者入門。
-
-4.「Database Design」 by w3schools
-https://www.w3schools.com/sql/sql_intro.asp
-
-該網頁介紹數據庫設計的基礎，包括表的創建、添加數據、修改表等，並提供SQL的操作示例。
-
-5.「Relational Database Design」 by lucidchart
-https://www.lucidchart.com/pages/database-diagram/database-design
-
-該網頁介紹關係型數據庫（RDBMS）的設計，包括實體、屬性、主鍵、外鍵等概念，還提供了一些工具和範例。   
 

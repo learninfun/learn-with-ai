@@ -1,9 +1,10 @@
 +++
 title = "操作系統"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Operating Systems的問題
+給我5題Operating Systems的中文問題
 {{< /ask_chatgpt >}}
 
 1. 什麼是操作系統，它的主要功能是什麼？
@@ -14,7 +15,7 @@ title = "操作系統"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Operating Systems並舉例
+以中文說明Operating Systems並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +44,7 @@ title = "操作系統"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Operating Systems的重點
+以中文條列Operating Systems的重點
 {{< /ask_chatgpt >}}
 
 
@@ -70,7 +71,7 @@ title = "操作系統"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Operating Systems的中等難度問題，並在後面列出答案
+以中文給我5題Operating Systems的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -89,21 +90,4 @@ title = "操作系統"
 
 5. 在操作系統中，什麼是文件系統？請解釋不同的文件系統的優缺點。
 答案：文件系統是一個將檔案和目錄組織成一個樹形結構的方式，使得操作系統能夠跨程式地存取和管理檔案。Windows系統中常用的文件系統是NTFS (New Technology File System)和FAT (File Allocation Table)；Linux系統中常用的文件系統是EXT2、EXT3、EXT4，Btrfs等。NTFS優點在於支援安全性更強、支援儲存容量更大、支援文件加密等功能； FAT優點在於相容性更好、使用簡單、支援多種設備等。Linux的EXT文件系統與Btrfs文件系統優點在於EXT系列可提供更高效的磁碟空間配置和控制，Btrfs系統較新, 支援大批量檔案和高能力分配和管理以及校驗和恢復等功能。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Operating Systems的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Operating System Concepts" by Abraham Silberschatz, Peter B. Galvin, and Greg Gagne - This website provides an introduction to operating systems and covers topics such as processes, memory management, file systems and security.
-
-2. "Linux" - The Linux operating system is an open source system that is widely used in servers, embedded devices, and mobile devices. This website provides information on the Linux operating system, including versions, distribution and system administration.
-
-3. "Windows Operating System" - This website provides information on the Microsoft Windows operating system, including the various versions, features, and system requirements. It also provides information on security and updates for Windows operating systems.
-
-4. "Operating System Types" by Techopedia - This website explains the different types of operating systems available today, including general-purpose, distributed, embedded, and mobile operating systems.
-
-5. "User-Friendly Guide to Operating Systems" by Top Ten Reviews - This website provides a comprehensive guide to operating systems, including background information on operating systems, reviews of popular operating systems, and comparison charts to help users choose the best fit for their needs.   
 

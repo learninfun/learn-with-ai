@@ -1,9 +1,10 @@
 +++
 title = "NoSQL數據庫"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題NoSQL Databases的問題
+給我5題NoSQL Databases的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "NoSQL數據庫"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明NoSQL Databases並舉例
+以中文說明NoSQL Databases並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +42,7 @@ NoSQL数据库，也称为非关系型数据库，是指不使用传统的表格
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列NoSQL Databases的重點
+以中文條列NoSQL Databases的重點
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +65,7 @@ NoSQL数据库，也称为非关系型数据库，是指不使用传统的表格
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題NoSQL Databases的中等難度問題，並在後面列出答案
+以中文給我5題NoSQL Databases的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -88,36 +89,4 @@ NoSQL数据库，也称为非关系型数据库，是指不使用传统的表格
 5. 什麼是Amazon DynamoDB？
 
 答案：Amazon DynamoDB是一個在Amazon Web Services (AWS)上運行的高度可擴展的鍵-值存儲NoSQL數據庫。它支持自動擴展、自動備份和自動恢復，並且與其他AWS服務緊密集成，例如Amazon S3、Amazon EMR和Amazon CloudWatch等。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇NoSQL Databases的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What are NoSQL databases and how do they work?" by IBM:
-https://www.ibm.com/cloud/learn/nosql-databases
-
-This article by IBM provides an overview of NoSQL databases and explains how they work, including their typical characteristics, data models, and use cases. It also explores the benefits and challenges of using NoSQL databases compared to traditional relational databases.
-
-2. "What Is NoSQL? A Primer for the Tech Industry" by Tech.Co:
-https://tech.co/technology/nosql-primer-tech-industry-2017-07
-
-This article by Tech.Co offers an introduction to NoSQL databases, including their definition, history, and key features. It also discusses several popular types of NoSQL databases, such as document-oriented, key-value, and graph databases, and provides examples of companies that use them.
-
-3. "NoSQL Databases Explained" by MongoDB:
-https://www.mongodb.com/nosql-explained
-
-This resource by MongoDB, one of the most well-known NoSQL database providers, provides an in-depth explanation of NoSQL databases and their benefits. It covers various aspects, such as scalability, flexibility, and performance, and highlights how NoSQL databases can handle large amounts of data and reduce complexity.
-
-4. "NoSQL Databases: A Beginner’s Guide to the Tech" by TechTarget:
-https://searchdatamanagement.techtarget.com/feature/NoSQL-databases-A-beginners-guide-to-NoSQL-technologies
-
-This guide by TechTarget aims to provide an overview of NoSQL databases for beginners, including their definition, architecture, and key use cases. It also offers advice on choosing the right type of NoSQL database for specific needs and compares some popular NoSQL databases in terms of features and functionality.
-
-5. "NoSQL vs SQL: High-Level Differences and Pros/Cons" by DigitalOcean:
-https://www.digitalocean.com/community/tutorials/nosql-vs-sql
-
-This article by DigitalOcean compares NoSQL and SQL databases, highlighting their differences in terms of data modeling, scalability, and consistency. It also discusses the pros and cons of each type of database, and offers guidance on choosing the right database for specific applications.   
 

@@ -1,5 +1,6 @@
 +++
 title = "前端优化"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "前端优化"
 
 
 
-1. 什麼是前端優化？為什麼它很重要？
-2. 討論如何最小化 CSS 和 JavaScript 文件大小以提高頁面加載速度。
-3. 說明如何使用快取和瀏覽器存儲來加速頁面載入並降低服務器負載。
-4. 怎麼做才能優化圖像，進而降低頁面載入時間？
-5. 討論如何減少 HTTP 請求以加快頁面載入時間。   
+1. 什么是前端优化？为什么它很重要？
+2. 讨论如何最小化 CSS 和 JavaScript 文件大小以提高页面加载速度。
+3. 说明如何使用快取和浏览器存储来加速页面载入并降低服务器负载。
+4. 怎么做才能优化图像，进而降低页面载入时间？
+5. 讨论如何减少 HTTP 请求以加快页面载入时间。   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -39,21 +40,21 @@ title = "前端优化"
 
 
 
-1. 優化網站架構：確保網站的HTML、CSS、JavaScript等程式碼結構簡潔、明確，適合搜索引擎抓取收錄，提高網站的速度和表現。
+1. 优化网站架构：确保网站的HTML、CSS、JavaScript等程式码结构简洁、明确，适合搜索引擎抓取收录，提高网站的速度和表现。
 
-2. 減少HTTP請求：透過壓縮CSS、JavaScript、圖片等資源大小，避免過多HTTP請求，減少網頁的下載時間，提高網站的速度。
+2. 减少HTTP请求：透过压缩CSS、JavaScript、图片等资源大小，避免过多HTTP请求，减少网页的下载时间，提高网站的速度。
 
-3. 優化圖片：使用合適的圖片格式、壓縮算法，減少圖片大小，提高圖片加載速度，減少網頁加載時間。
+3. 优化图片：使用合适的图片格式、压缩算法，减少图片大小，提高图片加载速度，减少网页加载时间。
 
-4. 適當使用CDN加速：透過CDN（Content Delivery Network）加速加載網頁的靜態資源，降低網站的延遲時間，提升網站的速度和性能。
+4. 适当使用CDN加速：透过CDN（Content Delivery Network）加速加载网页的静态资源，降低网站的延迟时间，提升网站的速度和性能。
 
-5. 優化JavaScript代碼：針對前端JavaScript代碼進行一些優化手段，如減少重複代碼、避免使用全局變量、使用緩存機制等，提高JavaScript代碼的運行性能。
+5. 优化JavaScript代码：针对前端JavaScript代码进行一些优化手段，如减少重复代码、避免使用全局变量、使用缓存机制等，提高JavaScript代码的运行性能。
 
-6. 利用緩存機制：利用瀏覽器緩存機制，將網站的資源暫存到本地，減少了網站的HTTP請求量和載入時間，從而提高網站的速度。
+6. 利用缓存机制：利用浏览器缓存机制，将网站的资源暂存到本地，减少了网站的HTTP请求量和载入时间，从而提高网站的速度。
 
-7. 使用DNS Prefetching：預瀏覽DNS將在用戶訪問單一網頁之前預先解析該網頁中用到的外部資源，從而加快網站的加載速度。
+7. 使用DNS Prefetching：预浏览DNS将在用户访问单一网页之前预先解析该网页中用到的外部资源，从而加快网站的加载速度。
 
-8. 適當使用瀏覽器線程：瀏覽器的線程有限，利用節點，避免運行太多線程，減少網站的負載加速載入時間。   
+8. 适当使用浏览器线程：浏览器的线程有限，利用节点，避免运行太多线程，减少网站的负载加速载入时间。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -81,35 +82,4 @@ title = "前端优化"
 5. 如何减少首次载入时间？
 
 答案：最小化CSS和JavaScript代码、使用延迟加载技术、使用Lazy Load延迟载入技术、使用CDN加速、使用本地存储等方法可以减少首次载入时间。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Front-End Optimization的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-以下是5篇Front-End Optimization的网路资料：
-
-1. "10 Tips for Front-End Optimization"，Bill Doerrfeld，2018年11月19日，https://www.programmableweb.com/news/10-tips-front-end-optimization/how-to/2018/11/19
-
-这篇文章提供了10个有用的前端优化技巧，包括减少HTTP请求、使用CDN、延迟JavaScript载入等等。
-
-2. "Front-End Optimization Best Practices"，Dawn Parzych，2020年10月8日，https://www.thousandeyes.com/blog/front-end-optimization-best-practices
-
-这篇文章介绍了一些最佳实践方法，例如减少图像大小、优化CSS和JavaScript、使用WebP图像格式等等。
-
-3. "Front-End Performance Checklist 2020 [PDF, Apple Pages, MS Word]"，Vitaly Friedman，2020年9月28日，https://www.smashingmagazine.com/2020/01/front-end-performance-checklist-2020-pdf-pages/
-
-这份检查清单提供了一个完整的前端性能优化指南，包括减少图像大小、使用网页缓存、最小化重定向等等。
-
-4. "The Ultimate Guide to Front-End Optimization"，Nirav Sheth，2020年7月28日，https://www.section.io/blog/front-end-optimization-guide/
-
-这篇文章深入探讨了一些重要的主题，如网页缓存、资源优化、JavaScript优化等等。
-
-5. "Front-End Optimization Techniques"，Jesse Boyer，2020年10月2日，https://www.keycdn.com/blog/front-end-optimization
-
-这篇文章提供了一些实用的前端优化技巧，例如使用Lazy Loading、HTML优化、减少CSS和JavaScript等等。
-
-以上是5篇Front-End Optimization的网路资料，这些文章将对任何正在寻求优化网站性能的开发人员和网站拥有者有所帮助。   
 

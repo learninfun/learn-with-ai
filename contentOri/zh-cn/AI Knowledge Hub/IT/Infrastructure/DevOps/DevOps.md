@@ -1,5 +1,6 @@
 +++
 title = "开发/运维"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -76,21 +77,4 @@ DevOps的核心是讓開發團隊和運維團隊緊密配合，從起始的開�
 5. 如何實現DevOps文化？
 
 答案：DevOps文化是DevOps的核心要素之一。實現DevOps文化的關鍵是激發團隊協作、優化流程、進行持續改進等，通過不斷學習和實踐，形成主人翁、自我管理、持續學習、快速創新的文化特點。具體實現中，需要加强團隊建設和激勵、推行敏捷文化、實施DevOps工具和流程等。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇DevOps的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations" by Gene Kim, Jez Humble, Patrick Debois, and John Willis - This book is a comprehensive guide to DevOps that covers everything from the theory behind the methodology to practical advice on how to implement it in your organization.
-
-2. "What is DevOps?" by Puppet - This article from Puppet, a leader in the DevOps space, provides a clear overview of what DevOps is, why it's important, and the benefits it can provide to organizations.
-
-3. "10 Essential DevOps Tools You Need to Know" by Datamation - This article explores some of the key tools and technologies that are commonly used in DevOps environments, including automation tools, monitoring solutions, and collaboration software.
-
-4. "Tips for Implementing a DevOps Culture in Your Organization" by Forbes - This Forbes article provides insight into how organizations can successfully implement a DevOps culture, discussing everything from the importance of communication to the need for continuous improvement.
-
-5. "DevOps for Beginners: A Guide to Understanding DevOps" by Pluralsight - This free course from Pluralsight is designed to help beginners understand the basics of DevOps, including key principles, processes, and practices. It's a great resource for anyone who's just starting out with DevOps or looking to refresh their knowledge.   
 

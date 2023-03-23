@@ -1,9 +1,9 @@
 
 
-Authentication is the process of verifying the identity of a user or system. It basically ensures that a user is who they claim to be. Authentication can be achieved in various ways, such as through passwords, biometric identification, or multi-factor authentication.
+Authentication and Authorization 是一组用于保护系统安全的安全机制。它们通常被用于管理用户对系统中各种资源的访问权限。
 
-Authorization, on the other hand, is the process of granting or denying access to resources or services based on the authenticated user's identity and their level of access permissions. Authorization ensures that an authenticated user has the right to access the resources they have requested.
+Authentication 负责验证用户身份并确保只有授权的用户才能访问特定的系统资源。常见的身份验证方式包括用户名和密码、口令、数字证书和生物特征（如指纹、面部识别等）。例如，当您登录一个网站时，您需要提供一个用户名和密码以验证您的身份是否正确。
 
-Example:
+Authorization 确保用户只能访问他们已被授权访问的资源。这意味着系统会检查用户的访问权限，并根据其账户类型、角色、权限等因素来控制他们可以执行的操作。例如，在一个社交网络应用中，管理员用户可能有权访问和编辑所有用户的个人资料，而普通用户则可能只能查看自己的个人资料并与自己的朋友交流。
 
-Suppose you want to access your online banking account. First, you need to enter your username and password (authentication). Once the bank verifies your identity, it will authorize you to access your account and perform transactions that you are authorized to perform. In this example, authentication and authorization work together to ensure the security of the banking system and prevent any unauthorized access to customers' accounts.
+综上所述，Authentication 和 Authorization 通常协同工作来确保系统中的资源只能被授权的用户访问。

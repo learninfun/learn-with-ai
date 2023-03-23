@@ -1,9 +1,10 @@
 +++
 title = "最小生成樹"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Minimum Spanning Trees的問題
+給我5題Minimum Spanning Trees的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "最小生成樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Minimum Spanning Trees並舉例
+以中文說明Minimum Spanning Trees並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,7 +45,7 @@ Kruskal演算法應用在圖中之後，下面的圖就是 MST：
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Minimum Spanning Trees的重點
+以中文條列Minimum Spanning Trees的重點
 {{< /ask_chatgpt >}}
 
 
@@ -69,7 +70,7 @@ Kruskal演算法應用在圖中之後，下面的圖就是 MST：
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Minimum Spanning Trees的中等難度問題，並在後面列出答案
+以中文給我5題Minimum Spanning Trees的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -93,31 +94,4 @@ Kruskal演算法應用在圖中之後，下面的圖就是 MST：
 5. 求一個無向圖形的生成樹，使得最長邊的權重最小。
 
 答案：這個問題可以通過將邊權重的負值取反，然後使用Kruskal或Prim算法找到最小生成樹。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Minimum Spanning Trees的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Minimum Spanning Trees: https://www.geeksforgeeks.org/minimum-spanning-tree/
-
-這篇文章舉例說明了Minimum Spanning Trees問題的應用，並且簡單的說明了如何解決Minimum Spanning Trees問題。同時，提供了Kruskal和Prim算法的詳細介紹，可以幫助讀者瞭解算法的運作方式。
-
-2. Prim』s Algorithm - Minimum Spanning Tree (MST): https://www.tutorialspoint.com/prim-s-algorithm-minimum-spanning-tree-mst
-
-這篇文章通過說明Prim算法的原理和運作流程，幫助讀者瞭解Minimum Spanning Trees問題以及如何解決這個問題。同時，作者還使用了簡單易懂的例子來幫助讀者理解算法的實際應用。
-
-3. Kruskal's Algorithm for Minimum Spanning Tree: https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
-
-這篇文章通過說明Kruskal算法的原理和運作流程，幫助讀者瞭解Minimum Spanning Trees問題以及如何解決這個問題。同時，文章還提供了實際代碼的實現，讓讀者更加深入地瞭解算法的實際應用。
-
-4. Minimum Spanning Trees: https://www.cs.cmu.edu/~avrim/451f12/lectures/lect0904.pdf
-
-這是一份PPT演示文稿，非常詳細地介紹了Minimum Spanning Trees問題以及Kruskal和Prim算法的原理和實現細節。如果您還不熟悉Minimum Spanning Trees問題以及如何解決這個問題，這份演示文稿會對您非常有幫助。
-
-5. The Minimum Spanning Tree Problem: https://www.cs.princeton.edu/~wayne/kleinberg-tardos/pdf/04GreedyAlgorithmsII.pdf
-
-這是另一份PPT演示文稿，同樣非常詳細地介紹了Minimum Spanning Trees問題以及Kruskal和Prim算法的原理和實現細節。這份演示文稿的特色在於它提供了大量數學公式和對算法的解析，可以幫助讀者更加深入地瞭解算法的原理和運作方式。   
 

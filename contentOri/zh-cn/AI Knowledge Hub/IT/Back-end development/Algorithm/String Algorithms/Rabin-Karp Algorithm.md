@@ -1,5 +1,6 @@
 +++
 title = "Rabin-Karp演算法"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -76,19 +77,19 @@ Rabin-Karp算法的时间复杂度是O(n+m)，其中n是主字符串的长度，
 
 
 
-以下是Rabin-Karp算法的重點：
+以下是Rabin-Karp算法的重点：
 
-1. Rabin-Karp算法是一種基於哈希函數的字符串匹配算法。
+1. Rabin-Karp算法是一种基于哈希函数的字符串匹配算法。
 
-2. 算法的核心思想是將模式串和文本串都轉換成哈希值，然後進行比較。
+2. 算法的核心思想是将模式串和文本串都转换成哈希值，然后进行比较。
 
-3. 算法運行過程中，使用滑動窗口的思想，每次在文本串中向右移動一個字符，計算新的哈希值，然後進行比較。
+3. 算法运行过程中，使用滑动窗口的思想，每次在文本串中向右移动一个字符，计算新的哈希值，然后进行比较。
 
-4. 算法的運行時間在最壞情況下為O(mn)，其中m是模式串長度，n是文本串長度。
+4. 算法的运行时间在最坏情况下为O(mn)，其中m是模式串长度，n是文本串长度。
 
-5. 為了降低搜尋時間，通常使用一些技巧，如哈希表等，優化算法的實現。
+5. 为了降低搜寻时间，通常使用一些技巧，如哈希表等，优化算法的实现。
 
-6. 這個算法的應用相當廣泛，特別是在大量文本搜索、字串匹配等方面有很好的表現。   
+6. 这个算法的应用相当广泛，特别是在大量文本搜索、字串匹配等方面有很好的表现。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -111,28 +112,4 @@ Rabin-Karp算法的时间复杂度是O(n+m)，其中n是主字符串的长度，
 
 5. 在一个长度为n的字符串中，查找两个相同长度但内容不同的模式串。
 答案：使用Rabin-Karp Algorithm，对每个长度为m的子串计算哈希值，并将其存储在set中，当下一个哈希值已经存在于set中时，即可得出另一个相同长度但内容不同的模式串。时间复杂度为O(nm)。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Rabin-Karp Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
-This website provides a detailed explanation of the Rabin-Karp algorithm and its implementation in Java, Python and C++. It also includes a time complexity analysis and comparisons with other string searching algorithms.
-
-2. Programiz: https://www.programiz.com/dsa/rabin-karp-algorithm
-This website provides a simple and concise explanation of the Rabin-Karp algorithm along with a Python implementation. It also includes examples to help understand the working of the algorithm.
-
-3. TutorialsPoint: https://www.tutorialspoint.com/Rabin-Karp-Algorithm-for-Pattern-Searching
-This website provides a step-by-step explanation of the Rabin-Karp algorithm along with a C++ implementation. It also includes an example to help understand the algorithm's working.
-
-4. Stanford University: http://web.stanford.edu/class/cs97si/10-string-algorithms.pdf
-The link provides a lecture by Computer Science Department of Stanford University on string algorithms, including Rabin-Karp Algorithm, along with its implementation.
-
-5. Brilliant: https://brilliant.org/wiki/rabin-karp-algorithm/
-This website provides an introduction to the Rabin-Karp algorithm, how it works, and its implementation. It also includes a practice problem to help understand the algorithm's working. 
-
-以上是五个免费的网站，介绍Rabin-Karp Algorithm。   
 

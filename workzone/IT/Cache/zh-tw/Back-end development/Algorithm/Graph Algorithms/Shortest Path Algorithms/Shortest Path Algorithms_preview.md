@@ -1,11 +1,11 @@
 
 
-1. What is Dijkstra's algorithm and how is it used to find the shortest path between two vertices in a graph?
+1. 什麼是Shortest Path Algorithms？該算法如何找到兩點之間的最短路徑？
 
-2. What is Bellman-Ford algorithm and how does it differ from Dijkstra's algorithm in finding the shortest path in a negative weighted graph?
+2. Dijkstra's Algorithm 與 Bellman-Ford Algorithm 的不同點是什麼？它們如何在實際應用中使用？
 
-3. What is Floyd-Warshall algorithm for finding the shortest path in a weighted graph, and how does it decide between multiple paths of the same shortest length?
+3. A* Algorithm 對於搜尋詳細的路徑規劃與運輸系統有何優勢？它是如何運作的？
 
-4. What is Johnson's algorithm for solving the shortest path problem, and how is it useful in graphs with negative edge weights?
+4. Floyd-Warshall Algorithm 可以處理帶有負權重的圖，但是可能會造成什麼問題？有什麼解決辦法？
 
-5. How does A* algorithm work, and what is its advantage over other shortest path algorithms in finding the shortest path between two vertices in a weighted graph?
+5. 在使用Shortest Path Algorithms時，如何評估圖的複雜度？您如何選擇最佳的算法來解決問題？

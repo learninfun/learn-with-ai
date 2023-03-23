@@ -1,5 +1,6 @@
 +++
 title = "中介者模式"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -21,9 +22,9 @@ title = "中介者模式"
 
 
 
-中介者模式是一种行为模式，它的主要作用是减少多个对象之间的直接通信，并将这些对象的互动转化为通过中介者对象进行间接通信。中介者模式通常被用来简化系统中的复杂关系，同时可以使得系统的设计更加具有灵活性和可维护性。
+中介者模式是一种行为模式，它的主要作用是减少多个对象之间的直接通信，并将这些对象的互动转化为通过中介者对像进行间接通信。中介者模式通常被用来简化系统中的复杂关系，同时可以使得系统的设计更加具有灵活性和可维护性。
 
-在中介者模式中，中介者对象当作多个子对象之间的调度者。每个子对象之间的通信都必须通过中介者对象，这样可以确保彼此之间的通信维持在一个良好的状态，同时中介者对象可以根据不同的情况和需求来控制这些子对象之间的互动。
+在中介者模式中，中介者对像当作多个子对像之间的调度者。每个子对像之间的通信都必须通过中介者对象，这样可以确保彼此之间的通信维持在一个良好的状态，同时中介者对象可以根据不同的情况和需求来控制这些子对像之间的互动。
 
 举例来说，假设一个社交媒体平台包含了多个用户和多个群组，这些用户和群组之间需要相互通信，但直接通信会使得系统变得混乱不堪且难以维护。这时候，就可以使用中介者模式来解决这个问题。这个情况下，中介者对象可以当作一个控制中心，用来调度不同用户之间的通信，同时可以控制用户和群组之间的互动。通过使用中介者模式，我们可以简化系统的设计，降低系统的复杂度和耦合度，提高系统的可维护性和扩展性。   
 
@@ -34,11 +35,11 @@ title = "中介者模式"
 
 
 
-- Mediator Pattern是一种行为型设计模式，它可以用来减少对像之间的直接耦合，以及更好地管理它们之间的交互。
-- 在Mediator Pattern中，所有的对像都通过中介者对象进行通信，而不是直接相互交互。
-- Mediator Pattern可以降低系统的复杂度，增强系统的可维护性和可扩展性，并且可以有效地减少代码的重复性。
-- Mediator Pattern中的中介者对象需要维护一个对像集合，以便管理这些对像之间的交互。
-- Mediator Pattern可以应用于不同类型的系统中，包括GUI设计、多人游戏、企业级应用等。   
+- Mediator Pattern是一種行為型設計模式，它可以用來減少對像之間的直接耦合，以及更好地管理它們之間的交互。
+- 在Mediator Pattern中，所有的對像都通過中介者對像進行通信，而不是直接相互交互。
+- Mediator Pattern可以降低系統的複雜度，增強系統的可維護性和可擴展性，並且可以有效地減少代碼的重複性。
+- Mediator Pattern中的中介者對像需要維護一個對像集合，以便管理這些對像之間的交互。
+- Mediator Pattern可以應用於不同類型的系統中，包括GUI設計、多人遊戲、企業級應用等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -88,31 +89,4 @@ title = "中介者模式"
 (2) 對象之間交互的場景。
 
 (3) 多對多交互的場景。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Mediator Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Mediator Pattern in Java: Explained with an Example - https://www.baeldung.com/java-mediator-pattern
-
-This article provides a detailed explanation of the Mediator pattern in Java, along with a practical example of how it can be used to simplify communication between objects in a complex system.
-
-2. Mediator Pattern: Overview - https://refactoring.guru/design-patterns/mediator
-
-This review of the Mediator pattern provides a high-level overview of its purpose, benefits, and implementation, along with examples of how the pattern can be applied in various scenarios.
-
-3. The Mediator Pattern: A More Controlled Approach to Object Interaction - https://www.dummies.com/programming/software-development/the-mediator-pattern-a-more-controlled-approach-to-object-interaction/
-
-This article explains the Mediator pattern in plain language, with a focus on how it can help simplify object interaction and improve code maintainability.
-
-4. Practical Design Patterns: Mediator - https://www.toptal.com/design-patterns/mediator-pattern
-
-This tutorial offers a practical guide to implementing the Mediator pattern in real-world applications, with code examples and detailed explanations of the key concepts.
-
-5. Mediator Pattern in JavaScript - https://www.javascripttutorial.net/design-patterns/mediator-pattern/
-
-This article provides a detailed guide to implementing the Mediator pattern in JavaScript, including a step-by-step example and tips for best practices.   
 

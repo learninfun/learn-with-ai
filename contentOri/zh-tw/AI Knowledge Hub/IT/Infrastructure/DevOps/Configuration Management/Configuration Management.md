@@ -1,22 +1,23 @@
 +++
 title = "配置管理"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Configuration Management的問題
+給我5題Configuration Management的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is Configuration Management, and why is it important?
-2. What are some common tools used in Configuration Management, and how do they work?
-3. How does Configuration Management help ensure that software and systems are stable, secure, and reliable?
-4. What are some best practices for implementing Configuration Management in an organization?
-5. How does Configuration Management interact with other IT disciplines, such as DevOps, Testing, and Release Management?   
+1. 什麼是組態管理?
+2. 為什麼組態管理很重要?
+3. 組態管理的主要目標是什麼?
+4. 組態基準是什麼?
+5. 組態管理如何支援軟體的開發過程?   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Configuration Management並舉例
+以中文說明Configuration Management並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ Configuration Management是指一套組織和管理資產與配置變更的方�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Configuration Management的重點
+以中文條列Configuration Management的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ Configuration Management要求將系統的詳細文檔保存在可靠的儲存�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Configuration Management的中等難度問題，並在後面列出答案
+以中文給我5題Configuration Management的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,42 +91,4 @@ Configuration Management要求將系統的詳細文檔保存在可靠的儲存�
 5. 在操作系統升級過程中，您的團隊發現系統升級會導致文件定時器出現問題。您可以採取什麼措施來解決這個問題？
 
 答案：可以在升級之前，在系統中運行程序來檢查是否所有的文件定時器都被正確設置，以確保升級過程不會影響它們的設置。此外，還應該確保系統管理員能夠快速恢復，如果這些操作無法解決問題，最好回滾並重新安裝文件定時器。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Configuration Management的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-
-1. What is Configuration Management? - BMC Software
-
-https://www.bmc.com/blogs/configuration-management/
-
-This article by BMC Software provides a good introduction to what configuration management is and why it's important for IT organizations. It covers topics such as defining a configuration item (CI), using a configuration management database (CMDB), and the benefits of effective configuration management.
-
-2. Introduction to Configuration Management - IBM
-
-https://www.ibm.com/support/knowledgecenter/SSQ2R2_9.5.0/com.ibm.ent.plm.doc/uv101.htm
-
-This article by IBM provides a more technical introduction to configuration management, including details on how to configure and manage CIs in IBM's Rational DOORS tool. It covers topics such as the role of configuration management in the software development lifecycle and how to create, modify, and reuse CIs.
-
-3. Configuration Management Best Practices - Atlassian
-
-https://www.atlassian.com/configuration-management
-
-This article by Atlassian provides a comprehensive guide to configuration management best practices. It covers topics such as creating a configuration management plan, using version control, automating configuration management tasks, and auditing and monitoring Configuration Management changes.
-
-4. The Advantages of Configuration Management - SolarWinds
-
-https://www.solarwinds.com/configuration-management/the-advantages-of-configuration-management
-
-This article by SolarWinds explains the benefits of effective configuration management, including increased reliability, reduced downtime, and improved compliance. It also covers specific use cases for configuration management, such as network automation and cloud orchestration.
-
-5. Configuration Management: A Beginner's Guide - ITILR Foundation
-
-https://www.axelos.com/news/blogs/march-2018/configuration-management-a-beginners-guide
-
-This blog post by ITIL Foundation provides an introduction to configuration management using the ITIL framework. It covers topics such as the objectives of configuration management, the benefits of a CMDB, and how to implement configuration management best practices using ITIL.   
 

@@ -1,3 +1,7 @@
++++
+title = "Shortest Path Algorithms"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Shortest Path Algorithms
@@ -85,22 +89,4 @@ Answer: Floyd-Warshall algorithm is faster in dense graphs as it has a time comp
 5. Which algorithm is preferred for finding the shortest paths from a single source node to all other nodes in a graph? 
 
 Answer: Dijkstra's algorithm is not optimal for this case, whereas Bellman-Ford algorithm is a good choice especially if the graph has negative edge weights.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Shortest Path Algorithms
-{{< /ask_chatgpt >}}
-
-
-
-1. Shortest Path Problems: Introduction and Algorithms
-2. Graph Algorithms: Shortest Path
-3. Dijkstra's Algorithm for Shortest Path
-4. Bellman-Ford Algorithm for Shortest Path
-5. A* Algorithm for Shortest Path
-6. Floyd-Warshall Algorithm for Shortest Path
-7. Introduction to Shortest Path Algorithms in Graphs
-8. Source-Target Shortest Path Algorithms: A Comprehensive Review
-9. Shortest Path Algorithms Overview: Application to Traffic Routing
-10. Shortest-Path Algorithms in Transportation and Logistics   
 

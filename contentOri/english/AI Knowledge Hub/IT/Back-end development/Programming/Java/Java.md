@@ -1,3 +1,7 @@
++++
+title = "Java"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Java
@@ -82,31 +86,4 @@ Answer: A static method is a method that belongs to the class rather than to any
 
 5. What is the difference between a checked and an unchecked exception in Java?
 Answer: A checked exception is checked at compile time and must be handled by the programmer, while an unchecked exception is not checked at compile time and does not need to be handled. Examples of checked exceptions in Java are FileNotFoundException and IOException, while examples of unchecked exceptions are NullPointerException and ArrayIndexOutOfBoundsException.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Java
-{{< /ask_chatgpt >}}
-
-
-
-1. Oracle Java Developer: https://www.oracle.com/java/
-
-2. Java Tutorials on TutorialsPoint: https://www.tutorialspoint.com/java/index.htm
-
-3. Java Documentation on Oracle: https://docs.oracle.com/en/java/
-
-4. Java Programming Language on GeeksforGeeks: https://www.geeksforgeeks.org/java/
-
-5. Java on W3Schools: https://www.w3schools.com/java/
-
-6. Java on Codecademy: https://www.codecademy.com/learn/learn-java
-
-7. Java on JetBrains: https://www.jetbrains.com/idea/guide/java/
-
-8. Java on IBM Developer: https://developer.ibm.com/technologies/java/
-
-9. Java on Baeldung: https://www.baeldung.com/java-tutorial
-
-10. Java on The JavaTpoint: https://www.javatpoint.com/java-tutorial   
 

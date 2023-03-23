@@ -1,9 +1,13 @@
 
 
-- Virtual Machines (VMs) are software-based representations of physical computers that can run multiple operating systems simultaneously on a single physical machine.
-- They are isolated from each other and from the host operating system, providing a secure and flexible environment.
-- VMs can be created, managed, and deleted easily, allowing for dynamic allocation of resources and increased efficiency.
-- They can be easily replicated and migrated, allowing for easy scalability and disaster recovery.
-- VMs can be used for testing and development, server consolidation, cloud computing, and other virtualization use cases.
-- The performance of virtual machines can be affected by the hardware resources allocated to them, such as CPU, RAM, storage, and network connectivity.
-- There are different types of virtualization, including full virtualization, para-virtualization, and hardware virtualization, each with its unique advantages and constraints.
+1. 虛擬機器是在實體機器上建立的虛擬計算機，它們模擬了一個完整的計算環境，包括處理器、記憶體、網路接口等。
+
+2. 虛擬機器可以在同一台實體機器上建立多個獨立的虛擬環境，並且互相隔離。
+
+3. 虛擬機器可以運行不同的作業系統，如Windows、Linux、macOS等，並且可以在同一時間運行多個不同的作業系統。
+
+4. 虛擬機器可使應用程式和作業系統遷移到不同的硬體平台，也可以進行測試和開發。
+
+5. 虛擬機器可協助執行較老舊的應用程式，因為它們可以在較新的作業系統下運行。
+
+6. 虛擬機器也可以提供統一的容器環境，使軟體應用程式能夠獨立於底層硬體環境運行。

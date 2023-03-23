@@ -1,9 +1,10 @@
 +++
 title = "字典樹"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Trie的問題
+給我5題Trie的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "字典樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Trie並舉例
+以中文說明Trie並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ Trie樹允許更快地查找字符串。以「appl」為例，Trie樹可以從�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Trie的重點
+以中文條列Trie的重點
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +65,7 @@ Trie樹允許更快地查找字符串。以「appl」為例，Trie樹可以從�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Trie的中等難度問題，並在後面列出答案
+以中文給我5題Trie的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -283,31 +284,4 @@ class Solution:
                 visited.add(next_word)
                 self.dfs(next_word, endWord, trie, words, visited, path + [next_word], paths)
                 visited.remove(next_word)   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Trie的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Trie - GeeksforGeeks
-網址：https://www.geeksforgeeks.org/trie-insert-and-search/
-這篇文章介紹了 Trie 的基本操作：插入和搜尋。並且提供了 C++ 的程式碼，也有範例可以測試。
-
-2. Trie Dictionary and Autocomplete - Medium
-網址：https://medium.com/swlh/trie-dictionary-and-autocomplete-a71ae077f532
-這篇文章介紹了 Trie 樹的應用：字典和自動完成。除了基本的搜索操作，還介紹了整個樹的建構和刪除。也有 Swift 的程式碼示範。
-
-3. Trie - Competitive Programming Algorithms - Topcoder
-網址：https://www.topcoder.com/thrive/articles/Trie%20-%20Competitive%20Programming%20Algorithms
-這篇文章介紹了 Trie 的一些更進階使用方法，例如文本字符串搜索、點的計數、前綴和等等。還有一個近似匹配的應用例子。也有 Python 3 的程式碼。
-
-4. Implementing a trie in Java - Baeldung
-網址：https://www.baeldung.com/trie-java
-這篇文章提供了 Java  語言實現 Trie 的方法，同時也介紹了 Trie 的資料結構和性能優化等方面的知識。示範了 Trie 用於單詞搜索和前綴搜尋。
-
-5. Visualization of Trie (Prefix Tree) - VisuAlgo
-網址：https://visualgo.net/en/trie
-這篇文章提供了一個可視化平台，用來直觀地理解 Trie 樹的建構和搜尋。更加動態地展示 Trie 操作過程，讓讀者可以更加直觀知道其中的細節。此外，平台中也提供了對試驗數據可能性的測試，創造出與實際場景相似的條件。   
 

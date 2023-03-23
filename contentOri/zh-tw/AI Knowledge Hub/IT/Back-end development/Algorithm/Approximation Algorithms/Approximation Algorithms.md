@@ -1,9 +1,10 @@
 +++
 title = "逼近算法"
+weight = "11"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Approximation Algorithms的問題
+給我5題Approximation Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "逼近算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Approximation Algorithms並舉例
+以中文說明Approximation Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,28 +32,28 @@ title = "逼近算法"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Approximation Algorithms的重點
+以中文條列Approximation Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Approximation ratio: Approximation algorithms aim to find solutions that are within a certain percentage of the optimal solution. The approximation ratio is defined as the ratio between the objective function value of the approximation algorithm and the optimal objective function value.
+1. 近似算法是一種計算複雜性理論中的算法設計技術，它在給定的時間內尋找一個可行解，該解與最優解之間的差距在一定範圍內。
 
-2. Polynomial Time: Approximation algorithms must run in polynomial time since it is not feasible to obtain optimal solutions for many optimization problems in polynomial time.
+2. 近似算法通常用於NP難度問題的優化求解，它可以為實際應用提供高效的可行解。
 
-3. Trade-off between speed and accuracy: Approximation algorithms must balance speed and accuracy to achieve reasonable solutions for practical problems.
+3. 近似算法可以分為近似比例和逼近算法兩種類型，近似比例是一個指標，指最優解和近似算法獲得的解之間的比例，逼近算法則是在一定的誤差範圍內求解最優解。
 
-4. Greedy approach: Many approximation algorithms use a greedy approach that selects the best action at each step, without considering the impact on future steps.
+4. 近似算法應用於各種問題領域，如圖論、優化、組合優化、計算幾何等。
 
-5. Randomization: Randomization can be used in approximation algorithms to overcome limitations in the greedy approach or to achieve better approximation ratios.
+5. 近似算法的設計原則包括利用貪心算法、線性規劃鬆弛、隨機化等技術，同時需要考慮算法的時間複雜度和精度。
 
-6. Performance guarantees: Approximation algorithms provide performance guarantees that ensure the quality of the solution obtained regardless of the input instance.
+6. 近似算法的局限性在於其只能提供一個接近最優解的可行解，而無法保證一定得到最優解。因此，在實際應用中，需要根據具體的問題特點來選擇合適的近似算法和權衡算法運行時間和解的質量。
 
-7. Applications: Approximation algorithms are widely used in various fields, including computer science, operations research, and engineering, to solve optimization problems in practice.   
+7. 近似算法是當前計算機科學領域的熱門研究方向，隨著計算機硬件和算法的進步，近似算法的應用前景將會不斷擴大。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Approximation Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Approximation Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -71,26 +72,4 @@ title = "逼近算法"
 
 5. 執行時間最大化問題：假設你有一個作業系統，有n個作業需要執行，每個作業具有一個執行時間t[i]和一個截止時間d[i]。問題在於將這些作業分配到限定的資源上，使得作業被執行的總執行時間最大化。
 答案：使用近似演算法求解。將作業按照d[i]排序，然後使用貪心算法從截止時間最早的作業開始執行，直到所有的作業都被分配。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Approximation Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Approximation Algorithms" by Tim Roughgarden
-This article, written by a computer science professor, provides a detailed introduction to approximation algorithms. It covers topics such as the basic notion of approximation and the design and analysis of approximation algorithms. The article also includes examples of common approximation problems and their approximations.
-
-2. "The Design of Approximation Algorithms" by David P. Williamson and David B. Shmoys
-This book is a comprehensive introduction to designing and analyzing approximation algorithms. It covers topics such as the basics of approximation algorithms, linear programming, and compendium of approximation algorithms for common problems. The book also includes exercises and solutions.
-
-3. "Approximation Algorithms and the Hardness of Approximation" by Sanjeev Arora and Shmuel Safra
-This article provides an overview of approximation algorithms and their analysis. It introduces the concept of NP-hardness and discusses the relationship between approximability and hardness. The article also includes examples of approximation algorithms for various problems.
-
-4. "Approximation Algorithms for NP-hard Problems" by Dorit S. Hochbaum
-This book provides a comprehensive overview of approximation algorithms for NP-hard problems. It covers topics such as approximation algorithms for the traveling salesman problem, the vertex cover problem, and the set cover problem. The book also includes a chapter on randomized approximation algorithms.
-
-5. "Approximation Algorithms for Combinatorial Optimization Problems" by Vijay V. Vazirani
-This book provides a comprehensive overview of approximation algorithms for various combinatorial optimization problems. It covers topics such as the traveling salesman problem, the vertex cover problem, the set cover problem, and the facility location problem. The book also includes a chapter on the probabilistic method for designing approximation algorithms.   
 

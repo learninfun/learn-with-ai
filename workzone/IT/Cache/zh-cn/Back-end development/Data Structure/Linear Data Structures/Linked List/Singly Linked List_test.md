@@ -1,12 +1,12 @@
 
 
-1. 實作一個反轉Singly Linked List的函數
+1. 实作一个反转Singly Linked List的函数
    答案：https://stackoverflow.com/questions/20662024/reverse-a-linked-list
-2. 判斷一個Singly Linked List是否存在環路
+2. 判断一个Singly Linked List是否存在环路
    答案：https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
-3. 找到Singly Linked List中倒數第n個節點
+3. 找到Singly Linked List中倒数第n个节点
    答案：https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
-4. 合併兩個已排序的Singly Linked List成為一個新的已排序LinkedList
+4. 合并两个已排序的Singly Linked List成为一个新的已排序LinkedList
    答案：https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
-5. 將Singly Linked List按照特定數值x當中的節點分為兩部分，小於x的節點在前、大於等於x的節點在後
+5. 将Singly Linked List按照特定数值x当中的节点分为两部分，小于x的节点在前、大于等于x的节点在后
    答案：https://www.geeksforgeeks.org/partitioning-a-linked-list-around-a-given-value-and-keeping-the-original-order/

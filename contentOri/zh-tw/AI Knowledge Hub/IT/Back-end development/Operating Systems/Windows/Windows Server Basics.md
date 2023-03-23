@@ -1,9 +1,10 @@
 +++
 title = "Windows服務器基礎"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Windows Server Basics的問題
+給我5題Windows Server Basics的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Windows服務器基礎"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Windows Server Basics並舉例
+以中文說明Windows Server Basics並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ Windows Server Basics是指使用Microsoft Windows Server作為伺服器操作�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Windows Server Basics的重點
+以中文條列Windows Server Basics的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ Windows Server Basics是指使用Microsoft Windows Server作為伺服器操作�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Windows Server Basics的中等難度問題，並在後面列出答案
+以中文給我5題Windows Server Basics的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -85,36 +86,4 @@ Windows Server Basics是指使用Microsoft Windows Server作為伺服器操作�
 
 5. 如何設置Windows Server上的DHCP伺服器？ 
 答案：點擊「管理工具」，並選擇 DHCP 指令碼。然後輸入所需的網路和可用IP地址範圍等配置內容。 最後，啟用DHCP伺服器。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Windows Server Basics的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Windows Server Basics: Understanding Server Roles and Features
-https://www.petri.com/windows-server-basics-understanding-server-roles-features
-
-In this article, you'll learn about the different server roles and features available in Windows Server. This includes roles such as File and Storage Services, Active Directory Domain Services, and Hyper-V, as well as features like Windows PowerShell and Remote Server Administration Tools.
-
-2. Windows Server Basics: Installing and Configuring Active Directory Domain Services
-https://www.brianmadden.com/opinion/Windows-Server-Basics-Installing-and-Configuring-Active-Directory-Domain-Services
-
-Active Directory Domain Services (AD DS) is a core component of Windows Server, providing centralized authentication and authorization services for network resources. In this article, you'll learn how to install and configure AD DS on a Windows Server machine.
-
-3. Windows Server Basics: Understanding DNS (Domain Name System)
-https://www.techrepublic.com/article/windows-server-basics-understanding-dns-domain-name-system/
-
-DNS is a critical component of any network infrastructure, allowing devices to be identified and located by name rather than IP address. In this article, you'll learn about the basics of DNS, including how it works and how to configure it on a Windows Server machine.
-
-4. Windows Server Basics: Configuring DHCP (Dynamic Host Configuration Protocol)
-https://docs.microsoft.com/en-us/windows-server/networking/technologies/dhcp/dhcp-deploy
-
-DHCP is used to automatically assign IP addresses to devices on a network, simplifying network management and reducing the risk of IP conflicts. In this article, you'll learn how to configure and deploy DHCP on a Windows Server machine.
-
-5. Windows Server Basics: Working with Group Policy
-https://www.techrepublic.com/article/windows-server-basics-working-with-group-policy/
-
-Group Policy is a powerful tool for managing and configuring Windows Server environments, allowing administrators to deploy policies and settings to multiple devices and users at once. In this article, you'll learn about the basics of Group Policy and how to use it to manage your network.   
 

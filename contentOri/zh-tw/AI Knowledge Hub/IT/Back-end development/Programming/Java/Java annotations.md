@@ -1,9 +1,10 @@
 +++
 title = "Java註釋"
+weight = "8"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Java annotations的問題
+給我5題Java annotations的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Java註釋"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Java annotations並舉例
+以中文說明Java annotations並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -41,7 +42,7 @@ Java註解的語法採用「@註解名稱（參數列表）」的形式，其中
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Java annotations的重點
+以中文條列Java annotations的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Java註解的語法採用「@註解名稱（參數列表）」的形式，其中
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Java annotations的中等難度問題，並在後面列出答案
+以中文給我5題Java annotations的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -109,17 +110,4 @@ public @interface TimeLimit {
    int seconds() default 5;
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Java annotations的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1) Java annotations 範例: https://tw511.com/a/01/20048.html
-2) Java annotations 簡介: http://www.java67.com/2016/06/10-examples-of-custom-and-built-in.html
-3) Java annotations 如何使用: https://www.baeldung.com/java-annotations-tutorial
-4) Java annotations 教學與範例: https://www.tutorialspoint.com/java/java_annotations.htm
-5) Java annotations 全面介紹: https://www.javatpoint.com/java-annotations   
 

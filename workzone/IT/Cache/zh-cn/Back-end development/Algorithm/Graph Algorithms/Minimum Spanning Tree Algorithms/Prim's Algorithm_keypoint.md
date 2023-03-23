@@ -1,15 +1,9 @@
 
 
-1. Prim's Algorithm is used to find the minimum spanning tree of a connected weighted undirected graph.
-
-2. It starts with a single vertex and then expands by adding the closest vertex to the tree until all vertices are included.
-
-3. At each step, the algorithm selects the minimum-weight edge that connects a vertex in the tree to a vertex outside the tree.
-
-4. The algorithm continues until all vertices are either in the tree or have been considered for inclusion.
-
-5. Prim's Algorithm is guaranteed to find the minimum spanning tree for a connected graph with non-negative edge weights.
-
-6. The time complexity of Prim's Algorithm is O(ElogV) using a priority queue or heap, where E is the number of edges and V is the number of vertices in the graph.
-
-7. The output of Prim's Algorithm is a set of edges that forms the minimum spanning tree of the graph.
+- Prim's Algorithm是一种用来找寻最小生成树的演算法。
+- 演算法通常需要一个起始点，从该起始点开始建立最小生成树。
+- 演算法维护两个数据结构，分别是集合S和边集合T。S表示已经在最小生成树上的点，而T则表示已经在最小生成树上的边。
+- 首先将起始点加入集合S中。
+- 从集合S中的所有点开始找寻最小生成树的下一个边，找到其中最小权重的边并加入边集合T中。
+- 将边的两个端点中未被加入集合S中的点加入集合S中，重复上述过程，直到所有点都在集合S中。
+- Prim's Algorithm的时间复杂度为O(E log V)，其中E是边的数量，V是点的数量。

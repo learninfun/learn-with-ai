@@ -1,5 +1,6 @@
 +++
 title = "Dijkstra演算法"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -121,15 +122,4 @@ Dijkstra's Algorithm是一种用于寻找最短路径的演算法，通常用于
 
 5. 给定一个无向带权图和一个权值K，要求在给定权值范围内满足最少边权值总和的生成树。
 答案：可以将图使用Kruskal演算法生成树后分别使用Dijkstra演算法处理所有生成树的边，从而求出最少权值和。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Dijkstra's Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-1. Wiki资料：https://zh.wikipedia.org/wiki/%E8%BF%AA%E5%8F%AF%E6%96%AF%E7%89%B9%E7%AE%97%E6%B3%95
-2. 紫皮书：https://docs.microsoft.com/zh-cn/windows/win32/dxtecharts/the-dijkstra-algorithm
-3. 酷壳：https://coolshell.cn/articles/114903.html
-4. 腾讯大学：https://ke.qq.com/course/3445278
-5. 知乎专栏：https://zhuanlan.zhihu.com/p/27436386   
 

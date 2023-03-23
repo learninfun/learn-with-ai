@@ -1,45 +1,50 @@
 +++
 title = "數值算法"
+weight = "9"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Numerical Algorithms的問題
+給我5題Numerical Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the difference between Newton-Raphson and the Bisection method in solving a nonlinear equation?
-2. How does the Gaussian elimination method simplify the process of solving a linear system of equations?
-3. Why is the Runge-Kutta method more accurate than the Euler method when solving ordinary differential equations?
-4. How do iterative methods such as the Jacobi or Gauss-Seidel method work in solving linear systems of equations?
-5. What is the purpose of eigenvalue/eigenvector computations and how are they used in numerical algorithms?   
+1. 什麼是牛頓法？如何使用牛頓法求解方程組的解？
+2. 怎樣使用拉格朗日插值法對離散數據進行曲線擬合？
+3. 如何使用歐拉法（Euler's method）求解常微分方程的數值解？
+4. 什麼是矩陣的QR分解？在數值計算中，有什麼重要的應用？
+5. 如何利用最小二乘法對數據進行線性回歸？在實際應用中，有哪些注意事項？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Numerical Algorithms並舉例
+以中文說明Numerical Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
 
-Numerical algorithms refer to mathematical techniques or procedures that are used to solve numerical problems. These algorithms are designed to perform computations on a computer using numerical data, typically in the form of arrays, matrices, or vectors. Numerical algorithms are essential in many scientific and engineering applications, where accurate and efficient numerical solutions are required.
+數值算法 (Numerical Algorithms) 是一種以數值計算為基礎的演算法，主要目的是使用計算機來處理數字和數值數據。
 
-Some common examples of numerical algorithms include:
+常見的數值算法包括：
 
-1. Linear regression - this is a statistical method used to determine the relationship between two variables by fitting a linear equation to the data.
+1. 數值積分 (Numerical Integration) ：用近似方法計算定積分，例如梯形法、辛普森法、龍貝格法等。
 
-2. Newton's method - this is a numerical method used to find the roots of a function. It involves iteratively refining an initial guess until a satisfactory level of accuracy is achieved.
+2. 數值微分 (Numerical Differentiation)：用近似方法計算微分，例如前向差分、後向差分、中心差分等。
 
-3. Gradient descent - this is an optimization algorithm used to minimize a function by iteratively adjusting the parameters in the direction of the negative gradient.
+3. 線性代數 (Linear Algebra)：為求解線性方程組、求特徵值、特徵向量等線性代數問題所使用的數值算法，例如高斯消元法、LU分解、QR分解等。
 
-4. Singular value decomposition - this is a matrix decomposition method used to reduce a matrix to its constituent parts, namely its singular values and singular vectors.
+4. 插值 (Interpolation)：根據已知數據點建立一個連續函數，例如拉格朗日插值、牛頓插值等。
 
-5. Fast Fourier transform - this is an algorithm used to compute the discrete Fourier transform of a set of data points, which is widely used in signal processing and image analysis.
+5. 最優化 (Optimization)：尋找最小值或最大值的方法，例如梯度下降法、牛頓法等。
 
-Overall, numerical algorithms play a crucial role in many scientific and engineering applications, helping to solve complex problems that would otherwise be difficult or impossible to solve using traditional analytical methods.   
+6. 常微分方程式 (Ordinary Differential Equations)：求解常微分方程式的數值方法，例如歐拉法、龍格-庫塔法等。
+
+7. 求根 (Root-finding)：尋找函數零點的算法，例如二分法、牛頓法等。
+
+舉例，將數值算法應用於股票市場，可以使用時間序列分析 (Time Series Analysis) 方法，將實時的股票數據轉換成對應的股票趨勢圖，並進行分析預測。另外，還可以使用聚類分析 (Cluster Analysis) 方法，將相似的股票分為一類，進而預測未來股票市場走勢。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Numerical Algorithms的重點
+以中文條列Numerical Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +71,7 @@ Overall, numerical algorithms play a crucial role in many scientific and enginee
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Numerical Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Numerical Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -161,31 +166,4 @@ clf = svm.SVC(kernel='linear', C=1000)
 clf.fit(X, y)
 print(clf.predict([[2, 2]])) # output: [1]
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Numerical Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Numerical Algorithms Group (NAG)
-網址：https://www.nag.com/
-介紹：NAG 提供了用於求解科學和工程問題的高品質軟件和服務，其中包括數值算法、數學建模和數據分析。
-
-2. Journal of Numerical Algorithms
-網址：https://www.springer.com/journal/12004
-介紹：這是一份由 Springer 出版的學術期刊，發表了關於數值算法方面的原始研究論文，以及算法實現和應用的文獻評論。
-
-3. Numerical Recipes
-網址：https://www.nr.com/
-介紹：這是一本出版了多個版本的經典書籍，其中包含了關於數值分析、統計分析和科學計算的算法和代碼實現。
-
-4. Applied Numerical Mathematics
-網址：https://www.journals.elsevier.com/applied-numerical-mathematics/
-介紹：這是一份由 Elsevier 出版的數學期刊，專門發表有關數值算法和計算方法在實踐中的應用研究。
-
-5. ACM Transactions on Mathematical Software (TOMS)
-網址：https://dl.acm.org/journal/toms
-介紹：這是一份由 ACM 出版的軟件期刊，專門發表有關數值算法、數值軟件和數值計算的研究論文。   
 

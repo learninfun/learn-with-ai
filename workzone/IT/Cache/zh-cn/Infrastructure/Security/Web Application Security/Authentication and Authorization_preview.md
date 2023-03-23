@@ -1,11 +1,7 @@
 
 
-1. What is the main difference between authentication and authorization, and why are both important in security measures?
-
-2. What are some authentication methods commonly used by modern systems, and what are their limitations or potential vulnerabilities?
-
-3. How can organizations ensure that user authentication and authorization processes are secure, efficient, and user-friendly?
-
-4. Why is multi-factor authentication becoming increasingly popular as a way to protect against password-based attacks and other security threats?
-
-5. What are some best practices for managing user access rights and permissions, and how can organizations minimize the risk of unauthorized access to sensitive data or systems?
+1. 什么是身份验证（Authentication）？为什么它对资讯安全很重要？ 
+2. 分别说明传统验证跟多因素验证（Multi-factor authentication）的差异。 
+3. 什么是授权（Authorization）？为什么它跟身份验证紧密相关，同时对资讯安全也很重要？ 
+4. 什么是权限（Permission）？授权跟权限有什么不同？ 
+5. 请说明OAuth的应用场景，以及它的运作流程。

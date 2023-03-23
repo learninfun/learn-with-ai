@@ -1,22 +1,23 @@
 +++
 title = "競爭分析"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Competitive Analysis的問題
+給我5題Competitive Analysis的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What are the main competitors in the target market, and what are their strengths and weaknesses compared to the company? 
-2. How do the competitors price their products and services, and how does the company's pricing strategy compare? 
-3. What marketing and advertising strategies are the competitors using, and how effective are they compared to the company's strategies? 
-4. How do the competitors deliver their products and services, and how does their customer service compare to the company's? 
-5. Are there any emerging competitors that could disrupt the market, and what are their strengths and weaknesses compared to the company and existing competitors?   
+1. 你公司如何與競爭對手進行比較分析？
+2. 您認為您公司的競爭優勢在哪裡？相對應的，您認為競爭對手的優勢是什麼？
+3. 你如何定義行業競爭對手？你公司是否在瞄準同一個目標客戶群，或者有其他競爭策略？
+4. 你公司在哪些方面較勝競爭對手？然而，你能想到哪些方面是你公司的弱點，需要進行改進？
+5. 你認為該行業內哪些趨勢和變化會影響你公司的競爭力，並對競爭對手產生影響？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Competitive Analysis並舉例
+以中文說明Competitive Analysis並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ title = "競爭分析"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Competitive Analysis的重點
+以中文條列Competitive Analysis的重點
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +63,7 @@ title = "競爭分析"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Competitive Analysis的中等難度問題，並在後面列出答案
+以中文給我5題Competitive Analysis的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -86,31 +87,4 @@ title = "競爭分析"
 5. 比較公司的定價策略和競爭對手的定價策略
 
 答案：此問題需要進行市場調查和價格分析，收集有關公司和競爭對手的定價策略和定價模型，進行對比分析，確定哪家公司在產品定價方面更具競爭力，哪家公司有更好的價格策略。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Competitive Analysis的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 「競爭分析大師」：Competitor analysis網路文章
-https://www.iacademy.hk/content.php?newsId=01181701
-這篇網路文章探討了競爭分析在企業中的重要性，以及進行競爭分析的方法和步驟。作者介紹了一些工具，例如 SWOT 分析、五力分析和對手策略分析，以幫助讀者進行更深入的競爭分析。
-
-2. 網路行銷策略：Industry and Competitive Analysis
-https://www.mindtools.com/pages/article/newTMC_08.htm
-這篇網路文章探討了如何通過行業和競爭分析來制定網路市場行銷策略。作者介紹了一些工具和技術，例如 Porter 的五力分析和 SWOT 分析，以及一些競爭分析的步驟和指南。
-
-3. 競爭分析：如何確定你的競爭對手是誰？
-https://www.crazyegg.com/blog/how-to-identify-competitors/
-這篇網路文章介紹了如何確定企業的競爭對手。作者提供了一些方法，例如使用 Google 搜索、社交媒體、電子商務平台等，選擇適合自己的競爭對手以進行更準確的競爭分析。
-
-4. 教你如何進行競爭分析，比對出領先優勢
-https://www.etnet.com.hk/www/tcn/report/wrapup/report20190426_tc.htm
-這篇網路文章介紹了如何進行競爭分析，以找到企業的領先優勢。作者在文中提到了比較彙集、競爭矩陣和 SWOT 分析等競爭分析工具，以及相關的競爭策略和實施方法。
-
-5. 競爭分析－行銷- 資訊 -策略 -方法 -工具
-https://www.picardevelopmentinc.com/blog0q3tw/1618636201.html
-這篇網路文章介紹了競爭分析在企業中的作用和使用方法。作者詳細介紹了一些工具和技術，例如 SWOT 分析、競爭概覽、市場需求分析等，以及如何使用這些工具進行深入的競爭分析，幫助企業確定發展方向和制定策略。   
 

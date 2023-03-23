@@ -1,5 +1,6 @@
 +++
 title = "质数判定"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -77,35 +78,23 @@ Primality testing方法有很多种，下面列出几种常见的方法：
 
 
 
-1. Choose a random number between 2 and 99999. Test if it is a prime number.
-Answer: This is an open question that cannot be answered without knowing the random number.
+1. 設計一個可以在多項式時間內判斷一個數是否為質數的算法。
 
-2. Is the number 54643 a prime number?
-Answer: Yes, 54643 is a prime number.
+答案：Miller-Rabin素性測試算法。
 
-3. Test if the number 8389 is a prime number.
-Answer: Yes, 8389 is a prime number.
+2. 給定一個正整數n，判斷n是否是一個Carmichael數（即n為合數且對任意a<n，都有a^n ≡ a (mod n)）。
 
-4. Is the number 104729 a prime number?
-Answer: Yes, 104729 is a prime number.
+答案：使用Miller-Rabin素性測試算法判斷n是否為質數，如果n不是質數，再用Fermat小定理和質因數分解來判斷是否為Carmichael數。
 
-5. Test if the number 86969 is a prime number.
-Answer: Yes, 86969 is a prime number.   
+3. 設計一個可以在O(log n * log log n)時間內判斷一個數是否為質數的算法。
 
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Primality Testing的网络数据
-{{< /ask_chatgpt >}}
+答案：利用埃氏篩法和數學定理來判斷質數。
 
+4. 設計一個可以在O(klog^3 n)時間內檢測一個數是否為質數的算法，其中k是一個常數。
 
+答案：使用Miller-Rabin素性測試算法，重複執行k次，以提高檢測準確性。
 
-1. 統計身心障礙的調查報告，篇名：「身心障礙者調查報告」，由衛生福利部所發布，報告中著重於身心障礙者的就業及生活等方面進行調查分析。
+5. 給定一個範圍內的所有整數，找出其中所有的質數。
 
-2. 計算機科學領域中的一個標準問題，即質數判定問題（Primality Testing）。該問題是指對任意給定的自然數 n，判斷其是否為質數。
-
-3. 傳統質數判定方法包括埃氏筛法、欧拉-伪素数测试等。現代的質數判定方法包括米勒-拉賓素性检验法（Miller-Rabin primality test）和爆搜法（Brute Force）。
-
-4. 米勒-拉賓素性检验法是一種測試一個數是否為質數的算法。該算法使用隨機性因子，並可以容易地檢測出合數。該算法的時間複雜度為 O(k log3(n))，其中 k 為判定次數。
-
-5. 爆搜法是一種暴力枚舉的方法，從 2 到 n-1 之間枚舉每一個數，查看其是否能整除 n。該方法的時間複雜度為 O(n)，不適合用於大數判定。   
+答案：使用埃氏篩法或埃拉托斯特尼篩法來進行質數篩選。   
 

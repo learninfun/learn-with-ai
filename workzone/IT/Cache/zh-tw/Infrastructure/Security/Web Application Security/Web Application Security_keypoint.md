@@ -1,10 +1,15 @@
 
 
-1. Authentication and Authorization: The first key point of web application security is proper authentication and authorization. This involves verifying the identity of users and limiting access to protected information to authorized individuals only.
-2. Secure Coding Practices: Secure coding practices ensure that a web application is built with security in mind. This includes the use of secure development frameworks and libraries, testing code for vulnerabilities, and adhering to industry standards and best practices.
-3. Input Validation: Input validation is the practice of checking the validity of data that a web application receives from users. This helps to prevent malicious code such as SQL Injection and Cross-Site Scripting (XSS) attacks.
-4. Access Controls: Proper access controls enable administrators to limit which users have access to sensitive data or functions within a web application. This can include role-based access control, time-based access control, and the use of privileged accounts.
-5. Session Management: A web application should properly manage user sessions to prevent unauthorized access to sensitive data. This involves the use of secure session tokens, expiring sessions after a certain time, and preventing session hijacking.
-6. Cross-Site Request Forgery (CSRF) Protection: CSRF attacks allow an attacker to impersonate a user and execute actions within a web application without the user』s knowledge or consent. Proper CSRF protection includes the use of anti-CSRF tokens, which verify that a request is legitimate and not forged.
-7. Data Protection: Web applications must protect sensitive data, such as personally identifiable information (PII) and financial data, from unauthorized access or disclosure. This involves the use of encryption, data masking, and secure storage practices.
-8. Threat Detection and Response: Web applications must be continuously monitored for security threats and vulnerabilities. This includes the use of intrusion detection and prevention systems (IDS/IPS) and logging suspicious activity to respond quickly to security incidents.
+1. 常見的攻擊方式：包括SQL注入、跨站腳本（XSS）攻擊、跨站請求偽造（CSRF）、文件上傳漏洞等。
+
+2. 身份驗證和授權：確保只有授權的用戶能夠訪問應用程序的特定區域和資源。
+
+3. 安全設計和開發：涉及資產保護、資產風險控制、網路架構設計、安全協議等方面。
+
+4. 標準和規範：包括OWASP（全球開放網路應用程式安全項目）、PCI DSS（支付卡行業數據安全標準）等。
+
+5. 監控和檢測：實時監控應用程式上發生的事件和攻擊，以及製定相應的應對策略。
+
+6. 緊急應對和事件管理：建立應對機制，及時處理已發生的安全事件，迅速恢復服務。
+
+7. 學習和培訓：提升開發團隊的安全意識、技術水平、持續改進WebApplication的安全性。

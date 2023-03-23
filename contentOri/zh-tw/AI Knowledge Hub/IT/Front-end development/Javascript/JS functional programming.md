@@ -1,9 +1,10 @@
 +++
 title = "JavaScript 函數式編程"
+weight = "7"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題JS functional programming的問題
+給我5題JS functional programming的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "JavaScript 函數式編程"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明JS functional programming並舉例
+以中文說明JS functional programming並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -67,7 +68,7 @@ console.log(squares); // [1, 4, 9, 16, 25]
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列JS functional programming的重點
+以中文條列JS functional programming的重點
 {{< /ask_chatgpt >}}
 
 
@@ -94,7 +95,7 @@ console.log(squares); // [1, 4, 9, 16, 25]
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題JS functional programming的中等難度問題，並在後面列出答案
+以中文給我5題JS functional programming的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -155,21 +156,4 @@ const getGreaterThanTen = arr => {
 console.log(getGreaterThanTen([1, 5, 10, 15, 20]));  // [15, 20]
 console.log(getGreaterThanTen([2, 4, 6, 8]));  // []
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇JS functional programming的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Functional Programming in JavaScript" by Mozilla Developer Network: This comprehensive guide covers the basics of functional programming, how it works in JavaScript, and what benefits it offers to developers. It includes examples of functional programming concepts and shows how they can be implemented in JavaScript.
-
-2. "7 Reasons to Use Functional Programming in JavaScript" by Akshay Shanbhag: This article outlines seven key reasons why functional programming is a valuable approach to writing JavaScript code. It discusses benefits such as code readability, easier testing, and improved handling of side effects.
-
-3. "Functional Programming for Beginners: Understanding JavaScript's Reduce Method" by SitePoint: This tutorial explains how to use the reduce method in JavaScript, a key tool for functional programming. It covers the basics of the reduce method, how it works, and how it can be used to solve common programming problems.
-
-4. "Functional Programming in JavaScript: What, Why, and How" by Kevin Kononenko: This video presentation provides a concise overview of functional programming in JavaScript, including its history, principles, and benefits. It also includes examples of functional programming concepts in action.
-
-5. "Writing Clean JavaScript with Functional Programming" by Caroline Artz: This article explores the role of functional programming in writing clean, maintainable JavaScript code. It includes examples of how functional programming concepts can be used to improve code quality and reduce bugs.   
 

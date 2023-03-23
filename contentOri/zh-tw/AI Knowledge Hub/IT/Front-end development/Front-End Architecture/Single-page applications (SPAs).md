@@ -1,9 +1,10 @@
 +++
 title = "單頁應用程式 （SPA）"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Single-page applications (SPAs)的問題
+給我5題Single-page applications (SPAs)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "單頁應用程式 （SPA）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Single-page applications (SPAs)並舉例
+以中文說明Single-page applications (SPAs)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Single-page applications (SPAs)是一種建立在Web技術上的應用程序，�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Single-page applications (SPAs)的重點
+以中文條列Single-page applications (SPAs)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Single-page applications (SPAs)是一種建立在Web技術上的應用程序，�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Single-page applications (SPAs)的中等難度問題，並在後面列出答案
+以中文給我5題Single-page applications (SPAs)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,21 +78,4 @@ Single-page applications (SPAs)是一種建立在Web技術上的應用程序，�
 
 5. 如何實現SPA中的客戶端驗證？
 答案：可以使用JWT或OAuth等授權框架實現客戶端驗證。在登錄成功後，服務器返回一個JWT和Refresh Token，客戶端使用JWT去訪問API，而不是每個請求都攜帶用戶名和密碼。當JWT過期時，可以使用Refresh Token去服務器交換新的JWT。同時也可以使用客戶端驗證庫如Passport.js等簡化驗證過程。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Single-page applications (SPAs)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Single-page Application (SPA) | Vue.js : https://vuejs.org/v2/guide/single-file-components.html
-
-2. Advantages and disadvantages of single-page applications: https://searchcio.techtarget.com/answer/What-are-the-advantages-and-disadvantages-of-single-page-applications
-
-3. Building Single-Page Applications Using AngularJS and RESTful Web Services: https://developer.ibm.com/technologies/web-development/tutorials/wa-angularrest/
-
-4. Single-page apps: I don't understand why people like them: https://www.infoworld.com/article/3179377/single-page-apps-i-dont-understand-why-people-like-them.html
-
-5. Is it worth implementing a single-page application?: https://www.creativebloq.com/inspiration/is-it-worth-implementing-a-single-page-application   
 

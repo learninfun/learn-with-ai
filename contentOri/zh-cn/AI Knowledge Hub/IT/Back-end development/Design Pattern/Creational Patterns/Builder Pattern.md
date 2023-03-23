@@ -1,5 +1,6 @@
 +++
 title = "建造者模式"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -134,7 +135,7 @@ public class Client {
 
 3. Builder Pattern将对象的建立过程分为多个步骤，每个步骤都由一个不同的Builder类负责。
 
-4. Builder类将对象的属性保存到自己的成员变量中，最终通过一种方法将这些属性转移到最终对象中。
+4. Builder类将对象的属性保存到自己的成员变量中，最终通过一种方法将这些属性转移到最终对像中。
 
 5. Builder Pattern使得建立一个复杂的对象变得更加简单和可控，同时也能够将对象的表示和建立过程分离开来。
 
@@ -522,41 +523,4 @@ print(f'风格：{interior.style}')
 ```
 
 以上是我为您提供的5个Builder Pattern的中等难度问题和答案，希望能够对您有所帮助。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Builder Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Builder Design Pattern in Java" by Baeldung: 
-
-This article explains the Builder pattern in Java with examples and code snippets. It discusses the benefits of using the pattern, how it works, and provides some best practices.
-
-Link: https://www.baeldung.com/java-builder-pattern 
-
-2. "Design Patterns: Builder Pattern" by TutorialsTeacher: 
-
-This tutorial covers the Builder pattern in detail with examples in Java and C#. It explains the principle, structure, and implementation of the pattern, along with its advantages and disadvantages.
-
-Link: https://www.tutorialsteacher.com/design-patterns/builder-pattern 
-
-3. "Builder Design Pattern" by GeeksforGeeks: 
-
-This article describes the Builder pattern using a simple example. It presents the problem that the pattern addresses, the solution it provides, and the steps to implement it in Java.
-
-Link: https://www.geeksforgeeks.org/builder-design-pattern/ 
-
-4. "Builder Pattern" by Sourcemaking: 
-
-This tutorial focuses on the design and implementation of the Builder pattern in Java. It provides a clear explanation of the Builder design, along with examples and code snippets.
-
-Link: https://sourcemaking.com/design_patterns/builder 
-
-5. "Builder Pattern – Implementation and Best Practices" by Martin Fowler: 
-
-This article explains the Builder pattern in detail, including its motivation, structure, and implementation in Java. It also includes some best practices and pitfalls to avoid when using the pattern.
-
-Link: https://martinfowler.com/articles/builder.html   
 

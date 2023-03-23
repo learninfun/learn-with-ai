@@ -1,3 +1,7 @@
++++
+title = "SEO"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about SEO
@@ -68,22 +72,4 @@ Answer: Organic search results are listings that appear in search engine results
 
 5. What is the purpose of a sitemap in SEO?
 Answer: A sitemap is a file that lists all of the pages on a website and is submitted to search engines. It is used to help search engines crawl and index all pages on the website, which can improve visibility in search results.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about SEO
-{{< /ask_chatgpt >}}
-
-
-
-1. Moz: The Beginner's Guide to SEO - https://moz.com/beginners-guide-to-seo
-2. Yoast: What is SEO? - https://yoast.com/what-is-seo/
-3. Ahrefs: SEO Basics - https://ahrefs.com/academy/seo-basics
-4. Search Engine Land: What is SEO? - https://searchengineland.com/guide/what-is-seo
-5. Neil Patel: What is SEO? - https://neilpatel.com/what-is-seo/
-6. SEMrush: SEO for Beginners - https://www.semrush.com/blog/what-is-seo/
-7. Backlinko: SEO Tutorial for Beginners - https://backlinko.com/seo-tutorial-for-beginners
-8. HubSpot: SEO Explained - https://www.hubspot.com/marketing-101/what-is-seo
-9. Google Search Central: Search engine optimization (SEO) Starter Guide - https://developers.google.com/search/docs/beginner/seo-starter-guide
-10. Search Engine Watch: SEO 101 - https://www.searchenginewatch.com/sew/how-to/2340726/seo-101-how-to-optimize-your-website-for-search-engines   
 

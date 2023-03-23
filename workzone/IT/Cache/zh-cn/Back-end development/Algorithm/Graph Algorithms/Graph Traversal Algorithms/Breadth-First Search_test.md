@@ -1,111 +1,242 @@
 
 
-1. Word Ladder
-Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
+1. 题目： 给定一个连通无向图，起始节点为S，每个节点都是一个整数，节点间的距离为1。你的任务是从起始节点开始按字典序打印所有节点。输入的图是用邻接矩阵表示的，值为1表示两个节点相连，0表示不连通。 同时输入的起始节点的下标，输出样例中“#”表示空格。
 
-Only one letter can be changed at a time.
-Each transformed word must exist in the word list. 
-Note that beginWord is not a transformed word.
+答案：
 
-Example:
-Input:
-beginWord = "hit",
-endWord = "cog",
-wordList = ["hot","dot","dog","lot","log","cog"]
-Output: 5
+from queue import Queue
 
-Answer:
-https://leetcode.com/problems/word-ladder/
+def bfs(n, start_node):
+    visited = [0] * n
+    queue = Queue()
+    queue.put(start_node)
+    visited[start_node] = 1
+    while not queue.empty():
+        node = queue.get()
+        print(node, end=' ')
+        for i in range(n):
+            if adj[node][i] == 1 and visited[i] == 0:
+                visited[i] = 1
+                queue.put(i)
 
-2. Minimum Genetic Mutation
-A gene string can be represented by an 8-character long string, with choices from "A", "C", "G", "T".
+n = int(input())
+adj = []
+for i in range(n):
+    adj.append(list(map(int, input().split())))
 
-Suppose we need to investigate about a mutation (mutation from "start" to "end"), where ONE mutation is defined as ONE single character changed in the gene string.
+start_node = int(input())
 
-For example, "AACCGGTT" -> "AACCGGTA" is 1 mutation.
+bfs(n, start_node)
 
-Also, there is a given gene "bank", which records all the valid gene mutations. A gene must be in the bank to make it a valid gene string.
 
-Now, given 3 things - start, end, bank, your task is to determine what is the minimum number of mutations needed to mutate from "start" to "end". If there is no such a mutation, return -1.
+2. 题目：有n个物品，每种物品都有自己的重量和价格，在限定的总重量内，选出若干件物品使得物品的总重量不超过总重量且总价格最大。假设背包的容量为C（Capacity），每个物品的重量为w（weight），价值为v（value）。使用BFS求背包问题的最优解。
 
-Note:
+答案：
 
-Starting point is assumed to be valid, so it might not be included in the bank.
-If multiple mutations are needed, all mutations during in the sequence must be valid.
-You may assume start and end string is not the same.
+from queue import Queue
 
-Example:
-start: "AACCGGTT"
-end:   "AACCGGTA"
-bank: ["AACCGGTA"]
+class Node:
+	def __init__(self, level, weight, value, bound):
+		self.level = level
+		self.weight = weight
+		self.value = value
+		self.bound = bound
 
-return: 1
- 
+def bound(node, max_weight, n, values, weights):
+	if node.weight >= max_weight:
+		return 0
+	result = node.value
+	j = node.level + 1
+	total_weight = node.weight
+	while j < n and total_weight + weights[j] <= max_weight:
+		total_weight += weights[j]
+		result += values[j]
+		j += 1
+	if j < n:
+		result += (max_weight - total_weight) * (values[j] / weights[j])
+	return result
 
-Answer:
-https://leetcode.com/problems/minimum-genetic-mutation/
+def bfs(n, max_weight, values, weights):
+	queue = Queue()
+	root = Node(-1, 0, 0, 0)
+	queue.put(root)
+	max_value = 0
+	while not queue.empty():
+		node = queue.get()
+		if node.level == -1:
+			left = Node(0, 0, 0, 0)
+		elif node.level == n - 1:
+			continue
+		else:
+			left = Node(node.level + 1, node.weight + weights[node.level + 1], node.value + values[node.level + 1], 0)
+			left.bound = bound(left, max_weight, n, values, weights)
+			if left.weight <= max_weight and left.value > max_value:
+				max_value = left.value
+			if left.bound > max_value:
+				queue.put(left)
+		right = Node(node.level + 1, node.weight, node.value, 0)
+		right.bound = bound(right, max_weight, n, values, weights)
+		if right.weight <= max_weight and right.value > max_value:
+			max_value = right.value
+		if right.bound > max_value:
+			queue.put(right)
+	return max_value
 
-3. Bus Routes
-We have a list of bus routes. Each routes[i] is a bus route that the i-th bus repeats forever. For example if routes[0] = [1, 5, 7], this means that the first bus (0-th indexed) travels in the sequence 1->5->7->1->5->7->1->... forever.
+n = int(input())
+max_weight = int(input())
+values = list(map(int, input().split()))
+weights = list(map(int, input().split()))
 
-We start at bus stop S (initially not on a bus), and we want to go to bus stop T. Travelling by buses only, what is the least number of buses we must take to reach our destination? Return -1 if it is not possible.
+max_value = bfs(n, max_weight, values, weights)
 
-Example:
-Input: 
-routes = [[1, 2, 7], [3, 6, 7]]
-S = 1
-T = 6
-Output: 2
+print(max_value)
 
-Answer:
-https://leetcode.com/problems/bus-routes/
 
-4. Cut Off Trees for Golf Event
-You are asked to cut off trees in a forest for a golf event. The forest is represented as a non-negative 2D map, in this map:
+3. 题目：在一个NxN的网格中，1代表通路，0代表墙，从左上方的格子开始走，每次只能向右或向下走，走到右下角的格子后结束，寻找一条最短的路径。
 
-0 represents the obstacle can't be reached.
-1 represents the ground can be walked through.
-The place with number bigger than 1 represents a tree can be walked through, and this positive number represents the tree's height.
+答案：
 
-You are asked to cut off all the trees in this forest in the order of tree's height - always cut off the tree with lowest height first. And after cutting, the original place has the tree will become a grass (value 1).
+from queue import Queue
 
-You will start from the point (0, 0) and you should output the minimum steps you need to walk to cut off all the trees. If you can't cut off all the trees, output -1 in that situation.
+class Node:
+	def __init__(self, row, col, steps):
+		self.row = row
+		self.col = col
+		self.steps = steps
 
-You are guaranteed that no two trees have the same height and there is at least one tree needs to be cut off.
+def bfs(n, grid):
+	directions = [(1, 0), (0, 1)]
+	visited = [[False for _ in range(n)] for _ in range(n)]
+	queue = Queue()
+	start = Node(0, 0, 0)
+	queue.put(start)
+	visited[0][0] = True
+	while not queue.empty():
+		currentNode = queue.get()
+		if currentNode.row == n - 1 and currentNode.col == n - 1:
+			return currentNode.steps
+		for dir in directions:
+			newRow = currentNode.row + dir[0]
+			newCol = currentNode.col + dir[1]
+			
+			if newRow >= 0 and newRow < n and newCol >= 0 and newCol < n and grid[newRow][newCol] == 1 and not visited[newRow][newCol]:
+				queue.put(Node(newRow, newCol, currentNode.steps + 1))
+				visited[newRow][newCol] = True
+	return -1
 
-Example:
-Input: 
-[
- [1,2,3],
- [0,0,4],
- [7,6,5]
-]
-Output: 6
+n = int(input())
+grid = []
+for i in range(n):
+	grid.append(list(map(int, input().split())))
 
-Answer:
-https://leetcode.com/problems/cut-off-trees-for-golf-event/
+print(bfs(n, grid))
 
-5. Pacific Atlantic Water Flow
-Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, the "Pacific ocean" touches the left and top edges of the matrix and the "Atlantic ocean" touches the right and bottom edges.
 
-Water can only flow in four directions (up, down, left, or right) from a cell to another one with height equal or lower.
+4. 题目： 给定一个大小为n的矩阵，每个位置的值代表该位置的魔法值，每次可以进行一次魔法转换，将以该位置为起始点的行和列值全部加1。求将整个矩阵的魔法值加到X需要进行最少多少次魔法转换。
 
-Find the list of grid coordinates where water can flow to both the Pacific and Atlantic ocean.
+答案：
 
-Note:
+from queue import Queue
 
-The order of returned grid coordinates does not matter.
-Both m and n are less than 150.
+class Node:
+	def __init__(self, i, j, value, steps):
+		self.i = i
+		self.j = j
+		self.value = value
+		self.steps = steps
 
-Example:
-Given the following 5x5 matrix:
+def bfs(n, grid, x):
+	visited_row = [False for _ in range(n)]
+	visited_col = [False for _ in range(n)]
+	queue = Queue()
+	start = Node(0, 0, grid[0][0], 0)
+	visited_row[0] = True
+	visited_col[0] = True
+	queue.put(start)
+	count = 0
+	while not queue.empty():
+		node = queue.get()
+		if node.value >= x:
+			count = node.steps
+			break
+		if not visited_row[node.i]:
+			for j in range(n):
+				newValue = node.value + grid[node.i][j]
+				queue.put(Node(node.i, j, newValue, node.steps + 1))
+			visited_row[node.i] = True
+		if not visited_col[node.j]:
+			for i in range(n):
+				newValue = node.value + grid[i][node.j]
+				queue.put(Node(i, node.j, newValue, node.steps + 1))
+			visited_col[node.j] = True
+	return count
 
-  Pacific ~   ~   ~   ~ 
-       ~  1   2   2   3  (5) 
-       ~  3   2   3  (4) (4) 
-       ~  2   4  (5)  3   1  
-       ~ (6) (7)  1   4   5  
-           Atlantic   ~   ~   ~   ~
-           
-Answer:
-https://leetcode.com/problems/pacific-atlantic-water-flow/
+n = int(input())
+grid = []
+for i in range(n):
+	grid.append(list(map(int, input().split())))
+	
+x = int(input())
+
+print(bfs(n, grid, x))
+
+
+5. 题目：将一个由字符串s1转换为字符串s2，可以进行三种操作：插入一个字符、删除一个字符、替换一个字符。求最小的操作次数。
+
+答案：
+
+from queue import Queue
+
+class Node:
+	def __init__(self, s, steps):
+		self.s = s
+		self.steps = steps
+
+def bfs(s1, s2):
+	if s1 == s2:
+		return 0
+	queue = Queue()
+	visited = set()
+	queue.put(Node(s1, 0))
+	visited.add(s1)
+	while not queue.empty():
+		node = queue.get()
+		for i in range(len(s1)):
+			for j in range(26):
+				newChar = chr(ord('a') + j)
+				if newChar != node.s[i]:
+					newStr = node.s[:i] + newChar + node.s[i+1:]
+					if newStr == s2:
+						return node.steps + 1
+					if newStr not in visited:
+						queue.put(Node(newStr, node.steps + 1))
+						visited.add(newStr)
+		if len(node.s) < len(s2):
+			newStr = node.s + 'a'
+			if newStr == s2:
+				return node.steps + 1
+			if newStr not in visited:
+				queue.put(Node(newStr, node.steps + 1))
+				visited.add(newStr)
+			
+			newStr = 'a' + node.s
+			if newStr == s2:
+				return node.steps + 1
+			if newStr not in visited:
+				queue.put(Node(newStr, node.steps + 1))
+				visited.add(newStr)
+			
+		elif len(node.s) > len(s2):
+			for i in range(len(node.s)):
+				newStr = node.s[:i] + node.s[i+1:]
+				if newStr == s2:
+					return node.steps + 1
+				if newStr not in visited:
+					queue.put(Node(newStr, node.steps + 1))
+					visited.add(newStr)
+	return -1
+
+s1 = input()
+s2 = input()
+
+print(bfs(s1, s2))

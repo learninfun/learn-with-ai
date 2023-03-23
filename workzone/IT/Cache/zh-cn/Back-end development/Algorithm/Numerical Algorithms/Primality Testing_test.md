@@ -1,16 +1,21 @@
 
 
-1. Choose a random number between 2 and 99999. Test if it is a prime number.
-Answer: This is an open question that cannot be answered without knowing the random number.
+1. 設計一個可以在多項式時間內判斷一個數是否為質數的算法。
 
-2. Is the number 54643 a prime number?
-Answer: Yes, 54643 is a prime number.
+答案：Miller-Rabin素性測試算法。
 
-3. Test if the number 8389 is a prime number.
-Answer: Yes, 8389 is a prime number.
+2. 給定一個正整數n，判斷n是否是一個Carmichael數（即n為合數且對任意a<n，都有a^n ≡ a (mod n)）。
 
-4. Is the number 104729 a prime number?
-Answer: Yes, 104729 is a prime number.
+答案：使用Miller-Rabin素性測試算法判斷n是否為質數，如果n不是質數，再用Fermat小定理和質因數分解來判斷是否為Carmichael數。
 
-5. Test if the number 86969 is a prime number.
-Answer: Yes, 86969 is a prime number.
+3. 設計一個可以在O(log n * log log n)時間內判斷一個數是否為質數的算法。
+
+答案：利用埃氏篩法和數學定理來判斷質數。
+
+4. 設計一個可以在O(klog^3 n)時間內檢測一個數是否為質數的算法，其中k是一個常數。
+
+答案：使用Miller-Rabin素性測試算法，重複執行k次，以提高檢測準確性。
+
+5. 給定一個範圍內的所有整數，找出其中所有的質數。
+
+答案：使用埃氏篩法或埃拉托斯特尼篩法來進行質數篩選。

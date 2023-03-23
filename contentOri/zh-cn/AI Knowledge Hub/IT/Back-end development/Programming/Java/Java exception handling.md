@@ -1,5 +1,6 @@
 +++
 title = "Java异常处理"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,15 @@ title = "Java异常处理"
 
 
 
-1. 什麼是Java exception handling？如何利用try-catch block處理異常？
+1. 什么是Java exception handling？如何利用try-catch block处理异常？
 
-2. 請舉例說明什麼是unchecked exception和checked exception？如何處理它們？
+2. 请举例说明什么是unchecked exception和checked exception？如何处理它们？
 
-3. 請列舉幾種Java異常處理中的關鍵字及其作用？
+3. 请列举几种Java异常处理中的关键字及其作用？
 
-4. 如何設計自己的Java異常類別？請使用代碼示例說明。
+4. 如何设计自己的Java异常类别？请使用代码示例说明。
 
-5. 請比較throw和throws在Java異常處理中的區別，並舉例說明如何使用它們。   
+5. 请比较throw和throws在Java异常处理中的区别，并举例说明如何使用它们。   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -139,36 +140,4 @@ public int getSquareEven(int num) throws Exception {
     }
     return num * num;
 }   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Java exception handling的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Oracle Java Tutorial: Exception Handling
-https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html
-
-This is the official Java Tutorial from Oracle, providing a comprehensive overview of exception handling in Java. It covers topics such as the try-catch statement, multiple catch blocks, nested try statements, and finally blocks.
-
-2. Java Exceptions - Baeldung
-https://www.baeldung.com/java-exceptions-tutorial
-
-This article from Baeldung provides a practical guide to Java exception handling, with examples of how to handle exceptions in different scenarios. It covers topics such as checked and unchecked exceptions, the try-with-resources statement, and custom exceptions.
-
-3. Java Exception Handling - TutorialsPoint
-https://www.tutorialspoint.com/java/java_exceptions.htm
-
-TutorialsPoint provides a beginner's guide to Java exception handling, introducing the concept of exceptions and explaining how to handle them in Java. It covers topics such as the try-catch block, the throw statement, and the finally block.
-
-4. Handling Exceptions in Java - GeeksforGeeks
-https://www.geeksforgeeks.org/exceptions-in-java/
-
-GeeksforGeeks provides an overview of Java exceptions, including the types of exceptions and how to handle them. It covers topics such as exception hierarchy, throwing custom exceptions, and exception propagation.
-
-5. Exception Handling Best Practices in Java - DZone
-https://dzone.com/articles/exception-handling-best-practices-in-java
-
-This article from DZone provides tips and best practices for effective exception handling in Java. It covers topics such as handling checked and unchecked exceptions, throwing exceptions, and logging exceptions. It also includes examples of common exception handling patterns.   
 

@@ -1,9 +1,10 @@
 +++
 title = "JavaScript 模組"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題JS Module的問題
+給我5題JS Module的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "JavaScript 模組"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明JS Module並舉例
+以中文說明JS Module並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ JS模組化能夠提高代碼的可讀性和可維護性，有助於團隊協作
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列JS Module的重點
+以中文條列JS Module的重點
 {{< /ask_chatgpt >}}
 
 
@@ -79,7 +80,7 @@ JS模組化能夠提高代碼的可讀性和可維護性，有助於團隊協作
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題JS Module的中等難度問題，並在後面列出答案
+以中文給我5題JS Module的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -442,26 +443,4 @@ module.exports = {
   addImages
 };
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇JS Module的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is a JavaScript Module?" by Mozilla
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-2. "ES6 Modules in Depth" by Pony Foo
-https://ponyfoo.com/articles/es6-modules-in-depth
-
-3. "Mastering Modular JavaScript" by SitePoint
-https://www.sitepoint.com/mastering-modular-javascript/
-
-4. "JavaScript Modules: A Beginner’s Guide" by Toptal
-https://www.toptal.com/javascript/javascript-modules-a-beginner-s-guide
-
-5. "Creating and using JavaScript modules" by David Walsh
-https://davidwalsh.name/javascript-modules   
 

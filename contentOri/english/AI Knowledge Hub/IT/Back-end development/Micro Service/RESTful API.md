@@ -1,3 +1,7 @@
++++
+title = "RESTful API"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about RESTful API
@@ -65,21 +69,4 @@ Answer: RESTful API uses HTTP status codes to indicate success or failure of a r
 
 5. What is the difference between RESTful API and SOAP?
 Answer: RESTful API is more lightweight and flexible than SOAP (Simple Object Access Protocol), which can be overly complex and difficult to implement. RESTful API also uses standard HTTP protocols, while SOAP requires its own messaging format.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about RESTful API
-{{< /ask_chatgpt >}}
-
-
-
-1. "Understanding and Implementing RESTful APIs": This introduction provides an overview of what RESTful APIs are, how they work, and their benefits. It also discusses the key components that make up RESTful API architecture.
-
-2. "RESTful API Design Guidelines": This page is a comprehensive guide for designing RESTful APIs. It covers topics such as URI design, HTTP methods, media types, error handling, and security.
-
-3. "Building a RESTful Web Service": This introduction provides step-by-step instructions for building a RESTful web service using the Spring Boot framework. It covers the basics of RESTful API design and implementation.
-
-4. "RESTful API Best Practices": This page provides a list of best practices for developing RESTful APIs. It covers topics such as API versioning, HTTP caching, documentation, and testing.
-
-5. "Introduction to RESTful API Development": This introduction provides an overview of RESTful API development. It covers topics such as HTTP, URIs, media types, and resource modeling. It also includes examples of RESTful API implementations.   
 

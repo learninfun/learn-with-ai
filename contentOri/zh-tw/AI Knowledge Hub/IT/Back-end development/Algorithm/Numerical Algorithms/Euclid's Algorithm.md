@@ -1,9 +1,10 @@
 +++
 title = "歐幾里德算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Euclid's Algorithm的問題
+給我5題Euclid's Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "歐幾里德算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Euclid's Algorithm並舉例
+以中文說明Euclid's Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,23 +45,20 @@ Euclid's Algorithm是一個用來找到兩個正整數的最大公因數的快�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Euclid's Algorithm的重點
+以中文條列Euclid's Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Euclid's Algorithm is a method to find the greatest common divisor (GCD) of two integers.
-2. The algorithm states that the GCD of two integers a and b is equal to the GCD of b and the remainder of a divided by b.
-3. The algorithm uses repeated division to find the GCD and is based on the fact that if a and b are integers, and b divides a, then the GCD of a and b is b.
-4. Euclid's Algorithm is also known as the Euclidean Algorithm or the Euclidean Division Algorithm.
-5. The algorithm can be extended to find the GCD of multiple integers by applying the algorithm repeatedly.
-6. Euclid's Algorithm can also be used to find the least common multiple (LCM) of two integers by the formula: LCM(a, b) = (a x b) / GCD(a, b).
-7. The time complexity of Euclid's Algorithm is O(log n) where n is the maximum of a and b.
-8. The algorithm has been known since ancient times and is named after the Greek mathematician Euclid.   
+1. Euclid's Algorithm是求兩個正整數最大公因數的方法。
+2. 求法是用除法求餘數，將較小的數不斷與餘數進行除法求餘數，直到餘數為零，那麼最後被除數即為兩數的最大公因數。
+3. Euclid's Algorithm可以用遞迴或循環的方法實現。
+4. 堆棧或遞歸空間的使用可以通過在每次遞迴或循環中保留較小數和餘數來控制。
+5. Euclid's Algorithm的時間複雜度為O(log n)，其中n為輸入數的位數。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Euclid's Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Euclid's Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,26 +88,4 @@ Euclid's Algorithm是一個用來找到兩個正整數的最大公因數的快�
 數字1：270，數字2：192
 
 答案：gcd為6，lcm為1,440   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Euclid's Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Euclid's Algorithm" from Brilliant.org: 
-This article provides a thorough explanation of Euclid's Algorithm, its history and its application in modern computing.
-
-2. "How Euclid's Algorithm Works" from Khan Academy: 
-This video tutorial offers an easy-to-understand explanation of Euclid's Algorithm and its usage in finding the greatest common divisor (GCD) of two numbers.
-
-3. "Euclid's Algorithm for Finding the GCD" from Math Is Fun: 
-This article provides a step-by-step breakdown of Euclid's Algorithm for finding the GCD of two numbers, including visual examples and practice problems.
-
-4. "Euclid's Algorithm for Big Numbers" from GeeksforGeeks: 
-This article delves into how to use Euclid's Algorithm to find the GCD of very large numbers, including a more efficient implementation for performance optimization.
-
-5. "The Extended Euclidean Algorithm" from University of Illinois at Urbana-Champaign: 
-This paper provides a comprehensive explanation of the Extended Euclidean Algorithm, which involves finding not only the GCD of two numbers, but also the integers a and b that satisfy the equation ax + by = gcd(a,b).   
 

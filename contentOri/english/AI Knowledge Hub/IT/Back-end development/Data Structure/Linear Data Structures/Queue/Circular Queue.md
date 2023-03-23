@@ -1,3 +1,7 @@
++++
+title = "Circular Queue"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Circular Queue
@@ -59,21 +63,4 @@ Yes, a circular queue can be implemented using an array data structure. The arra
 
 5) How do you check if a circular queue is empty or full?
 To check if a circular queue is empty, you can compare the values of the front and rear pointers. If they are the same, the queue is empty. To check if the queue is full, you can compare the values of the front and rear pointers plus one. If they are the same, the queue is full.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Circular Queue
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Circular Queue - Introduction and Implementation: This webpage offers a comprehensive introduction to circular queues, including a detailed description of the data structure, its advantages, and some basic operations that can be performed on it.
-
-2. Tutorialspoint: Circular Queue: This webpage provides a comprehensive introduction to circular queues, including their definition, advantages, and operations. It also introduces the concept of front and rear pointers, which are often used to implement the data structure.
-
-3. Data Structures Easy to Advanced Course: Circular Queue: This interactive tutorial offers an engaging introduction to circular queues, including an overview of how they work and why they are useful. It includes a demonstration of how to implement a circular queue in code.
-
-4. Codeforwin: Circular Queue in Data Structure: This webpage offers an introduction to circular queues, including a brief history of the data structure and an overview of its key features. It also provides some sample code to help illustrate basic operations.
-
-5. Studytonight: Circular Queue: This webpage provides a comprehensive introduction to circular queues, including a detailed description of how they work and some common use cases. It also includes some code examples to help illustrate key concepts.   
 

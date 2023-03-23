@@ -1,5 +1,6 @@
 +++
 title = "B+树"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -88,16 +89,16 @@ B+ Tree是一种常用于实现数据库索引的树形数据结构，它具有�
 
 
 
-1. B+ Tree是一種樹狀資料結構，常用於關聯式資料庫系統中的索引結構。
-2. B+ Tree的特點是快速查詢、插入和刪除，並且對於大型資料集合的存取效能非常高。
-3. B+ Tree具有平衡性，即每個節點的高度相同，從而保證了查詢操作時間的一致性。
-4. B+ Tree的節點分為兩種類型：內部節點和葉子節點，其中葉子節點包含了實際的資料。
-5. B+ Tree的節點可以存儲多個關鍵字和指向子節點的指針，從而提高了資料的存儲效率。
-6. B+ Tree支持範圍查詢，即可以查詢一定範圍內的所有資料。
-7. B+ Tree可以進行分割和合併操作，以保持樹的平衡性。
-8. B+ Tree的深度通常較小，從而減少了磁盤存儲空間的佔用。
-9. B+ Tree的搜索性能通常比二叉查找樹和紅黑樹更好，特別是當資料集合非常大時。
-10. B+ Tree是許多關聯式資料庫系統的索引結構，如MySQL、Oracle、PostgreSQL等。   
+1. B+ Tree是一种树状资料结构，常用于关联式资料库系统中的索引结构。
+2. B+ Tree的特点是快速查询、插入和删除，并且对于大型资料集合的存取效能非常高。
+3. B+ Tree具有平衡性，即每个节点的高度相同，从而保证了查询操作时间的一致性。
+4. B+ Tree的节点分为两种类型：内部节点和叶子节点，其中叶子节点包含了实际的资料。
+5. B+ Tree的节点可以存储多个关键字和指向子节点的指针，从而提高了资料的存储效率。
+6. B+ Tree支持范围查询，即可以查询一定范围内的所有资料。
+7. B+ Tree可以进行分割和合并操作，以保持树的平衡性。
+8. B+ Tree的深度通常较小，从而减少了磁盘存储空间的占用。
+9. B+ Tree的搜索性能通常比二叉查找树和红黑树更好，特别是当资料集合非常大时。
+10. B+ Tree是许多关联式资料库系统的索引结构，如MySQL、Oracle、PostgreSQL等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -120,31 +121,4 @@ B+ Tree是一种常用于实现数据库索引的树形数据结构，它具有�
 
 5. 如何实现B+ Tree的平衡调整？
 答案：实现B+ Tree的平衡调整需要依靠节点的分裂和合并操作，当某个节点超出了最大容量时，需要将该节点分裂成两个节点；当某个节点的键值数量小于最小容量时，需要将该节点和相邻节点进行合并。通过这些操作可以保证B+ Tree的平衡性。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇B+ Tree的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "B+ Tree algorithm in database management systems" 
-(來源: https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/)
-這篇文章介紹了B+Tree演算法在資料庫管理系統中的應用，詳細說明了B+Tree結構特點、插入、刪除和查詢等操作方法，非常適合想要深入瞭解B+Tree的讀者。
-
-2. "B+ Trees in Database Management System" 
-(來源: https://www.tutorialspoint.com/b_plus_tree/b_plus_tree_database.htm)
-這篇文章通過實際案例詳細地介紹了B+Tree在資料庫管理系統中的應用，對B+Tree的原理、特點以及插入、刪除和查詢等操作進行了詳細地分析，很好的輔助讀者快速理解B+Tree的工作原理。
-
-3. "The B+ Tree: A Tree Structure for Data Storage" 
-(來源: https://medium.com/basecs/the-b-tree-what-it-is-why-we-need-it-how-we-put-it-to-use-16b0feae1106)
-這篇文章從B+Tree的根源出發，通過與B-Tree和紅黑樹的比較，深入解釋了B+Tree為何能夠成為一種優秀的「搜尋結構」，更進一步介紹了在實際應用中如何透過B+Tree來提高數據庫的效率。
-
-4. "An Introduction to B-Trees and the B+ Tree" 
-(來源: https://www.microsoft.com/en-us/research/wp-content/uploads/2016/06/tr-95-51.pdf)
-這篇由微軟研究院撰寫的論文的正確位置是B-Trees，並且在論文中有詳細的B+Tree介紹，提供了對於B+Tree理解深入的均等介紹。
-
-5. "B+Tree implementation in Python" 
-(來源: https://dev.to/sonicrida/b-tree-implementation-in-python-part-1-1laj)
-這篇文章一步一步的帶領讀者實現B+Tree，並且提供了關於B+Tree的一些較淺顯易懂的介紹，因此這篇文章非常適合初學者閱讀處理B+Tree算法。   
 

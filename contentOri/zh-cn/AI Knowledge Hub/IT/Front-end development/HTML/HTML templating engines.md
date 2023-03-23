@@ -1,5 +1,6 @@
 +++
 title = "HTML 模板引擎"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "HTML 模板引擎"
 
 
 
-1. 請簡要說明什麼是HTML templating engine及其作用。
-2. 它們與一般的HTML文件有何不同？
-3. 舉個例子應用HTML templating engine的場景。
-4. 你能列出三個市面上常用的HTML templating engine嗎？
-5. 何種HTML templating engine最適合在大型專案中應用？為什麼？   
+1. 请简要说明什么是HTML templating engine及其作用。
+2. 它们与一般的HTML文件有何不同？
+3. 举个例子应用HTML templating engine的场景。
+4. 你能列出三个市面上常用的HTML templating engine吗？
+5. 何种HTML templating engine最适合在大型专案中应用？为什么？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,21 +22,21 @@ title = "HTML 模板引擎"
 
 
 
-HTML templating engines 是一種用於生成HTML的工具，它可以幫助開發人員更輕鬆地編寫HTML樣板。它們允許開發人員使用模板和變量來生成HTML，從而節省了大量重複的工作。
+HTML templating engines 是一种用于生成HTML的工具，它可以帮助开发人员更轻松地编写HTML样板。它们允许开发人员使用模板和变量来生成HTML，从而节省了大量重复的工作。
 
-以下是幾個常用的HTML templating engines：
+以下是几个常用的HTML templating engines：
 
-1. Handlebars.js：一個開源的JavaScript templating engine，可以通過模板和變量生成HTML。它支持動態生成模板，可以實現代碼重用和模板繼承等功能。
+1. Handlebars.js：一个开源的JavaScript templating engine，可以通过模板和变量生成HTML。它支持动态生成模板，可以实现代码重用和模板继承等功能。
 
-2. EJS：一個開源的JavaScript templating engine，是以JavaScript為基礎的，可以通過JavaScript代碼來渲染HTML。
+2. EJS：一个开源的JavaScript templating engine，是以JavaScript为基础的，可以通过JavaScript代码来渲染HTML。
 
-3. Jade：一個基於Node.js的HTML templating engine，它使用簡潔的語法來生成HTML。它支持動態生成模板，可以實現代碼重用和模板繼承等功能。
+3. Jade：一个基于Node.js的HTML templating engine，它使用简洁的语法来生成HTML。它支持动态生成模板，可以实现代码重用和模板继承等功能。
 
-4. Mustache：一個基於HTML樣板的簡單的templating engine，可以與多種程式語言配合使用。它支持目錄和部份渲染，可以實現代碼重用和模板繼承等功能。
+4. Mustache：一个基于HTML样板的简单的templating engine，可以与多种程式语言配合使用。它支持目录和部份渲染，可以实现代码重用和模板继承等功能。
 
-5. Nunjucks：一個基於JavaScript的HTML templating engine，可以通過模板和變量來生成HTML。它支持動態生成模板，可以實現代碼重用和模板繼承等功能。
+5. Nunjucks：一个基于JavaScript的HTML templating engine，可以通过模板和变量来生成HTML。它支持动态生成模板，可以实现代码重用和模板继承等功能。
 
-這些HTML templating engines 都有自己的優點和適用場景，開發人員可以根據自己的需求選擇適合的工具。   
+这些HTML templating engines 都有自己的优点和适用场景，开发人员可以根据自己的需求选择适合的工具。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -65,7 +66,7 @@ HTML templating engines 是一種用於生成HTML的工具，它可以幫助開�
 
 答: 使用块
 
-2. 在Handlebars模板引擎中，如何遍历对象？
+2. 在Handlebars模板引擎中，如何遍历对像？
 
 答: 使用{{#each}} helper
 
@@ -82,31 +83,4 @@ HTML templating engines 是一種用於生成HTML的工具，它可以幫助開�
 答: 使用{% if %}语句
 
 (以上答案仅供参考)   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇HTML templating engines的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Handlebars.js
-
-Handlebars.js is one of the most popular HTML templating engines available for web developers. It's a minimal and flexible templating engine that allows you to easily create reusable templates and simplify the dynamic rendering of HTML content. Handlebars.js uses a simple syntax that allows you to easily add variables, conditional statements, and loops to your templates. It can also be integrated with other JavaScript libraries and frameworks, such as Backbone.js and Ember.js.
-
-2. Mustache.js
-
-Mustache.js is another popular HTML templating engine that is compatible with a range of programming languages, including Ruby, Python, Java, and JavaScript. Mustache templates are easy to read and write, and they offer a simple syntax that allows you to control the logic and data binding of your templates. Mustache.js also has a large and active community of developers who contribute to its feature set and provide support for new users.
-
-3. Pug (formerly Jade)
-
-Pug (formerly known as Jade) is a powerful and flexible HTML templating engine for Node.js that is designed to make it easy to create reusable and modular templates for web development. Pug has a simplified syntax that is similar to HTML, making it easy to learn and use, and it also supports a range of advanced features, such as mixins, blocks, and filters. Pug is also designed to work seamlessly with other Node.js libraries and frameworks.
-
-4. EJS (Embedded JavaScript)
-
-EJS (Embedded JavaScript) is a simple and concise HTML templating engine that allows you to easily add embedded JavaScript code to your HTML templates. EJS templates can be used to generate dynamic content, such as user interfaces, dashboards, and reports, and they also support a range of advanced features, such as custom tags, filters, and error handling. EJS is lightweight, flexible, and easy to use, making it a popular choice for many web developers.
-
-5. Nunjucks
-
-Nunjucks is a powerful and feature-rich HTML templating engine that is designed to simplify the creation of dynamic and reusable web templates. Nunjucks has a flexible syntax that allows you to easily add variables, filters, tags, and extensions to your templates, and it also supports features such as macros, inheritance, and block nesting. Nunjucks can be used with a range of web development frameworks and libraries, including Express, Koa, and Hapi, making it a versatile and popular choice for many developers.   
 

@@ -1,7 +1,7 @@
 
 
-1. What is the primary difference between Security Groups and Network ACLs?
-2. How do Security Groups and Network ACLs work together to protect a network?
-3. What are the limitations of Security Groups and Network ACLs?
-4. Can Security Groups or Network ACLs be used to protect against insider threats? If yes, how? If no, why not?
-5. How do you ensure that Security Groups and Network ACLs are configured correctly to protect your network?
+1. 什么是安全群组（Security Groups）？可以如何使用它来保护您的网络？
+2. 什么是网络存取控制列表（Network ACL）？它们如何区别于安全群组？
+3. 安全群组和网络存取控制列表在提供安全性方面有何不同？哪种更有效？
+4. 在AWS中如何创建和管理安全群组和网络存取控制列表？
+5. 安全群组和网络存取控制列表的规则是如何工作的？它们可以设置那些安全性功能？

@@ -1,7 +1,7 @@
 
 
-1. What are the main differences between virtualization and containerization? 
-2. How can virtualization and containerization help organizations to optimize their IT infrastructure? 
-3. What are the benefits and drawbacks of implementing virtualization or containerization in an IT environment? 
-4. How do virtualization and containerization support DevOps practices and agile software development? 
-5. What are some of the key technologies and tools used for virtualization and containerization, and how do they differ?
+1. 虛擬化技術和容器化技術有什麼不同之處？ 
+2. 虛擬化技術如何能夠提高資源利用率？ 
+3. 容器化技術的主要優點是什麼？ 
+4. 什麼是虛擬機器？如何在其中運行不同的作業系統？ 
+5. Kubernetes是什麼？它和容器化有什麼關係？

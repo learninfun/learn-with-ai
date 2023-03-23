@@ -1,13 +1,13 @@
 
 
-Interpreter Pattern 是一种设计模式，它定义了一种方式来解释语言的语法规则，用于创建一个解释器，以解析和执行语言的表达式。这种模式的核心思想是将一个特定的语言解释器分离出来，使得它可以独立于整个语言系统的其他部分进行开发和维护。Interpreter Pattern 主要由以下两个组成部分组成：
+Interpreter Pattern 是一種設計模式，它定義了一種方式來解釋語言的語法規則，用於創建一個解釋器，以解析和執行語言的表達式。這種模式的核心思想是將一個特定的語言解釋器分離出來，使得它可以獨立於整個語言系統的其他部分進行開發和維護。Interpreter Pattern 主要由以下兩個組成部分組成：
 
-1.文法（Grammar）：定义了语言中可以使用的合法语法结构。
-2.解释器（Interpreter）：用于对文法表示的语言语句进行解释和执行。
+1.文法（Grammar）：定義了語言中可以使用的合法語法結構。
+2.解釋器（Interpreter）：用於對文法表示的語言語句進行解釋和執行。
 
-例如，我们可以创建一个简单的解释器来解析和执行 SQL 语句，如下所示：
+例如，我們可以創建一個簡單的解釋器來解析和執行 SQL 語句，如下所示：
 
-1. 文法：定义了 SQL 语句的语法结构和语义。
+1. 文法：定義了 SQL 語句的語法結構和語義。
 
 ```
 <SQL Query> ::= SELECT <Columns> FROM <Table> WHERE <Conditions>
@@ -20,7 +20,7 @@ Interpreter Pattern 是一种设计模式，它定义了一种方式来解释语
 <Field> ::= <String>
 ```
 
-2. 解释器：用于解释和执行 SQL 查询语句并生成结果。
+2. 解釋器：用於解釋和執行 SQL 查詢語句並生成結果。
 
 ```python
 class SQLInterpreter:
@@ -42,7 +42,7 @@ class SQLInterpreter:
             while i < len(self.tokens):
                 self.conditions[self.tokens[i]] = self.tokens[i + 2]
                 i += 3
-        # 执行 SQL 查询语句并生成结果
+        # 執行 SQL 查詢語句並生成結果
         ...
 
 query = "select id, name from customers where age > 18"
@@ -50,4 +50,4 @@ interpreter = SQLInterpreter(query)
 interpreter.interpret()
 ```
 
-在以上示例中，我们创建了一个简单的 SQL 解释器，它可以解释和执行 SQL 查询语句，并返回查询结果。使用这种模式可以将解释器与整个系统的其他部分解耦，从而更好地管理和维护系统。
+在以上示例中，我們創建了一個簡單的 SQL 解釋器，它可以解釋和執行 SQL 查詢語句，並返回查詢結果。使用這種模式可以將解釋器與整個系統的其他部分解耦，從而更好地管理和維護系統。

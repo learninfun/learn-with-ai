@@ -1,7 +1,15 @@
 
 
-Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious code into web pages viewed by other users. This can lead to stealing sensitive information such as login credentials or hijacking user sessions.
+跨站腳本攻擊（Cross-Site Scripting，簡稱 XSS）指的是攻擊者通過在網站輸入框中輸入惡意腳本代碼，使得網站的其他用戶在訪問該網站時也受到攻擊。攻擊者可以通過 XSS 攻擊盜取用戶的資訊，例如登入密碼、Cookie 信息等，甚至可以繞過網站的防火牆，從而掌握網站系統的控制權。
 
-An example of cross-site scripting involves an attacker exploiting an insecure website form that allows users to submit input data without validation. The attacker injects malicious code into the form and submits it, causing the code to execute on the website when other users view the page with the injected code. This could include a fake login form that steals user credentials, or injecting malware that infects users' devices.
+舉個例子，假如有一個網站有一個搜索框，當用戶在該搜索框中輸入一些內容後，網站會顯示相關的搜索結果。如果攻擊者在搜索框中輸入一段 JavaScript 代碼，並能夠讓其被其他用戶訪問，那麼其他用戶訪問該網站時就會執行攻擊者所提供的 JavaScript 代碼，從而造成 XSS 攻擊。
 
-For instance, imagine that a user named Alice visits a website that allows users to post comments. Alice has no malicious intent, so she posts a comment with her name and a benign message. However, an attacker named Bob spots the vulnerability and decides to abuse it. Bob posts a comment containing a script that, when run on Alice's computer, sends Alice's login credentials to Bob's server. Now, when Alice tries to log in, Bob is able to steal her information and use it for his own purposes. This is just one example of how cross-site scripting can be used as an attack vector.
+例如：
+
+當用戶在搜索框中輸入以下代碼：
+
+```
+<script>alert('攻擊成功！')</script>
+```
+
+攻擊者就可以成功地繞過網站的防護措施，並在用戶訪問該網站時彈出一個包含「攻擊成功！」字樣的提示框，此時攻擊者就可以收穫用戶的關鍵資訊，造成嚴重的安全問題。

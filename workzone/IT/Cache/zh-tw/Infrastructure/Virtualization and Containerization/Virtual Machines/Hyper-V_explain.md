@@ -1,9 +1,7 @@
 
 
-Hyper-V is a type 1 hypervisor developed by Microsoft that enables virtualization of servers and workstations on Windows operating systems. Hypervisors are software that separates the physical hardware and the operating systems they run on from the virtual machines that sit on top of them. 
+Hyper-V是一款虛擬機器軟體，由微軟公司開發，可以在單一實體伺服器上建立多個虛擬機器，每個虛擬機器可以執行不同的作業系統，例如Windows、Linux等等。
 
-Using Hyper-V, administrators can create one or more virtual machines (VMs) on a single physical server, each of which operates independently, with its resources, operating system, applications, and user interface. The virtual machines can be dynamically allocated resources, allowing them to grow or shrink based on the workload without the need for additional hardware purchases.
+Hyper-V提供完整的虛擬化解決方案，包括虛擬網路、虛擬存儲和虛擬機器移轉等功能。使用Hyper-V可以節省硬體成本，減少系統維護負擔，並且提高系統的可用性和可擴展性。
 
-Hyper-V can be used to create a variety of virtual machines, ranging from simple web servers to complex, multi-tiered applications with extensive networking requirements. Example:
-
-An e-commerce company is managing multiple applications, including a web storefront, a payment processing application, and an inventory management system. They can use Hyper-V to set up three virtual machines on a single server, each of which runs one of the applications. Each virtual machine is isolated from the others and has its resources, ensuring that traffic to one application does not affect the others, and there is no potential for cross-contamination of data or code. This setup offers increased reliability, scalability, and security for the company's e-commerce systems.
+舉例來說，一家企業需要在單一伺服器上運行多個應用程式，這些應用程式需要不同的操作系統支援。使用Hyper-V可以在一台伺服器上建立多個虛擬機器，每個虛擬機器運行不同的操作系統，並且可以相互隔離，從而實現不同應用程式間的獨立運行。這樣可以簡化系統管理，提高運行效率，並且節省硬體成本。

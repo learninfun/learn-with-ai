@@ -1,8 +1,7 @@
 
 
-1. CSRF is a type of web vulnerability that allows an attacker to execute actions on behalf of a victim user without their consent or knowledge.
-2. It occurs when a user is unknowingly tricked into executing a malicious action that is sent to a web application through a trusted user account.
-3. CSRF attacks can be launched through various vectors like email, social media, websites, or online gaming platforms.
-4. The most common types of CSRF attacks are GET-based, POST-based, and JSON-based. 
-5. CSRF prevention includes using CSRF tokens, session cookie settings, verifying HTTP requests, and configuring server-side controls.
-6. To detect CSRF attacks, tools like ZAP, Burp Suite, and OWASP CSRF Tester can be used.
+1. CSRF是指攻击者利用受害者在网站上的登入状态，在未经受害者同意的情况下，透过伪造请求来执行欺骗性操作。
+2. 攻击者通常使用包含或图片等元素的网页或电子邮件，试图引导受害者前往特殊网页，并自动发一次请求以执行欺骗操作。
+3. 预防CSRF攻击的主要方法是实现对可疑请求的验证，在发送请求之前确保请求是由受信任的用户发送的。
+4. 让用户选择于web浏览器上保留登入会话持续时间太长将提高CSRF攻击的风险，因为攻击者有更多的时间发动攻击。
+5. 开发者可以通过使用先进的安全编程实践，如HTTP头文件和反令牌机制实现对CSRF攻击的有效的保护。

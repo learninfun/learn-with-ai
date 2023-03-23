@@ -1,5 +1,6 @@
 +++
 title = "前端单元测试"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -21,13 +22,13 @@ title = "前端单元测试"
 
 
 
-前端单元测试是指测试 JavaScript、HTML 和 CSS 代码的小块代码的过程。这些单元是开发中的最小可测试单元。前端单元测试可确保代码在开发阶段满足了某些基本需求，并且可以检测到潜在的缺陷，如不正确的数据绑定、不兼容的浏览器和未定义的变量等。
+前端單元測試是指測試 JavaScript、HTML 和 CSS 代碼的小塊代碼的過程。這些單元是開發中的最小可測試單元。前端單元測試可確保代碼在開發階段滿足了某些基本需求，並且可以檢測到潛在的缺陷，如不正確的數據綁定、不兼容的瀏覽器和未定義的變量等。
 
-举一个例子：假设我们有一个计算器应用程序，需要编写一个功能来实现两个数字的加法。我们可以编写一个前端单元测试来确保它执行正确的计算。下面是一个基本的单元测试例子:
+舉一個例子：假設我們有一個計算器應用程序，需要編寫一個功能來實現兩個數字的加法。我們可以編寫一個前端單元測試來確保它執行正確的計算。下面是一個基本的單元測試例子:
 
 ```JavaScript
-describe('加法计算测试', function() {
-  it('输入两个数字并添加它们应返回正确的值', function() {
+describe('加法計算測試', function() {
+  it('輸入兩個數字並添加它們應返回正確的值', function() {
     var num1 = 5;
     var num2 = 10;
     var result = addNumbers(num1, num2);
@@ -41,9 +42,9 @@ function addNumbers(num1, num2) {
 }
 ```
 
-在该例子中，我们编写了一个描述“加法计算测试”的测试套件，并在其中添加了一个名为“it”的测试块，用于实际测试AddNumbers函数是否按预期执行计算。在测试中，我们设置两个数字5和10，并将其传递到addNumbers函数中。最后，我们使用expect函数和toEqual断言来确定AddNumbers函数的返回值是否等于15。
+在該例子中，我們編寫了一個描述「加法計算測試」的測試套件，並在其中添加了一個名為「it」的測試塊，用於實際測試AddNumbers函數是否按預期執行計算。在測試中，我們設置兩個數字5和10，並將其傳遞到addNumbers函數中。最後，我們使用expect函數和toEqual斷言來確定AddNumbers函數的返回值是否等於15。
 
-这是一个简单的示例，但是在实际开发中，测试套件可能涵盖更复杂的操作，包括用户界面事件、数据绑定等等。前端单元测试可确保传递给用户的应用程序是高质量的、具有一致性的和已测试的。   
+這是一個簡單的示例，但是在實際開發中，測試套件可能涵蓋更複雜的操作，包括用戶界面事件、數據綁定等等。前端單元測試可確保傳遞給用戶的應用程序是高質量的、具有一致性的和已測試的。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -85,36 +86,4 @@ function addNumbers(num1, num2) {
 5. 如何测试使用API和第三方库的应用程序？
 
 答案：使用模拟API，例如Mockjax，和模拟第三方库的工具，例如SinonJS，测试应用程序在各种场景下的行为和反应。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Front-End Unit testing的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Getting Started with Front-End Unit Testing"（来源：Medium）
-作者：Sebastian Eschweiler
-
-这篇文章提供了一个较为详尽的前端单元测试入门指南，包括测试框架的选择、测试用例编写、断言的选择等等。另外还提到了一些常用的前端测试工具，如Jest、Mocha等，可以帮助初学者快速地入门。
-
-2. "The Ultimate Guide to Front End Testing"（来源：SitePoint）
-作者： Christian Heilmann
-
-这篇文章对前端单元测试进行了全面而深入的解析，从测试框架的基础知识讲起，到如何编写高质量的测试用例，再到如何使用自动化测试工具进行测试等等。文章还提供了一些实用的技巧和建议，可以帮助读者更好地进行前端单元测试。
-
-3. "Front-end testing with TestCafe"（来源：CSS-Tricks）
-作者： Vitaly Friedman
-
-这篇文章介绍了一种新的前端单元测试工具TestCafe，并提供了一个实际的测试用例演示。文章还简要讲解了TestCafe的特点和优势，如易于使用、跨浏览器支持、自动化测试等等。
-
-4. "Understanding Front End Testing"（来源：Smashing Magazine）
-作者： Paul Underwood
-
-这篇文章讲解了前端单元测试的一般概念和工作原理，以及如何选择最适合自己的Front-End Unit Testing 工具。文章按照测试用例编写、断言和整合测试等方面进行了系统性的讲解，同时介绍了一些最佳实践。
-
-5. "The Importance of Front End Unit Testing"（来源：Medium）
-作者： Vadzim Ramanenka
-
-这篇文章强调了前端单元测试的重要性，并详细介绍了几种常见的前端测试工具，包括Jest、Mocha、Chai等。文章还对测试用例编写和断言执行等方面进行了具体的讲解，以帮助读者更好地了解前端测试的各个方面。   
 

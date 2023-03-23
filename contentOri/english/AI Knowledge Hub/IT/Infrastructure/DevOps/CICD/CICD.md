@@ -1,3 +1,7 @@
++++
+title = "CICD"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about CICD
@@ -75,21 +79,4 @@ Answer: The benefits of CI/CD include faster, more reliable software releases, b
 5. What is Git?
 
 Answer: Git is a version control system that enables teams to manage changes to source code, documents, and other files collaboratively. It is often used in conjunction with CI/CD pipelines to version code and manage releases.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about CICD
-{{< /ask_chatgpt >}}
-
-
-
-1. "Understanding Continuous Integration and Continuous Deployment (CI/CD)" - https://www.redhat.com/en/topics/devops/what-is-ci-cd
-
-2. "CI/CD for Beginners: A Comprehensive Guide" - https://semaphoreci.com/ci-cd-for-beginners
-
-3. "CI/CD Pipeline: What is a Continuous Integration/Continuous Deployment Pipeline?" - https://www.cloudbees.com/continuous-delivery/ci-cd-pipeline
-
-4. "What is CI/CD? Continuous Integration and Continuous Deployment Explained" - https://www.atlassian.com/continuous-delivery/ci-cd
-
-5. "What is CI/CD?" - https://codefresh.io/continuous-deployment/what-is-cicd/   
 

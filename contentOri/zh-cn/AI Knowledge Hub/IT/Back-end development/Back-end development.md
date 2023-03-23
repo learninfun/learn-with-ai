@@ -1,5 +1,6 @@
 +++
 title = "后端开发"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -46,31 +47,31 @@ Back-end开发人员在这里需要处理大量的数据，并根据这些数据
 
 
 
-以下是Back-end development的重點：
+以下是Back-end development的重点：
 
-1.建立可擴展的架構
+1.建立可扩展的架构
 
 2.安全性
 
-3.優化資料庫
+3.优化资料库
 
-4.快速回應的伺服器
+4.快速回应的伺服器
 
 5.高可用性
 
-6.APIs設計
+6.APIs设计
 
-7.協作
+7.协作
 
-8.自動化測試
+8.自动化测试
 
-9.程式碼最佳化
+9.程式码最佳化
 
-10.分佈式系統開發
+10.分布式系统开发
 
-11.資料分析
+11.资料分析
 
-12.資料庫設計與管理   
+12.资料库设计与管理   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -79,48 +80,21 @@ Back-end开发人员在这里需要处理大量的数据，并根据这些数据
 
 
 
-1. 设计一个简单的购物车功能，使用者可以从产品清单中选择商品并将商品加入购物车中，最后结帐时计算总价格。
+1. 設計一個簡單的購物車功能，使用者可以從產品清單中選擇商品並將商品加入購物車中，最後結帳時計算總價格。
 答案: https://codeburst.io/how-to-build-a-simple-shopping-cart-using-node-js-b449cfd0c094
 
-2. 实现一个网站的登入功能，使用者可以注册帐号并登入网站，登入后可以进行购物等操作。
+2. 實現一個網站的登入功能，使用者可以註冊帳號並登入網站，登入後可以進行購物等操作。
 答案: https://auth0.com/blog/building-modern-web-applications-with-go-microservices-and-react-part-3/
 
 
-3. 设计一个简单的博客平台，使用者可以创建、编辑和删除博客文章。
+3. 設計一個簡單的博客平台，使用者可以創建、編輯和刪除博客文章。
 答案: https://www.smashingmagazine.com/2020/02/build-blog-nodejs-expressjs-mysql/
 
 
-4. 设计一个社交媒体平台，使用者可以创建个人资料并分享资讯，可以追踪其他使用者并查看他们的发布的内容。
+4. 設計一個社交媒體平台，使用者可以創建個人資料並分享資訊，可以追蹤其他使用者並查看他們的發佈的內容。
 答案: https://github.com/sahilkashyap64/Social-Network
 
 
-5. 实现一个赛事管理平台，用户可以创建比赛和比赛场次，参赛者可以注册并加入比赛，系统会自动统计比赛成绩和排名。
+5. 實現一個賽事管理平台，用戶可以創建比賽和比賽場次，參賽者可以註冊並加入比賽，系統會自動統計比賽成績和排名。
 答案: https://scotch.io/tutorials/coding-a-web-app-with-node-webkit   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Back-end development的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is Back-end Development? A Comprehensive Guide" - https://www.upgrad.com/blog/what-is-back-end-development-a-comprehensive-guide/
-
-This article provides a comprehensive guide to back-end development, including an overview of what it is, the technologies involved, and the skills required. It also covers some popular back-end frameworks and tools, such as Node.js, Django, and Flask.
-
-2. "10 popular tools for back-end development" - https://www.techrepublic.com/article/10-popular-tools-for-back-end-development/
-
-In this article, the author highlights 10 popular tools and frameworks for back-end development, including Ruby on Rails, Java Spring, and Amazon Web Services. Each tool is briefly described and its key features are outlined.
-
-3. "What is Back-end Development? Definition, Examples, and Skills" - https://www.fundamentals.bcz.com/what-is-back-end-development-definition-examples-and-skills/
-
-This article provides a clear definition of back-end development, along with some real-world examples and a list of important skills for back-end developers. It also discusses some of the key differences between front-end and back-end development.
-
-4. "The Best Back-end Web Development Languages to Learn in 2021" - https://www.codica.com/blog/best-backend-web-development-languages-to-learn-in-2021/
-
-This article provides an overview of some of the best back-end web development languages to learn in 2021, including PHP, Python, and Ruby. It also includes some useful tips for choosing the right language based on your project requirements.
-
-5. "Back-End Programming Languages and Frameworks Explained" - https://www.cleveroad.com/blog/back-end-programming-languages-and-frameworks-explained
-
-This article provides a comprehensive overview of back-end programming languages and frameworks, including an explanation of what a programming language is and how it differs from a framework. It also highlights some popular back-end programming languages and frameworks, such as Laravel, Django, and Node.js.   
 

@@ -1,5 +1,6 @@
 +++
 title = "点覆盖"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -63,63 +64,26 @@ Vertex Cover是一种图论中的问题，目的是找到一个最小的集合�
 
 
 
-1. 假设你有一个无向图，每个节点都有一个权重。你的目标是找到一个最小的vertex cover，使得这些节点的权重总和最大。求最大权重总和。
+1. 假設你有一個無向圖，每個節點都有一個權重。你的目標是找到一個最小的vertex cover，使得這些節點的權重總和最大。求最大權重總和。
 
-答案：使用动态规划，令MCV(i)为图的前i个节点的最小vertex cover大小，W(i)为第i个节点的权重。则MCV(i)可表示为以下两种情况的较小值：
+答案：使用動態規劃，令MCV(i)為圖的前i個節點的最小vertex cover大小，W(i)為第i個節點的權重。則MCV(i)可表示為以下兩種情況的較小值：
 
-1. 第i个节点被选中，那么前i-2个节点就一定要成为vertex cover，所以MCV(i-2) + W(i)。
-2. 第i个节点没有被选中，那么前i-1个节点就一定要成为vertex cover，所以MCV(i-1)。
+1. 第i個節點被選中，那麼前i-2個節點就一定要成為vertex cover，所以MCV(i-2) + W(i)。
+2. 第i個節點沒有被選中，那麼前i-1個節點就一定要成為vertex cover，所以MCV(i-1)。
 
-2. 给定一个图，你需要从其中去掉k个节点，使得剩下的子图是一个独立集。求k的最小值。
+2. 給定一個圖，你需要從其中去掉k個節點，使得剩下的子圖是一個獨立集。求k的最小值。
 
-答案：该问题等价于在原图上求最小vertex cover。可以用二分图匹配求解。
+答案：該問題等價於在原圖上求最小vertex cover。可以用二分圖匹配求解。
 
-3. 给定一个无向图，每条边都有一个权重。求一个最小的vertex cover，使得所有边都至少有一个端点在vertex cover中。
+3. 給定一個無向圖，每條邊都有一個權重。求一個最小的vertex cover，使得所有邊都至少有一個端點在vertex cover中。
 
-答案：最小无权二分图匹配问题的变形，可以使用Konig定理转化为最大权二分图匹配问题。
+答案：最小無權二分圖匹配問題的變形，可以使用Konig定理轉化為最大權二分圖匹配問題。
 
-4. 给定一个无向图，图中每个节点有颜色。求一个最小的vertex cover，使得每种颜色的节点至少有一个端点在vertex cover中。
+4. 給定一個無向圖，圖中每個節點有顏色。求一個最小的vertex cover，使得每種顏色的節點至少有一個端點在vertex cover中。
 
-答案：给每种颜色分别做出一个子图，然后对每个子图求一个最小完美匹配，最后将所有匹配的端点集合合并即可得到最小vertex cover。
+答案：給每種顏色分別做出一個子圖，然後對每個子圖求一個最小完美匹配，最後將所有匹配的端點集合合併即可得到最小vertex cover。
 
-5. 给定一个无向图，每个节点有一个预算和一个收入。你需要选择一个vertex cover，使得所有选中的节点的总预算不超过收入总和，并且收入总和最大。求最大收入。
+5. 給定一個無向圖，每個節點有一個預算和一個收入。你需要選擇一個vertex cover，使得所有選中的節點的總預算不超過收入總和，並且收入總和最大。求最大收入。
 
-答案：可以将问题转化为线性规划求解，令x_i为节点i是否被选中，则目标函数为max{c_i*x_i}，约束条件为∑{b_i*x_i}<=∑{b_i}，x_i∈{0,1}。使用整数规划技巧将x_i限制为整数，然后使用线性规划求解即可。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Vertex Cover的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Vertex Cover Problem" by GeeksforGeeks
-
-This article on GeeksforGeeks provides an overview of the Vertex Cover problem, including a definition, properties, and applications. It also covers various algorithms for solving the problem, including brute force, Greedy, and Approximation algorithms.
-
-Source: https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm/
-
-2. "Vertex Cover: An Introduction" by Brilliant.org
-
-This article on Brilliant.org provides a step-by-step introduction to Vertex Cover, including its definition, examples, and insights into its complexity. It also provides exercises to test and reinforce understanding of the concept.
-
-Source: https://brilliant.org/wiki/vertex-cover/
-
-3. "Maximum Matching and Vertex Cover" by Skiena's Algorithm Design Manual
-
-This chapter from Skiena's Algorithm Design Manual provides a thorough treatment of the Vertex Cover problem, including explanations of related concepts such as Maximum Matching and Bipartite Graphs. The chapter also presents several algorithms for finding Vertex Cover, and discusses their performance.
-
-Source: http://www.algorist.com/algowiki/index.php/Maximum_Matching_and_Vertex_Cover
-
-4. "The Vertex Cover Problem: Algorithms and Complexity" by Martin Vatshelle
-
-This paper by Martin Vatshelle provides an in-depth analysis of the Vertex Cover problem, including its complexity, hardness, and approximability. The paper surveys existing algorithms for solving Vertex Cover, and presents a new algorithm that achieves better performance than previous ones.
-
-Source: https://arxiv.org/abs/1304.6843
-
-5. "Vertex Cover: From Theory to Practice" by Xiao Zhang and Athanasios V. Vasilakos
-
-This paper by Xiao Zhang and Athanasios V. Vasilakos explores applications of Vertex Cover in real-world scenarios, such as sensor networks and wireless communication. The paper also presents an overview of various algorithms for solving the problem, and identifies open research challenges in the field.
-
-Source: https://www.sciencedirect.com/science/article/pii/S1570866716308391   
+答案：可以將問題轉化為線性規劃求解，令x_i為節點i是否被選中，則目標函數為max{c_i*x_i}，約束條件為∑{b_i*x_i}<=∑{b_i}，x_i∈{0,1}。使用整數規劃技巧將x_i限制為整數，然後使用線性規劃求解即可。   
 

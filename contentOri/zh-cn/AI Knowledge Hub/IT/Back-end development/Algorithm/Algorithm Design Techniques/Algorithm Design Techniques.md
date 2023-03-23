@@ -1,5 +1,6 @@
 +++
 title = "算法设计技巧"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -25,24 +26,24 @@ title = "算法设计技巧"
 
 
 
-Algorithm Design Techniques簡單來說是指在設計演算法時，使用的各種設計技巧和策略。這些技巧和策略可以幫助我們更容易地解決問題、優化演算法的效率等等。以下列舉一些常見的Algorithm Design Techniques：
+Algorithm Design Techniques简单来说是指在设计演算法时，使用的各种设计技巧和策略。这些技巧和策略可以帮助我们更容易地解决问题、优化演算法的效率等等。以下列举一些常见的Algorithm Design Techniques：
 
 1. Divide and Conquer（分治法）
-這種設計技巧的主要思想是把複雜的問題分解成多個小問題，然後對這些小問題分別解決，最後再將小問題的解合併起來得到整個問題的解。例子包括快速排序、合併排序等等。
+这种设计技巧的主要思想是把复杂的问题分解成多个小问题，然后对这些小问题分别解决，最后再将小问题的解合并起来得到整个问题的解。例子包括快速排序、合并排序等等。
 
-2. Greedy（貪心法）
-貪心法的設計思想是每次選擇當前最優的解決方案，並且確信這種局部最優的解法能帶來整體最優的效果。例子包括霍夫曼編碼、最小生成樹問題等等。
+2. Greedy（贪心法）
+贪心法的设计思想是每次选择当前最优的解决方案，并且确信这种局部最优的解法能带来整体最优的效果。例子包括霍夫曼编码、最小生成树问题等等。
 
-3. Dynamic Programming（動態規劃）
-動態規劃是一種將大問題分解成多個子問題，並且保存子問題的解決方案用於重複利用的技術。這種技術的設計目的是降低計算量，避免多次計算相同的問題。例子有最長共同子序列、最短路徑問題、背包問題等等。
+3. Dynamic Programming（动态规划）
+动态规划是一种将大问题分解成多个子问题，并且保存子问题的解决方案用于重复利用的技术。这种技术的设计目的是降低计算量，避免多次计算相同的问题。例子有最长共同子序列、最短路径问题、背包问题等等。
 
 4. Backtracking（回溯法）
-回溯法是將問題轉換成一棵搜索樹，在這棵樹上進行深度優先搜索，當搜索到達某個節點時，發現這個節點不能再擴展出解答時，返回上一層節點繼續搜索。這種技術比較適合解決可以“決策樹”形式表示的問題。例子有N皇后問題、解數獨問題等等。
+回溯法是将问题转换成一棵搜索树，在这棵树上进行深度优先搜索，当搜索到达某个节点时，发现这个节点不能再扩展出解答时，返回上一层节点继续搜索。这种技术比较适合解决可以“决策树”形式表示的问题。例子有N皇后问题、解数独问题等等。
 
-5. Randomized Algorithm（隨機算法）
-隨機算法通過隨機方式尋求解決問題的方法，通常用於解決時間複雜度較高的問題。隨機算法可以分為兩類：一種是在運行時生成隨機數，然後根據隨機數制定策略；另一種則是通過拉斯維加斯算法來隨機獲得答案。例子有快速排序中的隨機化算法等等。
+5. Randomized Algorithm（随机算法）
+随机算法通过随机方式寻求解决问题的方法，通常用于解决时间复杂度较高的问题。随机算法可以分为两类：一种是在运行时生成随机数，然后根据随机数制定策略；另一种则是通过拉斯维加斯算法来随机获得答案。例子有快速排序中的随机化算法等等。
 
-以上是Algorithm Design Techniques中的一些常見技巧和方法，不同的演算法設計方法與問題有著不同的適用範圍，需要根據問題的特點妥善選擇合適的方法。   
+以上是Algorithm Design Techniques中的一些常见技巧和方法，不同的演算法设计方法与问题有着不同的适用范围，需要根据问题的特点妥善选择合适的方法。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -94,31 +95,4 @@ Algorithm Design Techniques簡單來說是指在設計演算法時，使用的�
 答案: Hierholzer Algorithm
 
 以上问题仅供参考，实际上任何算法设计题目都可以根据不同难度等级进行分类。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Algorithm Design Techniques的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Divide and Conquer Algorithm Design Technique
-- https://www.geeksforgeeks.org/divide-and-conquer-algorithm-introduction/
-- This website provides a detailed definition and explanation of divide and conquer algorithm design technique, including examples of its application in solving problems.
-
-2. Dynamic Programming Algorithm Design Technique
-- https://www.geeksforgeeks.org/dynamic-programming/
-- This article explains dynamic programming algorithm design technique, with clear examples and illustrations to show the practical application of the technique in solving complex problems.
-
-3. Greedy Algorithm Design Technique
-- https://www.geeksforgeeks.org/greedy-algorithms/
-- GeeksforGeeks also provided a comprehensive analysis of the greedy algorithm design technique, including its advantages and disadvantages. The article also gives several examples to help readers understand the topic better.
-
-4. Backtracking Algorithm Design Technique
-- https://www.geeksforgeeks.org/backtracking-algorithms/
-- This tutorial provides an overview of backtracking algorithm design technique, including how it works and how to apply it in solving problems. The website also gives examples of its applications in practice and related resources for in-depth learning.
-
-5. Brute Force Algorithm Design Technique
-- https://www.geeksforgeeks.org/brute-force-algorithms/
-- Lastly, this article introduces the brute force algorithm design technique, including its characteristics and types of problems that can be solved using it. As always, the website includes examples and codes to guide readers in their understanding of the topic.   
 

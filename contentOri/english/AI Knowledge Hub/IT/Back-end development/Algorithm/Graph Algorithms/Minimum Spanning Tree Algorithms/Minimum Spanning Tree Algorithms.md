@@ -1,3 +1,7 @@
++++
+title = "Minimum Spanning Tree Algorithms"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Minimum Spanning Tree Algorithms
@@ -84,26 +88,4 @@ Answer: Prim's algorithm works by starting with an arbitrary vertex and adding t
 
 5. What is the time complexity of Kruskal's and Prim's algorithms?
 Answer: Kruskal's algorithm and Prim's algorithm have a time complexity of O(ElogE) and O(ElogV), respectively, where E is the number of edges in the graph and V is the number of vertices in the graph.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Minimum Spanning Tree Algorithms
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Minimum Spanning Tree Algorithms
-https://www.geeksforgeeks.org/minimum-spanning-tree-algorithms/
-
-2. Brilliant.org: Minimum Spanning Tree Algorithms
-https://brilliant.org/wiki/minimum-spanning-tree-algorithms/
-
-3. TutorialsPoint: Minimum Spanning Tree
-https://www.tutorialspoint.com/Minimum-Spanning-Tree
-
-4. Stanford University: Minimum Spanning Trees
-https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture15.pdf
-
-5. Data Structure Easy: Minimum Spanning Tree
-https://www.easycoding.org/data-structure-tutorials/minimum-spanning-tree   
 

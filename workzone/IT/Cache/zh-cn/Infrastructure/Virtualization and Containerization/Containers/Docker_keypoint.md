@@ -1,17 +1,11 @@
 
 
-1. Docker is a containerization platform that is used to package and distribute applications.
-
-2. With Docker, developers can deploy applications quickly and easily, without worrying about the configuration of the underlying infrastructure.
-
-3. Docker containers are lightweight and portable, making them easy to move between different environments and cloud platforms.
-
-4. Docker uses a layered architecture, which allows developers to reuse and share code across different applications.
-
-5. Docker comes with a range of tools and features, such as Dockerfiles, Docker Compose, and Docker Swarm, which make it easy to manage and deploy containers at scale.
-
-6. Docker provides a secure and isolated environment for running applications, which helps to prevent conflicts and protect sensitive data.
-
-7. Docker is open-source software, which means that it is freely available and can be used by anyone.
-
-8. Docker has a large and active community, which provides support and contributes to the development of new features and tools for the platform.
+1. Docker是一個開源的容器化平台。
+2. 使用Docker可以隔離應用程序和操作系統，提高應用程序的可移植性和安全性。
+3. Docker容器是一個輕量級的虛擬化技術，可以將應用程序打包在一個可移植的容器中，這容器可以在不同的環境中運行。
+4. Docker提供了一個註冊表，用來存儲和分享容器，方便了容器之間的共享和使用。
+5. Docker提供了一個開發環境，可以在其中開發和測試應用程序，並且可以輕鬆地將這些應用程序部署到生產環境中。
+6. Docker通過使用Dockerfile文件和Docker Hub註冊表，使應用程序的構建和部署變得自動化和標準化。
+7. Docker還提供了一個強大的API，可以通過API控制和管理Docker容器和註冊表。
+8. Docker可以運行在多種操作系統和雲平台上，用戶可以根據自己的需求選擇適合自己的環境。
+9. Docker是一個非常受歡迎的容器化平台，已經得到了很多企業的廣泛使用，並且在未來會繼續保持其技術領先地位。

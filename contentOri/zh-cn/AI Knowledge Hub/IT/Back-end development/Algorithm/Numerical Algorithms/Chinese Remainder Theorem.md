@@ -1,5 +1,6 @@
 +++
 title = "中国剩余定理"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "中国剩余定理"
 
 
 
-1. 小華有一筆財產，拿去存到三家銀行中，第一家存了1000元，利率為2%，第二家存了2000元，利率為3%，第三家存了3000元，利率為4%。請問一年後，小華可以拿到多少利息？
-2. 現在有一個數字，它除以4的餘數是1，除以5的餘數是2，除以7的餘數是3。請問這個數字是多少？
-3. 某國的貨幣包括1元、2元、5元、10元四種硬幣，現在有一個人有151元，但只有20個硬幣，請問這個人有多少張1元硬幣、2元硬幣、5元硬幣和10元硬幣各幾張？
-4. 某年的萬聖節是星期四，當時離聖誕節還有59天，也就是說聖誕節是星期幾？
-5. 小美有12個企鵝，她要把它們分成三隊，每隊分別有2、3、7隻企鵝，請問小美一共有多少種方案？   
+1. 小华有一笔财产，拿去存到三家银行中，第一家存了1000元，利率为2%，第二家存了2000元，利率为3%，第三家存了3000元，利率为4%。请问一年后，小华可以拿到多少利息？
+2. 现在有一个数字，它除以4的余数是1，除以5的余数是2，除以7的余数是3。请问这个数字是多少？
+3. 某国的货币包括1元、2元、5元、10元四种硬币，现在有一个人有151元，但只有20个硬币，请问这个人有多少张1元硬币、2元硬币、5元硬币和10元硬币各几张？
+4. 某年的万圣节是星期四，当时离圣诞节还有59天，也就是说圣诞节是星期几？
+5. 小美有12个企鹅，她要把它们分成三队，每队分别有2、3、7只企鹅，请问小美一共有多少种方案？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,24 +22,24 @@ title = "中国剩余定理"
 
 
 
-中國剩餘定理（Chinese Remainder Theorem）是一種數學定理，它提供了一種有效的方法，用於解決同餘方程組（congruence system）。同餘方程組是一種由多個同餘方程所構成的系統，而同餘方程則是說，兩個數之間的差值可以被某個整數整除。例如，x ≡ 1 (mod 3)，x ≡ 2 (mod 5)，就是一個同餘方程組。
+中国剩余定理（Chinese Remainder Theorem）是一种数学定理，它提供了一种有效的方法，用于解决同余方程组（congruence system）。同余方程组是一种由多个同余方程所构成的系统，而同余方程则是说，两个数之间的差值可以被某个整数整除。例如，x ≡ 1 (mod 3)，x ≡ 2 (mod 5)，就是一个同余方程组。
 
-中國剩餘定理的核心思想是，如果已知一些同餘方程的解，則可以通過這些解來推導出整個同餘方程組的解。具體而言，該定理表示，給定一個同餘方程組，假設方程間兩兩互質（gcd(a, b) = 1），且對於每一個方程，已知一個解，那麼可以求出該同餘方程組的唯一解。
+中国剩余定理的核心思想是，如果已知一些同余方程的解，则可以通过这些解来推导出整个同余方程组的解。具体而言，该定理表示，给定一个同余方程组，假设方程间两两互质（gcd(a, b) = 1），且对于每一个方程，已知一个解，那么可以求出该同余方程组的唯一解。
 
-我們用一個例子來說明中國剩餘定理。假設我們要解決一個同餘方程組：
+我们用一个例子来说明中国剩余定理。假设我们要解决一个同余方程组：
 
 x ≡ 2 (mod 3)
 x ≡ 3 (mod 5)
 x ≡ 2 (mod 7)
 
-通過中國剩餘定理，我們可以分別解決每個方程，然後通過合併這些子解得到最終解。先看第一個方程，可以列出一個整數k，使得x = 3k + 2。這樣的k可以是0、1、2… 。將這個表達式代入第二個方程，得到：3k + 2 ≡ 3 (mod 5)，這意味著k ≡ 4 (mod 5)。將k = 5m + 4代入第一個表達式和第三個表達式中，可以得到：
+通过中国剩余定理，我们可以分别解决每个方程，然后通过合并这些子解得到最终解。先看第一个方程，可以列出一个整数k，使得x = 3k + 2。这样的k可以是0、1、2… 。将这个表达式代入第二个方程，得到：3k + 2 ≡ 3 (mod 5)，这意味着k ≡ 4 (mod 5)。将k = 5m + 4代入第一个表达式和第三个表达式中，可以得到：
 
 x = 3k + 2 = 3(5m + 4) + 2 = 15m + 14 
 x = 2 (mod 7)
 
-因為x ≡ 15m + 14 ≡ 2 (mod 7)，我們可以進一步解出m = 2 (mod 7)。最後，用這兩個解來合併所有同餘方程，得到最終解為x = 97。
+因为x ≡ 15m + 14 ≡ 2 (mod 7)，我们可以进一步解出m = 2 (mod 7)。最后，用这两个解来合并所有同余方程，得到最终解为x = 97。
 
-總結來說，中國剩餘定理為解決同餘方程組提供了一個通用的方法。然而，該方法只對特定組合的方程組有效，一般而言，方程的求解通常需要配合其他方法使用。   
+总结来说，中国剩余定理为解决同余方程组提供了一个通用的方法。然而，该方法只对特定组合的方程组有效，一般而言，方程的求解通常需要配合其他方法使用。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -47,22 +48,22 @@ x = 2 (mod 7)
 
 
 
-1. Chinese Remainder Theorem: 對於一個正整數m，如果它是兩個正整數a和b（不一定互素）的最小公倍數，那麼可以通過以下方式解決下列同餘方程組：
+1. Chinese Remainder Theorem: 对于一个正整数m，如果它是两个正整数a和b（不一定互素）的最小公倍数，那么可以通过以下方式解决下列同余方程组：
 
  x ≡ a1 (mod m1)
  x ≡ a2 (mod m2)
  …
  x ≡ an (mod mn)
 
-2. Chinese Remainder Theorem的解是唯一的，且可以通過以下方式構造：
+2. Chinese Remainder Theorem的解是唯一的，且可以通过以下方式构造：
 
  x = a1M1y1 + a2M2y2 + … + anMnyn mod m
 
 其中Mi = m / mi，yi是Mi模mi的乘法逆元。
 
-3. 如果m1，m2，…，mn是互不相同的質數，那麼通過前兩個重點中提到的方法解決同餘方程組的計算很快，因為每個Mi都只有一個質因數。
+3. 如果m1，m2，…，mn是互不相同的质数，那么通过前两个重点中提到的方法解决同余方程组的计算很快，因为每个Mi都只有一个质因数。
 
-4. Chinese Remainder Theorem廣泛用於加密和數學上的問題解決，例如RSA加密算法。   
+4. Chinese Remainder Theorem广泛用于加密和数学上的问题解决，例如RSA加密算法。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -90,26 +91,4 @@ x = 2 (mod 7)
 5. 一個商人需要運送117件貨物到目的地。他有4輛車可用，分別能夠運載25、32、40和45件貨物。如果每輛車運輸的貨物數量之和都相同，求每輛車運輸的貨物數量？
 
 答案：每輛車運輸的貨物數量為30件。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Chinese Remainder Theorem的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to the Chinese Remainder Theorem" by Branko Grünbaum (https://people.math.harvard.edu/~ctm/home/text/others/grunbaum.pdf)
-- This article provides a thorough introduction to the Chinese Remainder Theorem and its applications in number theory and beyond. It includes historical background, proofs, examples, and exercises.
-
-2. "Chinese Remainder Theorem" by Wolfram MathWorld (https://mathworld.wolfram.com/ChineseRemainderTheorem.html)
-- This web page provides a concise explanation of the Chinese Remainder Theorem, including formulas and algorithms for finding solutions. It also links to related concepts and references.
-
-3. "A Visual Guide to the Chinese Remainder Theorem" by Ming Shao and Meilin Wu (https://arxiv.org/abs/2009.05208)
-- This preprint paper presents a visual and interactive approach to understanding the Chinese Remainder Theorem, using animations and diagrams to illustrate the concepts and properties. It also includes an implementation in Python.
-
-4. "Chinese Remainder Theorem and Its Applications" by Mihail N. Kolountzakis (https://people.math.sc.edu/Biebuyck/Math785Fall2015/07%20Chinese%20Remainder%20Theorem%20and%20Its%20Applications.pdf)
-- This lecture notes cover the Chinese Remainder Theorem in the context of modular arithmetic, cryptography, and data compression. It includes proofs and examples, as well as exercises and references.
-
-5. "The Chinese Remainder Theorem in Algebraic Geometry" by Hsian-Hua Tseng (https://arxiv.org/abs/1406.1679)
-- This research paper explores the Chinese Remainder Theorem in the context of algebraic geometry, a branch of mathematics that studies the geometry of polynomial equations. It shows how the theorem can be used to construct solutions and relate algebraic varieties. It is aimed at advanced readers.   
 

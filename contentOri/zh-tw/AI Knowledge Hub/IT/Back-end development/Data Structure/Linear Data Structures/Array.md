@@ -1,9 +1,10 @@
 +++
 title = "數組"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Array的問題
+給我5題Array的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "數組"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Array並舉例
+以中文說明Array並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -61,7 +62,7 @@ console.log(users); // [{name: "Amy", age: 25}, {name: "Bob", age: 30}, {name: "
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Array的重點
+以中文條列Array的重點
 {{< /ask_chatgpt >}}
 
 
@@ -99,7 +100,7 @@ console.log(users); // [{name: "Amy", age: 25}, {name: "Bob", age: 30}, {name: "
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Array的中等難度問題，並在後面列出答案
+以中文給我5題Array的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -204,31 +205,4 @@ def interval_intersection(intervals):
 intervals = [[1, 3], [2, 6], [5, 8], [7, 9]]
 print(interval_intersection(intervals))
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Array的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Arrays in Java" - Oracle: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html 
-
-This article from Oracle covers the basics of arrays in Java, including how to declare and initialize an array, how to access array elements, and how to use multidimensional arrays.
-
-2. "Arrays in JavaScript" - MDN Web Docs: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
-
-MDN Web Docs provides a comprehensive guide to arrays in JavaScript, including information on common array methods and how to iterate over arrays using loops.
-
-3. "C++ Arrays" - GeeksforGeeks: https://www.geeksforgeeks.org/arrays-in-c-cpp/ 
-
-This article from GeeksforGeeks provides an introduction to arrays in C++, including syntax and examples of one-dimensional and multidimensional arrays.
-
-4. "Python Arrays" - Programiz: https://www.programiz.com/python-programming/array 
-
-Programiz offers a detailed guide to using arrays in Python, including how to create and manipulate arrays using built-in functions and packages like NumPy.
-
-5. "Swift Arrays" - Hacking with Swift: https://www.hackingwithswift.com/sixty/6/1/arrays 
-
-This tutorial from Hacking with Swift covers arrays in the Swift programming language, including how to create arrays, add and remove elements, and sort arrays.   
 

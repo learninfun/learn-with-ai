@@ -1,5 +1,6 @@
 +++
 title = "荧幕阅读器"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -40,21 +41,14 @@ Screen reader指的是一款軟體，能夠把電腦螢幕上的文字及圖像�
 
 
 
-1. Screen readers are software applications that help visually impaired individuals access and navigate computer systems, mobile devices, and the internet.
-
-2. Screen readers read out loud the content displayed on the screen, including text, graphics, and images.
-
-3. These applications use a combination of synthesised speech and Braille displays to communicate with users.
-
-4. Screen readers provide support for users in various languages and offer a range of customisation options, such as voice and speed settings.
-
-5. They allow users to navigate websites and applications using a keyboard, such as the arrow keys and tab key, or through voice commands.
-
-6. Screen readers are compatible with a wide range of devices, including desktops, laptops, mobile phones, and tablets.
-
-7. They also provide support for various file formats, such as PDFs, Microsoft Word documents, and HTML files.
-
-8. Accessibility standards, such as the Web Content Accessibility Guidelines (WCAG), provide guidelines for developers to ensure that their websites and applications are compatible with screen readers and accessible to visually impaired individuals.   
+1. 螢幕閱讀器是一種輔助技術，專門設計給視力有障礙的人使用。
+2. 可以翻譯網頁和應用程式的內容，並將其轉換成聲音或文字輸出。
+3. 可以通過鍵盤快捷鍵、手勢和語音指令等方式進行操作。
+4. 可以讀取文本、提示、按鈕、圖片、視頻和音訊文件等內容。
+5. 通常會使用個人電腦、平板電腦或智能手機等裝置上運行。
+6. 常見的螢幕閱讀器包括NVDA、JAWS和VoiceOver等。
+7. 視障人士可以根據個人需要選擇不同的螢幕閱讀器以滿足其特定需求。
+8. 設計師和開發人員可以通過遵循可訪問性指南，使其網站和應用程序能夠與螢幕閱讀器相互兼容。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -82,21 +76,4 @@ Screen reader指的是一款軟體，能夠把電腦螢幕上的文字及圖像�
 5. 您如何更改屏幕閱讀器的語言和讀取速度？
 
 答案：要更改屏幕閱讀器的語言，您需要在該軟件中選擇新的語言並完成相關的設置。而要更改讀取速度，您可以使用屏幕閱讀器提供的調節工具控制閱讀速度。大多數屏幕閱讀器都提供此功能，可以在軟件的設置選項中找到。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Screen readers的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Top 5 Screen Readers for Visually Impaired Users." Forbes, https://www.forbes.com/sites/jenniferhicks/2017/05/01/the-top-5-screen-readers-for-visually-impaired-users/#2e88667270e7.
-
-2. "Screen readers explained: What they are and how they work." Computerworld, https://www.computerworld.com/article/3129597/screen-readers-explained-what-they-are-and-how-they-work.html.
-
-3. "15 Best Screen Readers for the Visually Impaired." Hongkiat, https://www.hongkiat.com/blog/screen-readers-for-visually-impaired/.
-
-4. "How to Use a Screen Reader." Disability.gov, https://www.disability.gov/how-to-use-a-screen-reader/.
-
-5. "What is a Screen Reader?" American Foundation for the Blind, https://www.afb.org/blindness-and-low-vision/using-technology/assistive-technology-products/screen-readers.   
 

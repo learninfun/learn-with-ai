@@ -1,5 +1,6 @@
 +++
 title = "分支限界法"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -66,11 +67,11 @@ LB = Sum(D i j ) + min(D i1 k + D k j1 , D i2 k + D k j2 , ... , D ik k + D k jm
 
 
 
-1. 分支限界法是一种优化问题的求解方法，可以用于求解许多困难的问题，如最小化或最大化目标函数的线性规划问题、TSP问题等。
-2. 分支限界法的基本思想是逐步构造一个搜索树，并使用启发函数将可行域切割成多个子域，以加快搜索速度。
-3. 在搜索过程中，需要保存每个还未被扩展的节点的状态以及当前的最优解，并根据启发函数选择合适的节点进行扩展。
-4. 分支限界法的剪枝策略是在搜索树的每个节点上进行，通常包括择优策略、可行性剪枝和界限剪枝等。
-5. 分支限界法的时间复杂度较高，但通常可以得到最优解或近似最优解。为了减少时间消耗，可以使用一些技巧，如启发式搜索、并行搜索等。   
+1. 分支限界法是一種優化問題的求解方法，可以用於求解許多困難的問題，如最小化或最大化目標函數的線性規劃問題、TSP問題等。
+2. 分支限界法的基本思想是逐步構造一個搜索樹，並使用啟發函數將可行域切割成多個子域，以加快搜索速度。
+3. 在搜索過程中，需要保存每個還未被擴展的節點的狀態以及當前的最優解，並根據啟發函數選擇合適的節點進行擴展。
+4. 分支限界法的剪枝策略是在搜索樹的每個節點上進行，通常包括擇優策略、可行性剪枝和界限剪枝等。
+5. 分支限界法的時間複雜度較高，但通常可以得到最優解或近似最優解。為了減少時間消耗，可以使用一些技巧，如啟髮式搜索、並行搜索等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -98,36 +99,4 @@ LB = Sum(D i j ) + min(D i1 k + D k j1 , D i2 k + D k j2 , ... , D ik k + D k jm
 5. 在$0-1$背包中，找出總重量不超過$W$，但總價值最大的物品子集。 
 
 答案: Branch and Bound解法   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Branch and Bound的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Branch and bound algorithm - GeeksforGeeks 
-https://www.geeksforgeeks.org/branch-and-bound-algorithm/
-
-这篇文章介绍了branch and bound algorithm (B&B)的概要和步骤，同时附有python程式码示范。文章中也提到一些B&B解决问题的例子，例如Traveling Salesman Problem (TSP)和Knapsack Problem等等。
-
-2. Branch and Bound Algorithm - Brilliant.org 
-https://brilliant.org/wiki/branch-and-bound/
-
-这篇文章介绍了B&B的原理和实作方式。这篇的重点在于说明B&B算法如何运作以及如何应用它来求解最优解。文章中列举了一些范例，包括TSP和Maximum Clique Problem等等。
-
-3. The Branch and Bound Algorithm - Princeton University Press 
-https://press.princeton.edu/books/hardcover/9780691122218/the-branch-and-bound-algorithm
-
-这个网站介绍了一本书，书名为The Branch and Bound Algorithm。该书是由Prof. Barnard Korte和Prof. Jens Vygen撰写，并且主要讲授了B&B算法的原理和在解决各种组合优化问题上的应用。
-
-4. Branch and Bound - Tutorialspoint 
-https://www.tutorialspoint.com/branch_and_bound_algorithm/index.htm
-
-这篇文章介绍了B&B算法的结构和基本概念，以及如何透过这种算法求解最优解。文章中还提到如何使用B&B算法解决一些组合优化问题，例如Traveling Salesman Problem和Knapsack Problem等问题。
-
-5. Branch and Bound Algorithm - Georgia Tech 
-https://www.isye.gatech.edu/sites/default/files/documents/ipy2/Lecture6.pdf
-
-这个网站是由Georgia Tech的师生撰写，介绍了B&B的运作方式，并且同时列举了一些关于BP问题的范例，以及如何使用B&B算法求解。简而言之，这个资源将B&B算法的重点视为如何在数学上解决组合优化问题。   
 

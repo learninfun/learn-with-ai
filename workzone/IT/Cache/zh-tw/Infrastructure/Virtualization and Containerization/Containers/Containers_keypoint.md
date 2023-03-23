@@ -1,15 +1,10 @@
 
 
-1. Containers are a lightweight, portable way to package applications and their dependencies.
-
-2. They provide an isolated environment for the application to run in, without interfering with other applications or the underlying operating system.
-
-3. Containers can be easily moved between different environments, such as development, testing, and production, making them a popular choice for modern application deployment.
-
-4. Containers use virtualization technology to run multiple isolated instances of an application on a single host operating system, without the need for multiple virtual machines.
-
-5. Containers rely on images, which are read-only snapshots of an application and its dependencies, to provide consistent and reproducible deployments.
-
-6. Containers can be managed and orchestrated using container orchestration tools like Kubernetes, which automate deployment, scaling, and management of containerized applications.
-
-7. Containers are often used as part of a microservices architecture, where applications are broken down into smaller, more manageable components that can be independently deployed and scaled.
+1. 容器是一种轻量级的虚拟化技术，可以让应用程序在独立的环境中运行，而不会影响其他应用程序或操作系统。
+2. 容器使用命名空间和控制组来隔离应用程序，确保它们只能访问自己的文件系统、网络和进程。
+3. 与传统的虚拟机相比，容器更轻便、便于管理和快速部署，因为它们共享操作系统内核和库。
+4. 容器技术可以通过多个工具实现，如Docker、Kubernetes和Mesos等。
+5. Docker镜像是一个只读的模板，可以用来创建容器。镜像可以通过Dockerfile和Docker命令来构建和管理。
+6. Kubernetes是一个开源的容器编排平台，可以自动化应用程序的部署、管理和扩展。它支持容器编排、自动扩展、服务发现和负载均衡等功能。
+7. Mesos是一个分布式系统内核，可以管理多个容器集群，支持容器编排、资源调度和分布式存储等功能。
+8. 容器技术在云计算、DevOps和微服务中得到广泛应用，可以提高应用程序的可靠性、可扩展性和可移植性。

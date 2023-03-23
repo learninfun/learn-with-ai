@@ -1,16 +1,16 @@
 
 
-1. What is CSRF and how does it work?
-Answer: Cross-Site Request Forgery (CSRF) is a type of web vulnerability that allows an attacker to deceive a user into unknowingly performing an action on a web application on behalf of the attacker. CSRF works by exploiting the trust that a web application places in a user's browser cookies.
+1. 什麼是 CSRF 攻擊？它可以通過何種方式達成？
+答案：CSRF 攻擊是一種利用已認證用戶的身份來偽造請求，從而實現惡意攻擊的技術。攻擊者通常通過在受害者訪問特定網站時，將惡意代碼注入到網站中，當受害者激活該代碼時，攻擊者即可實現 CSRF 攻擊。
 
-2. What are some common types of CSRF attacks?
-Answer: Some common types of CSRF attacks include session riding, clickjacking, and CSRF via image tags.
+2. CSRF 的攻擊方式有哪些？請分別說明。
+答案：一般來說，攻擊者可以通過在受害者訪問特定網站時，注入惡意代碼來實現 CSRF 攻擊。最常見的攻擊方式包括：使用 Image 標籤、Frame/IFRAME 標籤、Redirect 重定向、POST 表單提交、AJAX/XHR 請求等。
 
-3. How can web application developers prevent CSRF attacks?
-Answer: Web application developers can prevent CSRF attacks by implementing measures such as anti-CSRF tokens, session control, and secure cookie management.
+3. 如何防止 CSRF 漏洞？列出至少三種方法。
+答案：防止 CSRF 漏洞的方法很多，其中最常用的包括：使用加密 Token，對於所有需要驗證的請求都進行 Token 驗證；檢查 Referer 頭部，如果該頭部不合法，則拒絕該請求；嚴格設置 Cookie 策略，包括 SameSite 屬性等。
 
-4. How can website visitors protect themselves from CSRF attacks?
-Answer: Website visitors can protect themselves from CSRF attacks by disabling third-party cookies, not logging into multiple web applications at once, and using browser extensions that block CSRF attacks.
+4. CSRF 攻擊和 XSS 攻擊有何區別？
+答案：CSRF 攻擊和 XSS 攻擊都屬於 Web 應用程序安全漏洞，但二者的攻擊方式和目的有所不同。CSRF 攻擊利用受害者已經登錄成功的訪問權限來實現攻擊，目的是在不獲得受害者同意的情況下執行某些惡意操作；而 XSS 攻擊則是在未經授權的情況下向網頁中注入惡意腳本，旨在從受害者那裡竊取信息或讓網站遭受破壞。
 
-5. Which web applications are most vulnerable to CSRF attacks?
-Answer: Any web application that relies on cookies or other browser-based authentication mechanisms is vulnerable to CSRF attacks. However, web applications that expose sensitive information or support financial transactions are particularly attractive targets for attackers.
+5. 如何檢測 CSRF 漏洞？列出至少兩種方法。
+答案：檢測 CSRF 漏洞的方法有很多，包括：靜態代碼分析，手動測試等。其中最常用的方法包括使用模擬攻擊工具，模擬攻擊的行為來檢測應用程序中的潛在漏洞；另外一種方法是跟蹤和檢查程序中的 HTTP 請求和響應，定位可能存在的 CSRF 漏洞。

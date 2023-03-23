@@ -1,5 +1,6 @@
 +++
 title = "随机算法"
+weight = "10"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -11,7 +12,7 @@ title = "随机算法"
 1. 對於一個有向圖，如何用randomized算法找到一條最短路徑？
 2. 在一個有$n$個元素的無序列表中，如何使用randomized算法在$O(\log n)$時間內找到一個元素的排名？
 3. 如何使用randomized算法找到一個未知數的二元一次方程（$ax+by=c$）的解?
-4. 變量$X$是一個介於$[0,1]$之間的隨機數，如何使用randomized算法生成一個均勻分布的自然數$k$，使$X$能夠均勻地被分為$k$個區間？
+4. 變量$X$是一個介於$[0,1]$之間的隨機數，如何使用randomized算法生成一個均勻分佈的自然數$k$，使$X$能夠均勻地被分為$k$個區間？
 5. 在一個完全二叉樹中，如何使用randomized算法找到一個節點的深度？   
 
 ## 说明知识
@@ -78,38 +79,4 @@ title = "随机算法"
 5. 定义一个概率分布，用于产生负二项分布的随机变量。
 
 答案：产生负二项分布的随机变量的概率分布是：$P(X=k)= {{k+r-1} \choose {k}} p^k (1-p)^r$，其中，k是需要得到的特定数量的成功，p是每次试验成功的概率，r是必须进行的试验的总次数。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Randomized Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-以下是5篇介绍随机演算法的网路资料：
-
-1. "Randomized Algorithms" - MIT OpenCourseWare
-https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/lecture-notes/lec16.pdf
-
-此网页介绍了随机演算法的基本概念，包括Las Vegas算法、Monte Carlo算法、Randomized Quicksort等。此外，本网页还提供了数个随机演算法的实际应用范例。
-
-2. "Introduction to Randomized Algorithms" - GeeksforGeeeks
-https://www.geeksforgeeks.org/introduction-to-randomized-algorithms/
-
-此网页是GeeksforGeeks网站上一篇关于随机演算法的介绍文，内容涵盖了随机演算法的基本定义、分类、应用和优点。此外，本网页还提供了数个具体的随机演算法的实例。
-
-3. "Randomized Algorithms" - Stanford University
-https://web.stanford.edu/class/cs161/lectures/lecture11.pdf
-
-此网页是Stanford大学计算机科学系的一堂课程讲义，详细介绍了随机演算法的概念、分析和应用。本网页内容详尽，且提供了多个应用实例，适合想要深入学习随机演算法的读者参考。
-
-4. "Randomized Algorithms" - Brilliant
-https://brilliant.org/wiki/randomized-algorithms/
-
-此网页是Brilliant网站上一篇关于随机演算法的详细介绍文章，内容包括Las Vegas算法、Monte Carlo算法、Randomized Quicksort、Random Sampling等内容。本网页内容精简易懂，适合初学者学习。
-
-5. "Randomized Algorithms" - Topcoder
-https://www.topcoder.com/thrive/articles/Randomized-Algorithms
-
-此网页是Topcoder网站上一篇有关随机演算法的文章，内容除了介绍随机演算法的基本概念外，还提供了一些随机算法的编程实现案例（C++和Python），适合读者通过编写代码学习随机演算法。   
 

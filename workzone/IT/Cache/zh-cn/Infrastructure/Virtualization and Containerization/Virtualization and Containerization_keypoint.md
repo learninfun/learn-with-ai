@@ -1,17 +1,15 @@
 
 
-Virtualization:
-- Creates a virtual version of a software or hardware infrastructure
-- Allows multiple operating systems and applications to run on the same physical machine
-- Provides flexibility and scalability, as resources can be easily added or removed from virtual machines
-- Helps to reduce hardware and maintenance costs, as multiple virtual machines can run on the same physical hardware
-- Can improve disaster recovery and business continuity by allowing quick backup and restoration of virtual machines.
-- Requires hypervisor software to manage and allocate resources between virtual machines.
+Virtualization and Containerization的重点如下：
 
-Containerization:
-- Packages applications and their dependencies into containers for easy deployment and management
-- Enables a consistent environment for applications to run in, regardless of the host or underlying infrastructure
-- Offers fast and efficient application delivery, as containers can be quickly spun up and down, without the need for a full operating system or virtual machine
-- Reduces infrastructure and maintenance costs, as containers can run on a single host machine, and many containers can run on top of the same operating system kernel
-- Provides improved portability and flexibility, as containers can be moved between development environments, testing environments, and production environments.
-- Requires containerization software to manage and orchestrate containers.
+Virtualization：
+1. 虚拟化是一种将物理资源抽像为虚拟资源的技术。
+2. 可以通过虚拟化在同一台物理机上运行多个不同的操作系统、应用程序等，以达到资源共享的目的。
+3. 传统的虚拟化技术需要额外的虚拟机监控程序和操作系统，资源利用效率不高。
+4. 硬件辅助虚拟化技术可减少虚拟化软件的开销，提高虚拟机性能。
+
+Containerization：
+1. 容器化是一种应用程序虚拟化技术，可以将应用程序及其所有依赖打包在一起，以在不同的环境中快速部署和运行应用。
+2. 同一台物理机上可以运行多个容器，每个容器相互隔离、互不影响，提高资源利用效率。
+3. 容器可以快速创建和销毁，适合动态伸缩和高可用性需求。
+4. Docker是容器化技术的代表，具有简单易用和开放性等优点。

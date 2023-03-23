@@ -1,5 +1,6 @@
 +++
 title = "HTML"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -139,26 +140,4 @@ HTML中的标记(Tag)以尖括号括起来，标记一般是成对出现的，�
    <!--网页内容-->
 </body>
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇HTML的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. W3Schools HTML Tutorial: 
-https://www.w3schools.com/html/
-
-2. Mozilla HTML Guide: 
-https://developer.mozilla.org/en-US/docs/Web/HTML
-
-3. Beginners Guide to HTML: 
-https://www.codecademy.com/learn/learn-html
-
-4. HTML Goodies: 
-https://www.htmlgoodies.com/
-
-5. HTML5 Doctor: 
-http://html5doctor.com/   
 

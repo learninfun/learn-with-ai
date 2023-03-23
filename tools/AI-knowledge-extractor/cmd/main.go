@@ -209,11 +209,11 @@ func initQuestion() {
 		q4.template = "Give me 5 medium-difficulty questions with answers about %s"
 		questionInfoSlice = append(questionInfoSlice, q4)
 
-		var q5 QuestionInfo
-		q5.desc = "Related webpage"
-		q5.cacheKey = "ref"
-		q5.template = "List the relevant introduction webpages about %s"
-		questionInfoSlice = append(questionInfoSlice, q5)
+		//var q5 QuestionInfo
+		//q5.desc = "Related webpage"
+		//q5.cacheKey = "ref"
+		//q5.template = "List the relevant introduction webpages about %s"
+		//questionInfoSlice = append(questionInfoSlice, q5)
 	} else if lang == "zh-cn" {
 		var q1 QuestionInfo
 		q1.desc = "习题预习"
@@ -239,11 +239,11 @@ func initQuestion() {
 		q4.template = "给我5题%s的中等难度问题，并在后面列出答案"
 		questionInfoSlice = append(questionInfoSlice, q4)
 
-		var q5 QuestionInfo
-		q5.desc = "网络数据"
-		q5.cacheKey = "ref"
-		q5.template = "给我5篇%s的网络数据"
-		questionInfoSlice = append(questionInfoSlice, q5)
+		//var q5 QuestionInfo
+		//q5.desc = "网络数据"
+		//q5.cacheKey = "ref"
+		//q5.template = "给我5篇%s的网络数据"
+		//questionInfoSlice = append(questionInfoSlice, q5)
 	} else if lang == "zh-tw" {
 		var q1 QuestionInfo
 		q1.desc = "習題預習"
@@ -269,11 +269,11 @@ func initQuestion() {
 		q4.template = "以中文給我5題%s的中等難度問題，並在後面列出答案"
 		questionInfoSlice = append(questionInfoSlice, q4)
 
-		var q5 QuestionInfo
-		q5.desc = "網路資料"
-		q5.cacheKey = "ref"
-		q5.template = "給我5篇%s的中文網路資料"
-		questionInfoSlice = append(questionInfoSlice, q5)
+		//var q5 QuestionInfo
+		//q5.desc = "網路資料"
+		//q5.cacheKey = "ref"
+		//q5.template = "給我5篇%s的中文網路資料"
+		//questionInfoSlice = append(questionInfoSlice, q5)
 	}
 }
 
@@ -296,7 +296,7 @@ func initRole() {
 	if lang == "english" {
 		askChatGpt("Assuming you are an IT expert, answer my questions")
 	} else if lang == "zh-tw" {
-		askChatGpt("假設你是投資專家，請以中文回答我相關問題")
+		askChatGpt("假設你是IT專家，請以中文回答我相關問題")
 	}
 }
 
@@ -335,8 +335,9 @@ func extractKnowledge(keyWord, thisResultFolder, thisCacheFolder string, idx int
 			"+++\n", keyWordTranslated, idx+1))
 	} else {
 		f.WriteString(fmt.Sprintf("+++\n"+
+			"title = \"%s\"\n"+
 			"weight = \"%d\"\n"+
-			"+++\n", idx+1))
+			"+++\n", keyWord, idx+1))
 	}
 
 	for _, questionInfo := range questionInfoSlice {

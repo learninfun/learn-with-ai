@@ -1,5 +1,6 @@
 +++
 title = "空间复杂度分析"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,11 @@ title = "空间复杂度分析"
 
 
 
-1. What is the space complexity of a recursive algorithm that calls itself n times?
-
-2. How many bits are required to store an array of n integers?
-
-3. What is the space complexity of a queue data structure that can hold up to n elements?
-
-4. How much memory is required to store a binary search tree with n nodes?
-
-5. What is the space complexity of an iterative algorithm that uses a stack with space for n elements?   
+1. 什么是空间复杂度分析？
+2. 如何计算算法的空间复杂度？
+3. 空间复杂度分析为什么很重要？
+4. 什么是常数空间复杂度？
+5. 如何减少算法的空间复杂度？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -25,13 +22,13 @@ title = "空间复杂度分析"
 
 
 
-Space Complexity Analysis是指對於一個算法，在執行過程中所需要使用的記憶體空間的分析。這是一個重要的術語，因為計算機中的記憶體容量是有限的，如果算法的記憶體空間過多，就可能會導致計算機崩潰或程序出錯。
+Space Complexity Analysis是指对于一个算法，在执行过程中所需要使用的记忆体空间的分析。这是一个重要的术语，因为计算机中的记忆体容量是有限的，如果算法的记忆体空间过多，就可能会导致计算机崩溃或程序出错。
 
-舉例來說，假設我們要寫一個算法來對一個包含n個元素的陣列進行選擇排序。這個算法的時間複雜度是O(n^2)，但在空間複雜度上，我們需要使用一個暫存的變量temp來交換元素的位置，以及一個指針i來執行循環。所以，這個算法的空間複雜度是O(1)，即不會隨著問題規模n的增加而增加。
+举例来说，假设我们要写一个算法来对一个包含n个元素的阵列进行选择排序。这个算法的时间复杂度是O(n^2)，但在空间复杂度上，我们需要使用一个暂存的变量temp来交换元素的位置，以及一个指针i来执行循环。所以，这个算法的空间复杂度是O(1)，即不会随着问题规模n的增加而增加。
 
-舉另一個例子，假設我們要寫一個算法來計算一個n x n的矩陣的轉置矩陣。這個算法需要先創建一個新的n x n的矩陣，再進行迭代計算。因此，這個算法的空間複雜度是O(n^2)，即當問題規模n增加時，空間複雜度會隨之增加。
+举另一个例子，假设我们要写一个算法来计算一个n x n的矩阵的转置矩阵。这个算法需要先创建一个新的n x n的矩阵，再进行迭代计算。因此，这个算法的空间复杂度是O(n^2)，即当问题规模n增加时，空间复杂度会随之增加。
 
-總之，空間複雜度是分析一個算法的重要方面，因為它可以幫助我們確定該算法在實際應用時所需的系統資源，以及在大規模數據上的運算效能。   
+总之，空间复杂度是分析一个算法的重要方面，因为它可以帮助我们确定该算法在实际应用时所需的系统资源，以及在大规模数据上的运算效能。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -61,50 +58,18 @@ Space Complexity Analysis是指對於一個算法，在執行過程中所需要�
 
 
 
-1. 給定一個大小為n的整數數組，複製它的內容並占用O(n)的額外空間。在此情況下，輸入數組的空間複雜度是多少？
+1. 给定一个大小为n的整数数组，复制它的内容并占用O(n)的额外空间。在此情况下，输入数组的空间复杂度是多少？
 答: O(n)
 
-2. 評估一個n x n的方陣的空間複雜度，如果每個元素是一個布爾值。
+2. 评估一个n x n的方阵的空间复杂度，如果每个元素是一个布尔值。
 答: O(n^2)
 
-3. 找出一個排序好的數列中的唯一元素並返回它。可以使用O(1)的額外空間，但不能更改原始數組。
+3. 找出一个排序好的数列中的唯一元素并返回它。可以使用O(1)的额外空间，但不能更改原始数组。
 答: O(1)
 
-4. 有一個m x n的矩陣，它的每個元素只能是0或1。找到最大全為1的正方形的邊長。請評估此算法的空間複雜度。
+4. 有一个m x n的矩阵，它的每个元素只能是0或1。找到最大全为1的正方形的边长。请评估此算法的空间复杂度。
 答: O(n^2)
 
-5. 給定一個大小為n的整數數組，求解數組中唯一的重複元素。可以使用O(1)的額外空間，但不能更改原始數組。
+5. 给定一个大小为n的整数数组，求解数组中唯一的重复元素。可以使用O(1)的额外空间，但不能更改原始数组。
 答: O(1)   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Space Complexity Analysis的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Understanding Space Complexity in Algorithms" by GeeksforGeeks
-Link: https://www.geeksforgeeks.org/understanding-space-complexity-algorithms/
-
-This article from GeeksforGeeks provides an overview of space complexity in algorithms, including a definition, examples of space complexity analysis, and tips for reducing the space complexity of algorithms.
-
-2. "Space Complexity in Computer Science" by Techopedia
-Link: https://www.techopedia.com/definition/17438/space-complexity-in-computer-science
-
-This article from Techopedia explains space complexity in computer science, providing examples and discussing the relationship between space and time complexity. It also explains how to calculate space complexity and optimize algorithms for lower space usage.
-
-3. "Introduction to Space Complexity Analysis" by HackerEarth
-Link: https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/#h-introduction-to-space-complexity-analysis
-
-This tutorial from HackerEarth introduces space complexity analysis in the context of quicksort, providing an explanation of space complexity, examples of space complexity analysis, and a discussion of trade-offs between time and space complexity.
-
-4. "Space Complexity of Algorithms" by DataCamp
-Link: https://www.datacamp.com/community/tutorials/space-complexity-algorithms
-
-This tutorial from DataCamp provides an overview of space complexity in algorithms, including a definition, examples, and tips for reducing space complexity. It also provides a brief discussion of the difference between space complexity and storage requirements.
-
-5. "Space Complexity" by Brilliant
-Link: https://brilliant.org/wiki/space-complexity/
-
-This article from Brilliant discusses space complexity in the context of computational complexity theory. It provides an explanation of space complexity, examples of how to calculate it, and a discussion of the relationship between space complexity and time complexity.   
 

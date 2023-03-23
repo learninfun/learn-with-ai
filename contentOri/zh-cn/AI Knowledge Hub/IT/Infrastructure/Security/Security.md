@@ -1,5 +1,6 @@
 +++
 title = "安全性"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -90,31 +91,4 @@ title = "安全性"
 4. XSS攻擊是一種利用Web應用程序中的漏洞向用戶注入恶意腳本的攻擊手段。例如，攻擊者通過在一個帖子中插入恶意腳本，當其他用户訪問該帖子時，該腳本會在瀏覽器中執行，盜取用戶的cookie、密碼等敏感資料。為了防範XSS攻擊，應用程序需要對用戶輸入的內容進行有效的過濾和轉義處理。
 
 5. 漏洞掃描是一種對系統、應用、服務等進行安全測試的手段，其目的是尋找系統中存在的漏洞並提供修補建議。漏洞掃描的流程一般包括：信息收集、漏洞掃描、漏洞評估和報告生成。漏洞掃描工具通過對目標系統進行主動或被動掃描，將發現的漏洞進行評估，最終生成詳細的漏洞報告，提供相應的修復建議。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Security的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. “What is Cyber Security?” by NortonLifeLock.
-
-This informative article provides a detailed description of what cybersecurity means and how it functions in our daily lives. It includes tips for protecting sensitive data, avoiding cyber-attacks, and staying safe online.
-
-2. “Tips for Staying Safe Online,” by the Federal Trade Commission (FTC).
-
-This article provides practical tips for preventing identity theft, avoiding malware and phishing attacks, and protecting yourself from online predators. It also includes resources for reporting suspicious activity and getting help in cases of cyber harassment or abuse.
-
-3. “Security Best Practices for Remote Workers,” by the National Institute of Standards and Technology (NIST).
-
-This guide provides a comprehensive overview of best practices for securing remote work environments. It includes tips for securing devices and networks, implementing strong authentication protocols, and ensuring physical security of remote workspaces.
-
-4. “The Top Cybersecurity Threats In 2021,” by Forbes.
-
-This article highlights the most significant cyber threats to watch out for in 2021, including ransomware attacks, phishing scams, and supply chain vulnerabilities. It also offers suggestions for mitigating these threats and protecting critical systems and data.
-
-5. “A Beginner’s Guide to Cyber Threat Intelligence,” by Security Intelligence.
-
-This article describes the basics of threat intelligence and how it can be used to protect against cyber threats. It includes definitions of key terms, an overview of the intelligence cycle, and tips for acquiring and analyzing threat data.   
 

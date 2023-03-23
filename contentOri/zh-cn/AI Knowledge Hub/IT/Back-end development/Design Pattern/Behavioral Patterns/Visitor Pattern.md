@@ -1,5 +1,6 @@
 +++
 title = "访问者模式"
+weight = "11"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -40,11 +41,11 @@ Visitor Pattern是一種設計模式，用於在不修改現有物件結構的�
 
 
 
-1. 分离变化与稳定：Visitor模式能有效地分离一个复杂的对象结构中的树形结构和算法。在不改变现有对象结构的情况下，可以增加对象结构上的新的操作和处理方式。
-2. 双重分发：Visitor模式通过双重分发实现了动态分派的目的。即在运行期间，能够根据具体的访问者对象和被访问者对象的型别，动态分派到具体的处理方法中，实现不同的行为。
-3. 适用于对象结构稳定但算法变化频繁的场景：Visitor模式适用于对象结构稳定而算法变化频繁的场景。因为在变化的场景中，每次增加新的操作或处理方式都需要修改对象结构，增加维护成本，而使用Visitor模式则可以在不修改对象结构的情况下增加新的处理方式。
-4. 开放封闭原则：Visitor模式符合开放封闭原则。即对象结构中的类型可以随意增加，而不影响Visitor的访问操作，同时对象结构中的类型也可以自由扩展Visitor的访问操作，从而实现对象结构和算法之间的解耦。
-5. 适用于需要遍历对象结构的场景：Visitor模式适用于需要遍历对象结构并对其中的元素进行操作的场景。因为Visitor模式可以将对象结构的遍历和算法的操作分离，从而使得算法的变化不会影响对象结构的遍历方式和遍历次序。   
+1. 分离变化与稳定：Visitor模式能有效地分离一个复杂的对象结构中的树形结构和算法。在不改变现有对象结构的情况下，可以增加对像结构上的新的操作和处理方式。
+2. 双重分发：Visitor模式通过双重分发实现了动态分派的目的。即在运行期间，能够根据具体的访问者对像和被访问者对象的型别，动态分派到具体的处理方法中，实现不同的行为。
+3. 适用于对像结构稳定但算法变化频繁的场景：Visitor模式适用于对像结构稳定而算法变化频繁的场景。因为在变化的场景中，每次增加新的操作或处理方式都需要修改对像结构，增加维护成本，而使用Visitor模式则可以在不修改对像结构的情况下增加新的处理方式。
+4. 开放封闭原则：Visitor模式符合开放封闭原则。即对像结构中的类型可以随意增加，而不影响Visitor的访问操作，同时对像结构中的类型也可以自由扩展Visitor的访问操作，从而实现对像结构和算法之间的解耦。
+5. 适用于需要遍历对像结构的场景：Visitor模式适用于需要遍历对像结构并对其中的元素进行操作的场景。因为Visitor模式可以将对像结构的遍历和算法的操作分离，从而使得算法的变化不会影响对像结构的遍历方式和遍历次序。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -67,36 +68,4 @@ Visitor Pattern是一種設計模式，用於在不修改現有物件結構的�
 
 5. 实现一个简单的社交媒体系统，使用Visitor Pattern来实现不同类型的用户状态的访问和处理，可以对用户状态进行评论、分享、收藏等操作。
 答案：这道问题需要使用Visitor Pattern来实现不同类型用户状态之间的访问和处理，包括评论、分享、收藏等操作。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Visitor Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Design Patterns - Visitor Pattern:
-https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm
-
-This tutorial on Tutorialspoint provides a detailed explanation of the Visitor Pattern in Java, including an overview of the pattern, its participants, and its implementation.
-
-2. Visitor Pattern: Real Life Example:
-https://www.geeksforgeeks.org/visitor-pattern-real-life-example/
-
-GeeksForGeeks provides a real-life example of the Visitor Pattern using a story of a robot and its parts. The article explains how the Visitor Pattern can be used to separate the functionality of the robot and its parts.
-
-3. Visitor Pattern - Behavioral Pattern:
-https://www.javatpoint.com/visitor-pattern
-
-This article on Javatpoint explains the Visitor Pattern in detail, including its need, structure, and implementation. It also includes a sample program to demonstrate the pattern in action.
-
-4. The Visitor Design Pattern Explained:
-https://sourcemaking.com/design_patterns/visitor
-
-This article on Sourcemaking provides a clear explanation of the Visitor Pattern, its structure, and its application. The article also includes a sample program to illustrate the pattern in action.
-
-5. Visitor Design Pattern in Java with Examples:
-https://www.baeldung.com/java-visitor-pattern
-
-This article on Baeldung provides a detailed explanation of the Visitor Pattern in Java, including its implementation strategy and examples of how it can be used in real-world scenarios.   
 

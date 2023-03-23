@@ -1,5 +1,6 @@
 +++
 title = "模型-视图-资料系结 （MVVM）"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "模型-视图-资料系结 （MVVM）"
 
 
 
-1. MVVM中，Model、View和ViewModel各自的職責是什麼？ 
-2. 為什麼MVVM是一種較為理想的軟體架構？ 
-3. MVVM中，哪個組件最易於單元測試？為什麼？ 
-4. 設計MVVM架構時，需要注意什麼問題？ 
-5. 在MVVM中，如何實現對View的雙向數據綁定？   
+1. MVVM中，Model、View和ViewModel各自的职责是什么？ 
+2. 为什么MVVM是一种较为理想的软体架构？ 
+3. MVVM中，哪个组件最易于单元测试？为什么？ 
+4. 设计MVVM架构时，需要注意什么问题？ 
+5. 在MVVM中，如何实现对View的双向数据绑定？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,17 +22,17 @@ title = "模型-视图-资料系结 （MVVM）"
 
 
 
-Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程序中的使用者介面。它將應用程序分為三部分：
+Model-View-ViewModel (MVVM)是一种软体架构模式，用于创建应用程序中的使用者介面。它将应用程序分为三部分：
 
-1. 模型(model)：它是應用程序的核心組件，用於處理數據邏輯和數據庫操作。
+1. 模型(model)：它是应用程序的核心组件，用于处理数据逻辑和数据库操作。
 
-2. 視圖(view)：它是用戶界面的可視化部分，通常由最終用戶與其直接交互。
+2. 视图(view)：它是用户界面的可视化部分，通常由最终用户与其直接交互。
 
-3. 視圖模型(view model)：這是一個中介組件，用於連接模型和視圖。它從模型將數據讀取到視圖，並從視圖將數據傳遞回模型。它還可以處理一些業務邏輯，以便模型和視圖可以保持簡單和獨立。
+3. 视图模型(view model)：这是一个中介组件，用于连接模型和视图。它从模型将数据读取到视图，并从视图将数据传递回模型。它还可以处理一些业务逻辑，以便模型和视图可以保持简单和独立。
 
-例如，假設我們正在開發一個電子商務應用程序，該應用程序顯示產品列表和詳細信息。在這種情況下，模型將包括獲取產品數據和庫存狀態的代碼，視圖將顯示實際的產品信息和當前的庫存狀態，而視圖模型將協調這兩個元素之間的所有操作。
+例如，假设我们正在开发一个电子商务应用程序，该应用程序显示产品列表和详细信息。在这种情况下，模型将包括获取产品数据和库存状态的代码，视图将显示实际的产品信息和当前的库存状态，而视图模型将协调这两个元素之间的所有操作。
 
-例如，當用戶要求查看產品信息時，視圖模型將從模型中讀取數據，然後將其傳遞給視圖進行顯示。當用戶決定要購買產品時，視圖模型將通過模型將數據保存到庫存系統中。這樣，整個系統可以更好地管理庫存和供應鏈，同時還保持易於擴展和維護的模塊化結構。   
+例如，当用户要求查看产品信息时，视图模型将从模型中读取数据，然后将其传递给视图进行显示。当用户决定要购买产品时，视图模型将通过模型将数据保存到库存系统中。这样，整个系统可以更好地管理库存和供应链，同时还保持易于扩展和维护的模块化结构。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -67,7 +68,7 @@ Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程�
 答：ViewModel用于处理资料与业务逻辑，以及为View层提供必要的资料和指示。它们主要负责获取和处理由Model提供的资料，通过资料系结方式将资料传递至View层。
 
 2. 什么是Command Pattern？在MVVM中，它是如何应用的？
-答：Command Pattern是一种设计模式，它定义了一个用于执行操作的对象，使得操作的请求者（或者说是发起者）与操作的执行者（或者说是接收者）解耦。在MVVM中，这种模式常常用于实现Command对象，这些对象约定了一个名为Execute的方法，该方法负责从ViewModel中调用方法或者触发事件以完成具体操作。
+答：Command Pattern是一种设计模式，它定义了一个用于执行操作的对象，使得操作的请求者（或者说是发起者）与操作的执行者（或者说是接收者）解耦。在MVVM中，这种模式常常用于实现Command对象，这些对像约定了一个名为Execute的方法，该方法负责从ViewModel中调用方法或者触发事件以完成具体操作。
 
 3. 在MVVM中，如何实现资料系结？它有何好处？
 答：MVVM通过资料系结技术实现View层和ViewModel层之间的通讯。实现方式有多种，包括手动系结、自动系结和视图模型系结等。这种方式的好处是可以让ViewModel改变资料时，View层可以自动同步更新显示内容，从而减少对View层的直接干预，提高了程式码的可维护性。
@@ -77,31 +78,4 @@ Model-View-ViewModel (MVVM)是一種軟體架構模式，用於創建應用程�
 
 5. 在MVVM中，如何实现跨平台开发？有哪些工具和框架可以使用？
 答：MVVM框架和Xamarin是常见的跨平台开发工具。Xamarin是一个跨平台的应用开发平台，可以使开发人员使用C#和.NET Framework等熟悉的技术开发IOS、Android和Windows等各种平台的应用程序。常见的MVVM框架有Prism、MvvmCross和FreshMVVM等，可以用来简化MVVM的开发过程。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Model-View-ViewModel (MVVM)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. MVVM Design Pattern: A Guide for Beginners (https://www.toptal.com/windows/mvvm-windows-8-1)
-
-This article provides a beginner's guide to the Model-View-ViewModel design pattern. It covers the basics of how the pattern works and how it can be used in Windows 8.1 applications. The article also provides examples of how to implement the pattern in a sample application.
-
-2. MVVM pattern - Introduction (https://docs.microsoft.com/en-us/xamarin/xamarin-forms/enterprise-application-patterns/mvvm)
-
-This article from Microsoft provides an introduction to the Model-View-ViewModel (MVVM) pattern, including its benefits and how it can be used in Xamarin.Forms applications. It also provides guidance on how to implement the pattern in Xamarin.Forms.
-
-3. Understanding Model-View-ViewModel (MVVM) (https://www.tutorialspoint.com/mvvm/mvvm_introduction.htm)
-
-This tutorial from TutorialsPoint provides a comprehensive explanation of the Model-View-ViewModel (MVVM) pattern, including its advantages and how it can be used in software architecture. It also covers the key components of MVVM and how they interact with each other.
-
-4. What is MVVM? Model-View-ViewModel Explained (https://www.codementor.io/@karthikramasamy1994/what-is-mvvm-model-view-view-model-explained-oozhr0a1u)
-
-This article from Codementor explains the Model-View-ViewModel (MVVM) pattern and how it can be used in software development. It also covers the benefits of MVVM and provides practical examples of using the pattern in real-world applications.
-
-5. Building a Universal Windows Platform App: The Model-View-ViewModel (MVVM) Design Pattern (https://www.c-sharpcorner.com/article/building-a-universal-windows-platform-app-the-mvvm-design-pattern/)
-
-This article from C# Corner provides an introduction to the Model-View-ViewModel (MVVM) pattern and how it can be used to develop mobile applications for the Universal Windows Platform (UWP). It also provides practical examples of how to implement MVVM in a sample UWP application.   
 

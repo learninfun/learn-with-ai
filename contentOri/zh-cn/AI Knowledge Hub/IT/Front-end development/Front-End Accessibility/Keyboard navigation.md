@@ -1,5 +1,6 @@
 +++
 title = "键盘navigation"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -75,26 +76,4 @@ Keyboard navigation 是指使用键盘上的按钮控制介面进行操作，让
 5. 如何使用键盘导览在网页中切换到不同的标签或窗口？
 
 答案：使用Ctrl + Tab键或Ctrl + Shift + Tab键向前或向后循环移动到下一个或上一个标签。对于在新窗口中打开的连结，可以使用Ctrl + W键关闭标签或窗口。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Keyboard navigation的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Keyboard navigation in web applications
-https://www.smashingmagazine.com/2012/11/keyboard-navigation-web-applications/
-
-2. How to Improve Keyboard Navigation in Your Design
-https://designmodo.com/keyboard-navigation/
-
-3. 7 keyboard shortcuts for web browsing that everyone should know
-https://www.theverge.com/2018/6/15/17466216/keyboard-shortcuts-web-browsing-chrome-firefox-safari-edge
-
-4. Keyboard Navigation and Focus Control
-https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html
-
-5. The Power of Keyboard Navigability in Web Design
-https://www.usabilitygeek.com/power-keyboard-navigability-web-design/   
 

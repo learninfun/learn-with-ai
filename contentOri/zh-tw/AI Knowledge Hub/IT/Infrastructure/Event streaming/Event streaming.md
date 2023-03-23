@@ -1,9 +1,10 @@
 +++
 title = "事件串流"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Event streaming的問題
+給我5題Event streaming的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "事件串流"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Event streaming並舉例
+以中文說明Event streaming並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +50,7 @@ Event streaming是一種新興的數據處理技術，通過連續發射事件�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Event streaming的重點
+以中文條列Event streaming的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ Event streaming是一種新興的數據處理技術，通過連續發射事件�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Event streaming的中等難度問題，並在後面列出答案
+以中文給我5題Event streaming的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -90,31 +91,4 @@ Event streaming是一種新興的數據處理技術，通過連續發射事件�
 5. 當您試圖瞭解系統中輸送的所有產品的總數時，您如何使用Event streaming的運算能力確定總產品數？
 
 答案：在Event streaming平台上，可以使用聚合運算函數量對所有的群體在特定事件內進行計數操作，以確定系統中輸送的所有產品的總數。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Event streaming的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Event Streaming" - Apache Kafka documentation: https://kafka.apache.org/intro
-
-This is the official documentation for the open source event streaming platform Apache Kafka. It provides a comprehensive introduction to the concept of event streaming and how Kafka can be used for real-time data processing.
-
-2. "What is Event Streaming?" - Confluent: https://www.confluent.io/what-is-event-streaming/
-
-Confluent is a company that provides a commercial distribution of Kafka and related tools. Their website contains a wealth of resources on event streaming, including this article explaining what it is and how it differs from traditional batch processing models.
-
-3. "The Rise of Event Streaming: What You Need to Know" - DZone: https://dzone.com/articles/the-rise-of-event-streaming-what-you-need-to-know
-
-DZone is a developer community website that publishes articles on a wide range of topics. This article provides an overview of event streaming and how it is changing the way we think about data processing, with a focus on Kafka.
-
-4. "Event-Driven Architecture: What it is and Why it's Important Today" - InfoQ: https://www.infoq.com/articles/event-driven-architecture-important-today/
-
-InfoQ is a news and opinion website for developers. This article explores the concept of event-driven architecture, which is a design pattern that is closely related to event streaming. It provides examples of where event-driven architecture is used and why it can be beneficial.
-
-5. "Streaming Data: What it is, Why it Matters, and What's Next" - TechTarget: https://searchcio.techtarget.com/feature/Streaming-data-What-it-is-why-it-matters-and-whats-next
-
-TechTarget is a website that provides news and analysis on technology trends. This article focuses on the concept of streaming data, which encompasses event streaming and other real-time data processing techniques. It provides examples of how streaming data is being used and what the future of the field looks like.   
 

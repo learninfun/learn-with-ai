@@ -1,9 +1,9 @@
 
 
-1. 它是一種基於HTML、CSS和JavaScript的網頁元件技術，可以讓開發者創建可重用且具有獨立功能的網頁元件。
-2. Web components由4個核心技術組成：Custom elements、Shadow DOM、HTML templates以及ES Modules。
-3. Custom elements允許開發者通過定義自己的HTML標籤來創建自定義元件，且這些元件可以像原生HTML元素一樣被使用。
-4. Shadow DOM提供了一個封裝元素內部樣式和行為的機制，使得元素的DOM結構和CSS樣式可以完全隔離，從而避免和外部環境的干擾。
-5. HTML templates提供了一個在不渲染的情況下定義HTML元素結構的方法，可以讓開發者編寫可重複使用的HTML模板。
-6. ES Modules提供了一個在不同模塊之間進行依賴關係管理的機制，讓開發者可以創建可組合的、模塊化的Web components。
-7. Web components的優點包括可重用性、跨平台兼容性、可維護性以及提高開發效率等，且已得到各大瀏覽器廠商的廣泛支持和推廣。
+1. 它是一种基于HTML、CSS和JavaScript的网页元件技术，可以让开发者创建可重用且具有独立功能的网页元件。
+2. Web components由4个核心技术组成：Custom elements、Shadow DOM、HTML templates以及ES Modules。
+3. Custom elements允许开发者通过定义自己的HTML标签来创建自定义元件，且这些元件可以像原生HTML元素一样被使用。
+4. Shadow DOM提供了一个封装元素内部样式和行为的机制，使得元素的DOM结构和CSS样式可以完全隔离，从而避免和外部环境的干扰。
+5. HTML templates提供了一个在不渲染的情况下定义HTML元素结构的方法，可以让开发者编写可重复使用的HTML模板。
+6. ES Modules提供了一个在不同模块之间进行依赖关系管理的机制，让开发者可以创建可组合的、模块化的Web components。
+7. Web components的优点包括可重用性、跨平台兼容性、可维护性以及提高开发效率等，且已得到各大浏览器厂商的广泛支持和推广。

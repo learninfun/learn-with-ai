@@ -1,5 +1,6 @@
 +++
 title = "观察者模式"
+weight = "7"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -23,7 +24,7 @@ title = "观察者模式"
 
 Observer Pattern是一种经典的行为型设计模式，它定义了对象间的一种一对多（one-to-many）的依赖关系，以便当一个对象的状态发生改变时，其所有依赖对象都能够自动收到通知并更新状态。
 
-该模式中包含三种角色：Subject（目标对象）、Observer（观察者对象）和ConcreteObserver（具体的观察者对象）。
+该模式中包含三种角色：Subject（目标对像）、Observer（观察者对像）和ConcreteObserver（具体的观察者对像）。
 
 Subject是被观察的对象，它维护一组Observer对象，当它的状态发生变化时，会遍历这些Observer对象，并调用它们的update()方法通知它们。
 
@@ -160,17 +161,17 @@ public class WeatherStation {
 
 
 
-Observer Pattern 的重点包括：
+Observer Pattern 的重點包括：
 
-1. 定义主题（Subject）和观察者（Observer）的关系，主题维护所有已注册的观察者，当主题状态发生变化时，通知所有观察者。
+1. 定義主題（Subject）和觀察者（Observer）的關係，主題維護所有已註冊的觀察者，當主題狀態發生變化時，通知所有觀察者。
 
-2. 主题和观察者可分别定义一个介面，让实现类别继承并实现介面方法以定义主题和观察者的行为。
+2. 主題和觀察者可分別定義一個介面，讓實現類別繼承並實現介面方法以定義主題和觀察者的行為。
 
-3. 观察者可注册于多个主题，当某一主题状态发生变化时，观察者即可同时收到相应的通知。
+3. 觀察者可註冊於多個主題，當某一主題狀態發生變化時，觀察者即可同時收到相應的通知。
 
-4. Observer Pattern 可以实现松耦合关系，主题和观察者只需维护各自的状态，彼此无需知道对方的实现细节。
+4. Observer Pattern 可以實現鬆耦合關係，主題和觀察者只需維護各自的狀態，彼此無需知道對方的實現細節。
 
-5. 主题和观察者之间的通信可以使用多种方式实现，如事件通知、回呼方法等。   
+5. 主題和觀察者之間的通信可以使用多種方式實現，如事件通知、回呼方法等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -617,36 +618,4 @@ public class Main {
     }
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Observer Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Observer Pattern in Java: Example & Tutorial" - Medium
-https://medium.com/@codingee/observer-pattern-in-java-example-tutorial-3c3cbb6cae71
-
-This article offers a detailed explanation of the Observer Pattern in Java, with an example and tutorial. It covers the basics of the pattern, and how it can be implemented to achieve code modularity and flexibility.
-
-2. "Observer Design Pattern" - Tutorials Point
-https://www.tutorialspoint.com/design_pattern/observer_pattern.htm
-
-Tutorials Point offers a concise overview of the Observer Pattern, including its definition, intent, participants, and implementation steps. It also includes sample code snippets to help readers understand the pattern better.
-
-3. "Observer Pattern in JavaScript" - Codeburst
-https://codeburst.io/observer-pattern-in-javascript-7d85cc8bdf37
-
-Codeburst explains the Observer Pattern in the context of JavaScript, and how it can be used to create reactive user interfaces. It provides an easy-to-follow guide on how to implement event-driven programming using the pattern.
-
-4. "Observer Pattern in C#" - C# Corner
-https://www.c-sharpcorner.com/article/observer-pattern-in-c-sharp/
-
-This article focuses on the implementation of the Observer Pattern in C#, with an example console application. It covers the benefits of using the pattern, and how it can be applied to different scenarios.
-
-5. "Understanding the Observer Pattern in Swift" - Swift Tutorial
-https://www.swifttutorialforbeginners.com/design-patterns/observer-pattern/
-
-This Swift Tutorial offers a simplified explanation of the Observer Pattern, and how it can be implemented in Swift. It includes examples of how to use the pattern to update views in iOS applications.   
 

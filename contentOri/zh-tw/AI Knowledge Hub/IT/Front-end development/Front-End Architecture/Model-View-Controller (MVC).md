@@ -1,9 +1,10 @@
 +++
 title = "模型-視圖-控制器 （MVC）"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Model-View-Controller (MVC)的問題
+給我5題Model-View-Controller (MVC)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "模型-視圖-控制器 （MVC）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Model-View-Controller (MVC)並舉例
+以中文說明Model-View-Controller (MVC)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Model-View-Controller (MVC)是一種軟體架構模式，用於將應用程式�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Model-View-Controller (MVC)的重點
+以中文條列Model-View-Controller (MVC)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ Model-View-Controller (MVC) 是一種軟體架構設計模式，主要用於開�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Model-View-Controller (MVC)的中等難度問題，並在後面列出答案
+以中文給我5題Model-View-Controller (MVC)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,26 +79,4 @@ Model-View-Controller (MVC) 是一種軟體架構設計模式，主要用於開�
 4. 在MVC模式下，Model層負責實現留言板相關的操作，如新增留言、刪除留言、查詢留言等；View層則負責展示留言的列表、表單等；Controller層則負責接收用戶提交的留言請求，並轉發給Model進行業務處理。
 
 5. 在MVC模式下，Model層負責實現學生管理系統相關的操作，如新增學生、刪除學生、查詢學生等；View層則負責展示學生的列表、表單等；Controller層則負責接收用戶提交的學生請求，並轉發給Model進行業務處理。例如，當用戶提交新增學生的請求時，Controller會解析請求，取得用戶提交的表單數據，然後轉發到Model進行保存操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Model-View-Controller (MVC)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to MVC Architecture". GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-model-view-controller-mvc-architecture/
-This article from GeeksforGeeks provides a good introduction to the MVC architecture, explains how the model, view, and controller components work together, and discusses the advantages and disadvantages of using the MVC pattern.
-
-2. "Understanding MVC Architecture with Example". Javatpoint. https://www.javatpoint.com/mvc-architecture-with-example
-This article from Javatpoint provides a detailed explanation of the MVC architecture, with example code in Java. It also covers the role of each component and how they interact with each other.
-
-3. "What is MVC (Model View Controller)?". Medium. https://medium.com/@joshuablankenshipnola/what-is-mvc-model-view-controller-architecture-for-beginners-79dadc1b16b6
-This article from Medium provides a concise overview of the MVC architecture, with a focus on its benefits and how it can improve software development. It also includes a few examples of how MVC is used in popular software frameworks.
-
-4. "MVC Explained: The Model-View-Controller Pattern for Web Development". Airbrake. https://airbrake.io/blog/software-design/mvc-explained
-This article from Airbrake provides a clear explanation of the MVC architecture, with an emphasis on how it applies to web development. It also includes examples of MVC frameworks for JavaScript, Python, and Ruby.
-
-5. "MVC Architecture in PHP". Tutorial Republic. https://www.tutorialrepublic.com/php-tutorial/php-mvc-architecture.php
-This article from Tutorial Republic provides a step-by-step guide to implementing the MVC architecture in PHP. It covers the core concepts of MVC, as well as best practices for organizing code and separating concerns in a web application.   
 

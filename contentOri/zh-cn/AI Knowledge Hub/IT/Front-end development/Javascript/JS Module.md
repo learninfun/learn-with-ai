@@ -1,5 +1,6 @@
 +++
 title = "JavaScript 模组"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "JavaScript 模组"
 
 
 
-1. JS Module有什么好处？它如何帮助我们在网页开发中更好的管理和组织程式码？
-2. 在使用JS模组进行开发时，你如何保证模组与模组之间的依赖性很好的解决，并且减少模组之间可能的冲突？
-3. 为什么有些JS模组需要用babel转换？babel转换有哪些好处？
-4. 如何编写可重用的JS模组，并且避免因为过多的封装，使得模组的重量过重？
-5. 在使用JS模组进行开发时，你可以使用哪些打包工具？它们各有什么特点，如何选择？   
+1. JS Module有什麼好處？它如何幫助我們在網頁開發中更好的管理和組織程式碼？
+2. 在使用JS模組進行開發時，你如何保證模組與模組之間的依賴性很好的解決，並且減少模組之間可能的衝突？
+3. 為什麼有些JS模組需要用babel轉換？babel轉換有哪些好處？
+4. 如何编写可重用的JS模組，並且避免因為過多的封裝，使得模組的重量過重？
+5. 在使用JS模組進行開發時，你可以使用哪些打包工具？它们各有什麼特点，如何选择？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,9 +22,9 @@ title = "JavaScript 模组"
 
 
 
-JS Module是一种将复杂的代码分解成独立的功能单元，方便维护和协作的技术。在JS中，Module通常指代一个独立的js文件，这个文件中将某个特定的功能进行了封装，并提供了对外的接口。其他js文件可以通过这些暴露出来的接口来使用这个模块。
+JS Module是一種將複雜的代碼分解成獨立的功能單元，方便維護和協作的技術。在JS中，Module通常指代一個獨立的js文件，這個文件中將某個特定的功能進行了封裝，並提供了對外的接口。其他js文件可以通過這些暴露出來的接口來使用這個模塊。
 
-举例来说，有一个名为"utils.js"的模块，里面定义了一些函数用于辅助其他模块的开发。
+舉例來說，有一個名為"utils.js"的模塊，裡面定義了一些函數用於輔助其他模塊的開發。
 
 ```javascript
 // utils.js
@@ -40,7 +41,7 @@ export function multiply(a, b) {
 }
 ```
 
-其他模块可以使用"utils.js"中提供的函数，只需要在文件中引入即可。
+其他模塊可以使用"utils.js"中提供的函數，只需要在文件中引入即可。
 
 ```javascript
 // main.js
@@ -50,7 +51,7 @@ console.log(add(1, 2)); // 3
 console.log(substract(5, 3)); // 2
 ```
 
-JS模组化能够提高代码的可读性和可维护性，有助于团队协作和代码重复利用，是现代Web开发中不可缺少的一部分技术。   
+JS模組化能夠提高代碼的可讀性和可維護性，有助於團隊協作和代碼重複利用，是現代Web開發中不可缺少的一部分技術。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -442,26 +443,4 @@ module.exports = {
   addImages
 };
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇JS Module的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is a JavaScript Module?" by Mozilla
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
-
-2. "ES6 Modules in Depth" by Pony Foo
-https://ponyfoo.com/articles/es6-modules-in-depth
-
-3. "Mastering Modular JavaScript" by SitePoint
-https://www.sitepoint.com/mastering-modular-javascript/
-
-4. "JavaScript Modules: A Beginner’s Guide" by Toptal
-https://www.toptal.com/javascript/javascript-modules-a-beginner-s-guide
-
-5. "Creating and using JavaScript modules" by David Walsh
-https://davidwalsh.name/javascript-modules   
 

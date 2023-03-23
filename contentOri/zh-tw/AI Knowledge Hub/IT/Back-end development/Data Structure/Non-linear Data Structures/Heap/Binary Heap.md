@@ -1,9 +1,10 @@
 +++
 title = "二叉堆"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Binary Heap的問題
+給我5題Binary Heap的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "二叉堆"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Binary Heap並舉例
+以中文說明Binary Heap並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ value: 4 9 7 10 15 12 20
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Binary Heap的重點
+以中文條列Binary Heap的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ value: 4 9 7 10 15 12 20
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Binary Heap的中等難度問題，並在後面列出答案
+以中文給我5題Binary Heap的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -110,26 +111,4 @@ value: 4 9 7 10 15 12 20
 ```
 首先將無序數組構建成完全二叉樹，然後從最後一個非葉子節點開始，從右到左，逐個進行下沉操作，將每個節點下沉到合適的位置，直到根節點下沉到滿足堆的性質為止。
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Binary Heap的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Binary Heap, https://www.geeksforgeeks.org/binary-heap/
-This tutorial explains the basics of binary heap, including its concept, operations and uses, with clear code snippets and detailed examples.
-
-2. TutorialsPoint: Data Structure and Algorithms – Heap Data Structure, https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
-This article covers various aspects of heap data structure such as types, insertion, deletion, and manipulation of heap, along with clear code examples.
-
-3. Programiz: Python Heapq Module, https://www.programiz.com/python-programming/heap-queue
-This tutorial specifically deals with Python's heapq module that makes use of binary heaps to create priority queues. It includes examples of how to use heapq in Python programming.
-
-4. CS.NYU: Binary Heaps, https://cs.nyu.edu/courses/fall20/CSCI-UA.0101-003/Lectures/Lecture12/binary-heaps.pdf
-This is a scholarly article that provides a comprehensive and in-depth analysis of binary heaps. It covers topics like heap structure, insertion, deletion and heapify, and other heap operations.
-
-5. Stackabuse: Binary Heaps in Java, https://stackabuse.com/binary-heaps-in-java/
-This article explains the basics of binary heaps in Java, including the structure and types of heaps, insertion, deletion, and heapify operations, and how to customize the heap to suit specific requirements.   
 

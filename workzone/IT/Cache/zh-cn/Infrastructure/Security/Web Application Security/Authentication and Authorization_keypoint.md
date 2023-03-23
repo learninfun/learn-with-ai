@@ -1,15 +1,16 @@
 
 
 Authentication:
-1. Authentication is the process of confirming the identity of a user, device or application.
-2. It ensures that only authorized entities have access to sensitive data and resources.
-3. Authentication mechanisms include usernames and passwords, biometrics, smart cards, one-time passwords, etc.
-4. Multi-factor authentication provides an additional layer of security by combining multiple authentication methods.
-5. Authentication should integrate easily into the user experience, to avoid frustrating users.
+- 认证：确认使用者身份的过程，例如验证用户名、密码、生物识别方式等。
+- 身份验证是一个安全必需品，用来确保系统中只有授权的用户才能进行操作。
+- 有效的身份验证措施可以防止未经授权的用户访问敏感数据，并减少信息泄漏的风险。
 
 Authorization:
-1. Authorization restricts access based on roles or permissions.
-2. Authorization grants users access only to the data and resources they require to perform their job.
-3. Authorization is important for data privacy and security.
-4. Authorization can be managed centrally or separately for each application.
-5. Authorization should be reviewed regularly to ensure that access privileges are still appropriate.
+- 授权：确定使用者是否具有执行特定操作的权限，例如浏览某个文件或修改某个文件。
+- 授权可以限制和管理不同用户对系统和数据的访问权限。
+- 给予授权的行为需进行明确记录，以便追溯、调查和审计使用者对系统和数据的操作。
+
+Authentication与Authorization的区别：
+- 认证是确定用户身份的过程，而授权是确定用户是否具有执行特定操作的权限。
+- 认证通常是使用用户名和密码等数据进行验证，而授权通常涉及设定用户对特定资源的访问权限。
+- 两者相互独立且相互补充，有效的身份验证和授权措施是实现安全和保障数据完整性和机密性所必需的。

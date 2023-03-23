@@ -1,7 +1,7 @@
 
 
-1. What is the time complexity of the Edmonds-Karp algorithm?
-2. Can the Edmonds-Karp algorithm solve the maximum flow problem in a directed graph with negative edge weights? Why or why not?
-3. What is the maximum flow that can be achieved using the Edmonds-Karp algorithm in a flow network with multiple sources and sinks?
-4. How does the Edmonds-Karp algorithm differ from Ford-Fulkerson algorithm in terms of computational efficiency and accuracy in finding the maximal flow?
-5. Can the Edmonds-Karp algorithm be modified to handle undirected graphs or bipartite graphs? If so, how?
+1. 假設有一個圖形表示水流網路，每條邊都有一個流量上限。請使用Edmonds-Karp演算法，找出從源頭到匯點的最大流量。
+2. 一個國家有很多城市和道路，每條道路都有一個容量限制，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最大流量。
+3. 在一個有向圖中，每條邊都有一個權值，請使用Edmonds-Karp演算法找出從源頭到匯點的最小成本最大流量。
+4. 一個城市通往其他城市的交通網路，每條路都有一個容量限制和一個花費，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最小成本最大流量。
+5. 在一個電信網路中，每一條邊都是一條電纜，每個節點都是一個交換機。如果一對交換機之間的電纜故障了，就不能通信。請使用Edmonds-Karp演算法找出一個最小的故障集，使得從源頭到匯點之間的所有交換機都能夠通信。

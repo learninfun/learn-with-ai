@@ -1,9 +1,10 @@
 +++
 title = "Less"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Less的問題
+給我5題Less的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Less"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Less並舉例
+以中文說明Less並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -103,7 +104,7 @@ h2 {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Less的重點
+以中文條列Less的重點
 {{< /ask_chatgpt >}}
 
 
@@ -128,7 +129,7 @@ h2 {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Less的中等難度問題，並在後面列出答案
+以中文給我5題Less的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -154,21 +155,4 @@ h2 {
 答案：.responsive-div {  .responsive-styles(@width: 100%; @padding: 20px;) {    width: @width;    padding: @padding;  }}
 
 註釋：本回答僅供參考。實際情況下，中等難度的問題可能因人而異，建議根據具體情況進行選擇和判斷。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Less的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "5 Ways to Live a Minimalist Lifestyle" - https://www.lifehack.org/articles/lifestyle/5-ways-to-live-a-minimalist-lifestyle.html
-
-2. "The Power of Less: Using Minimalism to Simplify Your Life" - https://www.becomingminimalist.com/the-power-of-less/
-
-3. "How to Declutter Your Life: A Guide to Simplifying Your Home, Work and Mind" - https://www.developgoodhabits.com/declutter-life/
-
-4. "10 Lessons I Learned from the Minimalism Documentary" - https://www.becomingminimalist.com/10-lessons-learned-minimalism-film/
-
-5. "Why Less is More: The Benefits of Minimalism" - https://www.huffpost.com/entry/why-less-is-more-the-benefits-of-minimalism_b_58a84c32e4b026a89a7a2d1e   
 

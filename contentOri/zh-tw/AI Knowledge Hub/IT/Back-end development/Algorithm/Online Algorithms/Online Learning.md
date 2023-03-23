@@ -1,9 +1,10 @@
 +++
 title = "在線學習"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Online Learning的問題
+給我5題Online Learning的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "在線學習"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Online Learning並舉例
+以中文說明Online Learning並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -27,7 +28,7 @@ Online learning指的是透過網際網路平台進行學習的方式，學生�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Online Learning的重點
+以中文條列Online Learning的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ Online learning指的是透過網際網路平台進行學習的方式，學生�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Online Learning的中等難度問題，並在後面列出答案
+以中文給我5題Online Learning的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -67,31 +68,4 @@ Online learning指的是透過網際網路平台進行學習的方式，學生�
 
 5. 如果一位學生在一個小時內學習了30分鐘，請問他還需要學習多久才能達到學習目標？
 答案：30分鐘   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Online Learning的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Online Learning 101: A Guide to Successful Internet-Based Education" by Study.com
-
-This article by Study.com provides an overview of online learning, including its benefits, challenges, and strategies for success. It also explains different types of online courses and offers tips for selecting the right program.
-
-2. "10 Benefits of Online Learning for Adults" by eLearning Industry
-
-This article by eLearning Industry focuses on the advantages of online learning for adult learners. It discusses how online courses can provide flexibility, cost-effectiveness, and the opportunity to learn at one's own pace.
-
-3. "How Online Learning is Revolutionizing Education During the COVID-19 Pandemic" by EdTech Magazine
-
-This article by EdTech Magazine explores how online learning has become essential during the COVID-19 pandemic. It discusses the challenges of remote education and highlights examples of successful online learning models.
-
-4. "MOOCs: The Future of Online Learning?" by Harvard Business Review
-
-This article by Harvard Business Review examines the rise of Massive Open Online Courses (MOOCs) and their potential to transform higher education. It discusses the advantages and challenges of MOOCs and provides insights into their impact on the future of online learning.
-
-5. "Online Learning: Pros and Cons" by Pearson Education
-
-This article by Pearson Education provides an overview of the advantages and disadvantages of online learning. It discusses factors such as interaction with instructors and other students, access to resources, and learning outcomes.   
 

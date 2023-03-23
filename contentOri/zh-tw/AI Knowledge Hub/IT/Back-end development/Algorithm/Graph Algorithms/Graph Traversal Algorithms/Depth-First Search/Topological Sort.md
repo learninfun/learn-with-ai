@@ -1,9 +1,10 @@
 +++
 title = "拓撲排序"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Topological Sort的問題
+給我5題Topological Sort的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "拓撲排序"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Topological Sort並舉例
+以中文說明Topological Sort並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +58,7 @@ v         v    v
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Topological Sort的重點
+以中文條列Topological Sort的重點
 {{< /ask_chatgpt >}}
 
 1. 定義：Topological Sort 是一種對有向無環圖（DAG）進行節點排序的演算法。
@@ -78,7 +79,7 @@ v         v    v
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Topological Sort的中等難度問題，並在後面列出答案
+以中文給我5題Topological Sort的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -102,21 +103,4 @@ v         v    v
 5. 已知一個無向圖中所有邊的權值為1，求圖中所有圖的直徑的最小值。
 
 答案：DAG上的最長路   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Topological Sort的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Topological Sort Algorithm in Data Structures: 這篇文章提供了關於拓撲排序算法的詳細解釋，包括它的應用和實現方法。作者通過一些例子和圖片來幫助讀者更好地理解該算法的運作和原理。
-
-2. Topological Sorting: 這是一篇有趣的博客文章，通過一個故事的方式來介紹拓撲排序，描述了它的背景和應用。對於初學者來說很容易理解，同時也包含了一些高級技巧和擴展應用。
-
-3. Topological Sorting with Depth-First Search: 這篇文章使用深度優先搜索算法來實現拓撲排序。作者通過一些示例代碼和圖片來解釋該算法的步驟和運作原理。同時，還探討了一些關於算法性能和時間複雜度的問題。
-
-4. Topological Sort Algorithm Explained with Examples: 這篇文章專門針對拓撲排序算法進行了詳細和清晰的解釋。作者使用了幾個例子和圖像來幫助讀者更好地理解該算法的運作方式。同樣，還介紹了一些代碼示例和關於算法優化的技巧。
-
-5. Topological Sort & Shortest Path: 這篇文章將拓撲排序算法與最短路徑算法相結合，介紹了如何在有向無環圖上進行拓撲排序來找到最短路徑。這是一個非常實用的技巧，適用於許多實際應用場景。該文章通過一些示例和圖像來解釋該技巧的運作原理，並提供了完整的代碼示例。   
 

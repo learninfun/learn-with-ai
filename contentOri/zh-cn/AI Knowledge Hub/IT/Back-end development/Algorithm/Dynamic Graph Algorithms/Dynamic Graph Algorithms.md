@@ -1,5 +1,6 @@
 +++
 title = "动态图演算法"
+weight = "8"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -42,13 +43,13 @@ Dynamic Graph Algorithms是指在一个动态图上执行的演算法，随着�
 
 
 
-1. 動態圖的定義：動態圖是一個不斷變化的圖，其頂點和邊可以隨時被加入或刪除。
-2. 動態圖算法的目標：維護圖的某些屬性，如最短路徑、連通性、最小生成樹等，當圖的拓撲結構發生改變時，能夠快速更新這些屬性。
-3. 動態圖算法的基本思想：在圖的變化過程中，只更新被影響的部分，而不是對整個圖進行重新計算。
-4. 動態圖算法的主要技術：使用增量式算法和分治策略。
-5. 動態圖算法的主要應用領域：社交網絡分析、路徑規劃、交通流控制、基因組學、電力網絡管理等。
-6. 動態圖算法的一些具體例子：動態最小生成樹、動態最短路徑、動態連通性、動態直徑、動態雙連通分量等。
-7. 動態圖算法的挑戰與未來：巨大的圖、高效的實現和精確的評估是未來的挑戰，另外，隨著智能城市和物聯網的發展，動態圖算法的應用領域還會不斷擴展。   
+1. 动态图的定义：动态图是一个不断变化的图，其顶点和边可以随时被加入或删除。
+2. 动态图算法的目标：维护图的某些属性，如最短路径、连通性、最小生成树等，当图的拓扑结构发生改变时，能够快速更新这些属性。
+3. 动态图算法的基本思想：在图的变化过程中，只更新被影响的部分，而不是对整个图进行重新计算。
+4. 动态图算法的主要技术：使用增量式算法和分治策略。
+5. 动态图算法的主要应用领域：社交网络分析、路径规划、交通流控制、基因组学、电力网络管理等。
+6. 动态图算法的一些具体例子：动态最小生成树、动态最短路径、动态连通性、动态直径、动态双连通份量等。
+7. 动态图算法的挑战与未来：巨大的图、高效的实现和精确的评估是未来的挑战，另外，随着智能城市和物联网的发展，动态图算法的应用领域还会不断扩展。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -57,40 +58,23 @@ Dynamic Graph Algorithms是指在一个动态图上执行的演算法，随着�
 
 
 
-1. 最小生成树最大值：給定一個無向加權圖，求出最小生成樹中最大權值的邊。 
+1. 最小生成树最大值：给定一个无向加权图，求出最小生成树中最大权值的边。 
 
 答案：Kruskal算法
 
-2. 矩陣乘法：給定兩個矩陣，求它們的乘積。 
+2. 矩阵乘法：给定两个矩阵，求它们的乘积。 
 
 答案：Strassen算法
 
-3. 判斷圖是否二分圖：給定一個無向圖，判斷它是否是二分圖。 
+3. 判断图是否二分图：给定一个无向图，判断它是否是二分图。 
 
-答案：BFS顏色填色
+答案：BFS颜色填色
 
-4. 計算最長路徑：給定一個有向加權圖，計算出從一個起點到終點的最長路徑。 
+4. 计算最长路径：给定一个有向加权图，计算出从一个起点到终点的最长路径。 
 
 答案：Bellman-Ford算法
 
-5. 計算全源最短路徑：給定一個有向加權圖，計算出任意兩點之間的最短路徑。 
+5. 计算全源最短路径：给定一个有向加权图，计算出任意两点之间的最短路径。 
 
 答案：Floyd算法   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Dynamic Graph Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dynamic Connectivity in Directed Graphs" by P. B. Miltersen, S. Subramanian, and U. V. Vazirani. This paper presents a dynamic algorithm for maintaining connectivity in directed graphs, where edges can be inserted or deleted dynamically over time. The algorithm has a complexity of O(log^2 n) per update and O(1) query time.
-
-2. "Dynamic Graph Algorithms for Optimization Problems" by A. Gamst and R. E. Tarjan. This paper presents dynamic algorithms for solving optimization problems on graphs, such as minimum spanning trees, shortest paths, and maximum flows. The algorithms have a complexity of O(log^2 n) per update and O(1) query time.
-
-3. "Dynamic Graph Algorithms for All-Pairs Shortest Paths" by Y. Zwick. This paper presents a dynamic algorithm for maintaining all-pairs shortest paths in directed graphs, where edges can be inserted or deleted dynamically over time. The algorithm achieves a complexity of O(n^2 log n) per update and O(1) query time.
-
-4. "Dynamic Graph Algorithms for Dominators and Related Problems" by P. B. Miltersen and U. V. Vazirani. This paper presents dynamic algorithms for maintaining dominator trees and related data structures in directed graphs, where edges can be inserted or deleted dynamically over time. The algorithms have a complexity of O(log n) per update and O(1) query time.
-
-5. "Dynamic Graph Algorithms for Minimum Cut and Maximum Flow" by S. Sankowski and C. Stein. This paper presents dynamic algorithms for maintaining minimum cuts and maximum flows in undirected graphs, where edges can be inserted or deleted dynamically over time. The algorithms have a complexity of O(min(n^2/3, m)) per update and O(1) query time.   
 

@@ -1,5 +1,6 @@
 +++
 title = "最短路径演算法"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,15 @@ title = "最短路径演算法"
 
 
 
-1. What is Dijkstra's algorithm and how is it used to find the shortest path between two vertices in a graph?
+1. 什么是Shortest Path Algorithms？该算法如何找到两点之间的最短路径？
 
-2. What is Bellman-Ford algorithm and how does it differ from Dijkstra's algorithm in finding the shortest path in a negative weighted graph?
+2. Dijkstra's Algorithm 与 Bellman-Ford Algorithm 的不同点是什么？它们如何在实际应用中使用？
 
-3. What is Floyd-Warshall algorithm for finding the shortest path in a weighted graph, and how does it decide between multiple paths of the same shortest length?
+3. A* Algorithm 对于搜寻详细的路径规划与运输系统有何优势？它是如何运作的？
 
-4. What is Johnson's algorithm for solving the shortest path problem, and how is it useful in graphs with negative edge weights?
+4. Floyd-Warshall Algorithm 可以处理带有负权重的图，但是可能会造成什么问题？有什么解决办法？
 
-5. How does A* algorithm work, and what is its advantage over other shortest path algorithms in finding the shortest path between two vertices in a weighted graph?   
+5. 在使用Shortest Path Algorithms时，如何评估图的复杂度？您如何选择最佳的算法来解决问题？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -70,12 +71,12 @@ INF INF 5 0
 
 
 
-1. 最短路徑算法是一種計算最短路徑的演算法。
-2. Dijkstra算法是一種貪心算法，用於計算無向加權圖中的最短路徑。
-3. Bellman-Ford算法是一種動態規劃算法，用於計算有向加權圖中的最短路徑。
-4. Floyd-Warshall算法是一種動態規劃算法，用於計算有向加權圖中的所有頂點對之間的最短路徑。
-5. A*算法是一種啟發式算法，用於計算帶權有向圖中的最短路徑。它使用了估計函數來幫助找到最短路徑。
-6. 最短路徑算法可應用於許多問題中，例如交通路網、電信網路、排程等。   
+1. 最短路径算法是一种计算最短路径的演算法。
+2. Dijkstra算法是一种贪心算法，用于计算无向加权图中的最短路径。
+3. Bellman-Ford算法是一种动态规划算法，用于计算有向加权图中的最短路径。
+4. Floyd-Warshall算法是一种动态规划算法，用于计算有向加权图中的所有顶点对之间的最短路径。
+5. A*算法是一种启发式算法，用于计算带权有向图中的最短路径。它使用了估计函数来帮助找到最短路径。
+6. 最短路径算法可应用于许多问题中，例如交通路网、电信网路、排程等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -103,36 +104,4 @@ INF INF 5 0
 5. 當有負權邊存在於一個圖中，Bellman-Ford算法還能夠確定最短路徑嗎？
 
 答案：是的，Bellman-Ford算法依然能夠確定最短路徑，但需要增加一個檢測負權環的步驟，以避免出現無限循環。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Shortest Path Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Dijkstra's Algorithm: 
-Dijkstra's algorithm is a classic shortest path algorithm that can be used to find the shortest path between two nodes in a graph. It works by initially assigning a "tentative distance" to each node, which is then updated based on the smallest distance found so far. This process continues until the shortest path to the destination node is found. 
-
-Source: https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-2. Bellman-Ford Algorithm: 
-The Bellman-Ford algorithm is another classic shortest path algorithm that can be used to find the shortest path between two nodes in a graph. Unlike Dijkstra's algorithm, the Bellman-Ford algorithm can handle graphs with negative edge weights. It works by iteratively relaxing the edges in the graph until the shortest path to the destination node is found.
-
-Source: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
-
-3. Floyd-Warshall Algorithm: 
-The Floyd-Warshall algorithm is a dynamic programming algorithm that can be used to find the shortest path between all pairs of nodes in a weighted graph. It works by maintaining a matrix of the shortest distances between each pair of nodes, and updating this matrix iteratively until all pairs of nodes have been considered. 
-
-Source: https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
-
-4. A* Search Algorithm: 
-The A* search algorithm is a heuristic search algorithm that can be used to find the shortest path between two points in a graph. It works by assigning a "cost" to each node based on its distance from the starting node and its estimated distance to the destination node. This allows the algorithm to prioritize nodes that are more likely to lead to the shortest path. 
-
-Source: https://www.geeksforgeeks.org/a-search-algorithm/
-
-5. Johnson's Algorithm: 
-Johnson's algorithm is a graph algorithm that can be used to find the shortest path between all pairs of nodes in a weighted graph. It works by first reweighting the edges in the graph using a technique called Bellman-Ford's algorithm, and then applying Dijkstra's algorithm to each node in the graph. 
-
-Source: https://www.geeksforgeeks.org/johnsons-algorithm/   
 

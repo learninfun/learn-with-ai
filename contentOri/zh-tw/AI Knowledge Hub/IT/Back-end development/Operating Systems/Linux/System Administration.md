@@ -1,9 +1,10 @@
 +++
 title = "系統管理"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題System Administration的問題
+給我5題System Administration的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "系統管理"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明System Administration並舉例
+以中文說明System Administration並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ title = "系統管理"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列System Administration的重點
+以中文條列System Administration的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ title = "系統管理"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題System Administration的中等難度問題，並在後面列出答案
+以中文給我5題System Administration的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -77,17 +78,4 @@ title = "系統管理"
 
 5. 如何監測系統的硬件資源利用率？
 答案：可以使用 top 或 htop 命令來監測系統的 CPU，記憶體等硬件資源利用率。也可以使用 sar 或 vmstat 命令記錄資源利用率的歷史紀錄。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇System Administration的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "10 Essential Skills for a Successful System Administrator" - https://www.datto.com/blog/10-essential-skills-for-a-successful-system-administrator
-2. "What is a System Administrator?" - https://www.cyberdegrees.org/jobs/system-administrator/
-3. "Top 10 Network Administration Tools" - https://www.techradar.com/news/top-10-network-administration-tools
-4. "A Beginner's Guide to System Administration" - https://www.upgrad.com/blog/beginners-guide-to-system-administration/
-5. "The Importance of Network Administration in Business" - https://techivine.com/the-importance-of-network-administration-in-business/   
 

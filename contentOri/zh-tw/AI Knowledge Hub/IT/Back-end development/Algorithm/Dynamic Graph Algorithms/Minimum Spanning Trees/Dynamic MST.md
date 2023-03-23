@@ -1,9 +1,10 @@
 +++
 title = "動態最小生成樹"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dynamic MST的問題
+給我5題Dynamic MST的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "動態最小生成樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dynamic MST並舉例
+以中文說明Dynamic MST並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Dynamic MST是指在一个图中，有一些边的权值有可能会变化，不
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dynamic MST的重點
+以中文條列Dynamic MST的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Dynamic MST是指在一个图中，有一些边的权值有可能会变化，不
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dynamic MST的中等難度問題，並在後面列出答案
+以中文給我5題Dynamic MST的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -92,26 +93,4 @@ Dynamic MST是指在一个图中，有一些边的权值有可能会变化，不
 5. 有一個無向圖，每條邊有一個權值和一個時態值，邊權值可能為負。時態值每一秒會增加1，當時態值等於某條邊的權值時，這條邊會消失。求圖上每秒的最小生成樹權值和和最大生成樹權值和。
 
 答案：分別使用Kruskal和Prim算法，即可計算出每秒的最小生成樹權值和和最大生成樹權值和，其中要考慮到邊權值可能為負，所以要先把邊權值取負。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Dynamic MST的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dynamic Minimum Spanning Tree Algorithms for Wireless Sensor Networks" (2015)
-這篇論文探討了Dynamic MST算法在無線感測器網絡中的應用。作者討論了各種不同的Dynamic MST算法及其性能，並提供了一個新的基於權重的動態MST算法。
-
-2. "An Efficient Dynamic MST Algorithm for Real-time Network Management" (2017)
-這篇論文介紹了一種新的動態MST算法，可以實現實時網絡管理。作者提出的算法可以在網絡擴展和更改時有效地維護MST，幫助管理員更好地控制網絡。
-
-3. "Dynamic Minimum Spanning Tree for Large-scale Networking" (2016)
-這篇論文介紹了一种新的动态MST算法，可用于大规模网络。作者设计了一种基于子树交换技术的算法，以减少在大规模网络中计算MST所需的时间和空间。
-
-4. "Challenges in Dynamic Minimum Spanning Tree for Networks with Dynamically Changing Topologies" (2014)
-这篇论文概述了动态MST算法的挑战，特别是在拓扑动态更改的网络中。作者讨论了各种算法及其优缺点，以及如何优化算法以适应网络拓扑的变化。
-
-5. "A Survey of Dynamic Minimum Spanning Tree Algorithms" (2013)
-这篇综述论文探讨了现有的各种动态MST算法，包括增量和减量算法，以及簇和动态处理算法。作者比较这些算法的性能和适用场景，并提供了未来研究的方向。   
 

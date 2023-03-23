@@ -1,5 +1,6 @@
 +++
 title = "Floyd-Warshall演算法"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -158,14 +159,14 @@ D[5][1]=min(∞,2+5)=7
 
 
 
-1. Floyd-Warshall Algorithm（F-W算法）是一種動態規劃算法，用於解決全源最短路問題。
-2. F-W算法利用矩陣來存儲每對節點之間的最短路長度。
-3. 矩陣中每個元素的值代表從i到j的最短路長度，其中i和j是矩陣下標。
-4. F-W算法每次更新矩陣中保存的最短路長度，以便找出每對節點之間的最短路。
-5. F-W算法的核心思想是利用動態規劃思想，將問題分解為子問題依次求解。
-6. 在F-W算法中，我們先將圖表示成一個帶權有向圖（即邊帶權），然後利用矩陣來保存最短路長度。
-7. F-W算法主要包括初始化矩陣、遍歷圖、更新矩陣等步驟。
-8. 儘管F-W算法的時間複雜度較高（為O(N^3)），但它可以處理帶權有向圖中任意兩點之間的最短路問題，並且效果非常穩定。   
+1. Floyd-Warshall Algorithm（F-W算法）是一种动态规划算法，用于解决全源最短路问题。
+2. F-W算法利用矩阵来存储每对节点之间的最短路长度。
+3. 矩阵中每个元素的值代表从i到j的最短路长度，其中i和j是矩阵下标。
+4. F-W算法每次更新矩阵中保存的最短路长度，以便找出每对节点之间的最短路。
+5. F-W算法的核心思想是利用动态规划思想，将问题分解为子问题依次求解。
+6. 在F-W算法中，我们先将图表示成一个带权有向图（即边带权），然后利用矩阵来保存最短路长度。
+7. F-W算法主要包括初始化矩阵、遍历图、更新矩阵等步骤。
+8. 尽管F-W算法的时间复杂度较高（为O(N^3)），但它可以处理带权有向图中任意两点之间的最短路问题，并且效果非常稳定。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -269,28 +270,4 @@ void Floyd(int k) {
     }
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Floyd-Warshall Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-以下是五篇Floyd-Warshall Algorithm的网路资料：
-
-1. https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm 
-这是Floyd-Warshall Algorithm的维基百科页面。它解释了Floyd-Warshall算法的工作原理以及如何实现它。这是一个完整的介绍，从基本概念到具体实践，非常实用。
-
-2. https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/ 
-这是GeeksforGeeks的一篇文章，介绍了Floyd-Warshall算法的设计和实现。这篇文章还包括了一些范例和解释，可帮助读者更好地理解和应用该算法。
-
-3. https://www.tutorialspoint.com/Floyd-Warshall-algorithm
-这是TutorialsPoint的一篇关于Floyd-Warshall算法的教程。它解释了算法的基本原理，以及如何将其应用于解决实际问题。教程还包括代码示例和练习题，可帮助读者获得更多实战经验。
-
-4. https://www.programiz.com/dsa/floyd-warshall-algorithm
-这是Programiz的Floyd-Warshall算法教程，它是针对初学者设计的。教程以简单易懂的方式解释了算法的基本概念和实现方法。而且，您可以在这里找到许多范例和练习，使您可以透过实战获得更多的经验。
-
-5. https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/
-这是HackerEarth的一篇教程，详细介绍了Floyd-Warshall算法的工作原理和应用。这篇文章还包括了一些问题，可以测试您对于该算法的理解程度。如果您想要深入了解Floyd-Warshall算法，这篇文章是一个不错的选择。   
 

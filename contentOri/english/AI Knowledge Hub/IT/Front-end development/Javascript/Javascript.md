@@ -1,3 +1,7 @@
++++
+title = "Javascript"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Javascript
@@ -64,22 +68,4 @@ Answer: The main difference between let and var is that let is block-scoped, whi
 
 5. How can you add an element to the beginning of an array in JavaScript?
 Answer: You can use the unshift() method to add an element to the beginning of an array. For example, arr.unshift(element); will add 'element' to the beginning of the 'arr' array.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Javascript
-{{< /ask_chatgpt >}}
-
-
-
-1. Mozilla Developer Network: Introduction to JavaScript 
-2. W3schools: JavaScript Tutorial 
-3. Codecademy: JavaScript Introduction 
-4. JavaScript.com: Learn JavaScript 
-5. The Odin Project: Introduction to JavaScript 
-6. FreeCodeCamp: JavaScript Basics 
-7. Tutorialspoint: JavaScript Introduction 
-8. TutorialsTeacher: JavaScript Introduction 
-9. GeeksforGeeks: Introduction to JavaScript 
-10. Khan Academy: Introduction to JavaScript.   
 

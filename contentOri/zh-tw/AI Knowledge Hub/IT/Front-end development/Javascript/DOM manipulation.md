@@ -1,9 +1,10 @@
 +++
 title = "DOM 操作"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題DOM manipulation的問題
+給我5題DOM manipulation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "DOM 操作"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明DOM manipulation並舉例
+以中文說明DOM manipulation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +65,7 @@ parent.removeChild(title);
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列DOM manipulation的重點
+以中文條列DOM manipulation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -91,7 +92,7 @@ parent.removeChild(title);
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題DOM manipulation的中等難度問題，並在後面列出答案
+以中文給我5題DOM manipulation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -139,21 +140,4 @@ elem.style.backgroundImage = 'url("new-image.jpg")';
 const elem = document.querySelector('.my-div');
 elem.style.overflow = 'scroll';
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇DOM manipulation的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Manipulating the DOM with JavaScript" by Mozilla Developer Network: This article explains how to interact with the Document Object Model (DOM) using JavaScript. It covers topics including selecting elements, modifying attributes and text, and creating new elements.
-
-2. "Introduction to DOM Manipulation in JavaScript" by Scotch.io: This tutorial provides an overview of the basics of manipulating the DOM using JavaScript. It covers topics like selecting elements, modifying styles, and adding event listeners.
-
-3. "10 JavaScript DOM Manipulation Techniques You Should Know" by SitePoint: This article covers ten useful techniques for manipulating the DOM using JavaScript. Topics include modifying text and attributes, adding and removing elements, and working with forms.
-
-4. "Manipulating the DOM with jQuery" by W3Schools: This tutorial explains how to use the jQuery library to interact with the DOM. It covers selecting elements, modifying HTML and CSS, and creating animations.
-
-5. "DOM Manipulation with Vanilla JavaScript" by JavaScript for Web Designers: This video tutorial covers basic DOM manipulation techniques using vanilla JavaScript. It includes examples of modifying text and attributes, and creating new elements.   
 

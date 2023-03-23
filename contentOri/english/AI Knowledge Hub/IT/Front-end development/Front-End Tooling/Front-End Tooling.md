@@ -1,3 +1,7 @@
++++
+title = "Front-End Tooling"
+weight = "4"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Front-End Tooling
@@ -76,17 +80,4 @@ Answer: A version control system like Git helps web developers keep track of cha
 
 5. What is the role of npm in front-end development?
 Answer: npm is a package manager that is commonly used by front-end developers to manage the dependencies or libraries that are needed in their project. This helps in avoiding code repetition, ensuring consistency across different versions of the project and managing the libraries that your web application is using.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Front-End Tooling
-{{< /ask_chatgpt >}}
-
-
-
-1. Front-end Tooling Fundamentals: https://www.telerik.com/blogs/front-end-tooling-fundamentals
-2. What is Front-End Tooling?: https://blog.hichroma.com/what-is-front-end-tooling-42d3cb4f6556
-3. Introduction to Front-End Development Tooling: https://www.geeksforgeeks.org/introduction-to-front-end-development-tooling/
-4. An Introduction to Front-End Tooling: https://www.upgrad.com/blog/introduction-to-front-end-tooling/
-5. Introduction to Front-End Tooling for Greater Efficiency: https://dzone.com/articles/introduction-to-frontend-tooling-for-greater-effi   
 

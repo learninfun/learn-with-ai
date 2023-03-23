@@ -1,9 +1,10 @@
 +++
 title = "結構型模式"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Structural Patterns的問題
+給我5題Structural Patterns的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "結構型模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Structural Patterns並舉例
+以中文說明Structural Patterns並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ Structural Patterns是指將類和對像組合在一起形成更大的結構，�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Structural Patterns的重點
+以中文條列Structural Patterns的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Structural Patterns是指將類和對像組合在一起形成更大的結構，�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Structural Patterns的中等難度問題，並在後面列出答案
+以中文給我5題Structural Patterns的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -292,21 +293,4 @@ class Facade {
 const client = new Facade();
 client.operation1();
 client.operation2();   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Structural Patterns的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Structural Design Patterns in Java" by TutorialsPoint: This article provides a comprehensive overview of the various Structural Design Patterns in Java, including the Adapter, Bridge, Composite, Decorator, and Facade patterns. It explains the purpose and implementation of each pattern, along with code examples for better understanding.
-
-2. "Structural Patterns" by SourceMaking: This website offers a detailed explanation of Structural Patterns, including the Adapter, Bridge, Composite, Decorator, Façade and Flyweight design patterns. The site also provides code examples in Java to demonstrate how to implement each pattern.
-
-3. "The Top 5 Structural Design Patterns for Beginners" by DZone: This article is intended for beginners and provides an overview of five of the most commonly used Structural Design Patterns. It explains each pattern with examples and how to use it in different scenarios.
-
-4. "Structural Design Patterns: A Guide to Decoding Software Architecture" by Stackify: This article provides an in-depth explanation of Structural Design Patterns, including information about their purpose and how to apply them in real-world situations. Additionally, it has code examples in C# to help readers better understand this programming concept.
-
-5. "Structural Design Patterns" by GeeksforGeeks: This website provides an easy-to-understand explanation of Structural Design Patterns, including the Adapter, Bridge, Composite, Decorator, Flyweight, and Facade patterns. It includes diagrams and examples in Java to help readers understand the concept behind each pattern.   
 

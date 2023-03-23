@@ -1,9 +1,10 @@
 +++
 title = "廣度優先搜尋"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Breadth-First Search的問題
+給我5題Breadth-First Search的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "廣度優先搜尋"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Breadth-First Search並舉例
+以中文說明Breadth-First Search並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +50,7 @@ Breadth-First Search（BFS）是一種搜尋演算法，以廣度優先的方式
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Breadth-First Search的重點
+以中文條列Breadth-First Search的重點
 {{< /ask_chatgpt >}}
 
 
@@ -70,135 +71,249 @@ Breadth-First Search（BFS）是一種搜尋演算法，以廣度優先的方式
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Breadth-First Search的中等難度問題，並在後面列出答案
+以中文給我5題Breadth-First Search的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. Word Ladder
-Given two words (beginWord and endWord), and a dictionary's word list, find the length of shortest transformation sequence from beginWord to endWord, such that:
+1. 題目： 給定一個連通無向圖，起始節點為S，每個節點都是一個整數，節點間的距離為1。你的任務是從起始節點開始按字典序打印所有節點。輸入的圖是用鄰接矩陣表示的，值為1表示兩個節點相連，0表示不連通。 同時輸入的起始節點的下標，輸出樣例中「#」表示空格。
 
-Only one letter can be changed at a time.
-Each transformed word must exist in the word list. 
-Note that beginWord is not a transformed word.
+答案：
 
-Example:
-Input:
-beginWord = "hit",
-endWord = "cog",
-wordList = ["hot","dot","dog","lot","log","cog"]
-Output: 5
+from queue import Queue
 
-Answer:
-https://leetcode.com/problems/word-ladder/
+def bfs(n, start_node):
+    visited = [0] * n
+    queue = Queue()
+    queue.put(start_node)
+    visited[start_node] = 1
+    while not queue.empty():
+        node = queue.get()
+        print(node, end=' ')
+        for i in range(n):
+            if adj[node][i] == 1 and visited[i] == 0:
+                visited[i] = 1
+                queue.put(i)
 
-2. Minimum Genetic Mutation
-A gene string can be represented by an 8-character long string, with choices from "A", "C", "G", "T".
+n = int(input())
+adj = []
+for i in range(n):
+    adj.append(list(map(int, input().split())))
 
-Suppose we need to investigate about a mutation (mutation from "start" to "end"), where ONE mutation is defined as ONE single character changed in the gene string.
+start_node = int(input())
 
-For example, "AACCGGTT" -> "AACCGGTA" is 1 mutation.
-
-Also, there is a given gene "bank", which records all the valid gene mutations. A gene must be in the bank to make it a valid gene string.
-
-Now, given 3 things - start, end, bank, your task is to determine what is the minimum number of mutations needed to mutate from "start" to "end". If there is no such a mutation, return -1.
-
-Note:
-
-Starting point is assumed to be valid, so it might not be included in the bank.
-If multiple mutations are needed, all mutations during in the sequence must be valid.
-You may assume start and end string is not the same.
-
-Example:
-start: "AACCGGTT"
-end:   "AACCGGTA"
-bank: ["AACCGGTA"]
-
-return: 1
- 
-
-Answer:
-https://leetcode.com/problems/minimum-genetic-mutation/
-
-3. Bus Routes
-We have a list of bus routes. Each routes[i] is a bus route that the i-th bus repeats forever. For example if routes[0] = [1, 5, 7], this means that the first bus (0-th indexed) travels in the sequence 1->5->7->1->5->7->1->... forever.
-
-We start at bus stop S (initially not on a bus), and we want to go to bus stop T. Travelling by buses only, what is the least number of buses we must take to reach our destination? Return -1 if it is not possible.
-
-Example:
-Input: 
-routes = [[1, 2, 7], [3, 6, 7]]
-S = 1
-T = 6
-Output: 2
-
-Answer:
-https://leetcode.com/problems/bus-routes/
-
-4. Cut Off Trees for Golf Event
-You are asked to cut off trees in a forest for a golf event. The forest is represented as a non-negative 2D map, in this map:
-
-0 represents the obstacle can't be reached.
-1 represents the ground can be walked through.
-The place with number bigger than 1 represents a tree can be walked through, and this positive number represents the tree's height.
-
-You are asked to cut off all the trees in this forest in the order of tree's height - always cut off the tree with lowest height first. And after cutting, the original place has the tree will become a grass (value 1).
-
-You will start from the point (0, 0) and you should output the minimum steps you need to walk to cut off all the trees. If you can't cut off all the trees, output -1 in that situation.
-
-You are guaranteed that no two trees have the same height and there is at least one tree needs to be cut off.
-
-Example:
-Input: 
-[
- [1,2,3],
- [0,0,4],
- [7,6,5]
-]
-Output: 6
-
-Answer:
-https://leetcode.com/problems/cut-off-trees-for-golf-event/
-
-5. Pacific Atlantic Water Flow
-Given an m x n matrix of non-negative integers representing the height of each unit cell in a continent, the "Pacific ocean" touches the left and top edges of the matrix and the "Atlantic ocean" touches the right and bottom edges.
-
-Water can only flow in four directions (up, down, left, or right) from a cell to another one with height equal or lower.
-
-Find the list of grid coordinates where water can flow to both the Pacific and Atlantic ocean.
-
-Note:
-
-The order of returned grid coordinates does not matter.
-Both m and n are less than 150.
-
-Example:
-Given the following 5x5 matrix:
-
-  Pacific ~   ~   ~   ~ 
-       ~  1   2   2   3  (5) 
-       ~  3   2   3  (4) (4) 
-       ~  2   4  (5)  3   1  
-       ~ (6) (7)  1   4   5  
-           Atlantic   ~   ~   ~   ~
-           
-Answer:
-https://leetcode.com/problems/pacific-atlantic-water-flow/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Breadth-First Search的網路資料
-{{< /ask_chatgpt >}}
+bfs(n, start_node)
 
 
+2. 題目：有n個物品，每種物品都有自己的重量和價格，在限定的總重量內，選出若幹件物品使得物品的總重量不超過總重量且總價格最大。假設背包的容量為C（Capacity），每個物品的重量為w（weight），價值為v（value）。使用BFS求背包問題的最優解。
 
-1. "Introduction to Breadth-First Search (BFS) Algorithm" by GeeksforGeeks - This article provides a detailed introduction to the BFS algorithm, explaining how it works and how it is implemented. It includes code examples and illustrations to help readers understand the concept.
+答案：
 
-2. "Breadth First Search (BFS) algorithm" by Tutorials Point - This tutorial offers a step-by-step guide to implementing BFS, including pseudocode and a sample implementation. It also explains how BFS can be used for different applications, such as finding the shortest path or distributed computing.
+from queue import Queue
 
-3. "Breadth-First Search in Artificial Intelligence" by Analytics India Magazine - This article explores how BFS is used in AI, particularly in solving problems related to search and optimization. It explains the advantages and limitations of BFS, as well as its variations and applications in other domains.
+class Node:
+	def __init__(self, level, weight, value, bound):
+		self.level = level
+		self.weight = weight
+		self.value = value
+		self.bound = bound
 
-4. "Breadth-First Search Algorithm" by Computer Science Refined - This article provides a comprehensive overview of BFS, including examples of how it can be applied in various scenarios. It also explains the differences between BFS and other search algorithms, such as depth-first search (DFS).
+def bound(node, max_weight, n, values, weights):
+	if node.weight >= max_weight:
+		return 0
+	result = node.value
+	j = node.level + 1
+	total_weight = node.weight
+	while j < n and total_weight + weights[j] <= max_weight:
+		total_weight += weights[j]
+		result += values[j]
+		j += 1
+	if j < n:
+		result += (max_weight - total_weight) * (values[j] / weights[j])
+	return result
 
-5. "Breadth First Search (BFS): A Graph Traversal Algorithm with Examples in Python" by DataCamp - This tutorial introduces BFS using Python code samples and visualizations. It explains the basic concepts of graph theory and traversal, and shows how BFS can be applied to solve problems such as finding the shortest path in a graph.   
+def bfs(n, max_weight, values, weights):
+	queue = Queue()
+	root = Node(-1, 0, 0, 0)
+	queue.put(root)
+	max_value = 0
+	while not queue.empty():
+		node = queue.get()
+		if node.level == -1:
+			left = Node(0, 0, 0, 0)
+		elif node.level == n - 1:
+			continue
+		else:
+			left = Node(node.level + 1, node.weight + weights[node.level + 1], node.value + values[node.level + 1], 0)
+			left.bound = bound(left, max_weight, n, values, weights)
+			if left.weight <= max_weight and left.value > max_value:
+				max_value = left.value
+			if left.bound > max_value:
+				queue.put(left)
+		right = Node(node.level + 1, node.weight, node.value, 0)
+		right.bound = bound(right, max_weight, n, values, weights)
+		if right.weight <= max_weight and right.value > max_value:
+			max_value = right.value
+		if right.bound > max_value:
+			queue.put(right)
+	return max_value
+
+n = int(input())
+max_weight = int(input())
+values = list(map(int, input().split()))
+weights = list(map(int, input().split()))
+
+max_value = bfs(n, max_weight, values, weights)
+
+print(max_value)
+
+
+3. 題目：在一個NxN的網格中，1代表通路，0代表牆，從左上方的格子開始走，每次只能向右或向下走，走到右下角的格子後結束，尋找一條最短的路徑。
+
+答案：
+
+from queue import Queue
+
+class Node:
+	def __init__(self, row, col, steps):
+		self.row = row
+		self.col = col
+		self.steps = steps
+
+def bfs(n, grid):
+	directions = [(1, 0), (0, 1)]
+	visited = [[False for _ in range(n)] for _ in range(n)]
+	queue = Queue()
+	start = Node(0, 0, 0)
+	queue.put(start)
+	visited[0][0] = True
+	while not queue.empty():
+		currentNode = queue.get()
+		if currentNode.row == n - 1 and currentNode.col == n - 1:
+			return currentNode.steps
+		for dir in directions:
+			newRow = currentNode.row + dir[0]
+			newCol = currentNode.col + dir[1]
+			
+			if newRow >= 0 and newRow < n and newCol >= 0 and newCol < n and grid[newRow][newCol] == 1 and not visited[newRow][newCol]:
+				queue.put(Node(newRow, newCol, currentNode.steps + 1))
+				visited[newRow][newCol] = True
+	return -1
+
+n = int(input())
+grid = []
+for i in range(n):
+	grid.append(list(map(int, input().split())))
+
+print(bfs(n, grid))
+
+
+4. 題目： 給定一個大小為n的矩陣，每個位置的值代表該位置的魔法值，每次可以進行一次魔法轉換，將以該位置為起始點的行和列值全部加1。求將整個矩陣的魔法值加到X需要進行最少多少次魔法轉換。
+
+答案：
+
+from queue import Queue
+
+class Node:
+	def __init__(self, i, j, value, steps):
+		self.i = i
+		self.j = j
+		self.value = value
+		self.steps = steps
+
+def bfs(n, grid, x):
+	visited_row = [False for _ in range(n)]
+	visited_col = [False for _ in range(n)]
+	queue = Queue()
+	start = Node(0, 0, grid[0][0], 0)
+	visited_row[0] = True
+	visited_col[0] = True
+	queue.put(start)
+	count = 0
+	while not queue.empty():
+		node = queue.get()
+		if node.value >= x:
+			count = node.steps
+			break
+		if not visited_row[node.i]:
+			for j in range(n):
+				newValue = node.value + grid[node.i][j]
+				queue.put(Node(node.i, j, newValue, node.steps + 1))
+			visited_row[node.i] = True
+		if not visited_col[node.j]:
+			for i in range(n):
+				newValue = node.value + grid[i][node.j]
+				queue.put(Node(i, node.j, newValue, node.steps + 1))
+			visited_col[node.j] = True
+	return count
+
+n = int(input())
+grid = []
+for i in range(n):
+	grid.append(list(map(int, input().split())))
+	
+x = int(input())
+
+print(bfs(n, grid, x))
+
+
+5. 題目：將一個由字符串s1轉換為字符串s2，可以進行三種操作：插入一個字符、刪除一個字符、替換一個字符。求最小的操作次數。
+
+答案：
+
+from queue import Queue
+
+class Node:
+	def __init__(self, s, steps):
+		self.s = s
+		self.steps = steps
+
+def bfs(s1, s2):
+	if s1 == s2:
+		return 0
+	queue = Queue()
+	visited = set()
+	queue.put(Node(s1, 0))
+	visited.add(s1)
+	while not queue.empty():
+		node = queue.get()
+		for i in range(len(s1)):
+			for j in range(26):
+				newChar = chr(ord('a') + j)
+				if newChar != node.s[i]:
+					newStr = node.s[:i] + newChar + node.s[i+1:]
+					if newStr == s2:
+						return node.steps + 1
+					if newStr not in visited:
+						queue.put(Node(newStr, node.steps + 1))
+						visited.add(newStr)
+		if len(node.s) < len(s2):
+			newStr = node.s + 'a'
+			if newStr == s2:
+				return node.steps + 1
+			if newStr not in visited:
+				queue.put(Node(newStr, node.steps + 1))
+				visited.add(newStr)
+			
+			newStr = 'a' + node.s
+			if newStr == s2:
+				return node.steps + 1
+			if newStr not in visited:
+				queue.put(Node(newStr, node.steps + 1))
+				visited.add(newStr)
+			
+		elif len(node.s) > len(s2):
+			for i in range(len(node.s)):
+				newStr = node.s[:i] + node.s[i+1:]
+				if newStr == s2:
+					return node.steps + 1
+				if newStr not in visited:
+					queue.put(Node(newStr, node.steps + 1))
+					visited.add(newStr)
+	return -1
+
+s1 = input()
+s2 = input()
+
+print(bfs(s1, s2))   
 

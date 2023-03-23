@@ -1,3 +1,7 @@
++++
+title = "Command Pattern"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Command Pattern
@@ -68,31 +72,4 @@ Answer: By storing a history of executed commands, the Command pattern allows yo
 
 5. What are some common use cases for the Command pattern?
 Answer: Some common use cases for the Command pattern include implementing menu items, toolbar buttons, and keyboard shortcuts in a graphical user interface, implementing multi-level undo/redo functionality, and implementing a transactional system for database updates.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Command Pattern
-{{< /ask_chatgpt >}}
-
-
-
-1. "Command Pattern - Design Patterns." Tutorials Point. 
-
-2. "Command Design Pattern." GeeksforGeeks. 
-
-3. "Command Pattern." Refactoring Guru. 
-
-4. "Command Pattern." Sourcemaking. 
-
-5. "Command Pattern | GoF Design Patterns with Examples using Java and UML." DZone. 
-
-6. "The Command Pattern." Patterns in Software Engineering. 
-
-7. "Command pattern." Wikipedia. 
-
-8. "Design Patterns: Command Pattern." JournalDev. 
-
-9. "Command Pattern - Java Design Patterns." Java Code Geeks. 
-
-10. "Command Pattern." JavaTpoint.   
 

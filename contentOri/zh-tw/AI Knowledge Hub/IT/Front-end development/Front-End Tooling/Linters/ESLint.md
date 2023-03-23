@@ -1,9 +1,10 @@
 +++
 title = "ESLint"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題ESLint的問題
+給我5題ESLint的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "ESLint"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明ESLint並舉例
+以中文說明ESLint並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ eslint calculateSum.js
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列ESLint的重點
+以中文條列ESLint的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ eslint calculateSum.js
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題ESLint的中等難度問題，並在後面列出答案
+以中文給我5題ESLint的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -111,36 +112,4 @@ B. prefer-const
 C. no-useless-concat
 
 答案: A   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇ESLint的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "ESLint - Pluggable JavaScript linter" from eslint.org
-- https://eslint.org/
-
-This official website provides all the information about ESLint, including installation, configuration, rules and plugins, and frequently asked questions. 
-
-2. "A Beginner』s Guide to ESLint" from sitepoint.com
-- https://www.sitepoint.com/beginners-guide-to-eslint/
-
-This article explains why using ESLint is important and how to get started with it. It includes step-by-step instructions for installation, setup and configuration for the ESLint extension on Visual Studio code.
-
-3. "ESLint: The Basics" from dev.to
-- https://dev.to/hardlydifficult/eslint-the-basics-540
-
-This tutorial covers the basics of ESLint, including why and how to use it, how to write custom rules and how to fix common issues using ESLint.
-
-4. "Improve Your Code Quality with ESLint" from scotch.io
-- https://scotch.io/tutorials/improve-your-code-quality-with-eslint
-
-This article provides a comprehensive guide on setting up and using ESLint in a project. It covers installing ESLint, configuring it to suit the project, setting rules, and adding plugins.
-
-5. "ESLint – The Pluggable JavaScript Linter – In-Depth Beginner』s Guide" from freecodecamp.org
-- https://www.freecodecamp.org/news/eslint-the-pluggable-javascript-linter-in-depth-beginners-guide-2d50c424c2b5/
-
-This guide covers everything about ESLint, including why it is important, how to install it, and how to configure it to fit your project. It also has a section on how to integrate ESLint with popular code editors like VS Code and Sublime Text.   
 

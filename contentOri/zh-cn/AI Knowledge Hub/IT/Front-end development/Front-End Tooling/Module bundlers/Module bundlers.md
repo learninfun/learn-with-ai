@@ -1,5 +1,6 @@
 +++
 title = "模组打包器"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -74,26 +75,4 @@ Module bundlers是一種將多個模組(Module)合併成單一檔案的工具，
 5. 请问 Rollup 与 Webpack 有哪些不同点？
 
 答：Rollup 的优点是产生的 bundle 更小、更快，并且更适合用于打包开源库等程式库，而 Webpack 则更适合用于打包应用程式，并且支援更多的优化方式，如 Tree Shaking、Code Splitting 等。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Module bundlers的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Webpack" from the official website of Webpack
-https://webpack.js.org/
-
-2. "An Introduction to JavaScript Module Bundling with Webpack" by Tania Rascia on Scotch.io
-https://scotch.io/tutorials/javascript-module-bundling-an-introduction-with-webpack
-
-3. "Beginner's guide to Webpack" by Sumit Kumar on Medium
-https://medium.com/@souravdey/beginners-guide-to-webpack-b63d18bc7db#.emlt24sv4
-
-4. "Getting Started with Browserify and Gulp" by Blake Embrey on SitePoint
-https://www.sitepoint.com/getting-started-browserify-gulp/
-
-5. "Understanding JavaScript Modules: Bundling & Transpiling" by T.J. VanToll on Telerik Developer Network
-http://developer.telerik.com/content-types/tutorials/understanding-javascript-modules-bundling-transpiling/   
 

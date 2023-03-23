@@ -1,9 +1,10 @@
 +++
 title = "中介者模式"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Mediator Pattern的問題
+給我5題Mediator Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "中介者模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Mediator Pattern並舉例
+以中文說明Mediator Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ title = "中介者模式"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Mediator Pattern的重點
+以中文條列Mediator Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -42,7 +43,7 @@ title = "中介者模式"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Mediator Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Mediator Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -88,31 +89,4 @@ title = "中介者模式"
 (2) 對象之間交互的場景。
 
 (3) 多對多交互的場景。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Mediator Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Mediator Pattern in Java: Explained with an Example - https://www.baeldung.com/java-mediator-pattern
-
-This article provides a detailed explanation of the Mediator pattern in Java, along with a practical example of how it can be used to simplify communication between objects in a complex system.
-
-2. Mediator Pattern: Overview - https://refactoring.guru/design-patterns/mediator
-
-This review of the Mediator pattern provides a high-level overview of its purpose, benefits, and implementation, along with examples of how the pattern can be applied in various scenarios.
-
-3. The Mediator Pattern: A More Controlled Approach to Object Interaction - https://www.dummies.com/programming/software-development/the-mediator-pattern-a-more-controlled-approach-to-object-interaction/
-
-This article explains the Mediator pattern in plain language, with a focus on how it can help simplify object interaction and improve code maintainability.
-
-4. Practical Design Patterns: Mediator - https://www.toptal.com/design-patterns/mediator-pattern
-
-This tutorial offers a practical guide to implementing the Mediator pattern in real-world applications, with code examples and detailed explanations of the key concepts.
-
-5. Mediator Pattern in JavaScript - https://www.javascripttutorial.net/design-patterns/mediator-pattern/
-
-This article provides a detailed guide to implementing the Mediator pattern in JavaScript, including a step-by-step example and tips for best practices.   
 

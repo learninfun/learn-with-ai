@@ -1,9 +1,10 @@
 +++
 title = "代理模式"
+weight = "7"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Proxy Pattern的問題
+給我5題Proxy Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "代理模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Proxy Pattern並舉例
+以中文說明Proxy Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -77,7 +78,7 @@ public class Main {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Proxy Pattern的重點
+以中文條列Proxy Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -91,7 +92,7 @@ public class Main {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Proxy Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Proxy Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -318,41 +319,4 @@ public class MessengerWindowProxy implements MessengerWindow {
     }
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Proxy Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. “Proxy Design Pattern” from Tutorials Point
-
-URL: https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
-
-This page from Tutorials Point provides a clear and concise explanation of the Proxy Pattern, including its definition, example usage, and benefits. It also includes a UML diagram and code examples in Java.
-
-2. “The Proxy Pattern” from SourceMaking
-
-URL: https://sourcemaking.com/design_patterns/proxy
-
-This page from SourceMaking provides a thorough explanation of the Proxy Pattern, including its purpose and types, and how it differs from other design patterns. It also includes a step-by-step example of creating a proxy in Java.
-
-3. “Proxy Design Pattern in Java Example Tutorial” from Javatpoint
-
-URL: https://www.javatpoint.com/proxy-pattern
-
-This page from Javatpoint provides a detailed explanation of the Proxy Pattern in Java, including its definition, example usage, and code examples. It also includes a UML diagram and how the pattern can be implemented in a real-world scenario.
-
-4. “Proxy Pattern: Storing Remote Objects Locally” from DZone
-
-URL: https://dzone.com/articles/proxy-pattern-storing-remote
-
-This article from DZone provides a unique perspective on the Proxy Pattern and how it can be used to store remote objects locally for improved performance. It also includes a code example in Java.
-
-5. “Proxy Pattern” from Java Design Patterns
-
-URL: https://java-design-patterns.com/patterns/proxy/
-
-This page from Java Design Patterns provides a concise explanation and code example of the Proxy Pattern in Java. It also includes a section on the pattern’s benefits and drawbacks, as well as suggestions for other design patterns to use in conjunction with the Proxy Pattern.   
 

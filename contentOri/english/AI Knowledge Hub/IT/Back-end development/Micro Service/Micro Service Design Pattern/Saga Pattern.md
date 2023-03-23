@@ -1,3 +1,7 @@
++++
+title = "Saga Pattern"
+weight = "6"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Saga Pattern
@@ -74,18 +78,4 @@ Answer: The key components of a Saga Pattern implementation are the Saga orchest
 
 5. How does Saga Pattern ensure consistency and reliability in distributed transactions?
 Answer: Saga Pattern ensures consistency and reliability by breaking down the overall transaction into smaller sub-transactions, each of which can be performed independently by a separate microservice with its own database. The Saga orchestrator manages the overall state of the transaction and can take compensating actions in case of any failures or inconsistencies.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Saga Pattern
-{{< /ask_chatgpt >}}
-
-
-
-1. Introduction to Saga Pattern - https://microservices.io/patterns/data/saga.html
-2. What is Saga Pattern and When to Use It? - https://dzone.com/articles/what-is-saga-pattern-and-when-to-use-it
-3. The Saga Pattern in Microservices - https://docs.microsoft.com/en-us/azure/architecture/microservices/patterns/saga
-4. Saga Pattern: An Overview - https://medium.com/containers-101/saga-pattern-an-overview-206773e80a
-5. Saga Pattern: What Is It? Why Is It Important? - https://sunilpaul.medium.com/saga-pattern-what-is-it-why-is-it-important-5eabd2d8c454
-6. Orchestrate Microservices with Ease Using the Saga Pattern - https://www.twilio.com/blog/orchestrate-microservices-with-ease-using-the-saga-pattern   
 

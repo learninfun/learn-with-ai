@@ -1,7 +1,7 @@
 
 
-1. What are the main competitors in the target market, and what are their strengths and weaknesses compared to the company? 
-2. How do the competitors price their products and services, and how does the company's pricing strategy compare? 
-3. What marketing and advertising strategies are the competitors using, and how effective are they compared to the company's strategies? 
-4. How do the competitors deliver their products and services, and how does their customer service compare to the company's? 
-5. Are there any emerging competitors that could disrupt the market, and what are their strengths and weaknesses compared to the company and existing competitors?
+1. 你公司如何与竞争对手进行比较分析？
+2. 您认为您公司的竞争优势在哪里？相对应的，您认为竞争对手的优势是什么？
+3. 你如何定义行业竞争对手？你公司是否在瞄准同一个目标客户群，或者有其他竞争策略？
+4. 你公司在哪些方面较胜竞争对手？然而，你能想到哪些方面是你公司的弱点，需要进行改进？
+5. 你认为该行业内哪些趋势和变化会影响你公司的竞争力，并对竞争对手产生影响？

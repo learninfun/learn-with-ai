@@ -1,5 +1,6 @@
 +++
 title = "Bellman-Ford演算法"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -145,36 +146,4 @@ Done!
 5. 给定一个带有权重的有向图，求给定节点到达其他节点的最短路径，但是有一些节点被限制，无法到达。
 
 答案: 该问题可以使用贝尔曼福德算法解决，但是需要进行一些额外的处理。首先，我们希望在进行运算时不考虑这些不可到达的节点，在算法运行之前，我们需要将这些节点的所有入边都移除。这样，算法就不会考虑那些无法到达的节点，可以正确地计算出其他节点的最短路径。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Bellman-Ford Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Bellman Ford Algorithm
-Link: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
-
-This article by GeeksforGeeks is a comprehensive guide to the Bellman-Ford algorithm. It covers the theory, pseudocode, and implementation in C++, along with a visualization of the algorithm. Additionally, it discusses the time and space complexity of the algorithm and its applications.
-
-2. Brilliant: Bellman-Ford Algorithm
-Link: https://brilliant.org/wiki/bellman-ford-algorithm/
-
-Brilliant's article on the Bellman-Ford algorithm covers the basics of the algorithm, discusses a variant of the algorithm called the SPFA algorithm, and provides a visualization of the algorithm in action. It also includes sample code in Python.
-
-3. TutorialsPoint: Bellman-Ford Algorithm
-Link: https://www.tutorialspoint.com/shortest-path-algorithms-in-networks/bellman-ford-algorithm
-
-TutorialsPoint's article on the Bellman-Ford algorithm provides an overview of the algorithm and its applications. It includes a step by step guide to implementing the algorithm in C++, along with a brief discussion of its advantages and disadvantages compared to other algorithms.
-
-4. Programiz: Bellman-Ford Algorithm
-Link: https://www.programiz.com/dsa/bellman-ford-algorithm
-
-Programiz's article on the Bellman-Ford algorithm is a short and concise guide to the algorithm. It covers the theory, pseudocode, and implementation in C++. It also includes a section on the limitations of the algorithm and when it might not be the best choice.
-
-5. Medium: Introduction to Bellman-Ford Algorithm
-Link: https://medium.com/@adityakumar_9074/introduction-to-bellman-ford-algorithm-fa690f04229f
-
-This article by Medium provides an introduction to the Bellman-Ford algorithm, along with a discussion of its applications in various fields such as network routing and graph theory. It also includes code examples in Python and Java.   
 

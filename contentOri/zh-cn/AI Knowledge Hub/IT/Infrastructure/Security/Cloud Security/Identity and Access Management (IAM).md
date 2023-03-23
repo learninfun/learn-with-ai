@@ -1,5 +1,6 @@
 +++
 title = "身份和存取管理（IAM）"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -44,23 +45,23 @@ IAM 技术被广泛应用于企业环境中，其中包括：
 
 
 
-1. 身份认证（Authentication）：确认使用者的真实身份，通过使用者ID和密码等方式进行检查。
+1. 身份認證（Authentication）：確認使用者的真實身份，通過使用者ID和密碼等方式進行檢查。
 
-2. 存取控制（Access Control）：限制使用者只能访问其所授权的系统和应用程式。
+2. 存取控制（Access Control）：限制使用者只能訪問其所授權的系統和應用程式。
 
-3. 授权（Authorization）：确认使用者可访问哪些资源和功能，以及他们可以执行哪些操作。
+3. 授權（Authorization）：確認使用者可訪問哪些資源和功能，以及他們可以執行哪些操作。
 
-4. 帐户管理（Account Management）：管理用户帐户和其权限，以便更好地控制存取和权限。
+4. 帳戶管理（Account Management）：管理用戶帳戶和其權限，以便更好地控制存取和權限。
 
-5. 安全性监视（Security Monitoring）：监控组织内部和外部存取的安全性，以及撤销未经授权的存取。
+5. 安全性監視（Security Monitoring）：監控組織內部和外部存取的安全性，以及撤銷未經授權的存取。
 
-6. 单一登录（Single Sign-On）：使用者只需输入一次凭证，就可以获得对多个应用程式和系统的存取权限。
+6. 單一登錄（Single Sign-On）：使用者只需輸入一次憑證，就可以獲得對多個應用程式和系統的存取權限。
 
-7. 身份可管理性（Identity Governance）：确保组织有一个整体的视图并有效管理使用者身份。
+7. 身份可管理性（Identity Governance）：確保組織有一個整體的視圖並有效管理使用者身份。
 
-8. IDaaS（Identity as a Service）：提供由第三方提供的IAM服务，可协助组织以更方便和成本效益的方式实现IAM。
+8. IDaaS（Identity as a Service）：提供由第三方提供的IAM服務，可協助組織以更方便和成本效益的方式實現IAM。
 
-9. 风险评估与管理（Risk Assessment and Management）：评估并管理IAM中的风险，针对潜在的威胁实施相应的措施。   
+9. 風險評估與管理（Risk Assessment and Management）：評估並管理IAM中的風險，針對潛在的威脅實施相應的措施。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -73,7 +74,7 @@ IAM 技术被广泛应用于企业环境中，其中包括：
 答：IAM的主要功能包括身份验证、授权、权限管理和安全操作。 
 
 2. 什么是多重因素验证？ 
-答：多因素验证是指通过多种身份验证方式来确认用户身份。例如使用密码、指纹扫描、文字验证等多重验证方式。 
+答：多因素验证是指通过多种身份验证方式来确认用户身份。例如使用密码、指纹扫瞄、文字验证等多重验证方式。 
 
 3. IAM如何保护企业的敏感资料？ 
 答：IAM提供了身份验证和授权功能，确保只有经过授权的人员才能访问敏感资料。此外，IAM还提供了权限管理功能，让企业能够精确地管理资源访问权限。 
@@ -83,26 +84,4 @@ IAM 技术被广泛应用于企业环境中，其中包括：
 
 5. 什么是IAM的关键元件？ 
 答：IAM的关键元件包括身份管理、访问管理、安全性、标识管理和安全协作等，这些元件构成了一个完整的IAM系统。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Identity and Access Management (IAM)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Identity and Access Management (IAM) – What It Is and Why You Need It
-https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identity-and-access-management-iam-what-it-is-and-why-you-need-it/
-
-2. Introduction to IAM (Identity and Access Management)
-https://www.netspective.com/introduction-to-iam-identity-and-access-management/
-
-3. What is Identity and Access Management (IAM)?
-https://www.oneidentity.com/uk/glossary/identity-and-access-management-iam-definition/
-
-4. Identity and Access Management (IAM) Explained 
-https://www.cisecurity.org/blog/identity-and-access-management-iam-explained/
-
-5. The Benefits and Components of Identity and Access Management (IAM) 
-https://www.cybersecurity-insiders.com/identity-and-access-management-iam-benefits-and-components/   
 

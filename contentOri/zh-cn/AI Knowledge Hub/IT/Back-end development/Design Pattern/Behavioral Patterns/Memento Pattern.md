@@ -1,5 +1,6 @@
 +++
 title = "备忘录模式"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -89,7 +90,7 @@ class TextEditorCaretaker:
 2. Memento，即是备忘录的意思，代表储存对象的状态的物件。
 3. Originator，即是原始对象，指的是需要被储存状态的对象。
 4. Caretaker，即是负责管理备忘录的物件，可用于储存、恢复 Originator 的状态。
-5. Memento Pattern 的优点是允许对象在不破坏其封装性的前提下，储存和恢复内部状态，可以有效地解耦合作的对象，并简化了设计和实现的复杂性。   
+5. Memento Pattern 的优点是允许对像在不破坏其封装性的前提下，储存和恢复内部状态，可以有效地解耦合作的对象，并简化了设计和实现的复杂性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -112,21 +113,4 @@ class TextEditorCaretaker:
 
 5. 如何使用Memento Pattern来保存绘图软件的绘图步骤？
 答案：创建一个Memento Class，存储当前的绘图状态。在Painter Class中定义createMemento()和restoreFromMemento()方法，用于创建和恢复绘图步骤。在History Class中维护一个Memento List，存储所有的绘图步骤，实现撤销和重做操作。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Memento Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. https://dzone.com/articles/design-patterns-memento-pattern
-
-2. https://refactoring.guru/design-patterns/memento
-
-3. https://sourcemaking.com/design_patterns/memento
-
-4. https://www.geeksforgeeks.org/memento-design-pattern/
-
-5. https://www.tutorialspoint.com/design_pattern/memento_pattern.htm   
 

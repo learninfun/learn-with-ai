@@ -23,7 +23,7 @@ public class TargetCharacterAdapter extends ExistingCharacter implements Charact
 
 ```
 
-2. 假设现有一个印表机接口，但系统需要将接口改为支持打印机及扫描功能。使用可扩展的对象适配器，满足系统的需求。
+2. 假设现有一个印表机接口，但系统需要将接口改为支持打印机及扫瞄功能。使用可扩展的对象适配器，满足系统的需求。
 
 答案：
 ```
@@ -66,7 +66,7 @@ public class PrinterScannerAdapter implements printer {
 }
 ```
 
-3. 现有一个报表产生器，其支援的数据库为MySQL，现需要扩展以支援PostgreSQL数据库。使用对象适配器，满足报表产生系统的需求。
+3. 现有一个报表产生器，其支援的数据库为MySQL，现需要扩展以支援PostgreSQL数据库。使用对像适配器，满足报表产生系统的需求。
 
 答案：
 ```

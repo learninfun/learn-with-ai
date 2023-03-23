@@ -1,5 +1,6 @@
 +++
 title = "责任链模式"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "责任链模式"
 
 
 
-1. 什么是Chain of Responsibility Pattern？
-2. Chain of Responsibility Pattern 与其他设计模式的区别在哪里？
-3. 在Chain of Responsibility Pattern中，什么是Handler？它有什么作用？
-4. 如何实现Chain of Responsibility Pattern？你可以举一个例子吗？
-5. Chain of Responsibility Pattern 的优缺点是什么？   
+1. 什麼是Chain of Responsibility Pattern？
+2. Chain of Responsibility Pattern 與其他設計模式的區別在哪裡？
+3. 在Chain of Responsibility Pattern中，什麼是Handler？它有什麼作用？
+4. 如何實現Chain of Responsibility Pattern？你可以舉一個例子嗎？
+5. Chain of Responsibility Pattern 的優缺點是什麼？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,7 +22,7 @@ title = "责任链模式"
 
 
 
-Chain of Responsibility Pattern是一种行为型设计模式，目的是在多个对象间处理请求时，达到解耦与组织的效果。此模式将多个对象连接成一条链，每个对象都有机会处理请求。当一个对象不能处理请求时，会将请求转发到下一个对象，直到能够处理或到达链的末端。
+Chain of Responsibility Pattern是一种行为型设计模式，目的是在多个对象间处理请求时，达到解耦与组织的效果。此模式将多个对象连接成一条链，每个对象都有机会处理请求。当一个对像不能处理请求时，会将请求转发到下一个对象，直到能够处理或到达链的末端。
 
 举例来说，有一个单位要向国家政府提出一个计划，计划分为四个阶段：初步的方案、详细的方案、执行的方案和结果的报告。每个阶段的负责人负责处理相关的工作，如果负责人无法处理该阶段的工作，则需要向下一个负责人传递请求，直到工作完成。
 
@@ -36,7 +37,7 @@ Chain of Responsibility Pattern是一种行为型设计模式，目的是在多�
 
 
 
-1. Chain of Responsibility 模式是一种行为型设计模式，通过组合对象形成一条链，每个对象都能够处理请求，若无法处理则传递给下一个对象。
+1. Chain of Responsibility 模式是一种行为型设计模式，通过组合对像形成一条链，每个对象都能够处理请求，若无法处理则传递给下一个对象。
 
 2. 可以通过该模式消除发送者和接收者之间的耦合关系，使得请求可以被多个对象处理。
 
@@ -46,7 +47,7 @@ Chain of Responsibility Pattern是一种行为型设计模式，目的是在多�
 
 5. 该模式的缺点包括：链条过长可能会降低性能，并且由于链条中的每个对象都可以执行处理，因此可能会导致请求被重复处理。
 
-6. 在实现该模式时，需要定义一个抽象处理类，该类包含一个处理请求的方法以及设置下一个处理者的方法。同时还需要实现各个对象的具体处理逻辑。   
+6. 在实现该模式时，需要定义一个抽像处理类，该类包含一个处理请求的方法以及设置下一个处理者的方法。同时还需要实现各个对象的具体处理逻辑。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -543,21 +544,4 @@ $handler1->handle($comment3);
 Basic review is displayed directly.
 Certified review has to be approved before being displayed.
 Pro review is sent to a specialist for reply.   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Chain of Responsibility Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Chain of Responsibility Pattern in Java." DZone, 4 Nov. 2020, dzone.com/articles/chain-of-responsibility-pattern-in-java.
-
-2. "Chain of Responsibility Design Pattern." GeeksforGeeks, www.geeksforgeeks.org/chain-responsibility-design-pattern/.
-
-3. "Chain of Responsibility - Design Patterns." Tutorialspoint, www.tutorialspoint.com/design_pattern/chain_of_responsibility_pattern.htm.
-
-4. "Mastering Chain of Responsibility Design Pattern." Java Code Geeks, 26 Sept. 2021, www.javacodegeeks.com/mastering-chain-of-responsibility-design-pattern.
-
-5. "Chain of Responsibility Pattern." SourceMaking, sourcemaking.com/design_patterns/chain_of_responsibility.   
 

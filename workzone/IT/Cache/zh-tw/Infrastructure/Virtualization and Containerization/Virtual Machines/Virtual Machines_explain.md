@@ -1,12 +1,7 @@
 
 
-Virtual Machines (VMs) are software emulations of computer systems that allow multiple operating systems (OS) to run on a single physical machine, each with its own set of resources. A VM runs like a standalone computer that emulates all the hardware and software services of a typical physical computer.
+Virtual Machines（虛擬機器）是指在一個實體硬體環境中，透過軟體模擬出多個虛擬的電腦系統，每個系統都可以獨立運作，擁有自己的CPU、記憶體、硬碟、網路等資源。這些虛擬機器可以在同一台主機上運行，互不干擾，並且可以隨時動態調整其配置和資源。
 
-Virtual Machines (VMs) are beneficial for many reasons, including:
+例如，一家公司有多個部門需要使用不同的應用程式和操作系統，有些應用程式只能在特定的操作系統下運行，環境不同導致了兼容性問題。這時可以透過虛擬機器來解決這些問題，每個部門可以擁有自己的虛擬機器，運行不同的操作系統和應用程式，互不干擾，同時主機也可以更好地管理和維護這些虛擬機器。
 
-- Cost-efficiency: users can use the same hardware resources to run multiple OS, reducing the need for physical hardware.
-- Compatibility: users can run applications on the guest OS that may not run on the host OS.
-- Security: VMs provide a secure way to isolate different OS on the same machine, reducing the risk of data breaches.
-- Flexibility: VMs provide an easy way to create backups, snapshots, and clones of virtual environments.
-
-An example of a virtual machine is VMWare Workstation, which allows users to run multiple virtual machines( windows, Linux, macOS, solaris) on a single physical machine. Analysts, developers and Quality assurance professionals use it to test different software on different OS without requiring multiple physical machines.
+另一個例子是開發人員可以使用虛擬機器來建立多個測試環境，分別運行不同的應用程式或操作系統，從而測試和驗證其功能和兼容性。這樣做可以避免將不完整或有錯誤的代碼部署到實際環境中，同時也可以減少硬體配置和設置所需的成本和時間。

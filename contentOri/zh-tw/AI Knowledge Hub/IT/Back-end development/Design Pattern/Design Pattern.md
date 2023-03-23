@@ -1,9 +1,10 @@
 +++
 title = "設計模式"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Design Pattern的問題
+給我5題Design Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "設計模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Design Pattern並舉例
+以中文說明Design Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +58,7 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Design Pattern的重點
+以中文條列Design Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -80,7 +81,7 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Design Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Design Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -114,21 +115,4 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 問題：你想要在不修改現有對象代碼的情況下，擴展特定對象的功能。怎麼辦？
 
 答案：Decorator Pattern（裝飾器模式）可以提供一個對象，它可以擴展特定對象的功能。在本例中，你可以將現有的對象傳遞到一個稱為Decorator的裝飾器對象中，這個裝飾器對象可以擴展原有對象的功能但不影響原有對象的代碼。這可以幫助你在不修改本質代碼的前提下，增加對象的功能。舉一個例子，你可以創建一個名為CarDecorator的類別，它可以將一個Car的類別與其他類別結合起來完成額外的操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Design Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Design Patterns by the Gang of Four (GoF) - Java Tutorials. https://www.javatpoint.com/design-patterns-tutorial
-
-2. What is Software Design Pattern? Types of Design Patterns. https://www.guru99.com/design-patterns.html
-
-3. Introduction to Design Patterns. https://www.tutorialspoint.com/design_pattern/index.htm
-
-4. The 23 Gang of Four Design Patterns. https://sourcemaking.com/design_patterns
-
-5. Design patterns in Java. https://www.javatpoint.com/design-patterns-in-java   
 

@@ -1,7 +1,7 @@
 
 
-1. What is Hyper-V and how does it differ from other virtualization software?
-2. What are the benefits of using Hyper-V for server virtualization?
-3. What are the hardware requirements for installing Hyper-V on a Windows Server?
-4. How do you create virtual machines in Hyper-V and what are the configuration options?
-5. How does Hyper-V handle virtual machine snapshots and backups?
+1. Hyper-V是什麼？它可以用來做什麼？
+2. 如何在Windows Server中安裝和配置Hyper-V？
+3. 如何在Hyper-V中創建和管理虛擬機器？
+4. 如何在Hyper-V中配置虛擬網路和虛擬交換機？
+5. 如何備份和還原Hyper-V虛擬機器？

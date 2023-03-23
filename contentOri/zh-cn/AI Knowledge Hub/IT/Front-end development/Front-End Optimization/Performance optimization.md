@@ -1,5 +1,6 @@
 +++
 title = "效能优化"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -52,27 +53,27 @@ Performance optimization是一种优化程序，旨在提高系统、软体、�
 
 
 
-以下是Performance optimization的重點：
+以下是Performance optimization的重点：
 
-1. 減少網站的載入時間：較快的載入時間可以讓用戶更快地瀏覽網站，這通常可以通過壓縮圖像、減少請求數量和使用緩存來實現。
+1. 减少网站的载入时间：较快的载入时间可以让用户更快地浏览网站，这通常可以通过压缩图像、减少请求数量和使用缓存来实现。
 
-2. 優化圖像：大多數網站使用圖像來傳達信息，但過多的、未壓縮的圖像會大大降低網站的載入速度。為了解決這個問題，可以使用縮放和壓縮工具對圖像進行優化。
+2. 优化图像：大多数网站使用图像来传达信息，但过多的、未压缩的图像会大大降低网站的载入速度。为了解决这个问题，可以使用缩放和压缩工具对图像进行优化。
 
-3. 最小化HTTP請求：HTTP請求是網站速度瓶頸之一，因為每個請求都需要時間和資源。為了減少HTTP請求，可以將資源合併到單個檔案中，從而減少請求數量。
+3. 最小化HTTP请求：HTTP请求是网站速度瓶颈之一，因为每个请求都需要时间和资源。为了减少HTTP请求，可以将资源合并到单个档案中，从而减少请求数量。
 
-4. 減少CSS和JavaScript：CSS和JavaScript可以為網站添加大量的交互性和視覺效果，但是太多的CSS和JavaScript也會妨礙網站的速度。為了解決這個問題，可以最小化CSS和JavaScript以減少頁面載入時間。
+4. 减少CSS和JavaScript：CSS和JavaScript可以为网站添加大量的交互性和视觉效果，但是太多的CSS和JavaScript也会妨碍网站的速度。为了解决这个问题，可以最小化CSS和JavaScript以减少页面载入时间。
 
-5. 使用緩存：緩存是將資源儲存到用戶端的硬碟驅動器中，以便再次訪問時可以更快地載入頁面。緩存可以通過使用Expires頭、ETag和Last-Modified等HTTP請求頭進行配置。
+5. 使用缓存：缓存是将资源储存到用户端的硬碟驱动器中，以便再次访问时可以更快地载入页面。缓存可以通过使用Expires头、ETag和Last-Modified等HTTP请求头进行配置。
 
-6. 減少重複的HTML和CSS：重複的HTML和CSS可以導致較長的載入時間，因此應該盡量避免使用。
+6. 减少重复的HTML和CSS：重复的HTML和CSS可以导致较长的载入时间，因此应该尽量避免使用。
 
-7. 壓縮資源：壓縮資源可以減少載入時間，因為它們可以更快地傳輸到瀏覽器中。壓縮可以通過使用Gzip壓縮和反壓縮HTTP請求和回應進行實現。
+7. 压缩资源：压缩资源可以减少载入时间，因为它们可以更快地传输到浏览器中。压缩可以通过使用Gzip压缩和反压缩HTTP请求和回应进行实现。
 
-8. 使用CDN：CDN是一個由多個地理位置不同的網路服務器組成的分佈式系統，可以更快地傳遞網頁資源。使用CDN可以提高網站的速度並減少伺服器負載。
+8. 使用CDN：CDN是一个由多个地理位置不同的网路服务器组成的分布式系统，可以更快地传递网页资源。使用CDN可以提高网站的速度并减少伺服器负载。
 
-9. 優化伺服器設置：優化伺服器設置包括優化網站伺服器和資源的配置和設置，以確保最快的性能。
+9. 优化伺服器设置：优化伺服器设置包括优化网站伺服器和资源的配置和设置，以确保最快的性能。
 
-10. 監控和分析性能：監控和分析網站性能可以讓你追蹤網站的瓶頸和問題，並判斷哪些效果最好，以便改進性能。監控可以通過使用Google Analytics等工具進行實現。   
+10. 监控和分析性能：监控和分析网站性能可以让你追踪网站的瓶颈和问题，并判断哪些效果最好，以便改进性能。监控可以通过使用Google Analytics等工具进行实现。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -81,50 +82,23 @@ Performance optimization是一种优化程序，旨在提高系统、软体、�
 
 
 
-1.問題：如何減少網頁載入時間？ 應該注意哪些事項？
+1.问题：如何减少网页载入时间？ 应该注意哪些事项？
 
-答案：可藉由壓縮圖片、減少http請求、使用CDN、壓縮CSS和JS等技術來減少網頁載入時間。
+答案：可藉由压缩图片、减少http请求、使用CDN、压缩CSS和JS等技术来减少网页载入时间。
 
-2.問題：如何加速網站的載入速度？
+2.问题：如何加速网站的载入速度？
 
-答案：可藉由使用快取技術、選擇適當的網站主機、優化數據庫、縮小圖片、使用CDN等方式加速網站的載入速度。
+答案：可藉由使用快取技术、选择适当的网站主机、优化数据库、缩小图片、使用CDN等方式加速网站的载入速度。
 
-3.問題：如何減少網站的文件大小？
+3.问题：如何减少网站的文件大小？
 
-答案：可藉由縮小圖片、減少http請求、壓縮CSS和JS、縮小字體等方式來減少網站的文件大小。
+答案：可藉由缩小图片、减少http请求、压缩CSS和JS、缩小字体等方式来减少网站的文件大小。
 
-4.問題：如何優化網站的內容？
+4.问题：如何优化网站的内容？
 
-答案：可藉由優化CSS和JS、精簡多餘的HTML、使用適當的字體和圖片、使用快取等方式來優化網站的內容。
+答案：可藉由优化CSS和JS、精简多余的HTML、使用适当的字体和图片、使用快取等方式来优化网站的内容。
 
-5.問題：如何減少網站的請求次數？
+5.问题：如何减少网站的请求次数？
 
-答案：可藉由合併CSS和JS 、使用精靈圖或Base64、選擇適當的圖片格式並進行壓縮、使用CDN、減少http請求等方式來減少網站的請求次數。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Performance optimization的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "10 Tips for Website Performance Optimization" (https://www.cloudflare.com/learning/performance/tips-for-website-performance-optimization/)
-
-This article from Cloudflare offers ten tips for optimizing website performance, including optimizing images and videos, using a content delivery network (CDN), and minimizing HTTP requests.
-
-2. "Website Performance Optimization: Best Practices & Techniques" (https://www.keycdn.com/blog/website-performance-optimization)
-
-KeyCDN provides an in-depth guide to website performance optimization, covering topics such as image optimization, caching, minifying CSS and JavaScript, and leveraging browser caching.
-
-3. "A Comprehensive Guide to Website Performance Optimization" (https://www.abtasty.com/blog/website-performance-optimization-guide/)
-
-AB Tasty offers a comprehensive guide to website performance optimization that covers topics such as improving server response time, optimizing CSS and JavaScript delivery, and reducing the size of web pages.
-
-4. "The Ultimate Website Performance Optimization Guide" (https://www.plesk.com/blog/guides/website-performance-optimization-guide)
-
-Plesk provides a detailed guide to optimizing website performance, covering topics such as optimizing database queries, leveraging browser caching, and using a CDN. The guide also offers tips for optimizing WordPress websites specifically.
-
-5. "Web Performance Optimization Guide" (https://developers.google.com/web/fundamentals/performance/)
-
-Google's Web Performance Optimization Guide offers best practices and techniques for optimizing website performance, including reducing the number of HTTP requests, optimizing images and videos, and improving server response time. The guide also covers topics such as web fonts, JavaScript performance, and resource prioritization.   
+答案：可藉由合并CSS和JS 、使用精灵图或Base64、选择适当的图片格式并进行压缩、使用CDN、减少http请求等方式来减少网站的请求次数。   
 

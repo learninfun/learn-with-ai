@@ -1,9 +1,10 @@
 +++
 title = "Sidecar模式"
+weight = "7"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Sidecar Pattern的問題
+給我5題Sidecar Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Sidecar模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Sidecar Pattern並舉例
+以中文說明Sidecar Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Sidecar Pattern的主要好處是將功能與應用程式邏輯分離。這樣�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Sidecar Pattern的重點
+以中文條列Sidecar Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Sidecar Pattern的主要好處是將功能與應用程式邏輯分離。這樣�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Sidecar Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Sidecar Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -69,26 +70,4 @@ Sidecar Pattern的主要好處是將功能與應用程式邏輯分離。這樣�
 
 5. 若在Sidecar Pattern中，一個伺服器需要使用多個Sidecar提供的功能，應該如何實作？
 答案：可以讓伺服器透過主機與所有Sidecar進行通訊，以取得所需的功能。或者，可以使用Service Mesh來管理所有Sidecar，讓伺服器透過統一的API與Service Mesh進行溝通。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Sidecar Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Sidecar Pattern" by Kelsey Hightower 
-https://kubernetes.io/blog/2018/12/04/the-sidecar-pattern/
-
-2. "Sidecar Containers in Kubernetes" by Michael Hausenblas 
-https://developers.redhat.com/blog/2018/06/28/sidecar-containers-in-kubernetes/
-
-3. "Sidecar Containers: An alternative to monoliths" by Wade Waldron 
-https://www.twilio.com/blog/sidecar-containers
-
-4. "The Sidecar Design Pattern in Microservices Architecture" by Nhan Truong 
-https://medium.com/@nhantique/the-sidecar-design-pattern-in-microservices-architecture-179cfe48ddd1
-
-5. "Using the Sidecar Pattern to Extend Kubernetes for Secure and Scalable Microservices Incubator" by The Linux Foundation 
-https://www.linuxfoundation.org/blog/2018/09/using-the-sidecar-pattern-to-extend-kubernetes-for-secure-and-scalable-microservices/   
 

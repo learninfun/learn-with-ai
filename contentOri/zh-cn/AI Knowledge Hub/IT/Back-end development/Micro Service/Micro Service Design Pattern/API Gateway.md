@@ -1,5 +1,6 @@
 +++
 title = "API网关"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -60,21 +61,4 @@ API Gateway是一個基於RESTful, HTTP或者SOAP通信協議，在多個後端�
 3. 使用API Gateway提供的协议适配器，将不同的协议转换为统一的API调用协议，并根据协议的特点进行相应的配置和优化。
 4. 使用API Gateway提供的负载均衡和自动缩放功能，利用云端计算的弹性资源管理能力，实现系统的高可用和自动扩展。
 5. 使用API Gateway提供的安全性能和加密功能，采用端到端的数据加密和解密方案，保护API的数据传输和存储安全。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇API Gateway的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Getting started with API Gateway" by Amazon Web Services (AWS): This guide provides an overview of API Gateway, explains its features and benefits, and walks you through the process of creating and deploying your first API using the service.
-
-2. "Introduction to API Gateway" by Google Cloud: This article explores the basics of API Gateway, including how it works, what it does, and who should use it. It also provides examples of use cases and best practices for using the service.
-
-3. "API Gateway: The Ultimate Guide" by Tyk: This comprehensive guide covers everything you need to know about API Gateway, including its role in modern IT architectures, the benefits of using it, and best practices for designing and deploying APIs.
-
-4. "How to choose the right API Gateway" by Red Hat: This article takes a closer look at the different types of API Gateways available, including open source and proprietary solutions, and provides guidance on how to choose the right one for your specific needs.
-
-5. "API Gateway vs. Service Mesh: What's the Difference?" by Kong: This informative article explores the similarities and differences between API Gateways and service meshes, and explains when and why you might choose one over the other for your specific use case.   
 

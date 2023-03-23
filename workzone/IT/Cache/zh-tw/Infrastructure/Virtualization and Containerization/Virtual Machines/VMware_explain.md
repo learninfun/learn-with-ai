@@ -1,5 +1,5 @@
 
 
-VMware is a software application for virtualization that allows multiple operating systems to run on a single physical computer. It enables businesses to run various operating systems and applications on a single physical server or computer, which helps save costs and reduce the impact on the environment. This technology works by simulating the hardware of a computer so that it can be shared by multiple virtual machines, each running its own operating system and software.
+VMware是一種虛擬化軟體，可以讓許多虛擬機器在一台物理機器上運行。VMware可以將一部服務器剖分成許多虛擬機器，這些虛擬機器之間互相獨立，彼此不會干擾。這樣可以更有效率的使用服務器的資源，提高服務器的使用率。同時，VMware也可以讓不同的操作系統在同一台服務器上運行，例如Windows、Linux、Mac OS等。這樣可以更快速地建立環境、測試應用程式等。
 
-For example, a company may use VMware to have several virtual machines that run different operating systems, such as Windows, Linux, and macOS. The company can use these virtual machines to run different applications for various purposes such as web servers, databases, software testing, and development. This can help the company save money on hardware costs, simplify management, and improve system uptime.
+舉例來說，一家企業需要運行多個不同的應用程式，每個應用程式都需要一部服務器。如果企業不使用VMware，就需要購買多台服務器，這樣成本非常高。但是如果使用VMware，就可以將多個虛擬機器運行在一台服務器上，大大節省了成本。同時，還可以更輕鬆地管理和維護這些虛擬機器。

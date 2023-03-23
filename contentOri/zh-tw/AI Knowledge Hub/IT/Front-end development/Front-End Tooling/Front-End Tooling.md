@@ -1,9 +1,10 @@
 +++
 title = "前端工具"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Front-End Tooling的問題
+給我5題Front-End Tooling的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "前端工具"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Front-End Tooling並舉例
+以中文說明Front-End Tooling並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Front-end tooling指的是一種開發工具，可以幫助開發者更有效率
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Front-End Tooling的重點
+以中文條列Front-End Tooling的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ Front-end tooling指的是一種開發工具，可以幫助開發者更有效率
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Front-End Tooling的中等難度問題，並在後面列出答案
+以中文給我5題Front-End Tooling的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -203,26 +204,4 @@ module.exports = {
   ]
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Front-End Tooling的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Frontend Tooling: 創建出色網絡體驗的工具和技術
-https://www.toptal.com/front-end/frontend-tooling
-
-2. 為什麼前端工具很重要？講解前沿工具
-https://developer.ibm.com/zh/articles/theimportanceoffront-endtooling/
-
-3. On Front-End Tooling Performance
-https://css-tricks.com/on-front-end-tooling-performance/
-
-4. Choosing the Right Front-End Tools for Your Workflow
-https://www.webfx.com/blog/web-design/choosing-front-end-tools-workflow/
-
-5. Essential Front-End Web Development Tools for 2020
-https://medium.com/better-programming/essential-front-end-web-development-tools-for-2020-aaecea0c2f09   
 

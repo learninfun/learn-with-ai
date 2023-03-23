@@ -1,16 +1,14 @@
 
 
-1. What is Hyper-V?
-Answer: Hyper-V is a virtualization platform that allows multiple operating systems to run on a single physical server.
+1. 如何在Hyper-V中建立一個虛擬交換機(Virtual Switch)？ 
+2. 如何將現有的物理硬碟加入到Hyper-V的虛擬環境中？ 
+3. 如何配置虛擬機器(Virtual Machine)的CPU和內存資源？ 
+4. 如何將可移動的虛擬硬碟(Virtual Hard Disk)移動到不同的運行Hyper-V的伺服器？ 
+5. 如何在Hyper-V中建立一個新的虛擬網路選項卡(New Virtual Network Adapter)？ 
 
-2. What is the minimum hardware requirement to install Hyper-V on a server?
-Answer: The minimum hardware requirement to install Hyper-V on a server is a 64-bit processor that supports Second Level Address Translation (SLAT) and at least 4GB of RAM.
-
-3. How do you create a virtual machine in Hyper-V?
-Answer: To create a virtual machine in Hyper-V, you need to open Hyper-V Manager, select New from the Actions pane, and follow the wizard to configure the virtual machine's settings, such as the operating system, memory, and storage.
-
-4. What is Live Migration in Hyper-V?
-Answer: Live Migration is a feature in Hyper-V that allows you to move a running virtual machine from one physical server to another without downtime.
-
-5. How do you troubleshoot a virtual machine that is not starting in Hyper-V?
-Answer: To troubleshoot a virtual machine that is not starting in Hyper-V, you can check the event logs for error messages, try restarting the Hyper-V Virtual Machine Management service, and ensure that the virtual machine's configuration is set up correctly.
+答案：
+1. 右鍵單擊Hyper-V管理員，從下拉選單中選擇"虛擬交換機管理器"，並按下"新增虛擬交換機"按鈕。
+2. 打開Hyper-V管理員，找到目標虛擬機器，點擊設置，點擊"硬碟"，然後點擊"加入"，找到要使用的現有物理硬碟。
+3. 打開Hyper-V管理員，點擊目標虛擬機器，點擊"設置"，選擇"處理器"或"記憶體"。在那裡，您可以配置分配給虛擬機器的CPU和RAM資源。
+4. 轉換虛擬硬碟時，您必須停止使用虛擬硬碟的虛擬機器。然後，將虛擬硬碟的位置修改為你想移到的那台Hyper-V伺服器上的硬碟路徑。接著，您可以啟動虛擬機器，並執行虛擬硬碟上的作業系統(OS)。
+5. 打開Hyper-V管理員，從下拉選單中選擇"虛擬交換機管理器"，然後在右側中按下新的虛擬交換機，並選擇"內部"或"外部"（橋接到物理網路），最後將其命名並按下"OK"。

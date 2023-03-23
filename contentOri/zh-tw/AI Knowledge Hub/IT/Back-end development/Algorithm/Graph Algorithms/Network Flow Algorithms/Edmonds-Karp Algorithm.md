@@ -1,22 +1,23 @@
 +++
 title = "Edmonds-Karp演算法"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Edmonds-Karp Algorithm的問題
+給我5題Edmonds-Karp Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the time complexity of the Edmonds-Karp algorithm?
-2. Can the Edmonds-Karp algorithm solve the maximum flow problem in a directed graph with negative edge weights? Why or why not?
-3. What is the maximum flow that can be achieved using the Edmonds-Karp algorithm in a flow network with multiple sources and sinks?
-4. How does the Edmonds-Karp algorithm differ from Ford-Fulkerson algorithm in terms of computational efficiency and accuracy in finding the maximal flow?
-5. Can the Edmonds-Karp algorithm be modified to handle undirected graphs or bipartite graphs? If so, how?   
+1. 假設有一個圖形表示水流網路，每條邊都有一個流量上限。請使用Edmonds-Karp演算法，找出從源頭到匯點的最大流量。
+2. 一個國家有很多城市和道路，每條道路都有一個容量限制，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最大流量。
+3. 在一個有向圖中，每條邊都有一個權值，請使用Edmonds-Karp演算法找出從源頭到匯點的最小成本最大流量。
+4. 一個城市通往其他城市的交通網路，每條路都有一個容量限制和一個花費，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最小成本最大流量。
+5. 在一個電信網路中，每一條邊都是一條電纜，每個節點都是一個交換機。如果一對交換機之間的電纜故障了，就不能通信。請使用Edmonds-Karp演算法找出一個最小的故障集，使得從源頭到匯點之間的所有交換機都能夠通信。   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Edmonds-Karp Algorithm並舉例
+以中文說明Edmonds-Karp Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -71,7 +72,7 @@ Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Edmonds-Karp Algorithm的重點
+以中文條列Edmonds-Karp Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -85,7 +86,7 @@ Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Edmonds-Karp Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Edmonds-Karp Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -109,31 +110,4 @@ Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找�
 5. 在一個網路擁有7個頂點和11條邊的情況下，找出源節點為1，匯點為7時的最大流。
 
 答案：最大流為3。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Edmonds-Karp Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Edmonds-Karp Algorithm - GeeksforGeeks 
-https://www.geeksforgeeks.org/edmonds-karp-algorithm/
-本網站提供了從基礎知識到詳細實現的Edmonds-Karp演算法的解釋。最初講解了最大流問題，之後介紹了Edmonds-Karp算法解決該問題的方式。從一般的算法描述，讓讀者瞭解每個步驟，到最終的完整代碼，這些資源一應俱全。
-
-2. Edmonds-Karp algorithm - Wikipedia 
-https://en.wikipedia.org/wiki/Edmonds%E2%80%93Karp_algorithm
-由於許多網站都這樣做，這裡推薦Wikipedia的Edmonds-Karp算法頁面。雖然這個頁面沒有深入地解釋，但它為讀者提供了良好的參考，並將Edmonds-Karp算法作為Ford-Fulkerson算法的可行實現來介紹。
-
-3. The Edmonds-Karp Algorithm - Topcoder 
-https://www.topcoder.com/community/competitive-programming/tutorials/minimum-cut-maximum-flow/
-Topcoder是一個著名的競爭編程網站，他們還為Edmonds-Karp算法提供了良好的教學資源。該網站解釋了原產地優化的視角為什麼是有用的，並提供了非常詳細的區分圖。此外，它還包括了有關最小割和有向圖的信息。
-
-4. Edmonds-Karp Algorithm Implementation in Python - Stack Overflow 
-https://stackoverflow.com/questions/6670715/edmonds-karp-algorithm-in-python?rq=1
-在Stack Overflow上有從Python以及其他程式作者的角度實現Edmonds-Karp演算法的許多文章。很重要的一點是，在這裡可以看到關於Edmonds-Karp演算法的問題以及實現這個演算法的方法。
-
-5. Ford-Fulkerson Algorithm and Edmonds-Karp Algorithm - YouTube 
-https://www.youtube.com/watch?v=GiN3jRdgxU4
-YouTube上有很多關於Edmonds-Karp演算法的教學視頻，但建議看這項目的原因是它同時展示了最大流問題的基本設置以及其他被廣泛使用的算法（如Ford-Fulkerson算法）。此外，這個視頻通過幾個例子和動畫詳細介紹了整個過程，這樣你可以在它的個別部分和輸出之間進行其他認證。   
 

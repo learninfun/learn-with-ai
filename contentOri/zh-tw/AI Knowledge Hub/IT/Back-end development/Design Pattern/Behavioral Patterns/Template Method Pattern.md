@@ -1,9 +1,10 @@
 +++
 title = "模板方法模式"
+weight = "10"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Template Method Pattern的問題
+給我5題Template Method Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "模板方法模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Template Method Pattern並舉例
+以中文說明Template Method Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,7 +45,7 @@ Template Method Pattern是一種行為設計模式，其目的是將一種算法
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Template Method Pattern的重點
+以中文條列Template Method Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +58,7 @@ Template Method Pattern是一種行為設計模式，其目的是將一種算法
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Template Method Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Template Method Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -138,36 +139,4 @@ Template Method Pattern是一種行為設計模式，其目的是將一種算法
 - 關閉聊天室(closeChatRoom方法)
 
 具體類別PublicChatRoom, PrivateChatRoom繼承ChatRoom，並實做其方法   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Template Method Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Design Patterns in PHP: Template Method
-https://code.tutsplus.com/tutorials/design-patterns-in-php-template-method--cms-31744
-
-This tutorial explains how to implement the Template Method pattern in PHP. It provides a detailed example and explains the benefits of using the Template Method pattern in software development.
-
-2. Template Method Design Pattern in Java
-https://www.geeksforgeeks.org/template-method-design-pattern/
-
-This article provides a comprehensive explanation of the Template Method pattern in Java. It includes code examples and diagrams to help illustrate its use.
-
-3. Template Method Pattern – Behavioral Design Pattern
-https://www.javatpoint.com/template-method-design-pattern
-
-This tutorial from javatpoint.com dives into the details of the Template Method pattern, including its structure, benefits, and real-world examples. It includes sample code in Java to help readers understand the pattern.
-
-4. Template Method Pattern in C#
-https://www.dotnettricks.com/learn/designpatterns/template-method-pattern-c-sharp
-
-This article provides a detailed tutorial on the Template Method pattern in C#. It includes code examples and step-by-step instructions to help readers implement the pattern in their applications.
-
-5. Template Method Design Pattern
-https://www.tutorialspoint.com/design_pattern/template_pattern.htm
-
-This tutorial from Tutorialspoint.com provides a clear explanation of the Template Method pattern, including its advantages, disadvantages, and usage scenarios. It includes sample code in Java and C++.   
 

@@ -1,9 +1,10 @@
 +++
 title = "HTTPS"
+weight = "7"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題HTTPS的問題
+給我5題HTTPS的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "HTTPS"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明HTTPS並舉例
+以中文說明HTTPS並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列HTTPS的重點
+以中文條列HTTPS的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題HTTPS的中等難度問題，並在後面列出答案
+以中文給我5題HTTPS的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -74,36 +75,4 @@ HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議�
 4. 中間人攻擊是指黑客在通訊過程中搶走信息，並使通訊雙方誤以為正在通訊，從而進行信息的篡改和偷盜。防止中間人攻擊的方法包括使用可信的CA證書、使用公開密碼和密鑰等。
 
 5. HTTPS可以通過TLS加密保護數據傳輸的安全性，防止網路窺探者獲取和篡改數據。此外，HTTPS還可以通過TLS握手中建立的密鑰來保護用戶的身份和數據。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇HTTPS的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What Is HTTPS? | How Does HTTPS Work?" by SSL.com 
-Link: https://www.ssl.com/what-is-https/
-
-This article explains what HTTPS is, how it works, and why it is important for online security. It also discusses the differences between HTTP and HTTPS.
-
-2. "Why HTTPS Matters More Than Ever" by Google Security Blog 
-Link: https://security.googleblog.com/2018/02/a-secure-web-is-here-to-stay.html
-
-This blog post by Google explains the importance of HTTPS for protecting user data and online privacy. It also discusses the benefits of HTTPS for website owners, such as increased search engine rankings.
-
-3. "How to Implement HTTPS Everywhere" by Mozilla 
-Link: https://blog.mozilla.org/netpolicy/2018/04/23/how-to-implement-https-everywhere/
-
-This article by Mozilla provides step-by-step instructions for website owners to implement HTTPS on their sites. It also discusses the benefits of using HTTPS and the potential risks of not doing so.
-
-4. "HTTPS: The Benefits and Risks of Securing Your Website" by Sucuri 
-Link: https://blog.sucuri.net/2018/02/the-benefits-and-risks-of-securing-your-website-with-https.html
-
-This article by Sucuri discusses the benefits and risks of using HTTPS to secure a website. It also provides tips for website owners to implement HTTPS and troubleshoot common issues.
-
-5. "How HTTPS Works and Why It's Important" by Cloudflare 
-Link: https://www.cloudflare.com/learning/ssl/what-is-https/
-
-This article by Cloudflare explains how HTTPS works and why it is important for online security. It also discusses the different types of SSL/TLS certificates and how to choose the right one for your website.   
 

@@ -1,3 +1,7 @@
++++
+title = "Spring Boot"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Spring Boot
@@ -80,31 +84,4 @@ Yes, you can create a custom error page by creating an HTML file named error.htm
 5. What is the purpose of @EnableAutoConfiguration in Spring Boot?
 Answer: 
 @EnableAutoConfiguration tells Spring Boot to automatically configure the Spring application context based on the classpath dependencies and other settings in the application.properties or application.yml files. This allows developers to focus on developing their business logic without having to worry about configuring the lower-level framework components.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Spring Boot
-{{< /ask_chatgpt >}}
-
-
-
-1. Spring Boot Documentation: https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/
-
-2. Spring Initializr: https://start.spring.io/
-
-3. Spring Boot Getting Started: https://spring.io/guides/gs/spring-boot/
-
-4. Spring Boot Tutorials: https://www.baeldung.com/spring-boot
-
-5. Spring Boot with Microservices: https://www.tutorialspoint.com/spring_boot/spring_boot_microservices.htm
-
-6. Spring Boot API Building: https://dzone.com/articles/build-restful-apis-with-spring-boot
-
-7. Spring Boot Data Access: https://spring.io/guides/gs/accessing-data-mysql/
-
-8. Spring Boot Security: https://www.toptal.com/spring/spring-boot-security-rest-api
-
-9. Spring Boot Validation: https://www.baeldung.com/spring-boot-bean-validation
-
-10. Spring Boot Testing: https://www.baeldung.com/spring-boot-testing   
 

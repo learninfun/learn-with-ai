@@ -1,5 +1,6 @@
 +++
 title = "内容安全策略 (CSP)"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -74,50 +75,18 @@ Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'
 
 
 
-1. CSP如何避免Cross-site scripting (XSS)攻擊？
-答案：CSP可以限制執行JavaScript的來源，進而避免XSS攻擊。使用CSP時，可以設置白名單，只允許特定的域名下的JavaScript腳本執行。如果有其他來源的腳本試圖執行，就會被擋下來。例如，可以在Content-Security-Policy頭信息中設置“script-src https://example.com”，這樣只有來自example.com的JavaScript腳本才能執行。
+1. CSP如何避免Cross-site scripting (XSS)攻击？
+答案：CSP可以限制执行JavaScript的来源，进而避免XSS攻击。使用CSP时，可以设置白名单，只允许特定的域名下的JavaScript脚本执行。如果有其他来源的脚本试图执行，就会被挡下来。例如，可以在Content-Security-Policy头信息中设置“script-src https://example.com”，这样只有来自example.com的JavaScript脚本才能执行。
 
-2. 如何在CSP中設置嚴格的來源限制？
-答案：可以使用“default-src”屬性設置CSP的嚴格來源限制。例如，可以使用“Content-Security-Policy: default-src 'none';”禁止任何外部資源的請求。
+2. 如何在CSP中设置严格的来源限制？
+答案：可以使用“default-src”属性设置CSP的严格来源限制。例如，可以使用“Content-Security-Policy: default-src 'none';”禁止任何外部资源的请求。
 
-3. 如何在CSP中允許特定的iframe？
-答案：可以使用"frame-src"屬性設置特定iframe的來源限制。例如，可以在Content-Security-Policy頭信息中設置“frame-src https://example.com”，這樣只有來自example.com的iframe才能載入。
+3. 如何在CSP中允许特定的iframe？
+答案：可以使用"frame-src"属性设置特定iframe的来源限制。例如，可以在Content-Security-Policy头信息中设置“frame-src https://example.com”，这样只有来自example.com的iframe才能载入。
 
-4. 如何在CSP中設置允許inline樣式？
-答案：可以使用“style-src”屬性設置允許inline樣式。例如，可以在Content-Security-Policy頭信息中設置“style-src 'self' 'unsafe-inline'”，這樣允許網頁中使用的inline樣式。
+4. 如何在CSP中设置允许inline样式？
+答案：可以使用“style-src”属性设置允许inline样式。例如，可以在Content-Security-Policy头信息中设置“style-src 'self' 'unsafe-inline'”，这样允许网页中使用的inline样式。
 
-5. 如何在CSP中設置不允許外部圖片載入？
-答案：可以使用“img-src”屬性設置是否允許外部圖片載入。例如，可以在Content-Security-Policy頭信息中設置“img-src 'self'”，這樣就只允許從同一域名下載入圖片。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Content Security Policy (CSP)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "A Beginner's Guide to Content Security Policy" by Mozilla: 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-
-This guide provides an introduction to Content Security Policy (CSP) and explains how it can help protect websites from various types of attacks, such as cross-site scripting (XSS) and data injection.
-
-2. "Content Security Policy: An Introduction" by Auth0:
-https://auth0.com/blog/content-security-policy-an-introduction/
-
-This blog post offers an overview of CSP, and details how CSP works by defining a set of rules that dictate what resources a website is allowed to load.
-
-3. "Securing Web Applications with Content Security Policy" by Google:
-https://developers.google.com/web/fundamentals/security/csp/
-
-This Google guide details how to implement CSP for web applications, including how to create a CSP policy and how to test and validate the policy.
-
-4. "7 Real-World Examples of Content Security Policy Gone Wrong" by Acunetix: 
-https://www.acunetix.com/blog/web-security-zone/7-real-world-examples-of-content-security-policy-gone-wrong/
-
-This article highlights several common mistakes developers make when implementing CSP and the resulting security vulnerabilities. It also offers advice on how to avoid these mistakes.
-
-5. "Content Security Policy (CSP) – The Ultimate Guide" by Snyk: 
-https://snyk.io/blog/content-security-policy-csp-the-ultimate-guide/
-
-This comprehensive guide covers all aspects of CSP, from its origin and purpose to its implementation and potential impact on performance. It also includes practical tips for setting up and maintaining CSP for a website.   
+5. 如何在CSP中设置不允许外部图片载入？
+答案：可以使用“img-src”属性设置是否允许外部图片载入。例如，可以在Content-Security-Policy头信息中设置“img-src 'self'”，这样就只允许从同一域名下载入图片。   
 

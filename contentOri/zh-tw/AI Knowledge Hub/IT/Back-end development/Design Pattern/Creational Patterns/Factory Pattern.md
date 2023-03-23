@@ -1,9 +1,10 @@
 +++
 title = "工廠模式"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Factory Pattern的問題
+給我5題Factory Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "工廠模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Factory Pattern並舉例
+以中文說明Factory Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -113,7 +114,7 @@ troll.attack()  # output: The Troll attacks!
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Factory Pattern的重點
+以中文條列Factory Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -132,7 +133,7 @@ troll.attack()  # output: The Troll attacks!
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Factory Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Factory Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -305,26 +306,4 @@ class FileFactory:
             raise ValueError('Invalid file name')
 ```
 這個工廠方法可以創建 TextFile、PDFFile 或 ImageFile 的對象。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Factory Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Factory Method Pattern
-https://www.tutorialspoint.com/design_pattern/factory_pattern.htm
-
-2. 理解並實現設計模式：工廠模式
-https://juejin.cn/post/6844903580627522061
-
-3. 工廠模式 - Factory Pattern
-https://ithelp.ithome.com.tw/articles/10208009
-
-4. 设计模式之旅——工厂模式
-https://blog.csdn.net/wanghlht/article/details/78678343
-
-5. 设计模式：工厂模式详解
-https://www.cnblogs.com/whatlonelytear/p/8685857.html   
 

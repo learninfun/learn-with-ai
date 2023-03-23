@@ -1,5 +1,6 @@
 +++
 title = "暴力算法"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -71,17 +72,4 @@ Brute Force（蠻力破解）是一種基於暴力嘗試所有可能性的攻擊
    
 5. 题目：给定一个由'a'和'b'组成的字符串s，请计算s中最长的连续子串，满足其中'a'的个数等于'b'的个数。
    答案：该问题可以使用暴力枚举法进行解答，即对于s的每个子串，都计算其中'a'和'b'的个数，如果相等，就继续向后拓展，求出最长的符合条件的连续子串长度。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Brute Force的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Brute Force Attack". OWASP Foundation. https://owasp.org/www-community/attacks/Brute_force_attack
-2. "Brute-Force Attacks Explained". Imperva. https://www.imperva.com/learn/application-security/brute-force-attack/
-3. "The Basics of Brute Force Attacks". ESET. https://www.eset.com/int/blog/threat-explainer/the-basics-of-brute-force-attacks/
-4. "How Brute Force Attacks Work and How to Stop Them". Norton. https://us.norton.com/internetsecurity-malware-what-is-a-brute-force-attack.html
-5. "What is Brute Force Hacking and How can you Prevent It?". Techradar. https://www.techradar.com/news/what-is-brute-force-hacking-and-how-can-you-prevent-it   
 

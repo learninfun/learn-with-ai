@@ -1,7 +1,7 @@
 
 
-1. 如何利用媒体查询(Media Queries)在不同的装置上显示不同的背景颜色？ 
-答案：在 CSS 档案中，可以使用以下的程式码来实现：
+1. 如何利用媒體查詢(Media Queries)在不同的裝置上顯示不同的背景顏色？ 
+答案：在 CSS 檔案中，可以使用以下的程式碼來實現：
 
 @media (max-width: 767px) {
   body {
@@ -21,16 +21,16 @@
   }
 }
 
-2. 如何在 Responsive web design 中让一个元件水平置中显示？
-答案：可以在该元件外部包覆一个父元件，然后将父元件设为“text-align: center;”，该元件设置display: inline-block;。
+2. 如何在 Responsive web design 中讓一個元件水平置中顯示？
+答案：可以在該元件外部包覆一個父元件，然後將父元件設為「text-align: center;」，該元件設置display: inline-block;。
 
-例如，HTML 代码如下：
+例如，HTML 代碼如下：
 
 <div class="parentDiv">
   <div class="centeredDiv">我是置中的元件</div>
 </div>
 
-然后在 CSS 中进行如下设置：
+然後在 CSS 中進行如下設置：
 
 .parentDiv {
   text-align: center;
@@ -40,8 +40,8 @@
   display: inline-block;
 }
 
-3. 如何在 RWD 中使用 flexbox 布局？
-答案：使用如下的 CSS 代码：
+3. 如何在 RWD 中使用 flexbox 佈局？
+答案：使用如下的 CSS 代碼：
 
 .container {
   display: flex;
@@ -50,8 +50,8 @@
   align-items: center;
 }
 
-4. 如何在不同的装置上使用不同的字型大小？
-答案：使用媒体查询(Media Queries)：
+4. 如何在不同的裝置上使用不同的字型大小？
+答案：使用媒體查詢(Media Queries)：
 
 @media screen and (max-width: 480px) {
   body {
@@ -71,12 +71,12 @@
   }
 }
 
-5. 如何在 Responsive web design 中选择适当的图片大小和解析度？
-答案：使用不同大小的图片，根据装置大小进行切换。例如，可以使用 img srcset 属性设置多个图片尺寸和解析度，这样浏览器可以根据装置屏幕大小选择最适合的图片。代码如下：
+5. 如何在 Responsive web design 中選擇適當的圖片大小和解析度？
+答案：使用不同大小的圖片，根據裝置大小進行切換。例如，可以使用 img srcset 屬性設置多個圖片尺寸和解析度，這樣瀏覽器可以根據裝置屏幕大小選擇最適合的圖片。代碼如下：
 
 <img src="image.jpg" 
-     alt="图片" 
+     alt="圖片" 
      srcset="image-small.jpg 480w, image-medium.jpg 768w, image-large.jpg 1024w"
      sizes="(max-width: 480px) 440px, (max-width: 768px) 728px, 960px">
      
-这段代码会在装置宽度小于 480px 的情况下显示 image-small.jpg，在 480-768px 之间的装置上显示 image-medium.jpg，在宽度大于 768px 的情况下显示 image-large.jpg。sizes 属性指定图片在不同装置大小下的显示尺寸。
+這段代碼會在裝置寬度小於 480px 的情況下顯示 image-small.jpg，在 480-768px 之間的裝置上顯示 image-medium.jpg，在寬度大於 768px 的情況下顯示 image-large.jpg。sizes 屬性指定圖片在不同裝置大小下的顯示尺寸。

@@ -1,16 +1,22 @@
 
 
-1. What is the difference between authentication and authorization in web application security?
-Answer: Authentication refers to the process of verifying a user’s identity to ensure they are who they say they are, while authorization refers to the process of granting access to resources or actions based on a user’s identity and assigned privileges.
+1. 什么是XSS攻击？该如何避免这种攻击？
 
-2. What is cross-site scripting (XSS) and how can it be prevented?
-Answer: Cross-site scripting (XSS) is a type of web application vulnerability that allows attackers to inject malicious scripts into a legitimate website, allowing them to steal sensitive user data. It can be prevented by validating input and encoding output, using frameworks and libraries that offer security features, and implementing a Content Security Policy (CSP).
+2. 为什么HTTPS比HTTP更安全？你知道SSL和TLS协议的区别吗？
 
-3. What is SQL injection and how can it be prevented?
-Answer: SQL injection is a type of web application vulnerability where attackers exploit poorly written SQL queries to gain unauthorized access to a database. It can be prevented by using parameterized queries or stored procedures, limiting access privileges for the database user, and implementing input validation and sanitization.
+3. 如何保护Web应用程序免受SQL注入攻击？条件语句的使用是否会使Web应用程序更加安全？
 
-4. What is session hijacking and how can it be prevented?
-Answer: Session hijacking is a type of web application vulnerability where attackers steal a user’s session ID and use it to gain unauthorized access to the application. It can be prevented by using secure session management techniques such as session tokens, SSL encryption, and implementing a timeout policy to invalidate inactive sessions.
+4. 什么是CSRF攻击？如何实施CSRF攻击？该如何避免这种攻击？
 
-5. What is a cross-site request forgery (CSRF) vulnerability and how can it be prevented?
-Answer: A cross-site request forgery (CSRF) vulnerability is a type of web application vulnerability where attackers trick a user’s browser into executing unauthorized actions on a legitimate website. It can be prevented by using a unique token for each user session, limiting the amount of time the token is valid, and implementing server-side validation to ensure that all requests are authenticated and authorized.
+5. 如何安全地存储用户密码？有哪些安全性最高的哈希函数？
+
+答案：
+1. XSS攻击指的是跨站脚本攻击，攻击者通过将恶意代码插入到网页中，使得网站向来访者发送恶意请求或窃取敏感信息。为了避免XSS攻击，可以使用输入验证，输出编码，HTTP标头等方法。
+
+2. HTTPS比HTTP更安全是因为HTTPS通过SSL / TLS加密协议将所有数据加密传输，以确保数据在传输过程中不被窃取或修改。SSL和TLS是相似但不完全一样的协议，其中SSL是较旧的协议，TLS是其更新的版本。
+
+3. 可以使用SQL参数化或存储过程等方法来防止SQL注入攻击。使用条件语句本身不会使Web应用程序更加安全，而是在语句中使用参数化可以使其更加安全。
+
+4. CSRF攻击是跨站请求伪造攻击，攻击者通过冒充受害者的身份在不知情的情况下发送恶意请求。要防止CSRF攻击，可以使用CSRF令牌、同源检查等方法来验证请求。
+
+5. 可以使用加盐哈希算法来安全地存储用户密码，例如BCrypt、SHA-256等。加盐哈希算法可以将密码加密并添加随机生成的盐值，以提高安全性。

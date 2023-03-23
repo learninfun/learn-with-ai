@@ -1,11 +1,7 @@
 
 
-1. Cross-site scripting (XSS) is a type of security vulnerability that enables attackers to inject malicious code into web pages viewed by other users. 
-
-2. Attackers use various types of XSS, including reflected, stored, and DOM-based attacks, to target web applications, usually targeting vulnerable input fields, such as search boxes, message forums, and login forms. 
-
-3. The consequences of an XSS attack can vary, from defacing websites or stealing sensitive data to redirecting users to malicious web pages or crafting hyperlinks that deliver malware. 
-
-4. To prevent XSS, web developers should adopt secure coding techniques, such as input validation, sanitization, and output escaping, and use security tools, such as Content Security Policy (CSP) and cross-site scripting filters. 
-
-5. Users can protect themselves by keeping their software up to date, using anti-malware software, disabling or limiting scripting and plugin capabilities in their browsers, and being cautious of clicking on links or downloading attachments from suspicious sources.
+1. Cross-Site Scripting (XSS)是一種網路攻擊方式，利用網頁設計不當，將惡意程式碼注入到網頁中，造成用戶隱私資料外洩、帳號被盜等安全問題。
+2. XSS攻擊主要分為反射型、儲存型和DOM-based三種方式，其中反射型和儲存型是最常見的攻擊方式。
+3. XSS攻擊可以利用各種輸入欄位，包括搜尋欄位、留言板、信箱、網址列等等。
+4. 預防XSS攻擊的方法包括驗證輸入資料、過濾特殊字元、限制彈跳視窗等等。
+5. 設計網頁時，需要注意安全性問題，並採取相應的措施來保護用戶的隱私和安全。

@@ -1,9 +1,10 @@
 +++
 title = "Mocha"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Mocha的問題
+給我5題Mocha的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Mocha"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Mocha並舉例
+以中文說明Mocha並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ describe('加法測試', function() {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Mocha的重點
+以中文條列Mocha的重點
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +54,7 @@ describe('加法測試', function() {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Mocha的中等難度問題，並在後面列出答案
+以中文給我5題Mocha的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -171,26 +172,4 @@ function getAverageValue(arr, propertyName) {
   return sum / arr.length;
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Mocha的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Mocha: 知名的 JavaScript 測試框架
-Mocha 是一個知名的 JavaScript 測試框架，用於編寫前端和後端應用程式的自動化測試。它提供了豐富的 API 以便於編寫和執行測試，並且支援各種瀏覽器和 Node.js 環境。此外，Mocha 也具有易於擴展的結構，使得它可以匹配各種開發需求。
-
-2. 使用 Mocha 進行 JavaScript 測試
-Mocha 是目前一款最為流行的 JavaScript 測試框架之一，它具有高度的靈活性和可擴展性，可以應用到各種代碼測試需求中。在這篇文章中，您將瞭解到如何使用 Mocha 框架對 JavaScript 應用程式進行測試，包括基本的語法和常用的 API。
-
-3. Mocha 與 Chai 的結合
-Mocha 框架提供許多內置方法和 API，但如果需要更靈活和複雜的方法，我們可以通過集成 Chai 斷言庫來擴展框架。在這篇文章中，您將學習到如何在 Mocha 中使用 Chai 斷言庫，以及如何編寫不同類型的斷言。
-
-4. 如何使用 Mocha 覆蓋率報告
-覆蓋率報告可以為開發人員提供關於測試質量的重要信息，透過這個報告，開發人員可以快速發現並解決代碼中的問題。在這篇文章中，您將學習到如何使用 Mocha 產生覆蓋率報告，以及如何分析和優化測試質量。
-
-5. Mocha 與 Sinon 的結合
-Sinon.js 是一個獨立的 JavaScript 庫，可用於協助實現 JavaScript 的單元測試和集成測試。在結合 Mocha 和 Sinon 之後，可以更好地增加測試效率和可靠性，讓應用程式的代碼更穩定和可靠。在這篇文章中，您將學習到如何使用 Mocha 和 Sinon 進行 JavaScript 測試。   
 

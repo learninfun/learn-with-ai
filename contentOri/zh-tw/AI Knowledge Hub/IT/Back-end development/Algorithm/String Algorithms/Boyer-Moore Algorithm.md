@@ -1,9 +1,10 @@
 +++
 title = "Boyer-Moore演算法"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Boyer-Moore Algorithm的問題
+給我5題Boyer-Moore Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Boyer-Moore演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Boyer-Moore Algorithm並舉例
+以中文說明Boyer-Moore Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -75,7 +76,7 @@ Boyer-Moore算法分為兩個階段：預處理和匹配。在預處理階段，
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Boyer-Moore Algorithm的重點
+以中文條列Boyer-Moore Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -94,7 +95,7 @@ Boyer-Moore算法分為兩個階段：預處理和匹配。在預處理階段，
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Boyer-Moore Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Boyer-Moore Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -135,36 +136,4 @@ def boyer_moore(pattern, text):
 
 5. Boyer-Moore Algorithm可以用來解決什麼樣的問題？
 答案：Boyer-Moore Algorithm可以用來解決字符串匹配的問題，例如從一個文本串中查找一個模式串的出現位置。Boyer-Moore Algorithm的時間複雜度比傳統的字符串匹配算法更低，因此可以在大型文本串中進行高效的搜索。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Boyer-Moore Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Boyer-Moore Algorithm" by GeeksforGeeks: 
-https://www.geeksforgeeks.org/boyer-moore-algorithm/
-
-This article provides a clear and concise overview of the Boyer-Moore algorithm, its history, and its applications. It also includes a step-by-step explanation of the algorithm and its implementation in detail.
-
-2. "Boyer-Moore String Searching Algorithm" by Khan Academy: 
-https://www.khanacademy.org/computing/computer-science/algorithms/string-algorithms/a/boyer-moore-algorithm
-
-This tutorial from Khan Academy offers an interactive lesson on the Boyer-Moore algorithm, explaining the basics of the algorithm and demonstrating how it works in practice. It also includes examples and exercises to help learners solidify their understanding of the algorithm.
-
-3. "Boyer–Moore string-search algorithm" by Wikipedia: 
-https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm
-
-Wikipedia's entry on the Boyer-Moore algorithm offers a detailed explanation of the algorithm, including its run-time complexity and various optimizations. It also provides historical background on the development of the algorithm and describes its real-world applications.
-
-4. "Boyre-Moore Algorithm" by University of Maryland: 
-https://www.cs.umd.edu/class/fall2017/cmsc451/gonsalez/lectures/lecture12-boyermoore.pdf
-
-This comprehensive lecture note by the University of Maryland covers the Boyer-Moore algorithm in great detail, discussing its implementation and optimizations, as well as its relationship with other string searching algorithms. It also includes examples and case studies to illustrate the algorithm's usefulness in practice.
-
-5. "Boyer Moore Algorithm for Pattern Searching" by Programmingsimplified.com: 
-https://www.programmingsimplified.com/c/source-code/c-program-boyer-moore-algorithm
-
-This article provides a simple implementation of the Boyer-Moore algorithm in C language, including source code and examples to help learners get started with the algorithm in practice. It also includes explanations of key concepts and optimization techniques used in the algorithm.   
 

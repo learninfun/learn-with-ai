@@ -1,3 +1,7 @@
++++
+title = "Box model"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Box model
@@ -80,20 +84,4 @@ Answer: Margin is the space outside of the border, while padding is the space be
 
 5. How can you calculate the total width of a box when the padding and border are included?
 Answer: The total width of a box can be calculated by adding the content width, padding, border, and margin. This can be represented as follows: Total width = Width + (2 x Border) + (2 x Padding) + (2 x Margin).   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Box model
-{{< /ask_chatgpt >}}
-
-1. Mozilla Developer Network - CSS Box Model
-2. W3Schools - CSS Box Model
-3. CSS Tricks - Everything You Need to Know About the CSS Box Model
-4. Webopedia - What is Box Model in CSS?
-5. Codrops CSS Reference - Box Model
-6. CSS Box Model - A Comprehensive Guide by Scrimba
-7. Sitepoint - Understanding the CSS Box Model
-8. Tutorial Republic - CSS Box Model
-9. GeeksforGeeks - Box Model in CSS
-10. CSS Box Model - An Introduction on Tuts+   
 

@@ -1,17 +1,17 @@
 
 
-Windows Server Basics是指使用Microsoft Windows Server作為伺服器操作系統，提供基本的伺服器功能和服務。以下是一些Windows Server Basics的示例：
+Windows Server Basics是指使用Microsoft Windows Server作为伺服器操作系统，提供基本的伺服器功能和服务。以下是一些Windows Server Basics的示例：
 
-1. Active Directory：管理和存儲組織中所有的用戶和計算機的信息，可以統一管理帳號、密碼和設定。
+1. Active Directory：管理和存储组织中所有的用户和计算机的信息，可以统一管理帐号、密码和设定。
 
-2. File Sharing：分享文件和資源，使多個用戶可以訪問同一個文件，並可按照訪問權限訪問數據。
+2. File Sharing：分享文件和资源，使多个用户可以访问同一个文件，并可按照访问权限访问数据。
 
-3. DHCP：使用動態主機配置協議為用戶分配IP地址，這樣可以自動配置用戶的網絡設置，減少了手動配置的麻煩。
+3. DHCP：使用动态主机配置协议为用户分配IP地址，这样可以自动配置用户的网络设置，减少了手动配置的麻烦。
 
-4. DNS：域名解析服務將域名轉換成IP地址，使得用戶可以通過域名訪問網站，而不必記住IP地址。
+4. DNS：域名解析服务将域名转换成IP地址，使得用户可以通过域名访问网站，而不必记住IP地址。
 
-5. Web Server：提供Web網頁的託管和分發，使用戶和客戶端可以通過網絡訪問伺服器端提供的訊息和資訊。
+5. Web Server：提供Web网页的托管和分发，使用户和客户端可以通过网络访问伺服器端提供的讯息和资讯。
 
-6. Email Server：為組織提供電子郵件功能，支援多種郵件協議並可以存儲郵件和郵件附件。
+6. Email Server：为组织提供电子邮件功能，支援多种邮件协议并可以存储邮件和邮件附件。
 
-以上這些功能和服務都是Windows Server Basics的一些範例。Windows Server也具有更高級的功能和服務，如虛擬化、負載平衡、數據庫服務等等。不過，以上這些功能基本涵蓋了Windows Server提供的基本功能。
+以上这些功能和服务都是Windows Server Basics的一些范例。Windows Server也具有更高级的功能和服务，如虚拟化、负载平衡、数据库服务等等。不过，以上这些功能基本涵盖了Windows Server提供的基本功能。

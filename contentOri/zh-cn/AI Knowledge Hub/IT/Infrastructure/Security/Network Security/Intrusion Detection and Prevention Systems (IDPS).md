@@ -1,5 +1,6 @@
 +++
 title = "入侵检测和预防系统（IDPS）"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -65,55 +66,23 @@ Intrusion Detection and Prevention Systems (IDPS)是一种IT安全解决方案�
 
 
 
-1. 什么是IDPS典型的部署位置，以保护企业免受内部和外部攻击？
+1. 什麼是IDPS典型的部署位置，以保護企業免受內部和外部攻擊？
 
-答：IDPS通常放置在内部网路或DMZ上，以保护企业的内部和外部网络免受攻击。
+答：IDPS通常放置在內部網路或DMZ上，以保護企業的內部和外部網絡免受攻擊。
 
-2. 什么是“false positive”，在IDPS中的意义是什么？
+2. 什麼是「false positive」，在IDPS中的意義是什麼？
 
-答：“False positive”指的是IDPS认为发现了攻击，但实际上并没有攻击发生。在IDPS中，“false positive”通常会被视为一个问题，因为它会导致资源浪费和不必要的警报。
+答：「False positive」指的是IDPS認為發現了攻擊，但實際上並沒有攻擊發生。在IDPS中，「false positive」通常會被視為一個問題，因為它會導致資源浪費和不必要的警報。
 
-3. IDPS中的“signature-based”和“anomaly-based”检测系统的差异在哪里？
+3. IDPS中的「signature-based」和「anomaly-based」檢測系統的差異在哪裡？
 
-答：在IDPS中，“signature-based”检测系统是基于已知攻击程式的固定特征来检测攻击的。而“anomaly-based”检测系统基于系统正常行为建立基线，并检测异常行为。它们的差异在于，前者只能侦测已知攻击，后者则可以侦测未知攻击。
+答：在IDPS中，「signature-based」檢測系統是基於已知攻擊程式的固定特徵來檢測攻擊的。而「anomaly-based」檢測系統基於系統正常行為建立基線，並檢測異常行為。它們的差異在於，前者只能偵測已知攻擊，後者則可以偵測未知攻擊。
 
-4. IDPS中的“inline”和“passive”模式有什么区别？
+4. IDPS中的「inline」和「passive」模式有什麼區別？
 
-答：在IDPS中，“inline”模式会主动阻拦攻击，而“passive”模式只会监视流量并生成报告。通常，"inline" 模式比 "passive" 模式具有更好的保护能力，但也可能因误报或阻止了合法流量而导致问题。
+答：在IDPS中，「inline」模式會主動阻攔攻擊，而「passive」模式只會監視流量並生成報告。通常，"inline" 模式比 "passive" 模式具有更好的保護能力，但也可能因誤報或阻止了合法流量而導致問題。
 
-5. 当攻击者进行“fragmentation攻击”时，IDPS如何侦测和防御？
+5. 當攻擊者進行「fragmentation攻擊」時，IDPS如何偵測和防禦？
 
-答：Fragmentation攻击是指将大型封包分片，绕过检测系统的攻击方式。IDPS可以使用“Reassembly-free Packet Inspection”技术，对每个分片进行检测并重建封包，以检验它是否符合攻击规则。此外，IDPS还可以使用“Fragmentation Attack Detection/Prevention”模组来检测和防御分片攻击。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Intrusion Detection and Prevention Systems (IDPS)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Intrusion Detection and Prevention Systems (IDPS)" by Cisco 
-https://www.cisco.com/c/en/us/products/security/intrusion-detection-prevention-systems/index.html
-
-This website by Cisco provides a comprehensive overview of intrusion detection and prevention systems (IDPS). The information covers the basics of IDPS, the types of IDPS, the benefits of IDPS, and how it can improve your network security.
-
-2. "Intrusion Detection and Prevention Systems (IDPS)" by TechTarget 
-https://searchsecurity.techtarget.com/definition/intrusion-detection-and-prevention-system-IDPS
-
-This article by TechTarget delves into the details of IDPS, explaining how it works, the different types of IDPS, and what features to look for when choosing an IDPS solution for your organization. It also highlights various vendors who offer IDPS solutions.
-
-3. "Intrusion Detection and Prevention Systems (IDPS)" by SANS Institute 
-https://www.sans.org/white-papers/38368/
-
-This white paper from SANS Institute discusses the implementation of IDPS in network security. The paper covers how IDPS works, the benefits of using it over traditional firewalls, and the challenges IT departments face when deploying IDPS.
-
-4. "Intrusion Detection and Prevention Systems (IDPS)" by Fortinet 
-https://www.fortinet.com/products/ips.html
-
-This website by Fortinet provides a comprehensive guide to intrusion detection and prevention systems. The information covers the different types of IDPS, the features they provide, and how they can protect your network from advanced threats.
-
-5. "Intrusion Detection and Prevention Systems (IDPS)" by WatchGuard 
-https://www.watchguard.com/help/docs/help-center/en-US/Content/en-US/IDS_IPS/about_ips.html
-
-This webpage by WatchGuard provides an overview of intrusion detection and prevention systems. The information covers the basics of how IDPS works, the benefits of using it over traditional firewall, and how it can help protect your network from cyber threats.   
+答：Fragmentation攻擊是指將大型封包分片，繞過檢測系統的攻擊方式。IDPS可以使用「Reassembly-free Packet Inspection」技術，對每個分片進行檢測並重建封包，以檢驗它是否符合攻擊規則。此外，IDPS還可以使用「Fragmentation Attack Detection/Prevention」模組來檢測和防禦分片攻擊。   
 

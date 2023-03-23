@@ -1,9 +1,10 @@
 +++
 title = "身份和存取管理（IAM）"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Identity and Access Management (IAM)的問題
+給我5題Identity and Access Management (IAM)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "身份和存取管理（IAM）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Identity and Access Management (IAM)並舉例
+以中文說明Identity and Access Management (IAM)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ IAM 技術被廣泛應用於企業環境中，其中包括：
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Identity and Access Management (IAM)的重點
+以中文條列Identity and Access Management (IAM)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +65,7 @@ IAM 技術被廣泛應用於企業環境中，其中包括：
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Identity and Access Management (IAM)的中等難度問題，並在後面列出答案
+以中文給我5題Identity and Access Management (IAM)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -83,26 +84,4 @@ IAM 技術被廣泛應用於企業環境中，其中包括：
 
 5. 什麼是IAM的關鍵元件？ 
 答：IAM的關鍵元件包括身份管理、訪問管理、安全性、標識管理和安全協作等，這些元件構成了一個完整的IAM系統。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Identity and Access Management (IAM)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Identity and Access Management (IAM) – What It Is and Why You Need It
-https://www.mcafee.com/blogs/other-blogs/mcafee-labs/identity-and-access-management-iam-what-it-is-and-why-you-need-it/
-
-2. Introduction to IAM (Identity and Access Management)
-https://www.netspective.com/introduction-to-iam-identity-and-access-management/
-
-3. What is Identity and Access Management (IAM)?
-https://www.oneidentity.com/uk/glossary/identity-and-access-management-iam-definition/
-
-4. Identity and Access Management (IAM) Explained 
-https://www.cisecurity.org/blog/identity-and-access-management-iam-explained/
-
-5. The Benefits and Components of Identity and Access Management (IAM) 
-https://www.cybersecurity-insiders.com/identity-and-access-management-iam-benefits-and-components/   
 

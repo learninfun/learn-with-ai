@@ -1,3 +1,7 @@
++++
+title = "Miller-Rabin Algorithm"
+weight = "7"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Miller-Rabin Algorithm
@@ -72,41 +76,4 @@ Answer: The security parameter is the number of iterations performed in the Mill
 5) Is the Miller-Rabin algorithm efficient for large integers? 
 
 Answer: Yes, the Miller-Rabin algorithm is relatively efficient for large integers, with a time complexity that scales logarithmically with the size of the input. However, it becomes less efficient for very large integers (e.g. with thousands of digits) due to the large number of iterations that must be performed to achieve a high level of confidence in the primality result.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Miller-Rabin Algorithm
-{{< /ask_chatgpt >}}
-
-
-
-1. Miller-Rabin Primality Test Algorithm - GeeksforGeeks
-https://www.geeksforgeeks.org/primality-test-set-3-miller-rabin/
-
-2. Miller–Rabin primality test - Wikipedia
-https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
-
-3. Miller-Rabin Primality Test - Brilliant Math & Science Wiki
-https://brilliant.org/wiki/miller-rabin-primality-test/
-
-4. Primality Testing and the Miller Rabin Algorithm - Math Vault
-https://mathvault.ca/number-theory/miller-rabin/
-
-5. Miller-Rabin - Federico Leoni — Computer Science Notes
-https://federicoleoni.com/notes/miller-rabin/
-
-6. Miller-Rabin Algorithm | Brilliant Math & Science Wiki
-https://brilliant.org/wiki/miller-rabin-algorithm/
-
-7. Miller–Rabin Primality Test Algorithm in Python | Python Engineer
-https://www.python-engineer.com/courses/cryptography/miller-rabin-primality-test/
-
-8. Primality Test: Miller-Rabin - e-maxx-eng
-https://cp-algorithms.com/algebra/primality_tests.html#toc-tgt-2
-
-9. How to perform a Miller-Rabin Primality Test - Python Tutorial
-https://www.python-course.eu/primality_test.php
-
-10. Miller-Rabin Algorithm in Python - Python Code
-https://www.codesansar.com/python-programming/miller-rabin-primality-test-python.htm   
 

@@ -1,9 +1,10 @@
 +++
 title = "Dijkstra演算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Dijkstra's Algorithm的問題
+給我5題Dijkstra's Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -22,7 +23,7 @@ title = "Dijkstra演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Dijkstra's Algorithm並舉例
+以中文說明Dijkstra's Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -81,7 +82,7 @@ Dijkstra's Algorithm是一種用於尋找最短路徑的演算法，通常用於
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Dijkstra's Algorithm的重點
+以中文條列Dijkstra's Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -102,7 +103,7 @@ Dijkstra's Algorithm是一種用於尋找最短路徑的演算法，通常用於
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Dijkstra's Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Dijkstra's Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -121,15 +122,4 @@ Dijkstra's Algorithm是一種用於尋找最短路徑的演算法，通常用於
 
 5. 給定一個無向帶權圖和一個權值K，要求在給定權值範圍內滿足最少邊權值總和的生成樹。
 答案：可以將圖使用Kruskal演算法生成樹後分別使用Dijkstra演算法處理所有生成樹的邊，從而求出最少權值和。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Dijkstra's Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-1. Wiki資料：https://zh.wikipedia.org/wiki/%E8%BF%AA%E5%8F%AF%E6%96%AF%E7%89%B9%E7%AE%97%E6%B3%95
-2. 紫皮書：https://docs.microsoft.com/zh-cn/windows/win32/dxtecharts/the-dijkstra-algorithm
-3. 酷殼：https://coolshell.cn/articles/114903.html
-4. 騰訊大學：https://ke.qq.com/course/3445278
-5. 知乎專欄：https://zhuanlan.zhihu.com/p/27436386   
 

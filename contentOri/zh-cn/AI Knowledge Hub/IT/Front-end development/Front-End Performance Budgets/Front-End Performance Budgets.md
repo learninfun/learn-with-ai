@@ -1,5 +1,6 @@
 +++
 title = "前端性能预算"
+weight = "9"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -60,40 +61,18 @@ title = "前端性能预算"
 
 
 
-1. 如果要求每個頁面的加載時間必須在3秒內完成，請問您會如何限制JavaScript文件的大小？
-答案：限制JavaScript文件的大小不超過200KB。
+1. 如果要求每个页面的加载时间必须在3秒内完成，请问您会如何限制JavaScript文件的大小？
+答案：限制JavaScript文件的大小不超过200KB。
 
-2. 如果您希望每個頁面的可見部分（above-the-fold content）的加載時間應該在1.5秒內完成，請問應該如何優化圖像的加載時間？
-答案：針對可見部分和其他區域，分別優化圖像的加載時間。采用WebP格式的圖像格式，適當地縮小圖像大小，減少需要下載的像素數量。
+2. 如果您希望每个页面的可见部分（above-the-fold content）的加载时间应该在1.5秒内完成，请问应该如何优化图像的加载时间？
+答案：针对可见部分和其他区域，分别优化图像的加载时间。采用WebP格式的图像格式，适当地缩小图像大小，减少需要下载的像素数量。
 
-3. 如果您目標是每個頁面的DOM大小不能超過1MB，請問應該如何減少CSS文件的大小？
-答案：減少CSS文件的大小是通過優化CSS樣式表的過程實現的，其中包括：移除不必要的樣式代碼，包括不使用的樣式，以及唯一樣式的副本；採用可壓縮的格式，如GZIP或BROTLI，優化樣式表的結構。
+3. 如果您目标是每个页面的DOM大小不能超过1MB，请问应该如何减少CSS文件的大小？
+答案：减少CSS文件的大小是通过优化CSS样式表的过程实现的，其中包括：移除不必要的样式代码，包括不使用的样式，以及唯一样式的副本；采用可压缩的格式，如GZIP或BROTLI，优化样式表的结构。
 
-4. 如果您想要確保網站的平均加載時間不超過5秒，您應該如何進行JavaScript代碼優化？
-答案：JavaScript代碼優化可以通過移除不必要的代碼，使用簡單的算法和查詢，並壓縮代碼。此外，避免使用較慢的JavaScript函數和複雜的查詢操作。
+4. 如果您想要确保网站的平均加载时间不超过5秒，您应该如何进行JavaScript代码优化？
+答案：JavaScript代码优化可以通过移除不必要的代码，使用简单的算法和查询，并压缩代码。此外，避免使用较慢的JavaScript函数和复杂的查询操作。
 
-5. 如果您想要減少網頁加載時間並保證高效的性能，您應該如何使用Web Worker？
-答案：Web Worker可以在后臺線程中執行複雜的JavaScript代碼，從而減少主線程的工作量。這樣可以提高網頁的反應速度，同時確保高效的性能。Web Worker通常在處理大量數據，計算密集型操作和耗時操作方面非常有用。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Front-End Performance Budgets的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Front-End Performance Budgets: A Complete Guide | SitePoint
-- https://www.sitepoint.com/front-end-performance-budgets-complete-guide/
-
-2. Crafting Your Front-End Performance Budget – Smashing Magazine
-- https://www.smashingmagazine.com/2015/06/crafting-a-future-proof-responsive-design-strategy/
-
-3. Frontend Performance Budgets – Performance Calendar
-- https://calendar.perfplanet.com/2014/frontend-performance-budgets/
-
-4. Implementing a Front-End Performance Budget with Google Analytics
-- https://mattzeunert.com/2019/05/24/implementing-a-front-end-performance-budget-with-google-analytics.html
-
-5. Measuring Front-end Performance with SpeedCurve
-- https://speedcurve.com/blog/measuring-frontend-performance-with-speedcurve/   
+5. 如果您想要减少网页加载时间并保证高效的性能，您应该如何使用Web Worker？
+答案：Web Worker可以在后台线程中执行复杂的JavaScript代码，从而减少主线程的工作量。这样可以提高网页的反应速度，同时确保高效的性能。Web Worker通常在处理大量数据，计算密集型操作和耗时操作方面非常有用。   
 

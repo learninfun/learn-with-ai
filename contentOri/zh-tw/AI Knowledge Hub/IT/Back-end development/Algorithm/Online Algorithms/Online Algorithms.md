@@ -1,9 +1,10 @@
 +++
 title = "在線算法"
+weight = "12"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Online Algorithms的問題
+給我5題Online Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "在線算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Online Algorithms並舉例
+以中文說明Online Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Online algorithms是一種算法，其可以在數據流到達的同時進行處
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Online Algorithms的重點
+以中文條列Online Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Online algorithms是一種算法，其可以在數據流到達的同時進行處
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Online Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Online Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -68,21 +69,4 @@ Online algorithms是一種算法，其可以在數據流到達的同時進行處
 3. 在一個有向無環圖(DAG)中，找出最長路徑。 (答案: Topological Sort and Dynamic Programming)
 4. 有 k 個有序陣列，請合併這 k 個陣列成一個單一的有序陣列。 (答案: Merge K Sorted Arrays)
 5. 給你一個字符陣列和一個字典，請找出字符陣列中最長的單詞，且該單詞存在字典中。 (答案: Trie Tree and Dynamic Programming)   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Online Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Online Algorithms" - A tutorial from Stanford University that covers the basics of online algorithms, including competitive analysis and decision making with limited information.
-
-2. "Online Algorithms: A Survey" - A comprehensive review of online algorithms that covers a wide range of topics, including optimization, data streaming, and scheduling.
-
-3. "Online Algorithms: The State of the Art" - A research paper that provides an overview of recent developments in online algorithms, highlighting their potential applications and limitations.
-
-4. "Randomized Online Algorithms" - A lecture series from MIT that explores the use of randomized algorithms in online settings, including randomized competitive analysis and the use of randomization in scheduling and resource allocation.
-
-5. "Online Algorithms for Optimization" - A course from the University of California, Berkeley that focuses on online algorithms for optimization problems, such as network flow and primal-dual algorithms.   
 

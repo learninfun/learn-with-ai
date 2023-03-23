@@ -1,3 +1,7 @@
++++
+title = "Virtualization and Containerization"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Virtualization and Containerization
@@ -68,17 +72,4 @@ Answer: Traditional application deployment involves installing the application a
 
 5. What is Kubernetes, and how does it relate to containerization?
 Answer: Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. It enables a more efficient and streamlined approach to containerization by automating many of the tasks involved in deploying and managing containerized applications.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Virtualization and Containerization
-{{< /ask_chatgpt >}}
-
-
-
-1. VMware - Introduction to Virtualization: https://www.vmware.com/topics/glossary/content/virtualization
-2. Red Hat - What is Virtualization?: https://www.redhat.com/en/topics/virtualization/what-is-virtualization
-3. Microsoft - Virtualization technology: https://docs.microsoft.com/en-us/virtualization/
-4. Docker - What is Containerization?: https://www.docker.com/resources/what-containerization
-5. Kubernetes - Introduction to Containerization: https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/   
 

@@ -1,27 +1,50 @@
 
 
-Sorting algorithms are a set of techniques used to organize data in a specific order. The most common orders are ascending and descending, but there are many other types of sorting algorithms, such as sorting by frequency, date, temperature, or any other criteria.
+排序算法是計算機科學中處理數據的常用算法之一，它可以將一組數據按照順序排列。常用的排序算法包括冒泡排序、插入排序、選擇排序、快速排序、合併排序、堆排序等。
 
-Here are some of the most common sorting algorithms and examples of where they might be used:
+下面舉例來說明不同的排序算法：
 
-1. Bubble Sort: This is one of the simplest sorting algorithms. It works by repeatedly swapping adjacent elements in the list until everything is in order.
+1. 冒泡排序（Bubble Sort）：從序列的開始位置開始比較相鄰的兩個數，如果前一個數比後一個數大，則交換兩個數的位置，一直比較到序列的最後一位，再從頭開始重複以上步驟，直至整個序列有序。
 
-Example: You might use bubble sort to alphabetize a list of names.
+例如，對於以下數列進行冒泡排序：[5, 2, 8, 6, 3, 9, 1]
 
-2. Quick Sort: This algorithm works by selecting a pivot element and dividing the list into two smaller lists: one with elements smaller than the pivot and one with elements greater than the pivot. The two sub-lists are recursively sorted until the entire list is sorted.
+第一輪排序：[2, 5, 6, 3, 8, 1, 9]
+第二輪排序：[2, 5, 3, 6, 1, 8, 9]
+第三輪排序：[2, 3, 5, 1, 6, 8, 9]
+第四輪排序：[2, 3, 1, 5, 6, 8, 9]
+第五輪排序：[2, 1, 3, 5, 6, 8, 9]
+第六輪排序：[1, 2, 3, 5, 6, 8, 9]
 
-Example: You might use quick sort to sort a list of numbers from smallest to largest.
+2. 插入排序（Insertion Sort）：從未排序的數列中，按照順序遍歷每一個元素，將每一個元素插入到已排序的序列中，直到所有元素都插入完成。
 
-3. Merge Sort: This algorithm divides the list into two halves, then recursively sorts each half before merging them back together.
+例如，對於以下數列進行插入排序：[5, 2, 8, 6, 3, 9, 1]
 
-Example: You might use merge sort to sort a large list of data that needs to be sorted quickly.
+第一輪排序：[2, 5, 8, 6, 3, 9, 1]
+第二輪排序：[2, 5, 8, 6, 3, 9, 1]
+第三輪排序：[2, 5, 6, 8, 3, 9, 1]
+第四輪排序：[2, 3, 5, 6, 8, 9, 1]
+第五輪排序：[1, 2, 3, 5, 6, 8, 9]
 
-4. Insertion Sort: This algorithm works by building a sorted list one element at a time. Each new element is compared to the already sorted list and inserted in the correct position.
+3. 選擇排序（Selection Sort）：從未排序的數列中，每一次找到未排序部分的最小值，將其排到已排序部分的末尾。
 
-Example: You might use insertion sort to sort a small list of numbers.
+例如，對於以下數列進行選擇排序：[5, 2, 8, 6, 3, 9, 1]
 
-5. Selection Sort: This algorithm selects the smallest element from the list and swaps it with the first element. It then selects the second smallest element and swaps it with the second element, and so on, until the list is sorted.
+第一輪排序：[1, 2, 8, 6, 3, 9, 5]
+第二輪排序：[1, 2, 3, 6, 8, 9, 5]
+第三輪排序：[1, 2, 3, 5, 8, 9, 6]
+第四輪排序：[1, 2, 3, 5, 6, 9, 8]
+第五輪排序：[1, 2, 3, 5, 6, 8, 9]
 
-Example: You might use selection sort to sort a list of students by their test scores.
+4. 快速排序（Quick Sort）：通過將一個數列劃分為較小和較大的兩部分，不斷對較小部分和較大部分重複上述步驟，直到所有元素都有序。
 
-There are many more sorting algorithms, each with its own advantages and disadvantages. The choice of algorithm depends on the size of the list, the data being sorted, and the desired order of the final output.
+例如，對於以下數列進行快速排序：[5, 2, 8, 6, 3, 9, 1]
+
+第一輪排序：[1, 2, 3, 5, 8, 9, 6]
+第二輪排序：[1, 2, 3, 5, 6, 8, 9]
+
+5. 合併排序（Merge Sort）：將一個數列劃分成兩個子數列，對每個子數列進行排序，然後將兩個子數列合併成一個有序數列。
+
+例如，對於以下數列進行合併排序：[5, 2, 8, 6, 3, 9, 1]
+
+第一輪排序：[2, 5, 8, 6, 1, 3, 9]
+第二輪排序：[1, 2, 3, 5, 6, 8, 9]

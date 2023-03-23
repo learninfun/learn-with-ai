@@ -1,9 +1,10 @@
 +++
 title = "適配器模式"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Adapter Pattern的問題
+給我5題Adapter Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "適配器模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Adapter Pattern並舉例
+以中文說明Adapter Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -91,7 +92,7 @@ public class Client {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Adapter Pattern的重點
+以中文條列Adapter Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -125,7 +126,7 @@ public class Client {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Adapter Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Adapter Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -401,36 +402,4 @@ public class SystemWithEncryption {
 }
 
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Adapter Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Adapter Design Pattern - GeeksforGeeks
-https://www.geeksforgeeks.org/adapter-pattern/
-
-這篇文章介紹了 Adapter Design Pattern 的概念、結構和實作方法，提供了多個實例用以說明，以及解釋這個模式的優缺點和應用場合。
-
-2. Adapter Pattern in Java Tutorial with Examples - JournalDev
-https://www.journaldev.com/1487/adapter-design-pattern-java
-
-這篇文章以 Java 為例，介紹了 Adapter Pattern 的基本概念和使用方法，並實現了一個範例，教讀者如何在 Java 中實現這個設計模式。
-
-3. Adapter pattern - Wikipedia
-https://en.wikipedia.org/wiki/Adapter_pattern
-
-維基百科上對 Adapter Pattern 的介紹比較詳盡，包括了這個模式的定義、種類、結構和效果，使用了豐富的圖片說明，對於初學者來說較易理解。
-
-4. The Adapter Pattern Explained - DZone Java
-https://dzone.com/articles/adapter-pattern-explained
-
-這篇文章用 Java 编写了例子，让读者了解 Adapter 模式的使用案例、以及在 Java 编程中如何使用该模式。
-
-5. Adapter Design Pattern - Tutorials Point
-https://www.tutorialspoint.com/design_pattern/adapter_pattern.htm
-
-Tutorials Point 提供了一篇 Adapter Design Pattern 的詳盡教程，包括定義、結構和使用方式的詳細解釋，還有示例代碼和實現步驟。   
 

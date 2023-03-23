@@ -1,5 +1,6 @@
 +++
 title = "防止服务拒绝攻击（DoS）"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "防止服务拒绝攻击（DoS）"
 
 
 
-1. 什么是Denial of Service (DoS)攻击？它如何影响网络安全？
-2. 哪些技术可用于保护网络免受DoS攻击？它们的优点和缺点是什么？
-3. 成功防止DoS攻击需要哪些预防措施？针对不同类型的攻击，采取哪些不同的防御策略？
-4. 利用何种设备或工具可以有效地监测网络流量和检测DoS攻击事件？即时应对的措施有哪些？
-5. DoS攻击可能对企业造成的损失有哪些？如何减轻DoS攻击对业务造成的影响？   
+1. 什麼是Denial of Service (DoS)攻擊？它如何影響網絡安全？
+2. 哪些技術可用於保護網絡免受DoS攻擊？它們的優點和缺點是什麼？
+3. 成功防止DoS攻擊需要哪些預防措施？針對不同類型的攻擊，採取哪些不同的防禦策略？
+4. 利用何種設備或工具可以有效地監測網絡流量和檢測DoS攻擊事件？即時應對的措施有哪些？
+5. DoS攻擊可能對企業造成的損失有哪些？如何減輕DoS攻擊對業務造成的影響？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -69,26 +70,4 @@ DoS攻击有很多种，包括TCP SYN flood攻击、UDP flood攻击、ICMP echo 
 
 5. 如何运用黑白名单来保护网站免受DoS攻击？
 答案：黑白名单可以作为防御DoS攻击的一种有效手段，通过列出白名单和黑名单，可以控制访问网站的使用者及其范围。你可以利用排除攻击流量的黑名单程序、要求验证被认证的IP并在白名单上加入特定的IP地址。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Denial of Service (DoS) Protection的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is Denial of Service (DoS) Protection?" - https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/denial-of-service-protection/
-This blog post by cloud security provider Cloudflare explains the basics of DoS protection and how it works. It also covers mitigation techniques and why DoS attacks are a common threat to websites.
-
-2. "5 Best DDoS Protection Services of 2021" - https://www.guru99.com/ddos-protection-services.html
-This article from Guru99 provides a list of recommended DDoS protection services, along with their features and pricing. It also covers the importance of protecting against DDoS attacks and some common types of attacks.
-
-3. "How to Prevent DDoS Attacks and Harden Your Defenses" - https://www.cisco.com/c/en/us/products/security/prevent-ddos-attacks.html
-This resource from Cisco provides an overview of how DDoS attacks work, along with techniques for prevention and mitigation. It covers both network and application-layer attacks and includes tips for hardening your defenses against future attacks.
-
-4. "The Top 10 DoS Attack Methods and How to Stop Them" - https://www.imperva.com/learn/application-security/denial-of-service/
-This blog post from Imperva examines the top 10 methods used in DoS attacks, along with steps you can take to prevent them. It covers both network-layer and application-layer attacks and includes real-world examples of each type.
-
-5. "How Cloudflare Protects Against DDoS Attacks" - https://www.cloudflare.com/learning/ddos/how-cloudflare-protects-against-ddos-attacks/
-Another resource from Cloudflare, this article dives deeper into their DDoS protection techniques and how they work in real-time. It covers everything from advanced threat detection to traffic filtering and load balancing.   
 

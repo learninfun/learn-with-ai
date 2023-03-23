@@ -1,5 +1,6 @@
 +++
 title = "策略模式"
+weight = "9"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -118,11 +119,11 @@ public class Client {
 
 
 
-1. 定义了一个族群的相关演算法，并让它们可以互相替换，使得程式更具有弹性和扩展性。 
-2. 当程式有多种可行的演算法时，使用者可以透过策略模式动态地选择所需的演算法，而不必修改原始码。 
-3. 策略模式将算法具体实现与使用分离，使得算法可以独立于使用者而维护，从而提高了程式的可读性和可维护性。
-4. 在策略模式中，每个演算法都是一个独立的类别，它们之间可以替换、扩充。 
-5. 策略模式可以应用于各种场景，例如排序、搜寻、运算、加密等任意场景。   
+1. 定義了一個族群的相關演算法，並讓它們可以互相替換，使得程式更具有彈性和擴展性。 
+2. 當程式有多種可行的演算法時，使用者可以透過策略模式動態地選擇所需的演算法，而不必修改原始碼。 
+3. 策略模式將算法具體實現與使用分離，使得算法可以獨立於使用者而維護，從而提高了程式的可讀性和可維護性。
+4. 在策略模式中，每個演算法都是一個獨立的類別，它們之間可以替換、擴充。 
+5. 策略模式可以應用於各種場景，例如排序、搜尋、運算、加密等任意場景。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -403,41 +404,4 @@ public class Main {
     }
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Strategy Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. 官方文件 (英文)
-
-https://dzone.com/articles/design-patterns-strategy
-
-这篇文章介绍了Strategy Pattern的概念和实现方法，表示它是一个重要的设计模式，能够在一个系统中灵活地更改算法、行为等。
-
-2. 知乎 (中文)
-
-https://www.zhihu.com/question/19801131
-
-这篇问答的回答者，浅谈了Strategy Pattern的使用场景、原理等方面，指出它可以让系统更易维护、更容易扩展，尤其是在复杂程式设计中应用更是恰当。
-
-3. Stackoverflow (英文)
-
-https://stackoverflow.com/questions/401355/what-is-the-difference-between-strategy-design-pattern-and-state-design-pattern
-
-这篇Stackoverflow问答回答了Strategy Pattern和State Pattern之间的区别，认为 Strategy Pattern更适合用于算法的替换、解耦等方面，而State Pattern则更适用于状态转换等方面，并且二者可以互相结合使用。
-
-4. Medium (英文)
-
-https://medium.com/@lucaspelloni2/design-pattern-strategy-pattern-23dbddd0649e
-
-这篇Medium博客，通过实例展示了Strategy Pattern如何实现、使用，并指出它的优点即是可以有效地解耦程式码，进而提高系统灵活性、可扩展性。
-
-5. Youtube (英文)
-
-https://www.youtube.com/watch?v=v9ejT8FO-7I
-
-这个Youtube视频介绍了Strategy Pattern的使用情境、示例，并利用图例演示了如何通过Strategy Pattern实现不同算法之间的切换。该视频用一种简单、生动的方式，让初学者更易理解Strategy Pattern的概念和基本用法。   
 

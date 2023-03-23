@@ -1,9 +1,10 @@
 +++
 title = "程式設計"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Programming的問題
+給我5題Programming的中文問題
 {{< /ask_chatgpt >}}
 
 1. 實作一個簡單的To-Do List應用程式，能夠新增、編輯、刪除待辦事項，以及將完成的事項標記為已完成。
@@ -14,7 +15,7 @@ title = "程式設計"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Programming並舉例
+以中文說明Programming並舉例
 {{< /ask_chatgpt >}}
 
 Programming是指使用特定的程序語言來創建、設計和實現軟件和應用程序的過程。編程的目的是讓電腦能夠執行特定的任務或操作。 
@@ -25,7 +26,7 @@ Programming是指使用特定的程序語言來創建、設計和實現軟件和
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Programming的重點
+以中文條列Programming的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ Programming是指使用特定的程序語言來創建、設計和實現軟件和
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Programming的中等難度問題，並在後面列出答案
+以中文給我5題Programming的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -166,26 +167,4 @@ def sharedIndexes(h1, h2):
                 node = node.next
     return res
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Programming的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Programming Language Basics - https://www.geeksforgeeks.org/programming-language-basics/
-This tutorial from GeeksforGeeks covers the basics of programming languages, including compilers, interpreters, syntax, variables, data types, operators, loops, and conditional statements.
-
-2. Learn Python - https://www.learnpython.org/
-This website offers a free, interactive introduction to the Python programming language. Topics covered include syntax, data types, loops, functions, and modules.
-
-3. Java Programming Tutorial - https://www.javatpoint.com/java-tutorial
-This tutorial from javatpoint.com provides an indepth tutorial of the Java programming language. It covers topics such as object-oriented programming, exceptions handling, collections, and generics.
-
-4. C++ Language - https://www.tutorialspoint.com/cplusplus/index.htm
-This tutorial from TutorialsPoint covers the C++ programming language. Topics covered include data types, operators, arrays, functions, and classes.
-
-5. Web development tutorial - https://www.w3schools.com/
-This website covers the basics of web development, including HTML, CSS, JavaScript, SQL, PHP, and ASP. It also offers examples and quizzes to test your knowledge.   
 

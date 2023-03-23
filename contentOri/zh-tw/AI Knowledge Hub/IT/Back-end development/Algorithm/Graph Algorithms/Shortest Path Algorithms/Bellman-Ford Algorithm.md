@@ -1,9 +1,10 @@
 +++
 title = "Bellman-Ford演算法"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Bellman-Ford Algorithm的問題
+給我5題Bellman-Ford Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "Bellman-Ford演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Bellman-Ford Algorithm並舉例
+以中文說明Bellman-Ford Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -106,7 +107,7 @@ Done!
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Bellman-Ford Algorithm的重點
+以中文條列Bellman-Ford Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -121,7 +122,7 @@ Done!
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Bellman-Ford Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Bellman-Ford Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -145,36 +146,4 @@ Done!
 5. 給定一個帶有權重的有向圖，求給定節點到達其他節點的最短路徑，但是有一些節點被限制，無法到達。
 
 答案: 該問題可以使用貝爾曼福德算法解決，但是需要進行一些額外的處理。首先，我們希望在進行運算時不考慮這些不可到達的節點，在算法運行之前，我們需要將這些節點的所有入邊都移除。這樣，算法就不會考慮那些無法到達的節點，可以正確地計算出其他節點的最短路徑。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Bellman-Ford Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Bellman Ford Algorithm
-Link: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
-
-This article by GeeksforGeeks is a comprehensive guide to the Bellman-Ford algorithm. It covers the theory, pseudocode, and implementation in C++, along with a visualization of the algorithm. Additionally, it discusses the time and space complexity of the algorithm and its applications.
-
-2. Brilliant: Bellman-Ford Algorithm
-Link: https://brilliant.org/wiki/bellman-ford-algorithm/
-
-Brilliant's article on the Bellman-Ford algorithm covers the basics of the algorithm, discusses a variant of the algorithm called the SPFA algorithm, and provides a visualization of the algorithm in action. It also includes sample code in Python.
-
-3. TutorialsPoint: Bellman-Ford Algorithm
-Link: https://www.tutorialspoint.com/shortest-path-algorithms-in-networks/bellman-ford-algorithm
-
-TutorialsPoint's article on the Bellman-Ford algorithm provides an overview of the algorithm and its applications. It includes a step by step guide to implementing the algorithm in C++, along with a brief discussion of its advantages and disadvantages compared to other algorithms.
-
-4. Programiz: Bellman-Ford Algorithm
-Link: https://www.programiz.com/dsa/bellman-ford-algorithm
-
-Programiz's article on the Bellman-Ford algorithm is a short and concise guide to the algorithm. It covers the theory, pseudocode, and implementation in C++. It also includes a section on the limitations of the algorithm and when it might not be the best choice.
-
-5. Medium: Introduction to Bellman-Ford Algorithm
-Link: https://medium.com/@adityakumar_9074/introduction-to-bellman-ford-algorithm-fa690f04229f
-
-This article by Medium provides an introduction to the Bellman-Ford algorithm, along with a discussion of its applications in various fields such as network routing and graph theory. It also includes code examples in Python and Java.   
 

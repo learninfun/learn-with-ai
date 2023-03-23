@@ -1,9 +1,10 @@
 +++
 title = "行為型模式"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Behavioral Patterns的問題
+給我5題Behavioral Patterns的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "行為型模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Behavioral Patterns並舉例
+以中文說明Behavioral Patterns並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ Behavioral Patterns 是設計模式中的一類，它關注於不同對像之間
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Behavioral Patterns的重點
+以中文條列Behavioral Patterns的重點
 {{< /ask_chatgpt >}}
 
 
@@ -88,7 +89,7 @@ Behavioral Patterns 是設計模式中的一類，它關注於不同對像之間
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Behavioral Patterns的中等難度問題，並在後面列出答案
+以中文給我5題Behavioral Patterns的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -107,36 +108,4 @@ Behavioral Patterns 是設計模式中的一類，它關注於不同對像之間
 
 5. 請解釋享元模式的目的和作用，並列舉一個實際的應用示例。
 答：享元模式是一種行為型設計模式，它提供了一種減少對像數量的方法，通過共享可共用的對象，來提高系統的效率和性能。例如：一個圖像處理軟件中，有多個圖層需要顯示，但是相同類型圖層顯示效果是一樣的，這時可以使用享元模式來共用相同的圖層對象，以減少對象的數量。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Behavioral Patterns的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. The 4 Most Common Behavioral Patterns in Project Management
-https://thedigitalprojectmanager.com/4-behavioral-patterns-project-management/
-
-This article describes the four common behavioral patterns in project management, including proactive, reactive, avoidant and problem-focused. It also explains how to identify these patterns and how to use them to improve project outcomes.
-
-2. Understanding Behavioral Patterns in Children
-https://www.verywellfamily.com/understanding-behavioral-patterns-in-children-1094836
-
-This article explains how to recognize behavioral patterns in children, such as aggressive, passive, assertive, and withdrawn. It also provides helpful tips for parents and caregivers on how to support and guide children with different behavioral patterns.
-
-3. 5 Common, But Unhealthy, Behavioral Patterns and How to Change Them
-https://www.psychologytoday.com/us/blog/communication-success/201405/5-common-unhealthy-behavioral-patterns-and-how-change-them
-
-This article identifies five common but unhealthy behavioral patterns, such as people-pleasing, passive-aggressiveness, procrastination, negativity, and blaming others. It offers practical tips for how to break free from these patterns and develop healthier behaviors.
-
-4. Behavioral Patterns That Can Help You Achieve Success
-https://www.entrepreneur.com/article/294202
-
-This article discusses the importance of adopting positive behavioral patterns for achieving success, such as persistence, resilience, positivity, and discipline. It also provides examples of successful entrepreneurs who have exhibited these behavioral patterns.
-
-5. Understanding Behavioral Patterns in the Workplace
-https://www.hrtechnologist.com/articles/culture/understanding-behavioral-patterns-in-the-workplace/
-
-This article explains how to identify and deal with different behavioral patterns in the workplace, such as passive-aggressiveness, micromanagement, and conflict avoidance. It also provides tips for improving communication and collaboration among coworkers with different behavioral patterns.   
 

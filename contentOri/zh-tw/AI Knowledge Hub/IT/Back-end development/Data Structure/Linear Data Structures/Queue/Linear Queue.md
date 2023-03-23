@@ -1,9 +1,10 @@
 +++
 title = "線性佇列"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Linear Queue的問題
+給我5題Linear Queue的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "線性佇列"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Linear Queue並舉例
+以中文說明Linear Queue並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ Linear Queue是指一種基於先進先出(FIFO)原則的資料結構。如同�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Linear Queue的重點
+以中文條列Linear Queue的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ Linear Queue是指一種基於先進先出(FIFO)原則的資料結構。如同�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Linear Queue的中等難度問題，並在後面列出答案
+以中文給我5題Linear Queue的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -199,26 +200,4 @@ q = Queue([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 q.reverse_k_subqueues(3)
 print(q.items)  # [3, 2, 1, 6, 5, 4, 9, 8, 7, 10]
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Linear Queue的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Linear Queue Implementation in C++" (https://www.geeksforgeeks.org/linear-queue-cpp/)
-This article provides a step-by-step guide for implementing a linear queue data structure in C++ programming language. It includes a detailed explanation of the algorithms and code snippets for enqueue, dequeue, and display operations.
-
-2. "Implementing a Linear Queue in Python" (https://www.tutorialspoint.com/python_data_structure/python_queue.htm)
-This tutorial explains how to implement a linear queue data structure in Python programming language. The article provides code examples for the enqueue, dequeue, and display operations, along with an explanation of the time complexity of each operation.
-
-3. "Linear Queue Data Structure" (https://www.javatpoint.com/data-structure-queue)
-This article gives an overview of the linear queue data structure, including its definition, characteristics, and operations. The article also provides a comparison between a linear queue and a circular queue and explains when to use each data structure.
-
-4. "Linear Queue using Array" (https://www.tutorialride.com/data-structures/linear-queue-in-c.htm)
-This tutorial explains how to implement a linear queue using an array in C programming language. It includes code snippets for the enqueue, dequeue, and display operations and provides information about handling queue size and data overflow.
-
-5. "Circular Queue vs Linear Queue" (https://www.guru99.com/circular-queue-vs-linear-queue.html)
-This article compares the circular queue and linear queue data structures and explains when to use each. It provides examples of use cases for both data structures and highlights the advantages and disadvantages of each. The article also includes code snippets for implementing both data structures in C++ programming language.   
 

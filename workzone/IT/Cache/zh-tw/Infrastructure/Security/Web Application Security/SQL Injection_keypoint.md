@@ -1,13 +1,7 @@
 
 
-There are several key points to be aware of when it comes to SQL injection attacks:
-
-1. SQL injection attacks involve malicious code being inserted into a website or application's SQL statement, allowing attackers to gain unauthorized access to data or execute remote commands.
-
-2. SQL injection attacks are one of the most common forms of web application attacks and can be extremely damaging, ranging from data theft to complete system compromise.
-
-3. SQL injection attacks are often successful because many websites and applications do not properly validate or sanitize user input, leaving them vulnerable to injection attacks.
-
-4. To prevent SQL injection attacks, developers should use prepared statements with parameterized queries, input validation, and other secure coding practices.
-
-5. Website owners and administrators should also regularly monitor their systems for suspicious activity and implement security measures like firewalls and intrusion detection systems.
+1. SQL Injection是指攻擊者透過SQL語句注入攻擊指令，從而實現對資料庫的非法操作。
+2. 攻擊者可透過Web應用程式的表單、輸入欄位等進入網站的各處來注入攻擊指令。
+3. 攻擊指令可能會被寫入資料庫，從而導致數據污染、錯誤等後果，甚至可能影響系統的安全性。
+4. 防範SQL Injection的方法包括使用參數化查詢、篩選掉非法字符、避免使用動態SQL語句等。
+5. 在進行Web應用程式測試時，應對可能出現的SQL Injection漏洞進行測試，以確保系統的安全性。

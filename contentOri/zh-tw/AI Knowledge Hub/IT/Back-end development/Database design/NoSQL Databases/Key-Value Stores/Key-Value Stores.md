@@ -1,9 +1,10 @@
 +++
 title = "鍵值存儲"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Key-Value Stores的問題
+給我5題Key-Value Stores的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "鍵值存儲"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Key-Value Stores並舉例
+以中文說明Key-Value Stores並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Key-Value Store通常被用於存儲大規模的數據，並且具有高度的�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Key-Value Stores的重點
+以中文條列Key-Value Stores的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,7 +52,7 @@ Key-Value Store通常被用於存儲大規模的數據，並且具有高度的�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Key-Value Stores的中等難度問題，並在後面列出答案
+以中文給我5題Key-Value Stores的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -70,31 +71,4 @@ Key-Value Store通常被用於存儲大規模的數據，並且具有高度的�
 
 5. 如何在Key-Value Store中实现备份和恢复？
 答案:备份和恢复是保护数据不丢失的重要手段。使用Key-Value Store可以轻松实现备份和恢复。可以通过定期将Key-Value Store中的数据写入磁盘，将数据备份为一个文件。在恢复时，可以加载备份文件并将数据还原到Key-Value Store中。另外，还可以实现增量备份，并在恢复时合并所有备份数据。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Key-Value Stores的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is a Key-Value Store?" by the Apache Cassandra Team (https://cassandra.apache.org/doc/latest/keyspace.html#what-is-a-key-value-store)
-
-This article provides an introduction to key-value stores and explains how they differ from traditional relational databases. It also discusses the benefits of using a key-value store for certain types of applications.
-
-2. "Understanding Key-Value Stores" by Rachel Roumeliotis (https://www.oreilly.com/library/view/understanding-key-value-stores/9781492032020/)
-
-This article provides an overview of key-value stores and explains how they work. It also discusses the advantages and disadvantages of using a key-value store compared to other database types.
-
-3. "An Introduction to Key-Value Stores for Big Data" by Roman Kharkovski (https://www.ibm.com/developerworks/library/big-data-keyvalue-stores/)
-
-This article provides an introduction to key-value stores and how they can be used in big data applications. It also discusses some of the popular key-value stores used by companies today.
-
-4. "Comparing Key-Value Stores: Redis vs. Cassandra vs. Riak" by Stackify (https://stackify.com/redis-vs-cassandra-vs-riak-comparing-key-value-stores/)
-
-This article compares three popular key-value stores – Redis, Cassandra, and Riak – and discusses the advantages and disadvantages of each. It also provides guidance on how to choose the right key-value store based on your specific requirements.
-
-5. "The Pros and Cons of Using Key-Value Stores" by Peter Wayner (https://www.infoworld.com/article/3244892/the-pros-and-cons-of-using-key-value-stores.html)
-
-This article provides an overview of the advantages and disadvantages of using key-value stores compared to traditional databases. It also discusses some of the common use cases for key-value stores and the types of applications and workloads they are best suited for.   
 

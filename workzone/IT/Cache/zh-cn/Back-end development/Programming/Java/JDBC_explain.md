@@ -66,5 +66,5 @@ public class JDBCTest {
 - 我们首先要注册JDBC驱动程序，通过使用 `Class.forName()`
 - 创建 JDBC连接并使用 `DriverManager.getConnection()` 连接到数据库
 - 使用 `Connection.createStatement()` 创建一个 `Statement` 对象，并使用它来执行SQL查询
-- 使用 `ResultSet` 对象来处理查询结果
+- 使用 `ResultSet` 对像来处理查询结果
 - 关闭所有资源，包括连接、语句和结果集，在 finally 区块中进行这些操作。

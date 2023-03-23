@@ -1,22 +1,23 @@
 +++
 title = "圖形遍歷演算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Graph Traversal Algorithms的問題
+給我5題Graph Traversal Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the time complexity of Depth-First Search (DFS) algorithm for an undirected graph with n vertices and m edges?
-2. How does Breadth-First Search (BFS) algorithm traverse the graph and what is the advantage of it over DFS?
-3. Can you explain the main idea behind Dijkstra's Algorithm for finding shortest paths in a weighted graph?
-4. How does the A* search algorithm differ from other graph traversal algorithms and what are some applications where it is commonly used?
-5. What is the maximum possible number of connected components in an undirected graph with n vertices and m edges, and how can you find them all using a suitable graph traversal algorithm?   
+1. 什麼是深度優先搜索算法，並解釋其運作方式？
+2. 什麼是廣度優先搜索算法，並解釋其運作方式？
+3. 什麼是Dijkstra算法，並解釋其運作方式？
+4. 什麼是Kruskal算法，並解釋其運作方式？
+5. 什麼是退火算法，並解釋其在圖形遍歷中的應用？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Graph Traversal Algorithms並舉例
+以中文說明Graph Traversal Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -65,7 +66,7 @@ title = "圖形遍歷演算法"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Graph Traversal Algorithms的重點
+以中文條列Graph Traversal Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -88,7 +89,7 @@ title = "圖形遍歷演算法"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Graph Traversal Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Graph Traversal Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -112,26 +113,4 @@ title = "圖形遍歷演算法"
 5. 給定一個帶權值的無向圖，請使用克魯斯卡爾演算法（Kruskal's algorithm）找出其中一個最小生成樹。
 
 解答：將圖中的所有邊按權值從小到大排序，然後從小的邊開始進行遍歷，如果兩個節點還未連通，則連接它們，重複此步驟直到所有節點都連通。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Graph Traversal Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-以下是五篇Graph Traversal Algorithms的網路資料:
-
-1. Breadth First Search(BFS) Algorithm:
-網址: https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/
-
-2. Depth First Search(DFS) Algorithm:
-網址: https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
-3. Dijkstra Algorithm:
-網址: https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-4. A* Algorithm:
-網址: https://www.geeksforgeeks.org/a-search-algorithm/
-
-5. Bellman Ford Algorithm:
-網址: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/   
 

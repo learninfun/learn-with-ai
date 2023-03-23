@@ -1,5 +1,6 @@
 +++
 title = "享元模式"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "享元模式"
 
 
 
-1. 何谓Flyweight Pattern？
-2. 什么状况下适用Flyweight Pattern？
-3. 与其他设计模式相比，Flyweight Pattern有哪些优点和缺点？
-4. 如何实现Flyweight Pattern？
-5. 在实际应用中，有哪些例子适合使用Flyweight Pattern？   
+1. 何謂Flyweight Pattern？
+2. 什麼狀況下適用Flyweight Pattern？
+3. 與其他設計模式相比，Flyweight Pattern有哪些優點和缺點？
+4. 如何實現Flyweight Pattern？
+5. 在實際應用中，有哪些例子適合使用Flyweight Pattern？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,11 +22,11 @@ title = "享元模式"
 
 
 
-Flyweight模式是一种设计模式，用于减少系统中重复的物体（Object）数量，从而提高系统的效率。Flyweight可在大量具有相似或相同的内容的对象中有效地减少内容共享，以减少系统内部对象的数量。
+Flyweight模式是一種設計模式，用於減少系統中重複的物體（Object）數量，從而提高系統的效率。Flyweight可在大量具有相似或相同的內容的對象中有效地減少內容共享，以減少系統內部對象的數量。
 
-该模式通常由工厂（Factory）对象创建和管理，它维护一个Flyweight Cache，以确保只有一个flyweight实例的各个实例在该Cache中被共享。当需要访问单个Flyweight对象时，工厂对象先检查Flyweight Cache，是否已经存在相同的对象，如果是则返回已存在的对象，否则创建一个新的对象并添加到Flyweight Cache中。
+該模式通常由工廠（Factory）對像創建和管理，它維護一個Flyweight Cache，以確保只有一個flyweight實例的各個實例在該Cache中被共享。當需要訪問單個Flyweight對像時，工廠對像先檢查Flyweight Cache，是否已經存在相同的對象，如果是則返回已存在的對象，否則創建一個新的對象並添加到Flyweight Cache中。
 
-下面是一个Flyweight模式的例子，假设我们需要创建一个文字编辑工具，其中有各种不同的字体和颜色可供选择，但我们希望尽可能减少类的数量以提高效率：
+下面是一個Flyweight模式的例子，假設我們需要創建一個文字編輯工具，其中有各種不同的字體和顏色可供選擇，但我們希望盡可能減少類的數量以提高效率：
 
 ```python
 class Font:
@@ -56,7 +57,7 @@ class CharacterFactory:
         return self.cache[key]
 ```
 
-在上述案例中，字体和颜色都是Flyweight物件，CharacterFactory负责管理这些物件，并且只创建必要的物件。当客户端需要一个新的Character时，CharacterFactory会创建一个具有相同参数的另一个Character，或者返回现有的Character，以便减少系统中的物件数量。   
+在上述案例中，字體和顏色都是Flyweight物件，CharacterFactory負責管理這些物件，並且只創建必要的物件。當客戶端需要一個新的Character時，CharacterFactory會創建一個具有相同參數的另一個Character，或者返回現有的Character，以便減少系統中的物件數量。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -65,12 +66,12 @@ class CharacterFactory:
 
 
 
-1. Flyweight pattern 是一种设计模式，主要用于减少大量相似物件的记忆体使用量。
-2. 该模式将物件分为两类，一类是共享的，一类是独立的。
-3. 共享的物件可以在多个地方共用，节省记忆体空间。
-4. 独立的物件则会被重复建立，但不影响其他物件的使用。
-5. Flyweight pattern 的实现可以用工厂模式来简化程式码。
-6. 使用 Flyweight pattern 可以提高应用程式效能，尤其在需要建立大量物件时。   
+1. Flyweight pattern 是一種設計模式，主要用於減少大量相似物件的記憶體使用量。
+2. 該模式將物件分為兩類，一類是共享的，一類是獨立的。
+3. 共享的物件可以在多個地方共用，節省記憶體空間。
+4. 獨立的物件則會被重複建立，但不影響其他物件的使用。
+5. Flyweight pattern 的實現可以用工廠模式來簡化程式碼。
+6. 使用 Flyweight pattern 可以提高應用程式效能，尤其在需要建立大量物件時。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -333,41 +334,4 @@ class ShoppingCart {
     }
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Flyweight Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Flyweight Design Pattern" by JavaTpoint
-
-https://www.javatpoint.com/flyweight-design-pattern
-
-This website provides a detailed explanation of the Flyweight pattern, including the concept, structure, and advantages of using this pattern. It also includes examples using Java programming language.
-
-2. "Flyweight Design Pattern" by TutorialsPoint
-
-https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
-
-TutorialsPoint provides an in-depth introduction and explanation of the Flyweight pattern, including how it works, its features, and when to use it. The website also includes code examples in Java programming language.
-
-3. "Flyweight Design Pattern" by GeeksforGeeks
-
-https://www.geeksforgeeks.org/flyweight-design-pattern/
-
-GeeksforGeeks explains the Flyweight pattern in detail, including its definition, use case, and implementation using code examples in Java programming language. The website also includes a comparison of this pattern with other patterns.
-
-4. "Flyweight Pattern" by Refactoring.Guru
-
-https://refactoring.guru/design-patterns/flyweight
-
-Refactoring.Guru provides an article on the Flyweight pattern, including its structure, concept, and benefits. The website also includes a comparison of this pattern with other patterns and code examples in Java programming language.
-
-5. "Flyweight Design Pattern" by DZone
-
-https://dzone.com/articles/flyweight-pattern
-
-DZone explains the Flyweight pattern, including its definition, use case, and implementation using code examples in Java programming language. The website also includes the pros and cons of using this pattern in software development.   
 

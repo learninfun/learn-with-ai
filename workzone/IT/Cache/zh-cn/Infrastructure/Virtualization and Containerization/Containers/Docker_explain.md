@@ -1,5 +1,5 @@
 
 
-Docker is an open-source software platform that enables developers to easily deploy, manage and run applications inside containers. Docker containers are lightweight, standalone executables that encapsulate all the code, libraries, and dependencies required to run a particular application. By using Docker, developers can create a consistent runtime environment that guarantees that the application will work seamlessly across different hosts and operating systems.
+Docker是一種輕量級的容器化解決方案，可以讓開發者將應用程式及其相關依賴打包成一個可移植的容器。它可以在不同的環境中運行，如開發、測試、生產環境等。 使用Docker可以更容易地管理應用程序，減少配置問題和依賴問題。
 
-One popular example of using Docker is for web application development. In a typical web application stack, the application code, web server, and database are all installed on the same machine. This can lead to issues such as version conflicts and configuration problems. By using Docker, each component of the stack can be packaged into a separate container, making it easy to deploy and scale the application. For instance, a developer building a web application can create separate Docker containers for the front-end, API, and database, ensuring that each component runs in the same environment regardless of where the application is deployed.
+例如，假設我們要開發一個Web應用程式並且需要運行在不同的環境中，例如本機測試、開發測試和生產環境等。使用Docker可以讓我們創建一個包含所需依賴項的容器，使每個環境都能夠擁有一個一致的運行環境。使用此方法，可以更容易地跨環境部署應用程序並降低開發時間和成本。

@@ -1,5 +1,6 @@
 +++
 title = "模型-视图-控制器 （MVC）"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "模型-视图-控制器 （MVC）"
 
 
 
-1. 什麼是Model-View-Controller (MVC)架構，並談該架構有什麼優點及缺點？
-2. MVC架構中的Model、View、Controller分別是什麼，它們的作用是什麼？
-3. 舉例說明MVC架構的實際應用場景，並分析它的好處。
-4. 你是否知道什麼是MVC框架？請闡述MVC框架與MVC架構之間的區別。
-5. 如何測試MVC應用程序的不同組件，你會使用哪些測試方法？   
+1. 什么是Model-View-Controller (MVC)架构，并谈该架构有什么优点及缺点？
+2. MVC架构中的Model、View、Controller分别是什么，它们的作用是什么？
+3. 举例说明MVC架构的实际应用场景，并分析它的好处。
+4. 你是否知道什么是MVC框架？请阐述MVC框架与MVC架构之间的区别。
+5. 如何测试MVC应用程序的不同组件，你会使用哪些测试方法？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,13 +22,13 @@ title = "模型-视图-控制器 （MVC）"
 
 
 
-Model-View-Controller (MVC)是一種軟體架構模式，用於將應用程式中的程式邏輯、使用者介面和資料庫操作分離，以便簡化開發和維護。
+Model-View-Controller (MVC)是一种软体架构模式，用于将应用程式中的程式逻辑、使用者介面和资料库操作分离，以便简化开发和维护。
 
-- Model：負責處理與資料相關的邏輯，例如資料庫的操作和資料驗證等。
-- View：用戶介面部分，負責顯示資料、獲取使用者輸入和呈現使用者所需的資訊。
-- Controller：用於協調模型和視圖之間的互動，負責接收使用者輸入，控制模型執行商業邏輯並相應地更新視圖。
+- Model：负责处理与资料相关的逻辑，例如资料库的操作和资料验证等。
+- View：用户介面部分，负责显示资料、获取使用者输入和呈现使用者所需的资讯。
+- Controller：用于协调模型和视图之间的互动，负责接收使用者输入，控制模型执行商业逻辑并相应地更新视图。
 
-舉例來說，一個電子商務網站使用MVC模式構建，當用戶訪問網站時，他們會看到頁面上顯示的產品信息。在這種情況下，模型將包含產品庫存、價格和描述等資訊，視圖將以 HTML 和 CSS 的形式呈現產品信息，而控制器以 JavaScript 為中心處理用戶的互動，例如點擊和頁面滾動等，並更新視圖和模型以反映這些互動的更改。   
+举例来说，一个电子商务网站使用MVC模式构建，当用户访问网站时，他们会看到页面上显示的产品信息。在这种情况下，模型将包含产品库存、价格和描述等资讯，视图将以 HTML 和 CSS 的形式呈现产品信息，而控制器以 JavaScript 为中心处理用户的互动，例如点击和页面滚动等，并更新视图和模型以反映这些互动的更改。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -78,26 +79,4 @@ Model-View-Controller (MVC) 是一种软体架构设计模式，主要用于开�
 4. 在MVC模式下，Model层负责实现留言板相关的操作，如新增留言、删除留言、查询留言等；View层则负责展示留言的列表、表单等；Controller层则负责接收用户提交的留言请求，并转发给Model进行业务处理。
 
 5. 在MVC模式下，Model层负责实现学生管理系统相关的操作，如新增学生、删除学生、查询学生等；View层则负责展示学生的列表、表单等；Controller层则负责接收用户提交的学生请求，并转发给Model进行业务处理。例如，当用户提交新增学生的请求时，Controller会解析请求，取得用户提交的表单数据，然后转发到Model进行保存操作。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Model-View-Controller (MVC)的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to MVC Architecture". GeeksforGeeks. https://www.geeksforgeeks.org/introduction-to-model-view-controller-mvc-architecture/
-This article from GeeksforGeeks provides a good introduction to the MVC architecture, explains how the model, view, and controller components work together, and discusses the advantages and disadvantages of using the MVC pattern.
-
-2. "Understanding MVC Architecture with Example". Javatpoint. https://www.javatpoint.com/mvc-architecture-with-example
-This article from Javatpoint provides a detailed explanation of the MVC architecture, with example code in Java. It also covers the role of each component and how they interact with each other.
-
-3. "What is MVC (Model View Controller)?". Medium. https://medium.com/@joshuablankenshipnola/what-is-mvc-model-view-controller-architecture-for-beginners-79dadc1b16b6
-This article from Medium provides a concise overview of the MVC architecture, with a focus on its benefits and how it can improve software development. It also includes a few examples of how MVC is used in popular software frameworks.
-
-4. "MVC Explained: The Model-View-Controller Pattern for Web Development". Airbrake. https://airbrake.io/blog/software-design/mvc-explained
-This article from Airbrake provides a clear explanation of the MVC architecture, with an emphasis on how it applies to web development. It also includes examples of MVC frameworks for JavaScript, Python, and Ruby.
-
-5. "MVC Architecture in PHP". Tutorial Republic. https://www.tutorialrepublic.com/php-tutorial/php-mvc-architecture.php
-This article from Tutorial Republic provides a step-by-step guide to implementing the MVC architecture in PHP. It covers the core concepts of MVC, as well as best practices for organizing code and separating concerns in a web application.   
 

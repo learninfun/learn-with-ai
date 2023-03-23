@@ -1,3 +1,7 @@
++++
+title = "Security Groups and Network ACLs"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Security Groups and Network ACLs
@@ -74,17 +78,4 @@ Give me 5 medium-difficulty questions with answers about Security Groups and Net
 
 5) Q: What happens when a Security Group is deleted?
    A: When a Security Group is deleted, all rules associated with the Security Group are also deleted. And if any instance had that Security Group assigned to it, it will lose its configuration for that Security Group, losing connectivity outside the VPC.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Security Groups and Network ACLs
-{{< /ask_chatgpt >}}
-
-
-
-1. Amazon Web Services: Security Groups and Network ACLs - https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Security.html 
-2. Microsoft Azure: Security Groups vs Network Security Groups vs Application Security Groups - https://docs.microsoft.com/en-us/azure/security-center/security-groups-vs-nsg 
-3. Google Cloud: Virtual Private Cloud (VPC) Network Overview - https://cloud.google.com/vpc/docs/overview 
-4. IBM Cloud: Security groups and network ACLs - https://cloud.ibm.com/docs/iaas?topic=iaas-security-groups-and-nacs 
-5. Oracle Cloud Infrastructure: Managing Security Lists and Security Groups - https://docs.cloud.oracle.com/en-us/iaas/Content/Network/Concepts/securitylist.htm   
 

@@ -1,5 +1,6 @@
 +++
 title = "逼近算法"
+weight = "11"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -36,19 +37,19 @@ title = "逼近算法"
 
 
 
-1. Approximation ratio: Approximation algorithms aim to find solutions that are within a certain percentage of the optimal solution. The approximation ratio is defined as the ratio between the objective function value of the approximation algorithm and the optimal objective function value.
+1. 近似算法是一种计算复杂性理论中的算法设计技术，它在给定的时间内寻找一个可行解，该解与最优解之间的差距在一定范围内。
 
-2. Polynomial Time: Approximation algorithms must run in polynomial time since it is not feasible to obtain optimal solutions for many optimization problems in polynomial time.
+2. 近似算法通常用于NP难度问题的优化求解，它可以为实际应用提供高效的可行解。
 
-3. Trade-off between speed and accuracy: Approximation algorithms must balance speed and accuracy to achieve reasonable solutions for practical problems.
+3. 近似算法可以分为近似比例和逼近算法两种类型，近似比例是一个指标，指最优解和近似算法获得的解之间的比例，逼近算法则是在一定的误差范围内求解最优解。
 
-4. Greedy approach: Many approximation algorithms use a greedy approach that selects the best action at each step, without considering the impact on future steps.
+4. 近似算法应用于各种问题领域，如图论、优化、组合优化、计算几何等。
 
-5. Randomization: Randomization can be used in approximation algorithms to overcome limitations in the greedy approach or to achieve better approximation ratios.
+5. 近似算法的设计原则包括利用贪心算法、线性规划松弛、随机化等技术，同时需要考虑算法的时间复杂度和精度。
 
-6. Performance guarantees: Approximation algorithms provide performance guarantees that ensure the quality of the solution obtained regardless of the input instance.
+6. 近似算法的局限性在于其只能提供一个接近最优解的可行解，而无法保证一定得到最优解。因此，在实际应用中，需要根据具体的问题特点来选择合适的近似算法和权衡算法运行时间和解的质量。
 
-7. Applications: Approximation algorithms are widely used in various fields, including computer science, operations research, and engineering, to solve optimization problems in practice.   
+7. 近似算法是当前计算机科学领域的热门研究方向，随着计算机硬件和算法的进步，近似算法的应用前景将会不断扩大。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -57,40 +58,18 @@ title = "逼近算法"
 
 
 
-1. 集合覆蓋問題：假設你有一個集合ｕ以及ｕ的幾個子集合，每個子集合都有自己的價值。問題在於找出一些子集合，使得它們的聯集恰好包含集合ｕ，並且所有選擇的子集合的價值和最小化。
-答案：使用貪心演算法求解。每次選擇一個包含最多未被覆蓋元素的子集合，直到覆蓋了所有元素。
+1. 集合覆盖问题：假设你有一个集合ｕ以及ｕ的几个子集合，每个子集合都有自己的价值。问题在于找出一些子集合，使得它们的联集恰好包含集合ｕ，并且所有选择的子集合的价值和最小化。
+答案：使用贪心演算法求解。每次选择一个包含最多未被覆盖元素的子集合，直到覆盖了所有元素。
 
-2. 背包問題：假設你有一個背包，可以裝載有限的重量。同時有幾個物品，每個物品都有自己的重量和價值。問題在於在不超過背包重量限制的情況下，選擇一些物品使得它們的價值和最大化。
-答案：使用近似比為1的貪心演算法求解。每次選擇重量最小的未被選中的物品放入背包中，直到背包無法再存放物品。
+2. 背包问题：假设你有一个背包，可以装载有限的重量。同时有几个物品，每个物品都有自己的重量和价值。问题在于在不超过背包重量限制的情况下，选择一些物品使得它们的价值和最大化。
+答案：使用近似比为1的贪心演算法求解。每次选择重量最小的未被选中的物品放入背包中，直到背包无法再存放物品。
 
-3. 最小頂點覆蓋問題：假設你有一個圖，問題在於找到一個頂點子集，使得每個邊都至少與其中一個頂點相連。
-答案：使用近似比為2的近似演算法求解。將每條邊視為一個獨立集合，然後使用貪心演算法選擇最小的頂點子集使得所有集合都有至少一個頂點被選中。 
+3. 最小顶点覆盖问题：假设你有一个图，问题在于找到一个顶点子集，使得每个边都至少与其中一个顶点相连。
+答案：使用近似比为2的近似演算法求解。将每条边视为一个独立集合，然后使用贪心演算法选择最小的顶点子集使得所有集合都有至少一个顶点被选中。 
 
-4. 最大割問題：假設你有一個無向圖，問題在於找到一個切割，使得切割的邊數最大化。
-答案：使用近似比為0.5的近似演算法求解。從圖的任意一個節點開始，將圖分為兩部分，即將該節點相鄰的節點歸為同一部分，其他部分為另一部分。將切割的邊數計算出來並返回，即為近似解。
+4. 最大割问题：假设你有一个无向图，问题在于找到一个切割，使得切割的边数最大化。
+答案：使用近似比为0.5的近似演算法求解。从图的任意一个节点开始，将图分为两部分，即将该节点相邻的节点归为同一部分，其他部分为另一部分。将切割的边数计算出来并返回，即为近似解。
 
-5. 執行時間最大化問題：假設你有一個作業系統，有n個作業需要執行，每個作業具有一個執行時間t[i]和一個截止時間d[i]。問題在於將這些作業分配到限定的資源上，使得作業被執行的總執行時間最大化。
-答案：使用近似演算法求解。將作業按照d[i]排序，然後使用貪心算法從截止時間最早的作業開始執行，直到所有的作業都被分配。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Approximation Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Approximation Algorithms" by Tim Roughgarden
-This article, written by a computer science professor, provides a detailed introduction to approximation algorithms. It covers topics such as the basic notion of approximation and the design and analysis of approximation algorithms. The article also includes examples of common approximation problems and their approximations.
-
-2. "The Design of Approximation Algorithms" by David P. Williamson and David B. Shmoys
-This book is a comprehensive introduction to designing and analyzing approximation algorithms. It covers topics such as the basics of approximation algorithms, linear programming, and compendium of approximation algorithms for common problems. The book also includes exercises and solutions.
-
-3. "Approximation Algorithms and the Hardness of Approximation" by Sanjeev Arora and Shmuel Safra
-This article provides an overview of approximation algorithms and their analysis. It introduces the concept of NP-hardness and discusses the relationship between approximability and hardness. The article also includes examples of approximation algorithms for various problems.
-
-4. "Approximation Algorithms for NP-hard Problems" by Dorit S. Hochbaum
-This book provides a comprehensive overview of approximation algorithms for NP-hard problems. It covers topics such as approximation algorithms for the traveling salesman problem, the vertex cover problem, and the set cover problem. The book also includes a chapter on randomized approximation algorithms.
-
-5. "Approximation Algorithms for Combinatorial Optimization Problems" by Vijay V. Vazirani
-This book provides a comprehensive overview of approximation algorithms for various combinatorial optimization problems. It covers topics such as the traveling salesman problem, the vertex cover problem, the set cover problem, and the facility location problem. The book also includes a chapter on the probabilistic method for designing approximation algorithms.   
+5. 执行时间最大化问题：假设你有一个作业系统，有n个作业需要执行，每个作业具有一个执行时间t[i]和一个截止时间d[i]。问题在于将这些作业分配到限定的资源上，使得作业被执行的总执行时间最大化。
+答案：使用近似演算法求解。将作业按照d[i]排序，然后使用贪心算法从截止时间最早的作业开始执行，直到所有的作业都被分配。   
 

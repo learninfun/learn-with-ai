@@ -1,5 +1,6 @@
 +++
 title = "最长上升子序列"
+weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -73,74 +74,42 @@ Longest Increasing Subsequence（最长上升子序列）是指在一个序列�
 
 
 1. LeetCode 300 - Longest Increasing Subsequence
-給定一個未排序的整數數組，找到最長遞增子序列的長度。
+给定一个未排序的整数数组，找到最长递增子序列的长度。
 例如：
 Input：[10,9,2,5,3,7,101,18]
 Output：4
 Explanation：
-最長的遞增子序列是 [2,3,7,101]，因此長度為 4。
+最长的递增子序列是 [2,3,7,101]，因此长度为 4。
 
 2. GeeksforGeeks - Longest Increasing Subsequence
-給定一個整數數列，找到其中的最長遞增子序列。
+给定一个整数数列，找到其中的最长递增子序列。
 例如：
 Input：[3, 10, 2, 1, 20]
 Output：3
 Explanation：
-最長的遞增子序列是 [3, 10, 20]，因此長度為 3。
+最长的递增子序列是 [3, 10, 20]，因此长度为 3。
 
 3. SPOJ - Increasing Subsequences
-給定一個整數數列，找出有多少個子序列是遞增的。
+给定一个整数数列，找出有多少个子序列是递增的。
 例如：
 Input：[5,2,8,6,3,6,9,7]
 Output：8
 Explanation：
-遞增子序列分別為 [5], [2], [8], [6], [3], [6], [9], [7]。
+递增子序列分别为 [5], [2], [8], [6], [3], [6], [9], [7]。
 
 4. CodeChef - LISAND - Longest Increasing Subsequence and Non-decreasing Array
-給定一個整數數列，找到其中的最長遞增子序列的長度，同時也需要找到能夠使數列變成非遞減的最少操作次數。
+给定一个整数数列，找到其中的最长递增子序列的长度，同时也需要找到能够使数列变成非递减的最少操作次数。
 例如：
 Input：[2, 2, 2, 1, 1, 1, 3, 3, 3]
 Output：2 3 
 Explanation：
-最長的遞增子序列是 [2, 3]，長度為 2。最少需要執行 3 次操作才能使數列變成非遞減的：將第 4, 5, 6 個數變成 2。
+最长的递增子序列是 [2, 3]，长度为 2。最少需要执行 3 次操作才能使数列变成非递减的：将第 4, 5, 6 个数变成 2。
 
 5. Hackerrank - The Longest Increasing Subsequence of an Array
-給定一個整數數列，找到其中的最長遞增子序列，同時需要找到所有符合該要求的最長子序列中，字典序最小的那個。
+给定一个整数数列，找到其中的最长递增子序列，同时需要找到所有符合该要求的最长子序列中，字典序最小的那个。
 例如：
 Input：[0, 8, 4, 12, 2, 10, 6, 14, 1, 9]
 Output：[0, 4, 6, 9, 14]
 Explanation：
-最長的遞增子序列是 [0, 2, 6, 9, 14] 和 [0, 4, 6, 9, 14]，但是前者字典序比後者大，因此輸出後者。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Longest Increasing Subsequence的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Longest Increasing Subsequence" by GeeksForGeeks
-Link: https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/
-
-This article explains the concept of Longest Increasing Subsequence (LIS) and provides a dynamic programming solution to find it. It includes a detailed explanation of the algorithm and also provides time and space complexity analysis with examples.
-
-2. "Longest Increasing Subsequence" by TopCoder
-Link: https://www.topcoder.com/thrive/articles/Longest%20Increasing%20Subsequence
-
-This article provides an introduction to the problem of Longest Increasing Subsequence and various approaches to solve it, including brute force, dynamic programming, and binary search. It also discusses the time complexity of each approach and their advantages and disadvantages.
-
-3. "Optimal Subsequence Algorithm for Longest Increasing Subsequence" by Codeforces
-Link: https://codeforces.com/blog/entry/13225
-
-This article introduces a new algorithm for finding the Longest Increasing Subsequence, which has a faster execution time than other well-known algorithms. It includes a detailed explanation of the algorithm and also discusses time complexity analysis with examples.
-
-4. "An O(n log n) Algorithm for Longest Increasing Subsequence" by National Academy of Sciences
-Link: https://www.pnas.org/content/98/5/2286
-
-This article presents an O(n log n) algorithm for finding the Longest Increasing Subsequence. It discusses the algorithm in detail, including its time complexity analysis and optimization techniques used in the implementation.
-
-5. "Maximum Increasing Subsequence" by University of California, Berkeley
-Link: https://www2.cs.duke.edu/courses/cps100e/fall09/notes/longest_increasing_subsequence.pdf
-
-This article presents an approach to find the Maximum Increasing Subsequence, which is a variant of the classic Longest Increasing Subsequence problem. It describes the algorithm, provides time complexity analysis, and includes examples to illustrate the algorithm.   
+最长的递增子序列是 [0, 2, 6, 9, 14] 和 [0, 4, 6, 9, 14]，但是前者字典序比后者大，因此输出后者。   
 

@@ -1,17 +1,21 @@
 
 
-Numerical algorithms refer to mathematical techniques or procedures that are used to solve numerical problems. These algorithms are designed to perform computations on a computer using numerical data, typically in the form of arrays, matrices, or vectors. Numerical algorithms are essential in many scientific and engineering applications, where accurate and efficient numerical solutions are required.
+數值算法 (Numerical Algorithms) 是一種以數值計算為基礎的演算法，主要目的是使用計算機來處理數字和數值數據。
 
-Some common examples of numerical algorithms include:
+常見的數值算法包括：
 
-1. Linear regression - this is a statistical method used to determine the relationship between two variables by fitting a linear equation to the data.
+1. 數值積分 (Numerical Integration) ：用近似方法計算定積分，例如梯形法、辛普森法、龍貝格法等。
 
-2. Newton's method - this is a numerical method used to find the roots of a function. It involves iteratively refining an initial guess until a satisfactory level of accuracy is achieved.
+2. 數值微分 (Numerical Differentiation)：用近似方法計算微分，例如前向差分、後向差分、中心差分等。
 
-3. Gradient descent - this is an optimization algorithm used to minimize a function by iteratively adjusting the parameters in the direction of the negative gradient.
+3. 線性代數 (Linear Algebra)：為求解線性方程組、求特徵值、特徵向量等線性代數問題所使用的數值算法，例如高斯消元法、LU分解、QR分解等。
 
-4. Singular value decomposition - this is a matrix decomposition method used to reduce a matrix to its constituent parts, namely its singular values and singular vectors.
+4. 插值 (Interpolation)：根據已知數據點建立一個連續函數，例如拉格朗日插值、牛頓插值等。
 
-5. Fast Fourier transform - this is an algorithm used to compute the discrete Fourier transform of a set of data points, which is widely used in signal processing and image analysis.
+5. 最優化 (Optimization)：尋找最小值或最大值的方法，例如梯度下降法、牛頓法等。
 
-Overall, numerical algorithms play a crucial role in many scientific and engineering applications, helping to solve complex problems that would otherwise be difficult or impossible to solve using traditional analytical methods.
+6. 常微分方程式 (Ordinary Differential Equations)：求解常微分方程式的數值方法，例如歐拉法、龍格-庫塔法等。
+
+7. 求根 (Root-finding)：尋找函數零點的算法，例如二分法、牛頓法等。
+
+舉例，將數值算法應用於股票市場，可以使用時間序列分析 (Time Series Analysis) 方法，將實時的股票數據轉換成對應的股票趨勢圖，並進行分析預測。另外，還可以使用聚類分析 (Cluster Analysis) 方法，將相似的股票分為一類，進而預測未來股票市場走勢。

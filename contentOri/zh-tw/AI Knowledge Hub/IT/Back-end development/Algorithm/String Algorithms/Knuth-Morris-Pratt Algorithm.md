@@ -1,9 +1,10 @@
 +++
 title = "Knuth-Morris-Pratt演算法"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Knuth-Morris-Pratt Algorithm的問題
+給我5題Knuth-Morris-Pratt Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "Knuth-Morris-Pratt演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Knuth-Morris-Pratt Algorithm並舉例
+以中文說明Knuth-Morris-Pratt Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -85,7 +86,7 @@ KMP算法的時間複雜度為O(n+m)，其中n和m分別是主串和模式串的
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Knuth-Morris-Pratt Algorithm的重點
+以中文條列Knuth-Morris-Pratt Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
@@ -100,7 +101,7 @@ KMP算法的時間複雜度為O(n+m)，其中n和m分別是主串和模式串的
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Knuth-Morris-Pratt Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Knuth-Morris-Pratt Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -130,26 +131,4 @@ KMP算法的時間複雜度為O(n+m)，其中n和m分別是主串和模式串的
    答案: KMP算法
    解答:
    KMP算法可以用於查找文本串中所有匹配模式串的字符。使用KMP算法時，可以選擇是否需要計算和返回所有匹配字符的個數。在使用KMP算法時，可以要求函數或類將計數和返回值分開處理。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Knuth-Morris-Pratt Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 維基百科 - Knuth-Morris-Pratt算法
-https://zh.wikipedia.org/wiki/Knuth-Morris-Pratt%E7%AE%97%E6%B3%95
-
-2. GeeksforGeeks - Knuth-Morris-Pratt (KMP) Algorithm
-https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
-
-3. TutorialsPoint - Knuth-Morris-Pratt Algorithm
-https://www.tutorialspoint.com/Knuth-Morris-Pratt-algorithm
-
-4. Brilliant - Knuth-Morris-Pratt Algorithm
-https://brilliant.org/wiki/knuth-morris-pratt-algorithm/
-
-5. Programiz - Knuth-Morris-Pratt (KMP) Algorithm
-https://www.programiz.com/dsa/knuth-morris-pratt-algorithm   
 

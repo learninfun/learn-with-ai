@@ -1,3 +1,7 @@
++++
+title = "N-ary Tree"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about N-ary Tree
@@ -69,21 +73,4 @@ Answer: Yes, an N-ary tree can have nodes with different numbers of children.
 
 5. What is the maximum height of an N-ary tree with N children per node?
 Answer: The maximum height of an N-ary tree with N children per node is given by the equation h = logn(N^(n+1)-1)/(N-1), where h is the height and n is the number of nodes.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about N-ary Tree
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: This website provides a clear and concise introduction to N-ary trees, including their definition, properties, and common terminology.
-
-2. Tutorialspoint: In addition to providing an overview of N-ary trees, this webpage offers detailed explanations of the various traversal methods used to navigate these structures.
-
-3. Computer Science Unplugged: This webpage provides a fun and interactive introduction to N-ary trees through a series of activities and games designed to teach basic principles.
-
-4. Stack Overflow: This webpage is a forum where programmers can ask and answer questions about N-ary trees, making it a great resource for anyone looking to deepen their understanding of these structures.
-
-5. Codecademy: This webpage is a platform for learning coding skills, including an introduction to N-ary trees as part of its data structure curriculum.   
 

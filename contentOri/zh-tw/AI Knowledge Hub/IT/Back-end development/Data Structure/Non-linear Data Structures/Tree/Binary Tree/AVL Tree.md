@@ -1,9 +1,10 @@
 +++
 title = "AVL樹"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題AVL Tree的問題
+給我5題AVL Tree的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "AVL樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明AVL Tree並舉例
+以中文說明AVL Tree並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +44,7 @@ AVL Tree的平衡是在節點的左右子樹高度之差不超過1的情況下�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列AVL Tree的重點
+以中文條列AVL Tree的重點
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +63,7 @@ AVL Tree 的重点如下：
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題AVL Tree的中等難度問題，並在後面列出答案
+以中文給我5題AVL Tree的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -81,31 +82,4 @@ AVL Tree 的重点如下：
 
 5. 給定一組數列{8, 12, 10, 6, 11, 9, 14, 17, 20}，請構建出一棵AVL Tree。
 答案：12 8 9 6 10 11 17 14 20   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇AVL Tree的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 資料結構：平衡二元樹（AVL Tree）
-https://www.itread01.com/content/1545181177.html
-本篇介紹 AVL Tree 平衡二元樹，解決二元樹退化成鏈表的問題。
-
-2. AVL Tree：實現及其性質解釋
-https://www.jianshu.com/p/e136ec79235c
-本篇介紹了 AVL Tree 的實現及其性質解釋。
-
-3. AVL Tree - 魯迅有句話
-https://www.youtube.com/watch?v=1TmVnUy8n88
-本篇是一個 AVl Tree 的講解影片，輕鬆有趣易懂。
-
-4. AVL Tree (平衡二叉樹)
-https://zhuanlan.zhihu.com/p/34858054
-本篇介紹AVL Tree的三步驟、旋轉、非遞迴、以及優缺點。
-
-5. 數據結構——平衡二叉樹（AVL Tree）詳解
-https://www.cnblogs.com/ider/p/avlTree.html
-本篇介紹 AVL Tree 的基本定義、被動更新、主動更新、查找、添加、刪除等詳細內容。   
 

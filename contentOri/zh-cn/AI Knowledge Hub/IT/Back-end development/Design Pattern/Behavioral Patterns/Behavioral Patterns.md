@@ -1,5 +1,6 @@
 +++
 title = "行为型模式"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "行为型模式"
 
 
 
-1. 什么是Behavioral Patterns？他们对软体设计有什么影响？
-2. 解释Strategy Pattern的概念，并举例说明如何使用它。
-3. 什么是Observer Pattern？如何实现它？
-4. 解释Template Method Pattern的概念和作用，并举例说明在哪些场合可以使用它。
-5. 什么是Command Pattern？如何使用它来控制对象的行为？   
+1. 什麼是Behavioral Patterns？他們對軟體設計有什麼影響？
+2. 解釋Strategy Pattern的概念，並舉例說明如何使用它。
+3. 什麼是Observer Pattern？如何實現它？
+4. 解釋Template Method Pattern的概念和作用，並舉例說明在哪些場合可以使用它。
+5. 什麼是Command Pattern？如何使用它來控制對象的行為？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,27 +22,27 @@ title = "行为型模式"
 
 
 
-Behavioral Patterns 是设计模式中的一类，它关注于不同对象之间的通讯和交互方式，以达到更好的可维护性、扩展性和复用性。
+Behavioral Patterns 是設計模式中的一類，它關注於不同對像之間的通訊和交互方式，以達到更好的可維護性、擴展性和復用性。
 
-以下是三个常见的Behavioral Patterns及其例子：
+以下是三個常見的Behavioral Patterns及其例子：
 
-1. 观察者模式（Observer Pattern）：
+1. 觀察者模式（Observer Pattern）：
 
-观察者模式是一种设计模式，它允许对象在状态发生变化时自动通知它们的依赖对象。这种模式被用于事件管理系统。
+觀察者模式是一種設計模式，它允許對像在狀態發生變化時自動通知它們的依賴對象。這種模式被用於事件管理系統。
 
-例如，当用户点击“提交”按钮时，表单将发送通知给订阅了该表单的观察者（如邮件接受者、开发人员等），以便他们知晓提交状态。
+例如，當用戶點擊「提交」按鈕時，表單將發送通知給訂閱了該表單的觀察者（如郵件接受者、開發人員等），以便他們知曉提交狀態。
 
 2. 策略模式（Strategy Pattern）：
 
-策略模式是一种软件设计模式，其中对象包含一个指向可用策略的引用，以便能够在运行时根据需要更改其行为。该模式常常用于实现算法家族，以便动态选择其中的某一种。
+策略模式是一種軟件設計模式，其中對像包含一個指向可用策略的引用，以便能夠在運行時根據需要更改其行為。該模式常常用於實現算法家族，以便動態選擇其中的某一種。
 
-例如，当处理订单时，根据客户的购买历史、产品类型和其他因素，选择不同的价格策略。
+例如，當處理訂單時，根據客戶的購買歷史、產品類型和其他因素，選擇不同的價格策略。
 
 3. 迭代器模式（Iterator Pattern）：
 
-迭代器模式是一种基于遍历集合、列表或其他数据结构的设计模式。它提供了一种简单的方法来遍历对象，而不必考虑底层数据结构。在 Java 中，Iterator 接口提供了这种迭代器行为。
+迭代器模式是一種基於遍歷集合、列表或其他數據結構的設計模式。它提供了一種簡單的方法來遍歷對象，而不必考慮底層數據結構。在 Java 中，Iterator 接口提供了這種迭代器行為。
 
-例如，在处理数据集合时，迭代器模式被用于遍历所有数据，进行筛选、分层、分组等处理。   
+例如，在處理數據集合時，迭代器模式被用於遍歷所有數據，進行篩選、分層、分組等處理。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -94,49 +95,17 @@ Behavioral Patterns 是设计模式中的一类，它关注于不同对象之间
 
 
 1. 请说明什么是观察者模式并提供一个实际的应用范例？
-答：观察者模式是一种行为型的设计模式，它定义对象之间一对多的依赖关系，当一个对象的状态发生变化时，所有依赖于它的对象都会收到通知并自动更新。例如：当一个气象站收集到新的天气数据后，所有的订阅者（如其他天气站、新闻媒体、网站等）都会同时收到相关信息并做出相应的处理。
+答：观察者模式是一种行为型的设计模式，它定义对像之间一对多的依赖关系，当一个对象的状态发生变化时，所有依赖于它的对象都会收到通知并自动更新。例如：当一个气象站收集到新的天气数据后，所有的订阅者（如其他天气站、新闻媒体、网站等）都会同时收到相关信息并做出相应的处理。
 
 2. 什么是命令模式？提供一个实际的例子说明其使用方法。
-答：命令模式是一个行为型设计模式，它将请求对象与接收对象分开，使两者独立开来，从而降低系统的耦合度。例如：工厂中的生产线，每个部门之间的操作都需要被纪录，最终交由总管理员进行审核。这时，命令模式可以通过将命令和命令回复分开，实现更加复杂的操作流程。
+答：命令模式是一个行为型设计模式，它将请求对象与接收对像分开，使两者独立开来，从而降低系统的耦合度。例如：工厂中的生产线，每个部门之间的操作都需要被纪录，最终交由总管理员进行审核。这时，命令模式可以通过将命令和命令回复分开，实现更加复杂的操作流程。
 
 3. 请解释代理模式的定义和目的，并举一个实际的例子说明其使用方法。
-答：代理模式是一种行为型设计模式，它提供了一个代理对象来控制访问另一个对象，目的是可以在不改变对象的情况下增加额外的功能，提高代理对象的安全性。例如：现在有一个网站需要访问某些API接口，为了安全起见，这些接口必须经过授权才能访问。这时，代理模式可以通过添加一个权限验证代理来达到控制访问的目的。
+答：代理模式是一种行为型设计模式，它提供了一个代理对像来控制访问另一个对象，目的是可以在不改变对象的情况下增加额外的功能，提高代理对象的安全性。例如：现在有一个网站需要访问某些API接口，为了安全起见，这些接口必须经过授权才能访问。这时，代理模式可以通过添加一个权限验证代理来达到控制访问的目的。
 
-4. 什么是访问者模式？如何使用访问者模式来实现对象间的解耦合？
-答：访问者模式是一种行为型设计模式，它允许在不修改现有对象层次结构下，定义新的操作类别，实现对对象访问的解耦合。例如：对于一个图像处理软件，可以通过访问者模式实现不同的操作，如图像编辑、图像特效、滤镜效果等。这样可以让每种操作都各自独立并且彼此无关。
+4. 什么是访问者模式？如何使用访问者模式来实现对像间的解耦合？
+答：访问者模式是一种行为型设计模式，它允许在不修改现有对象层次结构下，定义新的操作类别，实现对对像访问的解耦合。例如：对于一个图像处理软件，可以通过访问者模式实现不同的操作，如图像编辑、图像特效、滤镜效果等。这样可以让每种操作都各自独立并且彼此无关。
 
 5. 请解释享元模式的目的和作用，并列举一个实际的应用示例。
-答：享元模式是一种行为型设计模式，它提供了一种减少对象数量的方法，通过共享可共用的对象，来提高系统的效率和性能。例如：一个图像处理软件中，有多个图层需要显示，但是相同类型图层显示效果是一样的，这时可以使用享元模式来共用相同的图层对象，以减少对象的数量。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Behavioral Patterns的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. The 4 Most Common Behavioral Patterns in Project Management
-https://thedigitalprojectmanager.com/4-behavioral-patterns-project-management/
-
-This article describes the four common behavioral patterns in project management, including proactive, reactive, avoidant and problem-focused. It also explains how to identify these patterns and how to use them to improve project outcomes.
-
-2. Understanding Behavioral Patterns in Children
-https://www.verywellfamily.com/understanding-behavioral-patterns-in-children-1094836
-
-This article explains how to recognize behavioral patterns in children, such as aggressive, passive, assertive, and withdrawn. It also provides helpful tips for parents and caregivers on how to support and guide children with different behavioral patterns.
-
-3. 5 Common, But Unhealthy, Behavioral Patterns and How to Change Them
-https://www.psychologytoday.com/us/blog/communication-success/201405/5-common-unhealthy-behavioral-patterns-and-how-change-them
-
-This article identifies five common but unhealthy behavioral patterns, such as people-pleasing, passive-aggressiveness, procrastination, negativity, and blaming others. It offers practical tips for how to break free from these patterns and develop healthier behaviors.
-
-4. Behavioral Patterns That Can Help You Achieve Success
-https://www.entrepreneur.com/article/294202
-
-This article discusses the importance of adopting positive behavioral patterns for achieving success, such as persistence, resilience, positivity, and discipline. It also provides examples of successful entrepreneurs who have exhibited these behavioral patterns.
-
-5. Understanding Behavioral Patterns in the Workplace
-https://www.hrtechnologist.com/articles/culture/understanding-behavioral-patterns-in-the-workplace/
-
-This article explains how to identify and deal with different behavioral patterns in the workplace, such as passive-aggressiveness, micromanagement, and conflict avoidance. It also provides tips for improving communication and collaboration among coworkers with different behavioral patterns.   
+答：享元模式是一种行为型设计模式，它提供了一种减少对像数量的方法，通过共享可共用的对象，来提高系统的效率和性能。例如：一个图像处理软件中，有多个图层需要显示，但是相同类型图层显示效果是一样的，这时可以使用享元模式来共用相同的图层对象，以减少对象的数量。   
 

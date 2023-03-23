@@ -1,22 +1,23 @@
 +++
 title = "安全性測試"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Security Testing的問題
+給我5題Security Testing的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. How would you test an application's ability to prevent unauthorized access and protect sensitive data?
-2. What methods would you use to identify and mitigate potential security vulnerabilities in a web application?
-3. Can you describe the steps you would take to perform a penetration test on a network to find potential security weaknesses?
-4. How would you evaluate the effectiveness of a company's disaster recovery plan in the event of a security breach?
-5. What are the key factors to consider when conducting a security audit of an organization's IT infrastructure?   
+1. 什麼是安全測試，它的目的是什麼？
+2. 哪些技術可以用來進行安全測試，它們的優點和缺點是什麼？
+3. 安全測試過程中可能會發現哪些常見的漏洞，如何測試和修復它們？
+4. 如何進行滲透測試，它能否發現所有可能的安全漏洞？
+5. 在安全測試過程中如何確定和評估潛在風險，如何決定哪些風險是關鍵的？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Security Testing並舉例
+以中文說明Security Testing並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Security Testing是一種測試方法，旨在檢測系統或應用程式的安�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Security Testing的重點
+以中文條列Security Testing的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +56,7 @@ Security Testing是一種測試方法，旨在檢測系統或應用程式的安�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Security Testing的中等難度問題，並在後面列出答案
+以中文給我5題Security Testing的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -79,26 +80,4 @@ Security Testing是一種測試方法，旨在檢測系統或應用程式的安�
 5. 在網路架構中，如何確定目標是處於內部網路還是外部網路？ 
 
 答案： 可以通過掃描您想要測試的目標編號範圍來確定是否是外部網路，您可以掃描DNS、網路拓撲和其他網路層次來激發您對內部和外部網路的識別能力。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Security Testing的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Security Testing" (https://www.guru99.com/security-testing-tutorial.html)
-This article provides an overview of security testing and explains why it's important. It covers various types of security testing like vulnerability scanning, penetration testing, and security audits. The article also explains the security testing process and the tools that can be used for it.
-
-2. "OWASP Top Ten Project" (https://owasp.org/www-project-top-ten/)
-This website provides information on the OWASP Top Ten Project, which lists the top ten web application security risks. The website provides detailed information about each of the risks and provides guidance on how to detect and prevent them. It also includes resources like testing guides and tools for security testing.
-
-3. "Automated Security Testing Tools for Web Applications" (https://blog.testproject.io/2020/01/16/top-10-automated-security-testing-tools-for-web-applications/)
-This article lists the top ten automated security testing tools for web applications. It includes both open-source and commercial tools and provides a brief description of each tool along with its features and benefits. The article also provides links to download and learn more about each tool.
-
-4. "What Is Penetration Testing?" (https://www.veracode.com/security/penetration-testing)
-This article provides an introduction to penetration testing, which is a type of security testing that involves attempting to exploit vulnerabilities in a system in order to identify potential security weaknesses. The article provides an overview of the penetration testing process and the different types of tests that can be performed.
-
-5. "Security Testing Checklist" (https://www.softwaretestinghelp.com/security-testing-checklist/)
-This website provides a comprehensive checklist for security testing that covers various areas like authentication, authorization, data protection, network security, etc. The checklist includes test cases and scenarios that can be used to test each area for security vulnerabilities. The website also includes links to resources and tools for security testing.   
 

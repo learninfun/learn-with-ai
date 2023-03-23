@@ -1,9 +1,10 @@
 +++
 title = "大O符號"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Big O Notation的問題
+給我5題Big O Notation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "大O符號"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Big O Notation並舉例
+以中文說明Big O Notation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Big O Notation是用來描述算法時間複雜度的一種方式，它告訴我
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Big O Notation的重點
+以中文條列Big O Notation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ Big O Notation是用來描述算法時間複雜度的一種方式，它告訴我
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Big O Notation的中等難度問題，並在後面列出答案
+以中文給我5題Big O Notation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -78,26 +79,4 @@ Big O Notation是用來描述算法時間複雜度的一種方式，它告訴我
 5. 在一個無向圖中，找出長度為k的簡單環路。求該算法的時間複雜度。
 
 答案：O(n^k * poly(n))   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Big O Notation的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Big-O Notation Explained" by GeeksforGeeks (https://www.geeksforgeeks.org/big-o-notation/)
-This article provides a comprehensive explanation of Big-O notation, including how it's used to measure the efficiency of algorithms and common time complexities of different types of algorithms.
-
-2. "A beginner's guide to Big O notation" by Brandon Morelli (https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
-This article breaks down the basics of Big-O notation in a clear and easy-to-understand way. It also discusses why Big-O notation matters and why it doesn't always tell the whole story of an algorithm's efficiency.
-
-3. "Big-O Cheat Sheet" by Eric Rowell (https://www.bigocheatsheet.com/)
-This interactive cheat sheet is a helpful reference for understanding the different types of Big-O notation and how they relate to various algorithms. It includes visuals and examples to illustrate each time complexity.
-
-4. "Big O Notation and Algorithmic Complexity Analysis" by Learnable Programming (http://www.learnableprogramming.com/2018/01/22/big-o-notation-and-algorithmic-complexity-analysis/)
-This article provides a detailed explanation of how to analyze the time complexity of algorithms using Big-O notation. It includes examples to illustrate the process and explains how to determine the "best" algorithm for a given problem.
-
-5. "Big-O Notation and Algorithm Analysis" by Khan Academy (https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-o-notation)
-This video tutorial covers the basics of Big-O notation, including how it's used to describe the run-time of algorithms and how to calculate it for different types of algorithms. It also provides tips for analyzing algorithms and determining their efficiency.   
 

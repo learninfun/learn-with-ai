@@ -1,10 +1,10 @@
 
 
-HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可以增强现有 HTML 语法的功能。
+HTML preprocessors 即是 HTML 預處理器，它是一種工具或語言，可以增強現有 HTML 語法的功能。
 
-以下是一些常见的 HTML 预处理器，并举例说明：
+以下是一些常見的 HTML 預處理器，並舉例說明：
 
-1. Jade/Pug：它是一种类似于快速而简洁的语法，可以使 HTML 写作更简单。例如：
+1. Jade/Pug：它是一種類似於快速而簡潔的語法，可以使 HTML 寫作更簡單。例如：
 
    ```
    html
@@ -13,7 +13,7 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
      body
        h1 Welcome to my website!
    ```
-   比起 HTML 的写作
+   比起 HTML 的寫作
 
    ```
    <html>
@@ -26,7 +26,7 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
    </html>
    ```
 
-2. Haml：Haml 的目标是减少 HTML 冗长以及消除错误。例如：
+2. Haml：Haml 的目標是減少 HTML 冗長以及消除錯誤。例如：
 
    ```
    %html
@@ -35,7 +35,7 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
      %body
        %h1 Welcome to my website!
    ```
-   相比于 HTML 的写法
+   相比於 HTML 的寫法
 
    ```
    <html>
@@ -48,7 +48,7 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
    </html>
    ```
 
-3. Slim：Slim 是一种快速而简单的模板语言，可以创建 HTML 代码。例如：
+3. Slim：Slim 是一種快速而簡單的模板語言，可以創建 HTML 代碼。例如：
 
    ```
    html
@@ -57,7 +57,7 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
      body
        h1 Welcome to my website!
    ```
-   相比于 HTML 的写法
+   相比於 HTML 的寫法
 
    ```
    <html>
@@ -70,4 +70,4 @@ HTML preprocessors 即是 HTML 预处理器，它是一种工具或语言，可�
    </html>
    ```
 
-以上是一些常见的 HTML 预处理器的介绍及示例。这些预处理器可以提高 HTML 代码的可读性和减少冗长扁平的 HTML 代码。
+以上是一些常見的 HTML 預處理器的介紹及示例。這些預處理器可以提高 HTML 代碼的可讀性和減少冗長扁平的 HTML 代碼。

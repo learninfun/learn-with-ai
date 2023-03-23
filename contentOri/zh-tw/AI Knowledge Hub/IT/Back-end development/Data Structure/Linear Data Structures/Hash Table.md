@@ -1,9 +1,10 @@
 +++
 title = "哈希表"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Hash Table的問題
+給我5題Hash Table的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "哈希表"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Hash Table並舉例
+以中文說明Hash Table並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ title = "哈希表"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Hash Table的重點
+以中文條列Hash Table的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ title = "哈希表"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Hash Table的中等難度問題，並在後面列出答案
+以中文給我5題Hash Table的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -76,36 +77,4 @@ title = "哈希表"
 5. 題目：聚集相同字母的字符串
 給定一個包含n個字符串的陣列，將它們分組並聚集所有包含相同字母的字符串。
 答案： https://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Hash Table的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Hash Tables for Beginners" by GeeksforGeeks
-Link: https://www.geeksforgeeks.org/hashing-set-1-introduction/
-
-This article provides an introduction to hash tables, explaining how they work and why they're important in computer science. It goes into detail about hash functions and collisions, and provides several examples of how hash tables can be used in various programming languages.
-
-2. "A Beginner’s Guide to Hash Tables" by FreeCodeCamp
-Link: https://www.freecodecamp.org/news/a-beginners-guide-to-hash-tables/
-
-This article discusses the basics of hash tables, as well as their benefits and drawbacks compared to other data structures. It also includes examples of how hash tables are used in real-world applications, such as algorithms for searching and sorting.
-
-3. "Hash Tables Explained" by Medium
-Link: https://medium.com/@codingfreak/hash-tables-explained-b3bafa6d449
-
-This article provides a detailed explanation of how hash tables work, covering topics such as hash functions, collisions, and chaining. It also includes code examples for implementing hash tables in Java and Python.
-
-4. "Understanding Hash Tables" by Topcoder
-Link: https://www.topcoder.com/thrive/articles/Understanding%20Hash%20Tables
-
-This article talks about the different types of hash tables and their variations, such as open addressing and double hashing. It also provides several use cases for hash tables, such as finding duplicate items in a dataset or storing user information in a database.
-
-5. "Hash Table Tutorial" by Tutorialspoint
-Link: https://www.tutorialspoint.com/data_structures_algorithms/hash_table_program_in_c.htm
-
-This tutorial demonstrates how to implement a hash table in C, teaching readers how to create their own hash function and build a custom data structure. It also covers the various operations that can be performed on a hash table, such as inserting, searching, and deleting elements.   
 

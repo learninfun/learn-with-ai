@@ -1,7 +1,7 @@
 
 
-1. What is Configuration Management, and why is it important?
-2. What are some common tools used in Configuration Management, and how do they work?
-3. How does Configuration Management help ensure that software and systems are stable, secure, and reliable?
-4. What are some best practices for implementing Configuration Management in an organization?
-5. How does Configuration Management interact with other IT disciplines, such as DevOps, Testing, and Release Management?
+1. 什么是组态管理?
+2. 为什么组态管理很重要?
+3. 组态管理的主要目标是什么?
+4. 组态基准是什么?
+5. 组态管理如何支援软体的开发过程?

@@ -1,7 +1,7 @@
 
 
-Cross-Site Request Forgery (CSRF) is a type of attack that allows an attacker to impersonate a legitimate user and obtain sensitive information or perform actions on behalf of the user without their consent. In this type of attack, the attacker is able to trick a victim's web browser into sending unwanted requests to a targeted website, using the user's session information that is stored in cookies.
+Cross-Site Request Forgery (CSRF)是指攻擊者利用受害者的身份，向目標網站發送請求，以達到非法操作的目的。
 
-For example, let's say a user is logged into their online banking account and has recently opened another tab to visit a different website. Meanwhile, the attacker sends an email to the user containing a link to a malicious website that contains a hidden form that performs a CSRF attack. When the user clicks on that link, the malicious code embedded in the form sends a request to the banking website, which is authorized by the user's session cookie. The request could, for example, transfer funds from the user's account to the attacker's account, as the user's session allows the action.
+例如，一個攻擊者可以在一個電子商務網站上創建一個假購物車，並在假版本中加入惡意商品頁面的連結。 當受害者登錄並訪問該假購物車時，連結將觸發任意操作，例如在受害者的帳戶中進行非法交易。
 
-In this example, the victim's web browser was unaware of the malicious request being sent, and since the request was performed with the user's session cookie, it was authorized by the website. This type of attack can be prevented by using anti-forgery tokens, session cookies with HttpOnly and Secure flags, and verifying user actions before allowing them to perform actions that require authorization.
+這種攻擊有時也被稱為「Session Riding」或「海盜訪問」，是一種常見的網路攻擊手段。為了減少這種攻擊帶來的風險，網站開發人員可以採取一系列防範措施，例如通過驗證碼、隨機Token等方式確保請求的合法性，降低攻擊的風險。

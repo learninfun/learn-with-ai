@@ -1,5 +1,6 @@
 +++
 title = "克鲁斯卡尔演算法"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -82,21 +83,12 @@ Kruskal's Algorithm步骤如下：
 
 
 
-1. Kruskal's Algorithm is used to find the Minimum Spanning Tree (MST) of a given graph.
-
-2. The algorithm works by sorting the edges of the graph by weight, and then adding the edges with the lowest weight first, as long as they do not create a cycle.
-
-3. To determine whether an edge will create a cycle, the algorithm uses a Union-Find data structure.
-
-4. The running time of Kruskal's Algorithm is O(E log E) where E is the number of edges in the graph.
-
-5. Kruskal's Algorithm is a greedy algorithm, meaning that it makes the locally optimal choice at each step, in the hope that this will lead to a globally optimal solution.
-
-6. The MST of a graph is a tree that spans all the vertices of the graph, while minimizing the total weight of the edges.
-
-7. Kruskal's Algorithm can handle graphs with both positive and negative edge weights, but will only work on connected graphs.
-
-8. Kruskal's Algorithm can be used in a variety of applications, including network design, clustering, and image segmentation.   
+1. 将所有的边按照权值从小到大排序
+2. 开始遍历所有边，如果遇到的边不会形成环路，就将该边加入最小生成树中
+3. 判断环路的方法可以是利用Union-Find资料结构
+4. 当所有边都遍历完毕或是最小生成树中的边数已达到其顶点数-1时结束
+5. Kruskal's Algorithm具有贪心的思想，每次选择权值最小的边，是获得最小生成树的保证
+6. 时间复杂度为O(ElogE)，其中E为边的数量，因为排序需要O(ElogE)的时间，接着进行E次寻找，每次寻找需要O(1)的时间   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -124,36 +116,4 @@ Kruskal's Algorithm步骤如下：
 5. 给定一个无向图，使用Kruskal's Algorithm找到最小生成树。图的边权重如下：[(1, 2, 2), (2, 3, 4), (1, 4, 1), (4, 3, 3), (4, 5, 8), (3, 5, 6), (3, 6, 9), (5, 6, 5)]。
 
 答案：最小生成树的边为[(1, 4, 1), (1, 2, 2), (2, 3, 4), (4, 5, 8), (5, 6, 5)]，总权重为20。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Kruskal's Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Kruskal's Algorithm - Implementations in C++ and Java
-https://www.geeksforgeeks.org/kruskals-algorithm-simple-implementation-for-adjacency-matrix/
-
-This resource provides a simple implementation of Kruskal's algorithm for finding a minimum spanning tree in a graph with an adjacency matrix. The article includes C++ and Java code examples with detailed explanations of each step in the algorithm.
-
-2. Kruskal's Algorithm - Explanation and Visualization
-https://visualgo.net/en/mst
-
-This website provides a visual explanation of Kruskal's algorithm, explaining each step in the process with animations and diagrams. The resource also provides an interactive visualizer that allows users to create their own graphs and run the algorithm.
-
-3. Kruskal's Algorithm - Complexity Analysis
-https://www.tutorialspoint.com/Kruskal-s-algorithm
-
-This tutorial from TutorialsPoint provides a detailed explanation of the complexity analysis of Kruskal's algorithm. The article explains the time and space complexities of the algorithm and provides examples to help readers understand the concept.
-
-4. Kruskal's Algorithm - Real-World Applications
-https://www.techopedia.com/definition/26459/kruskals-algorithm
-
-This article from Techopedia explores the real-world applications of Kruskal's algorithm. The article explains how Kruskal's algorithm is used in various fields such as telecommunications, transportation, and computer networks.
-
-5. Kruskal's Algorithm - Variations and Extensions
-https://www.cs.princeton.edu/courses/archive/spr03/cs226/lectures/mst.pdf
-
-This resource from Princeton University provides an in-depth look into the variations and extensions of Kruskal's algorithm. The article explains how the algorithm can be modified to handle different constraints in the graph such as negative weights or directed edges. The resource also provides examples and illustrations to help readers understand the variations.   
 

@@ -1,9 +1,10 @@
 +++
 title = "點覆蓋"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Vertex Cover的問題
+給我5題Vertex Cover的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "點覆蓋"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Vertex Cover並舉例
+以中文說明Vertex Cover並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Vertex Cover是一種圖論中的問題，目的是找到一個最小的集合�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Vertex Cover的重點
+以中文條列Vertex Cover的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Vertex Cover是一種圖論中的問題，目的是找到一個最小的集合�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Vertex Cover的中等難度問題，並在後面列出答案
+以中文給我5題Vertex Cover的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -85,41 +86,4 @@ Vertex Cover是一種圖論中的問題，目的是找到一個最小的集合�
 5. 給定一個無向圖，每個節點有一個預算和一個收入。你需要選擇一個vertex cover，使得所有選中的節點的總預算不超過收入總和，並且收入總和最大。求最大收入。
 
 答案：可以將問題轉化為線性規劃求解，令x_i為節點i是否被選中，則目標函數為max{c_i*x_i}，約束條件為∑{b_i*x_i}<=∑{b_i}，x_i∈{0,1}。使用整數規劃技巧將x_i限制為整數，然後使用線性規劃求解即可。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Vertex Cover的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Vertex Cover Problem" by GeeksforGeeks
-
-This article on GeeksforGeeks provides an overview of the Vertex Cover problem, including a definition, properties, and applications. It also covers various algorithms for solving the problem, including brute force, Greedy, and Approximation algorithms.
-
-Source: https://www.geeksforgeeks.org/vertex-cover-problem-set-1-introduction-approximate-algorithm/
-
-2. "Vertex Cover: An Introduction" by Brilliant.org
-
-This article on Brilliant.org provides a step-by-step introduction to Vertex Cover, including its definition, examples, and insights into its complexity. It also provides exercises to test and reinforce understanding of the concept.
-
-Source: https://brilliant.org/wiki/vertex-cover/
-
-3. "Maximum Matching and Vertex Cover" by Skiena's Algorithm Design Manual
-
-This chapter from Skiena's Algorithm Design Manual provides a thorough treatment of the Vertex Cover problem, including explanations of related concepts such as Maximum Matching and Bipartite Graphs. The chapter also presents several algorithms for finding Vertex Cover, and discusses their performance.
-
-Source: http://www.algorist.com/algowiki/index.php/Maximum_Matching_and_Vertex_Cover
-
-4. "The Vertex Cover Problem: Algorithms and Complexity" by Martin Vatshelle
-
-This paper by Martin Vatshelle provides an in-depth analysis of the Vertex Cover problem, including its complexity, hardness, and approximability. The paper surveys existing algorithms for solving Vertex Cover, and presents a new algorithm that achieves better performance than previous ones.
-
-Source: https://arxiv.org/abs/1304.6843
-
-5. "Vertex Cover: From Theory to Practice" by Xiao Zhang and Athanasios V. Vasilakos
-
-This paper by Xiao Zhang and Athanasios V. Vasilakos explores applications of Vertex Cover in real-world scenarios, such as sensor networks and wireless communication. The paper also presents an overview of various algorithms for solving the problem, and identifies open research challenges in the field.
-
-Source: https://www.sciencedirect.com/science/article/pii/S1570866716308391   
 

@@ -1,5 +1,6 @@
 +++
 title = "米勒-拉宾质数判定算法"
+weight = "7"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "米勒-拉宾质数判定算法"
 
 
 
-1. What is the Miller-Rabin algorithm used for? 
-2. How does the Miller-Rabin algorithm differ from other primality testing algorithms? 
-3. Can the Miller-Rabin algorithm determine the exact prime factorization of a number? 
-4. How can the Miller-Rabin algorithm be implemented efficiently in code? 
-5. Are there any limitations or drawbacks to using the Miller-Rabin algorithm compared to other primality testing algorithms?   
+1. 什麼是Miller-Rabin Algorithm (MRA)？它與其他素性測試算法的區別是什麼？
+2. MRA如何判斷一個數是否為質數？它的運行時間是多少？
+3. MRA在什麼情況下可能會給出錯誤的結果？該如何解決這個問題？
+4. MRA是否可應用於大數據範圍內的質數判斷？如果可以，需要注意哪些問題？
+5. MRA的應用場景有哪些？該算法的優點和缺點是什麼？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -104,21 +105,4 @@ Miller-Rabin Algorithm的演算法流程如下：
 5. 对于一个给定的奇数 n，使用 Miller-Rabin Algorithm 判断是否存在一个奇数 g，使得 g 是 n 的原根。
 
 答案：可以随机选取一个质数 p，使得 p 是 n 的一个质因子。然后选取一个小于 p 的整数 a，计算 g = a^((p-1) * (n-1) / phi(n)) mod n。如果 g 不等于 1，则有很高概率认为 g 是 n 的原根。否则，换一个 a 重新计算。如果 p 不能选出，则需要用更高级的算法解决问题。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Miller-Rabin Algorithm的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Miller-Rabin Primality Test - A set of articles explaining the Miller-Rabin algorithm and its implementation in various programming languages. Includes a detailed explanation of the algorithm and its complexity, along with a Python code implementation.
-
-2. Brilliant.org: Miller-Rabin Primality Test - A concise explanation of the Miller-Rabin algorithm along with a Java code implementation. Includes examples of how to use the algorithm to determine whether a large number is prime, and how to find the smallest prime number larger than a given number.
-
-3. Khan Academy: Miller-Rabin Primality Test - A video lesson explaining the Miller-Rabin algorithm and its complexity. Includes examples of how to use the algorithm to determine whether a number is prime or composite.
-
-4. Rosetta Code: Miller-Rabin Primality Test - A collection of programming examples in various languages demonstrating how to implement the Miller-Rabin algorithm. Includes C++, Java, Python, Ruby, and many other popular programming languages.
-
-5. Wikipedia: Miller-Rabin Primality Test - An overview of the Miller-Rabin algorithm with a description of its history, complexity, and applications. Includes references to related topics in number theory and cryptography.   
 

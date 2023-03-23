@@ -1,9 +1,10 @@
 +++
 title = "最長共同子序列"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Longest Common Subsequence的問題
+給我5題Longest Common Subsequence的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "最長共同子序列"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Longest Common Subsequence並舉例
+以中文說明Longest Common Subsequence並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ B 0 1 2 2 3 4 5
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Longest Common Subsequence的重點
+以中文條列Longest Common Subsequence的重點
 {{< /ask_chatgpt >}}
 
 
@@ -70,7 +71,7 @@ B 0 1 2 2 3 4 5
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Longest Common Subsequence的中等難度問題，並在後面列出答案
+以中文給我5題Longest Common Subsequence的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -99,26 +100,4 @@ S1： "AGGTAB"
 S2："GXTXAYB"
 S3："GTAB"
 答案： "GTAB"   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Longest Common Subsequence的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/
-This article on GeeksforGeeks is a great resource for understanding the concept of the longest common subsequence. It gives a detailed explanation of how the problem can be solved using dynamic programming, and includes a step-by-step algorithm for finding the longest common subsequence.
-
-2. https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
-Wikipedia's article on the longest common subsequence problem is a comprehensive resource for anyone looking to learn more about the topic. It covers the basic definition of the problem, the different algorithms used to solve it (recursive, dynamic programming, etc.), and a few examples to help illustrate the concepts.
-
-3. https://www.tutorialspoint.com/data_structures_algorithms/longest_common_subsequence.htm
-This tutorial on TutorialsPoint goes into great detail about the longest common subsequence problem, including a step-by-step explanation of the dynamic programming algorithm used to solve it. It also includes several examples to help readers better understand the concepts.
-
-4. https://www.codechef.com/wiki/tutorial-longest-common-subsequence
-CodeChef's tutorial on the longest common subsequence problem is another great resource for anyone looking to learn more about the topic. It explains the problem in detail, and includes several examples to help readers better understand the concepts. It also covers the different algorithms that can be used to solve the problem.
-
-5. https://www.hackerearth.com/practice/algorithms/dynamic-programming/longest-common-subsequence/tutorial/
-This tutorial on HackerEarth covers the longest common subsequence problem in-depth, including a detailed explanation of the dynamic programming algorithm used to solve it. It also includes several examples to help readers better understand the concepts, as well as some tips for optimizing the algorithm for large inputs.   
 

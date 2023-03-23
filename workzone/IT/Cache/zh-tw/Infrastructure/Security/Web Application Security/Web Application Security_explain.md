@@ -1,7 +1,7 @@
 
 
-Web application security refers to the measures taken to protect a website or web application from attacks, unauthorized access, data loss, or data theft. It involves implementing various security protocols, coding practices, and testing methodologies to ensure the security of the web application.
+Web Application Security（網路應用程式安全性）是指保護網路應用程式不受到未授權的存取、資訊洩漏、破壞攻擊等安全威脅的措施和技術。Web應用程式包括網路商店、網路銀行、網路郵件、社交媒體等等。
 
-An example of a web application security attack is a SQL injection attack. In such attacks, hackers exploit vulnerabilities in a web application's code to inject malicious SQL code into the application's database. This can lead to unauthorized access to the database, data theft, and data manipulation.
+舉例來說，當一家銀行網路應用程式遭到攻擊時，攻擊者可能會嘗試入侵該銀行的伺服器，盜取客戶的資訊或造成金融損失。為了保護網路應用程式的安全性，銀行可以採取一系列的措施，例如使用強密碼、身份驗證、SSL加密技術、反向代理等技術，提高網路應用程式的安全性，保護客戶的資訊不受到威脅。另外，銀行也需要持續監控網路安全狀況，如發現異常情況及時採取應對措施。
 
-To prevent such attacks, web application security measures like input validation, sanitization of user inputs, and parameterized queries must be implemented. Additionally, using secure network protocols like HTTPS and regularly scanning for vulnerabilities can also help ensure the security of a web application.
+總之，Web Application Security對於確保網路應用程式的安全性非常重要，尤其對於金融、電子商務等強調安全性的行業更是必不可少的。

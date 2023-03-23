@@ -1,9 +1,10 @@
 +++
 title = "前端性能預算"
+weight = "9"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Front-End Performance Budgets的問題
+給我5題Front-End Performance Budgets的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "前端性能預算"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Front-End Performance Budgets並舉例
+以中文說明Front-End Performance Budgets並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,7 +37,7 @@ title = "前端性能預算"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Front-End Performance Budgets的重點
+以中文條列Front-End Performance Budgets的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +56,7 @@ title = "前端性能預算"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Front-End Performance Budgets的中等難度問題，並在後面列出答案
+以中文給我5題Front-End Performance Budgets的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -74,26 +75,4 @@ title = "前端性能預算"
 
 5. 如果您想要減少網頁加載時間並保證高效的性能，您應該如何使用Web Worker？
 答案：Web Worker可以在後臺線程中執行複雜的JavaScript代碼，從而減少主線程的工作量。這樣可以提高網頁的反應速度，同時確保高效的性能。Web Worker通常在處理大量數據，計算密集型操作和耗時操作方面非常有用。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Front-End Performance Budgets的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Front-End Performance Budgets: A Complete Guide | SitePoint
-- https://www.sitepoint.com/front-end-performance-budgets-complete-guide/
-
-2. Crafting Your Front-End Performance Budget – Smashing Magazine
-- https://www.smashingmagazine.com/2015/06/crafting-a-future-proof-responsive-design-strategy/
-
-3. Frontend Performance Budgets – Performance Calendar
-- https://calendar.perfplanet.com/2014/frontend-performance-budgets/
-
-4. Implementing a Front-End Performance Budget with Google Analytics
-- https://mattzeunert.com/2019/05/24/implementing-a-front-end-performance-budget-with-google-analytics.html
-
-5. Measuring Front-end Performance with SpeedCurve
-- https://speedcurve.com/blog/measuring-frontend-performance-with-speedcurve/   
 

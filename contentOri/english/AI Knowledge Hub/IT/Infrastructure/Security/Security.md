@@ -1,3 +1,7 @@
++++
+title = "Security"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Security
@@ -63,31 +67,4 @@ Answer: A DDoS (distributed denial-of-service) attack is a type of cyber attack 
 5. What is social engineering and how can it be avoided?
 
 Answer: Social engineering is a technique used by cyber attackers to manipulate people into revealing sensitive information or performing actions that compromise security. It can be avoided by raising awareness among employees and implementing security policies and procedures that verify identity, limit access, and prevent unauthorized disclosures.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Security
-{{< /ask_chatgpt >}}
-
-
-
-1. National Institute of Standards and Technology (NIST) Cybersecurity Framework: https://www.nist.gov/cyberframework
-
-2. The Department of Homeland Security (DHS) Cybersecurity and Infrastructure Security Agency (CISA): https://www.cisa.gov/cybersecurity
-
-3. The Information Security Forum (ISF): https://www.securityforum.org/
-
-4. The International Organization for Standardization (ISO) 27001 Information Security Management: https://www.iso.org/isoiec-27001-information-security.html
-
-5. The SANS Institute: https://www.sans.org/
-
-6. The Center for Internet Security (CIS): https://www.cisecurity.org/
-
-7. The Open Web Application Security Project (OWASP): https://owasp.org/
-
-8. The National Cyber Security Centre (NCSC): https://www.ncsc.gov.uk/
-
-9. The Cybersecurity and Infrastructure Security Agency (CISA) Cybersecurity Division: https://www.cisa.gov/cybersecurity-division
-
-10. The Cloud Security Alliance (CSA): https://cloudsecurityalliance.org/   
 

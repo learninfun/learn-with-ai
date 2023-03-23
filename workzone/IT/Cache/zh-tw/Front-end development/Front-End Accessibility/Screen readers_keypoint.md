@@ -1,17 +1,10 @@
 
 
-1. Screen readers are software applications that help visually impaired individuals access and navigate computer systems, mobile devices, and the internet.
-
-2. Screen readers read out loud the content displayed on the screen, including text, graphics, and images.
-
-3. These applications use a combination of synthesised speech and Braille displays to communicate with users.
-
-4. Screen readers provide support for users in various languages and offer a range of customisation options, such as voice and speed settings.
-
-5. They allow users to navigate websites and applications using a keyboard, such as the arrow keys and tab key, or through voice commands.
-
-6. Screen readers are compatible with a wide range of devices, including desktops, laptops, mobile phones, and tablets.
-
-7. They also provide support for various file formats, such as PDFs, Microsoft Word documents, and HTML files.
-
-8. Accessibility standards, such as the Web Content Accessibility Guidelines (WCAG), provide guidelines for developers to ensure that their websites and applications are compatible with screen readers and accessible to visually impaired individuals.
+1. 螢幕閱讀器是一種輔助技術，專門設計給視力有障礙的人使用。
+2. 可以翻譯網頁和應用程式的內容，並將其轉換成聲音或文字輸出。
+3. 可以通過鍵盤快捷鍵、手勢和語音指令等方式進行操作。
+4. 可以讀取文本、提示、按鈕、圖片、視頻和音訊文件等內容。
+5. 通常會使用個人電腦、平板電腦或智能手機等裝置上運行。
+6. 常見的螢幕閱讀器包括NVDA、JAWS和VoiceOver等。
+7. 視障人士可以根據個人需要選擇不同的螢幕閱讀器以滿足其特定需求。
+8. 設計師和開發人員可以通過遵循可訪問性指南，使其網站和應用程序能夠與螢幕閱讀器相互兼容。

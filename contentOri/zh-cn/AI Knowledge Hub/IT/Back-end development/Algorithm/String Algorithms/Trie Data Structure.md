@@ -1,5 +1,6 @@
 +++
 title = "字典树资料结构"
+weight = "7"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -284,31 +285,4 @@ public:
 };
 
 其中，状态 state 储存了当前字符串中每个元音字母是否出现了偶数次，用二进制位来表示，e.g. 0b00000 表示当前字符串中的所有元音字母均出现了偶数次，0b00001 表示当前字符串中 a 出现了奇数次，其余元音字母出现了偶数次，以此类推。注意到当状态 state 重复出现时，两种重复状态之间的字符必定是符合条件的，因为在两种状态之间切换，表示其中一个更少使用的元音字母出现次数变化了一次，并且此时两种状态在该元音字母上的出现次数必定有偶奇性正好相反。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Trie Data Structure的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Trie Data Structure" - GeeksforGeeks ：https://www.geeksforgeeks.org/trie-data-structure/
-
-這篇文章提供了詳盡的 Trie Data Structure 的介紹，也包含了 Trie 的基本原理、插入、刪除、搜尋等操作，並且透過範例讓讀者更易理解 Trie 的使用方法。
-
-2. "Trie (Prefix Tree) & its implementation" - TutorialsPoint ：https://www.tutorialspoint.com/data_structures_algorithms/trie_algorithm.htm
-
-TutorialsPoint 提供了與 Trie 有關的技術用語與相關概念的講解，並以 Python 為範例，解析了 Trie 的程式實作方法，讓讀者可輕鬆學會使用 Trie。
-
-3. "Trie：字典查詢，完美解法" - 程序員垃圾場：https://mp.weixin.qq.com/s/5ZszCn2XfsXLtxVBmB2QWw
-
-這篇文章以中文呈現，專注於 Trie 資料結構的應用，透過插入操作與字典查詢的範例，成功解釋了 Trie 的語法與使用方法。
-
-4. "A Complete Guide to Trie Data Structure" - Towards Data Science：https://towardsdatascience.com/a-complete-guide-to-trie-data-structure-2626db71bc98
-
-這篇文章使用圖片來輔助說明 Trie 的使用，並且透過比較不同使用 Trie 的情境，進一步的解說 Trie 的效能與優勢。
-
-5. "Trie Data Structure" - Programiz：https://www.programiz.com/dsa/trie-data-structure
-
-Programiz 透過專業的方式，提供了 Trie 的基礎知識、實作、示例和小結等內容，並以簡潔明瞭的方式呈現給讀者，讓讀者能快速了解 Trie 的物件結構特征和使用方式。   
 

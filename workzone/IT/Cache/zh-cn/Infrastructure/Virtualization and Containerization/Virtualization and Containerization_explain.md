@@ -1,7 +1,7 @@
 
 
-Virtualization and containerization are two popular methods used for managing software applications and infrastructure. 
+Virtualization與Containerization都是用來區隔不同應用程式之間的環境，讓它們可以共存及隔離，但兩者概念不太一樣。
 
-Virtualization is a technology that allows multiple operating systems to run simultaneously on a single physical server or hardware environment. In other words, it creates a virtual version of the hardware, enabling multiple instances of software and applications to run independently of each other while sharing the same underlying hardware. Each virtual machine can be run with its own resources, such as CPU, memory, and storage, making it more efficient and flexible than traditional physical servers. A popular example of virtualization is VMware, which allows businesses to create multiple virtual machines on a single server or cluster. 
+Virtualization是將物理主機的硬體資源，如 CPU、記憶體、硬碟等等，透過虛擬化技術，讓多個虛擬機器（Virtual Machine）在同一台主機上運作，每個虛擬機器都像是一台獨立的電腦，擁有自己的作業系統、應用程式和文件。舉例來說，在一台物理主機上可以運作多個不同的虛擬機器，每個虛擬機器都可以執行不同的作業系統，例如在 Windows 主機上同時運作 Linux 和 Windows Server 兩個虛擬機器。
 
-Containerization, on the other hand, is a method of running and deploying applications as standalone containers. Containers are lightweight, portable, and isolated software packages that package everything an application needs to run, including the code, dependencies, and system libraries. Unlike virtual machines, which require a guest operating system, containers run directly on the host operating system, allowing applications to be more isolated from one another. Containerization has become increasingly popular in recent years due to its flexibility, scalability, and ease of deployment. A popular example of containerization is Docker, which is used to create and run containers on Linux and Windows systems.
+Containerization則是利用容器技術，將應用程式及相關依賴套件放在一個獨立的環境中，形成一個稱為容器（Container）的獨立執行環境。容器間相互隔離，而且不需要額外的作業系統層，因此可以更輕量、更快速地運作，並有助於開發人員在不同環境中快速部署和運行應用程式。舉例來說，同一個主機上可以運作多個不同的容器，每個容器可以擁有不同的應用程式，例如在一台主機上運行多個網站容器，每個容器中都有不同的網站應用程式及相關的資料庫。

@@ -1,17 +1,8 @@
 
 
-1. Kruskal's Algorithm is used to find the Minimum Spanning Tree (MST) of a given graph.
-
-2. The algorithm works by sorting the edges of the graph by weight, and then adding the edges with the lowest weight first, as long as they do not create a cycle.
-
-3. To determine whether an edge will create a cycle, the algorithm uses a Union-Find data structure.
-
-4. The running time of Kruskal's Algorithm is O(E log E) where E is the number of edges in the graph.
-
-5. Kruskal's Algorithm is a greedy algorithm, meaning that it makes the locally optimal choice at each step, in the hope that this will lead to a globally optimal solution.
-
-6. The MST of a graph is a tree that spans all the vertices of the graph, while minimizing the total weight of the edges.
-
-7. Kruskal's Algorithm can handle graphs with both positive and negative edge weights, but will only work on connected graphs.
-
-8. Kruskal's Algorithm can be used in a variety of applications, including network design, clustering, and image segmentation.
+1. 將所有的邊按照權值從小到大排序
+2. 開始遍歷所有邊，如果遇到的邊不會形成環路，就將該邊加入最小生成樹中
+3. 判斷環路的方法可以是利用Union-Find資料結構
+4. 當所有邊都遍歷完畢或是最小生成樹中的邊數已達到其頂點數-1時結束
+5. Kruskal's Algorithm具有貪心的思想，每次選擇權值最小的邊，是獲得最小生成樹的保證
+6. 時間複雜度為O(ElogE)，其中E為邊的數量，因為排序需要O(ElogE)的時間，接著進行E次尋找，每次尋找需要O(1)的時間

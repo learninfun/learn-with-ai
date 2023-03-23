@@ -1,9 +1,10 @@
 +++
 title = "前端無障礙設計"
+weight = "8"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Front-End Accessibility的問題
+給我5題Front-End Accessibility的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "前端無障礙設計"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Front-End Accessibility並舉例
+以中文說明Front-End Accessibility並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ Front-End Accessibility指的是讓網站、應用程式等前端介面容易被
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Front-End Accessibility的重點
+以中文條列Front-End Accessibility的重點
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +65,7 @@ Front-End Accessibility指的是讓網站、應用程式等前端介面容易被
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Front-End Accessibility的中等難度問題，並在後面列出答案
+以中文給我5題Front-End Accessibility的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -98,36 +99,4 @@ Front-End Accessibility指的是讓網站、應用程式等前端介面容易被
 - 使用輪廓和分析工具來確保圖像在放大或縮小時仍然可識別；
 - 在可行的情況下，考慮使用SVG圖像，因為它們可以縮放而不會失真或模糊。
    
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Front-End Accessibility的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Web Accessibility for Front-End Developers" by Smashing Magazine 
-Link: https://www.smashingmagazine.com/2015/10/web-accessibility-for-front-end-developers/
-
-This article explains the importance of web accessibility and provides tips on how front-end developers can make their designs accessible to all users. It also includes helpful tools and resources for testing and improving accessibility.
-
-2. "10 Simple Tips for Making Your Website Accessible" by Shopify 
-Link: https://www.shopify.com/partners/blog/10-tips-for-making-your-website-more-accessible
-
-This article offers practical advice for improving the accessibility of websites in a simple and straightforward way. The tips include recommendations for font size, color contrast, keyboard navigation, and more.
-
-3. "Web Accessibility: A Designer's Guide" by UX Design 
-Link: https://uxdesign.cc/web-accessibility-a-designers-guide-62090906c2a2
-
-This article provides a comprehensive guide to web accessibility for designers, including information on accessibility laws, design elements to consider, and tools for testing and improving accessibility.
-
-4. "Accessibility in Front-End Development: Tips and Tricks" by Codrops 
-Link: https://tympanus.net/codrops/2017/12/12/accessibility-in-front-end-development-tips-and-tricks/
-
-This article offers tips and tricks for improving front-end accessibility, including advice on color contrast, navigational structure, and semantic HTML. It also includes resources for testing and improving accessibility.
-
-5. "How to Optimize Your Website for Accessibility" by Moz 
-Link: https://moz.com/blog/how-to-optimize-your-website-for-accessibility
-
-This article discusses the importance of web accessibility and provides tips on how to optimize a website for accessibility, including advice on alt tags, keyboard navigation, and more. It also includes resources for testing and improving accessibility.   
 

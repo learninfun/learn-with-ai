@@ -1,5 +1,6 @@
 +++
 title = "DevSecOps"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -90,26 +91,4 @@ DevSecOps是一种软件开发流程，强调安全性的全面性，在DevOps�
 5. 怎樣從安全的角度來管理DevSecOps中的分支管理？
 
 答案： 首先必須確保分支管理的系統安全，這可以通過使用密碼保護和授權機制來實現。其次，分支管理必須建立在一開始就有效的安全標準上，這些標準可以通過采用安全原則來實現。還可以使用一些工具來控制分支管理，比如使用Git的Gitflow模型來實現。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇DevSecOps的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is DevSecOps and Why is it Important?" by IBM Security: 
-This article gives an overview of DevSecOps, its benefits, and why it is important for organizations. It talks about how to incorporate security into the development and operations process, and how it can help reduce risks and losses associated with cyber attacks.
-
-2. "DevSecOps – Securing Your Digital Transformation" by AWS: 
-In this article, AWS talks about how DevSecOps fits into digital transformation initiatives and how it can help organizations build more secure and resilient systems. They share best practices and tools for implementing DevSecOps in their development and operations processes.
-
-3. "DevSecOps: Integrating Security into DevOps Practices" by CyberArk: 
-This article explains the importance of bringing security into the development and operations processes, and how DevSecOps can provide a more comprehensive approach to application security. It also provides tips for implementing DevSecOps in an organization.
-
-4. "DevSecOps: Redefining Security for the Modern Enterprise" by Splunk: 
-This article talks about how DevSecOps is changing the role of security in organizations and how it can enable security teams to keep up with the new demands of modern applications. It discusses the challenges of implementing DevSecOps, as well as the benefits it can bring.
-
-5. "DevSecOps: Why it matters and how to make it work" by CSO Online: 
-This article discusses the reasons why DevSecOps is important for organizations, and how it can help them address the ever-evolving cybersecurity threats. It also provides tips for how to successfully implement DevSecOps practices in a company, including cultural and organizational changes that may be required.   
 

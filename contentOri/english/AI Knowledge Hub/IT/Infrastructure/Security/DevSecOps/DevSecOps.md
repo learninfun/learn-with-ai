@@ -1,3 +1,7 @@
++++
+title = "DevSecOps"
+weight = "4"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about DevSecOps
@@ -62,22 +66,4 @@ Answer: Automation plays a critical role in DevSecOps by allowing for the contin
 
 5. What are some best practices for implementing DevSecOps?
 Answer: Some best practices for implementing DevSecOps include creating a culture of security awareness, integrating security into the development process from the beginning, using automation to ensure consistent security checks, establishing clear security policies and guidelines, and continuously monitoring and improving the security of applications.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about DevSecOps
-{{< /ask_chatgpt >}}
-
-
-
-1. “DevSecOps: Enabling Security in a DevOps World” by Synopsys
-2. “Why DevSecOps Matters More Than Ever” by Red Hat
-3. “What is DevSecOps?” by DevOps.com
-4. “DevSecOps: What is it and Why is it Important?” by Sonatype
-5. “What is DevSecOps? Why is it Important?” by Lacework
-6. “DevSecOps: Building Security into Your DevOps Pipeline” by GitLab
-7. “DevSecOps: What It Is And Why You Need It” by Trend Micro
-8. “DevSecOps: A Comprehensive Guide” by Sumo Logic
-9. “DevSecOps: The Key to Unlocking DevOps Security Success” by Checkmarx
-10. “DevSecOps: The Next Generation of Software Development” by TechBeacon.   
 

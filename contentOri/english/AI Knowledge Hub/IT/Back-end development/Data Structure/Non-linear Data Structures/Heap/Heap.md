@@ -1,3 +1,7 @@
++++
+title = "Heap"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Heap
@@ -76,22 +80,4 @@ Answer: To remove the root node from a Max Heap, you can first swap it with the 
 
 5. Can a heap be implemented using an array?
 Answer: Yes, a heap can be implemented using an array where the parent-child relationship is defined by the array indices and the heap property is maintained by swapping elements to maintain the heap property.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Heap
-{{< /ask_chatgpt >}}
-
-
-
-1. Heap.com
-2. Heap Analytics Overview
-3. Heap Product Tour
-4. Heap Features
-5. Heap Blog
-6. Heap Case Studies
-7. Heap Resources
-8. Heap Integrations
-9. Heap Pricing
-10. About Heap.   
 

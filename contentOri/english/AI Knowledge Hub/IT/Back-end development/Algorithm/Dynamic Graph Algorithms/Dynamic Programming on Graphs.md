@@ -1,3 +1,7 @@
++++
+title = "Dynamic Programming on Graphs"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Dynamic Programming on Graphs
@@ -63,26 +67,4 @@ Answer: Yes, dynamic programming can be applied to DAGs by using a topological s
 
 5. What is a common problem in graph theory that can be solved using dynamic programming?
 Answer: The traveling salesman problem, which seeks to find the shortest route that visits every vertex in a weighted graph exactly once, can be solved using dynamic programming.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Dynamic Programming on Graphs
-{{< /ask_chatgpt >}}
-
-
-
-1. Dynamic Programming on Graphs: A Simple Introduction 
-This webpage provides a simple introduction to dynamic programming on graphs, explaining how it works and why it is useful, with examples and illustrations.
-
-2. Dynamic Programming on Graphs: A Comprehensive Guide 
-This comprehensive guide covers everything from the basics of dynamic programming to more advanced algorithms, such as shortest path algorithms on graphs.
-
-3. Dynamic Programming on Graphs: Topological Sort and Shortest Paths 
-This webpage focuses on two important aspects of dynamic programming on graphs: topological sort and shortest path algorithms. It provides intuitive explanations and examples for both concepts.
-
-4. Dynamic Programming on Graphs: Longest Common Subsequence and Shortest Common Supersequence 
-This webpage explores the use of dynamic programming on graphs to solve the longest common subsequence and shortest common supersequence problems. It provides step-by-step explanations and examples.
-
-5. Dynamic Programming on Graphs: Matrix Chain Multiplication and All-Pairs Shortest Paths 
-This webpage dives into dynamic programming on graphs for more advanced problems, such as matrix chain multiplication and all-pairs shortest paths. It explains the concept, provides examples and visualizations, and offers a code implementation.   
 

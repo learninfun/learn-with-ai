@@ -1,9 +1,10 @@
 +++
 title = "命令模式"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Command Pattern的問題
+給我5題Command Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "命令模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Command Pattern並舉例
+以中文說明Command Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Command Pattern是一種行為型設計模式，它提供了一種將動作封�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Command Pattern的重點
+以中文條列Command Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -44,7 +45,7 @@ Command Pattern是一種行為型設計模式，它提供了一種將動作封�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Command Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Command Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -68,31 +69,4 @@ Command Pattern是一種行為型設計模式，它提供了一種將動作封�
 5. 情境描述：設計一個電子商務網站，用於訂購產品和處理退貨。使用Command Pattern設計此網站。
 
 答案：為每個操作（訂單、付款、發貨、退貨）創建一個Command介面，其中定義execute()和undo()方法。控制器可以將這些命令添加到一個可迭代列表中，並且可以反過來運行列表以取消訂單。為了處理退貨流程，可以使用不同的Command介面，其中還包括額外的方法如validate()和approve()。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Command Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 維基百科的Command Pattern介紹：https://zh.wikipedia.org/wiki/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F
-
-該頁面為中文維基百科上的Command Pattern條目，簡單介紹了Command Pattern的應用場景、結構和優缺點。
-
-2. Refactoring Guru上的Command Pattern詳細解讀：https://refactoring.guru/design-patterns/command
-
-該頁面為Refactoring Guru網站上的Command Pattern解讀，從多個方面、多個角度進行了詳細解讀，並給出了實際的使用案例。
-
-3. Java Tutorials上的Command Pattern應用實例：https://docs.oracle.com/javase/tutorial/uiswing/examples/events/CommandDemoProject/src/events/CommandDemo.java
-
-該頁面為Oracle官方Java Tutorials網站上的Command Pattern應用實例，通過一個事件操作的範例展示了Command Pattern的使用。
-
-4. Design Patterns in Python上的Command Pattern範例代碼：https://www.giacomodebidda.com/command-pattern-python/
-
-該頁面為Design Patterns in Python網站上的Command Pattern範例代碼，介紹了如何在Python中實現Command Pattern。
-
-5. BitDegree上的Command Pattern入門指南：https://www.bitdegree.org/programming-interview-questions/command-pattern
-
-該頁面為BitDegree網站上的Command Pattern入門指南，從問題設定、解決方案、代碼示例等方面進行了詳細介紹。   
 

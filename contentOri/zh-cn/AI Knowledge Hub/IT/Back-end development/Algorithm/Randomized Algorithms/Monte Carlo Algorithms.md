@@ -1,5 +1,6 @@
 +++
 title = "蒙地卡罗算法"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -27,7 +28,7 @@ Monte Carlo算法是一種統計模擬方法，其以隨機化的方式模擬大
 
 1. Monte Carlo積分法
 
-Monte Carlo積分法是一種統計方法，可以求解複雜積分。其基本思路是通過隨機生成大量數值，將這些數值代入要積分的方程式，求解平均值。這樣可以得到一個接近真實積分值的概率分布。
+Monte Carlo積分法是一種統計方法，可以求解複雜積分。其基本思路是通過隨機生成大量數值，將這些數值代入要積分的方程式，求解平均值。這樣可以得到一個接近真實積分值的概率分佈。
 
 例如，要求解以下積分：
 
@@ -56,11 +57,11 @@ Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法
 
 1. 隨機抽樣：Monte Carlo算法基於隨機抽樣，將問題轉化為機率問題。
 
-2. 評估期望：Monte Carlo算法通過模擬實驗來估算期望，包括期望值、方差、概率分布等。
+2. 評估期望：Monte Carlo算法通過模擬實驗來估算期望，包括期望值、方差、概率分佈等。
 
 3. 蒙特卡羅模擬：Monte Carlo算法通常使用隨機模擬或蒙特卡羅模擬的技術，通過生成隨機樣本來解決問題。
 
-4. 數值積分：Monte Carlo算法可以使用數值積分技術來求解積分，通過對概率分布的積分來計算期望值。
+4. 數值積分：Monte Carlo算法可以使用數值積分技術來求解積分，通過對概率分佈的積分來計算期望值。
 
 5. 最小化誤差：Monte Carlo算法的目標是最小化誤差，通過增加樣本數量來提高精度。
 
@@ -91,26 +92,4 @@ Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法
 
 5. 一个野生的黑熊从森林里走出来，要到一个村庄里寻找食物。这个村庄周围有一些陷阱，黑熊如果掉进陷阱里就会死亡。假设黑熊每次可以向前走一步，有20％的机会走进陷阱，有80％的机会继续向前走。请问：当黑熊从森林出发，打算向村庄走20步时，有多少机会能够到达村庄而不掉进任何陷阱？
 答案：这个问题可以使用随机模拟的Monte Carlo方法来解决。可以从森林出发，不断模拟黑熊的行动，重复进行n次模拟。每次模拟结束后，统计黑熊是否掉进陷阱，以及到达村庄的次数。最后将到达村庄但没有掉进陷阱的次数除以总模拟次数，即可得到答案。答案约为0.4％。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Monte Carlo Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Monte Carlo Simulation: Definition, Applications, and Examples" 
-https://www.investopedia.com/terms/m/montecarlosimulation.asp
-
-2. "Introduction to Monte Carlo Methods" 
-https://www.math.nyu.edu/faculty/goodman/teaching/MonteCarlo.pdf
-
-3. "An Introduction to Monte Carlo Methods and Particle Filtering" 
-https://www.analyticsvidhya.com/blog/2015/06/introduction-monte-carlo-methods-particle-filtering/
-
-4. "A Gentle Introduction to Monte Carlo Markov Chain (MCMC) for Probabilistic Programming" 
-https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-markov-chain-mcmc-for-probabilistic-programming-59f3e1b43b8e
-
-5. "Understanding the Monte Carlo Method in Finance" 
-https://www.investopedia.com/articles/investing/092515/understanding-monte-carlo-method-finance.asp   
 

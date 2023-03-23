@@ -1,9 +1,10 @@
 +++
 title = "蒙地卡羅算法"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Monte Carlo Algorithms的問題
+給我5題Monte Carlo Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "蒙地卡羅算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Monte Carlo Algorithms並舉例
+以中文說明Monte Carlo Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +50,7 @@ Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Monte Carlo Algorithms的重點
+以中文條列Monte Carlo Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -72,7 +73,7 @@ Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Monte Carlo Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Monte Carlo Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -91,26 +92,4 @@ Monte Carlo模擬法是一種使用隨機方法模擬現實世界行為的方法
 
 5. 一個野生的黑熊從森林裡走出來，要到一個村莊裡尋找食物。這個村莊周圍有一些陷阱，黑熊如果掉進陷阱裡就會死亡。假設黑熊每次可以向前走一步，有20％的機會走進陷阱，有80％的機會繼續向前走。請問：當黑熊從森林出發，打算向村莊走20步時，有多少機會能夠到達村莊而不掉進任何陷阱？
 答案：這個問題可以使用隨機模擬的Monte Carlo方法來解決。可以從森林出發，不斷模擬黑熊的行動，重複進行n次模擬。每次模擬結束後，統計黑熊是否掉進陷阱，以及到達村莊的次數。最後將到達村莊但沒有掉進陷阱的次數除以總模擬次數，即可得到答案。答案約為0.4％。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Monte Carlo Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Monte Carlo Simulation: Definition, Applications, and Examples" 
-https://www.investopedia.com/terms/m/montecarlosimulation.asp
-
-2. "Introduction to Monte Carlo Methods" 
-https://www.math.nyu.edu/faculty/goodman/teaching/MonteCarlo.pdf
-
-3. "An Introduction to Monte Carlo Methods and Particle Filtering" 
-https://www.analyticsvidhya.com/blog/2015/06/introduction-monte-carlo-methods-particle-filtering/
-
-4. "A Gentle Introduction to Monte Carlo Markov Chain (MCMC) for Probabilistic Programming" 
-https://towardsdatascience.com/a-gentle-introduction-to-monte-carlo-markov-chain-mcmc-for-probabilistic-programming-59f3e1b43b8e
-
-5. "Understanding the Monte Carlo Method in Finance" 
-https://www.investopedia.com/articles/investing/092515/understanding-monte-carlo-method-finance.asp   
 

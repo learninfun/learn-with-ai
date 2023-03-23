@@ -1,7 +1,7 @@
 
 
-1. What is Cross-Site Request Forgery (CSRF) and how does it work?
-2. What are the common signs of a CSRF attack and how can they be detected?
-3. How can websites prevent CSRF attacks from occurring and what measures can be taken to mitigate the risk of a successful attack?
-4. What is the difference between CSRF and XSS (Cross-Site Scripting) attacks, and how are they similar/different in terms of their impact and prevention methods?
-5. What are some real-life examples of CSRF attacks that have caused significant damage to businesses or individuals, and what lessons can be learned from these incidents?
+1. 什么是 Cross-Site Request Forgery (CSRF) 攻击？
+2. CSRF 攻击的危害和影响有哪些？如何防止此类攻击？
+3. CSRF 和 XSS 有何区别？哪种攻击更危险？
+4. CSRF 的攻击方式有哪些？可以列举几个例子做说明。
+5. CSRF 攻击的实际场景中，如何利用已登入的用户帮忙攻击目标站点？

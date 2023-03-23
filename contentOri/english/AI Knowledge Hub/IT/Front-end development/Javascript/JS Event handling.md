@@ -1,3 +1,7 @@
++++
+title = "JS Event handling"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about JS Event handling
@@ -90,22 +94,4 @@ Answer: Passive event listeners are a way to improve scroll performance by notif
 
 5. How do you attach an event listener to multiple elements in JavaScript? 
 Answer: You can attach an event listener to multiple elements using the forEach method to loop through and attach the listener to each element in the array. Alternatively, you can use event delegation by attaching the listener to a parent element and filtering for the specific child elements using event.target.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about JS Event handling
-{{< /ask_chatgpt >}}
-
-
-
-1. MDN Web Docs: Introduction to events
-2. W3Schools: JavaScript Events
-3. JavaScript.info: Introduction to browser events
-4. GeeksforGeeks: Events Handling in JavaScript
-5. Tutorials Point: JavaScript Events Handling 
-6. FreeCodeCamp: An Introduction To JavaScript Event Listeners
-7. SitePoint: An Introduction to JavaScript Events 
-8. DevDocs: JavaScript - Events Introductory 
-9. CSS-Tricks: A Comprehensive Guide to JavaScript Events 
-10. Learn JS: Events in JavaScript.   
 

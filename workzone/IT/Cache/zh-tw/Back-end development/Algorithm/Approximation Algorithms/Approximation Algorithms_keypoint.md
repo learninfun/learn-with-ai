@@ -1,15 +1,15 @@
 
 
-1. Approximation ratio: Approximation algorithms aim to find solutions that are within a certain percentage of the optimal solution. The approximation ratio is defined as the ratio between the objective function value of the approximation algorithm and the optimal objective function value.
+1. 近似算法是一種計算複雜性理論中的算法設計技術，它在給定的時間內尋找一個可行解，該解與最優解之間的差距在一定範圍內。
 
-2. Polynomial Time: Approximation algorithms must run in polynomial time since it is not feasible to obtain optimal solutions for many optimization problems in polynomial time.
+2. 近似算法通常用於NP難度問題的優化求解，它可以為實際應用提供高效的可行解。
 
-3. Trade-off between speed and accuracy: Approximation algorithms must balance speed and accuracy to achieve reasonable solutions for practical problems.
+3. 近似算法可以分為近似比例和逼近算法兩種類型，近似比例是一個指標，指最優解和近似算法獲得的解之間的比例，逼近算法則是在一定的誤差範圍內求解最優解。
 
-4. Greedy approach: Many approximation algorithms use a greedy approach that selects the best action at each step, without considering the impact on future steps.
+4. 近似算法應用於各種問題領域，如圖論、優化、組合優化、計算幾何等。
 
-5. Randomization: Randomization can be used in approximation algorithms to overcome limitations in the greedy approach or to achieve better approximation ratios.
+5. 近似算法的設計原則包括利用貪心算法、線性規劃鬆弛、隨機化等技術，同時需要考慮算法的時間複雜度和精度。
 
-6. Performance guarantees: Approximation algorithms provide performance guarantees that ensure the quality of the solution obtained regardless of the input instance.
+6. 近似算法的局限性在於其只能提供一個接近最優解的可行解，而無法保證一定得到最優解。因此，在實際應用中，需要根據具體的問題特點來選擇合適的近似算法和權衡算法運行時間和解的質量。
 
-7. Applications: Approximation algorithms are widely used in various fields, including computer science, operations research, and engineering, to solve optimization problems in practice.
+7. 近似算法是當前計算機科學領域的熱門研究方向，隨著計算機硬件和算法的進步，近似算法的應用前景將會不斷擴大。

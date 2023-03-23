@@ -1,9 +1,10 @@
 +++
 title = "B樹"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題B-Tree的問題
+給我5題B-Tree的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "B樹"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明B-Tree並舉例
+以中文說明B-Tree並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ B-Tree的特點是節點的分支數目比其他平衡樹的分支數目更高�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列B-Tree的重點
+以中文條列B-Tree的重點
 {{< /ask_chatgpt >}}
 
 1. B-Tree是一種自平衡的多路搜尋樹，其每個節點可以存儲多個鍵值對。
@@ -50,7 +51,7 @@ B-Tree的特點是節點的分支數目比其他平衡樹的分支數目更高�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題B-Tree的中等難度問題，並在後面列出答案
+以中文給我5題B-Tree的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -98,41 +99,4 @@ B-Tree的特點是節點的分支數目比其他平衡樹的分支數目更高�
         (11,15)
      /    |     |    \
   (3,5,8,9,10)(12,14)(16,17)(18,20)   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇B-Tree的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. B-Tree - 維基百科
-
-https://zh.wikipedia.org/wiki/B%E6%A0%91
-
-維基百科上有關 B-Tree 的詳細介紹，包括 B-Tree 的概念、結構、應用等方面的資訊，並且提供了 B-Tree 的歷史背景和長處。
-
-2. B樹數據結構詳解 | 菜鳥教程 - Runoob.com
-
-https://www.runoob.com/w3cnote/b-tree-algorithm-base.html
-
-這是一篇由 Runoob.com 發佈的文章，講解了 B-Tree 的基本概念、插入、刪除等操作。文章還提供了 B-Tree 範例代碼，能夠幫助讀者更好地理解 B-Tree。
-
-3. B Tree - GeeksforGeeks
-
-https://www.geeksforgeeks.org/b-tree-set-1-insert-2/
-
-這是一篇由 GeeksforGeeks 發佈的介紹 B-Tree 的文章，特別是針對 B-Tree 的插入操作進行了詳細的講解，採用了圖片和代碼示例，方便讀者學習和理解。
-
-4. B-Trees：從原理到代碼 | 阮一峰的網絡日誌
-
-http://www.ruanyifeng.com/blog/2018/07/b-trees.html
-
-這是一篇由阮一峰發佈的介紹 B-Tree 的文章，通過圖片、代碼示例等方式逐步介紹 B-Tree 的原理和實現方法。文章還提供了 B-Tree 範例代碼，為讀者學習提供了便利。
-
-5. B-Tree - CS61B - 教學資源 - GitHub Pages
-
-https://sp19.datastructur.es/materials/discussion/disc01.pdf
-
-這是一份由 CS61B 發佈的 B-Tree 相關教學資源，其中包括許多 B-Tree 的圖片、代碼示例和練習題。對於想要深入學習 B-Tree 的讀者來說，這是一份相當實用的資源。   
 

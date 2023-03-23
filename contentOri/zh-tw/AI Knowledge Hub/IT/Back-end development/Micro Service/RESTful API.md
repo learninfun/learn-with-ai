@@ -1,9 +1,10 @@
 +++
 title = "RESTful API"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題RESTful API的問題
+給我5題RESTful API的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "RESTful API"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明RESTful API並舉例
+以中文說明RESTful API並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Hypermedia是一种用于描述应用程序状态的格式，可以表达所有�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列RESTful API的重點
+以中文條列RESTful API的重點
 {{< /ask_chatgpt >}}
 
 
@@ -70,7 +71,7 @@ Hypermedia是一种用于描述应用程序状态的格式，可以表达所有�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題RESTful API的中等難度問題，並在後面列出答案
+以中文給我5題RESTful API的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -112,17 +113,4 @@ Hypermedia是一种用于描述应用程序状态的格式，可以表达所有�
 `https://example.com/api/products?search=keyword`
 
 在服務器端中，可以使用這些參數進行搜索查詢，並返回匹配結果。同時，還可以使用其他查詢參數，例如 limit 和 offset 點進行分頁操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇RESTful API的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. RESTful API設計指南: https://blog.gtwang.org/programming/restful-api-design-guidelines/
-2. RESTful API設計原則: https://ithelp.ithome.com.tw/articles/10245385
-3. RESTful API介紹與實作: https://dotblogs.com.tw/explooosion/2017/05/04/011300
-4. RESTful API介紹與實作 - 建立Web API: https://www.dotblogs.com.tw/kingon2008/2017/05/09/192047
-5. RESTful API範例教學: https://cloud.tencent.com/developer/article/1335585   
 

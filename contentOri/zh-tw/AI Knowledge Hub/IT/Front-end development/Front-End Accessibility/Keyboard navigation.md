@@ -1,9 +1,10 @@
 +++
 title = "鍵盤navigation"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Keyboard navigation的問題
+給我5題Keyboard navigation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "鍵盤navigation"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Keyboard navigation並舉例
+以中文說明Keyboard navigation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Keyboard navigation 是指使用鍵盤上的按鈕控制介面進行操作，讓
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Keyboard navigation的重點
+以中文條列Keyboard navigation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,7 +52,7 @@ Keyboard navigation 是指使用鍵盤上的按鈕控制介面進行操作，讓
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Keyboard navigation的中等難度問題，並在後面列出答案
+以中文給我5題Keyboard navigation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -75,26 +76,4 @@ Keyboard navigation 是指使用鍵盤上的按鈕控制介面進行操作，讓
 5. 如何使用鍵盤導覽在網頁中切換到不同的標籤或窗口？
 
 答案：使用Ctrl + Tab鍵或Ctrl + Shift + Tab鍵向前或向後循環移動到下一個或上一個標籤。對於在新窗口中打開的連結，可以使用Ctrl + W鍵關閉標籤或窗口。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Keyboard navigation的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Keyboard navigation in web applications
-https://www.smashingmagazine.com/2012/11/keyboard-navigation-web-applications/
-
-2. How to Improve Keyboard Navigation in Your Design
-https://designmodo.com/keyboard-navigation/
-
-3. 7 keyboard shortcuts for web browsing that everyone should know
-https://www.theverge.com/2018/6/15/17466216/keyboard-shortcuts-web-browsing-chrome-firefox-safari-edge
-
-4. Keyboard Navigation and Focus Control
-https://www.w3.org/WAI/WCAG21/Understanding/keyboard.html
-
-5. The Power of Keyboard Navigability in Web Design
-https://www.usabilitygeek.com/power-keyboard-navigability-web-design/   
 

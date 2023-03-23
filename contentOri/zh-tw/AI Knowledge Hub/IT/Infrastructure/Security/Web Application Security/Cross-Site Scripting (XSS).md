@@ -1,102 +1,78 @@
 +++
-title = "%!s(<nil>)"
+title = "跨站腳本攻擊（XSS）"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Cross-site scripting (XSS)的問題
+給我5題Cross-Site Scripting (XSS)的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is Cross-Site Scripting (XSS) and how does it work? 
-2. What are the different types of XSS attacks and how can they be prevented? 
-3. How can an attacker exploit XSS vulnerabilities to carry out attacks such as stealing user credentials or session hijacking? 
-4. What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks? 
-5. How does the development of modern web technologies (such as Single-page Applications and APIs) impact the risk and mitigation of XSS attacks?   
+1. 什麼是跨站腳本 (XSS)，以及如何使用它來攻擊網站？
+2. XSS攻擊的類型有哪些？這些攻擊類型的危害性是什麼？
+3. 如何檢測和預防XSS攻擊？有哪些常見的防範措施？
+4. 什麼是反射型XSS攻擊，它與存儲型和DOM-based XSS攻擊有何區別？
+5. 如何使用XSS攻擊漏洞進行身份盜竊、會話劫持和導向攻擊等多種攻擊？有哪些實際案例可以作為參考？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Cross-site scripting (XSS)並舉例
+以中文說明Cross-Site Scripting (XSS)並舉例
 {{< /ask_chatgpt >}}
 
 
 
-Cross-Site Scripting (XSS) is a security vulnerability that allows attackers to inject malicious code into web pages viewed by other users. This can lead to stealing sensitive information such as login credentials or hijacking user sessions.
+跨站腳本攻擊（Cross-Site Scripting，簡稱 XSS）指的是攻擊者通過在網站輸入框中輸入惡意腳本代碼，使得網站的其他用戶在訪問該網站時也受到攻擊。攻擊者可以通過 XSS 攻擊盜取用戶的資訊，例如登入密碼、Cookie 信息等，甚至可以繞過網站的防火牆，從而掌握網站系統的控制權。
 
-An example of cross-site scripting involves an attacker exploiting an insecure website form that allows users to submit input data without validation. The attacker injects malicious code into the form and submits it, causing the code to execute on the website when other users view the page with the injected code. This could include a fake login form that steals user credentials, or injecting malware that infects users' devices.
+舉個例子，假如有一個網站有一個搜索框，當用戶在該搜索框中輸入一些內容後，網站會顯示相關的搜索結果。如果攻擊者在搜索框中輸入一段 JavaScript 代碼，並能夠讓其被其他用戶訪問，那麼其他用戶訪問該網站時就會執行攻擊者所提供的 JavaScript 代碼，從而造成 XSS 攻擊。
 
-For instance, imagine that a user named Alice visits a website that allows users to post comments. Alice has no malicious intent, so she posts a comment with her name and a benign message. However, an attacker named Bob spots the vulnerability and decides to abuse it. Bob posts a comment containing a script that, when run on Alice's computer, sends Alice's login credentials to Bob's server. Now, when Alice tries to log in, Bob is able to steal her information and use it for his own purposes. This is just one example of how cross-site scripting can be used as an attack vector.   
+例如：
+
+當用戶在搜索框中輸入以下代碼：
+
+```
+<script>alert('攻擊成功！')</script>
+```
+
+攻擊者就可以成功地繞過網站的防護措施，並在用戶訪問該網站時彈出一個包含「攻擊成功！」字樣的提示框，此時攻擊者就可以收穫用戶的關鍵資訊，造成嚴重的安全問題。   
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Cross-site scripting (XSS)的重點
+以中文條列Cross-Site Scripting (XSS)的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Cross-site scripting (XSS) is a type of security vulnerability that enables attackers to inject malicious code into web pages viewed by other users. 
-
-2. Attackers use various types of XSS, including reflected, stored, and DOM-based attacks, to target web applications, usually targeting vulnerable input fields, such as search boxes, message forums, and login forms. 
-
-3. The consequences of an XSS attack can vary, from defacing websites or stealing sensitive data to redirecting users to malicious web pages or crafting hyperlinks that deliver malware. 
-
-4. To prevent XSS, web developers should adopt secure coding techniques, such as input validation, sanitization, and output escaping, and use security tools, such as Content Security Policy (CSP) and cross-site scripting filters. 
-
-5. Users can protect themselves by keeping their software up to date, using anti-malware software, disabling or limiting scripting and plugin capabilities in their browsers, and being cautious of clicking on links or downloading attachments from suspicious sources.   
+1. Cross-Site Scripting (XSS)是一種網路攻擊方式，利用網頁設計不當，將惡意程式碼注入到網頁中，造成用戶隱私資料外洩、帳號被盜等安全問題。
+2. XSS攻擊主要分為反射型、儲存型和DOM-based三種方式，其中反射型和儲存型是最常見的攻擊方式。
+3. XSS攻擊可以利用各種輸入欄位，包括搜尋欄位、留言板、信箱、網址列等等。
+4. 預防XSS攻擊的方法包括驗證輸入資料、過濾特殊字元、限制彈跳視窗等等。
+5. 設計網頁時，需要注意安全性問題，並採取相應的措施來保護用戶的隱私和安全。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Cross-site scripting (XSS)的中等難度問題，並在後面列出答案
+以中文給我5題Cross-Site Scripting (XSS)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. What is Cross-Site Scripting (XSS)? 
-A: Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious scripts into web pages viewed by other users. 
+1. 假設有一個網站使用非安全的Cookie儲存用戶訊息，請問攻擊者可否透過XSS攻擊偷取此Cookie？
 
-2. Why is XSS dangerous?
-A: XSS can be used to steal sensitive information, such as login credentials, and can allow attackers to hijack user accounts, spread malware, and perform other malicious actions without the user's knowledge.
+答案：是。攻擊者可以透過注入一段含有惡意的JavaScript程式碼，使用戶瀏覽器執行此程式碼，從而竊取Cookie儲存的用戶訊息。
 
-3. What are the different types of XSS?
-A: There are three main types of XSS: persistent, reflected, and DOM-based. Persistent XSS occurs when malicious code is stored on the server and executed when the user visits the affected page. Reflected XSS occurs when the malicious code is sent as part of a URL to the server, which returns it back to the user's browser. DOM-based XSS, on the other hand, involves manipulating the Document Object Model (DOM) of a web page to inject malicious code.
+2. 請問DOM-Based XSS攻擊與傳統的反射型XSS攻擊有何區別？
 
-4. How can XSS attacks be prevented?
-A: XSS attacks can be prevented by properly validating and sanitizing user input on both the client and server side, setting appropriate HTTP headers, using Content Security Policy (CSP), and implementing proper authentication and authorization mechanisms.
+答案：DOM-Based XSS攻擊是針對使用JavaScript動態修改HTML DOM的網頁，而非直接注入HTML標籤內容的XSS攻擊。攻擊方式類似反射型XSS攻擊，但注入點在JavaScript，而非在HTTP回應中。
 
-5. What are some common signs that a website is vulnerable to XSS attacks?
-A: Some common signs that a website may be vulnerable to XSS include: unvalidated or unsanitized user input that is displayed on a web page, a lack of encoding or escaping of special characters, and the absence of measures to prevent or detect XSS attacks, such as CSP or web application firewalls (WAFs).   
+3. 如果一個網站使用HTTP而不是HTTPS連線，請問攻擊者可否透過中間人攻擊進行XSS注入？
 
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Cross-site scripting (XSS)的網路資料
-{{< /ask_chatgpt >}}
+答案：是。由於HTTP傳輸的訊息是明文的，攻擊者可在傳輸過程中修改HTTP回應內容，進行XSS注入攻擊。
 
+4. 請問在提交表單時，爲何需要使用CSRF Token保護？如何預防XSS攻擊？
 
+答案：提交表單時需要使用CSRF Token保護，因爲攻擊者可透過XSS攻擊獲取用戶的身份驗證Cookie，進而偽造請求，對該用戶的資料進行惡意操作。在預防XSS攻擊方面，可使用輸入驗證、過濾輸入內容、安全儲存敏感資料等方式。
 
-1. OWASP Cross-Site Scripting (XSS)
-https://owasp.org/www-community/attacks/xss/
+5. 請問如何使用Content Security Policy (CSP)保護網站免受XSS攻擊？
 
-2. What is Cross-Site Scripting? (XSS)
-https://www.cloudflare.com/learning/security/threats/cross-site-scripting/
-
-3. Cross-Site Scripting Explained: What It Is and How to Prevent It
-https://www.varonis.com/blog/cross-site-scripting-explained/
-
-4. XSS (Cross Site Scripting) Prevention Cheat Sheet – OWASP
-https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
-
-5. Cross-Site Scripting (XSS) Attacks: What They Are and How to Prevent Them
-https://www.veracode.com/security/xss
-
-6. Cross-Site Scripting (XSS) Explained With Examples
-https://dzone.com/articles/cross-site-scripting-xss-explained-with-examples
-
-7. Cross-Site Scripting (XSS) – Acunetix
-https://www.acunetix.com/websitesecurity/cross-site-scripting/
-
-8. Introduction to Cross-Site Scripting (XSS) Attacks
-https://www.sans.org/security-awareness-training/resources/introduction-to-cross-site-scripting-xss-attacks
-
-9. Cross-Site Scripting (XSS) – What They Are and How to Prevent Them
-https://www.cloudflare.com/learning/security/threats/cross-site-scripting-xss/how-to-prevent-xss-attacks/   
+答案：可透過設定Content Security Policy (CSP)限制網站可以載入的資源，防止攻擊者的腳本注入到網頁中。具體的措施可以包括限制腳本的來源、禁用內聯腳本等。另外，也可使用跨站點腳本攻擊防禦框架，如X-XSS-Protection等。   
 

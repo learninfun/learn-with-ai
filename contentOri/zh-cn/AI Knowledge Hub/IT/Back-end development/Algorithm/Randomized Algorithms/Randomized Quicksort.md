@@ -1,5 +1,6 @@
 +++
 title = "随机快速排序"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -26,7 +27,7 @@ Randomized Quicksort是快速排序算法的一种变体，它与原始快速排
 以下是Randomized Quicksort的实现步骤：
 
 1. 选取一个元素作为主元素（pivot），可以随机选取其中一个元素。
-2. 扫描整个序列，将比pivot小的元素放到左边，比pivot大的元素放到右边，相等的元素放到任意一边（一般为左边）。
+2. 扫瞄整个序列，将比pivot小的元素放到左边，比pivot大的元素放到右边，相等的元素放到任意一边（一般为左边）。
 3. 递归排序左右两个子序列。
 
 以下为Randomized Quicksort的示例代码：
@@ -120,7 +121,7 @@ void randomized_quicksort(int arr[], int left, int right) {
 答案：Randomized Quicksort的平均时间复杂度为O(nlogn)，空间复杂度为O(logn)。算法的关键在于随机选择pivot，并使用partition方法将数组分为两个部分。对左侧和右侧的子数组递归地应用相同的算法，直到排序完成。
 
 3. 如何在Randomized Quicksort中实现重复元素的处理？请说明原因及解决方法。
-答案：在Randomized Quicksort中，如果数组中存在大量重复元素，则可能导致一些情况下的最坏时间复杂度。解决此问题的一种方法是使用三向切分快速排序，将数组分为三个部分（小于、等于和大于pivot）。这样可以避免重复元素被反复交换，在许多情况下可以提高算法的效率。
+答案：在Randomized Quicksort中，如果数组中存在大量重复元素，则可能导致一些情况下的最坏时间复杂度。解决此问题的一种方法是使用三向切分快速排序，将数组分为三个部分（小于、等于和大于pivot）。这样可以避免重复元素被反覆交换，在许多情况下可以提高算法的效率。
 
 4. 如何测试Randomized Quicksort的性能？请单独列出利用实验数据进行性能分析的步骤。
 答案：测试Randomized Quicksort的性能可以进行以下步骤：
@@ -182,36 +183,4 @@ print('Original array:', arr)
 
 quickSort(arr)
 print('Sorted array:', arr)   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Randomized Quicksort的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Randomized Quicksort Algorithm" by GeeksforGeeks
-Link: https://www.geeksforgeeks.org/randomized-quicksort-algorithm/
-
-This article explains the randomized quicksort algorithm in detail. It discusses how the randomization works, the implementation of the algorithm, and the time and space complexity. The article also includes a code snippet in C++ programming language.
-
-2. "The Randomized Quicksort Algorithm" by Cornell University
-Link: https://www.cs.cornell.edu/courses/cs211/2009sp/lectures/lec25/lec25-09sp.html
-
-This article provides a brief introduction to randomized quicksort and its importance in computer science. It briefly explains how the algorithm works, its advantages and disadvantages, and the use of pivot selection. The article also includes a pseudo-code implementation of the algorithm.
-
-3. "Randomized Quick Sort" by Tutorials Point
-Link: https://www.tutorialspoint.com/Randomized-Quick-Sort
-
-This article provides a step-by-step explanation of the randomized quicksort algorithm. It discusses the selection of pivot points and how the algorithm uses randomization to improve performance. The article also includes a code snippet in C programming language.
-
-4. "Random Quick Sort" by Stanford University
-Link: https://web.stanford.edu/class/cs166/lectures/06/Slides06.pdf
-
-This slide deck provides an in-depth explanation of randomized quicksort algorithm. It discusses various pivot selection methods, the time complexity, and the expected running time. The deck also includes numerous examples and a pseudo-code implementation of the algorithm.
-
-5. "Randomized Quicksort" by Wikipedia
-Link: https://en.wikipedia.org/wiki/Quicksort#Randomized_quicksort
-
-This article provides a general overview of the randomized quicksort algorithm. It discusses its advantages over the traditional quicksort, its implementation, and time and space complexity. The article also includes a few illustrative examples and links to additional resources.   
 

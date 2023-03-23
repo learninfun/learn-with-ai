@@ -1,9 +1,10 @@
 +++
 title = "Lazy loading 懶加載"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Lazy loading的問題
+給我5題Lazy loading的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Lazy loading 懶加載"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Lazy loading並舉例
+以中文說明Lazy loading並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Lazy loading是一種網頁加載優化技術，它利用延遲載入的方式�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Lazy loading的重點
+以中文條列Lazy loading的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Lazy loading是一種網頁加載優化技術，它利用延遲載入的方式�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Lazy loading的中等難度問題，並在後面列出答案
+以中文給我5題Lazy loading的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -74,31 +75,4 @@ Lazy loading是一種網頁加載優化技術，它利用延遲載入的方式�
 5. 如何實現Lazy Loading時，保證頁面導航的可用性？
 
 答案：加載較大的ressource時，要確保網頁的載入順序是正確的。優先加載頁面的核心資料和功能，再進行圖片和其他資源的加載和渲染，避免出現網頁空白等問題。可以將頁面下滑一半的位置加載接下來的內容，並顯示加載狀態提示，讓用戶了解當前頁面正在進行資源的加載。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Lazy loading的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Lazy Loading in JavaScript and Its Benefits": https://www.sitepoint.com/lazy-loading-javascript/
-
-This article explains what lazy loading is, how it works, and the benefits of implementing it in your website or web application. It also provides examples of how to use lazy loading in your JavaScript code.
-
-2. "Lazy Loading Images in React": https://web.dev/lazy-loading-images-in-react/
-
-This tutorial provides a step-by-step guide on how to implement lazy loading images in a React web application. It uses the React Intersection Observer Hook to detect when images are visible on the screen and only loads those that need to be displayed.
-
-3. "Lazy Loading in WordPress": https://www.wpbeginner.com/wp-tutorials/how-to-lazy-load-images-in-wordpress/
-
-This tutorial explains how to implement lazy loading for images in a WordPress website, which can significantly improve page load times and overall site performance. It also discusses the various plugins available for WordPress that can facilitate lazy loading.
-
-4. "How to Lazy Load Videos in WordPress": https://www.wpbeginner.com/plugins/how-to-lazy-load-videos-in-wordpress/
-
-This article discusses how to implement lazy loading for videos in a WordPress website. It walks through the steps to install and configure the WP YouTube Lyte plugin, which can automatically lazy load YouTube videos embedded in your WordPress site.
-
-5. "Improved performance with lazy-loading and multi-part downloads": https://web.dev/adaptive-loading/
-
-This article discusses the concept of adaptive loading, which is a technique for improving user experience by delivering content efficiently based on the user's network conditions and device capabilities. It specifically looks at lazy loading and multi-part downloads as ways to implement adaptive loading and improve website performance.   
 

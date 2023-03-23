@@ -1,3 +1,7 @@
++++
+title = "Randomized Algorithms"
+weight = "10"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Randomized Algorithms
@@ -70,21 +74,4 @@ Answer: The running time is O(k log^3 n), where k is the number of iterations an
 
 5. What is the significance of the Chernoff bound in the analysis of randomized algorithms?
 Answer: The Chernoff bound provides a powerful tool for bounding the probability of large deviations from the expected value in a random process.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Randomized Algorithms
-{{< /ask_chatgpt >}}
-
-
-
-1. Randomized Algorithms - An Introduction: This webpage provides a comprehensive overview of randomized algorithms, including their definition, advantages, applications, and limitations. It also covers the basic concepts and techniques used in randomized algorithms and provides links to related resources.
-
-2. Online Course on Randomized Algorithms: This webpage is the homepage of an online course on randomized algorithms. It provides a detailed syllabus, lecture notes, assignments, and other useful resources.
-
-3. Introduction to Randomized Algorithms - GeeksforGeeks: This webpage provides a beginner-level introduction to randomized algorithms. It includes the definition of randomized algorithms, their role in computer science, and examples of randomized algorithms in action.
-
-4. Randomized Algorithms - CS50 Harvard University: This webpage is a lecture on randomized algorithms from the popular online computer science course CS50 offered by Harvard University. It covers the fundamental concepts, applications, and limitations of randomized algorithms.
-
-5. Randomized Algorithms - Khan Academy: This webpage is a tutorial on randomized algorithms from the educational website Khan Academy. It covers the basics of randomized algorithms and provides examples of how they work.   
 

@@ -1,3 +1,7 @@
++++
+title = "Structural Patterns"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Structural Patterns
@@ -70,19 +74,4 @@ Answer: The Decorator pattern.
 
 5. Which Structural Pattern is used to define a family of related classes with a common interface, allowing these classes to be interchanged without affecting the client code that uses them? 
 Answer: The Abstract Factory pattern.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Structural Patterns
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Structural Design Patterns" on GeeksforGeeks
-2. "Structural Design Patterns" on TutorialsPoint
-3. "Structural Patterns" on SourceMaking
-4. "Structural Design Patterns" on JavaTpoint
-5. "Structural Design Patterns in Python" on RealPython
-6. "Structural Design Patterns" on GoF Design Patterns
-7. "Structural Patterns" on Design Patterns in PHP.   
 

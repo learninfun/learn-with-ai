@@ -1,9 +1,10 @@
 +++
 title = "堆棧"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Stack的問題
+給我5題Stack的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "堆棧"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Stack並舉例
+以中文說明Stack並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Stack是一種資料結構，通常用於儲存按照順序排列的數據，並
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Stack的重點
+以中文條列Stack的重點
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Stack是一種資料結構，通常用於儲存按照順序排列的數據，並
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Stack的中等難度問題，並在後面列出答案
+以中文給我5題Stack的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -76,26 +77,4 @@ Stack是一種資料結構，通常用於儲存按照順序排列的數據，並
 給定一個只包含0和1的矩陣，找出其中最大的由1組成的矩形面積。要求：時間複雜度為O(mn)。
 
 答案：https://leetcode.com/problems/maximal-rectangle/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Stack的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. What Is Stack in Software Development?
-https://www.upgrad.com/blog/what-is-stack-in-software-development/
-
-2. Understanding Stack Data Structure with Examples
-https://www.javatpoint.com/stack-data-structure
-
-3. The Stack in C++
-https://www.geeksforgeeks.org/stack-in-cpp-stl/
-
-4. Stack Overflow: understanding the website where developers learn to code
-https://www.techradar.com/news/stack-overflow-understanding-the-website-where-developers-learn-to-code
-
-5. A Beginner's Introduction to Stack Data Structures and Its Implementation in Python
-https://www.analyticsvidhya.com/blog/2020/03/what-is-stack-data-structure-python-implementation/   
 

@@ -1,11 +1,7 @@
 
 
-1. What is a relational database and how does it differ from other types of databases?
-
-2. What are the key components of a relational database, and how do they work together to organize and store data?
-
-3. How do you design a relational database schema, and what are the best practices for creating an effective schema?
-
-4. What are some common challenges associated with working with relational databases, and how can they be mitigated or resolved?
-
-5. What are some advanced techniques and tools for working with relational databases, and how can they be used to optimize database performance and scalability?
+1. 何謂關聯式資料庫？
+2. 如何建立一個關聯式資料庫？ 
+3. 什麼是資料表？何種資料可儲存於資料表中？ 
+4. 如何透過SQL查詢來取得資料庫中特定的資料項目？ 
+5. 如何在關聯式資料庫中建立關聯，以更有效率地儲存和查詢資料？

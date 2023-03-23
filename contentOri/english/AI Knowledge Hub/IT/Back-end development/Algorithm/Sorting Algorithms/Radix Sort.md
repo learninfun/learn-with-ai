@@ -1,3 +1,7 @@
++++
+title = "Radix Sort"
+weight = "7"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Radix Sort
@@ -89,41 +93,4 @@ Answer: Radix Sort is a stable sorting algorithm which means that it maintains t
 
 5. What are the limitations of Radix Sort and when should it be used?
 Answer: Radix Sort can only be used to sort elements that have a finite number of digits or characters such as integers, strings, and characters. It is not suitable for sorting floating-point numbers or data with variable-length elements. Additionally, it may not be the best choice when the size of the input data is small or when the input data is randomly distributed.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Radix Sort
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks - Radix Sort
-https://www.geeksforgeeks.org/radix-sort/
-
-2. Wikipedia - Radix Sort
-https://en.wikipedia.org/wiki/Radix_sort
-
-3. Studytonight - Radix Sort
-https://www.studytonight.com/data-structures/radix-sort
-
-4. Programiz - Radix Sort
-https://www.programiz.com/dsa/radix-sort
-
-5. javatpoint - Radix Sort
-https://www.javatpoint.com/radix-sort
-
-6. Data Structure Easy - Radix Sort
-https://www.datastructureeasy.com/2019/05/Radix-Sort.html
-
-7. Brilliant - Radix Sort
-https://brilliant.org/wiki/radix-sort/
-
-8. Stanford University - Radix Sort
-https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture9.pdf
-
-9. Tutorials Point - Radix Sort
-https://www.tutorialspoint.com/data_structures_algorithms/radix_sort_algorithm.htm
-
-10. HackerRank - Radix Sort
-https://www.hackerrank.com/challenges/countingsort4/topics/radix-sort   
 

@@ -1,9 +1,10 @@
 +++
 title = "Cypress"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Cypress的問題
+給我5題Cypress的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Cypress"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Cypress並舉例
+以中文說明Cypress並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -55,7 +56,7 @@ describe('Login', () => {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Cypress的重點
+以中文條列Cypress的重點
 {{< /ask_chatgpt >}}
 
 
@@ -74,7 +75,7 @@ describe('Login', () => {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Cypress的中等難度問題，並在後面列出答案
+以中文給我5題Cypress的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -117,36 +118,4 @@ cy.wait(2000);
 5. 請問如何獲取指定索引的元素？
 
 答案：可以使用`cy.get().eq(index)`獲取指定索引的元素。例如`cy.get('.section').eq(0)`會獲得第一個`.section`元素。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Cypress的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Cypress Semiconductor Corporation" - Wikipedia:
-https://en.wikipedia.org/wiki/Cypress_Semiconductor_Corporation
-
-This page provides an overview of Cypress Semiconductor Corporation, a global supplier of microcontroller, analog, and wireless and USB connectivity solutions.
-
-2. "Cypress Semiconductor Corporation - Official Website":
-https://www.cypress.com/
-
-The official website of Cypress Semiconductor Corporation provides information about their products, services, and solutions, including microcontrollers, wireless connectivity technology, and IoT solutions.
-
-3. "Cypress Semiconductor Blogs":
-https://www.cypress.com/blog
-
-Cypress Semiconductor's blog page provides updates and insights on product development, industry trends, and company news.
-
-4. "Cypress Semiconductor Corporation - LinkedIn":
-https://www.linkedin.com/company/cypress-semiconductor-corporation
-
-Cypress Semiconductor's LinkedIn page provides information about the company's products, services, and news updates, as well as job openings and career opportunities.
-
-5. "Cypress Semiconductor Corporation - Yahoo Finance":
-https://finance.yahoo.com/quote/CY/
-
-This page on Yahoo Finance provides financial information about Cypress Semiconductor Corporation, including stock prices, earnings reports, and analyst recommendations.   
 

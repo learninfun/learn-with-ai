@@ -1,9 +1,10 @@
 +++
 title = "無向圖"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Undirected Graph的問題
+給我5題Undirected Graph的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "無向圖"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Undirected Graph並舉例
+以中文說明Undirected Graph並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -42,7 +43,7 @@ C ----- D ----- E
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Undirected Graph的重點
+以中文條列Undirected Graph的重點
 {{< /ask_chatgpt >}}
 
 
@@ -65,7 +66,7 @@ C ----- D ----- E
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Undirected Graph的中等難度問題，並在後面列出答案
+以中文給我5題Undirected Graph的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -89,41 +90,4 @@ C ----- D ----- E
 5. 給定一個無向圖和一個源點，找到該圖中所有點到源點的最短路徑的平均長度。
 
 答案：可以使用所有源點到其他點的最短路徑之和除以總節點數的方式計算。這可以通過使用Dijkstra’s算法的變形，對每個節點執行BFS來實現。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Undirected Graph的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Facebook Social Graph: 
-
-https://snap.stanford.edu/data/ego-Facebook.html
-
-This dataset represents a social network graph from Facebook, where each node represents a user and each edge represents a friendship connection between two users. It includes 10 different ego-networks (users and their friends), and can be used to study various aspects of social networks and human behavior. 
-
-2. Zachary's Karate Club Graph: 
-
-https://networkx.github.io/documentation/stable/auto_examples/graph/plot_karate_club.html
-
-This classic dataset is a well-known example for studying social network dynamics and community detection algorithms. It represents the social network of a karate club, where each node represents a member and each edge represents a friendship connection between two members. 
-
-3. IRIS Dataset Graph: 
-
-https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
-
-This dataset represents a graph of flower samples from the IRIS dataset, where each node represents a flower sample and each edge represents the similarity between two samples based on their features (such as sepal length and petal width). It can be used to study clustering and classification algorithms. 
-
-4. MovieLens Dataset Graph: 
-
-https://grouplens.org/datasets/movielens/
-
-This dataset represents a graph of movie ratings from the MovieLens dataset, where each node represents a user and each edge represents a rating relationship between a user and a movie. It can be used to study collaborative filtering and recommendation algorithms. 
-
-5. Enron Email Dataset Graph: 
-
-https://www.cs.cmu.edu/~enron/
-
-This dataset represents a graph of email communications between employees at the Enron corporation, where each node represents an employee and each edge represents an email communication between two employees. It can be used to study email networks and communication patterns in organizations.   
 

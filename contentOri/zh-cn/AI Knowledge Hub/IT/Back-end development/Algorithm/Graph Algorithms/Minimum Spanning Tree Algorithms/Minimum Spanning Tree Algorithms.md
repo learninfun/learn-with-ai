@@ -1,5 +1,6 @@
 +++
 title = "最小生成树演算法"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,15 @@ title = "最小生成树演算法"
 
 
 
-1. What is the main advantage of using Prim's algorithm for finding a minimum spanning tree over Kruskal's algorithm?
-2. How does Kruskal's algorithm ensure that the minimum spanning tree is found?
-3. Under what circumstances would a Boruvka's algorithm be preferable over other Minimum Spanning Tree algorithms?
-4. How does the complexity of Prim's algorithm vary with the size of the input graph?
-5. Can a Minimum Spanning Tree algorithm be used to solve other classes of problems besides minimum spanning trees? If so, give an example.   
+1. 最小生成树演算法是什么？它的定义是什么？
+
+2. 什么是Kruskal演算法？它如何找到一个图的最小生成树？
+
+3. 什么是Prim演算法？它如何找到一个图的最小生成树？
+
+4. 什么是Boruvka演算法？它如何找到一个图的最小生成树？
+
+5. Dijkstra演算法可以用来找到最短路径吗？如果可以，它如何实现？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -75,36 +80,4 @@ Minimum Spanning Tree Algorithms（最小生成树算法）是用来找寻一个
 5. 请将下列图例图使用 Kruskal 演算法找出最小生成树，但是加入特别的限制：所有的最短边都只能够使用一次，而非两次。
 ![image](https://i.imgur.com/OY6oPHU.png)
 答案：{(A, B), (B, C), (C, E), (C, F), (A, D)}   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Minimum Spanning Tree Algorithms的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Minimum Spanning Tree Algorithm" by GeeksforGeeks
-Link: https://www.geeksforgeeks.org/minimum-spanning-tree-algorithms/
-
-This article provides an overview of minimum spanning tree algorithms, including Kruskal's algorithm, Prim's algorithm, and Boruvka's algorithm. It also covers some common applications of minimum spanning tree algorithms and provides sample code snippets to help readers understand the concepts.
-
-2. "Kruskal's Algorithm for Minimum Spanning Tree" by Tutorials Point
-Link: https://www.tutorialspoint.com/Kruskal-s-algorithm-for-minimum-spanning-tree
-
-This article focuses specifically on Kruskal's algorithm for finding a minimum spanning tree. It provides a step-by-step explanation of the algorithm, as well as sample code in C++ and Java. The article also includes some common complexities and optimizations associated with Kruskal's algorithm.
-
-3. "Prim's Algorithm for Minimum Spanning Tree" by Brilliant.org
-Link: https://brilliant.org/wiki/prims-algorithm-for-minimum-spanning-tree/
-
-This article provides a detailed explanation of Prim's algorithm for finding a minimum spanning tree. It features interactive examples and animations to help readers understand the algorithm's key concepts. The article also includes pseudo-code and sample code in Python.
-
-4. "Boruvka's Algorithm: A Greedy MST Algorithm" by Codeforces
-Link: https://codeforces.com/blog/entry/12624
-
-This article provides an introduction to Boruvka's algorithm, a different approach to finding a minimum spanning tree. The author provides an explanation of how the algorithm works and compares it to other popular minimum spanning tree algorithms. The article also includes sample code in C++.
-
-5. "Minimum Spanning Tree" by Stanford University
-Link: https://web.stanford.edu/class/archive/cs/cs161/cs161.1168/lecture16.pdf
-
-This lecture notes document from Stanford University provides a more academic overview of minimum spanning tree algorithms. It covers Kruskal's algorithm, Prim's algorithm, and various implementations of both. The notes also include additional resources for readers who want to dive deeper into the topic.   
 

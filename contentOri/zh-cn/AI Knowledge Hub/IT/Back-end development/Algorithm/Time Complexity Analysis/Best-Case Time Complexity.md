@@ -1,5 +1,6 @@
 +++
 title = "最好情况时间复杂度"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "最好情况时间复杂度"
 
 
 
-1. 在已排序的列表中查找一個元素，時間複雜度為O(log n)，其中n是列表的長度。
-2. 在一個數組中找到最小值或最大值，時間複雜度為O(n)，其中n是數組的長度。
-3. 在一個已排序的數組中合併兩個數組，時間複雜度為O(n)，其中n是數組的長度。
-4. 在一個有向無環圖(DAG)中求所有節點的最短路徑，時間複雜度為O(V+E)，其中V是節點數，E是邊數。
-5. 在一個二叉搜索樹上完成插入、查找和刪除操作，時間複雜度均為O(log n)，其中n是樹中節點的數量。   
+1. 在已排序的列表中查找一个元素，时间复杂度为O(log n)，其中n是列表的长度。
+2. 在一个数组中找到最小值或最大值，时间复杂度为O(n)，其中n是数组的长度。
+3. 在一个已排序的数组中合并两个数组，时间复杂度为O(n)，其中n是数组的长度。
+4. 在一个有向无环图(DAG)中求所有节点的最短路径，时间复杂度为O(V+E)，其中V是节点数，E是边数。
+5. 在一个二叉搜索树上完成插入、查找和删除操作，时间复杂度均为O(log n)，其中n是树中节点的数量。   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,11 +22,11 @@ title = "最好情况时间复杂度"
 
 
 
-Best-Case Time Complexity指的是當算法面對最佳情況（即算法的輸入最符合算法所預期的狀況）時，經過該算法的運算所需的最少時間。
+Best-Case Time Complexity指的是当算法面对最佳情况（即算法的输入最符合算法所预期的状况）时，经过该算法的运算所需的最少时间。
 
-舉例來說，假設有一個在已排序的陣列中尋找目標值的算法，當目標值恰好在陣列的中央時，此算法的Best-Case Time Complexity為O(1)，因為只需在中央位置進行一次比較即可找到目標值。
+举例来说，假设有一个在已排序的阵列中寻找目标值的算法，当目标值恰好在阵列的中央时，此算法的Best-Case Time Complexity为O(1)，因为只需在中央位置进行一次比较即可找到目标值。
 
-再舉一個例子，假如有一個在大小為n的陣列中尋找最小值的算法。當最小值恰好在陣列的第一個位置時，此算法的Best-Case Time Complexity為O(1)，因為只需要一次比較即可找到最小值。而當最小值位於中間位置或者最後一個位置時，此算法的Best-Case Time Complexity為O(n)，因為需要逐一比較每一個元素。   
+再举一个例子，假如有一个在大小为n的阵列中寻找最小值的算法。当最小值恰好在阵列的第一个位置时，此算法的Best-Case Time Complexity为O(1)，因为只需要一次比较即可找到最小值。而当最小值位于中间位置或者最后一个位置时，此算法的Best-Case Time Complexity为O(n)，因为需要逐一比较每一个元素。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -34,12 +35,15 @@ Best-Case Time Complexity指的是當算法面對最佳情況（即算法的輸�
 
 
 
-1. Best-case time complexity refers to the minimum amount of time required by an algorithm to complete its task in the best possible scenario. 
-2. It is the most efficient run-time performance of an algorithm. 
-3. The best-case time complexity is denoted by the big-O notation, and it measures the upper bound of the number of operations performed by the algorithm in the best-case scenario. 
-4. The best-case scenario can occur when the input data is already sorted or closely resembles the desired output. 
-5. It is important to consider the best-case time complexity while analyzing an algorithm's performance because it provides insights into its potential performance. 
-6. However, it should be noted that the best-case time complexity is not always a realistic measure of an algorithm's performance, as real-world scenarios may not always match the best-case conditions.   
+1. 最好时间复杂度是指在最理想的情况下，算法执行所需的最少时间。
+
+2. 最好时间复杂度通常是对排序或搜索算法进行分析时使用的概念。
+
+3. 在最好的情况下，算法可以获得最优化的结果，例如当数据集已经排序时，排序算法的最好时间复杂度是O(n)。
+
+4. 最好时间复杂度不一定代表算法的效率，因为在大多数情况下，最好的情况不常见。
+
+5. 知道算法的最好时间复杂度对于通过优化算法以提高效率具有重要意义。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -48,45 +52,23 @@ Best-Case Time Complexity指的是當算法面對最佳情況（即算法的輸�
 
 
 
-1. 求一個n x n矩陣的轉置矩陣
+1. 求一个n x n矩阵的转置矩阵
 Best-Case Time Complexity：O(n^2)
-答案：將矩陣遍歷一遍，將第i列與第j行的元素交換位置，其中i < j。
+答案：将矩阵遍历一遍，将第i列与第j行的元素交换位置，其中i < j。
 
-2. 給定一個有序數組和一個目標值，查找目標值的索引。如果目標值不存在，返回-1。
+2. 给定一个有序数组和一个目标值，查找目标值的索引。如果目标值不存在，返回-1。
 Best-Case Time Complexity：O(1)
-答案：當目標值在數組的中央位置時，查找的時間最短，此時的時間複雜度是O(1)。
+答案：当目标值在数组的中央位置时，查找的时间最短，此时的时间复杂度是O(1)。
 
-3. 給定一個包含n個數的數組，找到所有的3個數的組合，使得它們的總和為0。
+3. 给定一个包含n个数的数组，找到所有的3个数的组合，使得它们的总和为0。
 Best-Case Time Complexity：O(n^2)
-答案：采用雙指針法，將數組排序，遍歷每個數字，設一個左指針和一個右指針，分別指向該數字的下一個和數組的最後一個元素，判斷三個數之和是否為0，如果小於0，左指針就往右移，如果大於0，右指針就往左移。
+答案：采用双指针法，将数组排序，遍历每个数字，设一个左指针和一个右指针，分别指向该数字的下一个和数组的最后一个元素，判断三个数之和是否为0，如果小于0，左指针就往右移，如果大于0，右指针就往左移。
 
-4. 給定一個字符串，找到最長的不包含重複字符的子串。
+4. 给定一个字符串，找到最长的不包含重复字符的子串。
 Best-Case Time Complexity：O(n)
-答案：采用滑動窗口法，記錄每個字符出現的位置，當遇到重複字符時，將窗口左端點移到該字符上一次出現的位置的下一個位置。
+答案：采用滑动窗口法，记录每个字符出现的位置，当遇到重复字符时，将窗口左端点移到该字符上一次出现的位置的下一个位置。
 
-5. 給定一個具有n個節點的二叉搜索樹，找到其中第k小的元素。
-Best-Case Time Complexity：O(h + k)，h為樹的高度
-答案：使用中序遍歷，在遍歷的過程中，計數器不斷累加，當計數器的值等於k時，返回當前節點的值。因為二叉搜索樹的中序遍歷結果是一個有序的數組，所以在最好情況下，只需要遍歷到第k個節點就可以結束遍歷。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Best-Case Time Complexity的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. 大 O 記號的最佳情況時間複雜度
-https://www.itread01.com/content/1546289306.html
-
-2. 算法复杂度可视化：最坏、平均、最好时间复杂度
-https://blog.csdn.net/hequanhong245578/article/details/105425802
-
-3. 时间复杂度分析-最好时间复杂度
-https://www.cnblogs.com/-Walker/p/11564125.html
-
-4. 最好情况时间复杂度、最坏情况时间复杂度、平均情况时间复杂度
-https://blog.csdn.net/qianyiyiding/article/details/78738050
-
-5. 计算机算法时间复杂度最好、最坏、平均情况
-https://www.cnblogs.com/zhangziqiu/archive/2011/03/26/1994565.html   
+5. 给定一个具有n个节点的二叉搜索树，找到其中第k小的元素。
+Best-Case Time Complexity：O(h + k)，h为树的高度
+答案：使用中序遍历，在遍历的过程中，计数器不断累加，当计数器的值等于k时，返回当前节点的值。因为二叉搜索树的中序遍历结果是一个有序的数组，所以在最好情况下，只需要遍历到第k个节点就可以结束遍历。   
 

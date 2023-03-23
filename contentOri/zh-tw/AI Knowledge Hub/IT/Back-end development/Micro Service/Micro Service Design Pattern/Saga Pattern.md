@@ -1,9 +1,10 @@
 +++
 title = "Saga模式"
+weight = "6"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Saga Pattern的問題
+給我5題Saga Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Saga模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Saga Pattern並舉例
+以中文說明Saga Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +54,7 @@ Saga Pattern是一種在分佈式系統中實現長流程事務的設計模式�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Saga Pattern的重點
+以中文條列Saga Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ Saga Pattern是一種在分佈式系統中實現長流程事務的設計模式�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Saga Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Saga Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -102,31 +103,4 @@ Saga Pattern是一種在分佈式系統中實現長流程事務的設計模式�
 5. 如果任何商品缺貨，回滾操作至第一步。
 
 6. 確認所有商品都成功下單後，將訂單提交。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Saga Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Design Patterns: Saga" by Chris Richardson, InfoQ, October 31, 2018.
-https://www.infoq.com/articles/saga-design-pattern/
-This article provides an overview of the Saga Pattern and its implementation in a microservices architecture. It includes a code example and discusses pros and cons of the pattern.
-
-2. "Sagas: How to Maintain Data Consistency in a Microservice Architecture" by Daniel Bryant, DZone, January 25, 2017.
-https://dzone.com/articles/sagas-how-to-maintain-data-consistency-in-a-microse
-This article defines the Saga Pattern and its role in maintaining data consistency in a microservice architecture. It includes a code example in Java and discusses how to handle failures in a saga.
-
-3. "Using the Saga pattern with AWS Step Functions" by Stefano Buliani, AWS Compute Blog, February 19, 2019. 
-https://aws.amazon.com/blogs/compute/using-the-saga-pattern-with-aws-step-functions/
-This article explains how to use the AWS Step Functions service to implement the Saga Pattern. It includes a code example and discusses how to handle compensation logic in a saga.
-
-4. "The Saga Pattern in Distributed Systems" by Edvin Syse, Medium, May 27, 2019.
-https://medium.com/@edvinsyse/the-saga-pattern-in-distributed-systems-cc413cbb2d38
-This article provides an introduction to the Saga Pattern and its role in maintaining consistency in distributed systems. It includes a code example in Python and discusses how to handle failures in a saga.
-
-5. "Implementing Sagas in Microservices Architecture" by Abdennour Toumi, Towards Data Science, October 19, 2020.
-https://towardsdatascience.com/implementing-sagas-in-microservices-architecture-a073c974a2bd
-This article provides a detailed explanation of the Saga Pattern, including its advantages and disadvantages. It includes an example in Node.js and discusses best practices for implementing sagas in a microservices architecture.   
 

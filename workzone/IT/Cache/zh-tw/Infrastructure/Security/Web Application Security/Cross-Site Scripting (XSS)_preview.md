@@ -1,7 +1,7 @@
 
 
-1. What is Cross-Site Scripting (XSS) and how does it work? 
-2. What are the different types of XSS attacks and how can they be prevented? 
-3. How can an attacker exploit XSS vulnerabilities to carry out attacks such as stealing user credentials or session hijacking? 
-4. What are some common signs of a website that is vulnerable to XSS attacks, and how can organizations protect themselves against these attacks? 
-5. How does the development of modern web technologies (such as Single-page Applications and APIs) impact the risk and mitigation of XSS attacks?
+1. 什麼是跨站腳本 (XSS)，以及如何使用它來攻擊網站？
+2. XSS攻擊的類型有哪些？這些攻擊類型的危害性是什麼？
+3. 如何檢測和預防XSS攻擊？有哪些常見的防範措施？
+4. 什麼是反射型XSS攻擊，它與存儲型和DOM-based XSS攻擊有何區別？
+5. 如何使用XSS攻擊漏洞進行身份盜竊、會話劫持和導向攻擊等多種攻擊？有哪些實際案例可以作為參考？

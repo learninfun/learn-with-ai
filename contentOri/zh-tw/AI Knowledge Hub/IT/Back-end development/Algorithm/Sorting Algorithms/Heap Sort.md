@@ -1,9 +1,10 @@
 +++
 title = "堆積排序"
+weight = "6"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Heap Sort的問題
+給我5題Heap Sort的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "堆積排序"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Heap Sort並舉例
+以中文說明Heap Sort並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -253,7 +254,7 @@ Heap Sort是一種基於二元樹（Binary Tree）的排序演算法，具體來
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Heap Sort的重點
+以中文條列Heap Sort的重點
 {{< /ask_chatgpt >}}
 
 
@@ -266,7 +267,7 @@ Heap Sort是一種基於二元樹（Binary Tree）的排序演算法，具體來
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Heap Sort的中等難度問題，並在後面列出答案
+以中文給我5題Heap Sort的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -286,31 +287,4 @@ Heap Sort是一種基於二元樹（Binary Tree）的排序演算法，具體來
 
 5. 請解釋Heap Sort與Merge Sort的差異。
 答案：Heap Sort使用heap來實現排序，時間複雜度為O(nlogn)，空間複雜度為O(1)。Merge Sort使用分治法來實現排序，時間複雜度為O(nlogn)，空間複雜度為O(n)。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Heap Sort的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks - Heap Sort in C++. (2021, Mar 23). https://www.geeksforgeeks.org/heap-sort/.
-
-This article from GeeksforGeeks provides a step-by-step explanation of Heap Sort algorithm in C++. It includes a sample code and a complete analysis of the algorithm's time and space complexity.
-
-2. Tutorialspoint - Heap Sort Algorithm. (2021). https://www.tutorialspoint.com/Heap-Sort-Algorithm.
-
-This tutorial from TutorialsPoint offers a brief introduction to Heap Sort algorithm, followed by its implementation and the theoretical time complexity analysis. The tutorial also includes a visual representation of the algorithm's execution.
-
-3. Programiz - Heap Sort Algorithm. (2021). https://www.programiz.com/dsa/heap-sort.
-
-Programiz provides a comprehensive guide to Heap Sort algorithm, including its definition, working process, and implementation in several programming languages (Java, Python, C++, etc.). The tutorial also offers an analysis of the algorithm's worst-case and best-case time complexity.
-
-4. Khan Academy - Heap Sort. (2021). https://www.khanacademy.org/computing/computer-science/algorithms/heap-sort/a/heap-sort.
-
-This article on Khan Academy discusses Heap Sort algorithm, its implementation, and steps to build a heap. The article also includes a detailed explanation of the algorithm's time complexity and heap properties.
-
-5. Stack Abuse - Heap Sort Algorithm in Python. (2021, Feb 28). https://stackabuse.com/heap-sort-algorithm-in-python/.
-
-This article from Stack Abuse offers a Python implementation of Heap Sort algorithm, with a detailed explanation of the process and an analysis of the time complexity. The article also includes a visual example of the algorithm's execution.   
 

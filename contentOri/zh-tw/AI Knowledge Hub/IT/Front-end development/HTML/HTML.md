@@ -1,9 +1,10 @@
 +++
 title = "HTML"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題HTML的問題
+給我5題HTML的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "HTML"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明HTML並舉例
+以中文說明HTML並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -65,7 +66,7 @@ HTML中的標記(Tag)以尖括號括起來，標記一般是成對出現的，�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列HTML的重點
+以中文條列HTML的重點
 {{< /ask_chatgpt >}}
 
 
@@ -81,7 +82,7 @@ HTML中的標記(Tag)以尖括號括起來，標記一般是成對出現的，�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題HTML的中等難度問題，並在後面列出答案
+以中文給我5題HTML的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -139,26 +140,4 @@ HTML中的標記(Tag)以尖括號括起來，標記一般是成對出現的，�
    <!--網頁內容-->
 </body>
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇HTML的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. W3Schools HTML Tutorial: 
-https://www.w3schools.com/html/
-
-2. Mozilla HTML Guide: 
-https://developer.mozilla.org/en-US/docs/Web/HTML
-
-3. Beginners Guide to HTML: 
-https://www.codecademy.com/learn/learn-html
-
-4. HTML Goodies: 
-https://www.htmlgoodies.com/
-
-5. HTML5 Doctor: 
-http://html5doctor.com/   
 

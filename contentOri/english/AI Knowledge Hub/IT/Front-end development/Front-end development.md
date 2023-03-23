@@ -1,3 +1,7 @@
++++
+title = "Front-end development"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Front-end development
@@ -59,22 +63,4 @@ Answer: A CSS selector identifies the HTML element(s) to which a style rule shou
 
 5. What is accessibility in web development and why is it important?
 Answer: Accessibility refers to the design and development of websites and applications that can be used by people of all abilities, including those with disabilities. It is important because it ensures that your content is available to everyone, regardless of their physical or cognitive abilities, and can improve your site's usability and search engine optimization.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Front-end development
-{{< /ask_chatgpt >}}
-
-
-
-1. https://www.w3schools.com/whatis/whatis_front_end.asp
-2. https://developers.google.com/web/fundamentals/design-and-ux/
-3. https://en.wikipedia.org/wiki/Front-end_web_development
-4. https://www.freecodecamp.org/learn/responsive-web-design/basic-html-and-html5/
-5. https://www.learnhowtocode.com/web-development/front-end-vs-back-end-development
-6. https://www.codecademy.com/learn/paths/front-end-engineer-career-path
-7. https://www.upwork.com/hire/front-end-developers/
-8. https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011
-9. https://www.coursera.org/specializations/front-end-web-development
-10. https://www.pluralsight.com/paths/front-end-web-developer.   
 

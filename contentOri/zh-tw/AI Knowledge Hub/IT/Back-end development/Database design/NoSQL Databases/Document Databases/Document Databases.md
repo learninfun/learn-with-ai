@@ -1,9 +1,10 @@
 +++
 title = "文檔數據庫"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Document Databases的問題
+給我5題Document Databases的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "文檔數據庫"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Document Databases並舉例
+以中文說明Document Databases並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Document Databases是一種NoSQL（Not Only SQL）非關聯式資料庫，其儲
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Document Databases的重點
+以中文條列Document Databases的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Document Databases是一種NoSQL（Not Only SQL）非關聯式資料庫，其儲
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Document Databases的中等難度問題，並在後面列出答案
+以中文給我5題Document Databases的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -87,21 +88,4 @@ Document Databases是一種NoSQL（Not Only SQL）非關聯式資料庫，其儲
 
 5. Document Database如何處理多個版本的JSON文檔？
 答案：Document Database通常使用版本控制系統，例如MVCC（多版本並發控制）來處理多個JSON文檔版本。當更新文檔時，數據庫將在幕後創建一個新版本，並維護與其他版本之間的關係。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Document Databases的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Document Databases" by MongoDB: This whitepaper from one of the leading vendors of document databases provides a comprehensive overview of what document databases are, their advantages, and how they differ from other database types. It also covers use cases for document databases and best practices for designing and modeling data.
-
-2. "NoSQL Document Databases: A Survey" by IEEE: This article examines the state of the art in document databases, providing an in-depth comparison of the different types available, such as JSON and XML, and evaluating their strengths and weaknesses. It also looks at real-world applications of document databases and the requirements they must meet.
-
-3. "Document Databases Explained: A Guide to Non-Relational Databases" by TechTarget: This article explains in plain language what document databases are, what sets them apart from traditional relational databases, and why businesses might choose to use them. It also covers some of the most common use cases for document databases, such as content management and e-commerce.
-
-4. "The Pros and Cons of Using a Document Database" by Altoros blog: This blog post provides a balanced overview of the benefits and drawbacks of using a document database. It covers topics such as scalability, ease of programming, and data consistency and integrity, and includes real-world examples of how document databases have been used successfully.
-
-5. "How (and Why) to Choose a Document Database Over a Relational Database" by EDB: This blog post offers guidance on how to determine if a document database is the right choice for your application, taking into account factors such as data structure, query complexity, and performance requirements. It also offers tips on migrating from a relational database to a document database.   
 

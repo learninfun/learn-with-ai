@@ -1,9 +1,10 @@
 +++
 title = "普利姆演算法"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Prim's Algorithm的問題
+給我5題Prim's Algorithm的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "普利姆演算法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Prim's Algorithm並舉例
+以中文說明Prim's Algorithm並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -54,28 +55,22 @@ Prim的演算法是一種用於尋找最小生成樹的貪婪演算法。
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Prim's Algorithm的重點
+以中文條列Prim's Algorithm的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Prim's Algorithm is used to find the minimum spanning tree of a connected weighted undirected graph.
-
-2. It starts with a single vertex and then expands by adding the closest vertex to the tree until all vertices are included.
-
-3. At each step, the algorithm selects the minimum-weight edge that connects a vertex in the tree to a vertex outside the tree.
-
-4. The algorithm continues until all vertices are either in the tree or have been considered for inclusion.
-
-5. Prim's Algorithm is guaranteed to find the minimum spanning tree for a connected graph with non-negative edge weights.
-
-6. The time complexity of Prim's Algorithm is O(ElogV) using a priority queue or heap, where E is the number of edges and V is the number of vertices in the graph.
-
-7. The output of Prim's Algorithm is a set of edges that forms the minimum spanning tree of the graph.   
+- Prim's Algorithm是一種用來找尋最小生成樹的演算法。
+- 演算法通常需要一個起始點，從該起始點開始建立最小生成樹。
+- 演算法維護兩個數據結構，分別是集合S和邊集合T。S表示已經在最小生成樹上的點，而T則表示已經在最小生成樹上的邊。
+- 首先將起始點加入集合S中。
+- 從集合S中的所有點開始找尋最小生成樹的下一個邊，找到其中最小權重的邊並加入邊集合T中。
+- 將邊的兩個端點中未被加入集合S中的點加入集合S中，重複上述過程，直到所有點都在集合S中。
+- Prim's Algorithm的時間複雜度為O(E log V)，其中E是邊的數量，V是點的數量。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Prim's Algorithm的中等難度問題，並在後面列出答案
+以中文給我5題Prim's Algorithm的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -129,31 +124,4 @@ F --3-- G --4-- H --10-- I --2-- J --1-- K
  F --3-- G --4-- H --7-- I --9-- J --3-- K
 ```
 答案：19   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Prim's Algorithm的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Prim's Algorithm" by GeeksforGeeks: https://www.geeksforgeeks.org/prims-algorithm-for-minimum-spanning-tree/
-
-This website provides a detailed explanation of Prim's Algorithm with examples and illustrations.
-
-2. "Prim's Algorithm" by Tutorialspoint: https://www.tutorialspoint.com/prim_algorithm
-
-This website provides a step-by-step guide of Prim's Algorithm with examples and a video tutorial.
-
-3. "Prim's Algorithm" by Brilliant: https://brilliant.org/wiki/prims-algorithm/
-
-This website provides a visual demonstration of Prim's Algorithm with animations.
-
-4. "Prim's Algorithm" by Khan Academy: https://www.khanacademy.org/computing/computer-science/algorithms/greedy-algorithms/a/prims-algorithm
-
-This website provides an interactive tutorial of Prim's Algorithm with explanations and quizzes.
-
-5. "Prim's Algorithm" by Topcoder: https://www.topcoder.com/thrive/articles/Minimum%20Spanning%20Tree:%20Prim%27s%20Algorithm
-
-This website provides a simplified explanation of Prim's Algorithm with an example and a video tutorial.   
 

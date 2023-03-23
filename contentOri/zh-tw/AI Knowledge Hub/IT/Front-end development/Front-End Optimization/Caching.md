@@ -1,9 +1,10 @@
 +++
 title = "快取"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Caching的問題
+給我5題Caching的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "快取"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Caching並舉例
+以中文說明Caching並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Caching是將常用的數據存儲在快速、易於存取的高速記憶體中�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Caching的重點
+以中文條列Caching的重點
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +63,7 @@ Caching是將常用的數據存儲在快速、易於存取的高速記憶體中�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Caching的中等難度問題，並在後面列出答案
+以中文給我5題Caching的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -101,31 +102,4 @@ Caching是將常用的數據存儲在快速、易於存取的高速記憶體中�
 3. 將字符串劃分成 $\sqrt{n}$ 個塊，對每個塊建立一棵 Trie（字典樹），在 Trie 上標記每個節點對應的字串在原串中出現的次數，緩存每個塊中所有子串的出現次數，查詢時統計相應塊中子串的出現次數，然後在相應的 Trie 上遍歷所查詢的子串，統計其出現次數，最終返回所有統計值的和。修改操作可以在 Trie 上進行，時間複雜度為 $O(|T|)$，其中 $T$ 為 Trie 的節點數，對於一個子串修改，只需找到相應的 Trie 和其對應的節點，然後修改該節點的標記，時間複雜度為 $O(\sqrt{n}+\log m)$，其中 $m$ 為字元集大小。
 4. 將集合分割成 $\sqrt{n}$ 個塊，對於每個塊使用哈希表和平衡樹（如紅黑樹）進行支持添加和刪除操作，時間複雜度均為 $O(\sqrt{n})$。對於一個查詢區間 $[l,r]$，若 $l$ 和 $r$ 落在同一個塊中，直接遍歷區間統計元素個數；否則分別遍歷區間左右端點所在的塊，然後在這些塊中遍歷 $l$ 和 $r$ 所在的塊中非區間的元素，統計其出現次數，最終返回統計值的和。總時間複雜度為 $O(n\sqrt{n}+q\sqrt{n}\log n)$。
 5. 將序列分為 $\sqrt{n}$ 個塊，對於每個塊使用一棵支持重複元素的排序算法（如 std::multiset）進行排序，時間複雜度為 $O(\sqrt{n}\log\sqrt{n})$。將每個塊中的第 $k$ 小的元素緩存起來，總時間複雜度為 $O(n\sqrt{n})$。對於一個插入或刪除操作，只需找到相應的塊，更新該塊中的排序算法，更新緩存中的第 $k$ 小元素，時間複雜度為 $O(\sqrt{n}\log\sqrt{n})$。對於一個查詢操作，若要查詢的位置位於某個塊中，直接在該塊中進行查詢；否則先在位置左邊的塊中查詢其後第 $k$ 小的元素，然後在位置右邊的塊中查詢其前 $k-1$ 小的元素，最終找出所有結果的前 $k$ 小的元素，總時間複雜度為 $O(q\sqrt{n}\log\sqrt{n})$。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Caching的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Caching: What it is and How it Works" by Akamai Technologies Inc. (https://www.akamai.com/us/en/resources/caching.jsp)
-
-This article provides a comprehensive overview of caching and how it works in the context of web applications and content delivery networks. It covers topics such as caching principles, benefits, types of caching, caching techniques, and best practices for cache management.
-
-2. "Caching Strategies and Best Practices" by Cloudflare. (https://developers.cloudflare.com/cache/about/caching-strategies)
-
-This guide outlines caching strategies and best practices for improving website performance and reducing server load. It covers a range of topics, including cache expiration, cache key design, caching for dynamic content, and dealing with cache invalidation.
-
-3. "HTTP Caching" by MDN Web Docs. (https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
-
-This article provides a detailed overview of HTTP caching, including cache headers, cache revalidation, and cache control directives. It also includes information on how to configure caching for different types of responses and how to troubleshoot caching issues.
-
-4. "Introduction to Caching in ASP.NET Core" by Microsoft. (https://docs.microsoft.com/en-us/aspnet/core/performance/caching/introduction)
-
-This article provides a tutorial on caching in ASP.NET Core applications. It covers topics such as in-memory caching, distributed caching, cache tag helpers, and cache invalidation strategies.
-
-5. "Server-Side Caching in Node.js Applications" by RisingStack Engineering. (https://blog.risingstack.com/server-side-caching-in-node-js/)
-
-This blog post provides an overview of server-side caching techniques for Node.js applications. It covers topics such as in-memory caching, caching with Redis, cache expiration, and cache control. It also includes examples of how to implement caching in Node.js applications.   
 

@@ -1,7 +1,7 @@
 
 
-1. What is the Miller-Rabin algorithm used for? 
-2. How does the Miller-Rabin algorithm differ from other primality testing algorithms? 
-3. Can the Miller-Rabin algorithm determine the exact prime factorization of a number? 
-4. How can the Miller-Rabin algorithm be implemented efficiently in code? 
-5. Are there any limitations or drawbacks to using the Miller-Rabin algorithm compared to other primality testing algorithms?
+1. 什麼是Miller-Rabin Algorithm (MRA)？它與其他素性測試算法的區別是什麼？
+2. MRA如何判斷一個數是否為質數？它的運行時間是多少？
+3. MRA在什麼情況下可能會給出錯誤的結果？該如何解決這個問題？
+4. MRA是否可應用於大數據範圍內的質數判斷？如果可以，需要注意哪些問題？
+5. MRA的應用場景有哪些？該算法的優點和缺點是什麼？

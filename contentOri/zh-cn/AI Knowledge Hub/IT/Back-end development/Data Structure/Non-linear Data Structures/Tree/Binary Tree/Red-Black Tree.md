@@ -1,5 +1,6 @@
 +++
 title = "红黑树"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -66,13 +67,13 @@ Red-Black Tree是一种平衡二叉树，它在BST（二叉搜索树）的基础
 
 
 
-1. 每個節點都是紅色或黑色的。
-2. 根節點是黑色的。
-3. 每個葉節點（NIL節點）都是黑色的。
-4. 如果一個節點是紅色的，那麼它的兩個子節點都是黑色的（不能有兩個相鄰的紅色節點）。
-5. 從任一節點到其每個子節點的所有路徑都包含相同數量的黑色節點。
-6. 插入和刪除節點時，要保持樹的上述性質。
-7. 紅黑樹是一種自平衡二叉搜索樹，它保證了最壞情況下基本操作的時間複雜度為O(log N)。   
+1. 每个节点都是红色或黑色的。
+2. 根节点是黑色的。
+3. 每个叶节点（NIL节点）都是黑色的。
+4. 如果一个节点是红色的，那么它的两个子节点都是黑色的（不能有两个相邻的红色节点）。
+5. 从任一节点到其每个子节点的所有路径都包含相同数量的黑色节点。
+6. 插入和删除节点时，要保持树的上述性质。
+7. 红黑树是一种自平衡二叉搜索树，它保证了最坏情况下基本操作的时间复杂度为O(log N)。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -126,36 +127,4 @@ Red-Black Tree是一种平衡二叉树，它在BST（二叉搜索树）的基础
    1. 如果兩個紅黑樹的根節點都不存在，則它們相同。
    2. 如果兩個紅黑樹的根節點的值不相等，則它們不相同。
    3. 遞歸地判斷兩個紅黑樹的左、右子樹是否相同，只有當左右子樹都相同時，兩個紅黑樹才相同。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Red-Black Tree的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Red-Black Tree - GeeksforGeeks
-https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/
-
-這是一篇介紹 Red-Black Tree 的基本概念和原理的文章，也提供了紅黑樹的節點結構、插入和刪除操作的實現等，是一個相當詳細的資料。
-
-2. Red-Black Tree - Wikipedia
-https://en.wikipedia.org/wiki/Red%E2%80%93black_tree
-
-這是一篇從理論和歷史的角度介紹紅黑樹的文章。文章中說明了紅黑樹的性質和特點，比較了紅黑樹相對於其他平衡樹的優缺點，以及歷史上紅黑樹的發展和演變。
-
-3. Algorithms and Data Structures - Red-Black Tree - Tutorialspoint
-https://www.tutorialspoint.com/data_structures_algorithms/red_black_tree_algorithm.htm
-
-這是一篇在紅黑樹的基礎上深入介紹了 AVL 樹的文章。原文中講解了紅黑樹的插入和刪除操作的實現以及紅黑樹中節點旋轉的基本概念，同時也介紹了 AVL 樹和紅黑樹的比較和區別。
-
-4. Red-Black Tree - Visualgo.net
-https://visualgo.net/en/bst
-
-這是一個用動畫的形式展示紅黑樹的特點和操作過程的網站。它展示了紅黑樹的遞迴算法實現過程，可以讓讀者更好地理解紅黑樹的運作原理。
-
-5. Binary Trees: Red-Black Trees - Princeton University
-https://www.cs.princeton.edu/~rs/talks/LLRB/RedBlack.pdf
-
-這是一篇公開課程的講義，其中介紹了紅黑樹和 LLRB（Left-Leaning Red Black Tree）的介紹和實現。講義中介紹了紅黑樹的性質和特點，以及用雜技演示了紅黑樹的節點旋轉操作，是一份相當好的資料。   
 

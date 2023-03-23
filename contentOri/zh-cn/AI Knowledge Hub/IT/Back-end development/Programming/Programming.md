@@ -1,5 +1,6 @@
 +++
 title = "程式设计"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -34,7 +35,7 @@ Programming是指使用特定的程序語言來創建、設計和實現軟件和
 
 2. 算法和数据结构：了解各种基本算法和数据结构，例如排序、搜索、链表、数组等等。
 
-3. 面向对象程序设计（OOP）：实现OOP的基本概念，例如类、对象、继承、多态等等。
+3. 面向对像程序设计（OOP）：实现OOP的基本概念，例如类、对像、继承、多态等等。
 
 4. 效能优化：学习如何优化代码，并掌握对效能进行测量和分析的技能。
 
@@ -166,26 +167,4 @@ def sharedIndexes(h1, h2):
                 node = node.next
     return res
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Programming的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Programming Language Basics - https://www.geeksforgeeks.org/programming-language-basics/
-This tutorial from GeeksforGeeks covers the basics of programming languages, including compilers, interpreters, syntax, variables, data types, operators, loops, and conditional statements.
-
-2. Learn Python - https://www.learnpython.org/
-This website offers a free, interactive introduction to the Python programming language. Topics covered include syntax, data types, loops, functions, and modules.
-
-3. Java Programming Tutorial - https://www.javatpoint.com/java-tutorial
-This tutorial from javatpoint.com provides an indepth tutorial of the Java programming language. It covers topics such as object-oriented programming, exceptions handling, collections, and generics.
-
-4. C++ Language - https://www.tutorialspoint.com/cplusplus/index.htm
-This tutorial from TutorialsPoint covers the C++ programming language. Topics covered include data types, operators, arrays, functions, and classes.
-
-5. Web development tutorial - https://www.w3schools.com/
-This website covers the basics of web development, including HTML, CSS, JavaScript, SQL, PHP, and ASP. It also offers examples and quizzes to test your knowledge.   
 

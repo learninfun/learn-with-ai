@@ -1,3 +1,7 @@
++++
+title = "Min Heap"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Min Heap
@@ -76,17 +80,4 @@ Answer: To extract the minimum element from a Min Heap, we remove the root node 
 
 5. Can a Min Heap have duplicate elements?
 Answer: Yes, a Min Heap can have duplicate elements.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Min Heap
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: https://www.geeksforgeeks.org/min-heap-in-data-structure/
-2. TutorialsPoint: https://www.tutorialspoint.com/data_structures_algorithms/min_heap.htm
-3. Programiz: https://www.programiz.com/dsa/heap-data-structure
-4. Studytonight: https://www.studytonight.com/data-structures/min-heap-data-structure
-5. Theory of programming: https://theoryofprogramming.com/2018/01/15/min-heap/   
 

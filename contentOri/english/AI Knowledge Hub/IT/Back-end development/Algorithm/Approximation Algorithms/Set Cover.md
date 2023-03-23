@@ -1,3 +1,7 @@
++++
+title = "Set Cover"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Set Cover
@@ -82,20 +86,4 @@ Answer: Yes, Set Cover can be approximated within an approximation factor of ln(
 5. What are some applications of Set Cover in real-life scenarios?
 
 Answer: Set Cover has numerous applications in various fields, including logistics, networking, finance, and operations research. For example, it can be used to determine the minimum number of warehouses required to cover all client locations or to determine the most cost-effective advertising campaign to reach a certain target audience.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Set Cover
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Set Cover Problem - https://www.geeksforgeeks.org/set-cover-problem-set-1-greedy-approximate-algorithm/
-2. Brilliant: Set Cover - https://brilliant.org/wiki/set-cover/
-3. Wikipedia: Set Cover Problem - https://en.wikipedia.org/wiki/Set_cover_problem
-4. TutorialsPoint: Set Cover Problem - https://www.tutorialspoint.com/Set-cover-problem
-5. CMU: Set Cover Problem - https://www.cs.cmu.edu/~avrim/725/handouts/set-cover-ellops.pdf
-6. MathWorld: Set Cover - http://mathworld.wolfram.com/SetCover.html
-7. CodeChef: Set Cover Problem - https://www.codechef.com/problems/SEACO
-8. Codeforces: Set Cover Problem - https://codeforces.com/problemset/problem/1070/C   
 

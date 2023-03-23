@@ -1,9 +1,10 @@
 +++
 title = "環形佇列"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Circular Queue的問題
+給我5題Circular Queue的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "環形佇列"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Circular Queue並舉例
+以中文說明Circular Queue並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,7 +45,7 @@ Circular Queue 是一種在介面上很像 Queue 的資料結構，但與一般�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Circular Queue的重點
+以中文條列Circular Queue的重點
 {{< /ask_chatgpt >}}
 
 
@@ -61,7 +62,7 @@ Circular Queue 是一種在介面上很像 Queue 的資料結構，但與一般�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Circular Queue的中等難度問題，並在後面列出答案
+以中文給我5題Circular Queue的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -97,41 +98,4 @@ cache.get(2) # returns -1
 - 判斷日期隊列是否已滿
 
 5.實現一個環形隊列，支持環形迭代器。即可以從隊首迭代到隊尾，然後再從隊首開始迭代。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Circular Queue的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-資料1：GeeksforGeeks - Circular Queue
-
-網址：https://www.geeksforgeeks.org/circular-queue-set-1-introduction-array-implementation/
-
-這篇文章從介紹Circular Queue的基本概念開始，說明了如何使用陣列實現Circular Queue，並介紹了相關的操作（如插入、刪除、檢查是否為空）。同時，該文章還討論了一些可能出現的問題，例如如何處理Queue滿了的情況。
-
-資料2：Tutorialspoint - Circular Queue
-
-網址：https://www.tutorialspoint.com/data_structures_algorithms/circular_queue_algorithm.htm
-
-類似於GeeksforGeeks的文章，這篇教程也從介紹基本概念開始，接著提供了一些示例代碼。除此之外，該教程還介紹了使用循環缓存區（Circular Buffer）實現Circular Queue的方法，並討論了如何使用双端Queue（Deque）來解決一些特定的問題。
-
-資料3：Programiz - Circular Queue
-
-網址：https://www.programiz.com/dsa/circular-queue
-
-Programiz提供了一個完整的教程，涵蓋Circular Queue的基本概念、如何實現、如何使用等。除了範例代碼外，該教程還提供了一些練習，讓讀者更好地理解所學知識。
-
-資料4：Medium - Circular Queue
-
-網址：https://medium.com/@sourabhv/understanding-circular-queue-implementation-in-java-90c9b9c8b31c
-
-這篇Medium文章專注於Java中如何實現Circular Queue，並以代碼作為主要教學方法。該文章還討論了如何使用Java中的ArrayList來解決有限陣列帶來的問題。
-
-資料5：Stack Abuse - Circular Queue
-
-網址：https://stackabuse.com/stacks-and-queues-in-python/#circular-queue
-
-這篇文章介紹了Python中如何實現Circular Queue。該文章旨在通過代碼示例來解釋概念，並提供了一些基本的操作。該篇文章還討論了如何解決一些可能出現的問題，例如在Queue滿了的情況下擴展陣列的方法。   
 

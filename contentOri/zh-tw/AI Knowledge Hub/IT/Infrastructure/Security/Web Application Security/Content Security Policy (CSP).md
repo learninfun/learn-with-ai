@@ -1,9 +1,10 @@
 +++
 title = "內容安全策略 (CSP)"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Content Security Policy (CSP)的問題
+給我5題Content Security Policy (CSP)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "內容安全策略 (CSP)"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Content Security Policy (CSP)並舉例
+以中文說明Content Security Policy (CSP)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Content Security Policy (CSP)的重點
+以中文條列Content Security Policy (CSP)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -69,7 +70,7 @@ Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Content Security Policy (CSP)的中等難度問題，並在後面列出答案
+以中文給我5題Content Security Policy (CSP)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -88,36 +89,4 @@ Content-Security-Policy: script-src 'self' 'unsafe-inline' 'unsafe-eval'
 
 5. 如何在CSP中設置不允許外部圖片載入？
 答案：可以使用「img-src」屬性設置是否允許外部圖片載入。例如，可以在Content-Security-Policy頭信息中設置「img-src 'self'」，這樣就只允許從同一域名下載入圖片。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Content Security Policy (CSP)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "A Beginner's Guide to Content Security Policy" by Mozilla: 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
-
-This guide provides an introduction to Content Security Policy (CSP) and explains how it can help protect websites from various types of attacks, such as cross-site scripting (XSS) and data injection.
-
-2. "Content Security Policy: An Introduction" by Auth0:
-https://auth0.com/blog/content-security-policy-an-introduction/
-
-This blog post offers an overview of CSP, and details how CSP works by defining a set of rules that dictate what resources a website is allowed to load.
-
-3. "Securing Web Applications with Content Security Policy" by Google:
-https://developers.google.com/web/fundamentals/security/csp/
-
-This Google guide details how to implement CSP for web applications, including how to create a CSP policy and how to test and validate the policy.
-
-4. "7 Real-World Examples of Content Security Policy Gone Wrong" by Acunetix: 
-https://www.acunetix.com/blog/web-security-zone/7-real-world-examples-of-content-security-policy-gone-wrong/
-
-This article highlights several common mistakes developers make when implementing CSP and the resulting security vulnerabilities. It also offers advice on how to avoid these mistakes.
-
-5. "Content Security Policy (CSP) – The Ultimate Guide" by Snyk: 
-https://snyk.io/blog/content-security-policy-csp-the-ultimate-guide/
-
-This comprehensive guide covers all aspects of CSP, from its origin and purpose to its implementation and potential impact on performance. It also includes practical tips for setting up and maintaining CSP for a website.   
 

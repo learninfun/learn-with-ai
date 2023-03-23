@@ -1,9 +1,10 @@
 +++
 title = "圖"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Graph的問題
+給我5題Graph的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "圖"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Graph並舉例
+以中文說明Graph並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -37,7 +38,7 @@ Graph是一種數學計算機科學中的資料結構，它由一組節點（也
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Graph的重點
+以中文條列Graph的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ Graph是一種數學計算機科學中的資料結構，它由一組節點（也
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Graph的中等難度問題，並在後面列出答案
+以中文給我5題Graph的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -94,41 +95,4 @@ Graph是一種數學計算機科學中的資料結構，它由一組節點（也
 ![image-5.png](attachment:image-5.png)
 
 答案：2018年10月至12月，體重變化最明顯。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Graph的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 美國國家圖書館負債情況
-
-圖片來源：https://www.cbo.gov/publication/53850
-
-來自美國國會預算辦公室（Congressional Budget Office，CBO）的數據顯示，自2007年以來，美國國家圖書館的負債一直在增加。該館的負債主要是由於建築維護和修繕工作的支出所導致的。這張圖顯示了自2007年以來，圖書館負債的增長情況。
-
-2. 全球社交媒體用戶數
-
-圖片來源：https://www.statista.com/statistics/278414/number-of-worldwide-social-network-users/
-
-這張圖表顯示了全球社交媒體用戶數的增長情況。數據顯示，在過去十年中，社交媒體用戶數增長了近4倍，從大約一億人增長到了超過四十億人。這表明了社交媒體在現代通訊中的重要性。
-
-3. 飛機旅行收入
-
-圖片來源：https://www.statista.com/statistics/564954/total-passenger-revenue-of-global-airlines/
-
-這張圖表顯示了全球航空業的營收情況。數據顯示，自2010年以來，全球航空公司的總收入一直在增長，從2010年的1.6萬億美元增長到2019年的2.7萬億美元。這顯示了航空業是一個快速增長且利潤豐厚的行業。
-
-4. 美國股票市場漲跌情況
-
-圖片來源：https://www.macrotrends.net/2486/sp500-historical-chart-data
-
-這張圖表顯示了自1950年以來美國標準普爾500指數的漲跌情況。數據顯示，該指數在過去的70年中一直呈現穩定增長的趨勢，雖然在某些時期出現了一些下跌，但總體趨勢仍然是向上的。
-
-5. 全球天然氣產量
-
-圖片來源：https://www.statista.com/statistics/263455/world-natural-gas-production/
-
-這張圖表顯示了過去十年中全球天然氣產量的變化情況。數據顯示，在過去十年中，全球天然氣產量增長了超過50%，從2009年的3.3萬億立方英尺增長到2019年的5.1萬億立方英尺。這表明天然氣作為一種清潔燃料在全球能源市場中的重要性正在不斷提高。   
 

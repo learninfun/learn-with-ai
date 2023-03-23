@@ -1,3 +1,7 @@
++++
+title = "Kafka"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Kafka
@@ -74,22 +78,4 @@ Answer: The name of the posthumous collection of stories is "The Complete Storie
 
 5. What is the title of Franz Kafka's unfinished novel about a man who wakes up to find himself transformed into a giant insect-like creature?
 Answer: The title of the unfinished novel is "The Metamorphosis."   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Kafka
-{{< /ask_chatgpt >}}
-
-
-
-1) Apache Kafka 
-2) Kafka Documentation 
-3) Confluent Kafka 
-4) Kafka Streams 
-5) Kafka Connect 
-6) Kafka Python 
-7) Kafka Tutorial Point 
-8) Kafka Summit 
-9) IBM Introduction to Kafka 
-10) AWS Introduction to Kafka   
 

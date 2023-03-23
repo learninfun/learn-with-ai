@@ -1,11 +1,7 @@
 
 
-1. What are the most common web application security threats and how can they be prevented or mitigated?
-
-2. What are the key principles of secure web application development, and how can they be incorporated into the software development lifecycle?
-
-3. How can organizations ensure that third-party applications integrated into their websites are secure, and what steps can be taken to mitigate potential security risks?
-
-4. What are the best practices for securing user authentication and authorization in web applications, and how can these be implemented effectively?
-
-5. What measures can be put in place to detect and respond to security incidents in web applications, and how can these processes be improved over time?
+1. 什么是Web应用程式攻击，有哪些常见的攻击手段？
+2. 如何设计一个安全的Web应用程式？需要考虑哪些方面？
+3. Web应用程式中，如何避免SQL注入、跨站脚本等常见攻击？
+4. Web应用程式中的会话安全问题是什么？如何设计安全的会话管理系统？
+5. 如何检测Web应用程式中的漏洞？有哪些常用的漏洞扫瞄工具和技术？

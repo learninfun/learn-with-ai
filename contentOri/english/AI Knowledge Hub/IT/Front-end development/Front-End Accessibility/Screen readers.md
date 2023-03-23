@@ -1,3 +1,7 @@
++++
+title = "Screen readers"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Screen readers
@@ -58,22 +62,4 @@ Answer: Yes, a screen reader can read descriptions of images and graphics using 
 
 5. What are some challenges faced by screen reader users?
 Answer: Screen reader users may face challenges with inaccessible websites, such as missing or inappropriate alternative text for images, unlabeled form fields, and unclear page headings. They may also encounter difficulties with poorly designed documents, inconsistent use of headings and fonts, and inaccessible multimedia content.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Screen readers
-{{< /ask_chatgpt >}}
-
-
-
-1. WebAIM: Screen Readers Introduction 
-2. About Screen Readers – Accessibility at Penn State 
-3. Introduction to Screen Readers by AccessibilityOz 
-4. Mozilla Developer Network: Introduction to Screen Readers 
-5. Web Accessibility Tutorials: Introduction to Screen Readers – WAI 
-6. Understanding Screen Reader User Behaviour on the Web | Nielsen Norman Group 
-7. Web Content Accessibility Guidelines (WCAG) Overview – W3C 
-8. Introduction to Accessibility – A11ycasts with Rob Dodson. 
-
-Note: A11ycasts is a YouTube channel with videos about web accessibility.   
 

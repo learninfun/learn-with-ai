@@ -1,7 +1,11 @@
 
 
-1. What is the main advantage of using Prim's algorithm for finding a minimum spanning tree over Kruskal's algorithm?
-2. How does Kruskal's algorithm ensure that the minimum spanning tree is found?
-3. Under what circumstances would a Boruvka's algorithm be preferable over other Minimum Spanning Tree algorithms?
-4. How does the complexity of Prim's algorithm vary with the size of the input graph?
-5. Can a Minimum Spanning Tree algorithm be used to solve other classes of problems besides minimum spanning trees? If so, give an example.
+1. 最小生成树演算法是什么？它的定义是什么？
+
+2. 什么是Kruskal演算法？它如何找到一个图的最小生成树？
+
+3. 什么是Prim演算法？它如何找到一个图的最小生成树？
+
+4. 什么是Boruvka演算法？它如何找到一个图的最小生成树？
+
+5. Dijkstra演算法可以用来找到最短路径吗？如果可以，它如何实现？

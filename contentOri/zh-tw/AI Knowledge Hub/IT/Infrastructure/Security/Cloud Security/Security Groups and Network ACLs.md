@@ -1,22 +1,23 @@
 +++
 title = "安全性群組和網路存取控制列表（ACL）"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Security Groups and Network ACLs的問題
+給我5題Security Groups and Network ACLs的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is the primary difference between Security Groups and Network ACLs?
-2. How do Security Groups and Network ACLs work together to protect a network?
-3. What are the limitations of Security Groups and Network ACLs?
-4. Can Security Groups or Network ACLs be used to protect against insider threats? If yes, how? If no, why not?
-5. How do you ensure that Security Groups and Network ACLs are configured correctly to protect your network?   
+1. 什麼是安全群組（Security Groups）？可以如何使用它來保護您的網絡？
+2. 什麼是網絡存取控制列表（Network ACL）？它們如何區別於安全群組？
+3. 安全群組和網絡存取控制列表在提供安全性方面有何不同？哪種更有效？
+4. 在AWS中如何創建和管理安全群組和網絡存取控制列表？
+5. 安全群組和網絡存取控制列表的規則是如何工作的？它們可以設置那些安全性功能？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Security Groups and Network ACLs並舉例
+以中文說明Security Groups and Network ACLs並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ Network ACLs是另一種虛擬防火牆，通過定義一組規則，控制VPC�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Security Groups and Network ACLs的重點
+以中文條列Security Groups and Network ACLs的重點
 {{< /ask_chatgpt >}}
 
 
@@ -63,7 +64,7 @@ Network ACLs:
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Security Groups and Network ACLs的中等難度問題，並在後面列出答案
+以中文給我5題Security Groups and Network ACLs的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -87,36 +88,4 @@ Network ACLs:
 5. 您如何確保網路 ACL 不會阻止升級或配置更改的流量？
 
 答案：請確保路由表中有一個組織升級的IP地址，並且有適當的入站和出站規則。監控網路ACL維持最新資料，快速回應網路問題，確保網路資源的安全性和可靠性。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Security Groups and Network ACLs的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. What are Security Groups and Network ACLs?
-https://aws.amazon.com/security/identity-amp-compliance/amazon-vpc/
-
-This article from Amazon's official website describes what Security Groups and Network ACLs are, how they differ, and how they work together. It also provides information on how they are used in Amazon Web Services (AWS) Virtual Private Cloud (VPC).
-
-2. AWS Security Groups vs Network ACLs: What』s the Difference?
-https://www.twistlock.com/2017/10/04/aws-security-groups-vs-network-acls-whats-difference/
-
-Twistlock offers a comprehensive explanation of the differences between Security Groups and Network ACLs, including their primary functions, strengths, and limitations. The article also shares internal links to resources for learning more.
-
-3. AWS Security Groups and Network ACLs: An Overview
-https://blog.gigamon.com/2018/10/23/aws-security-groups-and-network-acls-an-overview/
-
-Gigamon's blog provides an overview of both Security Groups and Network ACLs in AWS. It explains how they work and how they are used to secure applications hosted in VPC. The author also discusses best practices and tips for optimizing security.
-
-4. What are Amazon VPC security groups and network ACLs?
-https://searchcloudsecurity.techtarget.com/definition/Amazon-VPC-Security-Groups-and-Network-ACLs
-
-This techtarget article discusses the role of Security Groups and Network ACLs in AWS, providing definitions and examples of each. It also provides an analysis of how these tools can be used to protect cloud-based infrastructure.
-
-5. Understanding AWS Security Groups and Network ACLs
-https://securitytrails.com/blog/aws-security-groups-and-network-acls
-
-Security Trails provides an analysis of Security Groups and Network ACLs in AWS. The article provides a brief overview, comparing and contrasting the two, and then delves into the specifics of each, including how they function and how they are implemented.   
 

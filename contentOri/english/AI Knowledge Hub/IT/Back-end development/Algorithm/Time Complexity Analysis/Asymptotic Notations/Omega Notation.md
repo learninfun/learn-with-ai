@@ -1,3 +1,7 @@
++++
+title = "Omega Notation"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Omega Notation
@@ -62,21 +66,4 @@ Answer: No, an algorithm cannot have a Big O notation that is less than or equal
 
 5. Suppose an algorithm has a Big O notation of O(n log n) and an Omega notation of O(n). What can we infer about the algorithm's behavior?
 Answer: This means that the algorithm performs better than a quadratic function but worse than a linear function. It can also suggest that the algorithm makes use of sorting or merging techniques.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Omega Notation
-{{< /ask_chatgpt >}}
-
-
-
-1. Big O Notation - Introduction: This webpage provides an introduction to Big O Notation, which is a way to describe the performance of an algorithm. It covers the basics of Big O, such as how it works and why it's useful.
-
-2. Omega Notation - Introduction: This webpage provides an introduction to Omega Notation, which is similar to Big O Notation but describes the lower bound of an algorithm's performance. It covers the basics of Omega, such as how it works and why it's useful.
-
-3. Complexity Classes - Omega: This webpage provides an overview of complexity classes and their relationship to Omega Notation. It explains how Omega is used to describe the lower bound of an algorithm's time complexity and provides examples of algorithms with different Omega bounds.
-
-4. Understanding Big O, Omega, and Theta Notation: This webpage provides a comprehensive introduction to the three major notations used to describe algorithmic complexity: Big O, Omega, and Theta. It covers the basics of each notation, including how they work and why they're useful, and explains the differences between them.
-
-5. Omega Notation - Lower Bound of Algorithm: This webpage provides a detailed explanation of Omega Notation and its use in describing the lower bound of an algorithm's performance. It covers topics such as the relationship between Omega and Big O, how to calculate Omega, and examples of algorithms with different Omega bounds.   
 

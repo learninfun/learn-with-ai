@@ -1,9 +1,10 @@
 +++
 title = "JavaScript 事件處理"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題JS Event handling的問題
+給我5題JS Event handling的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "JavaScript 事件處理"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明JS Event handling並舉例
+以中文說明JS Event handling並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,25 +48,46 @@ button.addEventListener("click", function() {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列JS Event handling的重點
+以中文條列JS Event handling的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Understanding events
-2. Event listener registration methods
-3. Event bubbling and capturing
-4. Event propagation and stopping
-5. Event delegation
-6. Event object and properties
-7. Event types and their properties
-8. Event handling best practices
-9. Cross-browser compatibility issues
-10. Debugging event handling issues   
+1. 事件：JavaScript中的事件指的是可以在瀏覽器或文檔中發生的操作或行為，例如單擊、雙擊、鍵盤按鍵等。
+
+2. 事件處理程序：事件處理程序是指在事件發生時運行的函數。
+
+3. 事件監聽器：事件監聽器是指用於監聽當特定事件發生時自動調用函數的方法。它可以通過 addEventListener() 函數來實現。
+
+4. 事件對像：事件對象是在事件發生時傳遞給函數的參數，它包含有關事件的各種信息，例如事件類型、目標元素、鼠標位置等。
+
+5. 事件冒泡和事件捕獲：事件冒泡和事件捕獲是DOM事件模型中的兩種級別的事件傳播機制。事件捕獲是指從父級元素到目標元素的事件傳播，而事件冒泡是指從目標元素到父級元素的事件傳播。
+
+6. 阻止事件默認行為：通過調用事件對象的 preventDefault() 方法，可以阻止事件的默認行為，例如禁用鏈接的跳轉或表單提交等。
+
+7. 停止事件傳播：通過調用事件對象的 stopPropagation() 方法，可以停止事件的傳播，也就是阻止事件冒泡或事件捕獲。
+
+8. 事件委託：事件委託是指將事件處理程序綁定在父元素上，然後利用事件冒泡的機制來處理子元素的事件。
+
+9. DOMContentLoaded 事件：DOMContentLoaded 事件是指在文檔加載完成後觸發的事件，用於執行需要在文檔載入完成之後才能執行的代碼。
+
+10. resize 事件：resize 事件是指當瀏覽器窗口的大小發生改變時觸發的事件。
+
+11. scroll 事件：scroll 事件是指當文檔滾動時觸發的事件。
+
+12. mouseover 和 mouseout 事件：mouseover 和 mouseout 事件是指當鼠標移動到元素上方（mouseover）或離開元素（mouseout）時觸發的事件。
+
+13. click 事件：click 事件是指當鼠標單擊元素時觸發的事件。
+
+14. keydown、keyup 和 keypress 事件：keydown、keyup 和 keypress 事件是指當用戶按下或鬆開鍵盤鍵時觸發的事件。其中，keydown 和 keyup 事件傳遞的參數包含有關鍵盤按鍵的信息，而 keypress 事件則不包含。
+
+15. load 事件：load 事件是指當文檔或圖片等資源加載完成時觸發的事件。
+
+16. submit 事件：submit 事件是指當表單提交時觸發的事件，通常用於驗證表單輸入並防止表單重複提交。   
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題JS Event handling的中等難度問題，並在後面列出答案
+以中文給我5題JS Event handling的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -147,26 +169,4 @@ function moveElement(event) {
   element.style.top = newY + 'px';
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇JS Event handling的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. JavaScript Event Handling – A Detailed Guide
-https://www.edureka.co/blog/javascript-event-handling-tutorial/
-
-2. Handling events in JavaScript – a comprehensive guide
-https://www.javascripttutorial.net/javascript-dom/javascript-event-handling/
-
-3. JavaScript Events – A Primer
-https://www.sitepoint.com/javascript-events-primer/
-
-4. The Ultimate Guide to JavaScript Event Handling
-https://medium.com/better-programming/the-ultimate-guide-to-javascript-event-handling-7a1a01c84029
-
-5. Events in JavaScript: How They Work and How to Use Them
-https://www.digitalocean.com/community/tutorials/js-events-101   
 

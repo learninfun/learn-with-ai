@@ -1,9 +1,10 @@
 +++
 title = "創建型模式"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Creational Patterns的問題
+給我5題Creational Patterns的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "創建型模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Creational Patterns並舉例
+以中文說明Creational Patterns並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ Creational Patterns是指軟件設計中一種與對像創建有關的模式，�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Creational Patterns的重點
+以中文條列Creational Patterns的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Creational Patterns 是建立物件的軟體設計模式，其重點包括：
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Creational Patterns的中等難度問題，並在後面列出答案
+以中文給我5題Creational Patterns的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -108,36 +109,4 @@ D.單例模式
 4.根據應用程序的需要
 
 5.D.單例模式   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Creational Patterns的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Factory Method Pattern
-Factory Method Pattern is one of the most common creational design patterns used in object-oriented programming. This pattern defines an interface for creating objects, but allows subclasses to decide which class to instantiate. The Factory Method Pattern allows flexibility in creating objects while also providing a central point for creating objects in a system.
-
-Source: https://www.geeksforgeeks.org/factory-method-design-pattern/
-
-2. Abstract Factory Pattern
-Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related or dependent objects without specifying their concrete classes. The Abstract Factory Pattern is used when a group of related objects must be created together across multiple classes, and it can help to eliminate coupling between the client code and the concrete classes.
-
-Source: https://refactoring.guru/design-patterns/abstract-factory
-
-3. Singleton Pattern
-Singleton Pattern is a creational design pattern that restricts the instantiation of a class to one object. This pattern is used when there should be only one instance of a class in a system, and it provides a global point of access to that instance. Singleton Pattern is commonly used for database connections, shared resources, and logging.
-
-Source: https://www.baeldung.com/java-singleton
-
-4. Builder Pattern
-Builder Pattern is a creational design pattern that separates the construction of a complex object from its representation, allowing the same construction process to create different representations. The Builder Pattern allows flexible creation of complex objects using a step-by-step approach, and it can help to simplify object construction and reduce the number of constructor parameters needed.
-
-Source: https://www.javatpoint.com/builder-design-pattern-in-java
-
-5. Prototype Pattern
-Prototype Pattern is a creational design pattern that allows objects to be created by cloning existing objects. The Prototype Pattern is used when creating new objects is expensive or complex, and it can help to reduce the time and resources needed for object creation. This pattern also allows objects to be easily customized without affecting the original object.
-
-Source: https://refactoring.guru/design-patterns/prototype   
 

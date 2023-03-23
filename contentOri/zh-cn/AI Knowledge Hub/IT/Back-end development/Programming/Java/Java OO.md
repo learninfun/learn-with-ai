@@ -1,5 +1,6 @@
 +++
 title = "Java物件导向"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -90,7 +91,7 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 以下是Java Object-Oriented (OO) 的重点：
 
-1. 抽象化 (Abstraction) - 用来隐藏复杂性质，将其简化，以便于管理。
+1. 抽像化 (Abstraction) - 用来隐藏复杂性质，将其简化，以便于管理。
 
 2. 封装 (Encapsulation) - 资料、方法的保护，防止私有资料不被乱改造，保护资源分配。
 
@@ -102,7 +103,7 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 6. 物件 (Object) - 由类别 Instance 到的物件，在程式执行时，被物件所组成。
 
-7. 接口 (Interface) - 一种抽象的类型，Java 社群使用此类型来协调类。
+7. 接口 (Interface) - 一种抽像的类型，Java 社群使用此类型来协调类。
 
 8. 重载 (Overloading) - 在一个类别里，不同的方法可以有相同的函式名称，但参数类型不同或数目不同。
 
@@ -350,7 +351,7 @@ public class BankAccount {
 }
 ```
 
-5. 设计一个图形(Geometry)抽象类别，包含以下抽象方法：
+5. 设计一个图形(Geometry)抽像类别，包含以下抽像方法：
 
 方法：
 - 计算面积(getArea)
@@ -430,36 +431,4 @@ public class Circle extends Geometry {
   }
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Java OO的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Java OOP Tutorial: Object-Oriented Programming For Beginners
-https://www.journaldev.com/1663/java-oops-concepts-with-examples
-
-This tutorial by JournalDev covers the fundamentals of Object-Oriented Programming (OOP) in Java, including encapsulation, inheritance, and polymorphism. It includes code snippets and examples to aid in understanding.
-
-2. Java OOP Concepts Explained: Inheritance
-https://stackify.com/oop-concepts-inheritance/
-
-This article by Stackify delves deeper into inheritance, one of the key concepts in Java OOP. It discusses different types of inheritance and gives examples of each in use. 
-
-3. Java OOP Concepts Explained: Polymorphism
-https://stackify.com/oop-concepts-polymorphism/
-
-This is another article by Stackify that covers polymorphism in Java OOP. It explains what polymorphism is and how it can be used to make code more efficient and organized. 
-
-4. Java OOP Concepts Explained: Abstraction
-https://stackify.com/oop-concepts-abstraction/
-
-Abstraction is a complex but important concept in Java OOP. This article by Stackify breaks down what it is and how it works. It includes examples to help readers understand how to implement abstraction in code. 
-
-5. Java Object-Oriented Programming: Understanding Classes
-https://www.c-sharpcorner.com/article/java-object-oriented-programming-understanding-classes/
-
-This tutorial by C# Corner explains how to create classes in Java, including details on constructors and access modifiers. Additionally, it explains how to utilize these classes within other Java projects.   
 

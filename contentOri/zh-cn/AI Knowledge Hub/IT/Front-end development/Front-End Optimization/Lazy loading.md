@@ -1,5 +1,6 @@
 +++
 title = "Lazy loading 懒加载"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -55,50 +56,23 @@ Lazy loading是一种网页加载优化技术，它利用延迟载入的方式�
 
 
 
-1. 前端页面需载入大量资料，如何实现Lazy Loading？
+1. 前端頁面需載入大量資料，如何實現Lazy Loading？
 
-答案：使用Intersection Observer API监视页面上的元素，当元素进入视窗范围内时，才载入该元素所需的资料。可以使用像是react-lazyload和ng-lazyload-image这样的套件来实现。
+答案：使用Intersection Observer API監視頁面上的元素，當元素進入視窗範圍內時，才載入該元素所需的資料。可以使用像是react-lazyload和ng-lazyload-image這樣的套件來實現。
 
-2. 如何避免在第一次访问网站时，将所有页面资料都加载出来？
+2. 如何避免在第一次訪問網站時，將所有頁面資料都加載出來？
 
-答案：使用Lazy Loading机制。将页面核心资料与功能做好分类，只在用户访问时加载当前页面所需的资料，其他部分透过按需载入实现最佳的性能优化。
+答案：使用Lazy Loading機制。將頁面核心資料與功能做好分類，只在用戶訪問時加載當前頁面所需的資料，其他部分透過按需載入實現最佳的性能優化。
 
-3. 如何实现按需载入图片？
+3. 如何實現按需載入圖片？
 
-答案：使用Lazy Loading机制。通常有两种方式实现：以空的图片档代替原始图档，再透过自订属性储存图片路径等资讯，再透过JavaScript进行替换；透过intersection Observer API监视图片是否进入视窗范围，并将其载入。
+答案：使用Lazy Loading機制。通常有兩種方式實現：以空的圖片檔代替原始圖檔，再透過自訂屬性儲存圖片路徑等資訊，再透過JavaScript進行替換；透過intersection Observer API監視圖片是否進入視窗範圍，並將其載入。
 
-4. 如何确定设计的Lazy Loading是有效果的？
+4. 如何確定設計的Lazy Loading是有效果的？
 
-答案：使用Chrome浏览器的Dev Tool，启用Network面板，模拟网路速度，使用Performance面板观察页面载入时间、如何加快页面载入等表现，更可以使用Lighthouse或WebPageTest进行真实测试。
+答案：使用Chrome瀏覽器的Dev Tool，啟用Network面板，模擬網路速度，使用Performance面板觀察頁面載入時間、如何加快頁面載入等表現，更可以使用Lighthouse或WebPageTest進行真實測試。
 
-5. 如何实现Lazy Loading时，保证页面导航的可用性？
+5. 如何實現Lazy Loading時，保證頁面導航的可用性？
 
-答案：加载较大的ressource时，要确保网页的载入顺序是正确的。优先加载页面的核心资料和功能，再进行图片和其他资源的加载和渲染，避免出现网页空白等问题。可以将页面下滑一半的位置加载接下来的内容，并显示加载状态提示，让用户了解当前页面正在进行资源的加载。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Lazy loading的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Lazy Loading in JavaScript and Its Benefits": https://www.sitepoint.com/lazy-loading-javascript/
-
-This article explains what lazy loading is, how it works, and the benefits of implementing it in your website or web application. It also provides examples of how to use lazy loading in your JavaScript code.
-
-2. "Lazy Loading Images in React": https://web.dev/lazy-loading-images-in-react/
-
-This tutorial provides a step-by-step guide on how to implement lazy loading images in a React web application. It uses the React Intersection Observer Hook to detect when images are visible on the screen and only loads those that need to be displayed.
-
-3. "Lazy Loading in WordPress": https://www.wpbeginner.com/wp-tutorials/how-to-lazy-load-images-in-wordpress/
-
-This tutorial explains how to implement lazy loading for images in a WordPress website, which can significantly improve page load times and overall site performance. It also discusses the various plugins available for WordPress that can facilitate lazy loading.
-
-4. "How to Lazy Load Videos in WordPress": https://www.wpbeginner.com/plugins/how-to-lazy-load-videos-in-wordpress/
-
-This article discusses how to implement lazy loading for videos in a WordPress website. It walks through the steps to install and configure the WP YouTube Lyte plugin, which can automatically lazy load YouTube videos embedded in your WordPress site.
-
-5. "Improved performance with lazy-loading and multi-part downloads": https://web.dev/adaptive-loading/
-
-This article discusses the concept of adaptive loading, which is a technique for improving user experience by delivering content efficiently based on the user's network conditions and device capabilities. It specifically looks at lazy loading and multi-part downloads as ways to implement adaptive loading and improve website performance.   
+答案：加載較大的ressource時，要確保網頁的載入順序是正確的。優先加載頁面的核心資料和功能，再進行圖片和其他資源的加載和渲染，避免出現網頁空白等問題。可以將頁面下滑一半的位置加載接下來的內容，並顯示加載狀態提示，讓用戶了解當前頁面正在進行資源的加載。   
 

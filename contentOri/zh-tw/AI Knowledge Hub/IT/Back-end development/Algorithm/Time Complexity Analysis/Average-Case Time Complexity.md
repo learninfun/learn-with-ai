@@ -1,9 +1,10 @@
 +++
 title = "平均情況時間複雜度"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Average-Case Time Complexity的問題
+給我5題Average-Case Time Complexity的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "平均情況時間複雜度"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Average-Case Time Complexity並舉例
+以中文說明Average-Case Time Complexity並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Average-case time complexity是對一個算法在平均情況下所需的時間�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Average-Case Time Complexity的重點
+以中文條列Average-Case Time Complexity的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Average-case time complexity是對一個算法在平均情況下所需的時間�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Average-Case Time Complexity的中等難度問題，並在後面列出答案
+以中文給我5題Average-Case Time Complexity的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -69,21 +70,4 @@ Average-case time complexity是對一個算法在平均情況下所需的時間�
 
 5. 在一個n個元素的list中找出第k小的元素的時間複雜度是多少？
 - 答案：O(nlogn)   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Average-Case Time Complexity的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Average Case Time Complexity Analysis Using Probabilistic Methods" by Eric Bach and Jeff Shallit: This paper discusses how to use probabilistic methods to analyze the average-case time complexity of algorithms. It covers the use of Markov chains, expected values, and other techniques to estimate the running time of algorithms in typical scenarios. 
-
-2. "Average-Case Time Complexity Analysis of Sorting Algorithms" by Somenath Biswas and Debajyoti Mukhopadhyay: This paper focuses specifically on the average-case time complexity of sorting algorithms. It provides an overview of various algorithms, including selection sort, insertion sort, quicksort, and mergesort, and analyzes their performance using statistical methods. 
-
-3. "The Average-Case Time Complexity of QuickSort and its Variants" by Olivier Roussel: This paper provides an in-depth analysis of the average-case time complexity of Quicksort, one of the most widely used sorting algorithms. It examines various variations of the algorithm, such as median-of-three and randomized pivot selection, and analyzes their performance using mathematical models. 
-
-4. "Average-Case Time Complexity of Hashing with Chaining" by H. Seif El-Nasr, Y. Khiari, and D. El-Ghandour: This paper focuses on the average-case time complexity of hash tables using chaining, a technique for resolving collisions that occur when multiple keys are mapped to the same location. It provides a detailed analysis of the expected running time of the algorithm using probability theory. 
-
-5. "Average-Case Time Complexity of Dynamic Programming Algorithms" by Benjamin Moseley and Nitish Korula: This paper explores the average-case time complexity of dynamic programming algorithms, a class of algorithms that solve problems by breaking them down into smaller subproblems. It provides an overview of various algorithms, including the knapsack problem and the longest-common-subsequence problem, and analyzes their performance using statistical techniques.   
 

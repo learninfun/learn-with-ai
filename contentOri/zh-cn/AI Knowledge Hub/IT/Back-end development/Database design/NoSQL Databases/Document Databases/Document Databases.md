@@ -1,5 +1,6 @@
 +++
 title = "文档数据库"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -73,35 +74,18 @@ Document Databases是一种NoSQL（Not Only SQL）非关联式资料库，其储
 
 
 
-1. 如何在Document Database中使用條件查詢？
-答案：使用Query或Find方法，傳遞相應的運算符和值來進行查詢。
+1. 如何在Document Database中使用条件查询？
+答案：使用Query或Find方法，传递相应的运算符和值来进行查询。
 
-2. Document Database中的Sharding是什麼？如何將集合切分成片段？
-答案：Sharding是一種分割集合數據以便更有效地存儲和檢索的方法。可以使用數據庫軟件來進行Sharding，還可以通過將數據分成相等大小的片段來實現。
+2. Document Database中的Sharding是什么？如何将集合切分成片段？
+答案：Sharding是一种分割集合数据以便更有效地存储和检索的方法。可以使用数据库软件来进行Sharding，还可以通过将数据分成相等大小的片段来实现。
 
-3. 如何使用Document Database對JSON文件進行CRUD操作？
-答案：可以使用數據庫軟件提供的API，在指定集合中創建、讀取、更新和刪除JSON文檔。
+3. 如何使用Document Database对JSON文件进行CRUD操作？
+答案：可以使用数据库软件提供的API，在指定集合中创建、读取、更新和删除JSON文档。
 
-4. 如果在Document Database中進行高並發查詢，會發生什麼？
-答案：高並發查詢可能會導致性能問題，如CPU和內存壓力增加、鎖競爭等。因此，可以通過使用索引、Sharding和緩存等優化技術來減少這些問題。
+4. 如果在Document Database中进行高并发查询，会发生什么？
+答案：高并发查询可能会导致性能问题，如CPU和内存压力增加、锁竞争等。因此，可以通过使用索引、Sharding和缓存等优化技术来减少这些问题。
 
-5. Document Database如何處理多個版本的JSON文檔？
-答案：Document Database通常使用版本控制系統，例如MVCC（多版本並發控制）來處理多個JSON文檔版本。當更新文檔時，數據庫將在幕後創建一個新版本，並維護與其他版本之間的關係。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Document Databases的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Document Databases" by MongoDB: This whitepaper from one of the leading vendors of document databases provides a comprehensive overview of what document databases are, their advantages, and how they differ from other database types. It also covers use cases for document databases and best practices for designing and modeling data.
-
-2. "NoSQL Document Databases: A Survey" by IEEE: This article examines the state of the art in document databases, providing an in-depth comparison of the different types available, such as JSON and XML, and evaluating their strengths and weaknesses. It also looks at real-world applications of document databases and the requirements they must meet.
-
-3. "Document Databases Explained: A Guide to Non-Relational Databases" by TechTarget: This article explains in plain language what document databases are, what sets them apart from traditional relational databases, and why businesses might choose to use them. It also covers some of the most common use cases for document databases, such as content management and e-commerce.
-
-4. "The Pros and Cons of Using a Document Database" by Altoros blog: This blog post provides a balanced overview of the benefits and drawbacks of using a document database. It covers topics such as scalability, ease of programming, and data consistency and integrity, and includes real-world examples of how document databases have been used successfully.
-
-5. "How (and Why) to Choose a Document Database Over a Relational Database" by EDB: This blog post offers guidance on how to determine if a document database is the right choice for your application, taking into account factors such as data structure, query complexity, and performance requirements. It also offers tips on migrating from a relational database to a document database.   
+5. Document Database如何处理多个版本的JSON文档？
+答案：Document Database通常使用版本控制系统，例如MVCC（多版本并发控制）来处理多个JSON文档版本。当更新文档时，数据库将在幕后创建一个新版本，并维护与其他版本之间的关系。   
 

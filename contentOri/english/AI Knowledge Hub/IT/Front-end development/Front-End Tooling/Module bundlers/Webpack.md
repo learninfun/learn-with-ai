@@ -1,3 +1,7 @@
++++
+title = "Webpack"
+weight = "1"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Webpack
@@ -76,38 +80,4 @@ Answer: Webpack allows you to split your application into multiple chunks or bun
 
 5. What are some common performance optimizations you can make in Webpack?
 Answer: Some common performance optimizations in Webpack include using tree-shaking and code-splitting, minimizing and compressing your code, leveraging caching and lazy-loading, and optimizing your build configuration and dependencies. These optimizations can help improve the speed, size, and efficiency of your application.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Webpack
-{{< /ask_chatgpt >}}
-
-
-
-1. Webpack Official Site Introduction: 
-https://webpack.js.org/concepts/
-
-2. Getting Started with Webpack: 
-https://webpack.js.org/guides/getting-started/
-
-3. Introduction to Webpack: 
-https://medium.com/javascript-training/introduction-to-webpack-what-is-webpack-7c191ecf543e
-
-4. Exploring Webpack 4: 
-https://www.smashingmagazine.com/2018/10/webpack-5-release/
-
-5. Webpack Fundamentals: 
-https://app.pluralsight.com/library/courses/webpack-fundamentals/table-of-contents
-
-6. The Power of Webpack 4 in Front-end Web Development: 
-https://hackernoon.com/the-power-of-webpack-4-in-front-end-web-development-b447c2f9d61e
-
-7. Webpack: An Introduction: 
-https://code.tutsplus.com/tutorials/webpack-an-introduction--cms-27563
-
-8. A Beginner's Guide to Webpack: 
-https://blog.bitsrc.io/a-beginners-guide-to-webpack-262d1e09760e
-
-9. Webpack Tutorial for Beginners: 
-https://www.valentinog.com/blog/webpack/   
 

@@ -1,5 +1,6 @@
 +++
 title = "背包问题"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -55,15 +56,15 @@ f(i, j) = max(f(i-1, j), f(i-1, j-w[i])+v[i])，其中w[i]表示第i个物品的
 
 
 
-1. 定义：Knapsack Problem是一种最佳化问题，其目标是将限制容量的背包装满，同时维持最大总价值。
+1. 定義：Knapsack Problem是一種最佳化問題，其目標是將限制容量的背包裝滿，同時維持最大總價值。
 
-2. 公式：knap(W, wt[], val[], n)表示在容量W下，从n个物品中选出最优组合，其中wt[]和val[]分别代表物品重量和价值。
+2. 公式：knap(W, wt[], val[], n)表示在容量W下，從n個物品中選出最優組合，其中wt[]和val[]分別代表物品重量和價值。
 
-3. 算法：常见解决Knapsack Problem的算法有动态规划、贪心算法、分支定界算法等。
+3. 算法：常見解決Knapsack Problem的算法有動態規劃、貪心算法、分支定界算法等。
 
-4. 特点：Knapsack Problem的特点是NP完全问题，即算法解决困难度高，因此需要使用有效的求解方法。
+4. 特點：Knapsack Problem的特點是NP完全問題，即算法解決困難度高，因此需要使用有效的求解方法。
 
-5. 应用：Knapsack Problem广泛应用于背包选择、投资组合优化、资源分配等领域。   
+5. 應用：Knapsack Problem廣泛應用於背包選擇、投資組合優化、資源分配等領域。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -93,31 +94,4 @@ f(i, j) = max(f(i-1, j), f(i-1, j-w[i])+v[i])，其中w[i]表示第i个物品的
 - 價值的總和最大化
 請問如何選擇物品以滿足以上條件？
 答案：多維背包問題   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Knapsack Problem的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Knapsack Problem" from Brilliant.org: https://brilliant.org/wiki/knapsack-problem/
-
-This article provides a thorough introduction to the knapsack problem, explaining the problem statement and reviewing various algorithms that can be used to solve it.
-
-2. "The Knapsack Problem: A Complete Guide" from Analytics Vidhya: https://www.analyticsvidhya.com/blog/2021/01/the-knapsack-problem-a-complete-guide/
-
-This guide provides an in-depth explanation of the knapsack problem and its variants, as well as a review of the most popular algorithms for solving these problems.
-
-3. "Solving the Knapsack Problem With Genetic Algorithms" from IBM Developer: https://developer.ibm.com/technologies/artificial-intelligence/articles/solving-the-knapsack-problem-with-genetic-algorithms/
-
-This article explains how to use genetic algorithms to solve the knapsack problem, providing a step-by-step guide and sample code.
-
-4. "The Knapsack Problem and Its Variations" from Topcoder: https://www.topcoder.com/thrive/articles/The%20Knapsack%20Problem%20and%20Its%20Variations
-
-This article explains various variations of the knapsack problem, including the multiple knapsack problem, the bounded knapsack problem, and the unbounded knapsack problem.
-
-5. "Solving the Knapsack Problem with Dynamic Programming" from Towards Data Science: https://towardsdatascience.com/solving-the-knapsack-problem-with-dynamic-programming-bca5ef9dc5e9
-
-This article provides a detailed explanation of the dynamic programming approach to solving the knapsack problem, including sample code in Python.   
 

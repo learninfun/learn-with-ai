@@ -1,9 +1,10 @@
 +++
 title = "JavaScript"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Javascript的問題
+給我5題Javascript的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +58,7 @@ if (typeof myVar === 'undefined') {
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Javascript並舉例
+以中文說明Javascript並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -82,7 +83,7 @@ JavaScript是一種前端腳本語言，是網頁互動的核心之一。它可�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Javascript的重點
+以中文條列Javascript的重點
 {{< /ask_chatgpt >}}
 
 
@@ -109,7 +110,7 @@ JavaScript是一種前端腳本語言，是網頁互動的核心之一。它可�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Javascript的中等難度問題，並在後面列出答案
+以中文給我5題Javascript的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -218,26 +219,4 @@ function secondLargest(nums) {
 
 console.log(secondLargest([3, 1, 5, 9, 2, 7])); // 7
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Javascript的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "JavaScript.com" - https://www.javascript.com/
-這是由Stack Overflow推出的官方JavaScript學習資源網站，提供新手介紹、實用語法以及最新的JavaScript開發趨勢。
-
-2. "MDN Web Docs - JavaScript" - https://developer.mozilla.org/en-US/docs/Web/JavaScript
-這是Mozilla基金會提供的JavaScript開發技術文件，包括詳細的語法介紹、範例代碼、應用場景以及最新的API與規範。
-
-3. "JavaScript.info" - https://javascript.info/
-這是一個由俄羅斯Web開發者Ilya Kantor開發的JavaScript學習資源，提供Step by Step的學習路線、詳細的JavaScript內容解說以及免費的電子書下載。
-
-4. "Eloquent JavaScript" - https://eloquentjavascript.net/
-這是一本由Marijn Haverbeke撰寫的JavaScript學習書，內容包含JavaScript的基礎概念、流程控制、函式、物件、陣列等等，同時也提供互動式教學實驗室供學習者練習。
-
-5. "JavaScript Weekly" - https://javascriptweekly.com/
-這是一個免費的每週JavaScript技術資訊彙編，提供最新的前端開發技術、工具、框架與實用資源，也包括最新的JavaScript網路資訊與事件。   
 

@@ -1,6 +1,10 @@
++++
+title = "Cross-Site Request Forgery (CSRF)"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
-give me five question about Cross-site request forgery (CSRF)
+give me five question about Cross-Site Request Forgery (CSRF)
 {{< /ask_chatgpt >}}
 
 
@@ -13,7 +17,7 @@ give me five question about Cross-site request forgery (CSRF)
 
 ## Explain
 {{< ask_chatgpt >}}
-Explain Cross-site request forgery (CSRF) and give an example
+Explain Cross-Site Request Forgery (CSRF) and give an example
 {{< /ask_chatgpt >}}
 
 
@@ -26,7 +30,7 @@ To prevent CSRF attacks, web developers can implement measures such as using tok
 
 ## Keypoint
 {{< ask_chatgpt >}}
-List the key points of Cross-site request forgery (CSRF)
+List the key points of Cross-Site Request Forgery (CSRF)
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +49,7 @@ List the key points of Cross-site request forgery (CSRF)
 
 ## Review
 {{< ask_chatgpt >}}
-Give me 5 medium-difficulty questions with answers about Cross-site request forgery (CSRF)
+Give me 5 medium-difficulty questions with answers about Cross-Site Request Forgery (CSRF)
 {{< /ask_chatgpt >}}
 
 
@@ -64,18 +68,4 @@ Answer: CSRF is an attack that targets a user's web session by forcing the user'
 
 5. What are the consequences of a successful CSRF attack?
 Answer: The consequences of a CSRF attack can range from mild to severe, depending on the type of action that the attacker is able to perform. For example, a successful CSRF attack could result in the theft of sensitive information, the unauthorized transfer of funds, or the spread of malware to other users. These consequences can result in financial loss, reputational damage, and legal liability for the affected website or organization.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Cross-site request forgery (CSRF)
-{{< /ask_chatgpt >}}
-
-
-
-1. OWASP: Cross-Site Request Forgery (CSRF) - www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)
-2. Wikipedia: Cross-site request forgery - en.wikipedia.org/wiki/Cross-site_request_forgery
-3. Symantec: Cross Site Request Forgery (CSRF) - www.symantec.com/security-center/writeup/2008-042400-1721-99
-4. IBM: Introduction to Cross-Site Request Forgery - www.ibm.com/developerworks/web/library/wa-seccsrf/
-5. Microsoft: Preventing Cross-Site Request Forgery (CSRF) Attacks in ASP.NET Core - docs.microsoft.com/en-us/aspnet/core/security/anti-request-forgery?view=aspnetcore-5.0
-6. Imperva: Understanding Cross-Site Request Forgery (CSRF) Attacks - www.imperva.com/learn/application-security/csrf-cross-site-request-forgery/   
 

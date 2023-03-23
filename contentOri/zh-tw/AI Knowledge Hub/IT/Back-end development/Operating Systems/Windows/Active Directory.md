@@ -1,9 +1,10 @@
 +++
 title = "Active Directory"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Active Directory的問題
+給我5題Active Directory的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "Active Directory"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Active Directory並舉例
+以中文說明Active Directory並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Active Directory（AD）是一種由微軟公司開發的目錄服務，旨在�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Active Directory的重點
+以中文條列Active Directory的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,7 +59,7 @@ Active Directory（AD）是一種由微軟公司開發的目錄服務，旨在�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Active Directory的中等難度問題，並在後面列出答案
+以中文給我5題Active Directory的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -94,31 +95,4 @@ b. 右键单击域名称，并选择“新建” -> “用户”
 c. 输入用户名和密码
 d. 确认生成的用户详细信息并单击“下一步”
 e. 选择所需的组，例如“域管理员”和“企业管理员”，并单击“完成”   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Active Directory的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Active Directory: What It Is, How It Works, and Why You Need It": https://www.expedient.com/knowledgebase/blog/active-directory-what-it-is-how-it-works-why-you-need-it/
-
-This article provides an overview of what Active Directory is, how it works, and why organizations need it. It also explains the key components of Active Directory, such as forests, domains, and organizational units.
-
-2. "Understanding Active Directory: Domain Services": https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/active-directory-domain-services
-
-This Microsoft article provides a deep dive into the core services and functions of Active Directory, covering topics such as domain controllers, replication, trust relationships, and group policy. It's a great resource for IT professionals who want to deepen their understanding of Active Directory.
-
-3. "How to Manage Active Directory with PowerShell": https://techgenix.com/active-directory-powershell/
-
-PowerShell is a powerful tool for managing Active Directory, and this article explains how to leverage it for tasks such as managing user accounts, managing groups, and managing permissions. It includes practical examples and tips for using PowerShell effectively.
-
-4. "Active Directory Best Practices": https://www.quest.com/community/quest/microsoft-platform-management/b/identity-management/posts/active-directory-best-practices
-
-This article outlines best practices for managing Active Directory, including how to plan and design your Active Directory environment, how to secure it, and how to monitor and maintain it. It also covers common mistakes to avoid and tips for troubleshooting.
-
-5. "Active Directory Disaster Recovery: Best Practices": https://www.petri.com/active-directory-disaster-recovery-best-practices
-
-Disasters can happen, even to Active Directory environments. This article outlines best practices for backing up and restoring Active Directory, as well as what to do in the event of a disaster. It covers topics such as system state backups, authoritative restores, and disaster recovery testing.   
 

@@ -1,3 +1,7 @@
++++
+title = "Java annotations"
+weight = "8"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Java annotations
@@ -68,26 +72,4 @@ Answer: The @SuppressWarnings annotation is used to instruct the compiler to ign
 
 5. How can you retrieve the annotations present on a Java class at runtime?
 Answer: You can retrieve the annotations present on a Java class at runtime by using the getAnnotations() method, which returns an array of annotations present on the class.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Java annotations
-{{< /ask_chatgpt >}}
-
-
-
-1. Oracle - Annotations in Java
-https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/lang/annotation/package-summary.html
-
-2. Baeldung - Complete Guide to Java Annotations
-https://www.baeldung.com/java-annotations
-
-3. Tutorialspoint - Annotations in Java
-https://www.tutorialspoint.com/java/java_apt.htm
-
-4. GeeksforGeeks - Annotations in Java
-https://www.geeksforgeeks.org/annotations-in-java/
-
-5. developer.com - Introduction to Annotations in Java
-https://www.developer.com/java/other/article.php/3663936/Introduction-to-Annotations-in-Java.htm   
 

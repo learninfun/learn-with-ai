@@ -1,9 +1,10 @@
 +++
 title = "基礎架構即代碼 (IaC)"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Infrastructure as Code (IaC)的問題
+給我5題Infrastructure as Code (IaC)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "基礎架構即代碼 (IaC)"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Infrastructure as Code (IaC)並舉例
+以中文說明Infrastructure as Code (IaC)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ IaC的優點在於：
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Infrastructure as Code (IaC)的重點
+以中文條列Infrastructure as Code (IaC)的重點
 {{< /ask_chatgpt >}}
 
 
@@ -86,7 +87,7 @@ IaC可以幫助IT人員建立和優化流程，從而提高生產力和效率。
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Infrastructure as Code (IaC)的中等難度問題，並在後面列出答案
+以中文給我5題Infrastructure as Code (IaC)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -150,36 +151,4 @@ Resources:
               TransitionInDays: 30
 ```
    
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Infrastructure as Code (IaC)的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Infrastructure as Code: What Is It, and Why Should You Care?" by DigitalOcean 
-Link: https://www.digitalocean.com/community/tutorials/what-is-infrastructure-as-code-and-why-should-you-care 
-
-This article provides a comprehensive definition and explanation of what Infrastructure as Code (IaC) is and why it is important. It covers the benefits of IaC, the principles of IaC, and the tools and technologies that are commonly used in implementing IaC.
-
-2. "Infrastructure as Code: A Beginner's Guide" by Hashicorp 
-Link: https://www.hashicorp.com/resources/what-is-infrastructure-as-code 
-
-This blog post provides a beginner's guide to Infrastructure as Code (IaC). It explains what IaC is, how it works, and the benefits it can provide. It also covers some of the most popular tools and technologies used in IaC, as well as best practices and common use cases.
-
-3. "Infrastructure as Code: An Introduction" by Red Hat 
-Link: https://www.redhat.com/en/topics/automation/what-is-infrastructure-as-code 
-
-This article from Red Hat provides a comprehensive introduction to Infrastructure as Code (IaC). It covers the basics of IaC, including its definition, how it works, and the benefits it can provide. It also explores some of the most popular IaC tools and technologies, as well as how IaC can be used in cloud-native environments.
-
-4. "The Beginner's Guide to Infrastructure as Code" by AWS 
-Link: https://aws.amazon.com/getting-started/hands-on/getting-started-infrastructure-as-code/ 
-
-This guide from AWS provides a step-by-step introduction to Infrastructure as Code (IaC). It covers the basics of IaC, including its definition, benefits, and principles. It also provides a hands-on tutorial that demonstrates how to use AWS CloudFormation to create and manage infrastructure as code.
-
-5. "Getting Started with Infrastructure as Code" by Microsoft Azure 
-Link: https://docs.microsoft.com/en-us/azure/developer/terraform/getting-started-infrastructure-as-code 
-
-This guide from Microsoft Azure provides a comprehensive introduction to Infrastructure as Code (IaC) using Terraform. It covers the basics of IaC, best practices, and the benefits of using Terraform for IaC. It also provides a hands-on tutorial that demonstrates how to create an infrastructure environment using Terraform.   
 

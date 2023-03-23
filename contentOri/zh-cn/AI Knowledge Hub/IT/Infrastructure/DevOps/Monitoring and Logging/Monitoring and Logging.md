@@ -1,5 +1,6 @@
 +++
 title = "监控和日志记录"
+weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "监控和日志记录"
 
 
 
-1. 什麼是監控（monitoring）？在系統維護中的作用是什麼？
-2. 為什麼日誌（logging）是關鍵的系統維護工具？日誌能提供哪些信息？
-3. 如何在AWS（Amazon Web Services）中建立一個完整的監控和日誌系統？有哪些可以使用的服務？
-4. 若是要進行故障排除，哪些監控和日誌工具可以幫助我們找到問題的源頭？
-5. 如何保護監控和日誌資料的敏感性？有哪些保護方法和措施？   
+1. 什么是监控（monitoring）？在系统维护中的作用是什么？
+2. 为什么日志（logging）是关键的系统维护工具？日志能提供哪些信息？
+3. 如何在AWS（Amazon Web Services）中建立一个完整的监控和日志系统？有哪些可以使用的服务？
+4. 若是要进行故障排除，哪些监控和日志工具可以帮助我们找到问题的源头？
+5. 如何保护监控和日志资料的敏感性？有哪些保护方法和措施？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,17 +22,17 @@ title = "监控和日志记录"
 
 
 
-Monitoring和Logging是系統管理的相關項目，用於監控和記錄應用程式或系統運行的狀態和數據。 
+Monitoring和Logging是系统管理的相关项目，用于监控和记录应用程式或系统运行的状态和数据。 
 
-Monitoring （監控）是持續監視系統或應用程式的運行狀態，以確保它們在生產環境中持續運行和提供符合預期的性能。透過設置警報和通知，監控可以用來批判性地識別故障，以及即時響應事件以保證服務的可用性。
+Monitoring （监控）是持续监视系统或应用程式的运行状态，以确保它们在生产环境中持续运行和提供符合预期的性能。透过设置警报和通知，监控可以用来批判性地识别故障，以及即时响应事件以保证服务的可用性。
 
-舉例來說，Web應用程式可以進行監控，以確保其在高流量時沒有崩潰。系統管理員可以實時監看CPU、記憶體和網路使用率，也可以監測多個伺服器上的訪問數據，並設置警報以在發生故障時及時通知相關人員。
+举例来说，Web应用程式可以进行监控，以确保其在高流量时没有崩溃。系统管理员可以实时监看CPU、记忆体和网路使用率，也可以监测多个伺服器上的访问数据，并设置警报以在发生故障时及时通知相关人员。
 
-Logging （記錄）是記錄應用程式或系統的活動詳情，可以用於後續排除錯誤和維護。記錄可以捕獲有意義的事件和資訊，如使用者行為、API請求、鏈接和代碼錯誤。在這些記錄中，還可以存儲與每個事件相關的細節，如數據、時間和敘述。
+Logging （记录）是记录应用程式或系统的活动详情，可以用于后续排除错误和维护。记录可以捕获有意义的事件和资讯，如使用者行为、API请求、链接和代码错误。在这些记录中，还可以存储与每个事件相关的细节，如数据、时间和叙述。
 
-舉例來說，Web應用程式可以記錄所有訪問數據、頁面加載時間，以及使用者資訊等等。系統管理員可以檢查這些紀錄以分析出應用程式遇到的故障或優化應用程式效能。
+举例来说，Web应用程式可以记录所有访问数据、页面加载时间，以及使用者资讯等等。系统管理员可以检查这些纪录以分析出应用程式遇到的故障或优化应用程式效能。
 
-總而言之，監控和日誌記錄是主要的系統管理工具，可幫助管理員更好地運行和維護系統，以確保其在生產環境中提供穩定和可靠的性能。   
+总而言之，监控和日志记录是主要的系统管理工具，可帮助管理员更好地运行和维护系统，以确保其在生产环境中提供稳定和可靠的性能。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -86,31 +87,4 @@ Logging （記錄）是記錄應用程式或系統的活動詳情，可以用於
 5. 请说明何谓模式（pattern）在Logging中的作用。
 
 答案：模式在Logging中用于指定文字的格式和内容，可以非常清晰地说明讯息，引导开发者快速解决问题。例如，它可能包括打印日期、时间、事件优先级、动作、最终修改人员等资讯。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Monitoring and Logging的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Monitoring and Logging" by Datadog: https://www.datadoghq.com/blog/introduction-to-monitoring-and-logging/
-
-This article provides an overview of the concepts behind monitoring and logging, and why they are important for IT operations. It covers the differences between the two, common tools that are used for both, and best practices for effective monitoring and logging.
-
-2. "Monitor and log Kubernetes clusters with Prometheus and Grafana" by IBM Developer: https://developer.ibm.com/technologies/containers/articles/monitor-and-log-kubernetes-clusters-with-prometheus-and-grafana/
-
-This guide explores monitoring and logging in Kubernetes, a popular container orchestration system. The article introduces Prometheus and Grafana, tools that are used for monitoring and visualizing metrics, and explains how to set them up in a Kubernetes environment.
-
-3. "What is Log Management? How It Works, Best Practices, and More" by Loggly: https://www.loggly.com/ultimate-guide/what-is-log-management/
-
-Loggly's Ultimate Guide to Log Management provides a comprehensive explanation of logging and its importance in IT operations. It covers common uses of logs, how to collect and store them, and best practices for analyzing and acting on log data.
-
-4. "10 best practices for effective logging" by Dynatrace: https://www.dynatrace.com/news/blog/10-best-practices-for-effective-logging/
-
-This article outlines ten best practices for logging in IT operations. It covers topics such as log formatting, filtering, and retention, and provides tips for troubleshooting and debugging with log data.
-
-5. "Monitoring and Logging Best Practices for AWS" by AWS: https://aws.amazon.com/blogs/architecture/monitoring-and-logging-best-practices-for-aws-workloads/
-
-This blog post from AWS provides guidance on monitoring and logging in the context of cloud-based workloads. It covers strategies for collecting and analyzing metrics and logs in AWS, and offers recommendations for tools and services that can help.   
 

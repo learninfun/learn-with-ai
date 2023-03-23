@@ -1,9 +1,10 @@
 +++
 title = "Java物件導向"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Java OO的問題
+給我5題Java OO的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "Java物件導向"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Java OO並舉例
+以中文說明Java OO並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -83,7 +84,7 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Java OO的重點
+以中文條列Java OO的重點
 {{< /ask_chatgpt >}}
 
 
@@ -114,7 +115,7 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Java OO的中等難度問題，並在後面列出答案
+以中文給我5題Java OO的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -430,36 +431,4 @@ public class Circle extends Geometry {
   }
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Java OO的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Java OOP Tutorial: Object-Oriented Programming For Beginners
-https://www.journaldev.com/1663/java-oops-concepts-with-examples
-
-This tutorial by JournalDev covers the fundamentals of Object-Oriented Programming (OOP) in Java, including encapsulation, inheritance, and polymorphism. It includes code snippets and examples to aid in understanding.
-
-2. Java OOP Concepts Explained: Inheritance
-https://stackify.com/oop-concepts-inheritance/
-
-This article by Stackify delves deeper into inheritance, one of the key concepts in Java OOP. It discusses different types of inheritance and gives examples of each in use. 
-
-3. Java OOP Concepts Explained: Polymorphism
-https://stackify.com/oop-concepts-polymorphism/
-
-This is another article by Stackify that covers polymorphism in Java OOP. It explains what polymorphism is and how it can be used to make code more efficient and organized. 
-
-4. Java OOP Concepts Explained: Abstraction
-https://stackify.com/oop-concepts-abstraction/
-
-Abstraction is a complex but important concept in Java OOP. This article by Stackify breaks down what it is and how it works. It includes examples to help readers understand how to implement abstraction in code. 
-
-5. Java Object-Oriented Programming: Understanding Classes
-https://www.c-sharpcorner.com/article/java-object-oriented-programming-understanding-classes/
-
-This tutorial by C# Corner explains how to create classes in Java, including details on constructors and access modifiers. Additionally, it explains how to utilize these classes within other Java projects.   
 

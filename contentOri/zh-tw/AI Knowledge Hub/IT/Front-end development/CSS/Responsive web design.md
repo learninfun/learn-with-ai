@@ -1,9 +1,10 @@
 +++
 title = "響應式網頁設計"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Responsive web design的問題
+給我5題Responsive web design的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "響應式網頁設計"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Responsive web design並舉例
+以中文說明Responsive web design並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -27,7 +28,7 @@ Responsive web design是一種設計網頁的方法，可以讓網頁在不同�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Responsive web design的重點
+以中文條列Responsive web design的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +55,7 @@ Responsive web design是一種設計網頁的方法，可以讓網頁在不同�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Responsive web design的中等難度問題，並在後面列出答案
+以中文給我5題Responsive web design的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -139,31 +140,4 @@ Responsive web design是一種設計網頁的方法，可以讓網頁在不同�
      sizes="(max-width: 480px) 440px, (max-width: 768px) 728px, 960px">
      
 這段代碼會在裝置寬度小於 480px 的情況下顯示 image-small.jpg，在 480-768px 之間的裝置上顯示 image-medium.jpg，在寬度大於 768px 的情況下顯示 image-large.jpg。sizes 屬性指定圖片在不同裝置大小下的顯示尺寸。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Responsive web design的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is Responsive Web Design?" - https://www.smashingmagazine.com/2011/01/guidelines-for-responsive-web-design/
-
-This article from Smashing Magazine provides a thorough overview of the concept of responsive web design, including its definition, benefits for users and businesses, and key design principles to follow.
-
-2. "A Beginner's Guide to Responsive Web Design" - https://www.webdesignerdepot.com/2015/11/a-beginners-guide-to-responsive-web-design/
-
-This guide from Web Designer Depot offers a great introduction to responsive web design, with insights into the history of the technique, common design patterns, and implementation tips.
-
-3. "The Basics of Responsive Web Design" - https://www.uxpin.com/studio/blog/the-basics-of-responsive-web-design/
-
-This blog post from UXPin offers an in-depth analysis of responsive web design fundamentals, including grid systems, media queries, and flexible images.
-
-4. "The Importance of Responsive Web Design" - https://www.forbes.com/sites/steveolenski/2014/04/15/the-importance-of-responsive-web-design/#6a710ae553a0
-
-This Forbes article emphasizes the importance of responsive web design for businesses, discussing its impact on user experience, website traffic, and search engine optimization.
-
-5. "Responsive Web Design Best Practices" - https://www.shopify.com/partners/blog/responsive-web-design
-
-This post from the Shopify blog shares best practices for creating responsive designs, touching on topics such as mobile-first design, accessibility considerations, and performance optimization.   
 

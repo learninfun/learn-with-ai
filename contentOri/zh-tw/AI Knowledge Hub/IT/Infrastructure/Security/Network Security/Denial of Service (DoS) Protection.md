@@ -1,9 +1,10 @@
 +++
 title = "防止服務拒絕攻擊（DoS）"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Denial of Service (DoS) Protection的問題
+給我5題Denial of Service (DoS) Protection的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "防止服務拒絕攻擊（DoS）"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Denial of Service (DoS) Protection並舉例
+以中文說明Denial of Service (DoS) Protection並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -33,7 +34,7 @@ DoS攻擊有很多種，包括TCP SYN flood攻擊、UDP flood攻擊、ICMP echo 
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Denial of Service (DoS) Protection的重點
+以中文條列Denial of Service (DoS) Protection的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ DoS攻擊有很多種，包括TCP SYN flood攻擊、UDP flood攻擊、ICMP echo 
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Denial of Service (DoS) Protection的中等難度問題，並在後面列出答案
+以中文給我5題Denial of Service (DoS) Protection的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -69,26 +70,4 @@ DoS攻擊有很多種，包括TCP SYN flood攻擊、UDP flood攻擊、ICMP echo 
 
 5. 如何運用黑白名單來保護網站免受DoS攻擊？
 答案：黑白名單可以作為防禦DoS攻擊的一種有效手段，通過列出白名單和黑名單，可以控制訪問網站的使用者及其範圍。你可以利用排除攻擊流量的黑名單程序、要求驗證被認證的IP並在白名單上加入特定的IP地址。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Denial of Service (DoS) Protection的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is Denial of Service (DoS) Protection?" - https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/denial-of-service-protection/
-This blog post by cloud security provider Cloudflare explains the basics of DoS protection and how it works. It also covers mitigation techniques and why DoS attacks are a common threat to websites.
-
-2. "5 Best DDoS Protection Services of 2021" - https://www.guru99.com/ddos-protection-services.html
-This article from Guru99 provides a list of recommended DDoS protection services, along with their features and pricing. It also covers the importance of protecting against DDoS attacks and some common types of attacks.
-
-3. "How to Prevent DDoS Attacks and Harden Your Defenses" - https://www.cisco.com/c/en/us/products/security/prevent-ddos-attacks.html
-This resource from Cisco provides an overview of how DDoS attacks work, along with techniques for prevention and mitigation. It covers both network and application-layer attacks and includes tips for hardening your defenses against future attacks.
-
-4. "The Top 10 DoS Attack Methods and How to Stop Them" - https://www.imperva.com/learn/application-security/denial-of-service/
-This blog post from Imperva examines the top 10 methods used in DoS attacks, along with steps you can take to prevent them. It covers both network-layer and application-layer attacks and includes real-world examples of each type.
-
-5. "How Cloudflare Protects Against DDoS Attacks" - https://www.cloudflare.com/learning/ddos/how-cloudflare-protects-against-ddos-attacks/
-Another resource from Cloudflare, this article dives deeper into their DDoS protection techniques and how they work in real-time. It covers everything from advanced threat detection to traffic filtering and load balancing.   
 

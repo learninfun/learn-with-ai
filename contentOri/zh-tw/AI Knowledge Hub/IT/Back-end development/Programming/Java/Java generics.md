@@ -1,9 +1,10 @@
 +++
 title = "Java泛型"
+weight = "9"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Java generics的問題
+給我5題Java generics的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "Java泛型"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Java generics並舉例
+以中文說明Java generics並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +57,7 @@ public static <T extends Comparable<T>> T max(T[] arr) {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Java generics的重點
+以中文條列Java generics的重點
 {{< /ask_chatgpt >}}
 
 
@@ -83,7 +84,7 @@ public static <T extends Comparable<T>> T max(T[] arr) {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Java generics的中等難度問題，並在後面列出答案
+以中文給我5題Java generics的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -216,36 +217,4 @@ public static <T> Map<String, Integer> createMapFromPairs(List<Pair<String, Inte
     return result;
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Java generics的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Java Generics Tutorial
-https://www.baeldung.com/java-generics
-
-這篇教學網站提供了完整的Java generics教學，介紹了generics的概念、類型參數、泛型類、泛型方法、通配符擴展、限制訪問、型別擦除等。此外，還提供了程式碼範例供參考。
-
-2. Java Generics – TutorialsPoint
-https://www.tutorialspoint.com/java/java_generics.htm
-
-這篇教學網站在短短的幾頁中，簡潔地介紹了Java generics的基本概念、泛型方法、泛型類、通配符擴展、限制訪問等。此外，網站還提供了線上程式執行器，讓讀者可以方便地在瀏覽器中測試範例程式碼。
-
-3. Java Generics – Oracle Documentation
-https://docs.oracle.com/javase/tutorial/java/generics/
-
-這篇Oracle官方文件介紹了Java的generics，包括泛型概念、泛型方法、泛型類、通配符擴展、限制訪問等。此外，還提供了豐富的範例程式碼，方便讀者理解。
-
-4. Understanding Java Generics – DZone
-https://dzone.com/articles/understanding-java-generics
-
-這篇文章介紹了Java generics的基礎概念和常見用法。文章尤其關注泛型類和泛型方法，提供了大量的範例程式碼來解釋怎麼使用Java generics來編寫更靈活、可重用的程式碼。
-
-5. The Beginner’s Guide to Generics in Java – Medium
-https://medium.com/@hodooly/the-beginners-guide-to-generics-in-java-232ffc84b3d3
-
-這篇Medium網誌介紹了Java generics的基本概念，包括泛型類、泛型方法和通用型別，並提供了簡潔的範例程式碼，有助於讀者理解泛型的使用方法和優勢。   
 

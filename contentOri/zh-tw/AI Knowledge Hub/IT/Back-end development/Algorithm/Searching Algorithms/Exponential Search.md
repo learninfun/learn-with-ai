@@ -1,9 +1,10 @@
 +++
 title = "指數搜尋"
+weight = "4"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Exponential Search的問題
+給我5題Exponential Search的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "指數搜尋"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Exponential Search並舉例
+以中文說明Exponential Search並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ Exponential Search算法的時間複雜度為O(log n)，其中n表示數組中�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Exponential Search的重點
+以中文條列Exponential Search的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Exponential Search算法的時間複雜度為O(log n)，其中n表示數組中�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Exponential Search的中等難度問題，並在後面列出答案
+以中文給我5題Exponential Search的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -92,30 +93,4 @@ Exponential Search算法的時間複雜度為O(log n)，其中n表示數組中�
 5. 已知一個旋轉後的有序整數陣列，使用指數搜尋找到目標值的位置。請問當陣列大小為n時，最多需要幾次比較？
 
 答案：最多需要log2(n)次比較。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Exponential Search的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Exponential Search Algorithm in C++, Java, Python
-https://www.programiz.com/dsa/exponential-search
-
-
-2. Exponential Search - GeeksforGeeks
-https://www.geeksforgeeks.org/exponential-search/
-
-
-3. Exponential Search Algorithm - Tutorialspoint
-https://www.tutorialspoint.com/Exponential-Search-Algorithm
-
-
-4. Exponential search - Wikipedia
-https://en.wikipedia.org/wiki/Exponential_search
-
-
-5. Exponential Search Algorithm in Data Structure - Javatpoint
-https://www.javatpoint.com/exponential-search-algorithm-in-data-structure   
 

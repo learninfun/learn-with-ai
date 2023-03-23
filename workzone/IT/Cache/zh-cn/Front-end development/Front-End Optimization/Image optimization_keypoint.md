@@ -1,12 +1,12 @@
 
 
-1. Compress images to reduce file size without compromising quality
-2. Choose the appropriate file format (JPEG, PNG, GIF) based on the type of image and its intended use
-3. Use descriptive filenames and alt tags to help search engines and visually impaired users understand the content of the image
-4. Leverage responsive design to serve appropriately sized images based on the device and screen size
-5. Use a content delivery network (CDN) to speed up image loading times
-6. Minimize the number of images on a page to reduce HTTP requests
-7. Avoid using large background images or images as text, as they may slow down the website and affect its accessibility
-8. Use lazy loading to defer the loading of non-critical images until the user scrolls to them 
-9. Consider using vector graphics when appropriate to ensure crisp images at any size
-10. Regularly audit and optimize image sizes to ensure optimal website performance.
+1. 提高图片质量和分辨率。
+2. 选择正确的文件格式，如JPEG、PNG、GIF等。
+3. 压缩图片大小，以达到快速加载的目的。
+4. 压缩图片时不要过度压缩，以避免影响图片质量。
+5. 使用CDN技术进行图片缓存，加快图片加载速度。
+6. 监控网站图片的加载速度，保证用户体验。
+7. 优化图片alt标签和描述，以提高SEO效果。
+8. 减少使用图片的数量，使用CSS样式来代替一些简单的图片。
+9. 对于需要展示较多图片的页面，采用懒加载技术来提高用户体验。
+10. 针对移动设备，采用响应式设计来适配不同的设备屏幕大小。

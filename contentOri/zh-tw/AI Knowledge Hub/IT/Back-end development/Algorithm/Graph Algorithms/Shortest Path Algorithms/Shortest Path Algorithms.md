@@ -1,26 +1,27 @@
 +++
 title = "最短路徑演算法"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Shortest Path Algorithms的問題
+給我5題Shortest Path Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. What is Dijkstra's algorithm and how is it used to find the shortest path between two vertices in a graph?
+1. 什麼是Shortest Path Algorithms？該算法如何找到兩點之間的最短路徑？
 
-2. What is Bellman-Ford algorithm and how does it differ from Dijkstra's algorithm in finding the shortest path in a negative weighted graph?
+2. Dijkstra's Algorithm 與 Bellman-Ford Algorithm 的不同點是什麼？它們如何在實際應用中使用？
 
-3. What is Floyd-Warshall algorithm for finding the shortest path in a weighted graph, and how does it decide between multiple paths of the same shortest length?
+3. A* Algorithm 對於搜尋詳細的路徑規劃與運輸系統有何優勢？它是如何運作的？
 
-4. What is Johnson's algorithm for solving the shortest path problem, and how is it useful in graphs with negative edge weights?
+4. Floyd-Warshall Algorithm 可以處理帶有負權重的圖，但是可能會造成什麼問題？有什麼解決辦法？
 
-5. How does A* algorithm work, and what is its advantage over other shortest path algorithms in finding the shortest path between two vertices in a weighted graph?   
+5. 在使用Shortest Path Algorithms時，如何評估圖的複雜度？您如何選擇最佳的算法來解決問題？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Shortest Path Algorithms並舉例
+以中文說明Shortest Path Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -65,7 +66,7 @@ INF INF 5 0
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Shortest Path Algorithms的重點
+以中文條列Shortest Path Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
@@ -79,7 +80,7 @@ INF INF 5 0
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Shortest Path Algorithms的中等難度問題，並在後面列出答案
+以中文給我5題Shortest Path Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -103,36 +104,4 @@ INF INF 5 0
 5. 當有負權邊存在於一個圖中，Bellman-Ford算法還能夠確定最短路徑嗎？
 
 答案：是的，Bellman-Ford算法依然能夠確定最短路徑，但需要增加一個檢測負權環的步驟，以避免出現無限循環。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Shortest Path Algorithms的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Dijkstra's Algorithm: 
-Dijkstra's algorithm is a classic shortest path algorithm that can be used to find the shortest path between two nodes in a graph. It works by initially assigning a "tentative distance" to each node, which is then updated based on the smallest distance found so far. This process continues until the shortest path to the destination node is found. 
-
-Source: https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-2. Bellman-Ford Algorithm: 
-The Bellman-Ford algorithm is another classic shortest path algorithm that can be used to find the shortest path between two nodes in a graph. Unlike Dijkstra's algorithm, the Bellman-Ford algorithm can handle graphs with negative edge weights. It works by iteratively relaxing the edges in the graph until the shortest path to the destination node is found.
-
-Source: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
-
-3. Floyd-Warshall Algorithm: 
-The Floyd-Warshall algorithm is a dynamic programming algorithm that can be used to find the shortest path between all pairs of nodes in a weighted graph. It works by maintaining a matrix of the shortest distances between each pair of nodes, and updating this matrix iteratively until all pairs of nodes have been considered. 
-
-Source: https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
-
-4. A* Search Algorithm: 
-The A* search algorithm is a heuristic search algorithm that can be used to find the shortest path between two points in a graph. It works by assigning a "cost" to each node based on its distance from the starting node and its estimated distance to the destination node. This allows the algorithm to prioritize nodes that are more likely to lead to the shortest path. 
-
-Source: https://www.geeksforgeeks.org/a-search-algorithm/
-
-5. Johnson's Algorithm: 
-Johnson's algorithm is a graph algorithm that can be used to find the shortest path between all pairs of nodes in a weighted graph. It works by first reweighting the edges in the graph using a technique called Bellman-Ford's algorithm, and then applying Dijkstra's algorithm to each node in the graph. 
-
-Source: https://www.geeksforgeeks.org/johnsons-algorithm/   
 

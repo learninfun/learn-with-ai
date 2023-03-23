@@ -1,3 +1,7 @@
++++
+title = "Bridge Pattern"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Bridge Pattern
@@ -73,26 +77,4 @@ Answer: The Bridge Pattern can be used in scenarios where you need to support mu
 
 5. What are the benefits of using the Bridge Pattern?
 Answer: The benefits of using the Bridge Pattern include increased flexibility, maintainability, and testability, reduced coupling between components, and improved code organization and readability.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Bridge Pattern
-{{< /ask_chatgpt >}}
-
-
-
-1. "Bridge Pattern" on GeeksforGeeks:
-https://www.geeksforgeeks.org/bridge-design-pattern/
-
-2. "Bridge Design Pattern" on TutorialsTeacher:
-https://www.tutorialsteacher.com/design-patterns/bridge-pattern
-
-3. "Bridge Pattern" on Sourcemaking:
-https://sourcemaking.com/design_patterns/bridge
-
-4. "The Bridge Pattern" on DZone:
-https://dzone.com/articles/the-bridge-pattern
-
-5. "Bridge Design Pattern: How to Design a Toolset Like jQuery" on Toptal:
-https://www.toptal.com/design-patterns/bridge-design-pattern   
 

@@ -1,5 +1,6 @@
 +++
 title = "链表"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -116,7 +117,7 @@ class LinkedList {
 5. Linked List Cycle II
 
 1. Reverse Linked List II:
-题目描述： 反转从位置 m 到 n 的链表。请使用一趟扫描完成反转。
+题目描述： 反转从位置 m 到 n 的链表。请使用一趟扫瞄完成反转。
 示例: 
 输入: 1->2->3->4->5->NULL, m = 2, n = 4
 输出: 1->4->3->2->5->NULL
@@ -156,45 +157,4 @@ class LinkedList {
 输入：head = [3,2,0,-4], pos = 1
 输出：tail connects to node index 1
 答案链接： https://leetcode.com/problems/linked-list-cycle-ii/   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Linked List的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks: Linked List in Data Structure
-
-這篇文章是由GeeksforGeeks網站撰寫的，闡述了什麼是Linked List、它的優點和缺點、Linked List的類型以及如何實現Linked List的操作（如插入、刪除、查詢等）。
-
-https://www.geeksforgeeks.org/data-structures/linked-list/
-
-
-2. TutorialsPoint: Linked Lists
-
-這是一個針對Linked List的教學網站，展示了如何建立Linked List、如何對其進行操作、如何遍歷以及如何在Linked List中插入或者刪除條目。
-
-https://www.tutorialspoint.com/data_structures_algorithms/linked_list_algorithms.htm
-
-
-3. JavaPoint: Linked List in Java
-
-這篇文章講解了Java中Linked List的實現方式和運作原理、如何建立一個Linked List、對於特定節點的操作以及如何反轉Linked List。
-
-https://www.javatpoint.com/java-linked-list
-
-
-4. Programiz: Singly Linked List in Python
-
-這篇文章是一個Python編程網站，它介紹了如何用Python實現單向的Linked List、如何插入、刪除和查詢節點、單向Linked List和雙向Linked List的區別以及如何進行反轉。
-
-https://www.programiz.com/dsa/linked-list
-
-
-5. StackAbuse: Implementing a Linked List in JavaScript 
-
-這篇文章是由StackAbuse網站撰寫的，介紹了如何使用JavaScript配置Linked List、如何在Linked List中添加或刪除項目。在最後，它還演示了如何編寫測試，以驗證我們在Linked List上所做的更改。
-
-https://stackabuse.com/implementing-a-linked-list-in-javascript/   
 

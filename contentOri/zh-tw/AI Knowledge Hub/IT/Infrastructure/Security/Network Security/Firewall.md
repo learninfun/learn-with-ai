@@ -1,9 +1,10 @@
 +++
 title = "防火牆"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Firewall的問題
+給我5題Firewall的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "防火牆"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Firewall並舉例
+以中文說明Firewall並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +46,7 @@ Check Point是一家網路安全解決方案供應商，提供多種防火牆產
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Firewall的重點
+以中文條列Firewall的重點
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +69,7 @@ Check Point是一家網路安全解決方案供應商，提供多種防火牆產
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Firewall的中等難度問題，並在後面列出答案
+以中文給我5題Firewall的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -92,21 +93,4 @@ Check Point是一家網路安全解決方案供應商，提供多種防火牆產
 5. 什麼是入侵检测系统（IDS）和入侵防御系统（IPS）？二者之间有何不同？
 
 答案：IDS是系统或网络安全设备，可以检测和报告网络中的潜在威胁，IPS是防火墙或网络设备，可以检测并阻止这些威胁。主要的区别在于IPS提供了更积极的保护，因为它不仅检测，还可以采取措施阻止或限制攻击，而IDS只是发出警报或报告。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Firewall的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "What is a Firewall? How Firewalls Work in Network Security": This article on the website of the software company Cisco gives an overview of what firewalls are and how they work to protect a network.
-
-2. "Types of Firewalls and Their Uses": This article on the website of cybersecurity company Norton explains the differences between the main types of firewalls, including network firewalls, host-based firewalls, and application firewalls.
-
-3. "How to Choose the Right Firewall for Your Business": This article on the website of business technology publication The Enterprisers Project provides guidance on selecting the right firewall for a company's needs and budget.
-
-4. "The Top 10 Firewall Features You Should Be Using": This article on the website of security software company Fortinet highlights the most important features to look for in a firewall to maximize its effectiveness in protecting a network.
-
-5. "5 Common Firewall Configuration Mistakes to Avoid": This article on the website of IT news and analysis site TechTarget identifies common misconfigurations that can render a firewall less effective, and provides tips for avoiding them.   
 

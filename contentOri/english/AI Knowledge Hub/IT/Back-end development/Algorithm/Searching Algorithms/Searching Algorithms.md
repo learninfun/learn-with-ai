@@ -1,3 +1,7 @@
++++
+title = "Searching Algorithms"
+weight = "5"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Searching Algorithms
@@ -68,33 +72,4 @@ Answer: When the data is not sorted
 
 5) What is a hash table and how is it used in searching algorithms? 
 Answer: A hash table is a data structure that maps keys to values using a hash function. It is used in search algorithms to achieve constant time lookup of values.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Searching Algorithms
-{{< /ask_chatgpt >}}
-
-
-
-As an AI language model, I don't have access to the current pages on the internet. But I can list some general web pages which give an introduction to Searching algorithms, where you can learn more about this topic.
-
-1. GeeksforGeeks.org's Searching Algorithms page
-
-2. TutorialsPoint.com's Searching Algorithms page 
-
-3. Khan Academy's Searching Algorithms page 
-
-4. Programiz.com's Searching Algorithms page 
-
-5. Brilliant.org's Introduction to Searching Algorithms 
-
-6. Edureka.co's Introduction to Searching Algorithms 
-
-7. Tutorialspoint.com's Types of Searching Algorithms 
-
-8. Stackabuse.com's A Simple Introduction to Searching Algorithms 
-
-9. Codecademy's Searching Algorithms 
-
-10. Coursera.org's Searching Algorithms and Data Structures.   
 

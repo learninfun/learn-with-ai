@@ -1,5 +1,6 @@
 +++
 title = "最短路径"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,15 +9,15 @@ title = "最短路径"
 
 
 
-1. 在一個有向圖中，如何找出從起點到終點的最短路徑？
+1. 在一个有向图中，如何找出从起点到终点的最短路径？
 
-2. 在一個帶權無向圖中，如何找到兩個點之間的最短路徑？
+2. 在一个带权无向图中，如何找到两个点之间的最短路径？
 
-3. 如何使用Dijkstra算法找到一個有向圖中所有節點到終點的最短路徑？
+3. 如何使用Dijkstra算法找到一个有向图中所有节点到终点的最短路径？
 
-4. 如何使用Bellman-Ford算法找到一個有負權值邊的帶權有向圖中的最短路徑？
+4. 如何使用Bellman-Ford算法找到一个有负权值边的带权有向图中的最短路径？
 
-5. 如何使用Floyd-Warshall算法找到一個帶權無向圖中所有節點之間的最短路徑？   
+5. 如何使用Floyd-Warshall算法找到一个带权无向图中所有节点之间的最短路径？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -77,36 +78,4 @@ title = "最短路径"
 
 5. 給定一張連通有向帶權圖G(V,E)，請設計一個演算法以找出所有最小生成樹。假設權值為正數。
 答案：最小生成樹問題，如Kruskal或Prim。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Shortest Paths的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. "Dijkstra's Algorithm for Shortest Paths"
-Link: https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
-
-This article explains Dijkstra's algorithm for finding the shortest path in a graph. It includes a step-by-step explanation of the algorithm, its time complexity and its applications.
-
-2. "Bellman-Ford Algorithm for Shortest Paths"
-Link: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
-
-This article describes the Bellman-Ford algorithm for finding the shortest path in a graph. It includes a description of the algorithm, its time complexity, and its limitations.
-
-3. "Floyd-Warshall Algorithm for Shortest Paths"
-Link: https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
-
-This article explains the Floyd-Warshall algorithm for finding the shortest path in a graph. It includes a description of the algorithm, its time complexity, and its applications.
-
-4. "Shortest Paths with Dijkstra's Algorithm: A Beginner's Guide"
-Link: https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/
-
-This article provides a beginner's guide to Dijkstra's algorithm for finding the shortest path in a graph. It includes a visual explanation of the algorithm and an example implementation.
-
-5. "Shortest Path Algorithms: A Comprehensive Guide"
-Link: https://towardsdatascience.com/shortest-path-algorithms-a-comprehensive-guide-52cc8c5525ba
-
-This article provides a comprehensive guide to various shortest path algorithms, including Dijkstra's, Bellman-Ford, and Floyd-Warshall algorithms. It includes a description of each algorithm, its time complexity, and its applications.   
 

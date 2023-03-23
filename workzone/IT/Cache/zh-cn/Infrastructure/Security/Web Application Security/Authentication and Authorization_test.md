@@ -1,16 +1,21 @@
 
 
-1. What is the difference between authentication and authorization?
-Answer: Authentication is the process of verifying the identity of a user, while authorization is the process of granting or denying access to specific resources or actions based on the user's identity and permissions.
+1. 什么是身份验证（Authentication）和授权（Authorization）的主要区别？
 
-2. What are some common authentication methods?
-Answer: Some common authentication methods include passwords, biometric authentication (such as fingerprint or facial recognition), and two-factor authentication (which requires a second form of verification, such as a code sent via text message).
+答案：身份验证是确定用户身份的过程，而授权是确定用户能够访问哪些操作或资源的过程。
 
-3. What is a "session cookie" in the context of web authentication?
-Answer: A session cookie is a small piece of data that a web server sends to a user's browser to identify and authenticate the user during their session on the website. The cookie is typically deleted when the user closes their browser.
+2. 说明单层验证（Single-factor Authentication）和双因子验证（Two-factor Authentication）的区别？
 
-4. What is the concept of "least privilege" in authorization?
-Answer: The principle of least privilege states that users should only be granted the minimum level of access necessary to perform their required tasks. This helps reduce the risk of unauthorized access and protects sensitive data from being misused.
+答案：单层验证是指通过一种方式验证用户身份，例如使用帐号和密码。而双因子验证则需要用户通过两种验证方式，例如使用帐号和密码，再加上一次性密码或指纹扫瞄等方式。
 
-5. What is role-based access control?
-Answer: Role-based access control (RBAC) is an authorization model where access to resources is based on the user's role within an organization. Each role has a defined set of permissions that determine what actions they can perform and what data they can access.
+3. 描述OAuth 2.0协议的授权流程？
+
+答案：OAuth 2.0授权流程的第一步是用户请求授权，此时系统会提示用户登录。用户登录后，会以输入的帐号和密码向系统发送请求，要求授权。系统会检查用户的权限，如果用户有权限，系统会向用户发送授权码。 用户通过授权码向系统发送授权请求，系统将对用户进行身份验证，并得出授权结果。如果验证通过，系统会向用户发送access token，用户就可以通过access token访问需要授权的API。
+
+4. 描述OpenID Connect协议的验证流程？
+
+答案：OpenID Connect验证流程的第一步是用户通过浏览器到注册公司的登录页面，用户输入自己的帐号和密码后，提交登录信息。注册公司向用户发送ID token。用户将ID token发送给第三方系统，系统将对ID token进行验证，以确定用户身份。如果验证成功，系统就可以通过ID token获取用户信息。
+
+5. 什么是JSON Web Token（JWT）？它如何实现身份验证和授权？
+
+答案：JSON Web Token（JWT）是一种Web标准，可用于安全地传输信息。JWT通过使用一个加密的Token，访问者才能够进入需要身份验证和授权的网页。JWT被广泛应用于网络身份验证，并且易于在前端和后端之间传输。JWT包含一个Header、Payload和Signature。Header包含Token的类型和使用的加密方法。Payload包括指定的声明，例如用户的ID和有效期。 Signature是一个数字签名，用于验证Token的完整性。使用JWT来实现身份验证和授权可通过验证Token中的声明和有效期来确定用户身份和权限。

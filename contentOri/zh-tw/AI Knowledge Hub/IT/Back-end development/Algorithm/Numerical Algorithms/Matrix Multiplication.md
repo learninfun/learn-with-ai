@@ -1,9 +1,10 @@
 +++
 title = "矩陣乘法"
+weight = "5"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Matrix Multiplication的問題
+給我5題Matrix Multiplication的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "矩陣乘法"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Matrix Multiplication並舉例
+以中文說明Matrix Multiplication並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +48,7 @@ title = "矩陣乘法"
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Matrix Multiplication的重點
+以中文條列Matrix Multiplication的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ title = "矩陣乘法"
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Matrix Multiplication的中等難度問題，並在後面列出答案
+以中文給我5題Matrix Multiplication的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -79,31 +80,4 @@ title = "矩陣乘法"
 
 5. 矩陣A的大小為2x4，矩陣B的大小為4x6，試求A和B的乘積。
 答案：矩陣C的大小為2x6。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Matrix Multiplication的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Matrix multiplication." Khan Academy, https://www.khanacademy.org/math/precalculus/precalc-matrices/multiplying-matrices-by-matrices/a/matrix-multiplication-intro. 
-
-This article provides a clear introduction to the concept of matrix multiplication, including a step-by-step explanation of how to multiply two matrices together. It also includes several examples and practice problems.
-
-2. "Matrix multiplication." Wikipedia, https://en.wikipedia.org/wiki/Matrix_multiplication. 
-
-This article provides a more technical explanation of matrix multiplication, including different methods for multiplying matrices and some of their properties. It also includes information on the history of matrix multiplication and its applications in fields such as computer science and physics.
-
-3. "Matrix multiplication: The Chase." 3Blue1Brown, https://www.youtube.com/watch?v=Ip3X9LOh2dk. 
-
-This video explanation provides an entertaining and visual explanation of why matrix multiplication is defined the way it is, using a thought experiment involving a bank robbery. It also includes animations and examples to help viewers understand the concept.
-
-4. "Matrix Multiplication in C++." GeeksforGeeks, https://www.geeksforgeeks.org/matrix-multiplication-2/. 
-
-This programming-focused article provides a detailed explanation of how to perform matrix multiplication in C++. It includes code examples, explanations of different approaches to the problem, and information on the time complexity of different methods.
-
-5. "Matrix multiplication example." Math is Fun, https://www.mathsisfun.com/algebra/matrix-multiplying.html. 
-
-This example-heavy article provides a range of examples and visualizations to help readers understand matrix multiplication. It includes explanations of different types of matrices, how to multiply them, and how to use matrix multiplication to solve systems of equations.   
 

@@ -1,5 +1,6 @@
 +++
 title = "二叉树"
+weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -44,25 +45,14 @@ title = "二叉树"
 
 
 
-1. Binary Tree is a type of data structure where each node has at most two children. 
-
-2. The first node of the binary tree is called the root, and it is the starting point for the tree. 
-
-3. Each node in the binary tree holds a value or data, which can be of any data type. 
-
-4. The left child of a node has a smaller value than the node, while the right child has a larger value. 
-
-5. The height of the binary tree is determined by the number of edges from the root to the farthest leaf node. 
-
-6. Binary trees can be used for traversing or searching for data efficiently. 
-
-7. There are different types of binary trees, such as binary search trees, heap trees, balanced trees, and complete trees. 
-
-8. The time complexity for basic binary tree operations such as insertion, deletion, and searching is O(log n) in the average case and O(n) in the worst case. 
-
-9. Binary trees can be represented using arrays, linked lists, or specialized data structures such as threaded trees or AVL trees. 
-
-10. There are various algorithms for traversing binary trees, such as inorder, preorder, postorder, and level-order.   
+1. Binary Tree是一种基于节点的数据结构。
+2. 每个节点最多只能有两个子节点，这些节点被称为左子节点和右子节点。
+3. Binary Tree可以是空的，或者只有一个root node，或者包含多个节点组成的树。
+4. Binary Tree拥有三种遍历方式：前序遍历(pre-order traversal)、中序遍历(in-order traversal)、后序遍历(post-order traversal)。
+5. Binary Tree可以用递归或迭代的方式进行遍历，具体方法取决于节点和子节点之间的关系。
+6. Binary Tree的高度(hight)等于节点最大深度(depth)+1。
+7. 在Binary Tree中，从root node到任何一个节点的路径都是唯一的。
+8. Binary Tree可以通过不同的方法进行优化，例如平衡二叉树(AVL Tree)、红黑树(Red-Black Tree)等。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -85,31 +75,4 @@ title = "二叉树"
 
 5. 给定一个二叉树，找到该树中每一棵子树中的最大值与最小值之差的最大值。
 答案：https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Binary Tree的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Binary Trees - GeeksforGeeks
-網址：https://www.geeksforgeeks.org/binary-tree-data-structure/
-這篇文章從基本概念開始介紹 Binary Tree，提供了一些範例來幫助讀者理解，同時解釋了 Binary Tree 的應用和一些相關術語。文章的內容比較基礎，適合初學者參考。
-
-2. Introduction To Binary Trees - Harvard CS50
-網址：https://cs50.harvard.edu/college/2021/spring/lectures/4/
-這是一份由哈佛大學教授開設的課程講義，講解了 Binary Tree 的基本概念、遍歷方式、平衡性和應用等方面。該文章比較深入，也提供了一些實用的例子來說明使用 Binary Tree 時的注意事項。
-
-3. Introduction to Binary Trees - Tutorialspoint
-網址：https://www.tutorialspoint.com/data_structures_algorithms/binary_trees.htm
-這篇文章詳細介紹了 Binary Tree 的定義、性質、種類和遍歷方式等，同時提供了一些實用的示例以幫助讀者理解。該文章的內容比較全面，適合有一定基礎的讀者參考。
-
-4. Binary Trees - Cplusplus.com
-網址：http://www.cplusplus.com/doc/tutorial/structures/
-這是一份詳細的 C++ 教程，其中有一個章節專門講解 Binary Tree。該章節從概念入手，逐步介紹了如何創建、插入和刪除 Binary Tree 節點，同時還講解了如何遍歷 Binary Tree。這篇文章適合 C++ 學習者參考。
-
-5. Data Structures and Algorithms: Binary Tree - Khan Academy
-網址：https://www.khanacademy.org/computing/computer-science/algorithms/binary-trees/a/binary-trees-introduction
-這是 Khan Academy 的一個教程，詳細介紹了 Binary Tree 的基礎概念和操作方法。該教程講解了如何創建、遍歷和搜索 Binary Tree，並通過一些簡單的練習來加深讀者的理解。這篇文章適合初學者參考。   
 

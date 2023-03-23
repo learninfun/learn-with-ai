@@ -1,9 +1,10 @@
 +++
 title = "深度優先搜尋"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Depth-First Search的問題
+給我5題Depth-First Search的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "深度優先搜尋"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Depth-First Search並舉例
+以中文說明Depth-First Search並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ D —— E
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Depth-First Search的重點
+以中文條列Depth-First Search的重點
 {{< /ask_chatgpt >}}
 
 
@@ -63,7 +64,7 @@ D —— E
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Depth-First Search的中等難度問題，並在後面列出答案
+以中文給我5題Depth-First Search的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -87,36 +88,4 @@ D —— E
 5. 机器人运动范围：地上有一个 m 行和 n 列的方格，机器人从坐标 (0, 0) 的格子开始移动，每次可以向上、下、左、右四个方向移动一格，但不能进入坐标数位之和大于 k 的格子，求机器人能到达多少个格子。（剑指Offer 13）
 
 答案：https://leetcode.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Depth-First Search的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Depth-First Search Algorithm and Applications
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-
-This article from GeeksforGeeks provides a comprehensive overview of Depth-First Search (DFS) algorithm and its applications. It explains the concept of DFS, how it works, and its various implementations. It also includes code examples and detailed explanations of how DFS can be used in different scenarios, such as finding connected components in a graph, detecting cycles in a graph, and solving maze problems.
-
-2. Depth First Search (DFS) Algorithm
-https://www.tutorialspoint.com/data_structures_algorithms/depth_first_traversal.htm
-
-This tutorial from Tutorials Point explains how DFS is used to traverse a graph or a tree data structure. The article includes detailed explanations of DFS steps, DFS tree, stack-based DFS algorithm, and recursive DFS algorithm. It also provides a sample code snippet to implement DFS in C++.
-
-3. Depth-First Search and Breadth-First Search in Python
-https://eddmann.com/posts/depth-first-search-and-breadth-first-search-in-python/
-
-This tutorial from Edward Mann's programming blog provides an overview of DFS and Breadth-First Search (BFS) algorithms and how they can be implemented in Python. The article has code examples that demonstrate how DFS and BFS are used to traverse a graph, including the use of recursion and a queue data structure to implement the algorithm.
-
-4. Graph Traversal – Depth-First Search and Breadth-First Search
-https://www.cdn.geeksforgeeks.org/graph-traversal-depth-first-search-and-breadth-first-search/
-
-This article from GeeksforGeeks provides an in-depth overview of graph traversal algorithms, specifically DFS and BFS. It covers both recursive and iterative implementations of DFS, as well as explaining how BFS works. It also includes code examples in C++ and Java, along with a detailed explanation of the algorithm's time complexity.
-
-5. Depth-First Search (DFS) and Applications in Python
-https://towardsdatascience.com/depth-first-search-dfs-and-applications-in-python-50d8da7997e1
-
-This article from Towards Data Science provides an overview of DFS and its applications in Python. The author explains how DFS can be used to solve problems such as graph traversal, topological sorting, and cycle detection. The article also includes code examples that demonstrate how DFS can be implemented in Python.   
 

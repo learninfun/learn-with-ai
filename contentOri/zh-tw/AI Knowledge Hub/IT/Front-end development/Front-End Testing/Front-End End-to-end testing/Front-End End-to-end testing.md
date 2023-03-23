@@ -1,9 +1,10 @@
 +++
 title = "前端端到端測試"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Front-End End-to-end testing的問題
+給我5題Front-End End-to-end testing的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "前端端到端測試"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Front-End End-to-end testing並舉例
+以中文說明Front-End End-to-end testing並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -29,7 +30,7 @@ Front-End End-to-end testing是指對應用程式的前端部分進行測試的�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Front-End End-to-end testing的重點
+以中文條列Front-End End-to-end testing的重點
 {{< /ask_chatgpt >}}
 
 
@@ -48,7 +49,7 @@ Front-End End-to-end testing是指對應用程式的前端部分進行測試的�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Front-End End-to-end testing的中等難度問題，並在後面列出答案
+以中文給我5題Front-End End-to-end testing的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -94,21 +95,4 @@ C. Boundary cases
 D. A、B、C都需要
 
 答：D   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Front-End End-to-end testing的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Ultimate Guide to End-to-End Testing for Front-End Developers" by Anna Monus: This comprehensive guide explains what end-to-end testing is, why it's important, and how to implement it in your front-end development workflow. It also covers different tools and frameworks that can be used for end-to-end testing.
-
-2. "A Beginner's Guide to End-to-End Testing for JavaScript Apps" by Ben McCormick: This tutorial introduces end-to-end testing for JavaScript applications, including how to set up and run tests using tools like Cypress and Puppeteer. It also covers best practices for writing effective end-to-end tests.
-
-3. "The Benefits of End-to-End Testing for Front-End Developers" by Adit Gupta: This article explores the advantages of end-to-end testing, including improved code quality, faster development cycles, and increased confidence in code changes. It also discusses some common challenges that developers may encounter when implementing end-to-end testing.
-
-4. "Testing Vue.js Components End-to-End with Cypress" by Gabor Soos: This tutorial walks through how to write end-to-end tests for Vue.js components using Cypress. It covers topics like setting up tests, interacting with the DOM, and handling asynchronous behavior.
-
-5. "Testing React Applications End-to-End with Cypress" by Praveen Kumar Purushothaman: This tutorial explains how to use Cypress to test React applications from end to end. It covers topics like setting up a test environment, writing tests, and using visual regression testing to ensure consistent UI behavior.   
 

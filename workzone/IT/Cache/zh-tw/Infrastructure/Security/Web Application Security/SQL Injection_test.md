@@ -1,16 +1,31 @@
 
 
-1. What is SQL Injection and how does it work?
-Answer: SQL Injection is a type of cyber attack that exploits vulnerabilities in web applications that use SQL databases. Attackers use malicious SQL statements to gain unauthorized access to sensitive information within the database.
+1. 請問下列SQL語法是否具備SQL Injection漏洞？
 
-2. What are some common examples of SQL Injection attacks?
-Answer: Some common examples of SQL Injection attacks include inserting malicious code into search fields, login forms, or URLs to trick the web application into executing unauthorized SQL statements.
+SELECT * FROM users WHERE username = 'John' AND password = '1234' OR '1'='1';
 
-3. What are some best practices to prevent SQL Injection attacks?
-Answer: Some best practices to prevent SQL Injection attacks include using prepared statements, validating user input, avoiding dynamic SQL, and using parameterized queries.
+答案：是。以OR '1'='1'這種方式是否為真的條件，可以將整個WHERE子句視為真實，因此可以查詢到所有的使用者帳戶。
 
-4. What are some warning signs that a website may be vulnerable to SQL Injection attacks?
-Answer: Some warning signs that a website may be vulnerable to SQL Injection attacks include error messages that disclose details about a database, visible SQL code in web pages, and using a single account for both database administration and application access.
+2. 請問下列SQL語法是否具備SQL Injection漏洞？
 
-5. Can SQL Injection attacks be prevented entirely?
-Answer: While it is possible to minimize the risk of SQL Injection attacks, it is nearly impossible to prevent them entirely. However, following best practices for secure coding and regular security assessments can greatly reduce the likelihood of successful attacks.
+SELECT * FROM products WHERE id = 1 AND category = 'shoes';
+
+答案：否。沒有針對使用者輸入內容的WHERE子句。
+
+3. 請問下列SQL語法是否具備SQL Injection漏洞？
+
+SELECT * FROM users WHERE username = '$username' AND password = '$password';
+
+答案：是。因為使用者可以輸入任何想要的帳號和密碼，如果攻擊者能夠輸入SQL語句，就有可能進行SQL Injection攻擊。
+
+4. 請問要如何在下列SQL語法中進行SQL Injection攻擊？
+
+SELECT * FROM users WHERE username = 'John' AND password = '1234';
+
+答案：攻擊者可以在帳戶名或密碼的輸入欄位中輸入特殊字符，如單引號、反斜杠等等，來觸發SQL Injection衝擊。
+
+5. 請問下列SQL語法是否具備SQL Injection漏洞？
+
+SELECT * FROM users WHERE username = 'John' OR 1=1;
+
+答案：是。OR 1=1意味著任何帳戶都會被傳回，因此這種語句很容易受到SQL Injection攻擊。

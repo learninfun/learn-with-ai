@@ -1,9 +1,10 @@
 +++
 title = "組合模式"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Composite Pattern的問題
+給我5題Composite Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "組合模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Composite Pattern並舉例
+以中文說明Composite Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Composite Pattern是一種設計模式，它允許我們創建樹形結構並統
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Composite Pattern的重點
+以中文條列Composite Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ Composite Pattern是一種設計模式，它允許我們創建樹形結構並統
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Composite Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Composite Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -86,36 +87,4 @@ Composite Pattern可以使用遞迴方式實現資料結構的操作。
 
 答案5:
 可以使用遞迴方式實現數據的遍歷，從根節點開始，依次處理葉節點和合成節點的子節點。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Composite Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. Composite Pattern - Refactoring Guru
-https://refactoring.guru/design-patterns/composite
-
-This article from Refactoring Guru explains the Composite Pattern in detail, including its definition, structure, and various use cases. It provides clear examples and diagrams that explain how to implement the pattern in Java.
-
-2. Composite Design Pattern - GeeksforGeeks
-https://www.geeksforgeeks.org/composite-design-pattern/
-
-The GeeksforGeeks article on the Composite Design Pattern explains the concept of the pattern with code examples and its implementation in C++. It also explains the benefits of using the pattern in different situations.
-
-3. Composite Pattern - Wikipedia
-https://en.wikipedia.org/wiki/Composite_pattern
-
-The Wikipedia page on the Composite Pattern provides an overview of the design pattern along with its history, theory, and use cases. It also provides information on different types of composites like safe and transparent composites.
-
-4. Composite Pattern - Tutorialspoint
-https://www.tutorialspoint.com/design_pattern/composite_pattern.htm
-
-The Tutorialspoint article on the Composite Pattern provides a detailed explanation of the pattern along with its advantages and disadvantages. It provides a code example that illustrates how to use the Composite Pattern in Java.
-
-5. Composite Design Pattern - Javatpoint
-https://www.javatpoint.com/composite-design-pattern
-
-The Javatpoint article on the Composite Design Pattern provides an in-depth explanation of the design pattern, its components, and its implementation in Java. It also provides simple code examples that illustrate how the pattern works in real-life situations.   
 

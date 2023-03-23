@@ -1,9 +1,10 @@
 +++
 title = "享元模式"
+weight = "6"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Flyweight Pattern的問題
+給我5題Flyweight Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "享元模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Flyweight Pattern並舉例
+以中文說明Flyweight Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -60,7 +61,7 @@ class CharacterFactory:
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Flyweight Pattern的重點
+以中文條列Flyweight Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -74,7 +75,7 @@ class CharacterFactory:
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Flyweight Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Flyweight Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -333,41 +334,4 @@ class ShoppingCart {
     }
 }
 ```   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Flyweight Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Flyweight Design Pattern" by JavaTpoint
-
-https://www.javatpoint.com/flyweight-design-pattern
-
-This website provides a detailed explanation of the Flyweight pattern, including the concept, structure, and advantages of using this pattern. It also includes examples using Java programming language.
-
-2. "Flyweight Design Pattern" by TutorialsPoint
-
-https://www.tutorialspoint.com/design_pattern/flyweight_pattern.htm
-
-TutorialsPoint provides an in-depth introduction and explanation of the Flyweight pattern, including how it works, its features, and when to use it. The website also includes code examples in Java programming language.
-
-3. "Flyweight Design Pattern" by GeeksforGeeks
-
-https://www.geeksforgeeks.org/flyweight-design-pattern/
-
-GeeksforGeeks explains the Flyweight pattern in detail, including its definition, use case, and implementation using code examples in Java programming language. The website also includes a comparison of this pattern with other patterns.
-
-4. "Flyweight Pattern" by Refactoring.Guru
-
-https://refactoring.guru/design-patterns/flyweight
-
-Refactoring.Guru provides an article on the Flyweight pattern, including its structure, concept, and benefits. The website also includes a comparison of this pattern with other patterns and code examples in Java programming language.
-
-5. "Flyweight Design Pattern" by DZone
-
-https://dzone.com/articles/flyweight-pattern
-
-DZone explains the Flyweight pattern, including its definition, use case, and implementation using code examples in Java programming language. The website also includes the pros and cons of using this pattern in software development.   
 

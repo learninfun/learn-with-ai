@@ -1,5 +1,6 @@
 +++
 title = "Web框架"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -82,26 +83,4 @@ Web框架對開發Web應用程序至關重要，因為它們提供了開發人�
 5. 在Express中，如何使用Middleware來處理HTTP請求和響應？
 
 答案：需要定義一個函數，使用app.use方法將其註冊為Middleware，該函數會接收3個參數：req、res和next，分別表示當前的請求、響應和下一個Middleware或路由處理器。在函數中可以對請求進行處理，或者調用next函數將處理權責交給下一個Middleware或路由處理器。   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Web Frameworks的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Django
-Django是一個基於Python的Web框架，其中包含了許多工具和技術，可以協助您開發高效率且強大的Web應用程式。Django具有模型-視圖-控制器（MVC）架構和全面的安全特性，讓您可以輕鬆地編寫和測試代碼。它還提供了許多可擴展性和自定義選項，讓您可以選擇以自己的方式編寫應用程式。
-
-2. Ruby on Rails
-Ruby on Rails是一個開源Web開發框架，用於快速構建Web應用程式。它使用Ruby編程語言和模型-視圖-控制器（MVC）架構。Ruby on Rails具有快速開發和自動化測試方面的特點，它還具有易於學習的API和高效率。您可以使用Ruby on Rails輕鬆地構建非常複雜和網絡化的應用程式。
-
-3. AngularJS
-AngularJS是由Google實現的類似MVC的前端Web框架，基於HTML和JavaScript。AngularJS具有可重用性和自定義選項，讓您專注於開發應用程式而不必擔心系統層面的問題。它強調可測試性和可擴展性，並提供了大量的內置功能和與其他JavaScript庫的集成，讓您開發具有複雜客戶端互動的Web應用程式變得更加容易。
-
-4. Laravel
-Laravel是一個用於PHP開發的Web框架，具有高效率、優雅、簡潔的語法。它具有可擴展性和基於MVC的架構，以及易於編寫和測試代碼的功能。Laravel透過有用的工具和函數，協助您快速構建任何規模的Web應用程式。
-
-5. Flask
-Flask是一個用於Python的輕量級Web框架，專為快速開發和簡化Web應用程式而設計。它採用模板引擎、URL路由、會話管理和支持多種數據庫等特性。Flask將編程實現的類比值作為控制器，通過HTTP請求的不同方法執行，同時也有易於使用的API。Flask也具有可擴展性和自定義選項，讓您可以以自己的方式編寫Web應用程式。   
 

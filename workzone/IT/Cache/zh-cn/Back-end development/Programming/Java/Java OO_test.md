@@ -231,7 +231,7 @@ public class BankAccount {
 }
 ```
 
-5. 设计一个图形(Geometry)抽象类别，包含以下抽象方法：
+5. 设计一个图形(Geometry)抽像类别，包含以下抽像方法：
 
 方法：
 - 计算面积(getArea)

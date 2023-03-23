@@ -1,3 +1,7 @@
++++
+title = "Max Heap"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Max Heap
@@ -67,41 +71,4 @@ Answer: To extract the maximum element from a Max Heap, the root node (maximum e
 
 5. What is the time complexity of extracting the maximum element from a Max Heap?
 Answer: The time complexity of extracting the maximum element from a Max Heap is O(log n), where n is the number of nodes in the heap.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Max Heap
-{{< /ask_chatgpt >}}
-
-
-
-1. GeeksforGeeks - Max Heap: 
-https://www.geeksforgeeks.org/max-heap-in-python/
-
-2. Tutorialspoint - Max Heap:
-https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm
-
-3. Programiz - Max Heap:
-https://www.programiz.com/dsa/heap-data-structure
-
-4. Java2Blog - Max Heap:
-https://java2blog.com/max-heap-java/
-
-5. Computer Science Wiki - Max Heap:
-https://www.cs.mcgill.ca/~jeromew/comp252/week11/max-heap.html 
-
-6. Data Structure and Algorithms - Max Heap:
-https://www.studytonight.com/data-structures/max-heap 
-
-7. Codecademy - Max Heap:
-https://www.codecademy.com/articles/what-is-a-max-heap
-
-8. Techiedelight - Max Heap:
-https://www.techiedelight.com/max-heap-implementation-in-cpp/
-
-9. Coding Ninjas - Max Heap:
-https://www.codingninjas.com/blog/2020/08/27/heap-algorithms-and-max-heap/
-
-10. Baeldung - Max Heap:
-https://www.baeldung.com/java-max-heap   
 

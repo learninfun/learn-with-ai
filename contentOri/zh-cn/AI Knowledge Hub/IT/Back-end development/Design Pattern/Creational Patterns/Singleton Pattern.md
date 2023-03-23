@@ -1,5 +1,6 @@
 +++
 title = "单例模式"
+weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "单例模式"
 
 
 
-1. 什么是Singleton Pattern？
-2. 为什么使用Singleton Pattern？
-3. Singleton Pattern如何实现？
-4. 单例模式有哪些常见的使用情境？
-5. Singleton Pattern有哪些优点和缺点？   
+1. 什麼是Singleton Pattern？
+2. 為什麼使用Singleton Pattern？
+3. Singleton Pattern如何實現？
+4. 單例模式有哪些常見的使用情境？
+5. Singleton Pattern有哪些優點和缺點？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,11 +22,11 @@ title = "单例模式"
 
 
 
-Singleton Pattern是一种软体设计模式，其目的在于确保一个类别只有一个实例，并提供一个全域唯一的访问点。
+Singleton Pattern是一種軟體設計模式，其目的在於確保一個類別只有一個實例，並提供一個全域唯一的訪問點。
 
-举例来说，一个应用程式可能需要一个设置管理器（例如全局配置设置），为了确保不会意外地创建多个实例，可以使用Singleton Pattern来确保该设置管理器只有一个实例存在。
+舉例來說，一個應用程式可能需要一個設置管理器（例如全局配置設置），為了確保不會意外地創建多個實例，可以使用Singleton Pattern來確保該設置管理器只有一個實例存在。
 
-以下为一个简单的Singleton Pattern的范例：
+以下為一個簡單的Singleton Pattern的範例：
 
 ```python
 class MySingleton:
@@ -43,21 +44,21 @@ class MySingleton:
       return MySingleton.__instance
 ```
 
-在上面的范例中，我们创建了一个Singleton类别`MySingleton`，它具有一个私有的实例变量`__instance`。
+在上面的範例中，我們創建了一個Singleton類別`MySingleton`，它具有一個私有的實例變量`__instance`。
 
-在`__init__`函数中，我们检查实例变量是否为None。如果它不是None，则意味着一个实例已经存在，并引发异常。否则，将`__instance`设置为当前的实例。
+在`__init__`函數中，我們檢查實例變量是否為None。如果它不是None，則意味著一個實例已經存在，並引發異常。否則，將`__instance`設置為當前的實例。
 
-在`get_instance()`方法中，我们检查实例变量是否为None。如果为None，则创建一个新的`MySingleton`实例并设置`__instance`。如果不为None，我们直接回传`__instance`即可。
+在`get_instance()`方法中，我們檢查實例變量是否為None。如果為None，則創建一個新的`MySingleton`實例並設置`__instance`。如果不為None，我們直接回傳`__instance`即可。
 
-这样一来，无论如何都只会存在一个`MySingleton`实例。
+這樣一來，無論如何都只會存在一個`MySingleton`實例。
 
-可以透过以下方式获取`MySingleton`实例：
+可以透過以下方式獲取`MySingleton`實例：
 
 ```python
 my_singleton = MySingleton.get_instance()
 ```
 
-如果尝试创建更多的实例，即使直接创建实例也会引发异常，因为`__instance`变数已被设置为相应的实例。   
+如果嘗試創建更多的實例，即使直接創建實例也會引發異常，因為`__instance`變數已被設置為相應的實例。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -66,17 +67,17 @@ my_singleton = MySingleton.get_instance()
 
 
 
-1. Singleton模式是一种创建型设计模式，它确保一个类只有一个实例，并提供一个全局访问点。
+1. Singleton模式是一種創建型設計模式，它確保一個類只有一個實例，並提供一個全局訪問點。
 
-2. Singleton模式需要私有化构造函数，以防止该类被实例化多次。
+2. Singleton模式需要私有化構造函數，以防止該類被實例化多次。
 
-3. Singleton模式需要提供一个静态方法来获取该类的唯一实例，通常是getInstance()方法。
+3. Singleton模式需要提供一個靜態方法來獲取該類的唯一實例，通常是getInstance()方法。
 
-4. Singleton的实例通常是延迟加载的，在需要的时候才创建。
+4. Singleton的實例通常是延遲加載的，在需要的時候才創建。
 
-5. Singleton模式提供了一种更好的控制全局状态的方式，但也具有一些缺点，例如难以测试、可能会导致不必要的耦合等。
+5. Singleton模式提供了一種更好的控制全局狀態的方式，但也具有一些缺點，例如難以測試、可能會導致不必要的耦合等。
 
-6. Singleton模式有多种实现方式，包括静态字段、枚举、内部类等。选择哪种方式取决于具体需求以及编程语言的特性。   
+6. Singleton模式有多種實現方式，包括靜態字段、枚舉、內部類等。選擇哪種方式取決於具體需求以及編程語言的特性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -456,31 +457,4 @@ public class Item {
   // getters and setters
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Singleton Pattern的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Singleton Design Pattern in Java 
-https://www.geeksforgeeks.org/singleton-design-pattern/
-這是一篇介紹Singleton Pattern的基本概念和應用方式的文章，並以Java為例說明如何實現Singleton Pattern。包含比較常見的方法和變種方式。
-
-2. Singleton Pattern in C# 
-https://www.c-sharpcorner.com/article/singleton-design-pattern-in-c-sharp/
-這篇文章同樣介紹了Singleton Pattern的基本概念和實現方式，但更專注於在C#中的應用。其中還包含一些範例代碼，可以幫助讀者清晰理解Singleton Pattern。
-
-3. Singleton Pattern in Python 
-https://realpython.com/primer-on-python-singleton-pattern/
-這篇文章專注於介紹Python中的Singleton Pattern。除了說明基本概念和實現方式外，還講解了如何使用元程式來實現Singleton Pattern。同時也有使用範例代碼可以參考。
-
-4. Singleton Pattern – The Classic Design Pattern 
-https://www.javatpoint.com/singleton-design-pattern-in-java
-這是一篇講解Singleton Pattern最基本的實現方式，即使用一個靜態變數和一個私有構造函數來實現Singleton。這種方式比較容易理解，也最常用。
-
-5. Singleton Pattern in JavaScript 
-https://www.dofactory.com/javascript/design-patterns/singleton
-這篇文章介紹如何在JavaScript中實現Singleton Pattern。除了介紹Singleton Pattern基本概念外，還介紹了使用IIFE（立即調用函數表達式）的方式來實現Singleton。這種方式在JavaScript中比較常用。   
 

@@ -1,9 +1,10 @@
 +++
 title = "熔斷器模式"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Circuit Breaker的問題
+給我5題Circuit Breaker的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "熔斷器模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Circuit Breaker並舉例
+以中文說明Circuit Breaker並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +32,7 @@ Circuit Breaker模式常常類似於保險結構,在應用中實現Circuit Break
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Circuit Breaker的重點
+以中文條列Circuit Breaker的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,7 +51,7 @@ Circuit Breaker模式常常類似於保險結構,在應用中實現Circuit Break
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Circuit Breaker的中等難度問題，並在後面列出答案
+以中文給我5題Circuit Breaker的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -69,36 +70,4 @@ Circuit Breaker模式常常類似於保險結構,在應用中實現Circuit Break
 
 5. 一個4000瓦，240V的加熱器連接到一個故障電源上，在這個電路中加入一個額定電壓為240V，額定電流為20安培的斷路器，最低額定斷開能力為5000安培。請問，這個斷路器是否能適用於這個電路？
 答案：可以（滿足功率、電流、電壓和斷開能力的要求）   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Circuit Breaker的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Circuit Breaker: What Is It and How Does It Work?" from The Balance Small Business
-https://www.thebalancesmb.com/what-are-circuit-breakers-844585
-
-This article provides a comprehensive explanation of circuit breakers, including their basic function, different types, and how they work to protect electrical circuits from overloads and short circuits.
-
-2. "How to Reset a Circuit Breaker" from The Home Depot
-https://www.homedepot.com/c/ah/how-to-reset-a-circuit-breaker/9ba683603be9fa5395fab90c9d606057
-
-This article provides step-by-step instructions on how to reset a tripped circuit breaker in your home, including safety tips, identifying the right circuit breaker to reset, and troubleshooting tips for recurring issues.
-
-3. "Circuit Breakers and Fuses" from Electrical Safety Foundation International
-https://www.esfi.org/resource/circuit-breakers-and-fuses-63
-
-This resource from the Electrical Safety Foundation International explains the purpose of circuit breakers and fuses, how they differ, and how to select the right one for your electrical needs.
-
-4. "What Is a Circuit Breaker Panel?" from The Spruce
-https://www.thespruce.com/what-is-a-circuit-breaker-panel-1152598
-
-This article provides an overview of circuit breaker panels, including the parts of the panel, their function, and how to maintain and upgrade your electrical system.
-
-5. "Electrical Safety: How to Identify Circuit Breaker Types" from This Old House
-https://www.thisoldhouse.com/electrical/21314468/how-to-identify-circuit-breaker-types
-
-This article from This Old House explains the different types of circuit breakers available, including standard, GFCI, and AFCI breakers, and specifics on identifying each type to ensure proper safety measures.   
 

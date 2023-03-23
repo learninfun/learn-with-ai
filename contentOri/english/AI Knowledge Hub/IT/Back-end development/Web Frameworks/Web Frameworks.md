@@ -1,3 +1,7 @@
++++
+title = "Web Frameworks"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Web Frameworks
@@ -64,22 +68,4 @@ A: The advantages of using a web framework include faster development, better or
 Q5. How can developers choose the right web framework for their project?
 
 A: Developers can choose the right web framework for their project by considering factors such as the project requirements, the level of developer expertise, community support, and scalability.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Web Frameworks
-{{< /ask_chatgpt >}}
-
-
-
-1. "The Ultimate Guide to Choosing a Web Framework" by Sitepoint.com 
-2. "Introduction to Web Frameworks" by DigitalOcean.com 
-3. "What is a Web Framework?" by EnvatoTuts+ 
-4. "Web Application Frameworks Overview" by Spring.io 
-5. "Web Development Frameworks Explained" by Agriya.com 
-6. "Top Web Application Frameworks to Know in 2020" by Stackify.com 
-7. "Choosing the Right Web Application Framework" by TopDevelopers.co 
-8. "A Comprehensive Guide to Web Frameworks" by Builtwith.com 
-9. "What Are The Most Popular Web Development Frameworks?" by Devteam.Space 
-10. "Introduction to Modern Web Development Frameworks" by Toptal.com.   
 

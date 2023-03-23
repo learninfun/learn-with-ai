@@ -1,5 +1,6 @@
 +++
 title = "Java注释"
+weight = "8"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -33,7 +34,7 @@ Java注解的语法采用“@注解名称（参数列表）”的形式，其中
 
 3. @Deprecated: 该注解告诉编译器此处代码已被废弃，建议使用其他功能或者替代方案，当程序中使用了被标注的代码时，编译器会发出警告。
 
-4. @FunctionalInterface: 该注解表示接口是一个函数接口，该接口只包含一个抽象方法，可以被用于Lambda表达式。
+4. @FunctionalInterface: 该注解表示接口是一个函数接口，该接口只包含一个抽像方法，可以被用于Lambda表达式。
 
 5. @Test: 该注解指定一个方法作为测试方法，JUnit测试框架会自动识别并运行被标注的方法。
 
@@ -109,17 +110,4 @@ public @interface TimeLimit {
    int seconds() default 5;
 }
 ```   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Java annotations的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1) Java annotations 范例: https://tw511.com/a/01/20048.html
-2) Java annotations 简介: http://www.java67.com/2016/06/10-examples-of-custom-and-built-in.html
-3) Java annotations 如何使用: https://www.baeldung.com/java-annotations-tutorial
-4) Java annotations 教学与范例: https://www.tutorialspoint.com/java/java_annotations.htm
-5) Java annotations 全面介绍: https://www.javatpoint.com/java-annotations   
 

@@ -1,22 +1,23 @@
 +++
 title = "測量性能"
+weight = "2"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Measuring performance的問題
+給我5題Measuring performance的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. How do you measure the performance of your team members?
-2. What metrics do you use to evaluate the success of a new product launch?
-3. What strategies do you employ to track and improve customer satisfaction metrics?
-4. How do you determine the success of a marketing campaign?
-5. What key performance indicators do you track to evaluate the effectiveness of your company's overall business strategy?   
+1. 什麼是性能測試，它的目的是什麼？
+2. 性能測試中常用的指標有哪些，它們的意義是什麼？
+3. 如何設計一個有效的性能測試計劃？
+4. 性能測試有哪些常用的方法和工具？
+5. 性能測試過程中可能會遇到哪些問題，如何解決這些問題？   
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Measuring performance並舉例
+以中文說明Measuring performance並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -35,7 +36,7 @@ Measuring performance 是指透過量化數據和指標，以評估一個個體�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Measuring performance的重點
+以中文條列Measuring performance的重點
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +53,7 @@ Measuring performance 是指透過量化數據和指標，以評估一個個體�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Measuring performance的中等難度問題，並在後面列出答案
+以中文給我5題Measuring performance的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -76,41 +77,4 @@ Measuring performance 是指透過量化數據和指標，以評估一個個體�
 5. 一個公司在過去一年中有效銷售額為100萬美元，該公司有10名銷售人員，每人年銷售額不等，最高者為25萬美元，最低者為5萬美元。請計算該公司的銷售人員平均年銷售額為多少？
 
 答案：銷售人員平均年銷售額為12萬美元。計算公式為：平均年銷售額 = 總有效銷售額 ÷ 銷售人員總數 = 100萬 ÷ 10 = 10萬美元。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Measuring performance的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Measuring Performance: Key Performance Indicators" by MindTools:
-
-This article outlines the importance of measuring performance through key performance indicators (KPIs). It discusses how KPIs help organizations define and measure progress towards their strategic goals. The article provides tips on how to select the right KPIs and how to use them effectively to improve performance.
-
-Link: https://www.mindtools.com/pages/article/newPPM_95.htm
-
-2. "The Importance of Measuring Performance, and 10 Key Metrics to Track" by QuickBooks:
-
-This article discusses why it's essential to measure performance and how it helps businesses make better decisions. It identifies ten important metrics that businesses can measure to track their performance, including revenue growth, customer satisfaction, and employee turnover. The article also provides tips on how to use these metrics to improve performance.
-
-Link: https://quickbooks.intuit.com/r/financial-management/measuring-performance/
-
-3. "Measuring Performance: The Balanced Scorecard" by Harvard Business Review:
-
-This article explores the concept of the Balanced Scorecard, a strategic planning and management tool that companies use to measure and track their performance. The article explains how the Balanced Scorecard helps businesses align their activities with their goals and provides a comprehensive view of their performance. It also discusses the four perspectives of the Balanced Scorecard: financial, customer, internal processes, and learning and growth.
-
-Link: https://hbr.org/1996/01/measuring-performance-the-balanced-scorecard
-
-4. "Performance Measurement: The Foundation of Successful Performance Management" by Association for Talent Development:
-
-This article emphasizes the importance of performance measurement in managing employee performance. It defines performance measurement and provides practical tips on how to select and implement performance measures. The article also highlights the benefits of effective performance measurement, such as increased productivity, employee engagement, and business success.
-
-Link: https://www.td.org/insights/performance-measurement-the-foundation-of-successful-performance-management
-
-5. "Measuring Performance: Four Approaches" by Carnegie Mellon University:
-
-This article provides an overview of four different approaches businesses can use to measure their performance: productivity, quality, cycle time, and customer satisfaction. It explains each approach in detail and provides examples of how businesses use them to improve their performance. The article also discusses the benefits and limitations of each approach.
-
-Link: https://www.cmu.edu/tepper/faculty-and-research/format-conferences/archives/2009-fomc/papers/measuring-performance.pdf   
 

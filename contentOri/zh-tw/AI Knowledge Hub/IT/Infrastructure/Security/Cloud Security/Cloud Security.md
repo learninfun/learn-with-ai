@@ -1,9 +1,10 @@
 +++
 title = "雲端安全"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Cloud Security的問題
+給我5題Cloud Security的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -16,7 +17,7 @@ title = "雲端安全"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Cloud Security並舉例
+以中文說明Cloud Security並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -39,7 +40,7 @@ IBM Cloud Security提供了一系列的安全解決方案，包括基於雲端�
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Cloud Security的重點
+以中文條列Cloud Security的重點
 {{< /ask_chatgpt >}}
 
 
@@ -66,7 +67,7 @@ IBM Cloud Security提供了一系列的安全解決方案，包括基於雲端�
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Cloud Security的中等難度問題，並在後面列出答案
+以中文給我5題Cloud Security的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -98,26 +99,4 @@ IBM Cloud Security提供了一系列的安全解決方案，包括基於雲端�
 平台層級： AWS 的平台安全性措施包括對產品和服務的測試、更新和維護程式碼。
 
 應用層級：AWS 的應用安全措施包括監控、日誌記錄和其他安全措施，以確保應用程序的安全。 AWS 應用層安全性原則涉及保護數據、使用強密碼、保護訪問憑證、減少安全漏洞等。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Cloud Security的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "Cloud Security: A Comprehensive Guide for Your Business" by Salesforce.
-This article provides a thorough overview of cloud security, covering topics such as data encryption, access control, and compliance. It also includes tips and best practices for businesses looking to implement cloud security measures.
-
-2. "Cloud Security Alliance" by Cloud Security Alliance.
-The Cloud Security Alliance is a non-profit organization dedicated to promoting secure cloud computing. Their website contains a wealth of information on cloud security, including white papers, best practices, and training resources.
-
-3. "Top Cloud Security Threats in 2020" by Netskope.
-This article highlights some of the most significant security threats facing cloud computing in 2020. It covers topics such as misconfigured infrastructure, insider threats, and cloud service providers.
-
-4. "How to Secure Your Cloud Computing Environment" by IBM.
-IBM offers a comprehensive guide to securing your cloud computing environment, with tips on data protection, identity and access management, and threat detection. It also includes a discussion of the shared responsibility model for cloud security.
-
-5. "Cloud Security: What You Need to Know" by ZDNet.
-ZDNet's guide to cloud security covers the basics of cloud security, including encryption, access control, and compliance requirements. It also includes a discussion of the risks associated with cloud computing and best practices for mitigating those risks.   
 

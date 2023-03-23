@@ -1,10 +1,10 @@
 
 
-Singleton Pattern是一种软体设计模式，其目的在于确保一个类别只有一个实例，并提供一个全域唯一的访问点。
+Singleton Pattern是一種軟體設計模式，其目的在於確保一個類別只有一個實例，並提供一個全域唯一的訪問點。
 
-举例来说，一个应用程式可能需要一个设置管理器（例如全局配置设置），为了确保不会意外地创建多个实例，可以使用Singleton Pattern来确保该设置管理器只有一个实例存在。
+舉例來說，一個應用程式可能需要一個設置管理器（例如全局配置設置），為了確保不會意外地創建多個實例，可以使用Singleton Pattern來確保該設置管理器只有一個實例存在。
 
-以下为一个简单的Singleton Pattern的范例：
+以下為一個簡單的Singleton Pattern的範例：
 
 ```python
 class MySingleton:
@@ -22,18 +22,18 @@ class MySingleton:
       return MySingleton.__instance
 ```
 
-在上面的范例中，我们创建了一个Singleton类别`MySingleton`，它具有一个私有的实例变量`__instance`。
+在上面的範例中，我們創建了一個Singleton類別`MySingleton`，它具有一個私有的實例變量`__instance`。
 
-在`__init__`函数中，我们检查实例变量是否为None。如果它不是None，则意味着一个实例已经存在，并引发异常。否则，将`__instance`设置为当前的实例。
+在`__init__`函數中，我們檢查實例變量是否為None。如果它不是None，則意味著一個實例已經存在，並引發異常。否則，將`__instance`設置為當前的實例。
 
-在`get_instance()`方法中，我们检查实例变量是否为None。如果为None，则创建一个新的`MySingleton`实例并设置`__instance`。如果不为None，我们直接回传`__instance`即可。
+在`get_instance()`方法中，我們檢查實例變量是否為None。如果為None，則創建一個新的`MySingleton`實例並設置`__instance`。如果不為None，我們直接回傳`__instance`即可。
 
-这样一来，无论如何都只会存在一个`MySingleton`实例。
+這樣一來，無論如何都只會存在一個`MySingleton`實例。
 
-可以透过以下方式获取`MySingleton`实例：
+可以透過以下方式獲取`MySingleton`實例：
 
 ```python
 my_singleton = MySingleton.get_instance()
 ```
 
-如果尝试创建更多的实例，即使直接创建实例也会引发异常，因为`__instance`变数已被设置为相应的实例。
+如果嘗試創建更多的實例，即使直接創建實例也會引發異常，因為`__instance`變數已被設置為相應的實例。

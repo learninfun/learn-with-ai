@@ -1,5 +1,6 @@
 +++
 title = "容器"
+weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "容器"
 
 
 
-1. What is a container and how is it different from a virtual machine?
-2. What are some of the benefits and drawbacks of using containers for application deployment?
-3. How do container orchestration tools such as Kubernetes help with managing large numbers of containerized applications?
-4. Can containers be used for running stateful applications such as databases, or are they primarily useful for stateless microservices?
-5. How do security concerns and compliance requirements affect the use of containers in enterprise environments?   
+1. 什麼是容器？在系統管理中有什麼作用？
+2. 容器和虛擬機有什麼不同？容器的優缺點是什麼？
+3. 如何建立與管理Docker容器？有哪些最佳實踐？
+4. Kubernetes是什麼？它如何管理容器集群？
+5. 如何保護容器的安全性？容器漏洞可能造成什麼影響？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,9 +22,9 @@ title = "容器"
 
 
 
-Containers are a way to package and isolate applications with their dependencies, so they can run consistently across various environments. A container includes everything that is required to run an application, such as code, libraries, and runtime environment. It is an operating system-level virtualization technique that enables developers to create and deploy applications seamlessly. Containers are lightweight, portable, and provide consistent and reliable results.
+Containers（容器）是指在一台主機上，使用容器技術將應用程式所需的所有運行環境、庫、配置文件等打包在一起的一種環境隔離技術。每個容器都在共享的操作系統核心上運行，但是被隔離開來，獨立運行，並且具有自己的應用程序和庫。容器中的應用程序可以在不影響主機和其他容器的情況下運行。
 
-An example of a container technology is Docker. Docker is an open-source container platform that simplifies the deployment of applications. It allows developers to create, deploy, and run applications inside containers. With Docker, containerized applications can be easily moved from one environment to another, such as from development to production or from on-premises to the cloud. Docker provides a platform-agnostic solution that enables developers to work with any language, framework, and application stack.   
+舉例來說，一個網路應用程式可能需要運行在特定版本的作業系統和軟件庫上。使用容器化技術，可以將該應用程式及其相關文件打包在一起，確保它可以在一致的環境中運行。這樣可以消除在不同機器或不同環境中運行應用程序時可能出現的問題。此外，如果應用程序需要更新或升級，只需更新容器即可，而不需要更改操作系統或應用程序的配置文件。常見的容器平台包括Docker，Kubernetes等。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -32,19 +33,14 @@ An example of a container technology is Docker. Docker is an open-source contain
 
 
 
-1. Containers are a lightweight, portable way to package applications and their dependencies.
-
-2. They provide an isolated environment for the application to run in, without interfering with other applications or the underlying operating system.
-
-3. Containers can be easily moved between different environments, such as development, testing, and production, making them a popular choice for modern application deployment.
-
-4. Containers use virtualization technology to run multiple isolated instances of an application on a single host operating system, without the need for multiple virtual machines.
-
-5. Containers rely on images, which are read-only snapshots of an application and its dependencies, to provide consistent and reproducible deployments.
-
-6. Containers can be managed and orchestrated using container orchestration tools like Kubernetes, which automate deployment, scaling, and management of containerized applications.
-
-7. Containers are often used as part of a microservices architecture, where applications are broken down into smaller, more manageable components that can be independently deployed and scaled.   
+1. 容器是一种轻量级的虚拟化技术，可以让应用程序在独立的环境中运行，而不会影响其他应用程序或操作系统。
+2. 容器使用命名空间和控制组来隔离应用程序，确保它们只能访问自己的文件系统、网络和进程。
+3. 与传统的虚拟机相比，容器更轻便、便于管理和快速部署，因为它们共享操作系统内核和库。
+4. 容器技术可以通过多个工具实现，如Docker、Kubernetes和Mesos等。
+5. Docker镜像是一个只读的模板，可以用来创建容器。镜像可以通过Dockerfile和Docker命令来构建和管理。
+6. Kubernetes是一个开源的容器编排平台，可以自动化应用程序的部署、管理和扩展。它支持容器编排、自动扩展、服务发现和负载均衡等功能。
+7. Mesos是一个分布式系统内核，可以管理多个容器集群，支持容器编排、资源调度和分布式存储等功能。
+8. 容器技术在云计算、DevOps和微服务中得到广泛应用，可以提高应用程序的可靠性、可扩展性和可移植性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -53,43 +49,18 @@ An example of a container technology is Docker. Docker is an open-source contain
 
 
 
-1. What is a container, and how is it different from a virtual machine?
-Answer: A container is an isolated software environment that includes all the dependencies needed to run an application. Unlike a virtual machine, a container shares the host operating system's kernel, making it lighter and more efficient.
+1. 给定一个由数字组成的二叉树，如何找到深度等于k的所有节点？
+答案：使用深度优先搜索，记录当前节点的深度，并判断是否等于k。若等于k，则将该节点加入结果列表。继续遍历左子树和右子树。时间复杂度为O(n)。
 
-2. What are the benefits of using containers?
-Answer: Containers offer several benefits, such as portability, scalability, and increased security. They make it easier to deploy and manage applications across different environments, from development to production.
+2. 给定一个无序数组，如何使用单调栈来找到每个元素的下一个更大元素？
+答案：使用单调递减的栈，并遍历数组。如果当前元素大于栈顶元素，则将栈顶元素弹出，并将当前元素作为栈顶元素的下一个更大元素。将当前元素入栈。时间复杂度为O(n)。
 
-3. What is Docker, and how does it relate to containers?
-Answer: Docker is an open-source platform that enables developers to build, ship, and run applications inside containers. It provides a toolkit for creating and managing containerized applications, making it easier to work with containers.
+3. 给定一个字符串，找到其中最长的没有重复字符的连续子串长度？
+答案：使用双指针，一个指向子串的起始位置，另一个不断向右移动。使用set记录子串中出现过的字符，如果发现子串中出现重复字符，就将左指针向右移动，并且从set中删除对应的字符。时间复杂度为O(n)。
 
-4. How do containers affect application performance?
-Answer: Containers can improve application performance by reducing overhead and providing a consistent runtime environment. However, poorly designed containers can also cause performance issues if they are too large or if they contain unnecessary dependencies.
+4. 给定两个字符串s和t，判断t是否为s的一个子序列？
+答案：使用双指针，一个指向字符串s的开头，另一个指向字符串t的开头。如果当前字符匹配，则都向右移动一位；否则只移动s指针。如果t指针到达末尾，说明t是s的子序列。时间复杂度为O(m+n)。
 
-5. How do container orchestration tools such as Kubernetes help manage containerized applications?
-Answer: Container orchestration tools like Kubernetes provide a framework for automating container deployment, scaling, and management. They enable developers to manage multiple containers across different hosts, making it easier to deploy and manage applications at scale.   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Containers的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Docker: 
-Docker's Introduction to Containers webpage provides a comprehensive introduction to containers, including their benefits, use cases, and basic concepts. It explains how containers work and how Docker manages them.
-
-2. Kubernetes:
-The Kubernetes website offers an introduction to containers as one of its core topics. It explains the basics of containerization, compares containers to virtual machines, and provides an overview of how Kubernetes manages containers at scale.
-
-3. Red Hat OpenShift: 
-Red Hat OpenShift's Introduction to Containers and Kubernetes webpage provides an overview of containers and Kubernetes, including their benefits, architectures, and use cases. It also offers a brief tutorial on containerizing applications.
-
-4. Amazon Web Services:
-The Amazon Web Services Container Services page offers an introduction to containers and their benefits. It also highlights AWS container services that help customers run and manage their workloads in containers.
-
-5. Microsoft Azure:
-The Microsoft Azure Containers webpage provides an introduction to containers, highlighting their benefits and use cases. It also offers information on Azure's container offerings and how they can be used to deploy, manage, and orchestrate containers.
-
-6. Google Cloud Platform:
-The Google Cloud Platform Containers webpage provides an introduction to containers, including their benefits and basic concepts. It also offers information on Google's container offerings and how they can be used to run, manage, and scale containers at scale.   
+5. 给定一组任务和冷却时间n，每个任务执行需要一个单位的时间，相同任务之间需要等待n个单位的时间才能再次执行。计算完成所有任务所需的最短时间。
+答案：使用桶排序，先统计每个任务出现的次数。将任务按照出现次数从大到小排序。将任务依次放入执行序列中，并在相应位置加入等待时间。时间复杂度为O(n)。   
 

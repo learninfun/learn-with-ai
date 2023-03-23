@@ -1,9 +1,10 @@
 +++
 title = "解釋器模式"
+weight = "3"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題Interpreter Pattern的問題
+給我5題Interpreter Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -20,7 +21,7 @@ title = "解釋器模式"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明Interpreter Pattern並舉例
+以中文說明Interpreter Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -79,7 +80,7 @@ interpreter.interpret()
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列Interpreter Pattern的重點
+以中文條列Interpreter Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -106,7 +107,7 @@ interpreter.interpret()
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題Interpreter Pattern的中等難度問題，並在後面列出答案
+以中文給我5題Interpreter Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -124,41 +125,4 @@ interpreter.interpret()
 3. Abstract Expression用於定義表達式的解釋方法，包含接受方法，可以實現表達式的遞歸解釋。
 4. Terminal Expression可以直接實現表達式的解釋。它構成表達式的基本組成單位，終止表達式的遞歸處理。
 5. Interpreter Pattern和Visitor Pattern都是行為型模式，但是它們所關注的重點不同。Interpreter Pattern用於對語言中的表達式進行解釋，而Visitor Pattern用於對一個對像進行操作。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇Interpreter Pattern的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. 解析器模式 - 維基百科，自由的百科全書
-
-維基百科上有一篇解析器模式的介紹，涵蓋了解析器模式的定義、用途、結構和範例，可供學習者參考。
-
-連結: https://zh.wikipedia.org/wiki/%E8%A7%A3%E6%9E%90%E5%99%A8%E6%A8%A1%E5%BC%8F
-
-2. 解析器模式 - Java 實例教程
-
-這篇 Java 實例教程介紹了解析器模式的基本概念，並且使用 Java 代碼實現了一個簡單的解析器。
-
-連結: https://www.runoob.com/design-pattern/interpreter-pattern.html
-
-3. Interpreter Pattern - GeeksforGeeks
-
-這篇文章介紹了什麼是解析器模式，提供了一個使用解析器模式的實例，以及解析器模式的缺點和優點。
-
-連結: https://www.geeksforgeeks.org/interpreter-pattern/
-
-4. 解析器模式 - CSDN博客
-
-這篇文章介紹了解析器模式的基本概念和原理，並且提供了一些使用解析器模式的實例。
-
-連結: https://blog.csdn.net/roufoo/article/details/83145312
-
-5. 介紹解析器模式 - Javatpoint
-
-這篇文章介紹了解析器模式的定義、用途和結構，並且使用 Java 範例代碼演示了它的使用方式。
-
-連結: https://www.javatpoint.com/interpreter-pattern   
 

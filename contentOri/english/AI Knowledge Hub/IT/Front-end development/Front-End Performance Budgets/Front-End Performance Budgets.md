@@ -1,3 +1,7 @@
++++
+title = "Front-End Performance Budgets"
+weight = "9"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Front-End Performance Budgets
@@ -62,22 +66,4 @@ Give me 5 medium-difficulty questions with answers about Front-End Performance B
 
 5. What are some common challenges that developers face when setting front-end performance budgets?
     - Some common challenges that developers face when setting front-end performance budgets include deciding on realistic and achievable goals, balancing performance with features and functionality, and prioritizing performance improvements within a given budget. They also need to consider the impact of third-party scripts, advertising, and content on overall performance.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Front-End Performance Budgets
-{{< /ask_chatgpt >}}
-
-
-
-1. "Front-End Performance Budgets: Keep your site lightweight and fast" by Ben Frain
-2. "The Front-End Performance Checklist 2021" by Addy Osmani
-3. "How to Build a Performance Budget for Your Website" by Matt Ellis
-4. "Creating a Front-End Performance Budget for Your Website" by Brandon Stevens
-5. "The Front-End Performance Challenge: Build Faster Websites Across Devices" by Google Developers
-6. "Performance Budgets 101" by Paul Irish
-7. "The Benefits and Necessity of a Front-End Performance Budget" by Nick Babich
-8. "How to create a Performance Budget for your Website" by Catchpoint Systems
-9. "Front-End Performance Budgets: A Starting Point" by Justin Avery
-10. "Building a Performance Budget for Your Website" by Nora Brown.   
 

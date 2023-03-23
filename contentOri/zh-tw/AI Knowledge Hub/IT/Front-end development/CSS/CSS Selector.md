@@ -1,9 +1,10 @@
 +++
 title = "CSS 選擇器"
+weight = "1"
 +++
 ## 習題預習
 {{< ask_chatgpt >}}
-給我5題CSS Selector的問題
+給我5題CSS Selector的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -30,7 +31,7 @@ title = "CSS 選擇器"
 
 ## 說明知識
 {{< ask_chatgpt >}}
-說明CSS Selector並舉例
+以中文說明CSS Selector並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -101,7 +102,7 @@ a[title] {
 
 ## 彙總重點
 {{< ask_chatgpt >}}
-條列CSS Selector的重點
+以中文條列CSS Selector的重點
 {{< /ask_chatgpt >}}
 
 
@@ -134,7 +135,7 @@ a[title] {
 
 ## 知識測驗
 {{< ask_chatgpt >}}
-給我5題CSS Selector的中等難度問題，並在後面列出答案
+以中文給我5題CSS Selector的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -166,21 +167,4 @@ div > header + p
 ```
 
 答案僅供參考，可能不唯一。   
-
-## 網路資料
-{{< ask_chatgpt >}}
-給我5篇CSS Selector的網路資料
-{{< /ask_chatgpt >}}
-
-
-
-1. "CSS Selectors" from W3schools.com: This comprehensive page explains CSS selectors in detail, including attribute selectors, class selectors, id selectors, and more.
-
-2. "CSS Selectors Tutorial" by CSS-tricks.com: This tutorial covers the basics of selecting elements with CSS, including some advanced techniques.
-
-3. "The 30 CSS Selectors You Must Memorize" by Codecademy.com: This list breaks down the most important CSS selectors, including pseudo-classes, pseudo-elements, and combinators.
-
-4. "Advanced CSS Selectors" by Smashing Magazine: This article explores more advanced CSS selectors, including structural pseudo-classes, sibling selectors, and more.
-
-5. "CSS Selectors Cheatsheet" by Hostinger.com: This handy cheatsheet provides quick reference for commonly used CSS selectors, including examples of how they can be used in code.   
 

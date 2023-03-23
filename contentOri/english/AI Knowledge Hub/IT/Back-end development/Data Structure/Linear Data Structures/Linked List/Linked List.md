@@ -1,3 +1,7 @@
++++
+title = "Linked List"
+weight = "2"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Linked List
@@ -74,27 +78,4 @@ Answer: The difference between a singly linked list and a doubly linked list is 
 
 5. How do you delete an element from a linked list? 
 Answer: To delete an element from a linked list, we first traverse the list to find the node that contains the value we want to delete. Once we find the node, we set the next reference of the previous node to the next node after the one we want to delete, effectively skipping over it. Then, we deallocate the memory used by the deleted node.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Linked List
-{{< /ask_chatgpt >}}
-
-
-
-1. "Introduction to Linked List" by GeeksforGeeks: This webpage provides a high-level overview of linked lists, their types and operations, along with some code examples.
-
-2. "Linked List Introduction" by Tutorials Point: This webpage covers the basics of linked lists, including their definition, node structure, traversal operations, and memory management.
-
-3. "The Linked List Data Structure" by University of California, Riverside: This brief introduction outlines the benefits and drawbacks of linked list data structures, and describes some of their specialized uses.
-
-4. "Linked List Overview and Implementation in C++" by programmingwithbasics.com: This webpage provides an introduction to linked lists and a detailed explanation of their C++ implementation.
-
-5. "Introduction to Singly Linked Lists" by Studytonight: This tutorial is ideal for beginners, as it discusses the fundamentals of singly linked lists and how they differ from other types.
-
-6. "Introduction to Doubly Linked Lists" by Programiz: This article provides an introduction to doubly linked lists, their operations, node structure, and practical examples.
-
-7. "Building a Linked List in Python" by Real Python: This tutorial covers the basics of linked lists in Python, with an emphasis on building, accessing, and manipulating lists in Python.
-
-8. "Advantages and Disadvantages of Linked List" by javatutoring.com: This webpage discusses the strengths and weaknesses of linked lists, making it ideal for programmers who need to evaluate their suitability for specific applications.   
 

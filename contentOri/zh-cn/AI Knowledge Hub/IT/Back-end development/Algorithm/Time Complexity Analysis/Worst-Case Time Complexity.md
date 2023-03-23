@@ -1,5 +1,6 @@
 +++
 title = "最坏情况时间复杂度"
+weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
@@ -8,11 +9,11 @@ title = "最坏情况时间复杂度"
 
 
 
-1. 一個未排序的陣列中找到最大的元素的時間複雜度是多少？
-2. 在一個含有n個元素的已排序陣列中，找到一個元素的時間複雜度是多少？ 
-3. 在一個樹形結構中，找到最深的葉子節點的時間複雜度是多少？
-4. 在一個包含n個元素的無序二元搜尋樹中，找到最大或最小的元素的時間複雜度是多少？ 
-5. 在一個n x n的矩陣中，找到最小值或最大值的時間複雜度是多少？   
+1. 一个未排序的阵列中找到最大的元素的时间复杂度是多少？
+2. 在一个含有n个元素的已排序阵列中，找到一个元素的时间复杂度是多少？ 
+3. 在一个树形结构中，找到最深的叶子节点的时间复杂度是多少？
+4. 在一个包含n个元素的无序二元搜寻树中，找到最大或最小的元素的时间复杂度是多少？ 
+5. 在一个n x n的矩阵中，找到最小值或最大值的时间复杂度是多少？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
@@ -21,11 +22,11 @@ title = "最坏情况时间复杂度"
 
 
 
-Worst-Case Time Complexity指的是在最劣情況下程序的時間複雜度。即在所有可能的輸入中，程序需要最長的時間才能完成。
+Worst-Case Time Complexity指的是在最劣情况下程序的时间复杂度。即在所有可能的输入中，程序需要最长的时间才能完成。
 
-舉例來說，如果我們要對一個數組進行排序，並且該數組已經是有序的，那麼一個時間複雜度較差的排序算法可能需要O(n^2)的時間才能完成排序。這是因為在有序數組中，該算法仍然需要比較和交換元素，但實際上這些操作是完全不必要的，因為數組已經排序好了。因此，我們可以說在這種情況下，該排序算法的最劣時間複雜度為O(n^2)。
+举例来说，如果我们要对一个数组进行排序，并且该数组已经是有序的，那么一个时间复杂度较差的排序算法可能需要O(n^2)的时间才能完成排序。这是因为在有序数组中，该算法仍然需要比较和交换元素，但实际上这些操作是完全不必要的，因为数组已经排序好了。因此，我们可以说在这种情况下，该排序算法的最劣时间复杂度为O(n^2)。
 
-另一個例子是搜索一個數組中是否存在一個元素。如果該元素在數組的開頭，則算法可以在常數時間內完成。但如果該元素位於數組的末尾，那麼該算法可能需要遍歷整個數組才能找到該元素。在這種情況下，該算法的最劣時間複雜度為O(n)。   
+另一个例子是搜索一个数组中是否存在一个元素。如果该元素在数组的开头，则算法可以在常数时间内完成。但如果该元素位于数组的末尾，那么该算法可能需要遍历整个数组才能找到该元素。在这种情况下，该算法的最劣时间复杂度为O(n)。   
 
 ## 汇总重点
 {{< ask_chatgpt >}}
@@ -34,17 +35,17 @@ Worst-Case Time Complexity指的是在最劣情況下程序的時間複雜度。
 
 
 
-Worst-Case Time Complexity是衡量算法效率的重要指標，指的是當算法面對最差情況時所需執行的最長時間。以下是Worst-Case Time Complexity的重點：
+Worst-Case Time Complexity是衡量算法效率的重要指标，指的是当算法面对最差情况时所需执行的最长时间。以下是Worst-Case Time Complexity的重点：
 
-1. 最壞情況：Worst-Case Time Complexity是從理論上判斷算法效率的指標，它要考慮所有可能的輸入，並選取對算法耗時最長的那一種情況衡量效率。
+1. 最坏情况：Worst-Case Time Complexity是从理论上判断算法效率的指标，它要考虑所有可能的输入，并选取对算法耗时最长的那一种情况衡量效率。
 
-2. 常見符號：通常用大O符號來表示Worst-Case Time Complexity，例如O(n)、O(logn)、O(n^2)等，它們分別表示當輸入規模為n時最壞情況下算法需要執行的時間；
+2. 常见符号：通常用大O符号来表示Worst-Case Time Complexity，例如O(n)、O(logn)、O(n^2)等，它们分别表示当输入规模为n时最坏情况下算法需要执行的时间；
 
-3. 算法效率差距：同一個問題可以有不同的算法，它們的Worst-Case Time Complexity也可能截然不同，因此在選擇算法時必須特別注意該算法的時間複雜度；
+3. 算法效率差距：同一个问题可以有不同的算法，它们的Worst-Case Time Complexity也可能截然不同，因此在选择算法时必须特别注意该算法的时间复杂度；
 
-4. 適用範圍：Worst-Case Time Complexity可以幫助我們找到最高效的算法，但也需要注意實際應用中的各種限制因素，例如硬體性能等；
+4. 适用范围：Worst-Case Time Complexity可以帮助我们找到最高效的算法，但也需要注意实际应用中的各种限制因素，例如硬体性能等；
 
-5. 進一步評估算法表現：在實際情況下，算法的表現往往不僅與Worst-Case Time Complexity有關，還需要考慮其他因素，例如最好情況、平均情況等等。因此，對於一個算法的評估還需要綜合各種情況進行評估。   
+5. 进一步评估算法表现：在实际情况下，算法的表现往往不仅与Worst-Case Time Complexity有关，还需要考虑其他因素，例如最好情况、平均情况等等。因此，对于一个算法的评估还需要综合各种情况进行评估。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
@@ -82,31 +83,4 @@ Worst-Case Time Complexity是衡量算法效率的重要指標，指的是當算
 5. Quick Sort: 按照从小到大的顺序排序数组[10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
 
 序列每次选择第一个元素为枢轴，而序列本身是逆序的，所以每次划分都到了最差情况，时间复杂度为n^2，其中n为数组长度，这里为10，最坏情况需要比较45次，交换45次   
-
-## 网络数据
-{{< ask_chatgpt >}}
-给我5篇Worst-Case Time Complexity的网络数据
-{{< /ask_chatgpt >}}
-
-
-
-1. Worst-Case Time Complexity of Sorting Algorithms
-https://www.geeksforgeeks.org/analysis-of-algorithms-set-2-asymptotic-analysis/
-This article provides a detailed explanation of worst-case time complexity of various sorting algorithms such as Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, and Heap Sort. It also includes their best and average case complexities as well as space complexities.
-
-2. Worst-Case Time Complexity of Graph Algorithms
-https://www.tutorialspoint.com/data_structures_algorithms/worst_case_complexity_of_graph_algorithms.htm
-This article discusses the worst-case time complexity of graph algorithms such as Breadth First Search (BFS), Depth First Search (DFS), Dijkstra's Algorithm, and Bellman-Ford Algorithm. It includes pseudocode for each algorithm and their complexity analysis.
-
-3. Worst-Case Time Complexity of Dynamic Programming Algorithms
-https://www.geeksforgeeks.org/worst-case-time-complexity-of-dynamic-programming-algorithms/
-This article provides an overview of dynamic programming and its worst-case time complexity for various problems such as Fibonacci Series, Longest Common Subsequence, Knapsack Problem, and Rod Cutting Problem. It also includes code examples and complexity analysis for each problem.
-
-4. Worst-Case Time Complexity of String Matching Algorithms
-https://www.geeksforgeeks.org/worst-case-time-complexity-of-string-matching-algorithms/
-This article discusses the worst-case time complexity of various string matching algorithms such as Naive Algorithm, Rabin-Karp Algorithm, Finite Automata Algorithm, and Knuth-Morris-Pratt Algorithm. It includes code examples and complexity analysis for each algorithm.
-
-5. Worst-Case Time Complexity of Tree Algorithms
-https://www.tutorialspoint.com/data_structures_algorithms/worst_case_complexity_of_tree_algorithms.htm
-This article explains the worst-case time complexity of tree algorithms such as Binary Search Tree (BST), AVL Tree, B-Tree, and Red-Black Tree. It includes pseudocode and complexity analysis for each algorithm.   
 

@@ -1,3 +1,7 @@
++++
+title = "Java multithreading and concurrency"
+weight = "3"
++++
 ## Preview
 {{< ask_chatgpt >}}
 give me five question about Java multithreading and concurrency
@@ -101,22 +105,4 @@ Answer: The volatile keyword is used to indicate that a variable may be modified
 
 5. What is a thread pool in Java and how can it improve performance in multithreaded applications? 
 Answer: A thread pool is a collection of pre-created threads that are available for executing tasks. Thread pools improve performance by avoiding the overhead of creating and destroying threads frequently, and by limiting the number of threads that can be created, preventing the system from being overwhelmed with too many threads.   
-
-## Related webpage
-{{< ask_chatgpt >}}
-List the relevant introduction webpages about Java multithreading and concurrency
-{{< /ask_chatgpt >}}
-
-
-
-1. Oracle Java Tutorials: Concurrency: https://docs.oracle.com/javase/tutorial/essential/concurrency/
-2. Java Multithreading - GeeksforGeeks: https://www.geeksforgeeks.org/multithreading-in-java/
-3. Java Concurrency in Practice: https://jcip.net/
-4. Java Thread Tutorial: Creating Threads and Multithreading in Java: https://www.javatpoint.com/thread-in-java
-5. Java Multi-Threading - Tutorialspoint: https://www.tutorialspoint.com/java/java_multithreading.htm
-6. Java Concurrency Tutorial | Baeldung: https://www.baeldung.com/java-concurrency
-7. Java Threads and Concurrency Utilities: https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/concurrent/package-summary.html
-8. Multithreading in Java - Javatpoint: https://www.javatpoint.com/java-multithreading
-9. Java Concurrency: https://www.vogella.com/tutorials/JavaConcurrency/article.html
-10. Java Concurrency Tutorial – Java2Blog: https://java2blog.com/java-concurrency-tutorial/   
 
