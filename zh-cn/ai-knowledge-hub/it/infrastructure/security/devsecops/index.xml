@@ -15,43 +15,14 @@ Secure Software Development Lifecycle（SDLC）包括以下阶段：
 假设一家电子商务公司正在开发一个新的网站。在规划阶段，他们会定义该网站的功能和需求。在分析阶段，他们会评估开发的选项和方法，考虑可能的风险因素，例如未经授权的访问。在设计阶段，他们会建立网站架构和安全措施，例如使用验证技术和加密技术，以确保数据的安全。在开发阶段，他们编写程式码，并在测试阶段严格测试网站以确保其安全以及类似。
 汇总重点 User ask:
 条列Secure Software Development Lifecycle (SDLC)的重点 ChatGPT answer:
-安全威胁评估：SDLC应考虑威胁模型与安全设计。
-设计与开发：SDLC应整合安全措施至设计、编码与测试阶段。
-测试与验证：SDLC应实施有效的测试与验证措施以减少漏洞。
-审查：SDLC应实施安全审查程序以检查代码是否符合安全标准。
-维护：SDLC应整合维护程序以定期检查程式的安全性并修复漏洞。
-监视：SDLC应实施监视程序以侦测未知威胁并采取相应措施。
-文档管理：SDLC应建立适当的文档管理程序来跟踪安全问题，以及相应的修复方法。
-安全训练：SDLC应对开发团队进行培训，以提高他们的安全认识与技能，并促进整体安全文化。</description></item><item><title>安全性测试</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-testing/</guid><description>习题预习 User ask:
-给我5题Security Testing的问题 ChatGPT answer:
-How would you test an application&amp;rsquo;s ability to prevent unauthorized access and protect sensitive data? What methods would you use to identify and mitigate potential security vulnerabilities in a web application? Can you describe the steps you would take to perform a penetration test on a network to find potential security weaknesses? How would you evaluate the effectiveness of a company&amp;rsquo;s disaster recovery plan in the event of a security breach?</description></item><item><title>安全性自动化和编排</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-automation-and-orchestration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-automation-and-orchestration/</guid><description>习题预习 User ask:
-给我5题Security Automation and Orchestration的问题 ChatGPT answer:
-什么是安全自动化和协调，以及它如何帮助组织维护安全？ 安全自动化和协调如何与现有的安全技术和流程集成，以实现更高效和更快速的漏洞处理？ 安全自动化和协调如何保护企业免受内部和外部威胁？ 安全自动化和协调能够提供哪些真实时间的数据以检测和解决风险？ 安全自动化和协调对于大型企业和中小型企业有何不同的适用性？ 说明知识 User ask:
-说明Security Automation and Orchestration并举例 ChatGPT answer:
-Security Automation and Orchestration (SAO) 是指在安全操作和事件管理中，利用自动化和协调的技术实现自动化响应和优化工作流程，以加快响应时间和降低人为误差的风险。在SAO系统中，安全事件从检测开始就得到自动处理，无需干预人员，以快速防止和解决威胁。通过自动化，企业可以获得更严密的安全控制，大大优化人力成本，减少时间和费用。
-举例：
-1.安全事件响应：在网络中如果发现已知的恶意软件代码，SAO系统会利用自动化流程来处理，例如将文件划分入黑名单，以防止潜在风险等。
-2.工作流程协调：当企业收到协调审计的任务时，SAO系统将自动执行程序并生成必要文档，以保持法律合规性。
-3.风险评估：当发现风险时，SAO系统可以根据企业特定的安全标准自动评估其影响，然后发挥其最佳作用，并将结果通知适当的团队成员进行筛选。
-4.事件管理：当发现安全事件时，SAO系统可以在整个安全生命周期内自动跟踪事件管理，并使所有有关事件的参与者随时始终通过网络和移动设备保持联系。
-汇总重点 User ask:
-条列Security Automation and Orchestration的重点 ChatGPT answer:
-1.自动化与协调的结合：透过工作流以及自动化脚本自动化一般性任务,并整合各种不同保安工具。
-2.提高安全事件响应速度：自动化与自动化流程使安全预警和事件得以及时响应。
-3.减少人工介入：自动化可以减少IT和安全专业人员的负担，并减少手动错误的可能性。
-4.提高可视化：与自动化产生关系的产品通常会提供更广泛的API和数据收集，以支持强大的监控和调试。
-5.流程的可再现性：自动化流程可以重复使用，使维护更为有效率。
-6.扩展性：自动化能够支持对大量安全事件的自动化响应，通过延伸可大幅降低人工成本。
-7.综合性：将不同的保安工具结合在一起，自动化迅速解决安全威胁。
-8.威胁情报导入自动化：将威胁情报集成到自动化流程中，能够更全面地对威胁事件做出响应。
-9.集成API：结合多个安全工具的API，能够更有效地进行信息收集，并且标准化不同时期和不同产品的数据。
-10.人工智能：智能安全感知技术能够自动检测漏洞和威胁，并且自动检测出问题。
-知识测验 User ask:
-给我5题Security Automation and Orchestration的中等难度问题，并在后面列出答案 ChatGPT answer:
-什么是安全自动化和协调的主要优势？ 答案：安全自动化和协调具有提高效率、降低风险、快速响应、缩短威胁检测和回应的时间，并开放专攻于解决人类无法处理的问题的人力等主要优势。
-说明下列术语的不同：自动化、半自动化和协调。 答案：自动化是指系统根据预先定义的规则和程序自主执行任务。半自动化是指需要操作员的干预，可执行人与系统之间的交互操作。协调是指自动化工具根据规则和程序，自动将创建的工作流传递到需要处理的人员。
-安全自动化和协调能用来执行什么样的任务？ 答案：安全自动化和协调可应用于威胁检测与分析、反病毒和弱点管理、网络和主机防火墙管理、预防和应对入侵、端点保护和终端检测等任务。
-安全自动化和协调工具需要哪些主要功能？ 答案：安全自动化和协调工具需要包含输入数据化、来源整合、规则自定义的界面、处理自动化、警报通知、仪表板报告、自动响应和用户管理功能等。</description></item><item><title>威胁建模</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/threat-modeling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/threat-modeling/</guid><description>习题预习 User ask:
+安全威脅評估：SDLC應考慮威脅模型與安全設計。
+設計與開發：SDLC應整合安全措施至設計、編碼與測試階段。
+測試與驗證：SDLC應實施有效的測試與驗證措施以減少漏洞。
+審查：SDLC應實施安全審查程序以檢查代碼是否符合安全標準。
+維護：SDLC應整合維護程序以定期檢查程式的安全性並修復漏洞。
+監視：SDLC應實施監視程序以偵測未知威脅並採取相應措施。
+文檔管理：SDLC應建立適當的文檔管理程序來跟蹤安全問題，以及相應的修復方法。
+安全訓練：SDLC應對開發團隊進行培訓，以提高他們的安全認識與技能，並促進整體安全文化。</description></item><item><title>威胁建模</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/threat-modeling/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/threat-modeling/</guid><description>习题预习 User ask:
 给我5题Threat Modeling的问题 ChatGPT answer:
 您如何确定您的应用程序会受到哪些可能的威胁以及针对这些威胁的最佳实践是什么？ 如何确定您的应用程序的数据存储和处理方案可能存在的安全漏洞，以及如何保护这些漏洞？ 您如何评估应用程序的身份验证和授权机制，以最大限度地减少攻击者利用这些系统的可能性？ 如何确定您的应用程序可能会受到社会工程攻击的影响，并采取措施防止攻击者获得潜在的敏感信息？ 您如何确保您的应用程序在可能受到攻击时具有足够的弹性和恢复能力，以便最小化风险并保护终端用户？ 说明知识 User ask:
 说明Threat Modeling并举例 ChatGPT answer:
@@ -84,5 +55,47 @@ Security Automation and Orchestration (SAO) 是指在安全操作和事件管理
 在Threat Modeling中，什么是威胁？ 答案：威胁指的是任何可能导致系统或应用程序受到损害或攻击的潜在风险或漏洞，例如安全漏洞、恶意软件或黑客攻击等。
 在Threat Modeling中，什么是攻击向量？ 答案：攻击向量指的是敌对者可以利用来攻击某个系统或应用程序的方法或方式，包括使用软件漏洞、网络漏洞、恶意软件等。
 在Threat Modeling中，什么是数据完整性？ 答案：数据完整性指的是确保信息和数据没有被篡改、删除或损坏，并且在传输和保留期间保持完整和准确的能力。
-在Threat Modeling中，什么是风险评估？ 答案：风险评估是评估系统或应用程序中潜在威胁和漏洞的过程，以确定哪些问题是最紧急需要解决的，并确定最好的解决方案来减少风险和提高安全性。
-网络数据 User ask:</description></item></channel></rss>
+在Threat Modeling中，什么是风险评估？ 答案：风险评估是评估系统或应用程序中潜在威胁和漏洞的过程，以确定哪些问题是最紧急需要解决的，并确定最好的解决方案来减少风险和提高安全性。</description></item><item><title>安全性测试</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-testing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-testing/</guid><description>习题预习 User ask:
+给我5题Security Testing的问题 ChatGPT answer:
+什么是安全测试，它的目的是什么？ 哪些技术可以用来进行安全测试，它们的优点和缺点是什么？ 安全测试过程中可能会发现哪些常见的漏洞，如何测试和修复它们？ 如何进行渗透测试，它能否发现所有可能的安全漏洞？ 在安全测试过程中如何确定和评估潜在风险，如何决定哪些风险是关键的？ 说明知识 User ask:
+说明Security Testing并举例 ChatGPT answer:
+Security Testing是一种测试方法，旨在检测系统或应用程式的安全漏洞或风险，以确保资讯安全。其目的是发现被骇客或恶意操作者利用的安全漏洞，以及固定漏洞，以防止未来的攻击。
+以下是几个Security Testing的例子：
+Penetration Testing(渗透测试) - 测试人员模拟骇客的行为来测试系统安全性，以确定哪些漏洞已经被固定，哪些漏洞需要修补。
+Vulnerability Scanning(漏洞扫瞄) - 使用自动化工具检测应用程式或系统中的漏洞。测试人员会收集漏洞报告，并评估应该如何处理这些漏洞。
+Security Auditing(安全稽核) - 考虑到安全性，检测所涉及的各种资源，检查他们是不是和政策相一致。此类测试通常是由公司内部的人员执行。
+Code Review(程式码检查) - 漏洞可能出现在应用程式的程式码中。程式码检查是一种静态分析方法，通过手动或自动化工具评估应用程式的程式码并发现潜在漏洞。
+总的来说，Security Testing是一个非常重要的测试类型，可以发现系统或应用程式中存在的各种安全漏洞，并提供解决方案以防止未来的安全漏洞。
+汇总重点 User ask:
+条列Security Testing的重点 ChatGPT answer:
+安全威胁及风险评估 身份认证及授权的确认 漏洞扫瞄和测试 应用程式及网站防护 罪行防范和侦测 社交工程测试 应急响应计划的验证 系统建置及管理的最佳实践 确认遵循相关的安全法规和标准 资讯安全教育和培训的提供 知识测验 User ask:
+给我5题Security Testing的中等难度问题，并在后面列出答案 ChatGPT answer:
+你如何驗證一個網站的SSL/TLS證書是否有效？ 答案： 這可以通過檢查證書Chain、公開密鑰基礎結構（PKI）及其他證書屬性來完成。您可以使用瀏覽器的工具檢查這些屬性，例如在Google Chrome中使用「開發者工具」中的「Security」選項卡。
+您如何對一個應用程式執行SQL注入攻擊？ 答案： 不建議對應用程式執行SQL注入攻擊。相反，您應該使用測試用例創建有意義的輸入來測試應用程式中的防禦措施，例如測試應用程式是否從使用者輸入中消毒所有字元。</description></item><item><title>安全性自动化和编排</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-automation-and-orchestration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/devsecops/security-automation-and-orchestration/</guid><description>习题预习 User ask:
+给我5题Security Automation and Orchestration的问题 ChatGPT answer:
+什麼是安全自動化和協調，以及它如何幫助組織維護安全？ 安全自動化和協調如何與現有的安全技術和流程集成，以實現更高效和更快速的漏洞處理？ 安全自動化和協調如何保護企業免受內部和外部威脅？ 安全自動化和協調能夠提供哪些真實時間的數據以檢測和解決風險？ 安全自動化和協調對於大型企業和中小型企業有何不同的適用性？ 说明知识 User ask:
+说明Security Automation and Orchestration并举例 ChatGPT answer:
+Security Automation and Orchestration (SAO) 是指在安全操作和事件管理中，利用自動化和協調的技術實現自動化響應和優化工作流程，以加快響應時間和降低人為誤差的風險。在SAO系統中，安全事件從檢測開始就得到自動處理，無需干預人員，以快速防止和解決威脅。通過自動化，企業可以獲得更嚴密的安全控制，大大優化人力成本，減少時間和費用。
+舉例：
+1.安全事件響應：在網絡中如果發現已知的惡意軟件代碼，SAO系統會利用自動化流程來處理，例如將文件劃分入黑名單，以防止潛在風險等。
+2.工作流程協調：當企業收到協調審計的任務時，SAO系統將自動執行程序並生成必要文檔，以保持法律合規性。
+3.風險評估：當發現風險時，SAO系統可以根據企業特定的安全標準自動評估其影響，然後發揮其最佳作用，並將結果通知適當的團隊成員進行篩選。
+4.事件管理：當發現安全事件時，SAO系統可以在整個安全生命週期內自動跟蹤事件管理，並使所有有關事件的參與者隨時始終通過網絡和移動設備保持聯繫。
+汇总重点 User ask:
+条列Security Automation and Orchestration的重点 ChatGPT answer:
+1.自動化與協調的結合：透過工作流以及自動化腳本自動化一般性任務,並整合各種不同保安工具。
+2.提高安全事件響應速度：自動化與自動化流程使安全預警和事件得以及時響應。
+3.減少人工介入：自動化可以減少IT和安全專業人員的負擔，並減少手動錯誤的可能性。
+4.提高可視化：與自動化產生關係的產品通常會提供更廣泛的API和數據收集，以支持強大的監控和調試。
+5.流程的可再現性：自動化流程可以重複使用，使維護更為有效率。
+6.擴展性：自動化能夠支持對大量安全事件的自動化響應，通過延伸可大幅降低人工成本。
+7.綜合性：將不同的保安工具結合在一起，自動化迅速解決安全威脅。
+8.威脅情報導入自動化：將威脅情報集成到自動化流程中，能夠更全面地對威脅事件做出響應。
+9.集成API：結合多個安全工具的API，能夠更有效地進行信息收集，並且標準化不同時期和不同產品的數據。
+10.人工智能：智能安全感知技術能夠自動檢測漏洞和威脅，並且自動檢測出問題。
+知识测验 User ask:
+给我5题Security Automation and Orchestration的中等难度问题，并在后面列出答案 ChatGPT answer:
+什么是安全自动化和协调的主要优势？ 答案：安全自动化和协调具有提高效率、降低风险、快速响应、缩短威胁检测和回应的时间，并开放专攻于解决人类无法处理的问题的人力等主要优势。
+说明下列术语的不同：自动化、半自动化和协调。 答案：自动化是指系统根据预先定义的规则和程序自主执行任务。半自动化是指需要操作员的干预，可执行人与系统之间的交互操作。协调是指自动化工具根据规则和程序，自动将创建的工作流传递到需要处理的人员。
+安全自动化和协调能用来执行什么样的任务？ 答案：安全自动化和协调可应用于威胁检测与分析、反病毒和弱点管理、网络和主机防火墙管理、预防和应对入侵、端点保护和终端检测等任务。
+安全自动化和协调工具需要哪些主要功能？ 答案：安全自动化和协调工具需要包含输入数据化、来源整合、规则自定义的界面、处理自动化、警报通知、仪表板报告、自动响应和用户管理功能等。</description></item></channel></rss>

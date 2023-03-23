@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>模組打包器 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-tooling/module-bundlers/</link><description>Recent content in 模組打包器 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-tooling/module-bundlers/index.xml" rel="self" type="application/rss+xml"/><item><title>Webpack</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-tooling/module-bundlers/webpack/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/front-end-tooling/module-bundlers/webpack/</guid><description>習題預習 User ask:
-給我5題Webpack的問題 ChatGPT answer:
+給我5題Webpack的中文問題 ChatGPT answer:
 什麼是Webpack？它的主要功能是什麼？ 如何在Webpack中使用loaders？請舉例說明一種常見的Loader。 Webpack中的plugin是什麼？舉例說明一個常見的plugin。 Webpack的熱加載是什麼？如何啟用熱加載？ 如何在Webpack中優化打包速度？ 說明知識 User ask:
-說明Webpack並舉例 ChatGPT answer:
+以中文說明Webpack並舉例 ChatGPT answer:
 Webpack是一個現代的打包工具。它把不同的模組，如JavaScript、CSS、圖像等進行打包，最後輸出成一個或多個文件。Webpack有多種功能，包括模組化、代碼懶加載、優化等等。
 例如，當我們使用React框架開發一個Web應用程式時，需要將不同的React代碼、樣式表、圖像等都打包在一起。Webpack可以自動解析React的依賴關係，並把它們打包成一個JavaScript文件。同時，Webpack也可以對JavaScript進行壓縮和優化，使得生成的應用程式文件更小，加載速度更快。
 除了React，Webpack還可以用於打包其他前端框架和工具，如Angular、Vue.js、jQuery等等。此外，Webpack還可以與許多其他工具集成，如Babel、TypeScript、Sass等等，使得應用程式更加強大和靈活。
 彙總重點 User ask:
-條列Webpack的重點 ChatGPT answer:
+以中文條列Webpack的重點 ChatGPT answer:
 模組化
 Webpack 讓開發者使用各種模組化程式語言（例如：CommonJS、AMD、ES6 module），使程式碼更易於維護和擴展。
 打包
@@ -22,6 +22,6 @@ Webpack 支援熱模組替換，開發者可以在不刷新網頁的情況下，
 靜態資源處理
 Webpack 可以處理靜態資源（例如：圖片、字體等）的打包和壓縮，減少網頁的加載時間和提升網頁性能。
 知識測驗 User ask:
-給我5題Webpack的中等難度問題，並在後面列出答案 ChatGPT answer:
+以中文給我5題Webpack的中等難度問題，並在後面列出答案 ChatGPT answer:
 如何在Webpack中使用CSS模組化？
 答案： 在Webpack中，可以使用CSS模組化（CSS Modules）來避免CSS樣式衝突的問題。在Webpack的配置文件中，需要添加以下內容： { test: /\.css$/, use: [ &amp;#39;style-loader&amp;#39;, { loader: &amp;#39;css-loader&amp;#39;, options: { modules: true } } ] } 如何在Webpack中實現代碼分割？</description></item></channel></rss>

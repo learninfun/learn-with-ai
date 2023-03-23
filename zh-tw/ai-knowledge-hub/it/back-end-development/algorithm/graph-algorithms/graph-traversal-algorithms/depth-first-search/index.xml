@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>深度優先搜尋 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/depth-first-search/</link><description>Recent content in 深度優先搜尋 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/depth-first-search/index.xml" rel="self" type="application/rss+xml"/><item><title>拓撲排序</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/depth-first-search/topological-sort/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/depth-first-search/topological-sort/</guid><description>習題預習 User ask:
-給我5題Topological Sort的問題 ChatGPT answer:
+給我5題Topological Sort的中文問題 ChatGPT answer:
 有一個有向無環圖(DAG) G，請問是否存在一種頂點排序，使得對於所有的邊 (u,v)， u 在排序中出現在 v 之前？
 在一個旅遊路線上有多個城市，每兩個城市之間有可能有多依賴關係，建立一個依賴圖，請求出任何一種不矛盾的遊覽序列，使得遊覽序列中的任何一個城市的依賴先於該城市出現。
 有一個項目列表，其中每個項目可能有前置項目，若要完成目標項目，請問最少需要完成多少個項目，以及需要以甚麼順序完成才能完成目標項目。
 當機器需要先後安裝多個軟體程式時，若程式之間可能存在依賴關係，請問是否能夠找到一個安裝順序，使得每個程式都有其依賴的所有程式都已經安裝完畢。
 有一個有向圖，請問是否存在一種頂點排序，使得圖上的所有最短路徑都是按照排序中的順序而定義的，其中最短路徑是指任意兩個頂點之間的最短路徑。
 說明知識 User ask:
-說明Topological Sort並舉例 ChatGPT answer:
+以中文說明Topological Sort並舉例 ChatGPT answer:
 Topological Sort是一種圖算法，主要用於拓撲分析，用於確定簡單有向無環圖中節點的線性順序。簡單來說，拓撲排序可以將有向無環圖中的節點排序，使得所有的有向邊從前面的節點指向後面的節點。
 這種排序算法通常用於任務調度和依賴關係的確定。例如，在軟件項目中，拓撲排序可以用於確定任務執行順序或代碼構建的順序。在生活中，拓撲排序可以用於確定各種任務的優先級，例如，基於問題的優先級計劃執行順序，或根據直覺制定待辦事項清單。
 以下是對如何進行拓撲排序算法的簡單步驟：

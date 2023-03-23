@@ -21,5 +21,10 @@ BFS可以用來應對未知的圖形和樹形結構，並且可以與其他搜�
 BFS的時間複雜度為O(V+E)，其中V是圖形的節點數，E是圖形的邊數。
 知识测验 User ask:
 给我5题Breadth-First Search的中等难度问题，并在后面列出答案 ChatGPT answer:
-Word Ladder
-Given two words (beginWord and endWord), and a dictionary&amp;rsquo;s word list, find the length of shortest transformation sequence from beginWord to endWord, such that: Only one letter can be changed at a time.</description></item></channel></rss>
+题目： 给定一个连通无向图，起始节点为S，每个节点都是一个整数，节点间的距离为1。你的任务是从起始节点开始按字典序打印所有节点。输入的图是用邻接矩阵表示的，值为1表示两个节点相连，0表示不连通。 同时输入的起始节点的下标，输出样例中“#”表示空格。 答案：
+from queue import Queue
+def bfs(n, start_node):
+visited = [0] * n
+queue = Queue()
+queue.put(start_node)
+visited[start_node] = 1</description></item></channel></rss>

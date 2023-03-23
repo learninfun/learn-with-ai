@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路流演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/</link><description>Recent content in 網路流演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Edmonds-Karp演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</guid><description>習題預習 User ask:
-給我5題Edmonds-Karp Algorithm的問題 ChatGPT answer:
-What is the time complexity of the Edmonds-Karp algorithm? Can the Edmonds-Karp algorithm solve the maximum flow problem in a directed graph with negative edge weights? Why or why not? What is the maximum flow that can be achieved using the Edmonds-Karp algorithm in a flow network with multiple sources and sinks? How does the Edmonds-Karp algorithm differ from Ford-Fulkerson algorithm in terms of computational efficiency and accuracy in finding the maximal flow?</description></item><item><title>Ford-Fulkerson演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</guid><description>習題預習 User ask:
-給我5題Ford-Fulkerson Algorithm的問題 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路流演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/</link><description>Recent content in 網路流演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Ford-Fulkerson演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</guid><description>習題預習 User ask:
+給我5題Ford-Fulkerson Algorithm的中文問題 ChatGPT answer:
 你有一個有向圖形，每條邊都有一個正整數的容量。從頂點s開始，到頂點t結束。求從s到t的最大流。
 給定一個二分圖，以及源點s和匯點t，請計算最大流值。
 在一個有向圖形中，每個邊都有一個正的權值，求最大權重匹配。
 假設你有一個實時網路，將每個節點表示為一個點。s表示源點，t表示匯點，每條邊都有一個流速。現在，一個節點被標記為黑色，意味著它的能力提高了。該算法如何計算新的最大流？
 在一個有向圖形中，每條邊都有一個正整數的容量和成本。求從s到t的最小花費流。
 說明知識 User ask:
-說明Ford-Fulkerson Algorithm並舉例 ChatGPT answer:
+以中文說明Ford-Fulkerson Algorithm並舉例 ChatGPT answer:
 Ford-Fulkerson演算法（Ford-Fulkerson Algorithm）是一種解決最大流問題（Max Flow Problem）的基本算法，通常用於網路流（Network Flow）研究中。
 該演算法的核心思想是在網路中尋找增廣路（augmenting path），並利用增廣路來增加最大流量（Max Flow）。增廣路是指從源節點到匯點之間存在一條路徑，路徑上還有可用的流量，通過增加這些路徑上的流量可以得到更大的最大流。
 該算法的步驟如下：
@@ -23,7 +21,7 @@ step 2，尋找增廣路，以S為起點，從1邊增廣，將流量設定為1�
 step 3，尋找增廣路，以S為起點，從2邊增廣，將流量設定為2，網路變成。
 網路中不存在增廣路，因此得到最大流為3。
 彙總重點 User ask:
-條列Ford-Fulkerson Algorithm的重點 ChatGPT answer:
+以中文條列Ford-Fulkerson Algorithm的重點 ChatGPT answer:
 Ford-Fulkerson算法是一種用於解決最大流問題的經典算法，它的重點可以概括為以下幾點：
 確定流量網絡 Ford-Fulkerson算法先將圖形建立為流量網絡，其中包括節點、邊以及對應的容量值。
 確定增廣路徑 算法通過尋找增廣路徑來增大網絡流量，增廣路徑是指一條起始節點和終止節點之間，且經過的所有邊上還有剩餘容量的路徑。
@@ -32,5 +30,32 @@ Ford-Fulkerson算法是一種用於解決最大流問題的經典算法，它的
 重複進行增廣路徑搜索直到不存在增廣路徑為止 不斷尋找增廣路徑並調整流量直到無法找到增廣路徑，此時網絡流量即達到了最大值。
 總體而言，Ford-Fulkerson算法的關鍵在於如何尋找增廣路徑，並且在其中找到可以增大網絡流量的最小瓶頸容量。該算法的時間複雜度為O(Ef)，其中E表示網絡流量總邊數，f表示最大流量值。
 知識測驗 User ask:
-給我5題Ford-Fulkerson Algorithm的中等難度問題，並在後面列出答案 ChatGPT answer:
-在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。在創建殘留圖時，先從所有容量為0的反向邊開始，創建具有最下容量的邊。 答案：最大流為23</description></item></channel></rss>
+以中文給我5題Ford-Fulkerson Algorithm的中等難度問題，並在後面列出答案 ChatGPT answer:
+在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。在創建殘留圖時，先從所有容量為0的反向邊開始，創建具有最下容量的邊。 答案：最大流為23</description></item><item><title>Edmonds-Karp演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</guid><description>習題預習 User ask:
+給我5題Edmonds-Karp Algorithm的中文問題 ChatGPT answer:
+假設有一個圖形表示水流網路，每條邊都有一個流量上限。請使用Edmonds-Karp演算法，找出從源頭到匯點的最大流量。 一個國家有很多城市和道路，每條道路都有一個容量限制，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最大流量。 在一個有向圖中，每條邊都有一個權值，請使用Edmonds-Karp演算法找出從源頭到匯點的最小成本最大流量。 一個城市通往其他城市的交通網路，每條路都有一個容量限制和一個花費，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最小成本最大流量。 在一個電信網路中，每一條邊都是一條電纜，每個節點都是一個交換機。如果一對交換機之間的電纜故障了，就不能通信。請使用Edmonds-Karp演算法找出一個最小的故障集，使得從源頭到匯點之間的所有交換機都能夠通信。 說明知識 User ask:
+以中文說明Edmonds-Karp Algorithm並舉例 ChatGPT answer:
+Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找最小割的一種有效算法。該算法基於廣度優先搜索的思想，每次選擇最短路徑增廣，用一個附加數組來保留流量以及每個點的前驅節點。
+以下是Edmonds-Karp算法的流程：
+初始化剩餘網絡：將原始網絡圖轉換成一個容量等同於原圖的剩餘網絡圖。
+廣度優先搜索尋找增廣路徑：對剩餘網絡圖進行廣度優先搜索以尋找從源點到決策點的最短路徑，同時標記每個點已訪問。
+更新剩餘網絡流量：根據增廣路徑上的最小容量來更新剩餘網絡的流量。
+反向增益：回溯增益上的所有邊將流量反轉為反向增量。
+重複直到沒有增廣路徑為止。
+下面是一個例子：
+給定一個5個節點的最大流問題，如下圖所示：
+首先，在剩餘網絡中找到一條最短路徑，也就是S到T的路徑。如下圖所示，這條路徑的容量是4。
+然後，更新網絡的流量，將上述路徑上的所有邊的流量增加4。如下圖所示：
+接下來，找到另一條最短路徑，從S到E到T，容量為3。如下圖所示：
+然後更新網絡的流量，將上述路徑上的所有邊的流量增加3。如下圖所示：
+繼續用相同的方式尋找增廣路徑，更新網絡流量，直到沒有其他增廣路徑存在為止。
+最終得到的最大流量為7，如下圖所示：
+彙總重點 User ask:
+以中文條列Edmonds-Karp Algorithm的重點 ChatGPT answer:
+Edmonds-Karp Algorithm是一種計算最大流量的算法，它是基於Ford-Fulkerson Algorithm的改進版本。 該算法的核心是BFS演算法，用於尋找增廣路。 在每次找到一個增廣路後，該路上的流量被增加，並更新所有經過的邊的殘餘容量。 重複查找增廣路，直到不存在增廣路為止，此時得到的最大流即為最大可行流。 該算法的時間複雜度為O(V*E^2)，其中V是節點數，E是邊數。 Edmonds-Karp Algorithm具有良好的可讀性和易實現性，並已被廣泛應用。 知識測驗 User ask:
+以中文給我5題Edmonds-Karp Algorithm的中等難度問題，並在後面列出答案 ChatGPT answer:
+在一個網路擁有10個頂點和14條邊的情況下，找出源節點為1，匯點為10時的最大流。 答案：最大流為4。
+在一個網路擁有6個頂點和10條邊的情況下，找出源節點為1，匯點為6時的最大流。 答案：最大流為3。
+在一個網路擁有8個頂點和12條邊的情況下，找出源節點為1，匯點為8時的最大流。 答案：最大流為5。
+在一個網路擁有5個頂點和8條邊的情況下，找出源節點為1，匯點為5時的最大流。 答案：最大流為4。
+在一個網路擁有7個頂點和11條邊的情況下，找出源節點為1，匯點為7時的最大流。 答案：最大流為3。</description></item></channel></rss>

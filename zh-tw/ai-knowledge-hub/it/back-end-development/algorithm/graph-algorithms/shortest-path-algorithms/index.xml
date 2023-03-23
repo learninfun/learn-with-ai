@@ -1,20 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最短路徑演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/</link><description>Recent content in 最短路徑演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Bellman-Ford演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/bellman-ford-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/bellman-ford-algorithm/</guid><description>習題預習 User ask:
-給我5題Bellman-Ford Algorithm的問題 ChatGPT answer:
-給定一個加權有向圖，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
-給定一個加權有向圖和兩個頂點，請使用Bellman-Ford Algorithm找出這兩個頂點之間的最短路徑。
-給定一個加權有向圖和起點，請使用Bellman-Ford Algorithm判斷是否存在負環。
-給定一個加權無向圖和起點，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
-給定一個加權有向圖，其中某些邊權重為負數，請使用Bellman-Ford Algorithm找出最長路徑。
-說明知識 User ask:
-說明Bellman-Ford Algorithm並舉例 ChatGPT answer:
-Bellman-Ford Algorithm是用來解決單源最短路問題的一種算法，可以處理存在負權邊的圖。該算法基於對每一條邊進行V-1次松弛操作(其中V是圖中的節點數)，來得到從源點到所有節點的最短路程。
-演算法過程中，提供了一個最短路程表，存儲所有節點到源點的最小路程。該表一開始會被初始化為至少為無限大。 Bellman-Ford Algorithm 重複進行V-1次的下列迴圈：
-對圖中的每一條邊，對其端點進行松弛操作(如果端點的最短路程可以被更新，就更新最短路程表中的路徑長度)。 例如，考慮下面的圖表示法，它有5個節點。
-假設起點是節點1。一開始初始化最短路程表為無限大， SOURCE = (0), OTHERS = (+∞)。
-對每條邊(Tx, Ty, c)進行V-1=4次的松弛操作，一直將節點3、4、5的最短路維護到最新值。
-第1次：
-T1 = 0; T2 = +∞; T3 = +∞; T4 = +∞; T5 = +∞; SOURCE = (0), OTHERS = (T1 T2 T3 T4 T5) ... T3 = min(T3, T1 + 6) = 6; T2 = min(T2, T1 + 3) = 3; SOURCE = (0), OTHERS = (T1 3 6 T4 T5) 第2次：</description></item><item><title>Dijkstra演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/dijkstras-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/dijkstras-algorithm/</guid><description>習題預習 User ask:
-給我5題Dijkstra's Algorithm的問題 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最短路徑演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/</link><description>Recent content in 最短路徑演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Dijkstra演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/dijkstras-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/dijkstras-algorithm/</guid><description>習題預習 User ask:
+給我5題Dijkstra's Algorithm的中文問題 ChatGPT answer:
 在下圖中，使用Dijkstra&amp;rsquo;s Algorithm計算從節點A到節點F的最短路徑。
 節點A、B、C、D、E、F、G連為一棵樹，各自與相鄰節點間有權重，使用Dijkstra&amp;rsquo;s Algorithm計算從節點A到節點G的最短路徑。
 在下圖中，使用Dijkstra&amp;rsquo;s Algorithm計算從節點A到節點J的最短路徑。
@@ -22,7 +7,7 @@ T1 = 0; T2 = +∞; T3 = +∞; T4 = +∞; T5 = +∞; SOURCE = (0), OTHERS = (T1 T
 考慮以下加權有向圖。使用Dijkstra&amp;rsquo;s Algorithm計算從節點A到節點G的最短路徑。
 請注意，這些問題中的圖形可能有其他邊或節點，但為了簡化問題，它們未顯示。對於這些問題，您需要先使用Dijkstra&amp;rsquo;s Algorithm計算出每個節點到源節點的最短路徑。
 說明知識 User ask:
-說明Dijkstra's Algorithm並舉例 ChatGPT answer:
+以中文說明Dijkstra's Algorithm並舉例 ChatGPT answer:
 Dijkstra&amp;rsquo;s Algorithm是一種用於尋找最短路徑的演算法，通常用於計算機科學，特別是網路路由和GPS導航等應用中。
 這個演算法的主要思想是，尋找從起點到終點的最短距離，如果路徑經過的節點有邊權重（也稱為距離）之和最小，那麼該路徑就是最短路徑。Dijkstra算法通過對整個圖進行BFS搜尋，以距離值作為優先順序，計算出從起點到所有節點的距離。
 以下是Dijkstra算法尋找從節點A到節點J的最短路徑的步驟：
@@ -49,7 +34,7 @@ Dijkstra&amp;rsquo;s Algorithm是一種用於尋找最短路徑的演算法，�
 所有節點都已經訪問完畢，距離矩陣中顯示了從節點A到所有節點的最短距離，節點J的距離為17，因此，從節點A到節點J的最短路徑是A-&amp;gt;D-&amp;gt;E-&amp;gt;F-&amp;gt;J，距離為17。
 這就是Dijkstra算法的基本流程，它可以在有向帶權圖中找到最短路徑。注意，如果圖上的邊權重為負數，則此算法可能會出現非最優解。
 彙總重點 User ask:
-條列Dijkstra's Algorithm的重點 ChatGPT answer:
+以中文條列Dijkstra's Algorithm的重點 ChatGPT answer:
 Dijkstra&amp;rsquo;s Algorithm是一種最短路徑演算法，用於在圖中找到從起始點到終點的最短路徑。
 算法需要有一個起點，並通過不斷選擇最短路徑的方式，來進行擴展以找到終點。
 在算法開始之前，必須初始化起點到每一個點的距離值為無限大，起始點的距離值為0。
@@ -57,10 +42,25 @@ Dijkstra&amp;rsquo;s Algorithm是一種最短路徑演算法，用於在圖中�
 在每個點擴展的過程中，計算更新相鄰節點的距離值，如果該距離值比之前的值更小，則將它更新為新的值。
 繼續迭代選擇下一個距離起點最近的未訪問點，直至找到終點或所有點都已訪問。
 在算法結束時，通過從終點逆向遍歷每一個節點，可以得到起始點到終點的最短路徑。
-知識測驗 User ask:</description></item><item><title>Floyd-Warshall演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/floyd-warshall-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/floyd-warshall-algorithm/</guid><description>習題預習 User ask:
-給我5題Floyd-Warshall Algorithm的問題 ChatGPT answer:
+知識測驗 User ask:</description></item><item><title>Bellman-Ford演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/bellman-ford-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/bellman-ford-algorithm/</guid><description>習題預習 User ask:
+給我5題Bellman-Ford Algorithm的中文問題 ChatGPT answer:
+給定一個加權有向圖，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
+給定一個加權有向圖和兩個頂點，請使用Bellman-Ford Algorithm找出這兩個頂點之間的最短路徑。
+給定一個加權有向圖和起點，請使用Bellman-Ford Algorithm判斷是否存在負環。
+給定一個加權無向圖和起點，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
+給定一個加權有向圖，其中某些邊權重為負數，請使用Bellman-Ford Algorithm找出最長路徑。
+說明知識 User ask:
+以中文說明Bellman-Ford Algorithm並舉例 ChatGPT answer:
+Bellman-Ford Algorithm是用來解決單源最短路問題的一種算法，可以處理存在負權邊的圖。該算法基於對每一條邊進行V-1次松弛操作(其中V是圖中的節點數)，來得到從源點到所有節點的最短路程。
+演算法過程中，提供了一個最短路程表，存儲所有節點到源點的最小路程。該表一開始會被初始化為至少為無限大。 Bellman-Ford Algorithm 重複進行V-1次的下列迴圈：
+對圖中的每一條邊，對其端點進行松弛操作(如果端點的最短路程可以被更新，就更新最短路程表中的路徑長度)。 例如，考慮下面的圖表示法，它有5個節點。
+假設起點是節點1。一開始初始化最短路程表為無限大， SOURCE = (0), OTHERS = (+∞)。
+對每條邊(Tx, Ty, c)進行V-1=4次的松弛操作，一直將節點3、4、5的最短路維護到最新值。
+第1次：
+T1 = 0; T2 = +∞; T3 = +∞; T4 = +∞; T5 = +∞; SOURCE = (0), OTHERS = (T1 T2 T3 T4 T5) ... T3 = min(T3, T1 + 6) = 6; T2 = min(T2, T1 + 3) = 3; SOURCE = (0), OTHERS = (T1 3 6 T4 T5) 第2次：</description></item><item><title>Floyd-Warshall演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/floyd-warshall-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/shortest-path-algorithms/floyd-warshall-algorithm/</guid><description>習題預習 User ask:
+給我5題Floyd-Warshall Algorithm的中文問題 ChatGPT answer:
 在無向圖中，如何找出從給定源節點到所有其他節點的最短路徑？ 在有向圖中，如何找出所有節點彼此之間的最短路徑？ 在有向圖中，如何找出所有節點彼此之間的最長路徑？ 在一個網格圖中，如何找出所有格子之間的最短路徑？ 在一個帶權重的有向圖中，如何找出從某個葉子節點到根節點的最短路徑？ 說明知識 User ask:
-說明Floyd-Warshall Algorithm並舉例 ChatGPT answer:
+以中文說明Floyd-Warshall Algorithm並舉例 ChatGPT answer:
 Floyd-Warshall Algorithm（弗洛伊德-沃捨爾算法）是解決圖中所有節點之間最短路徑的經典算法之一，它是一種動態規划算法，以及解決所有點對之間最短路徑的做法，同時也適用於帶有負邊權的圖。
 算法的基本思想是維護一個二維數組D，用來記錄任意兩點之間的最短路徑長度。初始時，D[i][j]表示從節點i到節點j的距離，如果i和j不直接相鄰，那麼D[i][j]=正無窮。算法每進行一輪迭代，便會將D[i][j]和D[i][k]+D[k][j]（相當於以k作為中介）進行比較更新，最終得到任意兩點之間的最短路徑長度。
 以下是弗洛伊德-沃捨爾算法的偽代碼：

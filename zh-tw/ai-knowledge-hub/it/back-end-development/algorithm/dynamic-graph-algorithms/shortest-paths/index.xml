@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最短路徑 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/shortest-paths/</link><description>Recent content in 最短路徑 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/shortest-paths/index.xml" rel="self" type="application/rss+xml"/><item><title>動態最短路徑</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/shortest-paths/dynamic-shortest-path/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/shortest-paths/dynamic-shortest-path/</guid><description>習題預習 User ask:
-給我5題Dynamic Shortest Path的問題 ChatGPT answer:
+給我5題Dynamic Shortest Path的中文問題 ChatGPT answer:
 在一個城市的地圖上，從起點出發到終點，途中有一些施工中的道路需要規劃繞道，如何動態求解最短路徑？ 在一個房產投資平台上，根據不同投資週期和風險等級，房產的售價和租金都可能發生變化，如何實現對房產的最短路徑搜索？ 在一個物料運輸系統中，物料需遵守不同的運輸路線和時間限制，如何實現動態求解最短物料路徑？ 在一個網絡中，節點間的連接狀態往往會發生變化，如何動態求解最短路徑？ 在一個交通運輸系統中，交通狀態會影響到不同路線的時間和距離，如何實現動態求解最短路徑？ 說明知識 User ask:
-說明Dynamic Shortest Path並舉例 ChatGPT answer:
+以中文說明Dynamic Shortest Path並舉例 ChatGPT answer:
 Dynamic Shortest Path是一種動態規划算法，用於計算從一個源點到所有其他節點的最短路徑。它是在宏觀層面上進行考慮，因為它通過解決問題子問題的方式來得出最終結果。具體來說，該算法將源點與終點之間的距離計算為從源點到每個頂點的距離。
 算法的基本思想是將圖分為子圖，並將每個子圖的最短路徑計算出來。最後，這些子圖的結果將被合併以計算完整的圖形。
 例如，假設有一個城市網絡，其中各個城市之間有著不同的距離。現在想找到兩個城市之間最短的路徑。通過Dynamic Shortest Path算法，我們會將圖形分為子圖，然後逐一計算每個子圖的最短路徑。最終，我們可以將這些子圖的路徑合併以獲得最終的路徑。
 因此，Dynamic Shortest Path算法是一種通用的算法，可以用於解決各種計算最短路徑問題的應用場景。
 彙總重點 User ask:
-條列Dynamic Shortest Path的重點 ChatGPT answer:
+以中文條列Dynamic Shortest Path的重點 ChatGPT answer:
 Dynamic Shortest Path (DSP)是一种动态规划算法，用于在动态图中计算从一个节点到另一个节点的最短路径。它可以在不断变化的图上更新最短路径，从而为实时计算和更新路径提供了一种有效方式。
 DSP的关键是定义状态和状态转移方程。状态可以定义为从源节点到每个其他节点的最短距离，而状态转移方程描述了如何更新最短路径。
 DSP的实现可以利用Dijkstra算法或Bellman-Ford算法作为底层算法。Dijkstra算法用于更新最短路径树，而Bellman-Ford算法可以处理带有负权边的图。
@@ -15,7 +15,7 @@ DSP的实现可以利用Dijkstra算法或Bellman-Ford算法作为底层算法。
 另一个关键问题是如何处理带有约束条件的最短路径问题，如权重上限或下限。两种主要的方法是Dijkstra算法和Kuhn-Munkres算法。
 DSP具有广泛的应用场景，包括路由算法、机器人路径规划、车辆导航等。它可以帮助优化资源利用和节约成本，加快数据处理速度，并提高系统的可靠性和效率。
 知識測驗 User ask:
-給我5題Dynamic Shortest Path的中等難度問題，並在後面列出答案 ChatGPT answer:
+以中文給我5題Dynamic Shortest Path的中等難度問題，並在後面列出答案 ChatGPT answer:
 題目：有一張有向帶權圖，每條邊有一個開關，表示這條邊是否斷開。每個時刻，你可以選擇打開一個開關，使得這條邊變得通路可走；或者關閉一個開關，使得這條邊變得不可行走。求從起點到終點的最短距離。
 答案：該問題可以用動態規劃和 Dijkstra 算法求解。
 題目：有一個有向帶權圖，每個頂點有一個權值，每個時刻你可以花費一定的代價額外增加一個頂點，或者刪除其中一個頂點，求從起點到終點的最短距離。

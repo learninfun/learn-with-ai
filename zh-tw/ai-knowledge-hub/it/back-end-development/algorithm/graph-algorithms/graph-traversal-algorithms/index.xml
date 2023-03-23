@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>圖形遍歷演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/</link><description>Recent content in 圖形遍歷演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>廣度優先搜尋</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/breadth-first-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/graph-traversal-algorithms/breadth-first-search/</guid><description>習題預習 User ask:
-給我5題Breadth-First Search的問題 ChatGPT answer:
+給我5題Breadth-First Search的中文問題 ChatGPT answer:
 在一張無向圖中，如何找出兩個給定節點之間的最短路徑？ 在一個網格中，如何找到從起點到終點的最短路徑，其中障礙物可能會阻擋移動？ 如何在一個社交網絡中找到關於某個人的直接或間接聯繫，並計算出與他們之間的距離？ 如何從起點到盡可能多的目標節點，而不必找到最短路徑？ 如何在一個巨大的圖形資料庫中找到與搜索條件最相符的所有圖形，並以最短路徑顯示它們之間的關係？ 說明知識 User ask:
-說明Breadth-First Search並舉例 ChatGPT answer:
+以中文說明Breadth-First Search並舉例 ChatGPT answer:
 Breadth-First Search（BFS）是一種搜尋演算法，以廣度優先的方式來遍歷一個圖形或樹狀結構。
 其遍歷的順序是逐層往下，也就是先遍歷所有的同一深度節點，再遍歷下一深度的節點。在BFS遍歷中，使用一個隊列來維護已經被廣度遍歷的節點，以便按層訪問下一階段節點時使用。
 舉個例子：假設我們有一個有向圖如下圖所示：
@@ -11,7 +11,7 @@ Breadth-First Search（BFS）是一種搜尋演算法，以廣度優先的方式
 最後，遍歷節點5和節點6，發現節點5有一個相鄰節點8，所以把節點8加入隊列中。遍歷完節點5和節點6，隊列已經空了，此時遍歷結束。
 這個例子中，我們首先訪問距離起點節點最近的節點，然後是次近的節點，然後是更遠的節點。這種BFS的訪問順序可以確保我們在最短時間內訪問到所有節點。
 彙總重點 User ask:
-條列Breadth-First Search的重點 ChatGPT answer:
+以中文條列Breadth-First Search的重點 ChatGPT answer:
 廣度優先搜尋演算法（BFS）是一種用來搜索圖形或樹形結構的技術。
 BFS從起始節點開始搜尋，然後逐層擴展，直到達到終點或所有節點都被訪問為止。
 BFS適用於找到最短路徑和最少操作的問題，因為它保證了先找到的路徑長度最短或者操作最少。
@@ -20,6 +20,11 @@ BFS通常需要使用標記訪問過的節點，以避免重複訪問和死循�
 BFS可以用來應對未知的圖形和樹形結構，並且可以與其他搜尋演算法結合使用。
 BFS的時間複雜度為O(V+E)，其中V是圖形的節點數，E是圖形的邊數。
 知識測驗 User ask:
-給我5題Breadth-First Search的中等難度問題，並在後面列出答案 ChatGPT answer:
-Word Ladder
-Given two words (beginWord and endWord), and a dictionary&amp;rsquo;s word list, find the length of shortest transformation sequence from beginWord to endWord, such that: Only one letter can be changed at a time.</description></item></channel></rss>
+以中文給我5題Breadth-First Search的中等難度問題，並在後面列出答案 ChatGPT answer:
+題目： 給定一個連通無向圖，起始節點為S，每個節點都是一個整數，節點間的距離為1。你的任務是從起始節點開始按字典序打印所有節點。輸入的圖是用鄰接矩陣表示的，值為1表示兩個節點相連，0表示不連通。 同時輸入的起始節點的下標，輸出樣例中「#」表示空格。 答案：
+from queue import Queue
+def bfs(n, start_node):
+visited = [0] * n
+queue = Queue()
+queue.put(start_node)
+visited[start_node] = 1</description></item></channel></rss>

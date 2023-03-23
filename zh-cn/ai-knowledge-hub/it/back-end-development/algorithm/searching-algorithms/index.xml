@@ -1,20 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搜寻演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/</link><description>Recent content in 搜寻演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>二分搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/binary-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/binary-search/</guid><description>习题预习 User ask:
-给我5题Binary Search的问题 ChatGPT answer:
-在一個排序好的整數數組中，查找一個特定的元素。 在一個二維排序矩陣中，查找一個特定的元素。矩陣每行都按遞增順序排序，每列都按遞增順序排序。 在升序排列的旋轉數組中，查找一個特定的元素。例如，{5, 6, 7, 8, 9, 10, 1, 2, 3}是一個旋轉了的排序數組，我們要查找元素3。 查找旋轉排序數組中的最小元素。例如，在{5, 6, 7, 8, 9, 10, 1, 2, 3}中，最小元素是1。 在多個排序數組中查找一個共同的元素。例如，在{2, 4, 6, 8, 10}和{1, 3, 4, 5, 7, 9, 10}這兩個排序數組中，查找共同的元素4。 说明知识 User ask:
-说明Binary Search并举例 ChatGPT answer:
-二分搜尋（Binary Search）是一種在排好序的數列中搜尋目標值的演算法，也被稱為折半搜尋。其基本思路為：
-以中間值為基準，將搜索範圍分為左右兩半。
-判斷目標值位於哪一半，然後繼續在該半部分中進行搜尋。
-如果中間值就是目標值，那麼搜索結束，如果搜尋不到目標值，那麼搜索範圍會縮小到最小，並且通過返回值表示目標值是否存在。
-以下是一個簡單的二分搜尋算法的實現。
-public static int binarySearch(int[] nums, int target) { int left = 0, right = nums.length - 1; while (left &amp;lt;= right) { int mid = left + (right - left) / 2; if (nums[mid] == target) { return mid; } else if (nums[mid] &amp;lt; target) { left = mid + 1; } else { right = mid - 1; } } return -1; } 例：在一個有序的整數數組中查找目標值，如需查找的數組為【1,4,6,12,14,17,22,25,26,30】，目標值為17。那麼首先將搜索範圍定為整個數組，查找中間位置mid的數值14小於目標值17，因此縮小搜索範圍至右半部分，再次查找中間位置mid的數值22，仍然比目標值大，繼續縮小搜索範圍至右半部分，至最後查找中間位置mid為目標值17，搜索成功，返回位置值5。</description></item><item><title>内插搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/interpolation-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/interpolation-search/</guid><description>习题预习 User ask:
-给我5题Interpolation Search的问题 ChatGPT answer:
-什么是Interpolation Search？ Interpolation Search的时间与空间复杂度是多少？ Interpolation Search在哪些情况下效益比较好？ 如何实作Interpolation Search？ Interpolation Search与Binary Search的区别是什么？ 说明知识 User ask:
-说明Interpolation Search并举例 ChatGPT answer:
-Interpolation Search 是一种用于搜索有序数组中的元素的算法。其基本思想是根据要查找的元素在数组中可能出现的位置来进行查找，因为在有序数组中，较大的元素通常出现在数组的较后面，而较小的元素则出现在数组的较前面。因此，在找到一个比要查找的元素相近但略大的元素后，可以将搜索范围缩小到这个元素的前面。
-以下是Interpolation Search的实现过程：
-假设有一个有序数组arr和要查找的元素x。 初始化两个变量low和high，分别为数组的第一个元素和最后一个元素的下标。 计算mid作为索引的估计值。mid = low + (high - low) * (x - arr[low]) / (arr[high] - arr[low]) 如果arr[mid]等于要查找的元素x，则返回mid。 如果arr[mid]小于要查找的元素x，则要查找的元素x可能在mid的右边。因此更新low为mid + 1。 如果arr[mid]大于要查找的元素x，则要查找的元素x可能出现在mid的左边。因此更新high为mid - 1。 重复步骤3到6，直到找到目标元素或搜索区间缩小为空。 以下是Interpolation Search的一个例子：
-假设有一个有序数组arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]，要查找的元素x = 12。</description></item><item><title>线性搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/linear-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/linear-search/</guid><description>习题预习 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搜寻演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/</link><description>Recent content in 搜寻演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>线性搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/linear-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/linear-search/</guid><description>习题预习 User ask:
 给我5题Linear Search的问题 ChatGPT answer:
 在一個有序的整數陣列中，找尋目標數字。 從一個字串陣列中，找到第一個出現在指定位置的字串。 在一個雙精度浮點數陣列中，找到所有小於指定數值的數字。 從一個物件陣列中，找到第一個符合條件的物件。 在一個布林值陣列中，找到第一個為真的元素。 说明知识 User ask:
 说明Linear Search并举例 ChatGPT answer:
@@ -40,7 +24,23 @@ Linear Search是一種簡單的搜尋演算法，也被稱為線性搜尋。
 给我5题Linear Search的中等难度问题，并在后面列出答案 ChatGPT answer:
 有一個字元陣列，要求在其中找到第一個不是英文字母的字元。如果找不到，回傳-1。 Input: {&amp;lsquo;a&amp;rsquo;, &amp;lsquo;b&amp;rsquo;, &amp;lsquo;+&amp;rsquo;, &amp;rsquo;d&amp;rsquo;, &amp;lsquo;E&amp;rsquo;, &amp;lsquo;f&amp;rsquo;}
 Output: 2
-有一個整數陣列，每個數字都出現兩次，只有一個數字出現一次。找到這個數字。 Input: {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1}</description></item><item><title>指数搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/exponential-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/exponential-search/</guid><description>习题预习 User ask:
+有一個整數陣列，每個數字都出現兩次，只有一個數字出現一次。找到這個數字。 Input: {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1}</description></item><item><title>二分搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/binary-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/binary-search/</guid><description>习题预习 User ask:
+给我5题Binary Search的问题 ChatGPT answer:
+在一個排序好的整數數組中，查找一個特定的元素。 在一個二維排序矩陣中，查找一個特定的元素。矩陣每行都按遞增順序排序，每列都按遞增順序排序。 在升序排列的旋轉數組中，查找一個特定的元素。例如，{5, 6, 7, 8, 9, 10, 1, 2, 3}是一個旋轉了的排序數組，我們要查找元素3。 查找旋轉排序數組中的最小元素。例如，在{5, 6, 7, 8, 9, 10, 1, 2, 3}中，最小元素是1。 在多個排序數組中查找一個共同的元素。例如，在{2, 4, 6, 8, 10}和{1, 3, 4, 5, 7, 9, 10}這兩個排序數組中，查找共同的元素4。 说明知识 User ask:
+说明Binary Search并举例 ChatGPT answer:
+二分搜尋（Binary Search）是一種在排好序的數列中搜尋目標值的演算法，也被稱為折半搜尋。其基本思路為：
+以中間值為基準，將搜索範圍分為左右兩半。
+判斷目標值位於哪一半，然後繼續在該半部分中進行搜尋。
+如果中間值就是目標值，那麼搜索結束，如果搜尋不到目標值，那麼搜索範圍會縮小到最小，並且通過返回值表示目標值是否存在。
+以下是一個簡單的二分搜尋算法的實現。
+public static int binarySearch(int[] nums, int target) { int left = 0, right = nums.length - 1; while (left &amp;lt;= right) { int mid = left + (right - left) / 2; if (nums[mid] == target) { return mid; } else if (nums[mid] &amp;lt; target) { left = mid + 1; } else { right = mid - 1; } } return -1; } 例：在一個有序的整數數組中查找目標值，如需查找的數組為【1,4,6,12,14,17,22,25,26,30】，目標值為17。那麼首先將搜索範圍定為整個數組，查找中間位置mid的數值14小於目標值17，因此縮小搜索範圍至右半部分，再次查找中間位置mid的數值22，仍然比目標值大，繼續縮小搜索範圍至右半部分，至最後查找中間位置mid為目標值17，搜索成功，返回位置值5。</description></item><item><title>内插搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/interpolation-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/interpolation-search/</guid><description>习题预习 User ask:
+给我5题Interpolation Search的问题 ChatGPT answer:
+什么是Interpolation Search？ Interpolation Search的时间与空间复杂度是多少？ Interpolation Search在哪些情况下效益比较好？ 如何实作Interpolation Search？ Interpolation Search与Binary Search的区别是什么？ 说明知识 User ask:
+说明Interpolation Search并举例 ChatGPT answer:
+Interpolation Search 是一种用于搜索有序数组中的元素的算法。其基本思想是根据要查找的元素在数组中可能出现的位置来进行查找，因为在有序数组中，较大的元素通常出现在数组的较后面，而较小的元素则出现在数组的较前面。因此，在找到一个比要查找的元素相近但略大的元素后，可以将搜索范围缩小到这个元素的前面。
+以下是Interpolation Search的实现过程：
+假设有一个有序数组arr和要查找的元素x。 初始化两个变量low和high，分别为数组的第一个元素和最后一个元素的下标。 计算mid作为索引的估计值。mid = low + (high - low) * (x - arr[low]) / (arr[high] - arr[low]) 如果arr[mid]等于要查找的元素x，则返回mid。 如果arr[mid]小于要查找的元素x，则要查找的元素x可能在mid的右边。因此更新low为mid + 1。 如果arr[mid]大于要查找的元素x，则要查找的元素x可能出现在mid的左边。因此更新high为mid - 1。 重复步骤3到6，直到找到目标元素或搜索区间缩小为空。 以下是Interpolation Search的一个例子：
+假设有一个有序数组arr = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]，要查找的元素x = 12。</description></item><item><title>指数搜寻</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/exponential-search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/searching-algorithms/exponential-search/</guid><description>习题预习 User ask:
 给我5题Exponential Search的问题 ChatGPT answer:
 Exponential Search有哪些优点和缺点？
 如何在一个已排序的数组中使用Exponential Search来查找具有给定值的元素？

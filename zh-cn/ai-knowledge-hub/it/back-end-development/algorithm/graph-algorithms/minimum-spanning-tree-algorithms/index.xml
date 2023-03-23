@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最小生成树演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/</link><description>Recent content in 最小生成树演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>克鲁斯卡尔演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</guid><description>习题预习 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>最小生成树演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/</link><description>Recent content in 最小生成树演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>普利姆演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</guid><description>习题预习 User ask:
+给我5题Prim's Algorithm的问题 ChatGPT answer:
+使用Prim&amp;rsquo;s演算法来寻找一个带有权重边的最小生成树，请问这个演算法的时间复杂度为何？ 请问在Prim&amp;rsquo;s演算法中，如何选择下一个要加入最小生成树的节点？ 假设有一个带有权重边的无向图，请问是否一定存在一个带有权重边的最小生成树？ 如果在Prim&amp;rsquo;s演算法的过程中，所有边的权重都相同，最小生成树可能有多个吗？ 在Prim&amp;rsquo;s演算法中，如何判断一个图是连通的？ 说明知识 User ask:
+说明Prim's Algorithm并举例 ChatGPT answer:
+Prim的演算法是一种用于寻找最小生成树的贪婪演算法。
+简单来说，Prim演算法通过从一个起点开始，选择边的方式来构建一个最小生成树。演算法开始时，选择任意一点作为起点，然后选取与该起点相连的最小权值边，a和b两个点在生成树上，没有其他的路线能够从a和b这两个点达到，接着选择与a或b相连的点到生成树上（由于是连到a或b点，最小权值边的选择是唯一的），此过程迭代直到生成树中包含了所有顶点。
+例如，考虑下图：
+C / | \ 3/ |2\ \4 A---F---B 2\ |5/ /3 \ | / D 从节点A开始，该该节点被添加到生成树中。 节点A与节点F之间的边（权值为2）是包含节点A的最小权值边，添加节点F。节点A与节点C之间的边（权值为3）是包含节点A的最小权值边，添加节点C。 节点F与节点B之间的边（权值为2）是包含节点B，F的最小权值边，添加节点B。 节点F与节点D之间的边（权值为5）是包含节点B、F、D的最小权值边，添加节点D。 节点F与节点E之间的边（权值为4）是包含节点B、F、E、D的最小权值边，添加节点E。
+最终生成树如下所示：
+C | (3) A | F / | \ 2/ | \2 B E D 汇总重点 User ask:
+条列Prim's Algorithm的重点 ChatGPT answer:
+Prim&amp;rsquo;s Algorithm是一种用来找寻最小生成树的演算法。 演算法通常需要一个起始点，从该起始点开始建立最小生成树。 演算法维护两个数据结构，分别是集合S和边集合T。S表示已经在最小生成树上的点，而T则表示已经在最小生成树上的边。 首先将起始点加入集合S中。 从集合S中的所有点开始找寻最小生成树的下一个边，找到其中最小权重的边并加入边集合T中。 将边的两个端点中未被加入集合S中的点加入集合S中，重复上述过程，直到所有点都在集合S中。 Prim&amp;rsquo;s Algorithm的时间复杂度为O(E log V)，其中E是边的数量，V是点的数量。 知识测验 User ask:</description></item><item><title>克鲁斯卡尔演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/kruskals-algorithm/</guid><description>习题预习 User ask:
 给我5题Kruskal's Algorithm的问题 ChatGPT answer:
 使用Kruskal的演算法，在以下边权重图形中找到最小生成树:
 图片:
@@ -23,15 +34,4 @@ Kruskal&amp;rsquo;s Algorithm步骤如下：
 权值总和为 12。
 汇总重点 User ask:
 条列Kruskal's Algorithm的重点 ChatGPT answer:
-Kruskal&amp;rsquo;s Algorithm is used to find the Minimum Spanning Tree (MST) of a given graph.</description></item><item><title>普利姆演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/minimum-spanning-tree-algorithms/prims-algorithm/</guid><description>习题预习 User ask:
-给我5题Prim's Algorithm的问题 ChatGPT answer:
-使用Prim&amp;rsquo;s演算法来寻找一个带有权重边的最小生成树，请问这个演算法的时间复杂度为何？ 请问在Prim&amp;rsquo;s演算法中，如何选择下一个要加入最小生成树的节点？ 假设有一个带有权重边的无向图，请问是否一定存在一个带有权重边的最小生成树？ 如果在Prim&amp;rsquo;s演算法的过程中，所有边的权重都相同，最小生成树可能有多个吗？ 在Prim&amp;rsquo;s演算法中，如何判断一个图是连通的？ 说明知识 User ask:
-说明Prim's Algorithm并举例 ChatGPT answer:
-Prim的演算法是一种用于寻找最小生成树的贪婪演算法。
-简单来说，Prim演算法通过从一个起点开始，选择边的方式来构建一个最小生成树。演算法开始时，选择任意一点作为起点，然后选取与该起点相连的最小权值边，a和b两个点在生成树上，没有其他的路线能够从a和b这两个点达到，接着选择与a或b相连的点到生成树上（由于是连到a或b点，最小权值边的选择是唯一的），此过程迭代直到生成树中包含了所有顶点。
-例如，考虑下图：
-C / | \ 3/ |2\ \4 A---F---B 2\ |5/ /3 \ | / D 从节点A开始，该该节点被添加到生成树中。 节点A与节点F之间的边（权值为2）是包含节点A的最小权值边，添加节点F。节点A与节点C之间的边（权值为3）是包含节点A的最小权值边，添加节点C。 节点F与节点B之间的边（权值为2）是包含节点B，F的最小权值边，添加节点B。 节点F与节点D之间的边（权值为5）是包含节点B、F、D的最小权值边，添加节点D。 节点F与节点E之间的边（权值为4）是包含节点B、F、E、D的最小权值边，添加节点E。
-最终生成树如下所示：
-C | (3) A | F / | \ 2/ | \2 B E D 汇总重点 User ask:
-条列Prim's Algorithm的重点 ChatGPT answer:
-Prim&amp;rsquo;s Algorithm is used to find the minimum spanning tree of a connected weighted undirected graph.</description></item></channel></rss>
+将所有的边按照权值从小到大排序 开始遍历所有边，如果遇到的边不会形成环路，就将该边加入最小生成树中 判断环路的方法可以是利用Union-Find资料结构 当所有边都遍历完毕或是最小生成树中的边数已达到其顶点数-1时结束 Kruskal&amp;rsquo;s Algorithm具有贪心的思想，每次选择权值最小的边，是获得最小生成树的保证 时间复杂度为O(ElogE)，其中E为边的数量，因为排序需要O(ElogE)的时间，接着进行E次寻找，每次寻找需要O(1)的时间 知识测验 User ask:</description></item></channel></rss>

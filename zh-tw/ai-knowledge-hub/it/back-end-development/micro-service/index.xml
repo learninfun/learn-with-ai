@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微服務 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/micro-service/</link><description>Recent content in 微服務 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/micro-service/index.xml" rel="self" type="application/rss+xml"/><item><title>RESTful API</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</guid><description>習題預習 User ask:
-給我5題RESTful API的問題 ChatGPT answer:
+給我5題RESTful API的中文問題 ChatGPT answer:
 什麼是RESTful API？
 RESTful API與傳統API有何區別？
 什麼是URI？URI在RESTful API中扮演什麼角色？
 RESTful API中的CRUD是什麼意思？
 如何保證RESTful API的安全性和可靠性？
 說明知識 User ask:
-說明RESTful API並舉例 ChatGPT answer:
+以中文說明RESTful API並舉例 ChatGPT answer:
 RESTful API（Representational State Transfer API）是一种基于HTTP协议、遵循REST原则的Web API，可以用来让不同的软件应用程序之间通讯，提供资源和操作。
 REST原则包括：使用URI描述资源、使用HTTP动词描述操作、使用HTTP状态码返回结果、使用Hypermedia作为应用程序状态转移的引擎等。
 以下是一个简单的例子，说明如何创建一个RESTful API：
@@ -20,7 +20,7 @@ REST原则包括：使用URI描述资源、使用HTTP动词描述操作、使用
 Hypermedia是一种用于描述应用程序状态的格式，可以表达所有可能从当前状态进行的状态转移。例如，其他可用的资源可以通过链接提供，从而帮助客户端进行导航和发现。
 总的来说，RESTful API是一种非常灵活和可扩展的API设计模式，可以与各种不同的客户端和服务器技术一起使用。其优点包括相对简单易用、易于扩展、面向资源等特点。常见的RESTful API包括Twitter API、GitHub API等。
 彙總重點 User ask:
-條列RESTful API的重點 ChatGPT answer:
+以中文條列RESTful API的重點 ChatGPT answer:
 基於資源：RESTful API是基於資源的設計，每一個資源都有一個獨立的URI，表示用戶可以通過URI訪問資源。
 請求方法：使用HTTP請求方法（GET, POST, PUT, DELETE）來執行操作。
 無狀態：RESTful API是無狀態的，每一個請求都是獨立的，伺服器不會保留任何用戶的狀態。

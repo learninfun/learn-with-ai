@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>逼近算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/</link><description>Recent content in 逼近算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>背包问题</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</guid><description>习题预习 User ask:
-给我5题Knapsack Problem的问题 ChatGPT answer:
-有一个背包可以装重量为W的物品，在一个物品序列中，每个物品有一个特定的重量w[i]和价值v[i]，请问最多可以装多少价值的物品？ 有一个背包可以装重量为W的物品，在一个物品序列中，每个物品有一个特定的体积v[i]和价值w[i]，请问最多可以装多少价值的物品？ 有n个物品，每个物品有一个特定的重量w[i]和价值v[i]，现在需要把它们分成两堆，使得两堆的总重量相等，请问这两堆物品的最大价值和是多少？ 有n个物品，每个物品有一个特定的重量w[i]和价值v[i]，现在有一个背包可以承重W，请问可以装多少件物品使得总价值最大？ 有n个物品，每个物品有一个特定的体积v[i]和价值w[i]，现在有一个背包可以承容量C，请问可以装多少件物品使得总价值最大？ 说明知识 User ask:
-说明Knapsack Problem并举例 ChatGPT answer:
-背包问题（Knapsack Problem）是一个经典的组合优化问题，描述了如何从一个限制好重量和体积的背包中选择最有价值的物品，使得总体积不超过背包的容量。
-举例来说，假设有一个容量为10的背包，而且有下列的一些物品：
-物品 重量 价值 物品1 3 4 物品2 4 5 物品3 2 3 物品4 1 2 物品5 5 6 现在你需要从这些物品中选择出一些物品，放进背包中，使得它们的总重量不超过10，且它们的总价值要最大。设每个物品放或不放的状态为1或0，则可列出下列的决策矩阵：
-物品 1 2 3 4 5 重量 3 4 2 1 5 价值 4 5 3 2 6 接着可以使用动态规划的方法来解决这个问题。设f(i, j)为在前i个物品中选择，且总重量不超过j的情况下，可以得到的最大价值。则可以得到下列的转移方程：
-f(i, j) = max(f(i-1, j), f(i-1, j-w[i])+v[i])，其中w[i]表示第i个物品的重量，v[i]表示第i个物品的价值
-最后，f(5, 10)即为答案，代表在这些物品中选出一些物品，可以得到的最大价值是18。</description></item><item><title>点覆盖</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</guid><description>习题预习 User ask:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>逼近算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/</link><description>Recent content in 逼近算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>点覆盖</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/vertex-cover/</guid><description>习题预习 User ask:
 给我5题Vertex Cover的问题 ChatGPT answer:
 给定一个图形，找出最小的点集合，使得图形中的每一条边都至少经过其中一个点。
 在一个无向图中，找到包含所有奇数度数节点的最小点集合。
@@ -31,54 +22,63 @@ Vertex Cover問題的最小值可以用最小割問題轉化求解。
 Vertex Cover問題在計算機科學理論、算法和複雜性理論中都有廣泛的應用，是研究和設計高效算法的重要題材之一。
 知识测验 User ask:
 给我5题Vertex Cover的中等难度问题，并在后面列出答案 ChatGPT answer:
-假设你有一个无向图，每个节点都有一个权重。你的目标是找到一个最小的vertex cover，使得这些节点的权重总和最大。求最大权重总和。 答案：使用动态规划，令MCV(i)为图的前i个节点的最小vertex cover大小，W(i)为第i个节点的权重。则MCV(i)可表示为以下两种情况的较小值：
-第i个节点被选中，那么前i-2个节点就一定要成为vertex cover，所以MCV(i-2) + W(i)。
-第i个节点没有被选中，那么前i-1个节点就一定要成为vertex cover，所以MCV(i-1)。
-给定一个图，你需要从其中去掉k个节点，使得剩下的子图是一个独立集。求k的最小值。
-答案：该问题等价于在原图上求最小vertex cover。可以用二分图匹配求解。
-给定一个无向图，每条边都有一个权重。求一个最小的vertex cover，使得所有边都至少有一个端点在vertex cover中。 答案：最小无权二分图匹配问题的变形，可以使用Konig定理转化为最大权二分图匹配问题。</description></item><item><title>集合覆盖</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</guid><description>习题预习 User ask:
-给我5题Set Cover的问题 ChatGPT answer:
-假设有一个城市，里面有5个公园，需要在这些公园周围设置照明设施，如何选择最少的照明点，使得每个公园都有充足的照明？ 一间公司需要选择广告平台以宣传其产品，可选择的平台有10种，但每个平台价格不同，如何选择最少的平台，以覆盖所有潜在客户？ 一个医院需要选择哪些人员参加一个紧急的灯火紧急计划，以下是几种人员选择方案，如何选择最少的方案以确保所有可能的应急情况都得到适当的应对？ 一个农夫有一块大田地，需要选择哪些作物种植，以达到最大的收益，可种植的作物包括小麦、玉米、豆类等，但每种作物的种植面积有限，且每种作物的投入和产出不同。 一个零售商需要选择哪些产品摆放在店面陈列柜里以吸引顾客，可选择的产品有50种，但每种产品的销售量和利润不同，如何选择最少的产品，以最大化销售额和利润？ 说明知识 User ask:
-说明Set Cover并举例 ChatGPT answer:
-Set Cover是一个组合优化问题，目标是在一组集合中，找到最小的子集，使得这些子集的联集可以包括所有元素。
-例如，假设有以下三个集合：
-A = {1, 2, 3, 4}
-B = {2, 4, 6}
-C = {3, 5}
-我们可以选择两个子集：{A, C}或{B, C}，这些子集的联集都可以涵盖所有的元素。因此，这是一个Set Cover问题。
-在这个问题中，我们希望找到包含所有元素的最小子集。例如，在这个例子中，解决方案可能是{A, C}，因为它只需要两个集合来覆盖所有的元素。
-Set Cover问题在实际应用中广泛使用，例如在计算机科学、运输规划、慈善捐赠等领域。解决Set Cover问题的算法包括贪婪算法、动态规划和整数线性规划等。
-汇总重点 User ask:
-条列Set Cover的重点 ChatGPT answer:
-Set Cover 是一個組合優化問題，目的是在一群集合中找到最少的集合，使得它們的聯集包含所有元素。 Set Cover 經常被用來描述許多現實世界的問題，如旅行商問題、雜草清除、廣告投放等。 Set Cover 的簡單貪心算法是一個有效的近似解法，它的解答可以在多項式時間內求得。 Set Cover 是一個NP-hard問題，因此沒有已知的快速解決方案。 為了解決 Set Cover，可以使用近似算法、精確算法、隨機算法等。 Set Cover 和其他組合優化問題經常在計算機科學和操作研究中被學習和應用。 知识测验 User ask:</description></item><item><title>旅行商问题</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</guid><description>习题预习 User ask:
+假設你有一個無向圖，每個節點都有一個權重。你的目標是找到一個最小的vertex cover，使得這些節點的權重總和最大。求最大權重總和。 答案：使用動態規劃，令MCV(i)為圖的前i個節點的最小vertex cover大小，W(i)為第i個節點的權重。則MCV(i)可表示為以下兩種情況的較小值：
+第i個節點被選中，那麼前i-2個節點就一定要成為vertex cover，所以MCV(i-2) + W(i)。
+第i個節點沒有被選中，那麼前i-1個節點就一定要成為vertex cover，所以MCV(i-1)。
+給定一個圖，你需要從其中去掉k個節點，使得剩下的子圖是一個獨立集。求k的最小值。
+答案：該問題等價於在原圖上求最小vertex cover。可以用二分圖匹配求解。
+給定一個無向圖，每條邊都有一個權重。求一個最小的vertex cover，使得所有邊都至少有一個端點在vertex cover中。 答案：最小無權二分圖匹配問題的變形，可以使用Konig定理轉化為最大權二分圖匹配問題。</description></item><item><title>旅行商问题</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/traveling-salesman-problem/</guid><description>习题预习 User ask:
 给我5题Traveling Salesman Problem的问题 ChatGPT answer:
-在一個城市之間有多少種最短路徑？ 如何尋找一個旅行商所需的最短路徑去訪問一組城市？ 如何最小化旅行商所需的時間、距離或成本？ 如何在最小的行駛路線中包含一個指定的城市？ 如果有一個城市是不可達的，如何找到一個最短路徑的替代方案？ 说明知识 User ask:
+在一个城市之间有多少种最短路径？ 如何寻找一个旅行商所需的最短路径去访问一组城市？ 如何最小化旅行商所需的时间、距离或成本？ 如何在最小的行驶路线中包含一个指定的城市？ 如果有一个城市是不可达的，如何找到一个最短路径的替代方案？ 说明知识 User ask:
 说明Traveling Salesman Problem并举例 ChatGPT answer:
-旅行商問題（Traveling Salesman Problem）是一種經典的問題，在計算機科學和運籌學等領域中被廣泛應用。該問題的基礎是給定一個包含多個城市的地圖，旅行商需要從起點出發，經過每個城市且只經過一次，最終回到起點。問題是找到一個最短的路徑，使得旅行商的路程最短。
-例如，在下圖中，旅行商需要從城市A出發，經過所有城市只經過一次，最終回到城市A。藍色的線表示一條可能的路徑，但是不是最短的路徑。
-這個問題的難點在於隨著城市數量增加，可能的路徑數量會急劇增加，計算最優解需要高度的計算能力。因此，許多算法已經被開發出來，以解決Traveling Salesman Problem。
-常用算法包括貪心算法、動態規劃、旅行商模擬退火算法、遺傳算法等。這些算法以不同的方式進行經過城市的組合計算，並試圖找到一個最短的路徑。
-總之，Traveling Salesman Problem 是一個經典的問題，在現實生活中有許多應用，例如路線規劃、貨物運輸和旅遊規劃等。
+旅行商问题（Traveling Salesman Problem）是一种经典的问题，在计算机科学和运筹学等领域中被广泛应用。该问题的基础是给定一个包含多个城市的地图，旅行商需要从起点出发，经过每个城市且只经过一次，最终回到起点。问题是找到一个最短的路径，使得旅行商的路程最短。
+例如，在下图中，旅行商需要从城市A出发，经过所有城市只经过一次，最终回到城市A。蓝色的线表示一条可能的路径，但是不是最短的路径。
+这个问题的难点在于随着城市数量增加，可能的路径数量会急剧增加，计算最优解需要高度的计算能力。因此，许多算法已经被开发出来，以解决Traveling Salesman Problem。
+常用算法包括贪心算法、动态规划、旅行商模拟退火算法、遗传算法等。这些算法以不同的方式进行经过城市的组合计算，并试图找到一个最短的路径。
+总之，Traveling Salesman Problem 是一个经典的问题，在现实生活中有许多应用，例如路线规划、货物运输和旅游规划等。
 汇总重点 User ask:
 条列Traveling Salesman Problem的重点 ChatGPT answer:
-定義：旅行推銷員問題（TSP）是一種在旅行商找到一個經過所有指定城市的最短路徑的問題，並且確保最終訪問的城市必須與起點城市相同。
-廣泛應用：TSP被廣泛應用於運輸、電信、製造、軟體和設計等業務領域，以幫助優化路徑和減少成本。
-NP-hard問題：TSP被證明是NP-hard問題，即對於一組大型問題，找到最優解需要指數時間。
-問題的變體：TSP的變體包括多旅行商問題、機器人路徑問題、最小權重漢密爾頓路徑問題等。
-解決方法：解決TSP的方法包括動態規劃、貪心算法、人工智能算法等。
-問題限制：TSP中的限制包括規劃城市路線中的節點數、城市之間的距離和路徑形狀等。
-目標函數：TSP中的目標函數是最小化訪問所有城市所需的總路徑長度或時間，以獲得最佳路線。
-算法評估：評估算法的方法包括時間複雜度、空間複雜度、精度和可靠性等。
-可視化：TSP的解決方法可以以圖形方式呈現，以便更好地理解路徑和可視化結果。
-現實應用：TSP在現實中的應用包括交通路線優化、物流配送、無人機路徑規劃等。
+定义：旅行推销员问题（TSP）是一种在旅行商找到一个经过所有指定城市的最短路径的问题，并且确保最终访问的城市必须与起点城市相同。
+广泛应用：TSP被广泛应用于运输、电信、制造、软体和设计等业务领域，以帮助优化路径和减少成本。
+NP-hard问题：TSP被证明是NP-hard问题，即对于一组大型问题，找到最优解需要指数时间。
+问题的变体：TSP的变体包括多旅行商问题、机器人路径问题、最小权重汉密尔顿路径问题等。
+解决方法：解决TSP的方法包括动态规划、贪心算法、人工智能算法等。
+问题限制：TSP中的限制包括规划城市路线中的节点数、城市之间的距离和路径形状等。
+目标函数：TSP中的目标函数是最小化访问所有城市所需的总路径长度或时间，以获得最佳路线。
+算法评估：评估算法的方法包括时间复杂度、空间复杂度、精度和可靠性等。
+可视化：TSP的解决方法可以以图形方式呈现，以便更好地理解路径和可视化结果。
+现实应用：TSP在现实中的应用包括交通路线优化、物流配送、无人机路径规划等。
 知识测验 User ask:
 给我5题Traveling Salesman Problem的中等难度问题，并在后面列出答案 ChatGPT answer:
-有一個業務員需要走訪4個城市，他必須從A出發，每個城市只能拜訪一次，且返回A的路線必須最短。每個城市的路程如下： A到B：5
+有一个业务员需要走访4个城市，他必须从A出发，每个城市只能拜访一次，且返回A的路线必须最短。每个城市的路程如下： A到B：5
 A到C：2
 A到D：6
 B到C：1
 B到D：3
 C到D：8
-答案：A-&amp;gt;B-&amp;gt;C-&amp;gt;D-&amp;gt;A，總路程為16
-有一個業務員需要走訪5個城市，他必須從A出發，每個城市只能拜訪一次，且返回A的路線必須最短。每個城市的路程如下： A到B：1
-A到C：2</description></item></channel></rss>
+答案：A-&amp;gt;B-&amp;gt;C-&amp;gt;D-&amp;gt;A，总路程为16
+有一个业务员需要走访5个城市，他必须从A出发，每个城市只能拜访一次，且返回A的路线必须最短。每个城市的路程如下： A到B：1
+A到C：2</description></item><item><title>集合覆盖</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/set-cover/</guid><description>习题预习 User ask:
+给我5题Set Cover的问题 ChatGPT answer:
+假設有一個城市，裡面有5個公園，需要在這些公園周圍設置照明設施，如何選擇最少的照明點，使得每個公園都有充足的照明？ 一間公司需要選擇廣告平台以宣傳其產品，可選擇的平台有10種，但每個平台價格不同，如何選擇最少的平台，以覆蓋所有潛在客戶？ 一個医院需要选择哪些人员参加一個緊急的灯火緊急計劃，以下是幾種人員選擇方案，如何选择最少的方案以确保所有可能的应急情况都得到適當的應對？ 一個農夫有一塊大田地，需要選擇哪些作物種植，以達到最大的收益，可種植的作物包括小麥、玉米、豆類等，但每種作物的種植面積有限，且每種作物的投入和產出不同。 一個零售商需要選擇哪些產品擺放在店面陳列櫃裡以吸引顧客，可選擇的產品有50種，但每種產品的銷售量和利潤不同，如何選擇最少的產品，以最大化銷售額和利潤？ 说明知识 User ask:
+说明Set Cover并举例 ChatGPT answer:
+Set Cover是一個組合優化問題，目標是在一組集合中，找到最小的子集，使得這些子集的聯集可以包括所有元素。
+例如，假設有以下三個集合：
+A = {1, 2, 3, 4}
+B = {2, 4, 6}
+C = {3, 5}
+我們可以選擇兩個子集：{A, C}或{B, C}，這些子集的聯集都可以涵蓋所有的元素。因此，這是一個Set Cover問題。
+在這個問題中，我們希望找到包含所有元素的最小子集。例如，在這個例子中，解決方案可能是{A, C}，因為它只需要兩個集合來覆蓋所有的元素。
+Set Cover問題在實際應用中廣泛使用，例如在計算機科學、運輸規劃、慈善捐贈等領域。解決Set Cover問題的算法包括貪婪算法、動態規劃和整數線性規劃等。
+汇总重点 User ask:
+条列Set Cover的重点 ChatGPT answer:
+Set Cover 是一個組合優化問題，目的是在一群集合中找到最少的集合，使得它們的聯集包含所有元素。 Set Cover 經常被用來描述許多現實世界的問題，如旅行商問題、雜草清除、廣告投放等。 Set Cover 的簡單貪心算法是一個有效的近似解法，它的解答可以在多項式時間內求得。 Set Cover 是一個NP-hard問題，因此沒有已知的快速解決方案。 為了解決 Set Cover，可以使用近似算法、精確算法、隨機算法等。 Set Cover 和其他組合優化問題經常在計算機科學和操作研究中被學習和應用。 知识测验 User ask:</description></item><item><title>背包问题</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/approximation-algorithms/knapsack-problem/</guid><description>习题预习 User ask:
+给我5题Knapsack Problem的问题 ChatGPT answer:
+有一个背包可以装重量为W的物品，在一个物品序列中，每个物品有一个特定的重量w[i]和价值v[i]，请问最多可以装多少价值的物品？ 有一个背包可以装重量为W的物品，在一个物品序列中，每个物品有一个特定的体积v[i]和价值w[i]，请问最多可以装多少价值的物品？ 有n个物品，每个物品有一个特定的重量w[i]和价值v[i]，现在需要把它们分成两堆，使得两堆的总重量相等，请问这两堆物品的最大价值和是多少？ 有n个物品，每个物品有一个特定的重量w[i]和价值v[i]，现在有一个背包可以承重W，请问可以装多少件物品使得总价值最大？ 有n个物品，每个物品有一个特定的体积v[i]和价值w[i]，现在有一个背包可以承容量C，请问可以装多少件物品使得总价值最大？ 说明知识 User ask:
+说明Knapsack Problem并举例 ChatGPT answer:
+背包问题（Knapsack Problem）是一个经典的组合优化问题，描述了如何从一个限制好重量和体积的背包中选择最有价值的物品，使得总体积不超过背包的容量。
+举例来说，假设有一个容量为10的背包，而且有下列的一些物品：
+物品 重量 价值 物品1 3 4 物品2 4 5 物品3 2 3 物品4 1 2 物品5 5 6 现在你需要从这些物品中选择出一些物品，放进背包中，使得它们的总重量不超过10，且它们的总价值要最大。设每个物品放或不放的状态为1或0，则可列出下列的决策矩阵：
+物品 1 2 3 4 5 重量 3 4 2 1 5 价值 4 5 3 2 6 接着可以使用动态规划的方法来解决这个问题。设f(i, j)为在前i个物品中选择，且总重量不超过j的情况下，可以得到的最大价值。则可以得到下列的转移方程：
+f(i, j) = max(f(i-1, j), f(i-1, j-w[i])+v[i])，其中w[i]表示第i个物品的重量，v[i]表示第i个物品的价值
+最后，f(5, 10)即为答案，代表在这些物品中选出一些物品，可以得到的最大价值是18。</description></item></channel></rss>
