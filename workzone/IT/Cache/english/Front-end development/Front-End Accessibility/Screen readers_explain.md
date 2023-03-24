@@ -1,5 +1,0 @@
-
-
-Screen readers are software tools that are designed to help people who are blind, visually impaired, or have difficulty reading to access and interact with digital content such as web pages, documents, emails, and more. These tools work by converting the text on the screen to speech or braille, allowing users to hear or read the content using a keyboard, mouse, or other assistive technology.
-
-One example of a screen reader is NVDA (NonVisual Desktop Access). This is a free and open-source screen reader software that can be used on Windows computers. NVDA reads the text displayed on the screen, including menus, buttons, and other user interface elements, and allows users to navigate through the content using keyboard commands. The software can also recognize many common file formats like PDFs and Microsoft Office documents, web pages, and email clients, making it a powerful tool for individuals with visual impairments to access digital information.

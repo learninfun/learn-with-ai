@@ -1,0 +1,5 @@
+
+
+Encryption is the process of converting plain text or data into an unreadable or coded format to protect it from unauthorized access. Encrypted data can only be accessed with the correct decryption key. Key management is the management of cryptographic keys used in encryption to ensure the secure creation, maintenance, storage, and destruction of these keys.
+
+For example, when sending sensitive information, such as banking information or personal details, over the internet, encryption is typically used to protect the information during transmission. The information is encrypted using a cryptographic algorithm and can only be decrypted using a specific decryption key that is only known to the sender and recipient. Key management ensures that these keys are securely created, stored, and distributed to authorized parties and are destroyed when no longer needed. This helps prevent unauthorized access to the encrypted data.

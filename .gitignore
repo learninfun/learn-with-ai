@@ -4,5 +4,5 @@ static/hugo-graphy/js/hugo-graphy-data*.js
 static/hugo-graphy/js/hugo-graphy-data_en.js
 static/hugo-graphy/js/hugo-graphy-data_zh-tw.js
 .vscode/
-workzone/*/result
+workzone/*/*/output
 tools/AI-knowledge-extractor/config/openAI_api_key.txt

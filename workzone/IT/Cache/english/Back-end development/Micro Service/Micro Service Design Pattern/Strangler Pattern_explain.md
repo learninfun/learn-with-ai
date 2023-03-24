@@ -1,7 +1,0 @@
-
-
-The Strangler Pattern is a software development technique used to replace an existing system (or part of it) with an improved version gradually, without disrupting the existing system's functionality. The goal of this approach is to reduce the risks and costs associated with a sudden full-scale replacement of an existing system. The Strangler Pattern is named after the way in which some plants grow by wrapping around a host tree and eventually replacing it.
-
-An example of the Strangler Pattern involves the development of a new version of an e-commerce website that needs to be introduced gradually to the system's clients. Instead of replacing the entire website at once, the development team may identify critical parts of the website that need upgrading, such as the product pages or user registration functionality. The team could then build new microservices that offer the same functionality as the existing system, but with the new features included. These microservices can be integrated with the existing website in a controlled manner, allowing the development team to monitor and test the new features' performance and stability.
-
-As the new microservices are rolled out and gain momentum, they take over more of the website's functionality until the entire website has been replaced. By using the Strangler Pattern, the development team can reduce the risks and costs associated with a full-scale replacement while ensuring that the new website is more reliable and user-friendly.

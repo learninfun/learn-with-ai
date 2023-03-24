@@ -1,0 +1,5 @@
+
+
+Containers are a type of operating system (OS) virtualization that allows you to run multiple isolated instances of an application on a single host operating system, sharing the same kernel. Essentially, it is a way to package an application's code and dependencies into a single, portable unit that can be run on any system that supports the containerization technology.
+
+A popular example of a container technology is Docker, which uses containerization to enable developers to package, deploy, and run applications consistently across any infrastructure, from local development machines to production deployments. With Docker, developers can build an application in a container and deploy it to a cloud service provider or on-premise infrastructure, ensuring that the deployment environment is consistent and predictable, no matter where it runs. Other examples of container technologies include Kubernetes, Apache Mesos, and Google Container Engine.

@@ -1,5 +1,0 @@
-
-
-The observer pattern is a design pattern in which an object, called the subject, maintains a list of its dependents, called observers, and notifies them automatically of any changes to its state. This pattern is useful in situations where some objects depend on the state of other objects and need to be informed when that state changes.
-
-Example: Imagine an online shopping website that offers discounts on products. Whenever a new discount is offered, the website sends an email to all the customers who have subscribed to the newsletter. Here, the website is the subject, and the customers who subscribed to the newsletter are the observers. The website maintains a list of email addresses of subscribers and notifies them whenever a new discount is offered. In this way, the website uses the observer pattern to notify its customers of changes to its state (i.e., new discounts).

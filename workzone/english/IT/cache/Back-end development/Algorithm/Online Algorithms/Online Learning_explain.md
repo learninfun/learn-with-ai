@@ -1,0 +1,5 @@
+
+
+Online learning or e-learning is an educational process that takes place through the internet or other digital mediums. It involves the use of electronic media such as web-based and other digital courses to deliver educational content and support learning. Online learning is cost-effective, convenient, and flexible, offering learners the opportunity to learn at their own pace and on their own schedule.
+
+For instance, Coursera is an online learning platform providing courses from top universities and leading organizations to learners around the globe. The platform offers thousands of courses in various subjects, including computer science, business, arts, languages, and many more. Coursera provides the opportunity for learners to develop their skills and earn certificates from leading institutions, without having to attend a physical class. This type of online learning has become increasingly popular in recent years, especially during the COVID-19 pandemic, where traditional classroom learning has become disrupted.

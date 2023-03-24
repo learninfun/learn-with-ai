@@ -1,0 +1,5 @@
+
+
+Measuring performance is the process of evaluating how effectively and efficiently individuals, teams, or organizations are achieving their goals and objectives. It involves monitoring and analyzing different aspects of performance, including quality, quantity, timeliness, cost, and customer satisfaction.
+
+An example of measuring performance is an employee performance review. In this process, managers evaluate their employees' work over a specified period, looking at factors like the quality of work, quantity of work completed, adherence to deadlines, and interactions with colleagues and customers. The results of the review help managers identify areas where employees may need further training or support, set performance goals for the next period, and provide feedback for continuous improvement.

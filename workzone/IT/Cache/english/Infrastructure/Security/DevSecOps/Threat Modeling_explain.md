@@ -1,5 +1,0 @@
-
-
-Threat modeling is a technique used to identify and mitigate potential vulnerabilities and risks in software systems, applications, or environments. It involves identifying and assessing the potential threats to a system, evaluating the potential impact of these threats, and implementing measures to mitigate or eliminate them. 
-
-An example of threat modeling would be for a banking institution to identify potential threats to their online banking application. They would evaluate potential risks of fraud, identity theft, and malware attacks. They would then consider the potential impact of these threats, such as financial loss, legal liability, or reputational damage. From there, they would implement measures such as secure coding practices, monitoring for suspicious activity, and two-factor authentication to mitigate these risks.

@@ -1,5 +1,0 @@
-
-
-Caching refers to the process of temporarily storing frequently used data or resources in a cache memory or storage location in order to speed up subsequent access to that data. Cache is often used to reduce latency and improve efficiency by reducing the amount of time it takes to access data.
-
-For example, web browsers typically use caching to store website content such as images, videos, and text files on the user's device so they don't have to redownload the same content every time they visit the site. This reduces the amount of data that needs to be transferred over the internet, resulting in faster page load times and a better browsing experience. Another example is caching in computer processors, where frequently accessed data is stored in a small high-speed memory cache to avoid accessing slower main memory. This helps to speed up processing and improve overall performance.

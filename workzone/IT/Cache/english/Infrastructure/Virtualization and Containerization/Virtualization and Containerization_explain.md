@@ -1,9 +1,0 @@
-
-
-Virtualization is a technology that enables multiple operating systems to run on a single physical machine. It creates a virtual machine (VM) that emulates a complete hardware environment to run multiple instances of an operating system. Each VM has its own CPU, memory, and disk space, and operates independently of other VMs on the same physical machine. Virtualization allows businesses to consolidate their IT resources, enabling more efficient use of computing power by creating multiple virtual servers in one physical server. Examples of virtualization software include VMware, Hyper-V, and VirtualBox.
-
-Containerization, on the other hand, is a method of virtualization that allows multiple applications to run on a single operating system without the need for a full hardware environment. In containerization, each application runs in a container, which isolates it from other containers and the underlying operating system. Containers share the same kernel and operating system libraries, making them more lightweight and efficient than virtual machines. Containers can be quickly and easily deployed, scaled, and managed, making them ideal for cloud-based applications. Examples of containerization software include Docker, Kubernetes, and OpenShift.
-
-An example of virtualization could be a business that runs multiple virtual servers on a single physical machine. Each virtual server operates independently, and can run a different operating system or application.
-
-An example of containerization could be a web application that runs multiple microservices in containers on a cloud-based platform. Each microservice runs in its own container, and can be deployed, scaled, and managed independently of the other microservices.

@@ -1,5 +1,0 @@
-
-
-A circuit breaker is an electrical switch designed to protect an electrical circuit from damage caused by excess current from an electrical overload, short circuit or a fault. Its primary function is to automatically disrupt electrical flow when the current exceeds a safe level, thus preventing dangerous overheating or fire. 
-
-An example can be seen in a typical home electrical panel, where circuit breakers are used to protect individual circuits from overloading. Each circuit has a breaker associated with it, and if the current exceeds the allowed limit, the breaker will trip, shutting off the flow of electricity to that circuit immediately. This way, the breaker protects appliances and electrical devices from damage, as well as preventing any danger of electrical fires or damage to the wiring of your home.

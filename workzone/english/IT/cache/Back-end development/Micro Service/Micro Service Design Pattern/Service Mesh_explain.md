@@ -1,0 +1,7 @@
+
+
+Service mesh is defined as a dedicated infrastructure layer that manages service-to-service communication within a microservices architecture. It helps separate the concerns of service development from the concerns of service operations by providing a common layer of communication management across all the services in the mesh.
+
+A service mesh typically consists of a set of network proxies, also known as sidecars, that are deployed alongside each service instance in the mesh. These proxies are responsible for managing the communication between the services, enforcing security policies, and collecting telemetry data. The proxies also communicate with a central control plane, which is responsible for managing the overall behavior of the service mesh.
+
+An example of a service mesh is Istio, an open-source service mesh that provides traffic management, security, and observability for microservices running on Kubernetes. With Istio, developers can easily define traffic routing rules, enforce security policies, and collect metrics and logs for debugging and monitoring their microservices. Furthermore, Istio includes traffic management features such as traffic splitting, traffic shifting, and circuit breaking that allow developers to introduce new deployments or features to their microservices with minimal risk to the end-users.

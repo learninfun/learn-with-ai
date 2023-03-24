@@ -1,0 +1,5 @@
+
+
+Facade is a design pattern in software development where a simplified interface is provided to a complex system. It provides a unified interface to a set of interfaces in a subsystem, making the system easier to use and understand. The Facade pattern simplifies the integration of the subsystems by providing a single entry point that abstracts the complexity and inner workings of the system.
+
+An example of the Facade pattern is a computer operating system. The operating system is a complex system that contains many subsystems, such as the file system, networking, and device drivers. The user interacts with the operating system through a user interface, such as the desktop or command line, which simplifies the communication with the subsystems. The user doesn't need to know the details of how the file system or networking works, they only need to know how to use the user interface. The user interface acts as a facade for the subsystems, providing a simplified interface to the complex system.

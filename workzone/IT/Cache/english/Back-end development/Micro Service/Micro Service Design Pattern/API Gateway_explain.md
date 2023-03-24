@@ -1,9 +1,0 @@
-
-
-API Gateway is a kind of service provided by cloud platforms, that provides a central entry point for external clients to access an organization's web services or microservices.
-
-An API Gateway is basically a layer that sits between clients and services. Its main goal is to facilitate the management and routing of request/response calls between the client and services. By providing a single point of entry or communication between a client and the back-end services, an API Gateway plays a significant role in improving security, performance, and compliance.
-
-An example of an API Gateway can be illustrated by large organizations that use API gateways to manage and control web services communication. For example, consider a company TX, which provides several web services to its customers. Their services include e-commerce, search, product reviews, and transaction services. To manage the incoming request/response calls from customers to each of these services and ensure security maintenance, the company set up an API Gateway as an intermediary layer between the clients and its services.
-
-The API gateway handles all requests that come in from the client, then depicts and routes the requests to the appropriate microservices. As a result, the developer does not have to plan or maintain those services independently over different cloud applications, and the clients can access all the critical services by means of a single interface through the API Gateway. This also enables the organization to implement factors like authentication, caching, traffic throttling, and rate limiting on a centralized network, instead of doing it for each backend service separately.

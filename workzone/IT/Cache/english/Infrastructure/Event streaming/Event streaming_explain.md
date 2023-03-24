@@ -1,5 +1,0 @@
-
-
-Event streaming refers to the process of publishing and subscribing to events in real-time. An event is any significant occurrence or change in a system that is worth noting, such as a user logging in, a purchase being made, or an error occurring. Event streaming allows applications to respond to these events immediately, rather than periodically polling for updates.
-
-One example of event streaming is a stock trading system. The system may have a stream of events such as stock prices, news articles, and trade executions. The system can subscribe to these streams and use them to make real-time trading decisions. For example, if there is a sudden increase in the price of a stock, the system could automatically purchase shares, without any human intervention. This capability enables organizations to make faster, more informed decisions and respond to changes in real-time.

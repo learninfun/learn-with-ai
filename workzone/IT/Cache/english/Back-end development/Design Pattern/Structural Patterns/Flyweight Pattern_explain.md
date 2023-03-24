@@ -1,7 +1,0 @@
-
-
-The Flyweight pattern is a structural design pattern that is used to minimize the memory usage and improve the performance of an application by sharing common data across multiple objects. The Flyweight pattern achieves this by using a set of small, lightweight objects (flyweights) that store shared data and are reused by multiple objects instead of creating new objects every time.
-
-For example, consider a text editor application where users can create and edit documents. Each document may contain words or phrases that are used repeatedly throughout the document. Instead of storing a separate copy of each repeated word or phrase, the Flyweight pattern can be used to store only one instance of each word or phrase as a flyweight object. These flyweights can then be shared among multiple documents, reducing the memory usage of the application.
-
-In this example, each flyweight object would contain the shared data (a word or phrase), and each document object would contain a reference to the appropriate flyweight object. When a user types in a repeated word or phrase in the document, the application would use the existing flyweight object rather than creating a new object. This would result in reduced memory usage and improved performance of the application.

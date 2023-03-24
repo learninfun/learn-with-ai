@@ -1,5 +1,0 @@
-
-
-Front-end development refers to the process of designing and developing the user interface of a website or application. Front-end developers work on the client-side of a website or application, dealing with elements that users interact with such as text, images, buttons, and forms. They use programming languages such as HTML, CSS, and JavaScript to create a visually appealing and user-friendly interface.
-
-An example of front-end development would be the creation of an online shopping website. A front-end developer would be responsible for designing the overall layout of the website, including the placement of product images, text, and buttons. They would also write code to ensure that the website is responsive and able to adapt to different screen sizes. This way, users can view and interact with the website on their desktop, tablet or mobile devices with ease. Overall, front-end development plays a crucial role in making websites and applications user-friendly and engaging.

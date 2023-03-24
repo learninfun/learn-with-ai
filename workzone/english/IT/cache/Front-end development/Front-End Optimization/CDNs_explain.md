@@ -1,0 +1,7 @@
+
+
+CDN stands for Content Delivery Network. It is a system of servers spread across a network of geographically dispersed data centres that cater to a client’s request for content by serving it from the server closest to the client’s origin. Essentially, CDNs are designed to optimize the delivery of web pages and other web content to end-users.
+
+CDNs work by caching a copy of a website’s static files, also known as assets, such as images, videos, stylesheets, and JavaScript libraries, on their servers located around the globe. When a user requests for a website, the CDN checks their location, then reroutes the request to the nearest server to deliver the content from there. This results in faster load times for users, as the time needed for the website's assets to be retrieved and served from the origin server is reduced.
+
+An example of a CDN is Cloudflare. Cloudflare operates a worldwide network of over 200 data centres that help to speed up content delivery by reducing the distance between the web server and the user. Additionally, it protects websites from DDoS attacks and other malicious traffic by providing security services such as SSL encryption, DNS protection, and web application firewall.

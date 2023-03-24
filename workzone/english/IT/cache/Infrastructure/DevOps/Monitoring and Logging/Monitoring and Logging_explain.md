@@ -1,0 +1,7 @@
+
+
+Monitoring refers to the active and ongoing process of tracking system activities and performance indicators using a range of tools, techniques, and processes. It involves collecting data on various aspects of a system, such as server performance, network traffic, application usage, and user behavior to detect and resolve issues before they escalate.
+
+Logging, on the other hand, refers to the act of recording events and activities in a system, application, or network. This is often done to keep a record of system activities that can be used for troubleshooting, auditing, or analysis purposes. Logs can store information about various aspects of a system, including user actions, error messages, system events, and security-related activities.
+
+An example of monitoring and logging in action could be the analysis of server performance to detect performance issues. In this scenario, monitoring tools such as CPU and memory usage sensors can be used to collect data on the server's performance, which is then logged for analysis. By analyzing this data, it may be possible to detect potential problems or bottlenecks in the system that could affect its overall performance. Such information can help IT professionals take proactive measures to resolve those issues before they cause system downtime or other operational problems.

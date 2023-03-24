@@ -1,0 +1,5 @@
+
+
+Web frameworks are software libraries that help developers create web applications more easily and efficiently. They provide abstractions of low-level web development components, such as session handling, authentication, and database querying, and offer pre-built functions and templates that developers can use to streamline their coding.
+
+One popular web framework is Django. It is a free and open-source framework that enables developers to build robust and scalable web applications quickly. Django follows the model-view-controller (MVC) pattern and uses Python as its programming language. Its feature-rich nature includes an Object-Relational Mapper (ORM), which provides an easy way to interact with databases like SQLite, PostgreSQL, or MySQL. It also includes libraries for handling common web development tasks, such as authentication, URL routing, and form validation. Django is widely used in many industries and is the go-to web framework for organizations like NASA, Mozilla, and Instagram.

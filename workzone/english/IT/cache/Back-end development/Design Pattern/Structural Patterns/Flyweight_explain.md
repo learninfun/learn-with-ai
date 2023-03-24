@@ -1,0 +1,5 @@
+
+
+Flyweight is a software design pattern in which objects are shared to reduce memory usage. It is used to reduce the number of objects created by reusing similar objects available in the system. This design pattern is used when we have a large number of objects of a similar type, and creating new objects for each instance can lead to huge memory consumption. 
+
+For example, consider a game that requires a large number of trees. In this case, creating individual tree objects for each instance can consume a lot of memory. Instead, the Flyweight pattern suggests creating a single shared object that represents the common state of all the trees. Each individual tree object will then just reference this shared object and customize its state as needed (such as location, size, or color) without duplicating the common state. This can significantly reduce memory usage and speed up the game.

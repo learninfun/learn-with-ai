@@ -1,7 +1,0 @@
-
-
-Command Query Responsibility Segregation (CQRS) is an architectural pattern that separates the responsibility of handling read and write operations into two separate models. Commands change the state of the system by creating, updating or deleting data whereas queries retrieve data, without changing the data. In simple terms a query is a request for information about the state of the system and a command is an instruction to change that state.
-
-An example of CQRS is a shopping cart application. In this application, the write model is responsible for processing commands such as adding items to a customer’s cart, updating quantities, or removing items from the cart. The read model is responsible for processing queries such as displaying the contents of the shopping cart at any given time or calculating the total cost of items in the cart. The read and write models are kept separate to optimize each process for its particular use case.
-
-By separating the read and write models, CQRS allows developers to design efficient code and optimize performance based on how the system is being used. It also enables teams to work more efficiently since developers can focus solely on writing code that is specific to read or write queries.

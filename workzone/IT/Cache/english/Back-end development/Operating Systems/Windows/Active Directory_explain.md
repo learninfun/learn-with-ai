@@ -1,7 +1,0 @@
-
-
-Active Directory (AD) is a directory service developed by Microsoft for Windows domain networks. It is a database system that stores information about computers, users, and other resources on the network. 
-
-AD is typically used in organizations to centralize network management, allowing administrators to manage user accounts, group policy settings, network resources, and other important aspects of the IT infrastructure. It provides a single sign-on for all network resources, which makes it easier for users to access resources across different systems.
-
-An example of Active Directory in action can be seen in a company that uses Windows Server as their primary operating system. The IT staff will set up an AD domain, which includes a server acting as a domain controller that manages user authentication, security policies, and access to various network resources such as printers, shared folders, and applications. The user accounts will be created and managed within AD, enabling users to log in once and have access to all the resources they need within the network. When a user changes their password, the change is propagated across all systems that use that password. This ensures security and simplifies the administration process.

@@ -1,5 +1,0 @@
-
-
-Strategy is a long-term plan of action designed to achieve a particular goal or set of goals. It involves a thought-out plan of action that is developed by an organization or individual to achieve a specific objective.
-
-An example of strategy could be a company's plan to increase its market share in a particular industry. The company will develop a strategic plan that outlines specific steps it will take to achieve this goal. This could include increasing advertising, lowering prices, enhancing the quality of products, and expanding into new markets. The company may also develop tactics for each step, such as identifying a target audience for advertising, reviewing the competitive landscape for price changes, and researching potential new markets for expansion. By implementing a strategic plan, the company will have a clear roadmap for achieving its desired objective.

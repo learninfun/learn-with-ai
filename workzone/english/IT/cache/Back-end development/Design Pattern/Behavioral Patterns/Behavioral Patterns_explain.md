@@ -1,0 +1,5 @@
+
+
+Behavioral Patterns are common solutions that arise in software development to capture and describe recurring interactions between objects or within a system. These patterns help developers to identify and implement effective ways to organize communication and functionality within a system, leading to more efficient and maintainable code.
+
+An example of the Behavioral Pattern is Observer Pattern. The Observer Pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically. This pattern allows loosely coupled relationships between objects, reducing code complexity and increasing flexibility. For instance, consider an e-commerce platform where a customer receives notifications about their order status. In this scenario, the customer is the observer who depends on the order status, which is the subject. When the order status changes, the system sends a notification to the customer, updating them about the change, showing the Observer pattern implemented.

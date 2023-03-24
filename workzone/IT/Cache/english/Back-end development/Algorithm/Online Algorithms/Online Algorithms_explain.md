@@ -1,5 +1,0 @@
-
-
-Online algorithms are algorithms that make decisions based on a sequence of inputs, without knowing the entire sequence in advance. In other words, they receive input data piece-by-piece and are required to produce results or make decisions while receiving the inputs. This differs from offline algorithms, which assume that all input data is available before the algorithm begins to operate.
-
-An example of an online algorithm is the Least Recently Used (LRU) Cache algorithm. This algorithm is used in computer memory management systems to determine which items to remove when the cache limit is reached. The algorithm keeps track of the most recently used items and removes the least recently used items when the cache limit is reached. The LRU Cache algorithm works by first storing items in a linked list in the order they are accessed. When the cache limit is reached, the least recently used item is removed by deleting the first element of the linked list. The LRU Cache algorithm operates online because it makes decisions based on incoming data (memory use) as it comes in, without requiring knowledge of the entire sequence of memory use beforehand.

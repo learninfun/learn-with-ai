@@ -1,0 +1,5 @@
+
+
+Selenium is an open-source automation testing tool that is widely used for web applications. It allows automating the testing of web applications across different browsers and operating systems. Selenium provides a set of functionalities to interact with web elements, manipulate browser behavior for testing, and capture test results.
+
+One example of using Selenium is to automate the login page of a web application. In this scenario, the script will open the browser and navigate to the login page of the web application. It will then enter the credentials into the appropriate form fields and submit the form. The script will also validate that the user has logged in successfully by checking the URL or a specific element on the page. This process can be automated using Selenium and can save time and effort for the testing team.

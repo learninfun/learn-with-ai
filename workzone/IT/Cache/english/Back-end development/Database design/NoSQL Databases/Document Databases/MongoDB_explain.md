@@ -1,5 +1,0 @@
-
-
-MongoDB is a document-oriented database that falls into the category of NoSQL databases. It stores data in documents rather than tables and uses a flexible schema to manage the data. MongoDB is designed to be scalable, highly available, and fast. It is widely used in applications that demand real-time data processing and large amounts of unstructured data.
-
-Example: Consider an e-commerce website that stores the details of the products, user details, reviews, and order details. A traditional database system would have to maintain separate tables for each of these entities, and each table may have different fields. In MongoDB, all these entities can be grouped together in a single database and stored as documents. Each document can contain all the relevant information for a specific entity, and new fields can be added as required without having to modify the entire schema. For instance, a product document in MongoDB can have fields like name, description, price, reviews, and ratings. This saves storage space and query time since MongoDB indexes documents instead of individual fields.

@@ -1,5 +1,0 @@
-
-
-Brute Force is a trial-and-error method used to solve complex mathematical problems or cryptographic puzzles by trying all possible solutions through exhaustive search. It's an approach where the attacker systematically and methodically checks every possible combination of characters until the correct solution is found. 
-
-For example, password cracking using brute force is a common attack that hackers use to gain access to a system or network. The attacker will try every possible combination of characters, numbers, and symbols until the correct password is guessed. In some cases, they might use a dictionary attack where they try all the words in a dictionary to guess the password. Brute force attacks can be very time-consuming, but they can be successful if the password is weak or predictable. Another example could be brute-force attack on encrypted messages using random encryption keys.

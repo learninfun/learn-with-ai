@@ -1,5 +1,0 @@
-
-
-A directed graph, also known as a digraph, is a type of graph where the edges connecting the nodes are directional, meaning they have a specific direction associated with them. In other words, it is a graph consisting of vertices or nodes connected by directed edges or arcs.
-
-An example of a directed graph is a family tree. In a family tree, each person is represented by a node, and the directional edges show the relationships between them. For instance, the father node points to the mother node to depict marriage, and the parent nodes point to the children's nodes to depict parent-child relationships. In this example, the edges are directional because the relationship between a parent and a child has a specified direction. Another example could be the relationship between cities, where the directed edges represent one-way streets or connections from one city to another.

@@ -1,5 +1,0 @@
-
-
-Memento is a narrative device that presents a story in reverse chronological order. It typically begins at the end of the story and then works its way backwards to the beginning, revealing pieces of the plot and character development along the way. The aim is to create a disorienting effect for the audience (or reader), as they must constantly re-evaluate what they thought they knew and try to piece together the story's events. 
-
-An example of Memento is the film of the same name, directed by Christopher Nolan. The movie follows a man named Leonard Shelby, who suffers from short-term memory loss and is struggling to hunt down his wife's killer. The film unfolds in reverse order, with each scene revealing a bit more information about the events leading up to his wife's murder. As a result, the audience must constantly re-evaluate what they know about Leonard, his motivations, and the truth behind his wife's death.
