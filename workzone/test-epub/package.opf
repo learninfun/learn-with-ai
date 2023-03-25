@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" version="3.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="pub-id">urn:uuid:d551719e-fc93-4f9b-a6fd-0d824093b8ed</dc:identifier>
+    <dc:title>My title</dc:title>
+    <dc:language>en</dc:language>
+    <dc:creator id="creator">Hingle McCringleberry</dc:creator>
+    <meta refines="#creator" property="role" scheme="marc:relators" id="role">aut</meta>
+    <meta property="dcterms:modified">2023-03-25T06:45:11Z</meta>
+  </metadata>
+  <manifest>
+    <item id="s1.html" href="xhtml/s1.html" media-type="application/xhtml+xml"></item>
+    <item id="s1_1.html" href="xhtml/s1_1.html" media-type="application/xhtml+xml"></item>
+    <item id="s1_1_1.html" href="xhtml/s1_1_1.html" media-type="application/xhtml+xml"></item>
+    <item id="s1_2.html" href="xhtml/s1_2.html" media-type="application/xhtml+xml"></item>
+    <item id="s1_3.html" href="xhtml/s1_3.html" media-type="application/xhtml+xml"></item>
+    <item id="s2.html" href="xhtml/s2.html" media-type="application/xhtml+xml"></item>
+    <item id="s3.html" href="xhtml/s3.html" media-type="application/xhtml+xml"></item>
+    <item id="nav" href="nav.xhtml" media-type="application/xhtml+xml" properties="nav"></item>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"></item>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="s1.html"></itemref>
+    <itemref idref="s1_1.html"></itemref>
+    <itemref idref="s1_1_1.html"></itemref>
+    <itemref idref="s1_2.html"></itemref>
+    <itemref idref="s1_3.html"></itemref>
+    <itemref idref="s2.html"></itemref>
+    <itemref idref="s3.html"></itemref>
+  </spine>
+</package>

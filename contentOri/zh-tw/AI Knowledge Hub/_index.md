@@ -1,6 +1,6 @@
 +++
 title = "AI理解的知識庫"
-weight = 2
+weight = 3
 +++
 
 ## 概念
@@ -12,9 +12,9 @@ weight = 2
 
 ## 目前已展開的知識
 - Information Technology
-  - [Front-end development](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/front-end-development/)
-  - [Back-end development](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/back-end-development/)
-  - [Infrastructure](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/infrastructure/)
+  - [前端開發](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/front-end-development/)
+  - [後端開發](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/back-end-development/)
+  - [基礎設施](https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/infrastructure/)
 
 ## 如何使用ChatGPT來探索並了解知識
 - 名詞定義

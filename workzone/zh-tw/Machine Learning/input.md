@@ -1,0 +1,9 @@
+- Machine Learning
+  - Supervised Learning
+    - Regression
+      - Linear Regression
+      - Polynomial Regression
+      - Ridge Regression
+      - Lasso Regression
+  - Unsupervised Learning
+    - Clustering

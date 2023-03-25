@@ -1,0 +1,19 @@
+1. 針對一個包含大量文字的資料集，該如何利用Unsupervised Learning進行文本分群？
+
+答案：可以使用K-Means Clustering或Hierarchical Clustering來進行文本分群，其中K-Means Clustering是將文本分成K個群集，每個群集有一個代表向量（centroid），最終將每個文本歸屬到最近的代表向量；Hierarchical Clustering則是根據每個文本之間的相似度，透過分裂或合併來生成一個或多個群集。
+
+2. 針對一個包含大量圖像的資料集，該如何利用Unsupervised Learning進行圖像分類？
+
+答案：可以使用Autoencoder或Generative Adversarial Network (GAN)來進行圖像分類。Autoencoder是一種無監督的神經網絡模型，可以將圖像壓縮成低維度的隱式表示，再透過重建輸出圖像的方式訓練模型，最終可利用隱式表示進行圖像分類；GAN則是一種對抗式生成模型，可以透過訓練生成器和判別器來生成真實圖像的假圖像，最終可利用生成器產生的假圖像進行圖像分類。
+
+3. 針對一個包含大量顧客購買紀錄的資料集，該如何利用Unsupervised Learning進行市場區隔？
+
+答案：可以使用Association Rules或Apriori Algorithm來進行市場區隔。Association Rules是一種找出購物籃中常一起出現的商品的方法，透過計算商品之間的關聯度和支持度，可找出哪些商品最常一起被買，進而進行市場區隔；Apriori Algorithm是一種挖掘項目集合的方法，可以找出哪些項目（即商品）可能同時出現在一個組合中，然後透過設定閾值篩選出具有關聯性的商品，進而進行市場區隔。
+
+4. 針對一個包含大量音頻檔案的資料集，該如何利用Unsupervised Learning進行語音識別？
+
+答案：可以使用自適應增強的聲學建模（Adaptive Boosting Acoustic Modeling）或無語節音素模型（Unsupervised Phoneme Model）來進行語音識別。自適應增強的聲學建模是一種強化學習技術，可以根據語音識別結果持續調整模型參數，進而提升識別準確率；無語節音素模型是一種不需要對音素進行手動標記的語音識別方法，可以運用深度學習技術進行特徵提取和模型訓練，準確率遠高於傳統的語音識別方法。
+
+5. 針對一個包含大量交易記錄的資料集，該如何利用Unsupervised Learning進行銀行客戶欺詐檢測？
+
+答案：可以使用主成分分析（PCA）或異常檢測（Anomaly Detection）來進行銀行客戶欺詐檢測。主成分分析是一種降維技術，可以將高維度的交易記錄壓縮成一個低維度的投影，然後透過設定閾值檢測出異常交易記錄，進而進行銀行客戶欺詐檢測；異常檢測則是一種基於統計學的偵測方法，可以根據交易記錄的分佈模式找出異常交易記錄，進而進行銀行客戶欺詐檢測。
