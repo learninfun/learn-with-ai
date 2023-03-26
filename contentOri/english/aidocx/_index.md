@@ -4,11 +4,11 @@ weight = 2
 +++
 
 ## Concept
-Tree-structured directory X List of questions to learn ==> AI-generated book
+Tree-structured catalogue X List of questions to learn ==> AI-generated book
 ![alt aidocx flow](https://github.com/learninfun/aidocx/blob/main/static/images/aidocx_flow_en.png?raw=true)
 
 ## Features
-- Customizable knowledge points or directory to learn
+- Customizable knowledge points or catalogue to learn
 - Customizable batch of questions to ask AI
 - Automated scheduling to query AI and generate e-books.
 
