@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Security Groups and Network ACLs的问题
+给我5题Security Groups and Network ACLs的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Security Groups and Network ACLs并举例
+以中文说明Security Groups and Network ACLs并举例
 {{< /ask_chatgpt >}}
 
 
@@ -32,9 +32,9 @@ Network ACLs是另一种虚拟防火墙，通过定义一组规则，控制VPC�
 
 例如，一个企业需要用一个子网路作为Web服务器群集的位置，另一个子网路会被用作数据库服务器群集的位置，需要隔离二者。在这种情况下，可以设置Network ACLs，允许Web子网路上的HTTP流量，但不允许访问数据库子网路。同时，在数据库子网路上，列出浏览器通过Web服务器访问的流量是允许的，但是其他流量都被阻止。这将确保Web和数据库子网路保持隔离，不会受到对方群集上的攻击。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Security Groups and Network ACLs的重点
+以中文条列Security Groups and Network ACLs的重点
 {{< /ask_chatgpt >}}
 
 
@@ -64,7 +64,7 @@ Network ACLs:
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Security Groups and Network ACLs的中等难度问题，并在后面列出答案
+以中文给我5题Security Groups and Network ACLs的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

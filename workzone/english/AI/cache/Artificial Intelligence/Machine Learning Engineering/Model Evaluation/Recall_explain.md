@@ -1,0 +1,3 @@
+Recall is a product safety measure taken by a company or manufacturer to withdraw or remove a defective product from the market. This may be due to a fault or defect that makes it dangerous for people to use. Recall is done to avoid injuries and fatalities that may arise from the use of such products.
+
+For example, a car manufacturer may recall a certain model of their vehicles due to a defect in a part such as a steering wheel or brakes. Owners of the affected cars will be notified to take their cars to the dealer for repair or replacement of the faulty parts. This is to prevent accidents that may arise from the use of the defective car parts.

@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Performance optimization的问题
+给我5题Performance optimization的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Performance optimization并举例
+以中文说明Performance optimization并举例
 {{< /ask_chatgpt >}}
 
 
@@ -46,9 +46,9 @@ Performance optimization是一种优化程序，旨在提高系统、软体、�
 
 综上所述，Performance optimization 可以通过多种方法来提高系统的效率和速度，从而为使用者提供更好的体验。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Performance optimization的重点
+以中文条列Performance optimization的重点
 {{< /ask_chatgpt >}}
 
 
@@ -77,7 +77,7 @@ Performance optimization是一种优化程序，旨在提高系统、软体、�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Performance optimization的中等难度问题，并在后面列出答案
+以中文给我5题Performance optimization的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

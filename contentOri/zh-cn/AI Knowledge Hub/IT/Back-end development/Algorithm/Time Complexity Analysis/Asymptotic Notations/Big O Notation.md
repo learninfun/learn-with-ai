@@ -1,10 +1,10 @@
 +++
-title = "大O符号"
+title = "大O符號"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Big O Notation的问题
+給我5題Big O Notation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 給定一個字符串和一個字符，查找該字符在字符串中出現的次數的時間複雜度是多少？
 5. 給定一個n乘以n矩陣和一個矩陣，計算其矩陣乘法的時間複雜度是多少？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Big O Notation并举例
+以中文說明Big O Notation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Big O Notation是用來描述算法時間複雜度的一種方式，它告訴我
 
 總之，Big O Notation是一種用數學方式表達算法時間複雜度的方式，能夠幫助我們評估算法的效率並選擇最優解決方案。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Big O Notation的重点
+以中文條列Big O Notation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -53,9 +53,9 @@ Big O Notation是用來描述算法時間複雜度的一種方式，它告訴我
 
 9. 對於複雜度相同的算法，我們需要進一步分析它們的常數項和低階項，以找到最優解法。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Big O Notation的中等难度问题，并在后面列出答案
+以中文給我5題Big O Notation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

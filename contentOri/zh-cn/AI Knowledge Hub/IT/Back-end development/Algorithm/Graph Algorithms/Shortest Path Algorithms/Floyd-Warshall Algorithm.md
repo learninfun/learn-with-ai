@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Floyd-Warshall Algorithm的问题
+给我5题Floyd-Warshall Algorithm的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Floyd-Warshall Algorithm并举例
+以中文说明Floyd-Warshall Algorithm并举例
 {{< /ask_chatgpt >}}
 
 
@@ -152,9 +152,9 @@ D[5][1]=min(∞,2+5)=7
 
 总结：Floyd-Warshall Algorithm算法对有些权值为负的图仍然有效，并且由于操作矩阵，理论上算法时间复杂度为O(n^3)，适用于处理规模不是特别大的图，而且不受图形中负边权的影响，非常适合多源最短路径问题。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Floyd-Warshall Algorithm的重点
+以中文条列Floyd-Warshall Algorithm的重点
 {{< /ask_chatgpt >}}
 
 
@@ -170,14 +170,14 @@ D[5][1]=min(∞,2+5)=7
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Floyd-Warshall Algorithm的中等难度问题，并在后面列出答案
+以中文给我5题Floyd-Warshall Algorithm的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 給定一張有向帶權圖，求從任意一點到任意一點的最短路徑。如果兩點之間沒有路徑，輸出inf。
+1. 给定一张有向带权图，求从任意一点到任意一点的最短路径。如果两点之间没有路径，输出inf。
 ```
-程式碼如下：
+程式码如下：
 void Floyd() {
     for (int k = 1; k <= n; k++) {
         for (int i = 1; i <= n; i++) {
@@ -191,9 +191,9 @@ void Floyd() {
 }
 ```
 
-2. 給定一張無向帶權圖，求圖中的最小生成樹。如果圖不連通，則輸出-1。
+2. 给定一张无向带权图，求图中的最小生成树。如果图不连通，则输出-1。
 ```
-程式碼如下：
+程式码如下：
 void Floyd() {
     for (int k = 1; k <= n; k++) {
         for (int i = 1; i <= n; i++) {
@@ -207,9 +207,9 @@ void Floyd() {
 }
 ```
 
-3. 給定一張有向帶權圖，求從任意一點到任意一點的最短路徑，如果存在負權環，輸出-1。
+3. 给定一张有向带权图，求从任意一点到任意一点的最短路径，如果存在负权环，输出-1。
 ```
-程式碼如下：
+程式码如下：
 int Floyd() {
     for (int k = 1; k <= n; k++) {
         for (int i = 1; i <= n; i++) {
@@ -221,7 +221,7 @@ int Floyd() {
         }
     }
     for (int k = 1; k <= n; k++) {
-        if (d[k][k] < 0) { // 存在負權環
+        if (d[k][k] < 0) { // 存在负权环
             return -1;
         }
     }
@@ -229,9 +229,9 @@ int Floyd() {
 }
 ```
 
-4. 給定一張有向帶權圖，求從每個點出發能到達的所有點之間的最小總權值和。
+4. 给定一张有向带权图，求从每个点出发能到达的所有点之间的最小总权值和。
 ```
-程式碼如下：
+程式码如下：
 void Floyd() {
     for (int k = 1; k <= n; k++) {
         for (int i = 1; i <= n; i++) {
@@ -253,11 +253,11 @@ void Floyd() {
     }
 }
 
-5. 給定一張有向帶權圖，求從任意一點到任意一點經過正好k條邊的最短路徑。
+5. 给定一张有向带权图，求从任意一点到任意一点经过正好k条边的最短路径。
 ```
-程式碼如下：
+程式码如下：
 void Floyd(int k) {
-    for (int l = 1; l <= k; l++) { // l表示經過l條邊
+    for (int l = 1; l <= k; l++) { // l表示经过l条边
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 for (int m = 1; m <= n; m++) {

@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Configuration Management的问题
+给我5题Configuration Management的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Configuration Management并举例
+以中文说明Configuration Management并举例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ Configuration Management是指一套组织和管理资产与配置变更的方�
 
 5. Kubernetes：一个跨平台的容器管理系统，可以自动化部署、扩展和管理容器化应用程式，在分散式运算环境中有效地管理配置。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Configuration Management的重点
+以中文条列Configuration Management的重点
 {{< /ask_chatgpt >}}
 
 
@@ -67,7 +67,7 @@ Configuration Management要求将系统的详细文档保存在可靠的储存�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Configuration Management的中等难度问题，并在后面列出答案
+以中文给我5题Configuration Management的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

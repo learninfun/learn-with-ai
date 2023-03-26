@@ -1,10 +1,10 @@
 +++
-title = "链表"
+title = "鏈表"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Linked List的问题
+給我5題Linked List的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 如何檢測一個單向鏈表是否存在環？
 5. 如何刪除一個單向鏈表中指定的節點？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Linked List并举例
+以中文說明Linked List並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -80,32 +80,32 @@ class LinkedList {
 
 這個LinkedList類包含了添加和刪除節點的方法。要添加節點，可以使用add方法。要刪除節點，可以使用delete方法。當然，還有很多其他方法可以實現在Linked List上的操作，這裡只是顯示了一個基本的範例。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Linked List的重点
+以中文條列Linked List的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 链接点：Linked list由一系列节点（node）构成，每个节点包含了一个数值（value）和一个指向下一个节点的指针（pointer）。
+1. 鏈接點：Linked list由一系列節點（node）構成，每個節點包含了一個數值（value）和一個指向下一個節點的指針（pointer）。
 
-2. 头指针：Linked list中的第一个节点叫做头节点（head），头指针（head pointer）标志着第一个节点。
+2. 頭指針：Linked list中的第一個節點叫做頭節點（head），頭指針（head pointer）標誌著第一個節點。
 
-3. 尾指针：Linked list中的最后一个节点叫做尾节点（tail），通常会使用一个特别的值（例如null或None）作为尾指针（tail pointer）。
+3. 尾指針：Linked list中的最後一個節點叫做尾節點（tail），通常會使用一個特別的值（例如null或None）作為尾指針（tail pointer）。
 
-4. 插入：向Linked list中插入一个新节点时，需要修改前一个节点的指针，让它指向新节点，同时让新节点指向原来的后一个节点。
+4. 插入：向Linked list中插入一個新節點時，需要修改前一個節點的指針，讓它指向新節點，同時讓新節點指向原來的後一個節點。
 
-5. 删除：从Linked list中删除一个节点时，需要修改前一个节点的指针，让它指向后一个节点。
+5. 刪除：從Linked list中刪除一個節點時，需要修改前一個節點的指針，讓它指向後一個節點。
 
-6. 查找：遍历整个Linked list，逐个比较节点中的数值，查找特定的节点。
+6. 查找：遍歷整個Linked list，逐個比較節點中的數值，查找特定的節點。
 
-7. 修改：寻找Linked list中特定的节点，然后修改它的数值。
+7. 修改：尋找Linked list中特定的節點，然後修改它的數值。
 
-8. 链表的类型：单向链表、双向链表、循环链表。   
+8. 鏈表的類型：單向鏈表、雙向鏈表、循環鏈表。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Linked List的中等难度问题，并在后面列出答案
+以中文給我5題Linked List的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
@@ -117,44 +117,44 @@ class LinkedList {
 5. Linked List Cycle II
 
 1. Reverse Linked List II:
-题目描述： 反转从位置 m 到 n 的链表。请使用一趟扫瞄完成反转。
+題目描述： 反轉從位置 m 到 n 的鏈表。請使用一趟掃瞄完成反轉。
 示例: 
-输入: 1->2->3->4->5->NULL, m = 2, n = 4
-输出: 1->4->3->2->5->NULL
-答案链接: https://leetcode.com/problems/reverse-linked-list-ii/
+輸入: 1->2->3->4->5->NULL, m = 2, n = 4
+輸出: 1->4->3->2->5->NULL
+答案鏈接: https://leetcode.com/problems/reverse-linked-list-ii/
 
 2. Copy List with Random Pointer:
-题目描述： 给定一个链表，每个节点包含一个额外增加的随机指针，
-该指针可以指向链表中的任何节点或空节点。
-要求返回这个链表的 深拷贝。 
+題目描述： 給定一個鏈表，每個節點包含一個額外增加的隨機指針，
+該指針可以指向鏈表中的任何節點或空節點。
+要求返回這個鏈表的 深拷貝。 
 示例：
-输入：
+輸入：
 {"$id":"1","next":{"$id":"2","next":null,"random":{"$ref":"2"},"val":2},"random":{"$ref":"2"},"val":1}
-解释：
-节点 1 的值是 1，它的下一个指针和随机指针都指向节点 2 。
-节点 2 的值是 2，它的下一个指针指向 null，随机指针指向它本身。
-答案链接：https://leetcode.com/problems/copy-list-with-random-pointer/
+解釋：
+節點 1 的值是 1，它的下一個指針和隨機指針都指向節點 2 。
+節點 2 的值是 2，它的下一個指針指向 null，隨機指針指向它本身。
+答案鏈接：https://leetcode.com/problems/copy-list-with-random-pointer/
 
 3. Remove Nth Node From End of List:
-题目描述： 给定一个链表，删除链表的倒数第 n 个节点，并且返回链表的头结点。 
+題目描述： 給定一個鏈表，刪除鏈表的倒數第 n 個節點，並且返回鏈表的頭結點。 
 示例：
-输入: 1->2->3->4->5, n = 2
-输出: 1->2->3->5
-答案链接： https://leetcode.com/problems/remove-nth-node-from-end-of-list/
+輸入: 1->2->3->4->5, n = 2
+輸出: 1->2->3->5
+答案鏈接： https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
 4. Partition List:
-题目描述： 给定一个链表和一个特定值 x，对链表进行分隔，
-使得所有小于 x 的节点都在大于或等于 x 的节点之前。
-你应当保留两个分区中每个节点的初始相对位置。
+題目描述： 給定一個鏈表和一個特定值 x，對鏈表進行分隔，
+使得所有小於 x 的節點都在大於或等於 x 的節點之前。
+你應當保留兩個分區中每個節點的初始相對位置。
 示例：
-输入: head = 1->4->3->2->5->2, x = 3
-输出: 1->2->2->4->3->5
-答案链接： https://leetcode.com/problems/partition-list/
+輸入: head = 1->4->3->2->5->2, x = 3
+輸出: 1->2->2->4->3->5
+答案鏈接： https://leetcode.com/problems/partition-list/
 
 5. Linked List Cycle II:
-题目描述： 给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
+題目描述： 給定一個鏈表，返回鏈表開始入環的第一個節點。 如果鏈表無環，則返回 null。
 示例：
-输入：head = [3,2,0,-4], pos = 1
-输出：tail connects to node index 1
-答案链接： https://leetcode.com/problems/linked-list-cycle-ii/   
+輸入：head = [3,2,0,-4], pos = 1
+輸出：tail connects to node index 1
+答案鏈接： https://leetcode.com/problems/linked-list-cycle-ii/   
 

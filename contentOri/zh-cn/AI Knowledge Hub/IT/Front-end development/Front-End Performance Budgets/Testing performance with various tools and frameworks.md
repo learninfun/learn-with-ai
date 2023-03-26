@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Testing performance with various tools and frameworks的问题
+给我5题Testing performance with various tools and frameworks的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Testing performance with various tools and frameworks并举例
+以中文说明Testing performance with various tools and frameworks并举例
 {{< /ask_chatgpt >}}
 
 
@@ -36,9 +36,9 @@ weight = "4"
 
 总之，测试性能工具和框架是设计一个高效、稳定、扩展的软体系统的重要工具，因此在选择时需根据应用程序的需要和特点选择。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Testing performance with various tools and frameworks的重点
+以中文条列Testing performance with various tools and frameworks的重点
 {{< /ask_chatgpt >}}
 
 
@@ -52,7 +52,7 @@ weight = "4"
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Testing performance with various tools and frameworks的中等难度问题，并在后面列出答案
+以中文给我5题Testing performance with various tools and frameworks的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

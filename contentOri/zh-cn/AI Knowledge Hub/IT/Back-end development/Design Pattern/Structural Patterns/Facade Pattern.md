@@ -1,10 +1,10 @@
 +++
-title = "外观模式"
+title = "外觀模式"
 weight = "5"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Facade Pattern的问题
+給我5題Facade Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "5"
 
 5. 在什麼情況下，使用Facade Pattern可以導致過度抽象化和解決辦法是什麼？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Facade Pattern并举例
+以中文說明Facade Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,9 +32,9 @@ Facade Pattern是一種結構型的設計模式，旨在將複雜的系統或子
 
 另一個例子可能是在一個電子商務網站上使用外觀模式，以簡化客戶端的交互。這個例子中，外觀模式會封裝支付、配送、客戶支持等子系統，讓用戶能夠快速輕鬆地完成他們的購物體驗，而不需要了解內部運作。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Facade Pattern的重点
+以中文條列Facade Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +51,9 @@ Facade Pattern是一種結構型的設計模式，旨在將複雜的系統或子
 
 6. 增加系統安全性：通過使用Facade Pattern，可以增加系統的安全性。因為客戶端只能訪問Facade物件公開的方法，隱藏了複雜系統的內部細節，不會破壞整個系統，這樣使得系統更加安全。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Facade Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Facade Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

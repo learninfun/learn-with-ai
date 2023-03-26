@@ -2,9 +2,9 @@
 title = "享元模式"
 weight = "6"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Flyweight Pattern的问题
+給我5題Flyweight Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "6"
 4. 如何實現Flyweight Pattern？
 5. 在實際應用中，有哪些例子適合使用Flyweight Pattern？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Flyweight Pattern并举例
+以中文說明Flyweight Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -59,9 +59,9 @@ class CharacterFactory:
 
 在上述案例中，字體和顏色都是Flyweight物件，CharacterFactory負責管理這些物件，並且只創建必要的物件。當客戶端需要一個新的Character時，CharacterFactory會創建一個具有相同參數的另一個Character，或者返回現有的Character，以便減少系統中的物件數量。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Flyweight Pattern的重点
+以中文條列Flyweight Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -73,9 +73,9 @@ class CharacterFactory:
 5. Flyweight pattern 的實現可以用工廠模式來簡化程式碼。
 6. 使用 Flyweight pattern 可以提高應用程式效能，尤其在需要建立大量物件時。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Flyweight Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Flyweight Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

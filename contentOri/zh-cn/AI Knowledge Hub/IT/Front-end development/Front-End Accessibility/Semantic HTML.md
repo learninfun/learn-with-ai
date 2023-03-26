@@ -1,10 +1,10 @@
 +++
-title = "语义化 HTML"
+title = "語義化 HTML"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Semantic HTML的问题
+給我5題Semantic HTML的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 舉幾個Semantic HTML的示例，並說明其用途。
 5. 使用Semantic HTML與不使用有何區別？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Semantic HTML并举例
+以中文說明Semantic HTML並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -84,9 +84,9 @@ Semantic HTML是使用語義化標籤以描述HTML文件中內容的方式。這
 
 這個例子中，使用了許多語義化的標籤來描述網頁的不同區域和結構，從而提高了網頁的可讀性和可維護性。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Semantic HTML的重点
+以中文條列Semantic HTML的重點
 {{< /ask_chatgpt >}}
 
 
@@ -111,9 +111,9 @@ Semantic HTML是使用語義化標籤以描述HTML文件中內容的方式。這
 
 10. 使用連接元素 (例如，<a>) 給予適當的title和href屬性。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Semantic HTML的中等难度问题，并在后面列出答案
+以中文給我5題Semantic HTML的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

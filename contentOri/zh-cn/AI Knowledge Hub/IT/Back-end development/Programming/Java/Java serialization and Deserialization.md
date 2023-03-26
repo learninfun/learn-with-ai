@@ -2,9 +2,9 @@
 title = "Java序列化和反序列化"
 weight = "6"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Java serialization and Deserialization的问题
+給我5題Java serialization and Deserialization的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "6"
 4. 在Java中如何避免出現序列化和反序列化期間出現的兼容性問題？
 5. 在Java中如何處理序列化和反序列化的性能和併發問題？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Java serialization and Deserialization并举例
+以中文說明Java serialization and Deserialization並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -104,9 +104,9 @@ public class DeserializationDemo {
 Name: John, Age: 30, Address: New York
 ```   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Java serialization and Deserialization的重点
+以中文條列Java serialization and Deserialization的重點
 {{< /ask_chatgpt >}}
 
 
@@ -123,9 +123,9 @@ Name: John, Age: 30, Address: New York
 8. 序列化過程可以加密或壓縮，以提高傳輸安全性和效率。
 9. 序列化和反序列化是 Java RMI、JMS 和 Web Service 等技術的核心組成部分。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Java serialization and Deserialization的中等难度问题，并在后面列出答案
+以中文給我5題Java serialization and Deserialization的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

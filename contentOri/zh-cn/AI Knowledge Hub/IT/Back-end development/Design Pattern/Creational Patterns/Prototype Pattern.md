@@ -2,9 +2,9 @@
 title = "原型模式"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Prototype Pattern的问题
+給我5題Prototype Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "4"
 4. Prototype Pattern與其他設計模式有何不同？
 5. 一個物件如何成為Prototype，並如何複製一個新的物件？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Prototype Pattern并举例
+以中文說明Prototype Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -52,9 +52,9 @@ console.log(food2.getName()); // 輸出：橘子
 
 在上述例子中，我們定義了一個食物原型對像foodPrototype，該對像包含兩個方法：setName和getName，分別用於設置和獲取食物名稱。然後我們使用Object.create方法基於這個原型對像創建出兩個新的食物物件food1和food2，並對它們分別設置了不同的名稱。這樣我們就達到了避免重複創建食物物件的目的，同時也簡化了代碼。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Prototype Pattern的重点
+以中文條列Prototype Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -65,9 +65,9 @@ console.log(food2.getName()); // 輸出：橘子
 4. 它支持深複製和淺複製，以便創建與原始對像關聯度不同的新對象。
 5. 它可以應用於各種場景，包括創建大量相似的對象、保護現有對象免受外部修改以及實現快速原型設計。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Prototype Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Prototype Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

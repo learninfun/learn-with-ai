@@ -1,11 +1,11 @@
 
 
-1. 什麼是Structural Patterns？它們如何區分於其他設計模式？
+1. 什么是Structural Patterns？它们如何区分于其他设计模式？
 
-2. 何時應該使用Adapter Pattern？它如何協助解決系統中的問題？
+2. 何时应该使用Adapter Pattern？它如何协助解决系统中的问题？
 
-3. Decorator Pattern和Proxy Pattern的區別是什麼？這些模式如何用於提高代碼的可讀性和可維護性？
+3. Decorator Pattern和Proxy Pattern的区别是什么？这些模式如何用于提高代码的可读性和可维护性？
 
-4. 在使用Facade Pattern時，如何設計接口以支持系統的簡化和壓縮？你可以舉例說明嗎？
+4. 在使用Facade Pattern时，如何设计接口以支持系统的简化和压缩？你可以举例说明吗？
 
-5. Bridge Pattern如何協助開發人員更好地設計具有多層次抽像的軟件系統，並優化代碼的可維護性和擴展性？
+5. Bridge Pattern如何协助开发人员更好地设计具有多层次抽像的软件系统，并优化代码的可维护性和扩展性？

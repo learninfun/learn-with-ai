@@ -4,7 +4,7 @@ weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Event-Driven Architecture的问题
+给我5题Event-Driven Architecture的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "5"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Event-Driven Architecture并举例
+以中文说明Event-Driven Architecture并举例
 {{< /ask_chatgpt >}}
 
 
@@ -41,9 +41,9 @@ EDA 的组成包含以下几个元素：
 
 上述例子显示了 EDA 在电商系统中的应用，为不同组件之间的通讯提供了一种可靠和高效的方式。EDA 可以提高系统的可扩展性和松耦合度，使 IT 系统更容易变更和维护。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Event-Driven Architecture的重点
+以中文条列Event-Driven Architecture的重点
 {{< /ask_chatgpt >}}
 
 
@@ -62,21 +62,21 @@ EDA 的组成包含以下几个元素：
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Event-Driven Architecture的中等难度问题，并在后面列出答案
+以中文给我5题Event-Driven Architecture的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 如何在Event-Driven Architecture中實現基於時間的事件（time-based events）？
-答案：使用定時器（timer）和排程工具（scheduler）來觸發事件。
+1. 如何在Event-Driven Architecture中实现基于时间的事件（time-based events）？
+答案：使用定时器（timer）和排程工具（scheduler）来触发事件。
 
-2. 如何處理異常情況下的事件（error handling）？
-答案：使用錯誤處理機制，如歸還事件（event replay）或排除事件（event exclusion）。
+2. 如何处理异常情况下的事件（error handling）？
+答案：使用错误处理机制，如归还事件（event replay）或排除事件（event exclusion）。
 
-3. 如何保證事件的順序性（event ordering）？
+3. 如何保证事件的顺序性（event ordering）？
 答案：使用事件序列化（event serialization）或使用有序消息（ordered messaging）。
 
-4. 如何處理事件的重複發送（event duplicates）？
-答案：使用事件去重（event deduplication）技術。
+4. 如何处理事件的重复发送（event duplicates）？
+答案：使用事件去重（event deduplication）技术。
 
-5. 如何實現跨不同的事件源（event source）之間的相互作用（interaction）？
-答案：使用事件中介者（event mediator）或共享事件縮影（shared event catalog）。   
+5. 如何实现跨不同的事件源（event source）之间的相互作用（interaction）？
+答案：使用事件中介者（event mediator）或共享事件缩影（shared event catalog）。   
 

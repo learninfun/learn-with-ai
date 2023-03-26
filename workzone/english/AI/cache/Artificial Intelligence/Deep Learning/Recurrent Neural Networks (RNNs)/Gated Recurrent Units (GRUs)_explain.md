@@ -1,0 +1,5 @@
+Gated Recurrent Units (GRUs) are a type of recurrent neural network (RNN) architecture that is used for modeling sequential data. They are similar to Long Short-Term Memory (LSTM) networks but have fewer parameters, making them more easily trainable.
+
+GRUs consist of a set of update and reset gates that control the flow of information through the network. The update gate determines which information to keep from the current time step, while the reset gate decides which information to forget from the previous time step.
+
+An example of the use of GRUs is in natural language processing, where they can be used for tasks such as language modeling, speech recognition, and machine translation. For example, in a language modeling task, a GRU network can be trained on a large corpus of text to predict the likelihood of a given word occurring given the previous words in the sequence. The network can then be used to generate new text or to evaluate the likelihood of new sentences.

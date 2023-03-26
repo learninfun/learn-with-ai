@@ -1,10 +1,10 @@
 +++
-title = "识别和修复性能瓶颈"
+title = "識別和修復性能瓶頸"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Identifying and fixing performance bottlenecks的问题
+給我5題Identifying and fixing performance bottlenecks的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 有哪些常見的性能優化技巧，例如快取、分散式架構等？
 5. 您的系統如何避免性能瓶頸，並確保順利運行？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Identifying and fixing performance bottlenecks并举例
+以中文說明Identifying and fixing performance bottlenecks並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -40,9 +40,9 @@ Identifying and fixing performance bottlenecks指的是找出系統或應用程�
 
 綜上所述，應該從不同方向進行問題定位，找出導致效能瓶頸的問題，進一步進行修正和優化，以提高系統或應用程式的效能和使用體驗。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Identifying and fixing performance bottlenecks的重点
+以中文條列Identifying and fixing performance bottlenecks的重點
 {{< /ask_chatgpt >}}
 
 
@@ -61,9 +61,9 @@ Identifying and fixing performance bottlenecks指的是找出系統或應用程�
 
 7.保持監控並且調整系統以達到最佳性能。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Identifying and fixing performance bottlenecks的中等难度问题，并在后面列出答案
+以中文給我5題Identifying and fixing performance bottlenecks的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

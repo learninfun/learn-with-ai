@@ -1,11 +1,11 @@
 
 
-1. 什么是Same-origin policy? 
+1. 什麼是Same-origin policy? 
 
-2. Same-origin policy对网站安全有什么影响？ 
+2. Same-origin policy對網站安全有什麼影響？ 
 
-3. 如何遵循Same-origin policy，以确保网站的安全？ 
+3. 如何遵循Same-origin policy，以確保網站的安全？ 
 
-4. Same-origin policy如何保护用户的隐私？ 
+4. Same-origin policy如何保護用戶的隱私？ 
 
-5. 在什么情况下，可能需要违反Same-origin policy，例如跨网站共享资源或与第三方服务集成？
+5. 在什麼情況下，可能需要違反Same-origin policy，例如跨網站共享資源或與第三方服務集成？

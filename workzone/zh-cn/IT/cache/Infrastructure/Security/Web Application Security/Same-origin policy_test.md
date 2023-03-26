@@ -1,23 +1,23 @@
 
 
-1. Same-origin policy 是什麼？它是如何保護使用者的安全性？
+1. Same-origin policy 是什么？它是如何保护使用者的安全性？
 
-2. 當不同來源之間的資源需要進行交互時，Same-origin policy 會限制哪些行為？請舉例說明。
+2. 当不同来源之间的资源需要进行交互时，Same-origin policy 会限制哪些行为？请举例说明。
 
-3. 請解釋 Same-origin policy 與 Cross-origin resource sharing (CORS) 的區別。
+3. 请解释 Same-origin policy 与 Cross-origin resource sharing (CORS) 的区别。
 
-4. 如果一個網站想要跨域請求其他網站的資源，應該如何解決 Same-origin policy 的限制？
+4. 如果一个网站想要跨域请求其他网站的资源，应该如何解决 Same-origin policy 的限制？
 
-5. 除了在瀏覽器中執行時，Same-origin policy 也能在什麼情況下發揮作用？請舉例說明。
+5. 除了在浏览器中执行时，Same-origin policy 也能在什么情况下发挥作用？请举例说明。
 
 答案：
 
-1. Same-origin policy 是瀏覽器安全機制之一，它強制限制網頁腳本等資源只能存取跟自身網頁來源相同的資源。這種限制減少了惡意網站惡意攻擊用戶的可能性。
+1. Same-origin policy 是浏览器安全机制之一，它强制限制网页脚本等资源只能存取跟自身网页来源相同的资源。这种限制减少了恶意网站恶意攻击用户的可能性。
 
-2. Same-origin policy 通常限制了以下四種跨域操作：Cookie、LocalStorage 和 IndexedDB 存儲、讀取 DOM 元素內容、AJAX/Fetch 和 WebSocket 的發送和接收。例如，網站 A 的 JavaScript 不能使用 AJAX 向網站 B 發送請求，以防止惡意腳本盜取使用者的敏感信息。
+2. Same-origin policy 通常限制了以下四种跨域操作：Cookie、LocalStorage 和 IndexedDB 存储、读取 DOM 元素内容、AJAX/Fetch 和 WebSocket 的发送和接收。例如，网站 A 的 JavaScript 不能使用 AJAX 向网站 B 发送请求，以防止恶意脚本盗取使用者的敏感信息。
 
-3. Same-origin policy 是瀏覽器的內置安全特性，用於限制兩個不同源的網站之間的資源訪問；而 CORS 則是一種機制，允許網站解除跨域資源請求的限制。
+3. Same-origin policy 是浏览器的内置安全特性，用于限制两个不同源的网站之间的资源访问；而 CORS 则是一种机制，允许网站解除跨域资源请求的限制。
 
-4. 網站可以使用 CORS，以前端側的方式允許跨域請求。透過在請求標頭中添加特定設置，如 Access-Control-Allow-Origin，網站可以指示瀏覽器允許特定網站存取資源。
+4. 网站可以使用 CORS，以前端侧的方式允许跨域请求。透过在请求标头中添加特定设置，如 Access-Control-Allow-Origin，网站可以指示浏览器允许特定网站存取资源。
 
-5. Same-origin policy 也可以在應用程式硬件層面發揮作用，例如瀏覽器插件可以通過使用 same-origin policy 防止第三方網站對插件的攻擊。另外， Content Security Policy (CSP) 也通過實施 same-origin policy 來限制網站的外部資源載入。
+5. Same-origin policy 也可以在应用程式硬件层面发挥作用，例如浏览器插件可以通过使用 same-origin policy 防止第三方网站对插件的攻击。另外， Content Security Policy (CSP) 也通过实施 same-origin policy 来限制网站的外部资源载入。

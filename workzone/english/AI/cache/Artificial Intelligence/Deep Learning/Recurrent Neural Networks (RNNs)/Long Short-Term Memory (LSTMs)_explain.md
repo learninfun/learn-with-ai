@@ -1,0 +1,7 @@
+Long Short-Term Memory (LSTM) is a type of recurrent neural network (RNN) that was designed to better capture long-term dependencies and avoid the vanishing gradient problem in traditional RNNs. LSTMs use memory cells, gates, and hidden states to selectively remember, forget, and update information over time. 
+
+A memory cell is the key element of an LSTM, which maintains a hidden state that is passed from one time step to the next. At each time step, the LSTM receives an input and computes an output by selectively updating its memory cell. To do this, the LSTM uses three types of gates: the input gate, forget gate, and output gate. 
+
+The input gate determines how much of the new input should be added to the memory cell. The forget gate decides whether to delete or keep some parts of the memory cell. The output gate calculates the final output of the LSTM based on the updated memory cell. These gates are trained through backpropagation to optimize the LSTM’s performance on a given task.
+
+An example of using LSTMs is speech recognition, where the goal is to transcribe spoken words into text. Speech recognition requires handling long-term dependencies, as spoken sentences can be several seconds long, and the meaning of a word can depend on the context of the entire sentence. LSTMs are used to process the audio input over time and generate a corresponding transcription.

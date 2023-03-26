@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Traveling Salesman Problem的问题
+给我5题Traveling Salesman Problem的中文问题
 {{< /ask_chatgpt >}}
 
 1. 在一个城市之间有多少种最短路径？
@@ -15,7 +15,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Traveling Salesman Problem并举例
+以中文说明Traveling Salesman Problem并举例
 {{< /ask_chatgpt >}}
 
 
@@ -32,9 +32,9 @@ weight = "2"
 
 总之，Traveling Salesman Problem 是一个经典的问题，在现实生活中有许多应用，例如路线规划、货物运输和旅游规划等。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Traveling Salesman Problem的重点
+以中文条列Traveling Salesman Problem的重点
 {{< /ask_chatgpt >}}
 
 
@@ -61,7 +61,7 @@ weight = "2"
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Traveling Salesman Problem的中等难度问题，并在后面列出答案
+以中文给我5题Traveling Salesman Problem的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

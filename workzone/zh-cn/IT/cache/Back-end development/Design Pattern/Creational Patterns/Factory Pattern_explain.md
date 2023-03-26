@@ -1,17 +1,17 @@
 
 
-工廠模式（Factory Pattern）是一種常見的軟體設計模式，用於優化對象的創建過程。事實上，當需要動態創建複雜對象時，尤其是當這些對象具有共同的特徵時，Factory Pattern可能是最佳選擇。
+工厂模式（Factory Pattern）是一种常见的软体设计模式，用于优化对象的创建过程。事实上，当需要动态创建复杂对象时，尤其是当这些对象具有共同的特征时，Factory Pattern可能是最佳选择。
 
-Factory Pattern的基本思想是將對象的創建過程（與使用者隔離的異步），這樣能夠使得向應用程序添加新類的過程更加簡單。透過使用工廠模式，用戶端端不需要關注如何創建對象，而只需要專注於使用對象。
+Factory Pattern的基本思想是将对象的创建过程（与使用者隔离的异步），这样能够使得向应用程序添加新类的过程更加简单。透过使用工厂模式，用户端端不需要关注如何创建对象，而只需要专注于使用对象。
 
-舉個例子，假設我們正在開發一個遊戲，該遊戲中有許多不同的敵方角色，包括僵屍、魔鬼和巨魔等。每個敵人都有自己獨特的特徵，例如血量、攻擊力和速度等。我們可以使用工廠模式來創建這些角色，從而避免大量的重複代碼。
+举个例子，假设我们正在开发一个游戏，该游戏中有许多不同的敌方角色，包括僵尸、魔鬼和巨魔等。每个敌人都有自己独特的特征，例如血量、攻击力和速度等。我们可以使用工厂模式来创建这些角色，从而避免大量的重复代码。
 
-首先，我們可以定義一個名為Enemy的抽象基類，該基類包含敵方角色具有的共同屬性和方法。然後，我們定義敵方角色的具體子類（如Zombie，Devil和Troll），並重寫其父類的屬性和方法以滿足其獨特的特徵。最後，我們實現一個EnemyFactory類，該類用於創建特定類型的敵人，例如：
+首先，我们可以定义一个名为Enemy的抽象基类，该基类包含敌方角色具有的共同属性和方法。然后，我们定义敌方角色的具体子类（如Zombie，Devil和Troll），并重写其父类的属性和方法以满足其独特的特征。最后，我们实现一个EnemyFactory类，该类用于创建特定类型的敌人，例如：
 
 ```python
 class Enemy:
     """
-    敵方角色基類
+    敌方角色基类
     """
     def __init__(self, name):
         self.name = name
@@ -24,7 +24,7 @@ class Enemy:
 
 class Zombie(Enemy):
     """
-    僵屍類型
+    僵尸类型
     """
     def __init__(self):
         super().__init__("Zombie")
@@ -37,7 +37,7 @@ class Zombie(Enemy):
 
 class Devil(Enemy):
     """
-    魔鬼類型
+    魔鬼类型
     """
     def __init__(self):
         super().__init__("Devil")
@@ -50,7 +50,7 @@ class Devil(Enemy):
         
 class Troll(Enemy):
     """
-    巨魔類型
+    巨魔类型
     """
     def __init__(self):
         super().__init__("Troll")
@@ -63,7 +63,7 @@ class Troll(Enemy):
         
 class EnemyFactory:
     """
-    敵方角色工廠類
+    敌方角色工厂类
     """
     def create_enemy(enemy_type):
         if enemy_type == 'Zombie':
@@ -76,7 +76,7 @@ class EnemyFactory:
             raise ValueError("Invalid enemy type")
 ```
 
-通過上述設計，我們可以創建出不同的敵方角色，具體如下：
+通过上述设计，我们可以创建出不同的敌方角色，具体如下：
 
 ```python
 zombie = EnemyFactory.create_enemy('Zombie')
@@ -88,4 +88,4 @@ devil.attack()  # output: The Devil attacks!
 troll.attack()  # output: The Troll attacks!
 ```
 
-當需要添加一個新敵方角色時，我們只需要創建一個新的敵方角色子類並實現其相關屬性和方法，然後在EnemyFactory中添加創建新角色的代碼即可。這樣做可以大大簡化對象的創建過程，並且可以使代碼更加簡潔易讀。
+当需要添加一个新敌方角色时，我们只需要创建一个新的敌方角色子类并实现其相关属性和方法，然后在EnemyFactory中添加创建新角色的代码即可。这样做可以大大简化对象的创建过程，并且可以使代码更加简洁易读。

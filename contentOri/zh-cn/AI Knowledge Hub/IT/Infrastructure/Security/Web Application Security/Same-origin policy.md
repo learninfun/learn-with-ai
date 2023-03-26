@@ -2,74 +2,74 @@
 title = "同源策略"
 weight = "6"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Same-origin policy的问题
+給我5題Same-origin policy的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. 什么是Same-origin policy? 
+1. 什麼是Same-origin policy? 
 
-2. Same-origin policy对网站安全有什么影响？ 
+2. Same-origin policy對網站安全有什麼影響？ 
 
-3. 如何遵循Same-origin policy，以确保网站的安全？ 
+3. 如何遵循Same-origin policy，以確保網站的安全？ 
 
-4. Same-origin policy如何保护用户的隐私？ 
+4. Same-origin policy如何保護用戶的隱私？ 
 
-5. 在什么情况下，可能需要违反Same-origin policy，例如跨网站共享资源或与第三方服务集成？   
+5. 在什麼情況下，可能需要違反Same-origin policy，例如跨網站共享資源或與第三方服務集成？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Same-origin policy并举例
+以中文說明Same-origin policy並舉例
 {{< /ask_chatgpt >}}
 
 
 
-Same-origin policy 是一个浏览器安全性机制，限制了一个网页文档（document）或脚本（script）在浏览器和同一个源（origin）下的资源交互，从而防止潜在的跨站脚本攻击（XSS）或跨站请求伪造（CSRF）等安全问题。
+Same-origin policy 是一個瀏覽器安全性機制，限制了一個網頁文檔（document）或腳本（script）在瀏覽器和同一個源（origin）下的資源交互，從而防止潛在的跨站腳本攻擊（XSS）或跨站請求偽造（CSRF）等安全問題。
 
-一个源通常由三部分组成：协议（Protocol）、域名（Domain）和端口（Port）。只有三个部分都相同的资源才被认为是同一个源，否则就被视为不同的源。 譬如：
+一個源通常由三部分組成：協議（Protocol）、域名（Domain）和端口（Port）。只有三個部分都相同的資源才被認為是同一個源，否則就被視為不同的源。 譬如：
 
 - http://www.example.com 和 https://www.example.com 是不同的源。
 - http://www.example.com 和 http://example.com 是不同的源。
 - http://www.example.com:80 和 http://www.example.com:8080 是不同的源。
 
-一些常见的Same-origin policy限制包括：
+一些常見的Same-origin policy限制包括：
 
-- JavaScript在同一源下的资源上想像可以自由使用，但他们无法访问其他源的资源。 假设有一个JavaScript应用程序在example.com上运行，那么就可以访问它同一源下的任何资源，例如example.com/about.html；但是，如果应用程式尝试访问example.net上的资源，则将会被同源政策阻止。
+- JavaScript在同一源下的資源上想像可以自由使用，但他們無法訪問其他源的資源。 假設有一個JavaScript應用程序在example.com上運行，那麼就可以訪問它同一源下的任何資源，例如example.com/about.html；但是，如果應用程式嘗試訪問example.net上的資源，則將會被同源政策阻止。
 
-- 浏览器在送出不同源的 AJAX 请求或向 iframe 内载入内容时遵守同源政策。
+- 瀏覽器在送出不同源的 AJAX 請求或向 iframe 內載入內容時遵守同源政策。
 
-- 不同域名下设置的 Cookie 不会被 JavaScript 访问，也不会被浏览器发送给不同域名。
+- 不同域名下設置的 Cookie 不會被 JavaScript 訪問，也不會被瀏覽器發送給不同域名。
 
-- 一些HTML5 API （例如 Geolocation API 或者 Web Storage API）将遵循Same-origin policy，并禁止从非同一源的脚本中访问或修改数据。
+- 一些HTML5 API （例如 Geolocation API 或者 Web Storage API）將遵循Same-origin policy，並禁止從非同一源的腳本中訪問或修改數據。
 
-简单地说，当Same-origin policy被强制执行时，浏览器只允许当前网页文档获得它自己的资源，而只能与同一个源相关的资源进行交互。这可以减少安全威胁，针对用户的浏览器提供更加安全的环境。   
+簡單地說，當Same-origin policy被強制執行時，瀏覽器只允許當前網頁文檔獲得它自己的資源，而只能與同一個源相關的資源進行交互。這可以減少安全威脅，針對用戶的瀏覽器提供更加安全的環境。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Same-origin policy的重点
+以中文條列Same-origin policy的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Same-origin policy是一种网路安全机制，它限制了网页中的程式码只能访问它们自己的 origin（来源）。
+1. Same-origin policy是一種網路安全機制，它限制了網頁中的程式碼只能訪問它們自己的 origin（來源）。
 
-2. origin是指协议（如http、https）、主机名和端口号的组合。如果两个URL的协议、主机名和端口号相同，那它们就是同源的。
+2. origin是指協議（如http、https）、主機名和端口號的組合。如果兩個URL的協議、主機名和端口號相同，那它們就是同源的。
 
-3. Same-origin policy的目的是防止跨站脚本（Cross-site scripting，简称XSS）攻击和资料窃取等安全问题。
+3. Same-origin policy的目的是防止跨站腳本（Cross-site scripting，簡稱XSS）攻擊和資料竊取等安全問題。
 
-4. Same-origin policy的具体表现包括：禁止不同源的网页使用同一个浏览器存储（如cookie）；禁止不同源的网页使用同一个DOM（文档物件模型）。
+4. Same-origin policy的具體表現包括：禁止不同源的網頁使用同一個瀏覽器存儲（如cookie）；禁止不同源的網頁使用同一個DOM（文檔物件模型）。
 
-5. Same-origin policy的限制可以通过CORS（跨来源资源共用）来打破，它允许不同源的网页之间进行资源共用。
+5. Same-origin policy的限制可以通過CORS（跨來源資源共用）來打破，它允許不同源的網頁之間進行資源共用。
 
-6. Same-origin policy需要特别注意的是跨子域（Subdomain）需要特别处理，因为它们虽然不同源但是属于同一个顶级域名（例如a.example.com和b.example.com）。
+6. Same-origin policy需要特別注意的是跨子域（Subdomain）需要特別處理，因為它們雖然不同源但是屬於同一個頂級域名（例如a.example.com和b.example.com）。
 
-7. Same-origin policy的实现是由浏览器负责的，为了保护用户的安全，浏览器不会允许跨域访问，开发者应该遵循Same-origin policy设计应用程式。   
+7. Same-origin policy的實現是由瀏覽器負責的，為了保護用戶的安全，瀏覽器不會允許跨域訪問，開發者應該遵循Same-origin policy設計應用程式。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Same-origin policy的中等难度问题，并在后面列出答案
+以中文給我5題Same-origin policy的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

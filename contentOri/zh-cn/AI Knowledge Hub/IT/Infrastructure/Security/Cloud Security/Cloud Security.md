@@ -1,10 +1,10 @@
 +++
-title = "云端安全"
+title = "雲端安全"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Cloud Security的问题
+給我5題Cloud Security的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 在雲運算環境中，如何防止未經授權的資源訪問？
 5. 什麼是雲端入侵檢測，並且如何實施和管理？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Cloud Security并举例
+以中文說明Cloud Security並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ Amazon Web Services (AWS)提供了各種安全服務和工具，例如AWS Identi
 
 IBM Cloud Security提供了一系列的安全解決方案，包括基於雲端的存取控制、數據加密、安全漏洞掃描和防火牆，以保護雲端應用和數據庫的安全。此外，IBM Cloud Security還通過合規性監控和管理，確保企業在使用IBM雲端服務時符合所有法規和標準要求。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Cloud Security的重点
+以中文條列Cloud Security的重點
 {{< /ask_chatgpt >}}
 
 
@@ -65,9 +65,9 @@ IBM Cloud Security提供了一系列的安全解決方案，包括基於雲端�
 
 10. 建立安全文化：建立安全理念和文化，提高用戶的安全意識，以防止錯誤、避免風險。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Cloud Security的中等难度问题，并在后面列出答案
+以中文給我5題Cloud Security的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

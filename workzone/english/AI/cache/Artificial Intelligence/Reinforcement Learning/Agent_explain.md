@@ -1,0 +1,3 @@
+An agent is a person or an entity that acts on behalf of another person or entity, typically with the authority to make decisions and take actions that affect the interests of the principal. The principal may delegate certain responsibilities and powers to the agent to act on their behalf.
+
+For example, a real estate agent acts as an intermediary between a buyer and a seller in a real estate transaction. The agent represents either the buyer or the seller, depending on who hired them, and is responsible for negotiating on their behalf, handling paperwork, and ensuring that the sale goes smoothly. In this case, the agent has the authority to make decisions and take actions that affect the interests of the buyer or seller, whom they are representing.

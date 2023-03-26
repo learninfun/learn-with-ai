@@ -1,0 +1,6 @@
+- Word Embeddings是一种将单词映射到连续向量空间中的技术，可以将单词转换为可以进行计算和比较的数值表示。
+- Word Embeddings可以用于自然语言处理的各种任务，如文本分类、情感分析、语言翻译等。
+- Word Embeddings的训练需要大量的文本数据，可以使用神经网络模型进行训练，如CBOW和Skip-gram模型。
+- 常见的Word Embeddings模型有Word2Vec、GloVe、FastText等。
+- Word Embeddings可以通过计算单词向量之间的相似度来找到相似的单词，也可以使用Word Embeddings进行视觉化呈现。
+- Word Embeddings训练的结果具有可解释性且易于可视化，可以帮助理解单词间的关系及其在上下文中的意义。

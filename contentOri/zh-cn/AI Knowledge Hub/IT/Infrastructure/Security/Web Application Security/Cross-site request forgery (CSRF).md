@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Cross-Site Request Forgery (CSRF)的问题
+给我5题Cross-Site Request Forgery (CSRF)的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Cross-Site Request Forgery (CSRF)并举例
+以中文说明Cross-Site Request Forgery (CSRF)并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Cross-Site Request Forgery (CSRF)是指攻击者利用受害者的身份，向�
 
 这种攻击有时也被称为“Session Riding”或“海盗访问”，是一种常见的网路攻击手段。为了减少这种攻击带来的风险，网站开发人员可以采取一系列防范措施，例如通过验证码、随机Token等方式确保请求的合法性，降低攻击的风险。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Cross-Site Request Forgery (CSRF)的重点
+以中文条列Cross-Site Request Forgery (CSRF)的重点
 {{< /ask_chatgpt >}}
 
 
@@ -43,7 +43,7 @@ Cross-Site Request Forgery (CSRF)是指攻击者利用受害者的身份，向�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Cross-Site Request Forgery (CSRF)的中等难度问题，并在后面列出答案
+以中文给我5题Cross-Site Request Forgery (CSRF)的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

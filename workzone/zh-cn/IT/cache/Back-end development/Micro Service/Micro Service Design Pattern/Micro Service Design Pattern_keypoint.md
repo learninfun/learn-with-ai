@@ -1,19 +1,19 @@
 
 
-1. 單一職責原則 (Single Responsibility Principle, SRP)：每個服務應該只負責一個任務，避免過於複雜的服務。
+1. 单一职责原则 (Single Responsibility Principle, SRP)：每个服务应该只负责一个任务，避免过于复杂的服务。
 
-2. 服務拆分 (Service Decomposition)：將大型服務拆分為兩個或多個小型服務，以便更好地管理和擴展。
+2. 服务拆分 (Service Decomposition)：将大型服务拆分为两个或多个小型服务，以便更好地管理和扩展。
 
-3. 微服務設計指南 (Microservice Design Guidelines)：一系列最佳實踐和設計原則，幫助開發者創建高效和可靠的微服務架構。
+3. 微服务设计指南 (Microservice Design Guidelines)：一系列最佳实践和设计原则，帮助开发者创建高效和可靠的微服务架构。
 
-4. 服務發現 (Service Discovery)：一個服務的位置和其他元數據應該被動態地發現和管理，而不是在代碼中固定。
+4. 服务发现 (Service Discovery)：一个服务的位置和其他元数据应该被动态地发现和管理，而不是在代码中固定。
 
-5. 服務維護性 (Service Maintainability)：微服務應該易於維護，可以隨著時間推移進行更改和更新。
+5. 服务维护性 (Service Maintainability)：微服务应该易于维护，可以随着时间推移进行更改和更新。
 
-6. 相似性增加 (Increased Similarity)：微服務之間的相似性應該更高，提高服務之間的交換性和互換性。
+6. 相似性增加 (Increased Similarity)：微服务之间的相似性应该更高，提高服务之间的交换性和互换性。
 
-7. 事件驅動設計 (Event-Driven Design)：使用事件驅動設計來將服務解耦，並確保各個服務的低相依性。
+7. 事件驱动设计 (Event-Driven Design)：使用事件驱动设计来将服务解耦，并确保各个服务的低相依性。
 
-8. 微服務管道管理 (Microservice Pipeline Management)：應該創建一個端到端的自動流水線，以管理微服務的交付和部署。
+8. 微服务管道管理 (Microservice Pipeline Management)：应该创建一个端到端的自动流水线，以管理微服务的交付和部署。
 
-9. 微服務監控 (Microservice Monitoring)：監控微服務架構是非常重要的，以確保高可用性、可靠性和安全性。
+9. 微服务监控 (Microservice Monitoring)：监控微服务架构是非常重要的，以确保高可用性、可靠性和安全性。

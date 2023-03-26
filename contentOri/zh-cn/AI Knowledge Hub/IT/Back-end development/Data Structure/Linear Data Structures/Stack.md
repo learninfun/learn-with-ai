@@ -1,10 +1,10 @@
 +++
-title = "堆栈"
+title = "堆棧"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Stack的问题
+給我5題Stack的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 如何實現Stack中的迭代器？
 5. 如何避免Stack中的內存泄漏？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Stack并举例
+以中文說明Stack並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Stack是一種資料結構，通常用於儲存按照順序排列的數據，並
 
 當用戶輸入一個數字時，我們可以把它放入Stack中，等到用戶輸入一個運算符號時，我們可以從Stack中取出最近的兩個數字，然後進行計算，然後再把計算結果放回到Stack中。這樣，當用戶輸入了足夠的數字和運算符號後，最後Stack中就只剩下一個值，就是計算結果了。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Stack的重点
+以中文條列Stack的重點
 {{< /ask_chatgpt >}}
 
 
@@ -46,35 +46,35 @@ Stack是一種資料結構，通常用於儲存按照順序排列的數據，並
 7. 在資料結構中，Stack 是一個基礎的結構，許多其他資料結構都可以透過 Stack 來實現，例如 Queue、表達式求值等。
 8. Stack 的時間複雜度為 O(1)。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Stack的中等难度问题，并在后面列出答案
+以中文給我5題Stack的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
 1. 包含min方法的Stack
-实现一个包含min方法的Stack，除了常规的push、pop方法外，还要有返回stack内最小元素的方法min。要求：所有操作均为O(1)时间复杂度。
+實現一個包含min方法的Stack，除了常規的push、pop方法外，還要有返回stack內最小元素的方法min。要求：所有操作均為O(1)時間複雜度。
 
 答案：https://leetcode.com/problems/min-stack/
 
-2. 使用Stack实现Queue
-使用Stack实现一个Queue。
+2. 使用Stack實現Queue
+使用Stack實現一個Queue。
 
 答案：https://leetcode.com/problems/implement-queue-using-stacks/
 
-3. 简化路径
-给定一个表示绝对路径的Unix风格的字符串，请简化它。例如，路径"/home//foo/"应简化为"/home/foo"。
+3. 簡化路徑
+給定一個表示絕對路徑的Unix風格的字符串，請簡化它。例如，路徑"/home//foo/"應簡化為"/home/foo"。
 
 答案：https://leetcode.com/problems/simplify-path/
 
-4. 小括号匹配
-给定一个只包含"(", ")", "{", "}", "[", "]"的字符串，请判断是否是合法的小括号串。要求：快速、高效且正确。
+4. 小括號匹配
+給定一個只包含"(", ")", "{", "}", "[", "]"的字符串，請判斷是否是合法的小括號串。要求：快速、高效且正確。
 
 答案：https://leetcode.com/problems/valid-parentheses/
 
 5. 最大矩形
-给定一个只包含0和1的矩阵，找出其中最大的由1组成的矩形面积。要求：时间复杂度为O(mn)。
+給定一個只包含0和1的矩陣，找出其中最大的由1組成的矩形面積。要求：時間複雜度為O(mn)。
 
 答案：https://leetcode.com/problems/maximal-rectangle/   
 

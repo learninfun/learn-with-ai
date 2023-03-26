@@ -1,10 +1,10 @@
 +++
-title = "单页应用程式 （SPA）"
+title = "單頁應用程式 （SPA）"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Single-page applications (SPAs)的问题
+給我5題Single-page applications (SPAs)的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 如何在 SPAs 中實現頁面切換與資料處理的功能？
 5. SPAs 的安全性與資料保護措施有哪些？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Single-page applications (SPAs)并举例
+以中文說明Single-page applications (SPAs)並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,46 +36,46 @@ Single-page applications (SPAs)是一種建立在Web技術上的應用程序，�
 
 5. Twitter：Twitter的部分功能也採用Single-page applications (SPAs)，例如用戶在推文頁面上動態加載新推文，而不需要刷新整個網頁。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Single-page applications (SPAs)的重点
+以中文條列Single-page applications (SPAs)的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 基于Web应用程式的类型，SPA是一个关键字，总体而言主要是一个单页应用程式，让使用者以不刷新网页的方式在同一个Web网站上浏览内容。
+1. 基於Web應用程式的類型，SPA是一個關鍵字，總體而言主要是一個單頁應用程式，讓使用者以不刷新網頁的方式在同一個Web網站上瀏覽內容。
 
-2. SPA是一个独立的应用程式，拥有自己的路由系统、资料管理和视图更新系统。
+2. SPA是一個獨立的應用程式，擁有自己的路由系統、資料管理和視圖更新系統。
 
-3. SPA透过AJAX与后端伺服器进行通讯，从资料库获取必要的资料、呈现页面，也可以利用WebSocket进行即时资料通讯。
+3. SPA透過AJAX與後端伺服器進行通訊，從資料庫獲取必要的資料、呈現頁面，也可以利用WebSocket進行即時資料通訊。
 
-4. SPA优化了网站的页面载入速度，因为不需要每一次跳转页面都要重新载入整个HTML文件及对应的CSS和Javascript程式码。但是，SPA在首次载入页面时，需要下载整个SPA应用及相关的框架库，所以首次载入速度较慢。
+4. SPA優化了網站的頁面載入速度，因為不需要每一次跳轉頁面都要重新載入整個HTML文件及對應的CSS和Javascript程式碼。但是，SPA在首次載入頁面時，需要下載整個SPA應用及相關的框架庫，所以首次載入速度較慢。
 
-5. SPA应用程式需要遵循单向资料流的原则，当资料发生改变时，所有相关的视图都会得到更新。
+5. SPA應用程式需要遵循單向資料流的原則，當資料發生改變時，所有相關的視圖都會得到更新。
 
-6. SPA透过浏览器的历史纪录API和路由系统实现前端路由，允许使用者跳转不同的UI状态。透过这种方式，SPA取代了传统的多页面应用程式。
+6. SPA透過瀏覽器的歷史紀錄API和路由系統實現前端路由，允許使用者跳轉不同的UI狀態。透過這種方式，SPA取代了傳統的多頁面應用程式。
 
-7. SPA通常拥有跨平台、简单易用和交互性强等优点。然而，基于SPA应用程式的较高复杂性和设计更加灵活的资料架构也存在一些挑战，例如SEO优化、性能优化、开发和维护等问题。   
+7. SPA通常擁有跨平台、簡單易用和交互性強等優點。然而，基於SPA應用程式的較高複雜性和設計更加靈活的資料架構也存在一些挑戰，例如SEO優化、性能優化、開發和維護等問題。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Single-page applications (SPAs)的中等难度问题，并在后面列出答案
+以中文給我5題Single-page applications (SPAs)的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何在Single-Page Application (SPA)中实现Routing？
-答案：可以使用React-Router或Vue-Router等路由库实现Routing。在路由表中定义各个路由对应的组件，然后通过相应的事件或URL变化触发路由的跳转。
+1. 如何在Single-Page Application (SPA)中實現Routing？
+答案：可以使用React-Router或Vue-Router等路由庫實現Routing。在路由表中定義各個路由對應的組件，然後通過相應的事件或URL變化觸發路由的跳轉。
 
-2. 如何实现SPA中的页面缓存和网络页面加载？
-答案：可以使用Service Worker或Local Storage等技术实现页面缓存和离线浏览功能。同时也可以使用前端框架的内置Loading组件或第三方库如spinner.js实现网络页面的载入动画。
+2. 如何實現SPA中的頁面緩存和網絡頁面加載？
+答案：可以使用Service Worker或Local Storage等技術實現頁面緩存和離線瀏覽功能。同時也可以使用前端框架的內置Loading組件或第三方庫如spinner.js實現網絡頁面的載入動畫。
 
-3. 如何在SPA中实现页面跳转时的自动注册和注销？
-答案：可以使用React Context或Vue全局状态管理库如Vuex实现全局状态管理。在App组件中创建全局状态并将其注入React Context或Vuex，在子组件中通过context或Vuex中的state和action访问全局状态。在页面跳转时，通过context或Vuex自动注册和注销全局状态。
+3. 如何在SPA中實現頁面跳轉時的自動註冊和註銷？
+答案：可以使用React Context或Vue全局狀態管理庫如Vuex實現全局狀態管理。在App組件中創建全局狀態並將其注入React Context或Vuex，在子組件中通過context或Vuex中的state和action訪問全局狀態。在頁面跳轉時，通過context或Vuex自動註冊和註銷全局狀態。
 
-4. 如何实现SPA的页面分类和搜索功能？
-答案：可以使用前端框架的组件化和路由系统实现页面分类和搜索功能。将数据分类为不同的选项，通过路由向指定组件传递数据参数，在组件中根据参数渲染不同的页面。同时也可以使用第三方库如React-Infinite-Scroll或Vue-Infinite-Loading实现无限滚动加载数据。
+4. 如何實現SPA的頁面分類和搜索功能？
+答案：可以使用前端框架的組件化和路由系統實現頁面分類和搜索功能。將數據分類為不同的選項，通過路由向指定組件傳遞數據參數，在組件中根據參數渲染不同的頁面。同時也可以使用第三方庫如React-Infinite-Scroll或Vue-Infinite-Loading實現無限滾動加載數據。
 
-5. 如何实现SPA中的客户端验证？
-答案：可以使用JWT或OAuth等授权框架实现客户端验证。在登录成功后，服务器返回一个JWT和Refresh Token，客户端使用JWT去访问API，而不是每个请求都携带用户名和密码。当JWT过期时，可以使用Refresh Token去服务器交换新的JWT。同时也可以使用客户端验证库如Passport.js等简化验证过程。   
+5. 如何實現SPA中的客戶端驗證？
+答案：可以使用JWT或OAuth等授權框架實現客戶端驗證。在登錄成功後，服務器返回一個JWT和Refresh Token，客戶端使用JWT去訪問API，而不是每個請求都攜帶用戶名和密碼。當JWT過期時，可以使用Refresh Token去服務器交換新的JWT。同時也可以使用客戶端驗證庫如Passport.js等簡化驗證過程。   
 

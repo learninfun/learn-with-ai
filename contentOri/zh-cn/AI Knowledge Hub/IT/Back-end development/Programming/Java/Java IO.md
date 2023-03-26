@@ -1,10 +1,10 @@
 +++
-title = "Java输入输出"
+title = "Java輸入輸出"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Java IO的问题
+給我5題Java IO的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "4"
 4. 什麼是Java中的緩衝輸入輸出？ 
 5. 如何在Java中使用字符流進行輸入輸出？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Java IO并举例
+以中文說明Java IO並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -60,35 +60,35 @@ public class ReadFromFile {
 
 這僅僅是Java IO的一個簡單示例，Java IO還有很多強大的功能和技術可以探索。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Java IO的重点
+以中文條列Java IO的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Input/Output Stream: Java提供了两种Stream来处理IO，一种是Input Stream用于从外部资源读取数据，另一种是Output Stream用于将数据写入外部资源。
+1. Input/Output Stream: Java提供了兩種Stream來處理IO，一種是Input Stream用於從外部資源讀取數據，另一種是Output Stream用於將數據寫入外部資源。
 
-2. Reader/Writer: 除了Stream外，Java还提供了Reader和Writer来处理文字资料的IO操作。Reader用于从外部资源读取文字数据，而Writer用于将文字数据写入外部资源。
+2. Reader/Writer: 除了Stream外，Java還提供了Reader和Writer來處理文字資料的IO操作。Reader用於從外部資源讀取文字數據，而Writer用於將文字數據寫入外部資源。
 
-3. File IO: Java提供了File类来处理档案IO，可以使用File类来创建、写入、读取和删除档案。
+3. File IO: Java提供了File類來處理檔案IO，可以使用File類來創建、寫入、讀取和刪除檔案。
 
-4. 字符集(Encoding): 在处理文字资料IO时，需要注意字符集的问题，Java提供了多种字符集，可以使用相应的字符集来处理不同语系的文字资料。
+4. 字符集(Encoding): 在處理文字資料IO時，需要注意字符集的問題，Java提供了多種字符集，可以使用相應的字符集來處理不同語系的文字資料。
 
-5. 序列化(Serialization): Java提供了序列化技术，可以将物件转换成byte数组，以便在不同的环境中进行传输和存储。
+5. 序列化(Serialization): Java提供了序列化技術，可以將物件轉換成byte數組，以便在不同的環境中進行傳輸和存儲。
 
-6. 缓冲区(Buffering): 为了提高IO操作的效率，Java提供了缓冲区(Buffer)，通过将IO操作的数据先缓存在缓冲区中，在一定条件下再将数据批量写入外部资源，可以提高IO操作的效率。
+6. 緩衝區(Buffering): 為了提高IO操作的效率，Java提供了緩衝區(Buffer)，通過將IO操作的數據先緩存在緩衝區中，在一定條件下再將數據批量寫入外部資源，可以提高IO操作的效率。
 
-7. NIO(Non-blocking IO): Java提供了NIO技术，可以实现非阻塞的IO操作，增强系统的扩展性和吞吐量。NIO技术包括通道、缓冲区和选择器等组件。   
+7. NIO(Non-blocking IO): Java提供了NIO技術，可以實現非阻塞的IO操作，增強系統的擴展性和吞吐量。NIO技術包括通道、緩衝區和選擇器等組件。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Java IO的中等难度问题，并在后面列出答案
+以中文給我5題Java IO的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 请撰写一个程式，从档案中读取不定数量的整数，并计算它们的总和。
+1. 請撰寫一個程式，從檔案中讀取不定數量的整數，並計算它們的總和。
 
 ```
 import java.io.*;
@@ -112,7 +112,7 @@ public class SumIntegersFromFile {
 }
 ```
 
-2. 请撰写一个程式，将档案中的字符串逐行读取并逐行写入新的档案中。
+2. 請撰寫一個程式，將檔案中的字符串逐行讀取並逐行寫入新的檔案中。
 
 ```
 import java.io.*;
@@ -138,7 +138,7 @@ public class CopyFileLineByLine {
 }
 ```
 
-3. 请撰写一个程式，将二进制档案中的数据按照特定格式进行读取和输出。
+3. 請撰寫一個程式，將二進制檔案中的數據按照特定格式進行讀取和輸出。
 
 ```
 import java.io.*;
@@ -163,7 +163,7 @@ public class BinaryFileFormat {
 }
 ```
 
-4. 请撰写一个程式，从档案中读取包含多个单字的字符串，并将每个单字的首字母转换为大写。
+4. 請撰寫一個程式，從檔案中讀取包含多個單字的字符串，並將每個單字的首字母轉換為大寫。
 
 ```
 import java.io.*;
@@ -190,7 +190,7 @@ public class CapitalizeFirstLetter {
 }
 ```
 
-5. 请撰写一个程式，将多个档案中的数据合并到一个新档案中。
+5. 請撰寫一個程式，將多個檔案中的數據合併到一個新檔案中。
 
 ```
 import java.io.*;

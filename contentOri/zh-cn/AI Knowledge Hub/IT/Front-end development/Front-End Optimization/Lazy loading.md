@@ -4,7 +4,7 @@ weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Lazy loading的问题
+给我5题Lazy loading的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "5"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Lazy loading并举例
+以中文说明Lazy loading并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,49 +30,49 @@ Lazy loading是一种网页加载优化技术，它利用延迟载入的方式�
 
 综而言之，Lazy loading技术可以在不影响用户体验的情况下，提高网站速度和性能，特别对于移动端，更是能够减少用户等待时间，提高使用体验。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Lazy loading的重点
+以中文条列Lazy loading的重点
 {{< /ask_chatgpt >}}
 
 
 
-以下是Lazy loading的重點：
+以下是Lazy loading的重点：
 
-1. 延遲載入：Lazy loading是一種技術，它讓網頁上的圖片、影片、音訊及其他資源等，在使用者需要時才載入。
+1. 延迟载入：Lazy loading是一种技术，它让网页上的图片、影片、音讯及其他资源等，在使用者需要时才载入。
 
-2. 優化網頁速度：Lazy loading能夠減少網頁的載入時間，並且讓使用者在網頁開始載入後，就可以立即開始瀏覽網頁的內容。
+2. 优化网页速度：Lazy loading能够减少网页的载入时间，并且让使用者在网页开始载入后，就可以立即开始浏览网页的内容。
 
-3. 標籤及選擇器：開發人員可以使用HTML、CSS及JavaScript等標籤及選擇器完成Lazy loading，並且讓網頁的資源按需而讀取。
+3. 标签及选择器：开发人员可以使用HTML、CSS及JavaScript等标签及选择器完成Lazy loading，并且让网页的资源按需而读取。
 
-4. 支援多種瀏覽器：Lazy loading技術能夠支援大部分的瀏覽器，並且能夠處理所有種類的資源。
+4. 支援多种浏览器：Lazy loading技术能够支援大部分的浏览器，并且能够处理所有种类的资源。
 
-5. 改善用戶體驗：Lazy loading能夠改善使用者體驗，提高網站的互動性及使用率，讓使用者能夠更快速、更方便地瀏覽網頁的內容。   
+5. 改善用户体验：Lazy loading能够改善使用者体验，提高网站的互动性及使用率，让使用者能够更快速、更方便地浏览网页的内容。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Lazy loading的中等难度问题，并在后面列出答案
+以中文给我5题Lazy loading的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 前端頁面需載入大量資料，如何實現Lazy Loading？
+1. 前端页面需载入大量资料，如何实现Lazy Loading？
 
-答案：使用Intersection Observer API監視頁面上的元素，當元素進入視窗範圍內時，才載入該元素所需的資料。可以使用像是react-lazyload和ng-lazyload-image這樣的套件來實現。
+答案：使用Intersection Observer API监视页面上的元素，当元素进入视窗范围内时，才载入该元素所需的资料。可以使用像是react-lazyload和ng-lazyload-image这样的套件来实现。
 
-2. 如何避免在第一次訪問網站時，將所有頁面資料都加載出來？
+2. 如何避免在第一次访问网站时，将所有页面资料都加载出来？
 
-答案：使用Lazy Loading機制。將頁面核心資料與功能做好分類，只在用戶訪問時加載當前頁面所需的資料，其他部分透過按需載入實現最佳的性能優化。
+答案：使用Lazy Loading机制。将页面核心资料与功能做好分类，只在用户访问时加载当前页面所需的资料，其他部分透过按需载入实现最佳的性能优化。
 
-3. 如何實現按需載入圖片？
+3. 如何实现按需载入图片？
 
-答案：使用Lazy Loading機制。通常有兩種方式實現：以空的圖片檔代替原始圖檔，再透過自訂屬性儲存圖片路徑等資訊，再透過JavaScript進行替換；透過intersection Observer API監視圖片是否進入視窗範圍，並將其載入。
+答案：使用Lazy Loading机制。通常有两种方式实现：以空的图片档代替原始图档，再透过自订属性储存图片路径等资讯，再透过JavaScript进行替换；透过intersection Observer API监视图片是否进入视窗范围，并将其载入。
 
-4. 如何確定設計的Lazy Loading是有效果的？
+4. 如何确定设计的Lazy Loading是有效果的？
 
-答案：使用Chrome瀏覽器的Dev Tool，啟用Network面板，模擬網路速度，使用Performance面板觀察頁面載入時間、如何加快頁面載入等表現，更可以使用Lighthouse或WebPageTest進行真實測試。
+答案：使用Chrome浏览器的Dev Tool，启用Network面板，模拟网路速度，使用Performance面板观察页面载入时间、如何加快页面载入等表现，更可以使用Lighthouse或WebPageTest进行真实测试。
 
-5. 如何實現Lazy Loading時，保證頁面導航的可用性？
+5. 如何实现Lazy Loading时，保证页面导航的可用性？
 
-答案：加載較大的ressource時，要確保網頁的載入順序是正確的。優先加載頁面的核心資料和功能，再進行圖片和其他資源的加載和渲染，避免出現網頁空白等問題。可以將頁面下滑一半的位置加載接下來的內容，並顯示加載狀態提示，讓用戶了解當前頁面正在進行資源的加載。   
+答案：加载较大的ressource时，要确保网页的载入顺序是正确的。优先加载页面的核心资料和功能，再进行图片和其他资源的加载和渲染，避免出现网页空白等问题。可以将页面下滑一半的位置加载接下来的内容，并显示加载状态提示，让用户了解当前页面正在进行资源的加载。   
 

@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Service Mesh的问题
+给我5题Service Mesh的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Service Mesh并举例
+以中文说明Service Mesh并举例
 {{< /ask_chatgpt >}}
 
 
@@ -34,53 +34,53 @@ Service Mesh在新型基于微服务的架构中是非常常见的，因为微�
 
 3. Consul: HashiCorp开发的一个Service Mesh，专注于为分布式系统中的服务发现、配置和安全提供解决方案。这个Service Mesh以轻量级和简单易用而闻名。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Service Mesh的重点
+以中文条列Service Mesh的重点
 {{< /ask_chatgpt >}}
 
 
 
-以下是Service Mesh的重點：
+以下是Service Mesh的重点：
 
-1. Service Mesh是一種應用程序架構，用於管理服務之間的通信和資訊流動。
+1. Service Mesh是一种应用程序架构，用于管理服务之间的通信和资讯流动。
 
-2. Mesh由一組代理軟件組成，這些代理軟件位於服務之間，負責管理通信和資訊流動。
+2. Mesh由一组代理软件组成，这些代理软件位于服务之间，负责管理通信和资讯流动。
 
-3. Service Mesh的主要優勢是提供了可靠性、可維護性和可擴展性的一種方式。
+3. Service Mesh的主要优势是提供了可靠性、可维护性和可扩展性的一种方式。
 
-4. Service Mesh的關鍵概念包括Sidecar、Control Plane、Data Plane、Service Discovery、Load Balancing和Traffic Management。
+4. Service Mesh的关键概念包括Sidecar、Control Plane、Data Plane、Service Discovery、Load Balancing和Traffic Management。
 
-5. Service Mesh可以與各種容器編排系統和雲原生平台集成，包括Kubernetes、Docker、AWS EKS、Istio等。
+5. Service Mesh可以与各种容器编排系统和云原生平台集成，包括Kubernetes、Docker、AWS EKS、Istio等。
 
-6. Service Mesh還支持各種較新的技術，例如Service Mesh Interface（SMI）和WebAssembly（Wasm）。
+6. Service Mesh还支持各种较新的技术，例如Service Mesh Interface（SMI）和WebAssembly（Wasm）。
 
-7. Service Mesh是現代雲原生架構中的重要組件之一，對於管理運行在不同環境中的大規模服務網絡，有極為重要的作用。   
+7. Service Mesh是现代云原生架构中的重要组件之一，对于管理运行在不同环境中的大规模服务网络，有极为重要的作用。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Service Mesh的中等难度问题，并在后面列出答案
+以中文给我5题Service Mesh的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 什麼是Service Mesh中的Sidecar模式？如何與Service Mesh框架結合使用？
+1. 什么是Service Mesh中的Sidecar模式？如何与Service Mesh框架结合使用？
 
-答：Sidecar模式是一種Service Mesh部署模式，其中每個服務實例都附帶一個稱為Sidecar的輕量級代理。這將Sidecar與真正的應用程序代碼分離開來，並負責各種網絡通信，例如流量管理，故障恢復，安全性等。在Service Mesh框架中，Sidecar模式通常由Istio，Linkerd或Consul等支持。
+答：Sidecar模式是一种Service Mesh部署模式，其中每个服务实例都附带一个称为Sidecar的轻量级代理。这将Sidecar与真正的应用程序代码分离开来，并负责各种网络通信，例如流量管理，故障恢复，安全性等。在Service Mesh框架中，Sidecar模式通常由Istio，Linkerd或Consul等支持。
 
-2. Service Mesh中的Poison Pill是什麼？它如何在Service Mesh架構中部署？
+2. Service Mesh中的Poison Pill是什么？它如何在Service Mesh架构中部署？
 
-答：Poison Pill是一種Service Mesh中的安全策略，其中通過在流量中引入有害載荷來禁止未授權的進程訪問應用程序服務。在Service Mesh框架中，Poison Pill通常由Istio等支持。
+答：Poison Pill是一种Service Mesh中的安全策略，其中通过在流量中引入有害载荷来禁止未授权的进程访问应用程序服务。在Service Mesh框架中，Poison Pill通常由Istio等支持。
 
-3. Service Mesh的拓撲分析是什麼？它如何源自Service Mesh架構的數據？
+3. Service Mesh的拓扑分析是什么？它如何源自Service Mesh架构的数据？
 
-答：拓撲分析是Service Mesh中與顯示諸如線路，鏈路和訪問路由等各種基礎設施拓撲相關信息的技術。它通常與Service Mesh框架中的享元模式及其他打补丁的技術系結合使用，以更新並對Service Mesh架構中的流量進行管理及跟踪。
+答：拓扑分析是Service Mesh中与显示诸如线路，链路和访问路由等各种基础设施拓扑相关信息的技术。它通常与Service Mesh框架中的享元模式及其他打补丁的技术系结合使用，以更新并对Service Mesh架构中的流量进行管理及跟踪。
 
-4. 在Kubernetes中，Envoy如何成為一種被廣泛使用的Service Mesh代理？
+4. 在Kubernetes中，Envoy如何成为一种被广泛使用的Service Mesh代理？
 
-答：Envoy是Service Mesh代理之一，可以與Kubernetes集群搭配使用。Envoy通常在Kubernetes Pod之間進行通信，通常由Istio等支持。在多個本地Pod中的Envoy代理實例之間的通信可以通過應用數據平面領域的協調完成。
+答：Envoy是Service Mesh代理之一，可以与Kubernetes集群搭配使用。Envoy通常在Kubernetes Pod之间进行通信，通常由Istio等支持。在多个本地Pod中的Envoy代理实例之间的通信可以通过应用数据平面领域的协调完成。
 
-5. 使用Istio等Service Mesh框架，如何實現對Docker容器內的流量進行服務級自動伸縮？
+5. 使用Istio等Service Mesh框架，如何实现对Docker容器内的流量进行服务级自动伸缩？
 
-答：使用Service Mesh框架，例如Istio，可以實現對Docker容器內的流量進行服務級自動伸縮。Istio等框架中的分析，控制及網路管理工具可以自動檢測故障或高負載情況。在檢測到這種情況後，Istio等框架可以從其他空閒容器中重配置代理流量。   
+答：使用Service Mesh框架，例如Istio，可以实现对Docker容器内的流量进行服务级自动伸缩。Istio等框架中的分析，控制及网路管理工具可以自动检测故障或高负载情况。在检测到这种情况后，Istio等框架可以从其他空闲容器中重配置代理流量。   
 

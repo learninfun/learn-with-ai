@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Identity and Access Management (IAM)的问题
+给我5题Identity and Access Management (IAM)的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Identity and Access Management (IAM)并举例
+以中文说明Identity and Access Management (IAM)并举例
 {{< /ask_chatgpt >}}
 
 
@@ -38,34 +38,34 @@ IAM 技术被广泛应用于企业环境中，其中包括：
 
 举例来说，大型企业通常需要IAM平台，以管理其数以万计的用户和数千个应用程序和资源。一个常见的情况是，用户必须经过身份验证来获取对企业内部资源的访问权限，例如电子邮件、内部网站、文件库等，进而实现内部管控和保护数据安全。此外，云端存储、网路管理、网路安全等IT领域也广泛应用IAM技术。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Identity and Access Management (IAM)的重点
+以中文条列Identity and Access Management (IAM)的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. 身份認證（Authentication）：確認使用者的真實身份，通過使用者ID和密碼等方式進行檢查。
+1. 身份认证（Authentication）：确认使用者的真实身份，通过使用者ID和密码等方式进行检查。
 
-2. 存取控制（Access Control）：限制使用者只能訪問其所授權的系統和應用程式。
+2. 存取控制（Access Control）：限制使用者只能访问其所授权的系统和应用程式。
 
-3. 授權（Authorization）：確認使用者可訪問哪些資源和功能，以及他們可以執行哪些操作。
+3. 授权（Authorization）：确认使用者可访问哪些资源和功能，以及他们可以执行哪些操作。
 
-4. 帳戶管理（Account Management）：管理用戶帳戶和其權限，以便更好地控制存取和權限。
+4. 帐户管理（Account Management）：管理用户帐户和其权限，以便更好地控制存取和权限。
 
-5. 安全性監視（Security Monitoring）：監控組織內部和外部存取的安全性，以及撤銷未經授權的存取。
+5. 安全性监视（Security Monitoring）：监控组织内部和外部存取的安全性，以及撤销未经授权的存取。
 
-6. 單一登錄（Single Sign-On）：使用者只需輸入一次憑證，就可以獲得對多個應用程式和系統的存取權限。
+6. 单一登录（Single Sign-On）：使用者只需输入一次凭证，就可以获得对多个应用程式和系统的存取权限。
 
-7. 身份可管理性（Identity Governance）：確保組織有一個整體的視圖並有效管理使用者身份。
+7. 身份可管理性（Identity Governance）：确保组织有一个整体的视图并有效管理使用者身份。
 
-8. IDaaS（Identity as a Service）：提供由第三方提供的IAM服務，可協助組織以更方便和成本效益的方式實現IAM。
+8. IDaaS（Identity as a Service）：提供由第三方提供的IAM服务，可协助组织以更方便和成本效益的方式实现IAM。
 
-9. 風險評估與管理（Risk Assessment and Management）：評估並管理IAM中的風險，針對潛在的威脅實施相應的措施。   
+9. 风险评估与管理（Risk Assessment and Management）：评估并管理IAM中的风险，针对潜在的威胁实施相应的措施。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Identity and Access Management (IAM)的中等难度问题，并在后面列出答案
+以中文给我5题Identity and Access Management (IAM)的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

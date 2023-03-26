@@ -1,10 +1,10 @@
 +++
-title = "颜色对比度"
+title = "顏色對比度"
 weight = "5"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Color contrast的问题
+給我5題Color contrast的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "5"
 4. 什麼是最佳的色彩對比比例？ 如何通過調整亮度和飽和度來達到理想的色彩對比？
 5. 在不同的設計媒介（例如網頁、印刷品、應用程式）中，如何利用色彩對比來創建不同的視覺效果？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Color contrast并举例
+以中文說明Color contrast並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,9 +36,9 @@ Color contrast指的是不同颜色之间的视觉对比度，通常用于设计
 
 总之 Color contrast可以通过使用不同的颜色来创建不同的对比度，以帮助设计师提高他们的设计品质和效果。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Color contrast的重点
+以中文條列Color contrast的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,9 +49,9 @@ Color contrast指的是不同颜色之间的视觉对比度，通常用于设计
 4. 對比度應該可以在不同的燈光環境下進行調整，例如在白天和晚上的時候。
 5. 在設計網站時應考慮到全球不同地區和文化中對視覺對比的不同理解和需求。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Color contrast的中等难度问题，并在后面列出答案
+以中文給我5題Color contrast的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

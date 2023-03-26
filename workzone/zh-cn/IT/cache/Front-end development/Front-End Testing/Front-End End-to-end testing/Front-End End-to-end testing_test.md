@@ -1,6 +1,6 @@
 
 
-1. 請問以下哪種測試會檢查整個系統的行為，包括用戶介面、功能、與後端系統的溝通等等？
+1. 请问以下哪种测试会检查整个系统的行为，包括用户介面、功能、与后端系统的沟通等等？
 
 A. Unit testing
 B. Integration testing
@@ -9,31 +9,31 @@ D. System testing
 
 答：C
 
-2. 當我們進行End-to-end testing時，是否需要針對每個單元元件進行測試？
+2. 当我们进行End-to-end testing时，是否需要针对每个单元元件进行测试？
 
 A. 是
 B. 否
 
 答：B
 
-3. 在進行End-to-end testing時，我們可以使用哪些工具來協助自動測試？
+3. 在进行End-to-end testing时，我们可以使用哪些工具来协助自动测试？
 
 A. Mocha
 B. Selenium
 C. Cypress
-D. A與B都可以
-E. B與C都可以
+D. A与B都可以
+E. B与C都可以
 
 答：E
 
-4. 當我們在執行End-to-end testing時，是否需要專門的測試環境？
+4. 当我们在执行End-to-end testing时，是否需要专门的测试环境？
 
 A. 是
 B. 否
 
 答：A
 
-5. 請問在進行End-to-end testing時，我們需要準備哪些測試用例？
+5. 请问在进行End-to-end testing时，我们需要准备哪些测试用例？
 
 A. Positive cases
 B. Negative cases

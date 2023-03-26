@@ -1,0 +1,5 @@
+Reinforcement Learning is a subfield of Machine Learning in which an agent learns to behave in an environment, by repeated trial-and-error attempts to achieve a goal. In Reinforcement Learning, an agent interacts with an environment and tries to learn from its feedback. The environment provides feedback in the form of rewards or penalties, depending on how well the agent is performing.
+
+For example, let's say we want to teach a computer program to play a game of chess. In Reinforcement Learning, the agent (in this case, the program) would start by randomly making moves on the chessboard. The environment (the game of chess) would then give feedback in the form of rewards (points) or penalties (negative points). The agent would keep making moves, and over time, it would learn which moves tend to receive rewards and which tend to receive penalties.
+
+As the agent learns which moves receive rewards, it can update its behavior accordingly. In this way, Reinforcement Learning allows the agent to learn from its own experience to maximize its rewards and achieve its goals.

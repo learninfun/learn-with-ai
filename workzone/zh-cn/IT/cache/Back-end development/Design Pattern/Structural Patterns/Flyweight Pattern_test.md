@@ -1,6 +1,6 @@
 
 
-1. 假設有一個圖書館系統，你想實現一個 Book 類，每個 Book 對象都包含了一些固定的基本信息（例如書名、作者、ISBN 編號等等）。請使用 Flyweight Pattern 實現這個 Book 類。
+1. 假设有一个图书馆系统，你想实现一个 Book 类，每个 Book 对象都包含了一些固定的基本信息（例如书名、作者、ISBN 编号等等）。请使用 Flyweight Pattern 实现这个 Book 类。
 
 答案：
 
@@ -21,7 +21,7 @@ class Book {
 }
 ```
 
-2. 假設你正在開發一款 RPG 遊戲，其中有許多種類的武器和防具。你希望使用 Flyweight Pattern 來最小化物件的數量，同時讓玩家能輕鬆使用這些武器和防具。請寫出建議的類別設計。
+2. 假设你正在开发一款 RPG 游戏，其中有许多种类的武器和防具。你希望使用 Flyweight Pattern 来最小化物件的数量，同时让玩家能轻松使用这些武器和防具。请写出建议的类别设计。
 
 答案：
 
@@ -43,7 +43,7 @@ class Sword implements Weapon {
 
     @Override
     public void use() {
-        // 使用劍進行攻擊
+        // 使用剑进行攻击
     }
 }
 
@@ -56,12 +56,12 @@ class Shield implements Armor {
 
     @Override
     public void use() {
-        // 使用盾牌進行防禦
+        // 使用盾牌进行防御
     }
 }
 
 class WeaponFactory {
-    // 保存已創建的武器實例
+    // 保存已创建的武器实例
     private static final Map<Integer, Weapon> weapons = new HashMap<>();
 
     public static Weapon create(int damage) {
@@ -75,7 +75,7 @@ class WeaponFactory {
 }
 
 class ArmorFactory {
-    // 保存已創建的防具實例
+    // 保存已创建的防具实例
     private static final Map<Integer, Armor> armors = new HashMap<>();
 
     public static Armor create(int defence) {
@@ -89,12 +89,12 @@ class ArmorFactory {
 }
 ```
 
-3. 假設你正在開發一個基於 JavaFX 的圖像編輯器，當使用者選擇某種顏色時，它將應用到圖像中的所有像素。為了減少顏色對象的數量，你想使用 Flyweight Pattern。請描述如何實現這一概念，並給出適當的程式碼。
+3. 假设你正在开发一个基于 JavaFX 的图像编辑器，当使用者选择某种颜色时，它将应用到图像中的所有像素。为了减少颜色对象的数量，你想使用 Flyweight Pattern。请描述如何实现这一概念，并给出适当的程式码。
 
 答案：
 
 ```
-// 邏輯上代表不同的顏色，但實際上它們是同一個對象
+// 逻辑上代表不同的颜色，但实际上它们是同一个对象
 class Color {
     private final javafx.scene.paint.Color value;
 
@@ -108,7 +108,7 @@ class Color {
 }
 
 class ColorFactory {
-    // 儲存已生成的顏色對象，避免重複創建
+    // 储存已生成的颜色对象，避免重复创建
     private static final Map<String, Color> colors = new HashMap<>();
 
     public static Color create(javafx.scene.paint.Color value) {
@@ -123,7 +123,7 @@ class ColorFactory {
 }
 
 class Pixel {
-    // 儲存代表像素的(x, y)座標和其對應的顏色
+    // 储存代表像素的(x, y)座标和其对应的颜色
     private final int x;
     private final int y;
     private final Color color;
@@ -135,7 +135,7 @@ class Pixel {
     }
 
     public void apply() {
-        // 將顏色應用到圖片上
+        // 将颜色应用到图片上
     }
 }
 
@@ -161,7 +161,7 @@ class ImageEditor {
 }
 ```
 
-4. 假設你正在開發一個網路遊戲，當玩家加入遊戲時，你需要為每個玩家建立一個對象。為了減少佔用的內存，你想使用 Flyweight Pattern。請寫出建議的類別設計。
+4. 假设你正在开发一个网路游戏，当玩家加入游戏时，你需要为每个玩家建立一个对象。为了减少占用的内存，你想使用 Flyweight Pattern。请写出建议的类别设计。
 
 答案：
 
@@ -169,7 +169,7 @@ class ImageEditor {
 class Player {
     private final String name;
     private final int level;
-    // ...其他玩家屬性
+    // ...其他玩家属性
 
     public Player(String name, int level) {
         this.name = name;
@@ -180,7 +180,7 @@ class Player {
 }
 
 class PlayerFactory {
-    // 儲存已建立的玩家對象，避免重複建立
+    // 储存已建立的玩家对象，避免重复建立
     private static final Map<String, Player> players = new HashMap<>();
 
     public static Player create(String name, int level) {
@@ -195,7 +195,7 @@ class PlayerFactory {
 }
 ```
 
-5. 假設你正在開發一個購物車系統，每個產品都有一個唯一的數字和一個價格。當使用者將一個產品添加到購物車中時，你希望使用 Flyweight Pattern 從 Cache 中取回該產品的相關資料。請寫出建議的類別設計。
+5. 假设你正在开发一个购物车系统，每个产品都有一个唯一的数字和一个价格。当使用者将一个产品添加到购物车中时，你希望使用 Flyweight Pattern 从 Cache 中取回该产品的相关资料。请写出建议的类别设计。
 
 答案：
 
@@ -217,7 +217,7 @@ class Product {
 }
 
 class ProductFactory {
-    // 儲存已創建的產品對象，避免重複創建
+    // 储存已创建的产品对象，避免重复创建
     private static final Map<Integer, Product> products = new HashMap<>();
 
     public static Product create(int id, double price) {
@@ -231,17 +231,17 @@ class ProductFactory {
 }
 
 class ShoppingCart {
-    // 儲存使用者已添加的所有產品
+    // 储存使用者已添加的所有产品
     private final List<Product> products = new ArrayList<>();
 
     public void addProduct(int id) {
-        // 透過產品工廠取得產品對象
+        // 透过产品工厂取得产品对象
         Product product = ProductFactory.create(id, getPriceFromCache(id));
         products.add(product);
     }
 
     private double getPriceFromCache(int id) {
-        // 從 Cache 中取回產品的價格（如果適用）
+        // 从 Cache 中取回产品的价格（如果适用）
         return 0.0;
     }
 

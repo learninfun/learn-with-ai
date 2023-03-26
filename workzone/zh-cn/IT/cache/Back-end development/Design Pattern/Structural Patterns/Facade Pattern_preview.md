@@ -1,11 +1,11 @@
 
 
-1. 什麼是Facade Pattern，並且它如何簡化複雜的系統？
+1. 什么是Facade Pattern，并且它如何简化复杂的系统？
 
-2. Facade Pattern如何為客戶端和子系統提供統一的接口？
+2. Facade Pattern如何为客户端和子系统提供统一的接口？
 
-3. Facade Pattern的優點是什麼？為什麼使用它？
+3. Facade Pattern的优点是什么？为什么使用它？
 
-4. 請描述何時最適合使用Facade Pattern？
+4. 请描述何时最适合使用Facade Pattern？
 
-5. 在什麼情況下，使用Facade Pattern可以導致過度抽象化和解決辦法是什麼？
+5. 在什么情况下，使用Facade Pattern可以导致过度抽象化和解决办法是什么？

@@ -2,9 +2,9 @@
 title = "ESLint"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题ESLint的问题
+給我5題ESLint的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 如何設置ESLint的風格檢查規則？
 5. 如何在程式碼中使用斷行和縮進以符合ESLint的風格檢查規則？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明ESLint并举例
+以中文說明ESLint並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +44,9 @@ eslint calculateSum.js
 
 結果將顯示任何問題。如果我們在此函數中添加類型錯誤或錯誤的JavaScript語法，ESLint將標記它們為錯誤或警告，以幫助開發者更快地找到問題。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列ESLint的重点
+以中文條列ESLint的重點
 {{< /ask_chatgpt >}}
 
 
@@ -67,9 +67,9 @@ eslint calculateSum.js
 
 8. 輕易的自訂規則：ESLint可以輕易地自訂規則，根據項目或公司特有的需求，給出相應的檢查與警告。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题ESLint的中等难度问题，并在后面列出答案
+以中文給我5題ESLint的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

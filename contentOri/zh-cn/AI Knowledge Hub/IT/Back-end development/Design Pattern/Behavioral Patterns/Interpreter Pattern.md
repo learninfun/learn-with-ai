@@ -1,10 +1,10 @@
 +++
-title = "解释器模式"
+title = "解釋器模式"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Interpreter Pattern的问题
+給我5題Interpreter Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "3"
 
 5. Interpreter Pattern如何與其他Design Pattern搭配使用？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Interpreter Pattern并举例
+以中文說明Interpreter Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -78,51 +78,51 @@ interpreter.interpret()
 
 在以上示例中，我們創建了一個簡單的 SQL 解釋器，它可以解釋和執行 SQL 查詢語句，並返回查詢結果。使用這種模式可以將解釋器與整個系統的其他部分解耦，從而更好地管理和維護系統。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Interpreter Pattern的重点
+以中文條列Interpreter Pattern的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Interpreter模式是一种行为模式，它用于将一个语言表示成某个规则和操作的解释器。
+1. Interpreter模式是一種行為模式，它用於將一個語言表示成某個規則和操作的解釋器。
 
-2. Interpreter模式由四个元素组成：客户端，上下文，抽像表达式和具体表达式。
+2. Interpreter模式由四個元素組成：客戶端，上下文，抽像表達式和具體表達式。
 
-3. 客户端负责创建表示语言的表达式和解释器，以及定义经由解释器解释的语言。
+3. 客戶端負責創建表示語言的表達式和解釋器，以及定義經由解釋器解釋的語言。
 
-4. 上下文包含解释器将要处理的数据。
+4. 上下文包含解釋器將要處理的數據。
 
-5. 抽像表达式可以是一个接口或抽像类，它定义了解释器所需的公共操作。
+5. 抽像表達式可以是一個接口或抽像類，它定義了解釋器所需的公共操作。
 
-6. 具体表达式实现了抽像表达式所定义的操作，并与为该语言或语法规则定义的标记对应。
+6. 具體表達式實現了抽像表達式所定義的操作，並與為該語言或語法規則定義的標記對應。
 
-7. Interpreter模式的目的是定义一个语言，并且将这个语言编译成一个可执行的指令序列。
+7. Interpreter模式的目的是定義一個語言，並且將這個語言編譯成一個可執行的指令序列。
 
-8. Interpreter模式通常会和其他模式，如Composite模式、Iterator模式、Visitor模式等一起使用，以实现更复杂的结构。
+8. Interpreter模式通常會和其他模式，如Composite模式、Iterator模式、Visitor模式等一起使用，以實現更複雜的結構。
 
-9. Interpreter模式的优点包括：区分了文法规则和操作，易于扩展和修改，使代码结构更具有可读性。
+9. Interpreter模式的優點包括：區分了文法規則和操作，易於擴展和修改，使代碼結構更具有可讀性。
 
-10. Interpreter模式的缺点则包括：解释器可以变得非常复杂，特别是当需要支持多种语言时；编译出的指令序列可能不高效，因为每个表达式都要解释一遍。   
+10. Interpreter模式的缺點則包括：解釋器可以變得非常複雜，特別是當需要支持多種語言時；編譯出的指令序列可能不高效，因為每個表達式都要解釋一遍。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Interpreter Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Interpreter Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何实现Interpreter Pattern中的Nonterminal Expression？
-2. Interpreter Pattern可以用于什么应用场景？
-3. Interpreter Pattern中的Abstract Expression有哪些特点？
-4. 如何实现Interpreter Pattern中的Terminal Expression？
-5. Interpreter Pattern和Visitor Pattern有什么区别？
+1. 如何實現Interpreter Pattern中的Nonterminal Expression？
+2. Interpreter Pattern可以用於什麼應用場景？
+3. Interpreter Pattern中的Abstract Expression有哪些特點？
+4. 如何實現Interpreter Pattern中的Terminal Expression？
+5. Interpreter Pattern和Visitor Pattern有什麼區別？
 
 答案：
 
-1. Nonterminal Expression可以通过组合和递归来实现。将各个终端表达式组合在一起，构成一个复杂的非终端表达式。
-2. Interpreter Pattern适合用于需要解释一些复杂的语法或表达式的场景，例如解释正则表达式、编程语言的语法等。
-3. Abstract Expression用于定义表达式的解释方法，包含接受方法，可以实现表达式的递归解释。
-4. Terminal Expression可以直接实现表达式的解释。它构成表达式的基本组成单位，终止表达式的递归处理。
-5. Interpreter Pattern和Visitor Pattern都是行为型模式，但是它们所关注的重点不同。Interpreter Pattern用于对语言中的表达式进行解释，而Visitor Pattern用于对一个对像进行操作。   
+1. Nonterminal Expression可以通過組合和遞歸來實現。將各個終端表達式組合在一起，構成一個複雜的非終端表達式。
+2. Interpreter Pattern適合用於需要解釋一些複雜的語法或表達式的場景，例如解釋正則表達式、編程語言的語法等。
+3. Abstract Expression用於定義表達式的解釋方法，包含接受方法，可以實現表達式的遞歸解釋。
+4. Terminal Expression可以直接實現表達式的解釋。它構成表達式的基本組成單位，終止表達式的遞歸處理。
+5. Interpreter Pattern和Visitor Pattern都是行為型模式，但是它們所關注的重點不同。Interpreter Pattern用於對語言中的表達式進行解釋，而Visitor Pattern用於對一個對像進行操作。   
 

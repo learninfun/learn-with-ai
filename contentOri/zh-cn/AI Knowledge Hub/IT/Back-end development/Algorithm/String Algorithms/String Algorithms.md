@@ -2,80 +2,80 @@
 title = "字串演算法"
 weight = "7"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题String Algorithms的问题
+給我5題String Algorithms的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. 找出一个字串中最长的回文子串。
-2. 给定两个字串，判断它们是否相似，即交换、删除、插入某些字元是否可以使两个字串相等。
-3. 找到一个字串中最小的循环字串，即将该字串任意循环移位后得到的字串中字典序最小的那个。
-4. 给定一个字串和多个模式串，在该字串中找到所有出现的模式串，并返回它们的索引位置。
-5. 给定两个长度相等的字串，找出它们的最长公共子序列，并返回该子序列和该子序列在两个字串中的位置。   
+1. 找出一個字串中最長的回文子串。
+2. 給定兩個字串，判斷它們是否相似，即交換、刪除、插入某些字元是否可以使兩個字串相等。
+3. 找到一個字串中最小的循環字串，即將該字串任意循環移位後得到的字串中字典序最小的那個。
+4. 給定一個字串和多個模式串，在該字串中找到所有出現的模式串，並返回它們的索引位置。
+5. 給定兩個長度相等的字串，找出它們的最長公共子序列，並返回該子序列和該子序列在兩個字串中的位置。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明String Algorithms并举例
+以中文說明String Algorithms並舉例
 {{< /ask_chatgpt >}}
 
 
 
-String Algorithms是用于处理字符串（String）的算法，包括字符串的比较、匹配、搜索和排序等等。
+String Algorithms是用於處理字符串（String）的算法，包括字符串的比較、匹配、搜索和排序等等。
 
-以下是几个常见的String Algorithms：
+以下是幾個常見的String Algorithms：
 
-1. 字符串比较算法
+1. 字符串比較算法
 
-比较两个字符串的内容是否相同的算法，常用的方法是遍历两个字符串并逐字元比较。
+比較兩個字符串的內容是否相同的算法，常用的方法是遍歷兩個字符串並逐字元比較。
 
 2. 字符串匹配算法
 
-在一个字符串中查找一个子字符串的算法，常用的方法是KMP算法（Knuth-Morris-Pratt算法）、Boyer-Moore算法和Rabin-Karp算法。
+在一個字符串中查找一個子字符串的算法，常用的方法是KMP算法（Knuth-Morris-Pratt算法）、Boyer-Moore算法和Rabin-Karp算法。
 
 3. 字符串搜索算法
 
-在多个字符串中查找包含关键词的字符串的算法，常用的方法是Trie树、AC自动机和字符串匹配算法。
+在多個字符串中查找包含關鍵詞的字符串的算法，常用的方法是Trie樹、AC自動機和字符串匹配算法。
 
 4. 字符串排序算法
 
-按照字母顺序或者其他规则对一个字符串集合进行排序的算法，常用的方法是快速排序、归并排序、计数排序等。
+按照字母順序或者其他規則對一個字符串集合進行排序的算法，常用的方法是快速排序、歸並排序、計數排序等。
 
-举例：
+舉例：
 
-一个常见的字符串算法是KMP算法，用于在一个字符串中查找一个子字符串。假设有一个主字符串S和一个子字符串P，我们需要在S中查找是否包含P，若存在则返回P在S中的位置。KMP算法通过建构一个部分匹配表（partial match table）来实现，该表纪录了P中每个前缀子串的最长相等前缀和后缀的长度，然后根据该表进行匹配。这样，KMP算法可以避免在每次匹配失败时重新开始搜索，从而提高搜索效率。   
+一個常見的字符串算法是KMP算法，用於在一個字符串中查找一個子字符串。假設有一個主字符串S和一個子字符串P，我們需要在S中查找是否包含P，若存在則返回P在S中的位置。KMP算法通過建構一個部分匹配表（partial match table）來實現，該表紀錄了P中每個前綴子串的最長相等前綴和後綴的長度，然後根據該表進行匹配。這樣，KMP算法可以避免在每次匹配失敗時重新開始搜索，從而提高搜索效率。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列String Algorithms的重点
+以中文條列String Algorithms的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. String matching algorithms: 比对字串的演算法，包括最基本的暴力匹配法、KMP匹配法、Boyer-Moore匹配法等。
+1. String matching algorithms: 比對字串的演算法，包括最基本的暴力匹配法、KMP匹配法、Boyer-Moore匹配法等。
 
-2. String compression algorithms: 字串压缩演算法，可以将长字串压缩成较短的压缩字串，其中常用的算法包括Huffman编码、Run-Length Encoding等。
+2. String compression algorithms: 字串壓縮演算法，可以將長字串壓縮成較短的壓縮字串，其中常用的算法包括Huffman編碼、Run-Length Encoding等。
 
-3. String sorting algorithms: 字串排序演算法，是对字串排序的方法，包括常用的快速排序、归并排序、堆排序等。
+3. String sorting algorithms: 字串排序演算法，是對字串排序的方法，包括常用的快速排序、歸併排序、堆排序等。
 
-4. String manipulation algorithms: 字串操作演算法，包括常用的字串反转、字串拼接、字串替换、字串切割等。
+4. String manipulation algorithms: 字串操作演算法，包括常用的字串反轉、字串拼接、字串替換、字串切割等。
 
-5. String parsing algorithms: 字串解析演算法，是将字串解析成指定格式的方法，包括正则表达式、语法分析等。
+5. String parsing algorithms: 字串解析演算法，是將字串解析成指定格式的方法，包括正則表達式、語法分析等。
 
-6. String generation algorithms: 字串生成演算法，是生成符合特定要求的字串的方法，例如生成随机字串、反序列化序列化字串等。
+6. String generation algorithms: 字串生成演算法，是生成符合特定要求的字串的方法，例如生成隨機字串、反序列化序列化字串等。
 
-7. String analysis algorithms: 字串分析演算法，是对字串进行分析的方法，包括字串搜寻、字串频率分析、字串相似度比较等。
+7. String analysis algorithms: 字串分析演算法，是對字串進行分析的方法，包括字串搜尋、字串頻率分析、字串相似度比較等。
 
-8. Simhash and Minhash algorithms: 字串哈希演算法，是将字串转换为哈希值的方法，常用于相似度比较和去重。
+8. Simhash and Minhash algorithms: 字串哈希演算法，是將字串轉換為哈希值的方法，常用於相似度比較和去重。
 
-9. Text segmentation algorithms: 中文分词演算法，是将汉字字串按照单词分割的方法，常用于自然语言处理。
+9. Text segmentation algorithms: 中文分詞演算法，是將漢字字串按照單詞分割的方法，常用於自然語言處理。
 
-10. Regular expression algorithms: 正则表达式演算法，是描述一个字符串匹配模式的方法，常用于搜寻、替换等操作。   
+10. Regular expression algorithms: 正則表達式演算法，是描述一個字符串匹配模式的方法，常用於搜尋、替換等操作。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题String Algorithms的中等难度问题，并在后面列出答案
+以中文給我5題String Algorithms的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

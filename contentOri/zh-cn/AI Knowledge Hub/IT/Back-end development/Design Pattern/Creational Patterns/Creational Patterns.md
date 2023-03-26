@@ -1,10 +1,10 @@
 +++
-title = "创建型模式"
+title = "創建型模式"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Creational Patterns的问题
+給我5題Creational Patterns的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 如何在Creational Patterns中選擇適合的模式？有哪些因素需要考慮？
 5. 何為Singleton模式？它和其他Creational Patterns的區別是甚麼？該如何適當地應用Singleton模式？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Creational Patterns并举例
+以中文說明Creational Patterns並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,45 +38,45 @@ Creational Patterns是指軟件設計中一種與對像創建有關的模式，�
 
 以上就是三種Creational Patterns的基本介紹及其使用場景。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Creational Patterns的重点
+以中文條列Creational Patterns的重點
 {{< /ask_chatgpt >}}
 
 
 
-Creational Patterns 是建立物件的软体设计模式，其重点包括：
+Creational Patterns 是建立物件的軟體設計模式，其重點包括：
 
-1. 抽像化建立物件过程：Creational Patterns 通常使用工厂方法、抽像工厂、建造者、原型和单例等机制，以抽像化建立物件过程，让程式设计可以更灵活地处理物件的建立。
+1. 抽像化建立物件過程：Creational Patterns 通常使用工廠方法、抽像工廠、建造者、原型和單例等機制，以抽像化建立物件過程，讓程式設計可以更靈活地處理物件的建立。
 
-2. 简化物件建立：Creational Patterns 可以降低程式设计师建立物件的复杂度，让开发者专注于业务逻辑的实现。
+2. 簡化物件建立：Creational Patterns 可以降低程式設計師建立物件的複雜度，讓開發者專注於業務邏輯的實現。
 
-3. 易于维护和扩展：Creational Patterns 可以帮助程式设计师维护和扩展系统，使程式更易于维护和修改。
+3. 易於維護和擴展：Creational Patterns 可以幫助程式設計師維護和擴展系統，使程式更易於維護和修改。
 
-4. 提高程式的可测性：Creational Patterns 可以改善程式的可测性，帮助开发者进行单元测试，以确保程式逻辑的正确性。
+4. 提高程式的可測性：Creational Patterns 可以改善程式的可測性，幫助開發者進行單元測試，以確保程式邏輯的正確性。
 
-5. 适用范围广：Creational Patterns 适用于各种应用场景，包括桌面应用程式、Web 应用程式、移动应用程式等等，对于复杂的系统而言尤其有用。   
+5. 適用範圍廣：Creational Patterns 適用於各種應用場景，包括桌面應用程式、Web 應用程式、移動應用程式等等，對於複雜的系統而言尤其有用。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Creational Patterns的中等难度问题，并在后面列出答案
+以中文給我5題Creational Patterns的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-问题1：在使用工厂模式时，当需要创建复杂对像时，应该使用哪种变体？
+問題1：在使用工廠模式時，當需要創建複雜對像時，應該使用哪種變體？
 
-问题2：以下哪个是一个建造者模式的关键元素？
+問題2：以下哪個是一個建造者模式的關鍵元素？
 
 A.抽像生成器
 
-B.具体生成器
+B.具體生成器
 
-C.产品
+C.產品
 
 D.主管
 
-问题3：以下哪个创建了单例模式的图形？
+問題3：以下哪個創建了單例模式的圖形？
 
 A.三角形
 
@@ -84,29 +84,29 @@ B.正方形
 
 C.菱形
 
-D.圆形
+D.圓形
 
-问题4：在使用抽像工厂模式时，如何确定哪个具体工厂应该被使用？
+問題4：在使用抽像工廠模式時，如何確定哪個具體工廠應該被使用？
 
-问题5：下面哪个Creational Pattern可以确保在一个应用程序中只有一个实例被创建？
+問題5：下面哪個Creational Pattern可以確保在一個應用程序中只有一個實例被創建？
 
-A.工厂模式
+A.工廠模式
 
 B.建造者模式
 
 C.原型模式
 
-D.单例模式
+D.單例模式
 
 答案：
 
-1.抽像工厂模式
+1.抽像工廠模式
 
 2.D.主管
 
-3.D.圆形
+3.D.圓形
 
-4.根据应用程序的需要
+4.根據應用程序的需要
 
-5.D.单例模式   
+5.D.單例模式   
 

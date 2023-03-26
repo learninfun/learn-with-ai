@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Space Complexity Analysis的问题
+给我5题Space Complexity Analysis的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Space Complexity Analysis并举例
+以中文说明Space Complexity Analysis并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Space Complexity Analysis是指对于一个算法，在执行过程中所需要�
 
 总之，空间复杂度是分析一个算法的重要方面，因为它可以帮助我们确定该算法在实际应用时所需的系统资源，以及在大规模数据上的运算效能。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Space Complexity Analysis的重点
+以中文条列Space Complexity Analysis的重点
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +53,7 @@ Space Complexity Analysis是指对于一个算法，在执行过程中所需要�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Space Complexity Analysis的中等难度问题，并在后面列出答案
+以中文给我5题Space Complexity Analysis的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

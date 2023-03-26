@@ -1,0 +1,5 @@
+AI ethics refers to the moral principles that should govern the development and use of artificial intelligence technology. It involves considering the potential impact of AI on society and ensuring that AI is developed and used in a responsible and ethical manner.
+
+AI safety focuses on ensuring that AI technology is designed and implemented in a way that minimizes the risk of harm or negative consequences to humans or the environment. This includes preventing unintended consequences, protecting personal data privacy, and ensuring the technology is transparent and accountable.
+
+An example of AI ethics and safety is the use of facial recognition technology by law enforcement agencies. There is a concern that the use of this technology may perpetuate biases and lead to false accusations, thereby infringing upon the rights of innocent individuals. There is also a risk of data misuse and unauthorized access to personal information, leading to privacy concerns. Therefore, some countries have proposed regulations to limit the use of facial recognition technology, ensuring that it is ethically and safely developed and used.

@@ -1,10 +1,10 @@
 +++
-title = "二分搜寻"
+title = "二分搜尋"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Binary Search的问题
+給我5題Binary Search的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 查找旋轉排序數組中的最小元素。例如，在{5, 6, 7, 8, 9, 10, 1, 2, 3}中，最小元素是1。
 5. 在多個排序數組中查找一個共同的元素。例如，在{2, 4, 6, 8, 10}和{1, 3, 4, 5, 7, 9, 10}這兩個排序數組中，查找共同的元素4。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Binary Search并举例
+以中文說明Binary Search並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +51,9 @@ public static int binarySearch(int[] nums, int target) {
 
 例：在一個有序的整數數組中查找目標值，如需查找的數組為【1,4,6,12,14,17,22,25,26,30】，目標值為17。那麼首先將搜索範圍定為整個數組，查找中間位置mid的數值14小於目標值17，因此縮小搜索範圍至右半部分，再次查找中間位置mid的數值22，仍然比目標值大，繼續縮小搜索範圍至右半部分，至最後查找中間位置mid為目標值17，搜索成功，返回位置值5。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Binary Search的重点
+以中文條列Binary Search的重點
 {{< /ask_chatgpt >}}
 
 
@@ -65,9 +65,9 @@ public static int binarySearch(int[] nums, int target) {
 5. 該算法的實現可以使用遞歸或迭代的方式，具體實現方法取決於像語言和代碼習慣等因素。
 6. Binary Search還可應用於查找插入位置，以及在數組中查找出現次數等操作。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Binary Search的中等难度问题，并在后面列出答案
+以中文給我5題Binary Search的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

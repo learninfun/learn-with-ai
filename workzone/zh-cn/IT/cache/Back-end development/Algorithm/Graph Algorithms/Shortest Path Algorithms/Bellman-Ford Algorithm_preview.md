@@ -1,11 +1,11 @@
 
 
-1. 給定一個加權有向圖，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
+1. 给定一个加权有向图，请使用Bellman-Ford Algorithm找出起点到所有其他顶点的最短路径。
 
-2. 給定一個加權有向圖和兩個頂點，請使用Bellman-Ford Algorithm找出這兩個頂點之間的最短路徑。
+2. 给定一个加权有向图和两个顶点，请使用Bellman-Ford Algorithm找出这两个顶点之间的最短路径。
 
-3. 給定一個加權有向圖和起點，請使用Bellman-Ford Algorithm判斷是否存在負環。
+3. 给定一个加权有向图和起点，请使用Bellman-Ford Algorithm判断是否存在负环。
 
-4. 給定一個加權無向圖和起點，請使用Bellman-Ford Algorithm找出起點到所有其他頂點的最短路徑。
+4. 给定一个加权无向图和起点，请使用Bellman-Ford Algorithm找出起点到所有其他顶点的最短路径。
 
-5. 給定一個加權有向圖，其中某些邊權重為負數，請使用Bellman-Ford Algorithm找出最長路徑。
+5. 给定一个加权有向图，其中某些边权重为负数，请使用Bellman-Ford Algorithm找出最长路径。

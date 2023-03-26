@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Competitive Analysis的问题
+给我5题Competitive Analysis的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Competitive Analysis并举例
+以中文说明Competitive Analysis并举例
 {{< /ask_chatgpt >}}
 
 
@@ -34,9 +34,9 @@ weight = "3"
 
 4.市场份额: 研究竞争对手之间的市场份额和趋势，以确定自己在市场中相对的位置和相应的战略。例如，有些高科技公司拥有相对较大的市场份额，而另一些公司可能会专注于获取最高品质的用户。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Competitive Analysis的重点
+以中文条列Competitive Analysis的重点
 {{< /ask_chatgpt >}}
 
 
@@ -63,7 +63,7 @@ weight = "3"
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Competitive Analysis的中等难度问题，并在后面列出答案
+以中文给我5题Competitive Analysis的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

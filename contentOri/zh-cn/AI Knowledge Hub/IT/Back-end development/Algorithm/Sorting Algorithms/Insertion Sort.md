@@ -2,9 +2,9 @@
 title = "插入排序"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Insertion Sort的问题
+給我5題Insertion Sort的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 插入排序的運作過程中，使用了哪些基本的操作？它們分別是什麼？
 5. 插入排序在哪些場景下會被廣泛使用？它的局限性是什麼？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Insertion Sort并举例
+以中文說明Insertion Sort並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -74,9 +74,9 @@ weight = "3"
 
 插入排序的时间复杂度为O(n2)，虽然效率不高，但在小数据量的情况下仍然是一种简单有效的排序算法。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Insertion Sort的重点
+以中文條列Insertion Sort的重點
 {{< /ask_chatgpt >}}
 
 
@@ -88,9 +88,9 @@ weight = "3"
 5. 时间复杂度为O(n²)，是一种稳定的排序算法。
 6. 在实际实现中，可以通过优化来提高算法的效率，例如使用二分查找来找到插入位置。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Insertion Sort的中等难度问题，并在后面列出答案
+以中文給我5題Insertion Sort的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

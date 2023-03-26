@@ -1,0 +1,105 @@
+- Artificial Intelligence
+  - Machine Learning
+    - Supervised Learning
+      - Classification
+        - Logistic Regression
+        - Decision Trees
+        - Naive Bayes
+        - Support Vector Machines
+        - k-Nearest Neighbors
+      - Regression
+        - Linear Regression
+        - Polynomial Regression
+        - Ridge Regression
+        - Lasso Regression
+      - Ensemble Methods
+        - Random Forest
+        - Gradient Boosting
+        - AdaBoost
+    - Unsupervised Learning
+      - Clustering
+        - k-Means
+        - Hierarchical Clustering
+        - Density-Based Clustering
+      - Dimensionality Reduction
+        - Principal Component Analysis
+        - t-SNE
+    - Reinforcement Learning
+      - Markov Decision Process
+      - Reward Function
+      - Q-Learning
+  - Deep Learning
+    - Neural Networks
+      - Activation Functions
+      - Loss Functions
+      - Backpropagation
+    - Convolutional Neural Networks (CNNs)
+      - Convolutional Layers
+      - Pooling Layers
+      - Batch Normalization
+    - Recurrent Neural Networks (RNNs)
+      - Long Short-Term Memory (LSTMs)
+      - Gated Recurrent Units (GRUs)
+    - Generative Adversarial Networks (GANs)
+      - Generator
+      - Discriminator
+      - Loss Function
+  - Natural Language Processing
+    - Word Embeddings
+      - One-hot Encoding
+      - Bag of Words Model
+      - Word Embedding Model
+    - Text Classification
+      - Logistic Regression
+      - Support Vector Machines
+      - Convolutional Neural Networks (CNNs)
+    - Sequence Labeling
+      - Hidden Markov Models (HMMs)
+      - Conditional Random Fields (CRFs)
+      - Recurrent Neural Networks (RNNs)
+  - Computer Vision
+    - Feature Extraction
+      - Edge Detection
+      - SIFT Features
+      - HOG Features
+    - Object Detection
+  - Reinforcement Learning
+    - Agent
+    - Environment
+    - Reward
+    - Policy Gradient
+    - Deep Q-Network (DQN)
+  - Data Science
+    - Data Cleaning
+      - Missing Value Handling
+      - Outlier Detection and Handling
+    - Feature Engineering
+      - Feature Extraction
+      - Feature Selection
+      - Feature Transformation
+    - Data Visualization
+      - Bar Chart
+      - Scatter Plot
+      - Heat Map
+  - Machine Learning Engineering
+    - Data Set Splitting
+      - Training Set
+      - Validation Set
+      - Testing Set
+    - Model Selection
+      - Cross-Validation
+      - Grid Search
+    - Model Evaluation
+      - Accuracy
+      - Recall
+      - F1 Score
+  - AI Ethics and Safety
+    - Privacy
+      - Data Privacy
+      - Personal Privacy
+    - Fairness
+      - Balance
+      - Error and Fairness
+    - Security
+      - Data Security
+      - System Security

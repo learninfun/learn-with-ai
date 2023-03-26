@@ -1,21 +1,21 @@
 
 
-Same-origin policy 是一个浏览器安全性机制，限制了一个网页文档（document）或脚本（script）在浏览器和同一个源（origin）下的资源交互，从而防止潜在的跨站脚本攻击（XSS）或跨站请求伪造（CSRF）等安全问题。
+Same-origin policy 是一個瀏覽器安全性機制，限制了一個網頁文檔（document）或腳本（script）在瀏覽器和同一個源（origin）下的資源交互，從而防止潛在的跨站腳本攻擊（XSS）或跨站請求偽造（CSRF）等安全問題。
 
-一个源通常由三部分组成：协议（Protocol）、域名（Domain）和端口（Port）。只有三个部分都相同的资源才被认为是同一个源，否则就被视为不同的源。 譬如：
+一個源通常由三部分組成：協議（Protocol）、域名（Domain）和端口（Port）。只有三個部分都相同的資源才被認為是同一個源，否則就被視為不同的源。 譬如：
 
 - http://www.example.com 和 https://www.example.com 是不同的源。
 - http://www.example.com 和 http://example.com 是不同的源。
 - http://www.example.com:80 和 http://www.example.com:8080 是不同的源。
 
-一些常见的Same-origin policy限制包括：
+一些常見的Same-origin policy限制包括：
 
-- JavaScript在同一源下的资源上想像可以自由使用，但他们无法访问其他源的资源。 假设有一个JavaScript应用程序在example.com上运行，那么就可以访问它同一源下的任何资源，例如example.com/about.html；但是，如果应用程式尝试访问example.net上的资源，则将会被同源政策阻止。
+- JavaScript在同一源下的資源上想像可以自由使用，但他們無法訪問其他源的資源。 假設有一個JavaScript應用程序在example.com上運行，那麼就可以訪問它同一源下的任何資源，例如example.com/about.html；但是，如果應用程式嘗試訪問example.net上的資源，則將會被同源政策阻止。
 
-- 浏览器在送出不同源的 AJAX 请求或向 iframe 内载入内容时遵守同源政策。
+- 瀏覽器在送出不同源的 AJAX 請求或向 iframe 內載入內容時遵守同源政策。
 
-- 不同域名下设置的 Cookie 不会被 JavaScript 访问，也不会被浏览器发送给不同域名。
+- 不同域名下設置的 Cookie 不會被 JavaScript 訪問，也不會被瀏覽器發送給不同域名。
 
-- 一些HTML5 API （例如 Geolocation API 或者 Web Storage API）将遵循Same-origin policy，并禁止从非同一源的脚本中访问或修改数据。
+- 一些HTML5 API （例如 Geolocation API 或者 Web Storage API）將遵循Same-origin policy，並禁止從非同一源的腳本中訪問或修改數據。
 
-简单地说，当Same-origin policy被强制执行时，浏览器只允许当前网页文档获得它自己的资源，而只能与同一个源相关的资源进行交互。这可以减少安全威胁，针对用户的浏览器提供更加安全的环境。
+簡單地說，當Same-origin policy被強制執行時，瀏覽器只允許當前網頁文檔獲得它自己的資源，而只能與同一個源相關的資源進行交互。這可以減少安全威脅，針對用戶的瀏覽器提供更加安全的環境。

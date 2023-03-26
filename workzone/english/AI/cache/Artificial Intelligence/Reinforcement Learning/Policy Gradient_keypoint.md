@@ -1,0 +1,8 @@
+- Policy Gradient is a type of reinforcement learning algorithm used for decision-making in complex environments.
+- It is based on the concept of optimizing a policy function to maximize the expected reward in the long run.
+- The policy function is represented by a neural network that takes the state of the environment as input and outputs a probability distribution over possible actions.
+- The loss function used for training the network is the negative of the expected reward, which is estimated using the Monte Carlo method.
+- The gradient of the loss function with respect to the network parameters is computed using the backpropagation algorithm and used to update the network weights.
+- Policy Gradient has several variants, including REINFORCE, Actor-Critic, and Trust Region Policy Optimization (TRPO).
+- These variants differ in the way they estimate the expected reward and the way they update the network weights.
+- Policy Gradient has been successful in solving a wide range of challenging problems, including game playing, robotics, and natural language processing.

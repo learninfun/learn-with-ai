@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Rabin-Karp Algorithm的问题
+给我5题Rabin-Karp Algorithm的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Rabin-Karp Algorithm并举例
+以中文说明Rabin-Karp Algorithm并举例
 {{< /ask_chatgpt >}}
 
 
@@ -70,9 +70,9 @@ hash("ABCD") = 'A' + 'B' + 'C' + 'D' = 65 + 66 + 67 + 68 = 266。
 
 Rabin-Karp算法的时间复杂度是O(n+m)，其中n是主字符串的长度，m是模式串的长度。虽然该算法的理论时间复杂度与暴力算法相同，但在实际应用中，Rabin-Karp算法通常比暴力算法更快，尤其是当主字符串和模式串非常大时。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Rabin-Karp Algorithm的重点
+以中文条列Rabin-Karp Algorithm的重点
 {{< /ask_chatgpt >}}
 
 
@@ -93,7 +93,7 @@ Rabin-Karp算法的时间复杂度是O(n+m)，其中n是主字符串的长度，
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Rabin-Karp Algorithm的中等难度问题，并在后面列出答案
+以中文给我5题Rabin-Karp Algorithm的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

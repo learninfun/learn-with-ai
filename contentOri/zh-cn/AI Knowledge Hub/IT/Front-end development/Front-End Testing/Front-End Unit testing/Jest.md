@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Jest的问题
+给我5题Jest的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Jest并举例
+以中文说明Jest并举例
 {{< /ask_chatgpt >}}
 
 
@@ -61,9 +61,9 @@ PASS  ./sum.test.js
 
 Jest指示测试通过，并且提供了测试的描述以及耗时。这个简单的测试案例展示了Jest在JavaScript专案中的使用方式。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Jest的重点
+以中文条列Jest的重点
 {{< /ask_chatgpt >}}
 
 
@@ -79,7 +79,7 @@ Jest指示测试通过，并且提供了测试的描述以及耗时。这个简�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Jest的中等难度问题，并在后面列出答案
+以中文给我5题Jest的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

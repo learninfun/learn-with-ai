@@ -4,7 +4,7 @@ weight = "8"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Java annotations的问题
+给我5题Java annotations的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "8"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Java annotations并举例
+以中文说明Java annotations并举例
 {{< /ask_chatgpt >}}
 
 
@@ -40,9 +40,9 @@ Java注解的语法采用“@注解名称（参数列表）”的形式，其中
 
 总之，Java注解在Java开发中扮演着越来越重要的角色，使用注解可以提高代码的简洁程度，降低代码维护成本，同时提高代码的可读性和可维护性。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Java annotations的重点
+以中文条列Java annotations的重点
 {{< /ask_chatgpt >}}
 
 
@@ -59,12 +59,12 @@ Java注解的语法采用“@注解名称（参数列表）”的形式，其中
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Java annotations的中等难度问题，并在后面列出答案
+以中文给我5题Java annotations的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 給定以下的Java annotation，該注釋用於方法上，它的功能是什麼？
+1. 给定以下的Java annotation，该注释用于方法上，它的功能是什么？
 ```
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
@@ -72,9 +72,9 @@ public @interface MyAnnotation {
    String value();
 }
 ```
-答案：該注釋是一個自定義注釋，用於方法上，可以指定一個字符串值。
+答案：该注释是一个自定义注释，用于方法上，可以指定一个字符串值。
 
-2. 給定以下的Java annotation，該注釋用於類上，它的功能是什麼？
+2. 给定以下的Java annotation，该注释用于类上，它的功能是什么？
 ```
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
@@ -83,9 +83,9 @@ public @interface MyAnnotation {
    String date();
 }
 ```
-答案：該注釋是一個自定義注釋，用於類上，可以指定類的作者和日期。
+答案：该注释是一个自定义注释，用于类上，可以指定类的作者和日期。
 
-3. 定義一個Java注釋，描述當前的方法是否為只讀方法（即不允許對數據進行更改）。
+3. 定义一个Java注释，描述当前的方法是否为只读方法（即不允许对数据进行更改）。
 答案：
 ```
 @Retention(RetentionPolicy.RUNTIME)
@@ -93,7 +93,7 @@ public @interface MyAnnotation {
 public @interface ReadOnly {}
 ```
 
-4. 定義一個Java注釋，描述當前的類是一個單例模式的類。該注釋不能用在任何接口或抽象類上。
+4. 定义一个Java注释，描述当前的类是一个单例模式的类。该注释不能用在任何接口或抽象类上。
 答案：
 ```
 @Retention(RetentionPolicy.RUNTIME)
@@ -101,7 +101,7 @@ public @interface ReadOnly {}
 public @interface Singleton {}
 ```
 
-5. 定義一個Java注釋，描述當前的方法被調用時，必須在指定時間段內完成，否則將拋出異常。
+5. 定义一个Java注释，描述当前的方法被调用时，必须在指定时间段内完成，否则将抛出异常。
 答案：
 ```
 @Retention(RetentionPolicy.RUNTIME)

@@ -4,20 +4,20 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Denial of Service (DoS) Protection的问题
+给我5题Denial of Service (DoS) Protection的中文问题
 {{< /ask_chatgpt >}}
 
 
 
-1. 什麼是Denial of Service (DoS)攻擊？它如何影響網絡安全？
-2. 哪些技術可用於保護網絡免受DoS攻擊？它們的優點和缺點是什麼？
-3. 成功防止DoS攻擊需要哪些預防措施？針對不同類型的攻擊，採取哪些不同的防禦策略？
-4. 利用何種設備或工具可以有效地監測網絡流量和檢測DoS攻擊事件？即時應對的措施有哪些？
-5. DoS攻擊可能對企業造成的損失有哪些？如何減輕DoS攻擊對業務造成的影響？   
+1. 什么是Denial of Service (DoS)攻击？它如何影响网络安全？
+2. 哪些技术可用于保护网络免受DoS攻击？它们的优点和缺点是什么？
+3. 成功防止DoS攻击需要哪些预防措施？针对不同类型的攻击，采取哪些不同的防御策略？
+4. 利用何种设备或工具可以有效地监测网络流量和检测DoS攻击事件？即时应对的措施有哪些？
+5. DoS攻击可能对企业造成的损失有哪些？如何减轻DoS攻击对业务造成的影响？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Denial of Service (DoS) Protection并举例
+以中文说明Denial of Service (DoS) Protection并举例
 {{< /ask_chatgpt >}}
 
 
@@ -32,9 +32,9 @@ DoS攻击有很多种，包括TCP SYN flood攻击、UDP flood攻击、ICMP echo 
 
 举例来说，Akamai的Kona Site Defender是一种基于流量的DoS防护服务，可保护网站不受攻击者的大量流量攻击，并提供实时的攻击警报和报告，让网站管理者能够及时采取措施。另外，Cloudflare也提供基于流量和请求的防护服务，可帮助网站和应用程式保护自己免受DDoS攻击所带来的威胁。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Denial of Service (DoS) Protection的重点
+以中文条列Denial of Service (DoS) Protection的重点
 {{< /ask_chatgpt >}}
 
 
@@ -51,7 +51,7 @@ DoS攻击有很多种，包括TCP SYN flood攻击、UDP flood攻击、ICMP echo 
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Denial of Service (DoS) Protection的中等难度问题，并在后面列出答案
+以中文给我5题Denial of Service (DoS) Protection的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

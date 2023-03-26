@@ -1,0 +1,3 @@
+A generator is an electrical device that converts mechanical energy into electrical energy. It works on the principle of electromagnetic induction, where a conductor is moved through a magnetic field to generate an electrical current.
+
+An example of a generator is a wind turbine. A wind turbine consists of a rotor with blades that are moved by the wind, which in turn drives a generator that converts the rotational energy into electrical energy. This makes wind turbines an important renewable energy source for generating electricity. Similarly, other generators such as steam turbines, hydroelectric turbines, and gas turbines also work on the same principle of converting mechanical energy into electrical energy.

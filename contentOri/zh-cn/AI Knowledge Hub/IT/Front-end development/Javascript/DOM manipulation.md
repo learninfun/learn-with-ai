@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题DOM manipulation的问题
+给我5题DOM manipulation的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明DOM manipulation并举例
+以中文说明DOM manipulation并举例
 {{< /ask_chatgpt >}}
 
 
@@ -63,9 +63,9 @@ var parent = title.parentNode;
 parent.removeChild(title);
 ```   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列DOM manipulation的重点
+以中文条列DOM manipulation的重点
 {{< /ask_chatgpt >}}
 
 
@@ -92,12 +92,12 @@ parent.removeChild(title);
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题DOM manipulation的中等难度问题，并在后面列出答案
+以中文给我5题DOM manipulation的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何將一個特定的div元素中的所有子元素的文本內容加粗？（提示：使用for循環和CSS樣式屬性）
+1. 如何将一个特定的div元素中的所有子元素的文本内容加粗？（提示：使用for循环和CSS样式属性）
 答案： 
 ```
 const elem = document.querySelector('.my-div');
@@ -107,7 +107,7 @@ for(let i = 0; i < children.length; i++){
 }
 ```
 
-2. 如何使用JavaScript向已經存在的HTML列表中添加一個新的列表項目？
+2. 如何使用JavaScript向已经存在的HTML列表中添加一个新的列表项目？
 答案：
 ```
 const list = document.querySelector('#my-list');
@@ -116,7 +116,7 @@ newItem.textContent = 'New Item';
 list.appendChild(newItem);
 ```
 
-3. 如何使用JavaScript在表格中插入一行新的數據行？
+3. 如何使用JavaScript在表格中插入一行新的数据行？
 答案：
 ```
 const table = document.querySelector('#my-table');
@@ -127,14 +127,14 @@ cell1.textContent = 'John';
 cell2.textContent = 'Doe';
 ```
 
-4. 如何使用JavaScript替換一個div元素的背景圖像？
+4. 如何使用JavaScript替换一个div元素的背景图像？
 答案：
 ```
 const elem = document.querySelector('.my-div');
 elem.style.backgroundImage = 'url("new-image.jpg")';
 ```
 
-5. 如何使用JavaScript將一個特定的div元素設置為可滾動的？
+5. 如何使用JavaScript将一个特定的div元素设置为可滚动的？
 答案：
 ```
 const elem = document.querySelector('.my-div');

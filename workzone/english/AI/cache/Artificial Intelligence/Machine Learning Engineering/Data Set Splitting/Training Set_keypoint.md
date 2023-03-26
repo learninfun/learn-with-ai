@@ -1,0 +1,6 @@
+-The training set is a set of data used to train a machine learning model.
+-It should be representative of the problem being solved and the population it serves.
+-It is important to have sufficient and diverse data in the training set to avoid bias and overfitting.
+-The training set is used to iteratively update and adjust the model until it produces the desired level of accuracy and performance.
+-The performance of the model on the training set is not necessarily an accurate predictor of its performance on unseen data, which can be tested using a separate validation or test set.
+-Proper preparation and cleaning of the training set can improve the quality and effectiveness of the model.

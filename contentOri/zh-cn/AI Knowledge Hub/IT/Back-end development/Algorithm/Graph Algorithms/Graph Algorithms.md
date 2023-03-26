@@ -4,7 +4,7 @@ weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Graph Algorithms的问题
+给我5题Graph Algorithms的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "6"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Graph Algorithms并举例
+以中文说明Graph Algorithms并举例
 {{< /ask_chatgpt >}}
 
 
@@ -48,9 +48,9 @@ Graph Algorithms是指一类用于理解和处理图数据结构的算法。图�
 
 5. 查找网络中恶意攻击的源头。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Graph Algorithms的重点
+以中文条列Graph Algorithms的重点
 {{< /ask_chatgpt >}}
 
 
@@ -79,28 +79,28 @@ Graph Algorithms是指一类用于理解和处理图数据结构的算法。图�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Graph Algorithms的中等难度问题，并在后面列出答案
+以中文给我5题Graph Algorithms的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 给定一個無向圖，找到最小生成樹的權重。
+1. 给定一个无向图，找到最小生成树的权重。
 
 答案：Prim's algorithm 或 Kruskal's algorithm。
 
-2. 给定一個無向圖和其中的一個頂點，找到從該頂點到所有其他頂點的最短路徑。
+2. 给定一个无向图和其中的一个顶点，找到从该顶点到所有其他顶点的最短路径。
 
 答案：Dijkstra's algorithm 或 Bellman-Ford algorithm。
 
-3. 給定一個有向圖，判斷其中是否存在一個環。
+3. 给定一个有向图，判断其中是否存在一个环。
 
 答案：Topological Sorting 或 Floyd Warshall algorithm。
 
-4. 給定一個有向圖和其中的兩個頂點，找到從起點到終點的所有路徑中權重最大的路徑。
+4. 给定一个有向图和其中的两个顶点，找到从起点到终点的所有路径中权重最大的路径。
 
 答案：DAG Shortest Path algorithm 或 Bellman-Ford algorithm。
 
-5. 給定一個有向圖和其中的一個頂點，找到從該頂點開始的所有強連通分量。
+5. 给定一个有向图和其中的一个顶点，找到从该顶点开始的所有强连通分量。
 
 答案：Tarjan's algorithm 或 Kosaraju's algorithm。   
 

@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Closures的问题
+给我5题Closures的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Closures并举例
+以中文说明Closures并举例
 {{< /ask_chatgpt >}}
 
 
@@ -45,28 +45,28 @@ print(result)  # 15
 
 总的来说，closures是一种强大的python特性，可以使程序更加灵活和可读性。它们可以捕获变量，让函数更加通用和易于重复使用。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Closures的重点
+以中文条列Closures的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. Closures是一種函式內的函式，可以在函式中建立新的作用域。
-2. Closures允許內部函式訪問其外部函式的變數和參數。
-3. Closures允許內部函式保持其創建時外部作用域中的變數狀態，而不是在內部函式調用時重新定義這些變數。
-4. Closures在JavaScript中廣泛應用，特別是用於創建私有變數和方法，以及面向對象編程模式。
-5. 在Closures中，外部函式可以返回內部函式，因此Closures也被稱為函數工廠。
-6. Closures和垃圾回收機制密切相關，不正確使用Closures可能會導致內存洩漏。   
+1. Closures是一种函式内的函式，可以在函式中建立新的作用域。
+2. Closures允许内部函式访问其外部函式的变数和参数。
+3. Closures允许内部函式保持其创建时外部作用域中的变数状态，而不是在内部函式调用时重新定义这些变数。
+4. Closures在JavaScript中广泛应用，特别是用于创建私有变数和方法，以及面向对象编程模式。
+5. 在Closures中，外部函式可以返回内部函式，因此Closures也被称为函数工厂。
+6. Closures和垃圾回收机制密切相关，不正确使用Closures可能会导致内存泄漏。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Closures的中等难度问题，并在后面列出答案
+以中文给我5题Closures的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 實作一個createElement函數，讓該函數能接收一個HTML tag（如 "div"），並回傳一個新的函數，該函數可以接收一個文字字串，並使用createElement中傳入的tag創建一個新的DOM元素，然後將該字串添加為元素的文字內容。
+1. 实作一个createElement函数，让该函数能接收一个HTML tag（如 "div"），并回传一个新的函数，该函数可以接收一个文字字串，并使用createElement中传入的tag创建一个新的DOM元素，然后将该字串添加为元素的文字内容。
 
 答案：
 
@@ -84,7 +84,7 @@ var heading = createH1("Hello World");
 document.body.appendChild(heading);
 ```
 
-2. 建立一個能計算次方的函數 "powerFunc"，該函數可以接收一個數字作為底數並回傳一個新的函數，該函數可以接收一個指數並回傳底數的指數次方。
+2. 建立一个能计算次方的函数 "powerFunc"，该函数可以接收一个数字作为底数并回传一个新的函数，该函数可以接收一个指数并回传底数的指数次方。
 
 答案：
 
@@ -99,7 +99,7 @@ var square = powerFunc(2);
 console.log(square(3)); // 8
 ```
 
-3. 實現一個 curry 函數，使其能夠 currying 外部函數。例如：
+3. 实现一个 curry 函数，使其能够 currying 外部函数。例如：
 
 ```javascript
 function add(a, b, c) {

@@ -1,10 +1,10 @@
 +++
-title = "荧幕阅读器"
+title = "螢幕閱讀器"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Screen readers的问题
+給我5題Screen readers的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. Screen readers如何處理圖像和影片內容？
 5. Screen readers如何提供導航和快捷鍵操作？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Screen readers并举例
+以中文說明Screen readers並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,9 +34,9 @@ Screen reader指的是一款軟體，能夠把電腦螢幕上的文字及圖像�
 
 總之，Screen reader能夠自動閱讀電腦螢幕上的文字及圖像，並將它們轉換成語音或其他形式的輸出。這對於視力有障礙的人來說是重要的輔助工具。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Screen readers的重点
+以中文條列Screen readers的重點
 {{< /ask_chatgpt >}}
 
 
@@ -50,9 +50,9 @@ Screen reader指的是一款軟體，能夠把電腦螢幕上的文字及圖像�
 7. 視障人士可以根據個人需要選擇不同的螢幕閱讀器以滿足其特定需求。
 8. 設計師和開發人員可以通過遵循可訪問性指南，使其網站和應用程序能夠與螢幕閱讀器相互兼容。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Screen readers的中等难度问题，并在后面列出答案
+以中文給我5題Screen readers的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

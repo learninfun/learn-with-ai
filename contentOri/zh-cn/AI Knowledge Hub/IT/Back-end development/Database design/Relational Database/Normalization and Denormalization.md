@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Normalization and Denormalization的问题
+给我5题Normalization and Denormalization的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Normalization and Denormalization并举例
+以中文说明Normalization and Denormalization并举例
 {{< /ask_chatgpt >}}
 
 
@@ -41,9 +41,9 @@ Customer
 
 总之，Normalization 和 Denormalization 是资料库设计的两个相反的概念，在资料库设计中，需要达到平衡点，以达到资料表格的最佳效能。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Normalization and Denormalization的重点
+以中文条列Normalization and Denormalization的重点
 {{< /ask_chatgpt >}}
 
 
@@ -62,7 +62,7 @@ Denormalization:
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Normalization and Denormalization的中等难度问题，并在后面列出答案
+以中文给我5题Normalization and Denormalization的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

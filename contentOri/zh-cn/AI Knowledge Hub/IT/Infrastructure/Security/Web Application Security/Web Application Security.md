@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Web Application Security的问题
+给我5题Web Application Security的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Web Application Security并举例
+以中文说明Web Application Security并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,30 +28,30 @@ Web Application Security（网路应用程式安全性）是指保护网路应�
 
 总之，Web Application Security对于确保网路应用程式的安全性非常重要，尤其对于金融、电子商务等强调安全性的行业更是必不可少的。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Web Application Security的重点
+以中文条列Web Application Security的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. 常見的攻擊方式：包括SQL注入、跨站腳本（XSS）攻擊、跨站請求偽造（CSRF）、文件上傳漏洞等。
+1. 常见的攻击方式：包括SQL注入、跨站脚本（XSS）攻击、跨站请求伪造（CSRF）、文件上传漏洞等。
 
-2. 身份驗證和授權：確保只有授權的用戶能夠訪問應用程序的特定區域和資源。
+2. 身份验证和授权：确保只有授权的用户能够访问应用程序的特定区域和资源。
 
-3. 安全設計和開發：涉及資產保護、資產風險控制、網路架構設計、安全協議等方面。
+3. 安全设计和开发：涉及资产保护、资产风险控制、网路架构设计、安全协议等方面。
 
-4. 標準和規範：包括OWASP（全球開放網路應用程式安全項目）、PCI DSS（支付卡行業數據安全標準）等。
+4. 标准和规范：包括OWASP（全球开放网路应用程式安全项目）、PCI DSS（支付卡行业数据安全标准）等。
 
-5. 監控和檢測：實時監控應用程式上發生的事件和攻擊，以及製定相應的應對策略。
+5. 监控和检测：实时监控应用程式上发生的事件和攻击，以及制定相应的应对策略。
 
-6. 緊急應對和事件管理：建立應對機制，及時處理已發生的安全事件，迅速恢復服務。
+6. 紧急应对和事件管理：建立应对机制，及时处理已发生的安全事件，迅速恢复服务。
 
-7. 學習和培訓：提升開發團隊的安全意識、技術水平、持續改進WebApplication的安全性。   
+7. 学习和培训：提升开发团队的安全意识、技术水平、持续改进WebApplication的安全性。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Web Application Security的中等难度问题，并在后面列出答案
+以中文给我5题Web Application Security的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

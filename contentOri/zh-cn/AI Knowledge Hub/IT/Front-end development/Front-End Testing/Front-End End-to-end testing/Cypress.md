@@ -2,9 +2,9 @@
 title = "Cypress"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Cypress的问题
+給我5題Cypress的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 在Cypress中，如何實現自動截圖和紀錄測試結果？
 5. 如何在Cypress中將測試腳本與CI/CD工具結合使用？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Cypress并举例
+以中文說明Cypress並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -54,33 +54,33 @@ describe('Login', () => {
 
 這個測試只是Cypress測試用例的一個簡單的例子。Cypress的強大功能可以讓開發者使用各種方式編寫測試用例，包括用戶操作、效能測試和API集成。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Cypress的重点
+以中文條列Cypress的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 优化的框架：Cypress提供了基于JavaScript的测试框架，让开发人员可以轻松地创建、编写和维护自动化测试脚本。
+1. 優化的框架：Cypress提供了基於JavaScript的測試框架，讓開發人員可以輕鬆地創建、編寫和維護自動化測試腳本。
 
-2. 实时Reload：Cypress可以实时更新测试代码与网页应用，让开发人员可以实时地查看测试结果，快速定位问题。
+2. 實時Reload：Cypress可以實時更新測試代碼與網頁應用，讓開發人員可以實時地查看測試結果，快速定位問題。
 
-3. 统一管理：Cypress提供了一个统一的管理介面，让开发人员可以更轻松地管理测试用例、集成测试和端对端测试的结果。
+3. 統一管理：Cypress提供了一個統一的管理介面，讓開發人員可以更輕鬆地管理測試用例、集成測試和端對端測試的結果。
 
-4. 简易性：Cypress提供了一个简易的API，使得开发人员可以针对网页自动化测试进行快速开发。
+4. 簡易性：Cypress提供了一個簡易的API，使得開發人員可以針對網頁自動化測試進行快速開發。
 
-5. 效率：Cypress提供了一个快速的测试过程，能够减少不必要的等待时间，让开发人员可以更快地完成测试。
+5. 效率：Cypress提供了一個快速的測試過程，能夠減少不必要的等待時間，讓開發人員可以更快地完成測試。
 
-6. 支援性：Cypress支援不同的浏览器、操作系统和框架，能够为开发人员提供更多的选择。   
+6. 支援性：Cypress支援不同的瀏覽器、操作系統和框架，能夠為開發人員提供更多的選擇。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Cypress的中等难度问题，并在后面列出答案
+以中文給我5題Cypress的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 请问以下程式码中的`cy.get()`会选取到几个元素？
+1. 請問以下程式碼中的`cy.get()`會選取到幾個元素？
 ```
 <div class="main-content">
   <div class="section">section1</div>
@@ -89,11 +89,11 @@ describe('Login', () => {
 </div>
 ```
 
-答案：3个元素
+答案：3個元素
 
 ```cy.get('.section')```
 
-2. 请问以下程式码运行后，`input`元素的`值`会是什么？
+2. 請問以下程式碼運行後，`input`元素的`值`會是什麼？
 ```
 cy.fixture('mock-data.json').then((data) => {
   cy.get('#username').type(data.username);
@@ -101,21 +101,21 @@ cy.fixture('mock-data.json').then((data) => {
 });
 ```
 
-答案：`input`元素的`值`会是`mock-data.json`中存储的`username`和`password`。
+答案：`input`元素的`值`會是`mock-data.json`中存儲的`username`和`password`。
 
-3. 请问如何断言元素是否可见？
+3. 請問如何斷言元素是否可見？
 
-答案：可以使用`cy.get().should('be.visible')`断言元素是否可见。
+答案：可以使用`cy.get().should('be.visible')`斷言元素是否可見。
 
-4. 请问以下程式码中的`cy.wait()`等待的时间是多少毫秒？
+4. 請問以下程式碼中的`cy.wait()`等待的時間是多少毫秒？
 ```
 cy.get('.submit-btn').click();
 cy.wait(2000);
 ```
 
-答案：`cy.wait(2000)`等待的时间是`2000`毫秒，即2秒。
+答案：`cy.wait(2000)`等待的時間是`2000`毫秒，即2秒。
 
-5. 请问如何获取指定索引的元素？
+5. 請問如何獲取指定索引的元素？
 
-答案：可以使用`cy.get().eq(index)`获取指定索引的元素。例如`cy.get('.section').eq(0)`会获得第一个`.section`元素。   
+答案：可以使用`cy.get().eq(index)`獲取指定索引的元素。例如`cy.get('.section').eq(0)`會獲得第一個`.section`元素。   
 

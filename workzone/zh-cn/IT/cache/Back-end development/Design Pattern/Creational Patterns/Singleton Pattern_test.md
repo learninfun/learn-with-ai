@@ -1,10 +1,10 @@
 
 
-1. 請使用 Singleton Pattern 實現一個緩存 Cache，要求：
+1. 请使用 Singleton Pattern 实现一个缓存 Cache，要求：
 
-- Cache 能夠儲存多個不同類型的物件，且能夠設定每個緩存物件的超時時間；
-- Cache 能夠根據某些條件撤銷緩存的物件；
-- Cache 能夠在達到緩存上限時自動進行擦除。
+- Cache 能够储存多个不同类型的物件，且能够设定每个缓存物件的超时时间；
+- Cache 能够根据某些条件撤销缓存的物件；
+- Cache 能够在达到缓存上限时自动进行擦除。
 
 答案：
 
@@ -85,11 +85,11 @@ public class Cache {
 }
 ```
 
-2. 請使用 Singleton Pattern 實現一個全域配置管理器 ConfigurationManager，要求：
+2. 请使用 Singleton Pattern 实现一个全域配置管理器 ConfigurationManager，要求：
 
-- ConfigurationManager 能夠讀取/寫入配置文件，並支持不同格式配置文件的解析；
-- ConfigurationManager 能夠記錄最近一次讀取/寫入配置文件的時間；
-- ConfigurationManager 能夠支持多執行緒並發存取，不會發生競爭狀態。
+- ConfigurationManager 能够读取/写入配置文件，并支持不同格式配置文件的解析；
+- ConfigurationManager 能够记录最近一次读取/写入配置文件的时间；
+- ConfigurationManager 能够支持多执行绪并发存取，不会发生竞争状态。
 
 答案：
 
@@ -172,11 +172,11 @@ public class ConfigurationManager {
 }
 ```
 
-3. 請使用 Singleton Pattern 實現一個圖表繪製工具 ChartTool，要求：
+3. 请使用 Singleton Pattern 实现一个图表绘制工具 ChartTool，要求：
 
-- ChartTool 能夠繪製不同類型的圖表，如折線圖、柱狀圖等；
-- ChartTool 能夠設定不同類型圖表的顯示樣式，如顏色、字型等；
-- ChartTool 能夠支持曲線、標籤、標題等多種元素的添加及修改。
+- ChartTool 能够绘制不同类型的图表，如折线图、柱状图等；
+- ChartTool 能够设定不同类型图表的显示样式，如颜色、字型等；
+- ChartTool 能够支持曲线、标签、标题等多种元素的添加及修改。
 
 答案：
 
@@ -229,11 +229,11 @@ public class ChartTool {
 }
 ```
 
-4. 請使用 Singleton Pattern 實現一個日誌系統 LogManager，要求：
+4. 请使用 Singleton Pattern 实现一个日志系统 LogManager，要求：
 
-- LogManager 能夠支持不同類型的日誌輸出，如控制臺、文件、網路等；
-- LogManager 能夠設定日誌的等級，如 DEBUG、INFO、WARN、ERROR 等；
-- LogManager 能夠將日誌輸出到多個目標。
+- LogManager 能够支持不同类型的日志输出，如控制台、文件、网路等；
+- LogManager 能够设定日志的等级，如 DEBUG、INFO、WARN、ERROR 等；
+- LogManager 能够将日志输出到多个目标。
 
 答案：
 
@@ -301,11 +301,11 @@ public enum LogLevel {
 }
 ```
 
-5. 請使用 Singleton Pattern 實現一個購物車 ShoppingCart，要求：
+5. 请使用 Singleton Pattern 实现一个购物车 ShoppingCart，要求：
 
-- ShoppingCart 能夠添加、刪除、修改購物車中的商品；
-- ShoppingCart 能夠顯示購物車中所有商品的清單和總價格；
-- ShoppingCart 能夠將購物車中的商品保存到資料庫中。
+- ShoppingCart 能够添加、删除、修改购物车中的商品；
+- ShoppingCart 能够显示购物车中所有商品的清单和总价格；
+- ShoppingCart 能够将购物车中的商品保存到资料库中。
 
 答案：
 

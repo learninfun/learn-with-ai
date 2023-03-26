@@ -4,7 +4,7 @@ weight = "9"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Front-End Performance Budgets的问题
+给我5题Front-End Performance Budgets的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "9"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Front-End Performance Budgets并举例
+以中文说明Front-End Performance Budgets并举例
 {{< /ask_chatgpt >}}
 
 
@@ -35,9 +35,9 @@ weight = "9"
 
 举个例子来说，假设你的公司的前端性能预算限制为500KB。这就意味着你的网站的所有静态内容，包括CSS、JavaScript、图片和其他资源都不能超过这个限制。假设你的CSS文件大小为80KB，JavaScript文件大小为150KB，图片和其他资源总计大小为270KB。那么，这意味着你还有剩余的大小176KB在你的性能预算之内，你可以用于更多的图片和资源，或者用于更多的JavaScript交互和动画。通过这种方式，可以确保你网站的速度和性能表现始终如一，提高了用户的网站体验。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Front-End Performance Budgets的重点
+以中文条列Front-End Performance Budgets的重点
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +56,7 @@ weight = "9"
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Front-End Performance Budgets的中等难度问题，并在后面列出答案
+以中文给我5题Front-End Performance Budgets的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

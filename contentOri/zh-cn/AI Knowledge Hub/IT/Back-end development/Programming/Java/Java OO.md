@@ -1,10 +1,10 @@
 +++
-title = "Java物件导向"
+title = "Java物件導向"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Java OO的问题
+給我5題Java OO的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "1"
 
 5. 什麼是Java中的實例(instance)和類別(class)？它們之間有什麼區別？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Java OO并举例
+以中文說明Java OO並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -82,63 +82,63 @@ int yearOfCar2 = car2.getYear(); // Returns 2019
 
 總之， Java OOP 就是使用物件（Object）作為程式的基本單位，專注於組織程式可以訪問的數據和方法，使得程式開發更加模組化和易於維護。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Java OO的重点
+以中文條列Java OO的重點
 {{< /ask_chatgpt >}}
 
 
 
-以下是Java Object-Oriented (OO) 的重点：
+以下是Java Object-Oriented (OO) 的重點：
 
-1. 抽像化 (Abstraction) - 用来隐藏复杂性质，将其简化，以便于管理。
+1. 抽像化 (Abstraction) - 用來隱藏複雜性質，將其簡化，以便於管理。
 
-2. 封装 (Encapsulation) - 资料、方法的保护，防止私有资料不被乱改造，保护资源分配。
+2. 封裝 (Encapsulation) - 資料、方法的保護，防止私有資料不被亂改造，保護資源分配。
 
-3. 继承 (Inheritance) - 继承能够从一个类别获得那些类别的资料和方法，使其成为一种新的类别。
+3. 繼承 (Inheritance) - 繼承能夠從一個類別獲得那些類別的資料和方法，使其成為一種新的類別。
 
-4. 多型 (Polymorphism) - 多型概念代表能应用于不同形态之物件，也称为方法多载、方法覆载、物件多载等。
+4. 多型 (Polymorphism) - 多型概念代表能應用於不同形態之物件，也稱為方法多載、方法覆載、物件多載等。
 
-5. 类别 (Class) - Java 总是基于物件导向概念，具体表示就是定义一个 Class 并完成对 Class 的实例化。
+5. 類別 (Class) - Java 總是基於物件導向概念，具體表示就是定義一個 Class 並完成對 Class 的實例化。
 
-6. 物件 (Object) - 由类别 Instance 到的物件，在程式执行时，被物件所组成。
+6. 物件 (Object) - 由類別 Instance 到的物件，在程式執行時，被物件所組成。
 
-7. 接口 (Interface) - 一种抽像的类型，Java 社群使用此类型来协调类。
+7. 接口 (Interface) - 一種抽像的類型，Java 社群使用此類型來協調類。
 
-8. 重载 (Overloading) - 在一个类别里，不同的方法可以有相同的函式名称，但参数类型不同或数目不同。
+8. 重載 (Overloading) - 在一個類別裡，不同的方法可以有相同的函式名稱，但參數類型不同或數目不同。
 
-9. 重写 (Overriding) - 子类别重写父类别中具有相同名称和参数的方法。
+9. 重寫 (Overriding) - 子類別重寫父類別中具有相同名稱和參數的方法。
 
-10. 方法 (Method) - 方法是一种程式区块，可以接收参数，并能够产生一个或多个结果。在类别中，方法用来执行一些具体的功能。
+10. 方法 (Method) - 方法是一種程式區塊，可以接收參數，並能夠產生一個或多個結果。在類別中，方法用來執行一些具體的功能。
 
-11. 递移 (Recursion) - 递归是一种特殊的函数或方法，一个函数或方法可以在函数或方法内部呼叫自己。   
+11. 遞移 (Recursion) - 遞歸是一種特殊的函數或方法，一個函數或方法可以在函數或方法內部呼叫自己。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Java OO的中等难度问题，并在后面列出答案
+以中文給我5題Java OO的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 设计一个学生(Student)类别，包含以下属性和方法：
+1. 設計一個學生(Student)類別，包含以下屬性和方法：
 
-属性：
+屬性：
 - 姓名(name)
-- 年龄(age)
-- 学号(studentID)
-- 成绩(scores)
+- 年齡(age)
+- 學號(studentID)
+- 成績(scores)
 
 方法：
-- 建构子(Constructor)
-- 设置姓名(setName)
+- 建構子(Constructor)
+- 設置姓名(setName)
 - 取得姓名(getName)
-- 设置年龄(setAge)
-- 取得年龄(getAge)
-- 设置学号(setStudentID)
-- 取得学号(getStudentID)
-- 新增成绩(addScore)
-- 取得成绩(getScore)
-- 取得平均成绩(getAvgScore)
+- 設置年齡(setAge)
+- 取得年齡(getAge)
+- 設置學號(setStudentID)
+- 取得學號(getStudentID)
+- 新增成績(addScore)
+- 取得成績(getScore)
+- 取得平均成績(getAvgScore)
 
 答案：
 
@@ -197,19 +197,19 @@ public class Student {
 }
 ```
 
-2. 设计一个矩形(Rectangle)类别，包含以下属性和方法：
+2. 設計一個矩形(Rectangle)類別，包含以下屬性和方法：
 
-属性：
-- 宽度(width)
+屬性：
+- 寬度(width)
 - 高度(height)
 
 方法：
-- 建构子(Constructor)
-- 设置宽度(setWidth)
-- 取得宽度(getWidth)
-- 设置高度(setHeight)
+- 建構子(Constructor)
+- 設置寬度(setWidth)
+- 取得寬度(getWidth)
+- 設置高度(setHeight)
 - 取得高度(getHeight)
-- 计算面积(getArea)
+- 計算面積(getArea)
 
 答案：
 
@@ -245,19 +245,19 @@ public class Rectangle {
 }
 ```
 
-3. 设计一个彩票(Lottery)类别，包含以下属性和方法：
+3. 設計一個彩票(Lottery)類別，包含以下屬性和方法：
 
-属性：
-- 中奖号码(winningNumbers)
-- 我的号码(myNumbers)
+屬性：
+- 中獎號碼(winningNumbers)
+- 我的號碼(myNumbers)
 
 方法：
-- 建构子(Constructor)
-- 设置中奖号码(setWinningNumbers)
-- 取得中奖号码(getWinningNumbers)
-- 设置我的号码(setMyNumbers)
-- 取得我的号码(getMyNumbers)
-- 比较我的号码与中奖号码(match)
+- 建構子(Constructor)
+- 設置中獎號碼(setWinningNumbers)
+- 取得中獎號碼(getWinningNumbers)
+- 設置我的號碼(setMyNumbers)
+- 取得我的號碼(getMyNumbers)
+- 比較我的號碼與中獎號碼(match)
 
 答案：
 
@@ -300,19 +300,19 @@ public class Lottery {
 }
 ```
 
-4. 设计一个银行帐户(BankAccount)类别，包含以下属性和方法：
+4. 設計一個銀行帳戶(BankAccount)類別，包含以下屬性和方法：
 
-属性：
-- 帐户名称(accountName)
-- 帐户余额(balance)
+屬性：
+- 帳戶名稱(accountName)
+- 帳戶餘額(balance)
 
 方法：
-- 建构子(Constructor)
-- 设置帐户名称(setAccountName)
-- 取得帐户名称(getAccountName)
+- 建構子(Constructor)
+- 設置帳戶名稱(setAccountName)
+- 取得帳戶名稱(getAccountName)
 - 存款(deposit)
 - 取款(withdraw)
-- 取得帐户余额(getBalance)
+- 取得帳戶餘額(getBalance)
 
 答案：
 
@@ -340,7 +340,7 @@ public class BankAccount {
 
   public void withdraw(double amount) {
     if (amount > this.balance) {
-      throw new IllegalArgumentException("余额不足");
+      throw new IllegalArgumentException("餘額不足");
     }
     this.balance -= amount;
   }
@@ -351,18 +351,18 @@ public class BankAccount {
 }
 ```
 
-5. 设计一个图形(Geometry)抽像类别，包含以下抽像方法：
+5. 設計一個圖形(Geometry)抽像類別，包含以下抽像方法：
 
 方法：
-- 计算面积(getArea)
-- 计算周长(getPerimeter)
+- 計算面積(getArea)
+- 計算周長(getPerimeter)
 
-和以下实例方法：
+和以下實例方法：
 
 方法：
-- 取得图形名称(getName)
+- 取得圖形名稱(getName)
 
-设计三个继承自Geometry类别的图形：三角形(Triangle)、矩形(Rectangle)和圆形(Circle)。
+設計三個繼承自Geometry類別的圖形：三角形(Triangle)、矩形(Rectangle)和圓形(Circle)。
 
 答案：
 

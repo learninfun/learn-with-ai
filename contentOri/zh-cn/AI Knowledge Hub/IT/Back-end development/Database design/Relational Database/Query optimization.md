@@ -1,10 +1,10 @@
 +++
-title = "查询优化"
+title = "查詢優化"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Query optimization的问题
+給我5題Query optimization的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 如何進行分區表的設計，以便最大程度地優化查詢效率？
 5. 如何使用自適應查詢處理來動態優化SQL查詢性能？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Query optimization并举例
+以中文說明Query optimization並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Query optimization是指將複雜的查詢轉換為更有效率的方式，以�
 
 總體而言，Query optimization涉及各種技術和理念，包括索引優化、指令結構優化、參數優化等等。通過這些優化方式，可以大大提高數據庫系統的處理效率，使用戶可以更快地獲取要查詢的信息。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Query optimization的重点
+以中文條列Query optimization的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +51,9 @@ Query optimization是指將複雜的查詢轉換為更有效率的方式，以�
 
 7. 確保MySQL服務器的性能：服務器性能對查詢性能有直接影響，因此確保MySQL服務器的性能是優化查詢效率的基礎。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Query optimization的中等难度问题，并在后面列出答案
+以中文給我5題Query optimization的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

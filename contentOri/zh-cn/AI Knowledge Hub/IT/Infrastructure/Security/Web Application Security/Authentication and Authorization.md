@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Authentication and Authorization的问题
+给我5题Authentication and Authorization的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Authentication and Authorization并举例
+以中文说明Authentication and Authorization并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Authorization 确保用户只能访问他们已被授权访问的资源。这意
 
 综上所述，Authentication 和 Authorization 通常协同工作来确保系统中的资源只能被授权的用户访问。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Authentication and Authorization的重点
+以中文条列Authentication and Authorization的重点
 {{< /ask_chatgpt >}}
 
 
@@ -54,7 +54,7 @@ Authentication与Authorization的区别：
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Authentication and Authorization的中等难度问题，并在后面列出答案
+以中文给我5题Authentication and Authorization的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

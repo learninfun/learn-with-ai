@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Iterator Pattern的问题
+给我5题Iterator Pattern的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Iterator Pattern并举例
+以中文说明Iterator Pattern并举例
 {{< /ask_chatgpt >}}
 
 
@@ -75,66 +75,66 @@ while(iterator.hasNext()) {
 
 这样就能够浏览List中的所有元素，同时不需要暴露List的内部实现细节。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Iterator Pattern的重点
+以中文条列Iterator Pattern的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. 定義:
-Iterator Pattern是一種行為型設計模式，它提供了一種通用的方式，可以將集合中的元素逐一經過存取或者處理。
+1. 定义:
+Iterator Pattern是一种行为型设计模式，它提供了一种通用的方式，可以将集合中的元素逐一经过存取或者处理。
 
 2. 目的:
-Iterator Pattern旨在解決遍歷集合時，如何儲存集合元素的問題。它將集合和遍歷分開來，使得同一種集合可以有不同的遍歷方式，而不必將處理遍歷方法的程式碼耦合在集合本身的實現中。
+Iterator Pattern旨在解决遍历集合时，如何储存集合元素的问题。它将集合和遍历分开来，使得同一种集合可以有不同的遍历方式，而不必将处理遍历方法的程式码耦合在集合本身的实现中。
 
-3. 結構:
-Iterator Pattern由五個構件組成，分別是: Aggregate、ConcreteAggregate、Iterator、ConcreteIterator、Client。
+3. 结构:
+Iterator Pattern由五个构件组成，分别是: Aggregate、ConcreteAggregate、Iterator、ConcreteIterator、Client。
 
-4. 應用:
-Iterator Pattern適用於需要迭代訪問集合中元素的場景。如:Java中的Iterator、C#中的IEnumerator、Python中的迭代器等。它可以方便地遍歷不同資料結構，如:陣列、LinkedList、二叉樹等。
+4. 应用:
+Iterator Pattern适用于需要迭代访问集合中元素的场景。如:Java中的Iterator、C#中的IEnumerator、Python中的迭代器等。它可以方便地遍历不同资料结构，如:阵列、LinkedList、二叉树等。
 
-5. 優點:
-Iterator Pattern的主要優點是:取消了對集合的實作方式的束縛，使得集合和它的遍歷可以獨立演化和自由地改變。同時，Iterator Pattern為不同的集合提供了統一的遍歷介面，使得客戶端的程式碼簡潔而易懂。
+5. 优点:
+Iterator Pattern的主要优点是:取消了对集合的实作方式的束缚，使得集合和它的遍历可以独立演化和自由地改变。同时，Iterator Pattern为不同的集合提供了统一的遍历介面，使得客户端的程式码简洁而易懂。
 
-6. 缺點:
-Iterator Pattern的主要缺點是:集合元素的類型只能是固定的，無法動態地加入新的元素；另外，開發者需要實作Iterator介面，增加了開發成本。
+6. 缺点:
+Iterator Pattern的主要缺点是:集合元素的类型只能是固定的，无法动态地加入新的元素；另外，开发者需要实作Iterator介面，增加了开发成本。
 
 
-總之，Iterator Pattern的重點就是解決了集合元素的遍歷問題，把集合的遍歷和集合本身分離開來，使得集合可以獨立演化和自由地改變。這一機制可以透過Iterator的介面，統一地遍歷不同資料結構的集合。   
+总之，Iterator Pattern的重点就是解决了集合元素的遍历问题，把集合的遍历和集合本身分离开来，使得集合可以独立演化和自由地改变。这一机制可以透过Iterator的介面，统一地遍历不同资料结构的集合。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Iterator Pattern的中等难度问题，并在后面列出答案
+以中文给我5题Iterator Pattern的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 請說明什麼是Iterator Pattern以及其特點？
+1. 请说明什么是Iterator Pattern以及其特点？
 
-答：Iterator Pattern是一種軟體設計模式，用於提供一種方式來順序訪問一個物件的元素，而不暴露該物件的實踐細節。Iterator Pattern的主要特點是：
+答：Iterator Pattern是一种软体设计模式，用于提供一种方式来顺序访问一个物件的元素，而不暴露该物件的实践细节。Iterator Pattern的主要特点是：
 
-- 提供統一的接口去訪問容器內的元素。
-- 使容器與其內部元素的訪問被分離，從而增加容器的可重複使用性。
-- 在不改變容器結構的前提下，支援對內部元素的多種訪問方式。
+- 提供统一的接口去访问容器内的元素。
+- 使容器与其内部元素的访问被分离，从而增加容器的可重复使用性。
+- 在不改变容器结构的前提下，支援对内部元素的多种访问方式。
 
-2. Iterator Pattern中Iterator的三個基本操作是什麼？
+2. Iterator Pattern中Iterator的三个基本操作是什么？
 
-答：Iterator Pattern中，Iterator通常需要支援三個基本操作：
+答：Iterator Pattern中，Iterator通常需要支援三个基本操作：
 
-- next()：返回下一個元素。
-- hasNext()：檢查是否還有下一個元素。
-- remove()：從容器中移除目前所指向的元素。
+- next()：返回下一个元素。
+- hasNext()：检查是否还有下一个元素。
+- remove()：从容器中移除目前所指向的元素。
 
-3. 請說明如何實現一個外部迭代器？
+3. 请说明如何实现一个外部迭代器？
 
-答：外部迭代器是指它自身代表了一個遍歷過程，從而能夠讓使用者隨意跳過、刪除與替換集合中的元素。實現一個外部迭代器通常需要以下步驟：
+答：外部迭代器是指它自身代表了一个遍历过程，从而能够让使用者随意跳过、删除与替换集合中的元素。实现一个外部迭代器通常需要以下步骤：
 
-- 創建一個迭代器類，實現基本的Iterator介面。
-- 在迭代器類中加入指向具體容器的遊標（例如，ArrayList中的index）。
-- 實現基本的next()、hasNext()、remove()等方法。在remove()方法中，需要先取出目前選中的元素，同時刪除該元素，並將遊標指向下一個元素。
+- 创建一个迭代器类，实现基本的Iterator介面。
+- 在迭代器类中加入指向具体容器的游标（例如，ArrayList中的index）。
+- 实现基本的next()、hasNext()、remove()等方法。在remove()方法中，需要先取出目前选中的元素，同时删除该元素，并将游标指向下一个元素。
 
-4. 在Java中，如何實現一個尋找vector中的最大元素的例子？
+4. 在Java中，如何实现一个寻找vector中的最大元素的例子？
 
 答：
 
@@ -157,7 +157,7 @@ public class VectorIteratorExample {
 }
 ```
 
-5. 如何在C++中實現一個迭代器類？
+5. 如何在C++中实现一个迭代器类？
 
 答：
 

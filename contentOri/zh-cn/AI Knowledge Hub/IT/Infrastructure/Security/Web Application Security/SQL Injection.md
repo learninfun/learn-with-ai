@@ -1,10 +1,10 @@
 +++
-title = "SQL注入攻击"
+title = "SQL注入攻擊"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题SQL Injection的问题
+給我5題SQL Injection的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. SQL Injection攻擊的危害是什麼？在哪些情況下易受攻擊？
 5. 該如何測試和檢測SQL Injection漏洞？有哪些工具可以使用？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明SQL Injection并举例
+以中文說明SQL Injection並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -46,9 +46,9 @@ SELECT * FROM Products WHERE Name = '' or '1'='1';
 
 此外，攻擊者還可通過SQL Injection漏洞執行其他危險操作，如插入或刪除數據，甚至取得系統管理權限。因此，應當在開發過程中注意防範SQL Injection漏洞，並及時更新補丁。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列SQL Injection的重点
+以中文條列SQL Injection的重點
 {{< /ask_chatgpt >}}
 
 
@@ -59,9 +59,9 @@ SELECT * FROM Products WHERE Name = '' or '1'='1';
 4. 防範SQL Injection的方法包括使用參數化查詢、篩選掉非法字符、避免使用動態SQL語句等。
 5. 在進行Web應用程式測試時，應對可能出現的SQL Injection漏洞進行測試，以確保系統的安全性。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题SQL Injection的中等难度问题，并在后面列出答案
+以中文給我5題SQL Injection的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

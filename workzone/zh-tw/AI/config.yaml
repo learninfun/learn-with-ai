@@ -1,0 +1,16 @@
+apiProvider: OpenAI
+apiModal: gpt-3.5-turbo-0301
+initRole: 假設你是機器學習專家，回答我問題
+questions:
+  - key: preview
+    desc: 習題預習
+    template: 給我5題{{ .keyword}}的中文問題
+  - key: explain
+    desc: 說明知識
+    template: 以中文說明{{ .keyword}}並舉例
+  - key: keypoint
+    desc: 條列重點
+    template: 以中文條列{{ .keyword}}的重點
+  - key: test
+    desc: 知識測驗
+    template: 以中文給我5題{{ .keyword}}的中等難度問題，並在後面列出答案

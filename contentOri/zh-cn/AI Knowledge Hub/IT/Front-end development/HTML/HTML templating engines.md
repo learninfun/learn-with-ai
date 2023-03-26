@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题HTML templating engines的问题
+给我5题HTML templating engines的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明HTML templating engines并举例
+以中文说明HTML templating engines并举例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ HTML templating engines 是一种用于生成HTML的工具，它可以帮助开�
 
 这些HTML templating engines 都有自己的优点和适用场景，开发人员可以根据自己的需求选择适合的工具。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列HTML templating engines的重点
+以中文条列HTML templating engines的重点
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +57,7 @@ HTML templating engines 是一种用于生成HTML的工具，它可以帮助开�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题HTML templating engines的中等难度问题，并在后面列出答案
+以中文给我5题HTML templating engines的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

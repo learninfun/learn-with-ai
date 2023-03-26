@@ -2,9 +2,9 @@
 title = "Babel"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Babel的问题
+給我5題Babel的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "1"
 
 5. Babel在開發網站和Web應用程序時有哪些實用技巧和最佳實踐？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Babel并举例
+以中文說明Babel並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -49,9 +49,9 @@ var greeting = function greeting(name) {
 
 這樣做可以確保這段代碼在舊版瀏覽器和其它環境中運行良好而不會出現錯誤。Babel還可以支援其他語言功能，如TypeScript和Flow。 通過Babel創建的JavaScript代碼可以更容易地在不同環境中運行，並且更簡潔、可讀性高。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Babel的重点
+以中文條列Babel的重點
 {{< /ask_chatgpt >}}
 
 
@@ -76,36 +76,36 @@ var greeting = function greeting(name) {
 
 10. Babel的使用非常靈活，可以根據項目需求進行定制配置，並與現有代碼庫兼容。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Babel的中等难度问题，并在后面列出答案
+以中文給我5題Babel的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 重复数字
-给定一个由整数组成的阵列 nums，请写一个函数，找出其中一对重复出现的数字。例如，给定 `[1, 2, 2, 3]`，返回 `2`。
+1. 重複數字
+給定一個由整數組成的陣列 nums，請寫一個函數，找出其中一對重複出現的數字。例如，給定 `[1, 2, 2, 3]`，返回 `2`。
 
 答案： https://babel.baidu.com/course/detail/3#homework/963
 
 
-2. 链表去重
-给定一个单向链表 head，请写一个函数，删除其中所有重复出现的节点（包括原始节点）。例如，`1 -> 2 -> 3 -> 2 -> 1 -> 4` 变为 `3 -> 4`。
+2. 鏈表去重
+給定一個單向鏈表 head，請寫一個函數，刪除其中所有重複出現的節點（包括原始節點）。例如，`1 -> 2 -> 3 -> 2 -> 1 -> 4` 變為 `3 -> 4`。
 
 答案： https://babel.baidu.com/course/detail/3#homework/964
 
-3. 最长回文子串
-给定一个类似于 "level" 这样的字串，请写一个函数，找出其中最长的回文子串。例如，对于 "babad"，应该返回 "bab" 或 "aba"。
+3. 最長回文子串
+給定一個類似於 "level" 這樣的字串，請寫一個函數，找出其中最長的回文子串。例如，對於 "babad"，應該返回 "bab" 或 "aba"。
 
 答案：https://babel.baidu.com/course/detail/3#homework/967
 
-4. 两个排序数组的中位数
-给定两个已排序的 数组 nums1 和 nums2，请写一个函数求它们的中位数。例如，`nums1 = [1, 2], nums2 = [3, 4]`，返回 2.5。
+4. 兩個排序數組的中位數
+給定兩個已排序的 數組 nums1 和 nums2，請寫一個函數求它們的中位數。例如，`nums1 = [1, 2], nums2 = [3, 4]`，返回 2.5。
 
 答案： https://babel.baidu.com/course/detail/3#homework/969
 
-5. 字符串无重复字符的最长子串
-给定一个字符串 s，找出其中最长的没有重复字符的子串。例如，对于 "abcabcbb"，应该返回 "abc"，对于 "bbbbbbbb"，应该返回 "b"。
+5. 字符串無重複字符的最長子串
+給定一個字符串 s，找出其中最長的沒有重複字符的子串。例如，對於 "abcabcbb"，應該返回 "abc"，對於 "bbbbbbbb"，應該返回 "b"。
 
 答案： https://babel.baidu.com/course/detail/3#homework/971   
 

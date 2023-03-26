@@ -1,4 +1,4 @@
-apiProvider: ChatGPT
+apiProvider: OpenAI
 apiModal: gpt-3.5-turbo-0301
 initRole: 假設你是IT專家，回答我問題
 questions:

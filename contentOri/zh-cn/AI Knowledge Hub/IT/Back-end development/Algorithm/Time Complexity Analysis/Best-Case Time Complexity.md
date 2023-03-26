@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Best-Case Time Complexity的问题
+给我5题Best-Case Time Complexity的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Best-Case Time Complexity并举例
+以中文说明Best-Case Time Complexity并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Best-Case Time Complexity指的是当算法面对最佳情况（即算法的输�
 
 再举一个例子，假如有一个在大小为n的阵列中寻找最小值的算法。当最小值恰好在阵列的第一个位置时，此算法的Best-Case Time Complexity为O(1)，因为只需要一次比较即可找到最小值。而当最小值位于中间位置或者最后一个位置时，此算法的Best-Case Time Complexity为O(n)，因为需要逐一比较每一个元素。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Best-Case Time Complexity的重点
+以中文条列Best-Case Time Complexity的重点
 {{< /ask_chatgpt >}}
 
 
@@ -47,7 +47,7 @@ Best-Case Time Complexity指的是当算法面对最佳情况（即算法的输�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Best-Case Time Complexity的中等难度问题，并在后面列出答案
+以中文给我5题Best-Case Time Complexity的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

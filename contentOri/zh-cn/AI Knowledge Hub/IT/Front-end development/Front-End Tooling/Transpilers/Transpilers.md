@@ -1,10 +1,10 @@
 +++
-title = "Transpilers 编译器"
+title = "Transpilers 編譯器"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Transpilers的问题
+給我5題Transpilers的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 在使用Transpiler時，我們該如何處理不同版本的瀏覽器對JavaScript的支援問題？
 5. Transpiler在編譯代碼時是否會對性能產生影響？如果有，我們該如何減少這種影響？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Transpilers并举例
+以中文說明Transpilers並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,34 +38,34 @@ Transpiler是一种将一种编程语言转换为另一种编程语言的编译�
 
 通过使用Transpiler，开发者们能够更加灵活地使用新的编程语言和其特性，同时又不必担心这些特性无法在旧版本的平台上运行的问题。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Transpilers的重点
+以中文條列Transpilers的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 意义：Transpilers是一种软体工具，它可以将一种编程语言的程式码转换成另一种编程语言的程式码。
+1. 意義：Transpilers是一種軟體工具，它可以將一種編程語言的程式碼轉換成另一種編程語言的程式碼。
 
-2. 优点：Transpilers可以帮助开发者在不同的编程语言之间进行转换，使得开发过程更加灵活和高效。
+2. 優點：Transpilers可以幫助開發者在不同的編程語言之間進行轉換，使得開發過程更加靈活和高效。
 
-3. 应用：Transpilers的应用范围广泛，包括前端开发、后端开发、移动应用开发等。
+3. 應用：Transpilers的應用範圍廣泛，包括前端開發、後端開發、移動應用開發等。
 
-4. 标准：Transpilers需要遵循相应的标准和规范，以确保转换的质量和正确性。
+4. 標準：Transpilers需要遵循相應的標準和規範，以確保轉換的質量和正確性。
 
-5. 增强功能：一些Transpilers还可以提供增强功能，例如代码优化、语法检查等。
+5. 增強功能：一些Transpilers還可以提供增強功能，例如代碼優化、語法檢查等。
 
-6. 选择：在选择Transpilers时，需要考虑转换的目标语言、转换的质量、效率和可靠性等因素。   
+6. 選擇：在選擇Transpilers時，需要考慮轉換的目標語言、轉換的質量、效率和可靠性等因素。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Transpilers的中等难度问题，并在后面列出答案
+以中文給我5題Transpilers的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 创建一个简单的Babel插件，将所有的变数名称都转换为小写。
-答案：以下是简单的Babel插件示例，将变量名称转换为小写。
+1. 創建一個簡單的Babel插件，將所有的變數名稱都轉換為小寫。
+答案：以下是簡單的Babel插件示例，將變量名稱轉換為小寫。
 
 ```javascript
 module.exports = function(babel) {
@@ -86,8 +86,8 @@ module.exports = function(babel) {
 };
 ```
 
-2. 创建一个简单的TypeScript转换器，将所有的字母进行加密。例如，将a替换为b，b替换为c，以此类推。
-答案：以下是简单的TypeScript转换器示例，将所有的字母进行加密。
+2. 創建一個簡單的TypeScript轉換器，將所有的字母進行加密。例如，將a替換為b，b替換為c，以此類推。
+答案：以下是簡單的TypeScript轉換器示例，將所有的字母進行加密。
 
 ```javascript
 function encrypt(str) {
@@ -112,8 +112,8 @@ function encrypt(str) {
 }
 ```
 
-3. 创建一个Babel插件，将所有的for循环转换为while循环。
-答案：以下是简单的Babel插件示例，将所有的for循环转换为while循环。
+3. 創建一個Babel插件，將所有的for循環轉換為while循環。
+答案：以下是簡單的Babel插件示例，將所有的for循環轉換為while循環。
 
 ```javascript
 module.exports = function(babel) {
@@ -143,8 +143,8 @@ module.exports = function(babel) {
 };
 ```
 
-4. 创建一个TypeScript转换器，将所有interface的属性名称变成大写。
-答案：以下是简单的TypeScript转换器示例，将所有interface的属性名称变成大写。
+4. 創建一個TypeScript轉換器，將所有interface的屬性名稱變成大寫。
+答案：以下是簡單的TypeScript轉換器示例，將所有interface的屬性名稱變成大寫。
 
 ```javascript
 function transform(source) {
@@ -179,8 +179,8 @@ function transform(source) {
 }
 ```
 
-5. 创建一个Babel插件，将所有模块内的console.log调用删除。
-答案：以下是简单的Babel插件示例，将所有模块内的console.log调用删除。
+5. 創建一個Babel插件，將所有模塊內的console.log調用刪除。
+答案：以下是簡單的Babel插件示例，將所有模塊內的console.log調用刪除。
 
 ```javascript
 module.exports = function(babel) {

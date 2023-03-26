@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Circular Linked List的问题
+给我5题Circular Linked List的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Circular Linked List并举例
+以中文说明Circular Linked List并举例
 {{< /ask_chatgpt >}}
 
 
@@ -64,9 +64,9 @@ Node *createCircularLinkedList(int values[], int n) {
 }
 ```   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Circular Linked List的重点
+以中文条列Circular Linked List的重点
 {{< /ask_chatgpt >}}
 
 
@@ -80,12 +80,12 @@ Node *createCircularLinkedList(int values[], int n) {
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Circular Linked List的中等难度问题，并在后面列出答案
+以中文给我5题Circular Linked List的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 實作將Circular Linked List反轉。
+1. 实作将Circular Linked List反转。
 
 ```
 void reverse(Node** head) 
@@ -110,7 +110,7 @@ void reverse(Node** head)
 } 
 ```
 
-2. 實作從Circular Linked List中移除擁有特定數值的節點。
+2. 实作从Circular Linked List中移除拥有特定数值的节点。
 
 ```
 void removeNode(Node** head, int key) 
@@ -141,7 +141,7 @@ void removeNode(Node** head, int key)
 } 
 ```
 
-3. 判斷Circular Linked List是否為迴文（即正向與反向皆相同）。
+3. 判断Circular Linked List是否为回文（即正向与反向皆相同）。
 
 ```
 bool isPalindrome(Node* head) 
@@ -212,7 +212,7 @@ bool compareLists(Node* head1, Node* head2)
 } 
 ```
 
-4. 將兩個Circular Linked List合併（由小到大排序）。
+4. 将两个Circular Linked List合并（由小到大排序）。
 
 ```
 Node* sortedMerge(Node* a, Node* b) 
@@ -259,7 +259,7 @@ Node* mergeSort(Node* head)
 } 
 ```
 
-5. 在Circular Linked List中找到最大值（若有重複數值，輸出第一個）。
+5. 在Circular Linked List中找到最大值（若有重复数值，输出第一个）。
 
 ```
 int getMax(Node* head) 

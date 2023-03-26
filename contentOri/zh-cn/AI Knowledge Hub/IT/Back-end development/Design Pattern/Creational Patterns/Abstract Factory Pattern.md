@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Abstract Factory Pattern的问题
+给我5题Abstract Factory Pattern的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Abstract Factory Pattern并举例
+以中文说明Abstract Factory Pattern并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Abstract Factory Pattern中包含一个抽像工厂介面，这个介面定义�
 
 这样，当我们需要新增一个工具包时，只需要建立一个具体工厂，实现介面并返回新的工具包即可，而不需要在编辑器中修改程式码。这个模式可以让程式码更灵活、易读和易于维护。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Abstract Factory Pattern的重点
+以中文条列Abstract Factory Pattern的重点
 {{< /ask_chatgpt >}}
 
 
@@ -59,7 +59,7 @@ Abstract Factory Pattern中包含一个抽像工厂介面，这个介面定义�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Abstract Factory Pattern的中等难度问题，并在后面列出答案
+以中文给我5题Abstract Factory Pattern的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

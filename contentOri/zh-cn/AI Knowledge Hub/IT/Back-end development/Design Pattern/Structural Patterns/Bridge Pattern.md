@@ -1,10 +1,10 @@
 +++
-title = "桥接模式"
+title = "橋接模式"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Bridge Pattern的问题
+給我5題Bridge Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. Bridge pattern有哪些優點和缺點？該如何進行權衡取捨？
 5. Bridge pattern和Decorator pattern之間有何區別？它們各自適用於哪些場景？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Bridge Pattern并举例
+以中文說明Bridge Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -32,9 +32,9 @@ Bridge Pattern是一种结构型设计模式，它将抽象部分和实现部分
 
 总之，Bridge Pattern可以用来使抽象和实现部分之间的变化相对独立，从而提高代码的灵活性和可维护性。它也非常适用于大型项目，其中复杂的类层次结构使得编写模块化代码变得困难。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Bridge Pattern的重点
+以中文條列Bridge Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -46,9 +46,9 @@ Bridge Pattern是一种结构型设计模式，它将抽象部分和实现部分
 5. Bridge Pattern的缺點是增加了額外的類，可能導致類的層次結構更加複雜。此外，對於較小的項目，它可能增加了不必要的開銷。
 6. Bridge Pattern的應用場景包括需要處理多種變化的系統，以及需要將抽象與實現解耦的系統。這種模式特別適用於大型系統和框架，可以使其更靈活和易於擴展。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Bridge Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Bridge Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -1,0 +1,5 @@
+Feature engineering is the process of selecting, creating, and transforming variables or features of a dataset to improve the performance of a machine learning model. It involves finding the most relevant features that can produce accurate predictions or classifications. 
+
+For example, suppose you have a dataset of customers' shopping behavior. You have various features like age, gender, income, and purchase history. However, you want to predict whether or not a customer will purchase a particular product. In this case, you can apply feature engineering by creating new features like the total amount spent by the customer, the frequency of visits to the store, and the number of items bought in the past six months. These new features can better capture the customer's purchasing behavior and improve the prediction model's accuracy. 
+
+Another example is in image processing, where you can extract features such as color, texture, and shape from an image to label it as a specific object, e.g., car, animal, or building. These extracted features can serve as inputs to a machine learning model for image classification.

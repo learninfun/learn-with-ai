@@ -2,9 +2,9 @@
 title = "Web框架"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Web Frameworks的问题
+給我5題Web Frameworks的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "2"
 
 5. 有哪些較知名、使用廣泛的Web Frameworks？它們有什麼優缺點？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Web Frameworks并举例
+以中文說明Web Frameworks並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -42,9 +42,9 @@ Web框架是一種用於開發Web應用程序的工具或框架。它通常是�
 
 Web框架對開發Web應用程序至關重要，因為它們提供了開發人員需要的所有基本結構和方便特徵。這使得Web應用程序開發快速而簡單，能夠满足商業需求。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Web Frameworks的重点
+以中文條列Web Frameworks的重點
 {{< /ask_chatgpt >}}
 
 
@@ -57,9 +57,9 @@ Web框架對開發Web應用程序至關重要，因為它們提供了開發人�
 6. 社區支持：許多Web框架具有強大的社區支持，通過這些社區開發者可以獲得信息，幫助和支援。 
 7. 節省開發成本：由於Web框架內置的功能和組件，開發者可以快速開發應用程序，節省時間和成本。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Web Frameworks的中等难度问题，并在后面列出答案
+以中文給我5題Web Frameworks的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

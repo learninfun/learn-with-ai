@@ -1,10 +1,10 @@
 +++
-title = "Θ符号"
+title = "Θ符號"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Theta Notation的问题
+給我5題Theta Notation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "3"
 
 5. 請舉一個例子說明如何使用Theta Notation來表示一個算法的時間複雜度。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Theta Notation并举例
+以中文說明Theta Notation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Theta Notation是一種漸進符號，用於描述算法的時間複雜度。當
 
 例如，對於一個線性搜索的算法，它的時間複雜度為O(n)，其中n是輸入數據的大小。在最壞情況下，該算法需要遍歷整個數據集，所以時間複雜度是O(n)。由於只有一個常數因素區別最壞和最好情況，因此該算法的時間複雜度為Θ(n)。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Theta Notation的重点
+以中文條列Theta Notation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +51,9 @@ Theta Notation是一種測量算法時間複雜度的方法，主要有以下幾
 
 6. Theta Notation是一種簡單、清晰和易於理解的方法，可以幫助我們更好地理解算法的時間複雜度，並進行更好的算法優化。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Theta Notation的中等难度问题，并在后面列出答案
+以中文給我5題Theta Notation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

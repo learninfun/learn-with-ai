@@ -1,10 +1,10 @@
 +++
-title = "单例模式"
+title = "單例模式"
 weight = "5"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Singleton Pattern的问题
+給我5題Singleton Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "5"
 4. 單例模式有哪些常見的使用情境？
 5. Singleton Pattern有哪些優點和缺點？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Singleton Pattern并举例
+以中文說明Singleton Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -60,9 +60,9 @@ my_singleton = MySingleton.get_instance()
 
 如果嘗試創建更多的實例，即使直接創建實例也會引發異常，因為`__instance`變數已被設置為相應的實例。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Singleton Pattern的重点
+以中文條列Singleton Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -79,9 +79,9 @@ my_singleton = MySingleton.get_instance()
 
 6. Singleton模式有多種實現方式，包括靜態字段、枚舉、內部類等。選擇哪種方式取決於具體需求以及編程語言的特性。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Singleton Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Singleton Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

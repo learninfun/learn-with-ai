@@ -1,14 +1,16 @@
+apiProvider: OpenAI
+apiModal: gpt-3.5-turbo-0301
 initRole: Assuming you are an "IT" expert, answer my questions.
 questions:
   - key: preview
-    desc: 習題預習
-    template: 給我5題{{ .keyword}}的中文問題
+    desc: Preview
+    template: give me five question about {{ .keyword}}
   - key: explain
-    desc: 說明知識
-    template: 以中文說明{{ .keyword}}並舉例
+    desc: Explain
+    template: Explain {{ .keyword}} and give an example
   - key: keypoint
-    desc: 條列重點
-    template: 以中文條列{{ .keyword}}的重點
-  - key: test
-    desc: 知識測驗
-    template: 以中文給我5題{{ .keyword}}的中等難度問題，並在後面列出答案
+    desc: Keypoint
+    template: List the key points of {{ .keyword}}
+  - key: review
+    desc: Review
+    template: Give me 5 medium-difficulty questions with answers about {{ .keyword}}

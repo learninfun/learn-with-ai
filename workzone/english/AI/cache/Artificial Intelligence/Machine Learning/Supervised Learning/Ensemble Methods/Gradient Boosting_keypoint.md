@@ -1,0 +1,8 @@
+- Ensemble learning method that combines multiple weak models to create a strong model
+- Builds models sequentially, with each new model trying to correct the errors of the previous model
+- Uses gradient descent optimization to minimize the loss function
+- Regularization (such as L1 and L2) is used to prevent overfitting
+- Can handle both continuous and categorical data
+- Requires preprocessing steps such as one-hot encoding and feature scaling
+- Can be used for both regression and classification tasks
+- Popular implementations include XGBoost, LightGBM, and CatBoost.

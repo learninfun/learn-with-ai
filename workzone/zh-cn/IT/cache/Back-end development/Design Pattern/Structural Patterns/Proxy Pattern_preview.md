@@ -1,7 +1,7 @@
 
 
-1. 何謂Proxy Pattern？該模式在軟體設計中有何用處？
-2. 請舉一個實際案例，說明如何使用Proxy Pattern來實現軟體功能需求？
-3. Proxy Pattern和Decorator Pattern有什麼區別？請列出至少兩點差異。
-4. 何時應該使用Proxy Pattern？請描述一個案例，說明使用Proxy Pattern的好處。
-5. Proxy Pattern在Java中的實現方式有哪些？何時使用哪種方式比較適合？
+1. 何谓Proxy Pattern？该模式在软体设计中有何用处？
+2. 请举一个实际案例，说明如何使用Proxy Pattern来实现软体功能需求？
+3. Proxy Pattern和Decorator Pattern有什么区别？请列出至少两点差异。
+4. 何时应该使用Proxy Pattern？请描述一个案例，说明使用Proxy Pattern的好处。
+5. Proxy Pattern在Java中的实现方式有哪些？何时使用哪种方式比较适合？

@@ -1,0 +1,5 @@
+Discriminator（鑑別器）是一種人工智慧概念，主要作用是區分真假、真實和虛假等。在機器學習中，Discriminator通常用於對比、分辨和鑑別不同資料之間的差異，因此其功能相當重要。
+
+一個具體的例子是GAN（Generative Adversarial Networks），這是深度學習中常被使用的一種模型。在GAN模型中，Generative Model用於產生新的資料，而Discriminator Model則用於區分生成的資料是真實還是虛假的。Generator會不斷生成假的資料，Discriminator會將其與真實的資料進行對比，提供反饋，並透過進一步學習來提高判別準確性。
+
+在這樣的例子中，Discriminator的作用不僅是檢測真假，還需要不斷提供訊息，使Generative Model能夠更加精確地生成資料，提高模型的準確性和穩定性。

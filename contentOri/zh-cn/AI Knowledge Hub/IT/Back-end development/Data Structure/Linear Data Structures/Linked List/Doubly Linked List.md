@@ -1,38 +1,38 @@
 +++
-title = "双向链表"
+title = "雙向鏈表"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Doubly Linked List的问题
+給我5題Doubly Linked List的中文問題
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何在Doubly Linked List的开头添加一个节点？
-2. 如何在Doubly Linked List的末尾添加一个节点？
-3. 如何在Doubly Linked List中查找一个特定节点？
-4. 如何在Doubly Linked List中删除一个特定节点？
-5. 如何翻转Doubly Linked List中的元素？   
+1. 如何在Doubly Linked List的開頭添加一個節點？
+2. 如何在Doubly Linked List的末尾添加一個節點？
+3. 如何在Doubly Linked List中查找一個特定節點？
+4. 如何在Doubly Linked List中刪除一個特定節點？
+5. 如何翻轉Doubly Linked List中的元素？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Doubly Linked List并举例
+以中文說明Doubly Linked List並舉例
 {{< /ask_chatgpt >}}
 
 
 
-双向链结串列（Doubly Linked List），是一个资料结构，其中每个节点同时拥有指向前一个节点和后一个节点的指针，并可以在任意位置进行插入和删除操作。因此，双向链结串列不像单向链结串列那样只能从头到尾或从尾到头遍历。
+雙向鏈結串列（Doubly Linked List），是一個資料結構，其中每個節點同時擁有指向前一個節點和後一個節點的指針，並可以在任意位置進行插入和刪除操作。因此，雙向鏈結串列不像單向鏈結串列那樣只能從頭到尾或從尾到頭遍歷。
 
-一个双向链结串列节点通常被组织为包含三个元素：
+一個雙向鏈結串列節點通常被組織為包含三個元素：
 
-1. 值：存储在节点中的数据元素
-2. 指向前一个节点的指针（previous pointer）
-3. 指向下一个节点的指针（next pointer）
+1. 值：存儲在節點中的數據元素
+2. 指向前一個節點的指針（previous pointer）
+3. 指向下一個節點的指針（next pointer）
 
-对于第一个节点和最后一个节点，前一个节点指针和后一个节点指针可以为空指针（NULL）。
+對於第一個節點和最後一個節點，前一個節點指針和後一個節點指針可以為空指針（NULL）。
 
-以下是一个节点的示例：
+以下是一個節點的示例：
 
 ```
 struct Node {
@@ -42,70 +42,70 @@ struct Node {
 };
 ```
 
-举例：
+舉例：
 
-假设有以下双向链结串列：1 ⇄ 3 ⇄ 5 ⇄ 7，其中 1 是第一个节点，而 7 是最后一个节点。
+假設有以下雙向鏈結串列：1 ⇄ 3 ⇄ 5 ⇄ 7，其中 1 是第一個節點，而 7 是最後一個節點。
 
-- 如果要在第二个节点 3 后插入一个新节点 4，操作流程如下：
+- 如果要在第二個節點 3 後插入一個新節點 4，操作流程如下：
 
-  1. 建立一个新节点 4；
+  1. 建立一個新節點 4；
   2. 使 4 的 prev 指向 3；
   3. 使 4 的 next 指向 5；
   4. 使 3 的 next 指向 4；
   5. 使 5 的 prev 指向 4；
   
-  插入后，链结串列变为：1 ⇄ 3 ⇄ 4 ⇄ 5 ⇄ 7。
+  插入後，鏈結串列變為：1 ⇄ 3 ⇄ 4 ⇄ 5 ⇄ 7。
 
-- 如果要在第四个节点 5 前插入一个新节点 2，操作流程如下：
+- 如果要在第四個節點 5 前插入一個新節點 2，操作流程如下：
 
-  1. 建立一个新节点 2；
+  1. 建立一個新節點 2；
   2. 使 2 的 prev 指向 1；
   3. 使 2 的 next 指向 3；
   4. 使 1 的 next 指向 2；
   5. 使 3 的 prev 指向 2；
   
-  插入后，链结串列变为：1 ⇄ 2 ⇄ 3 ⇄ 5 ⇄ 7。
+  插入後，鏈結串列變為：1 ⇄ 2 ⇄ 3 ⇄ 5 ⇄ 7。
 
 
-- 如果要从链结串列中删除节点 3，操作流程如下：
+- 如果要從鏈結串列中刪除節點 3，操作流程如下：
 
   1. 使 2 的 next 指向 5；
   2. 使 5 的 prev 指向 2；
-  3. 释放节点 3 的内存空间。
+  3. 釋放節點 3 的內存空間。
   
-  删除后，链结串列变为：1 ⇄ 2 ⇄ 5 ⇄ 7。   
+  刪除後，鏈結串列變為：1 ⇄ 2 ⇄ 5 ⇄ 7。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Doubly Linked List的重点
+以中文條列Doubly Linked List的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Doubly linked list是一种常见的资料结构，它与 singly linked list 相似，但每个节点有两个指向（前一个和后一个）而不是一个。
+1. Doubly linked list是一種常見的資料結構，它與 singly linked list 相似，但每個節點有兩個指向（前一個和後一個）而不是一個。
 
-2. Doubly linked list的主要优点是可以双向遍历列表。这意味着，可以通过列表的前面或后面寻找节点，而不必递归或反转列表。
+2. Doubly linked list的主要優點是可以雙向遍歷列表。這意味著，可以通過列表的前面或後面尋找節點，而不必遞歸或反轉列表。
 
-3. Doubly linked list需要更多的空间来存储指向前面节点的指针，这会增加记忆体使用量。
+3. Doubly linked list需要更多的空間來存儲指向前面節點的指針，這會增加記憶體使用量。
 
-4. 在Doubly linked list中，每个节点都有前一个节点和后一个节点的指针，这使得在插入或删除节点时可以更加高效。
+4. 在Doubly linked list中，每個節點都有前一個節點和後一個節點的指針，這使得在插入或刪除節點時可以更加高效。
 
-5. 在Doubly linked list中，头尾节点的处理需要更多的注意，需要特别处理空列表的情况。
+5. 在Doubly linked list中，頭尾節點的處理需要更多的注意，需要特別處理空列表的情況。
 
-6. Doubly linked list支持正向和反向遍历，这使得在某些算法中可以更加高效。
+6. Doubly linked list支持正向和反向遍歷，這使得在某些算法中可以更加高效。
 
-7. Doubly linked list的插入和删除操作时需要更多的指针操作，可能比singly linked list要更复杂。
+7. Doubly linked list的插入和刪除操作時需要更多的指針操作，可能比singly linked list要更複雜。
 
-8. 在Doubly linked list中，每个节点都需要额外的空间来存储前一个节点和后一个节点，这增加了节点的大小，可能会影响效率。   
+8. 在Doubly linked list中，每個節點都需要額外的空間來存儲前一個節點和後一個節點，這增加了節點的大小，可能會影響效率。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Doubly Linked List的中等难度问题，并在后面列出答案
+以中文給我5題Doubly Linked List的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 实现一个Doubly Linked List的reverse方法
+1. 實現一個Doubly Linked List的reverse方法
 
 答案:
 
@@ -125,7 +125,7 @@ public void reverse() {
 }
 ```
 
-2. 实现一个Doubly Linked List的merge方法，将两个有序的Doubly Linked List合并成一个新的有序Doubly Linked List
+2. 實現一個Doubly Linked List的merge方法，將兩個有序的Doubly Linked List合併成一個新的有序Doubly Linked List
 
 答案:
 
@@ -155,7 +155,7 @@ public DoublyLinkedList merge(DoublyLinkedList list1, DoublyLinkedList list2) {
 }
 ```
 
-3. 实现一个Doubly Linked List的removeDuplicates方法，删除所有重复的元素
+3. 實現一個Doubly Linked List的removeDuplicates方法，刪除所有重複的元素
 
 答案:
 
@@ -177,7 +177,7 @@ public void removeDuplicates() {
 }
 ```
 
-4. 实现一个Doubly Linked List的findKthFromLast方法，查找倒数第k个元素
+4. 實現一個Doubly Linked List的findKthFromLast方法，查找倒數第k個元素
 
 答案:
 
@@ -187,7 +187,7 @@ public int findKthFromLast(int k) {
     Node runner = head;
     for (int i = 0; i < k; i++) {
         if (runner == null) {
-            return -1; // 如果k大于列表的大小，返回-1
+            return -1; // 如果k大於列表的大小，返回-1
         }
         runner = runner.next;
     }
@@ -199,7 +199,7 @@ public int findKthFromLast(int k) {
 }
 ```
 
-5. 实现一个Doubly Linked List的sort方法，将列表进行升序排列
+5. 實現一個Doubly Linked List的sort方法，將列表進行升序排列
 
 答案:
 

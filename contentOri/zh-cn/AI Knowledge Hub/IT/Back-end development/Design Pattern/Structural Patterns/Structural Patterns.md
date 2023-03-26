@@ -1,10 +1,10 @@
 +++
-title = "结构型模式"
+title = "結構型模式"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Structural Patterns的问题
+給我5題Structural Patterns的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "2"
 
 5. Bridge Pattern如何協助開發人員更好地設計具有多層次抽像的軟件系統，並優化代碼的可維護性和擴展性？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Structural Patterns并举例
+以中文說明Structural Patterns並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,37 +44,37 @@ Structural Patterns是指將類和對像組合在一起形成更大的結構，�
 
 這些模式可以提高代碼的復用性，使代碼更加靈活和可擴展。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Structural Patterns的重点
+以中文條列Structural Patterns的重點
 {{< /ask_chatgpt >}}
 
 
 
-1.提供对系统内部结构的抽像表示
+1.提供對系統內部結構的抽像表示
 
-2.允许随着时间的推移进行系统内部的变化，同时不影响系统外部的用户界面
+2.允許隨著時間的推移進行系統內部的變化，同時不影響系統外部的用戶界面
 
-3.支持系统内部的外部化和内部化，使应用程序更加灵活
+3.支持系統內部的外部化和內部化，使應用程序更加靈活
 
-4.简化系统内部结构的操作，提高系统的可读性和可维护性
+4.簡化系統內部結構的操作，提高系統的可讀性和可維護性
 
-5.提供对系统中核心组件（例如，UI组件、数据组件等）的解耦，增强系统的可扩展性
+5.提供對系統中核心組件（例如，UI組件、數據組件等）的解耦，增強系統的可擴展性
 
-6.提高系统的性能和效率，降低系统运行时所需的资源成本
+6.提高系統的性能和效率，降低系統運行時所需的資源成本
 
-7.提供对系统中不同部分的通信方式的抽像表示，使得系统之间的交互更加简单和易于管理
+7.提供對系統中不同部分的通信方式的抽像表示，使得系統之間的交互更加簡單和易於管理
 
-8.在软件设计过程中，提供一个共通的框架，方便开发人员进行协作、集成和测试   
+8.在軟件設計過程中，提供一個共通的框架，方便開發人員進行協作、集成和測試   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Structural Patterns的中等难度问题，并在后面列出答案
+以中文給我5題Structural Patterns的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 请实作一个简单的装饰器模式，可以让使用者在商品价格上添加不同的折扣。
+1. 請實作一個簡單的裝飾器模式，可以讓使用者在商品價格上添加不同的折扣。
 
 答案：
 
@@ -96,7 +96,7 @@ function saleDiscount(product, percentage) {
   };
 }
 
-// 使用范例
+// 使用範例
 const product = new Product("iPhone", 1000);
 const discountProduct = saleDiscount(product, 0.2); // 打80折
 
@@ -104,7 +104,7 @@ console.log(discountProduct.getName()); // iPhone (20% off)
 console.log(discountProduct.getPrice()); // 800
 
 
-2. 请实作一个中介者模式，让使用者可以协调不同的元件之间的互动。
+2. 請實作一個中介者模式，讓使用者可以協調不同的元件之間的互動。
 
 答案：
 
@@ -146,7 +146,7 @@ class Component {
   }
 }
 
-// 使用范例
+// 使用範例
 const mediator = new Mediator();
 const component1 = new Component("Component 1");
 const component2 = new Component("Component 2");
@@ -158,7 +158,7 @@ component1.send("Hello, Component 2");
 component2.send("Hi, Component 1");
 
 
-3. 请实作一个代理模式，让使用者可以透过代理物件存取需要较长时间才能处理的资料。
+3. 請實作一個代理模式，讓使用者可以透過代理物件存取需要較長時間才能處理的資料。
 
 答案：
 
@@ -181,20 +181,20 @@ class ProxyObject {
       setTimeout(() => {
         this.realObject.process();
         this.isProcessing = false;
-      }, 3000); // 模拟需要较长时间处理的情况
+      }, 3000); // 模擬需要較長時間處理的情況
     } else {
       console.log("ProxyObject: RealObject is currently busy.");
     }
   }
 }
 
-// 使用范例
+// 使用範例
 const proxyObject = new ProxyObject();
 proxyObject.process();
-proxyObject.process(); // 第二次呼叫时会直接回传 RealObject is currently busy.
+proxyObject.process(); // 第二次呼叫時會直接回傳 RealObject is currently busy.
 
 
-4. 请实作一个享元模式，让使用者可以存储和重复使用相同或相似的物件。
+4. 請實作一個享元模式，讓使用者可以存儲和重複使用相同或相似的物件。
 
 答案：
 
@@ -231,7 +231,7 @@ class FlyweightFactory {
   }
 }
 
-// 使用范例
+// 使用範例
 const factory = new FlyweightFactory();
 
 const flyweight1 = factory.getFlyweight({ size: "small", color: "red" });
@@ -246,7 +246,7 @@ flyweight3.operation({ x: 30, y: 30 });
 factory.listFlyweights();
 
 
-5. 请实作一个外观模式，让使用者可以透过显示简单介面来操作复杂的程式逻辑。
+5. 請實作一個外觀模式，讓使用者可以透過顯示簡單介面來操作複雜的程式邏輯。
 
 答案：
 
@@ -289,7 +289,7 @@ class Facade {
   }
 }
 
-// 使用范例
+// 使用範例
 const client = new Facade();
 client.operation1();
 client.operation2();   

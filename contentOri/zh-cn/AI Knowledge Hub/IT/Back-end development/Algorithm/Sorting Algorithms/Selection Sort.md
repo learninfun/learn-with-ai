@@ -1,10 +1,10 @@
 +++
-title = "选择排序"
+title = "選擇排序"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Selection Sort的问题
+給我5題Selection Sort的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 在Selection Sort中，當要將一個元素插入到已排序子數列中時，是從哪個方向開始執行比較操作？
 5. 如果要對一個數組進行升序排序，什麼情況下會選擇使用Selection Sort？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Selection Sort并举例
+以中文說明Selection Sort並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -66,9 +66,9 @@ def selection_sort(arr):
 
 因此，根據上面的算法，我們在 $O(n^2)$ 的時間複雜度內將序列進行了排序。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Selection Sort的重点
+以中文條列Selection Sort的重點
 {{< /ask_chatgpt >}}
 
 
@@ -91,9 +91,9 @@ Selection Sort的重點如下：
 
 8. 在任何情况下，Selection Sort的交换次数最多只有n-1次。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Selection Sort的中等难度问题，并在后面列出答案
+以中文給我5題Selection Sort的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

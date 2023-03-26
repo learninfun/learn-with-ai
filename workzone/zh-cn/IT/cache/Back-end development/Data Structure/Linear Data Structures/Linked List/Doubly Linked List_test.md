@@ -1,6 +1,6 @@
 
 
-1. 实现一个Doubly Linked List的reverse方法
+1. 實現一個Doubly Linked List的reverse方法
 
 答案:
 
@@ -20,7 +20,7 @@ public void reverse() {
 }
 ```
 
-2. 实现一个Doubly Linked List的merge方法，将两个有序的Doubly Linked List合并成一个新的有序Doubly Linked List
+2. 實現一個Doubly Linked List的merge方法，將兩個有序的Doubly Linked List合併成一個新的有序Doubly Linked List
 
 答案:
 
@@ -50,7 +50,7 @@ public DoublyLinkedList merge(DoublyLinkedList list1, DoublyLinkedList list2) {
 }
 ```
 
-3. 实现一个Doubly Linked List的removeDuplicates方法，删除所有重复的元素
+3. 實現一個Doubly Linked List的removeDuplicates方法，刪除所有重複的元素
 
 答案:
 
@@ -72,7 +72,7 @@ public void removeDuplicates() {
 }
 ```
 
-4. 实现一个Doubly Linked List的findKthFromLast方法，查找倒数第k个元素
+4. 實現一個Doubly Linked List的findKthFromLast方法，查找倒數第k個元素
 
 答案:
 
@@ -82,7 +82,7 @@ public int findKthFromLast(int k) {
     Node runner = head;
     for (int i = 0; i < k; i++) {
         if (runner == null) {
-            return -1; // 如果k大于列表的大小，返回-1
+            return -1; // 如果k大於列表的大小，返回-1
         }
         runner = runner.next;
     }
@@ -94,7 +94,7 @@ public int findKthFromLast(int k) {
 }
 ```
 
-5. 实现一个Doubly Linked List的sort方法，将列表进行升序排列
+5. 實現一個Doubly Linked List的sort方法，將列表進行升序排列
 
 答案:
 

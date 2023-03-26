@@ -1,10 +1,10 @@
 +++
-title = "组合模式"
+title = "組合模式"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Composite Pattern的问题
+給我5題Composite Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 說明適用於哪些場景下使用Composite Pattern？
 5. 為什麼使用Composite Pattern可以提高程式碼的可用性和可擴展性？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Composite Pattern并举例
+以中文說明Composite Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Composite Pattern是一種設計模式，它允許我們創建樹形結構並統
 
 使用Composite Pattern可以方便地對整個組織進行管理，並可以利用遞歸算法實現特定操作，例如計算整個公司的總工資支出。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Composite Pattern的重点
+以中文條列Composite Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -51,9 +51,9 @@ Composite Pattern是一種設計模式，它允許我們創建樹形結構並統
 
 7. 其他類型的設計模式，如Decorator Pattern和Iterator Pattern，可以與Composite Pattern組合使用，以提供更多功能或更靈活的對象訪問方式。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Composite Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Composite Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

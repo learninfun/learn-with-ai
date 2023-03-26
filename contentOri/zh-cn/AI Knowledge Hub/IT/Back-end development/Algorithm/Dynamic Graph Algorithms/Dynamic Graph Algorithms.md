@@ -4,7 +4,7 @@ weight = "8"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Dynamic Graph Algorithms的问题
+给我5题Dynamic Graph Algorithms的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "8"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Dynamic Graph Algorithms并举例
+以中文说明Dynamic Graph Algorithms并举例
 {{< /ask_chatgpt >}}
 
 
@@ -36,9 +36,9 @@ Dynamic Graph Algorithms是指在一个动态图上执行的演算法，随着�
 
 总之，Dynamic Graph Algorithms是在运用优秀的算法进行计算的同时，对一个正在更新中的讯息环境进行合理的维护，是亮点和风险的平衡。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Dynamic Graph Algorithms的重点
+以中文条列Dynamic Graph Algorithms的重点
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +53,7 @@ Dynamic Graph Algorithms是指在一个动态图上执行的演算法，随着�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Dynamic Graph Algorithms的中等难度问题，并在后面列出答案
+以中文给我5题Dynamic Graph Algorithms的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

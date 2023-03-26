@@ -1,0 +1,3 @@
+Balance refers to an even distribution of weight or an equal amount of different elements. 
+
+For example, in the context of accounting, balance refers to the state where the total assets are equal to the liabilities and equity in a company's balance sheet. This means that the company's finances are in equilibrium, and the company is not in debt or has any obligations that cannot be settled. Similarly, balance can also refer to a physical object, such as a seesaw that is balanced when both sides have equal weights.

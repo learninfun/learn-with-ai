@@ -1,7 +1,7 @@
 
 
-1. 什么是Template Method Pattern？ 
-2. 透过Template Method Pattern如何实现程式码重复利用及扩展性？ 
-3. 与Strategy Pattern有何不同之处？ 
-4. 在哪些场景应用Template Method Pattern比较适合？ 
-5. Template Method Pattern有哪些优点和缺点？
+1. 什麼是Template Method Pattern？ 
+2. 透過Template Method Pattern如何實現程式碼重複利用及擴展性？ 
+3. 與Strategy Pattern有何不同之處？ 
+4. 在哪些場景應用Template Method Pattern比較適合？ 
+5. Template Method Pattern有哪些優點和缺點？

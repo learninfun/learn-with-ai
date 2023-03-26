@@ -2,9 +2,9 @@
 title = "Linux安全"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Linux Security的问题
+給我5題Linux Security的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "4"
 4. 如何保護Linux用戶帳戶免受未授權訪問和身份欺騙攻擊？
 5. 如何檢測和應對存在於Linux系統中的漏洞和安全漏洞？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Linux Security并举例
+以中文說明Linux Security並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ Linux Security是指保護Linux系統不受外部攻擊或內部漏洞威脅的�
 
 總之，Linux Security是保護Linux系統不受外部攻擊或內部漏洞威脅的重要技術和措施，一方面保障系統的運行穩定和安全，另一方面保障數據等敏感信息的安全。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Linux Security的重点
+以中文條列Linux Security的重點
 {{< /ask_chatgpt >}}
 
 
@@ -56,9 +56,9 @@ Linux Security是指保護Linux系統不受外部攻擊或內部漏洞威脅的�
 9. 加密和解密技術
 10. 安全性監控和事件管理。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Linux Security的中等难度问题，并在后面列出答案
+以中文給我5題Linux Security的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

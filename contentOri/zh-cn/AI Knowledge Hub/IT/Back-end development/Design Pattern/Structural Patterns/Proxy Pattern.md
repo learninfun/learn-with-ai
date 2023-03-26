@@ -2,9 +2,9 @@
 title = "代理模式"
 weight = "7"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Proxy Pattern的问题
+給我5題Proxy Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "7"
 4. 何時應該使用Proxy Pattern？請描述一個案例，說明使用Proxy Pattern的好處。
 5. Proxy Pattern在Java中的實現方式有哪些？何時使用哪種方式比較適合？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Proxy Pattern并举例
+以中文說明Proxy Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -76,9 +76,9 @@ public class Main {
 
 在上面的例子中，當使用 ProxyImage 類顯示圖片時，它首先會檢查是否有權限，如果沒有權限，就不會顯示圖片；如果有權限，就會調用 RealImage 的 display() 方法來顯示圖片。這讓客戶端可以透明地訪問圖片，而不需要知道代理物件是否存在。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Proxy Pattern的重点
+以中文條列Proxy Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -90,9 +90,9 @@ public class Main {
 5. 代理模式可以製造出一些看似替代品的代理物件，實際上他們是指向同一個目標物件，可以在不影響使用者情況下替換。
 6. 代理模式常常使用在業務邏輯與外部數據或服務的交互中，將一些複雜或不安全的操作委託給代理處理。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Proxy Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Proxy Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

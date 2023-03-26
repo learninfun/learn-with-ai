@@ -1,17 +1,17 @@
 
 
-Network Flow Algorithm是一種用於最大/最小流量問題的算法，它用於解決在一個圖中找到一個有效的流量路徑從源點到匯點，使其最大化或最小化的問題。
+Network Flow Algorithm是一种用于最大/最小流量问题的算法，它用于解决在一个图中找到一个有效的流量路径从源点到汇点，使其最大化或最小化的问题。
 
 以下是一些常用的Network Flow Algorithms：
 
-1. Max-Flow Min-Cut Algorithm: 它是最常見的Network Flow Algorithms之一，它通過不斷增加或減少圖中的流量來找出最大或最小流量。
+1. Max-Flow Min-Cut Algorithm: 它是最常见的Network Flow Algorithms之一，它通过不断增加或减少图中的流量来找出最大或最小流量。
 
-2. Edmonds-Karp Algorithm: 它是Max-Flow Min-Cut Algorithm的一個變種，通過利用廣度優先搜索（BFS）來尋找增廣路徑。
+2. Edmonds-Karp Algorithm: 它是Max-Flow Min-Cut Algorithm的一个变种，通过利用广度优先搜索（BFS）来寻找增广路径。
 
-3. Dinic's Algorithm: 它使用分層圖去找到增廣路徑，從而增加流量。
+3. Dinic's Algorithm: 它使用分层图去找到增广路径，从而增加流量。
 
-4. Push-Relabel Algorithm: 它是一種快速的Network Flow Algorithm，它使用一個把流量從低高推動的策略，並且利用一個gap heuristic策略來選擇合適的增廣路徑。
+4. Push-Relabel Algorithm: 它是一种快速的Network Flow Algorithm，它使用一个把流量从低高推动的策略，并且利用一个gap heuristic策略来选择合适的增广路径。
 
-5. Capacity Scaling Algorithm: 類似於Max-Flow Min-Cut Algorithm，在每次迭代中使用一個容量閾值來決定是否繼續增加流量。
+5. Capacity Scaling Algorithm: 类似于Max-Flow Min-Cut Algorithm，在每次迭代中使用一个容量阈值来决定是否继续增加流量。
 
-舉個例子，假設我們有一個管道系統，其中有一些管道和泵，我們的目標是最大化通過管道的水流量。因此，我們可以使用上述任何一種Network Flow Algorithms來找到最大流的路徑或管道並調整泵的功率以達到我們的目標。
+举个例子，假设我们有一个管道系统，其中有一些管道和泵，我们的目标是最大化通过管道的水流量。因此，我们可以使用上述任何一种Network Flow Algorithms来找到最大流的路径或管道并调整泵的功率以达到我们的目标。

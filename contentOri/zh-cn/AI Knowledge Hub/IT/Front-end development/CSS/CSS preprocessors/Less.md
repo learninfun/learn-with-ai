@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Less的问题
+给我5题Less的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Less并举例
+以中文说明Less并举例
 {{< /ask_chatgpt >}}
 
 
@@ -102,9 +102,9 @@ h2 {
 }
 ```   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Less的重点
+以中文条列Less的重点
 {{< /ask_chatgpt >}}
 
 
@@ -129,7 +129,7 @@ h2 {
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Less的中等难度问题，并在后面列出答案
+以中文给我5题Less的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

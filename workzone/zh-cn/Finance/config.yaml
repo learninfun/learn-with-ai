@@ -1,0 +1,16 @@
+apiProvider: OpenAI
+apiModal: gpt-3.5-turbo-0301
+initRole: Assuming you are an "Finance" expert, answer my questions.
+questions:
+  - key: preview
+    desc: 习题预习
+    template: 给我5题{{ .keyword}}的中文问题
+  - key: explain
+    desc: 说明知识
+    template: 以中文说明{{ .keyword}}并举例
+  - key: keypoint
+    desc: 条列重点
+    template: 以中文条列{{ .keyword}}的重点
+  - key: test
+    desc: 知识测验
+    template: 以中文给我5题{{ .keyword}}的中等难度问题，并在后面列出答案

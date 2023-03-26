@@ -1,10 +1,10 @@
 +++
-title = "Linters 程式码检查工具"
+title = "Linters 程式碼檢查工具"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Linters的问题
+給我5題Linters的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 如何配置一個Linter?有哪些設定可以調整?
 5. Linter有哪些限制和缺點?怎樣才能在使用Linters時得到最佳效果?   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Linters并举例
+以中文說明Linters並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,33 +34,33 @@ Linters是一種以自動化方式檢查程式碼，找出可能存在的問題�
 
 5. JSLint：JSLint是JavaScript Linters的先驅之一。 JSLint能夠檢查代碼的集成，可以檢測出一個應用有問題的地方，而我們可能不會注意到。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Linters的重点
+以中文條列Linters的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 检查语法错误: Linter可帮助开发者发现程式码中的语法错误，并提示开发者进行修改。
+1. 檢查語法錯誤: Linter可幫助開發者發現程式碼中的語法錯誤，並提示開發者進行修改。
 
-2. 样式风格检查: Linter可检查代码是否符合预定的样式规范，例如代码缩排、配置文件设置格式等。
+2. 樣式風格檢查: Linter可檢查代碼是否符合預定的樣式規範，例如代碼縮排、配置文件設置格式等。
 
-3. 代码复杂度检查: Linter 可以根据代码行数、内部变量、循环次数等来检测代码复杂度，以帮助开发者改进。
+3. 代碼複雜度檢查: Linter 可以根據代碼行數、內部變量、循環次數等來檢測代碼複雜度，以幫助開發者改進。
 
-4. 代码质量检查:  Linter 可以通过检查代码是否包含重复的内容、未使用的变量、未被测试的代码等提出提高代码质量的指导。
+4. 代碼質量檢查:  Linter 可以通過檢查代碼是否包含重複的內容、未使用的變量、未被測試的代碼等提出提高代碼質量的指導。
 
-5. 安全隐患检查: Linter 可以检查代码中存在的潜在安全漏洞，例如SQL注入和跨站脚本攻击等。
+5. 安全隱患檢查: Linter 可以檢查代碼中存在的潛在安全漏洞，例如SQL注入和跨站腳本攻擊等。
 
-6. 支持多种编程语言: Linter 可以支持多种编程语言，如Python、Java、JavaScript、C/C++。   
+6. 支持多種編程語言: Linter 可以支持多種編程語言，如Python、Java、JavaScript、C/C++。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Linters的中等难度问题，并在后面列出答案
+以中文給我5題Linters的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 有一个阵列，里面的元素都是字串。请写一个 Linter 函数，确认每一个字串都是以 "https://" 或 "http://" 开始。
+1. 有一個陣列，裡面的元素都是字串。請寫一個 Linter 函數，確認每一個字串都是以 "https://" 或 "http://" 開始。
 
 答案：
 
@@ -75,7 +75,7 @@ console.log(checkProtocol(['https://example.com', 'http://www.google.com'])); //
 console.log(checkProtocol(['ftp://example.com', 'http://www.google.com'])); // false
 ```
 
-2. 有一个物件，里面有几个属性。请写一个 Linter 函数，确认每个属性的值都是字串或数字型态。
+2. 有一個物件，裡面有幾個屬性。請寫一個 Linter 函數，確認每個屬性的值都是字串或數字型態。
 
 答案：
 
@@ -91,7 +91,7 @@ console.log(checkType({ name: 'John', age: 35, city: 'New York' })); // true
 console.log(checkType({ name: 'John', age: true, city: 'New York' })); // false
 ```
 
-3. 有一个阵列，里面的元素都是字串。请写一个 Linter 函数，确认每一个字串的长度都在 5 到 10 个字元之间。
+3. 有一個陣列，裡面的元素都是字串。請寫一個 Linter 函數，確認每一個字串的長度都在 5 到 10 個字元之間。
 
 答案：
 
@@ -104,7 +104,7 @@ console.log(checkLength(['apple', 'banana', 'peach'])); // true
 console.log(checkLength(['apple', 'cherry', 'peach', 'strawberry'])); // false
 ```
 
-4. 有一个阵列，里面的元素都是物件。请写一个 Linter 函数，确认每个物件都有 "name" 和 "age" 两个属性。
+4. 有一個陣列，裡面的元素都是物件。請寫一個 Linter 函數，確認每個物件都有 "name" 和 "age" 兩個屬性。
 
 答案：
 
@@ -124,7 +124,7 @@ console.log(checkObjectProps([
 ])); // false
 ```
 
-5. 有一个阵列，里面的元素都是数字。请写一个 Linter 函数，确认每个数字都是 2 的幂次方。
+5. 有一個陣列，裡面的元素都是數字。請寫一個 Linter 函數，確認每個數字都是 2 的冪次方。
 
 答案：
 

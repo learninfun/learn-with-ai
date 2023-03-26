@@ -1,10 +1,10 @@
 +++
-title = "模组打包器"
+title = "模組打包器"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Module bundlers的问题
+給我5題Module bundlers的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. 如何在Webpack中進行Code Splitting？它有什麼好處？
 5. 如何在Parcel中使用自定義的Babel設置？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Module bundlers并举例
+以中文說明Module bundlers並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -30,49 +30,49 @@ Module bundlers是一種將多個模組(Module)合併成單一檔案的工具，
 
 其他常見的模組打包工具還包括Parcel及SystemJS等。透過使用這些工具，開發者可以更容易地管理複雜的前端程式碼，並減少網頁請求量，提高效能。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Module bundlers的重点
+以中文條列Module bundlers的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 为什么需要Module bundlers：Module bundlers可以将多个档案合并为一个文件，减少网页请求的次数，提高性能。
+1. 為什麼需要Module bundlers：Module bundlers可以將多個檔案合併為一個文件，減少網頁請求的次數，提高性能。
 
-2. 模组系统：Module bundlers支援各种前端框架与库，同时可以维护依赖性，确保载入的档案顺序正确，减少错误。
+2. 模組系統：Module bundlers支援各種前端框架與庫，同時可以維護依賴性，確保載入的檔案順序正確，減少錯誤。
 
-3. 优化：Module bundlers还可以进行代码压缩、删除未使用的代码等优化操作，让载入速度更快、文件更小。
+3. 優化：Module bundlers還可以進行代碼壓縮、刪除未使用的代碼等優化操作，讓載入速度更快、文件更小。
 
-4. 热模组重载：Module bundlers支援热模组重载，即只载入需要更新的模组代码，提高开发效率。
+4. 熱模組重載：Module bundlers支援熱模組重載，即只載入需要更新的模組代碼，提高開發效率。
 
-5. 社区支援：Module bundlers有强大的社区支援，提供了许多开发者友好的功能和扩充功能。
+5. 社區支援：Module bundlers有強大的社區支援，提供了許多開發者友好的功能和擴充功能。
 
 6. 常用的Module bundlers：Webpack、Rollup、Parcel等是常用的Module bundlers。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Module bundlers的中等难度问题，并在后面列出答案
+以中文給我5題Module bundlers的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 请问什么是 Tree Shaking？
+1. 請問什麼是 Tree Shaking？
 
-答：Tree Shaking 是一个在模组打包时，移除没有被使用的程式码的技术。
+答：Tree Shaking 是一個在模組打包時，移除沒有被使用的程式碼的技術。
 
-2. 请问什么是 Code Splitting？
+2. 請問什麼是 Code Splitting？
 
-答：Code Splitting 是将一个大的 JavaScript 模组分成多个小的模组，并且只加载需要的部分，从而减少整体页面载入时间。
+答：Code Splitting 是將一個大的 JavaScript 模組分成多個小的模組，並且只加載需要的部分，從而減少整體頁面載入時間。
 
-3. 请问 Webpack 的 entry、output、loader 与 plugin 分别有什么作用？
+3. 請問 Webpack 的 entry、output、loader 與 plugin 分別有什麼作用？
 
-答：entry 为定义进入点，output 为定义输出文件的位置与文件名称，loader 为处理非 JavaScript 文件，将其转换成 JavaScript 可以执行的形式，plugin 则是扩展 Webpack 的功能，并进行更进阶的设定。
+答：entry 為定義進入點，output 為定義輸出文件的位置與文件名稱，loader 為處理非 JavaScript 文件，將其轉換成 JavaScript 可以執行的形式，plugin 則是擴展 Webpack 的功能，並進行更進階的設定。
 
-4. 请问 Webpack 中常用的优化方式有哪些？
+4. 請問 Webpack 中常用的優化方式有哪些？
 
-答：常用的优化方式有：使用 Tree Shaking、Code Splitting、使用缓存、使用懒加载（Lazy Loading）等。
+答：常用的優化方式有：使用 Tree Shaking、Code Splitting、使用緩存、使用懶加載（Lazy Loading）等。
 
-5. 请问 Rollup 与 Webpack 有哪些不同点？
+5. 請問 Rollup 與 Webpack 有哪些不同點？
 
-答：Rollup 的优点是产生的 bundle 更小、更快，并且更适合用于打包开源库等程式库，而 Webpack 则更适合用于打包应用程式，并且支援更多的优化方式，如 Tree Shaking、Code Splitting 等。   
+答：Rollup 的優點是產生的 bundle 更小、更快，並且更適合用於打包開源庫等程式庫，而 Webpack 則更適合用於打包應用程式，並且支援更多的優化方式，如 Tree Shaking、Code Splitting 等。   
 

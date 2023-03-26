@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Key-Value Stores的问题
+给我5题Key-Value Stores的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Key-Value Stores并举例
+以中文说明Key-Value Stores并举例
 {{< /ask_chatgpt >}}
 
 
@@ -36,23 +36,23 @@ Key-Value Store通常被用于存储大规模的数据，并且具有高度的�
 
 4. Amazon DynamoDB：DynamoDB是一种托管型NoSQL数据库服务，它提供快速的读写速度、自动扩展和高可用性。DynamoDB通常被用于存储大量的产品目录信息、客户交易信息等。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Key-Value Stores的重点
+以中文条列Key-Value Stores的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. Key-Value Stores是一種NoSQL數據庫，它使用鍵值對（key-value pair）的方式儲存和檢索數據。
-2. Key-Value Stores通常是分佈式的，它們可以在多個節點上運行，以實現高可用性和水平擴展性。
-3. Key-Value Stores通常是高性能的，它們使用簡單的數據結構（如哈希表）來快速查找和存儲數據。
-4. Key-Value Stores通常是非關聯數據庫，它們不需要定義模式，因此可以輕鬆地處理非結構化數據。
-5. Key-Value Stores可以用於各種用例，包括緩存，會話儲存，配置儲存，日誌儲存，以及數據分析等。
-6. 常見的Key-Value Stores包括Redis，Memcached，Cassandra，Riak和Amazon DynamoDB等。這些存儲系統都有其獨特的特點和用法。   
+1. Key-Value Stores是一种NoSQL数据库，它使用键值对（key-value pair）的方式储存和检索数据。
+2. Key-Value Stores通常是分布式的，它们可以在多个节点上运行，以实现高可用性和水平扩展性。
+3. Key-Value Stores通常是高性能的，它们使用简单的数据结构（如哈希表）来快速查找和存储数据。
+4. Key-Value Stores通常是非关联数据库，它们不需要定义模式，因此可以轻松地处理非结构化数据。
+5. Key-Value Stores可以用于各种用例，包括缓存，会话储存，配置储存，日志储存，以及数据分析等。
+6. 常见的Key-Value Stores包括Redis，Memcached，Cassandra，Riak和Amazon DynamoDB等。这些存储系统都有其独特的特点和用法。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Key-Value Stores的中等难度问题，并在后面列出答案
+以中文给我5题Key-Value Stores的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

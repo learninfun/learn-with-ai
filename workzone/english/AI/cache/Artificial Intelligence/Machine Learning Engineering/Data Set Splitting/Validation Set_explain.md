@@ -1,0 +1,7 @@
+Validation set is a subset of data used to evaluate the performance of a machine learning model during its training phase. It is used to fine-tune the model's parameters and to validate its performance before making predictions on new unseen data.
+
+For example, let's say you want to build a machine learning model that predicts the price of a house based on its features such as the number of rooms, the age of the house, and the location. You have a dataset of 1000 houses where you know the price and the features. You can divide this dataset into three parts: 70% for training, 15% for validation, and 15% for testing. 
+
+You train your machine learning model on the 700 houses of your training dataset, using different algorithms and hyperparameters. You then evaluate the model on the 150 houses of your validation dataset, measuring its accuracy and choosing the best model that performs well on the validation dataset.
+
+Once you have selected the best model, you then test it on the remaining 150 houses of your testing dataset to make sure it performs well on unseen data. This process helps to prevent overfitting, i.e., the model performs well on the training data but poorly on new unseen data.

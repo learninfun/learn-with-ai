@@ -1,10 +1,10 @@
 +++
-title = "加权图"
+title = "加權圖"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Weighted Graph的问题
+給我5題Weighted Graph的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "3"
 
 5. 在一個有向加權圖中，如何找到可以到達目標節點的最長路徑？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Weighted Graph并举例
+以中文說明Weighted Graph並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,9 +36,9 @@ weight = "3"
 
 总之，加权图意味着每个边缘都有与其相关的权重，表示连接节点之间的关系的某些属性。这些图可以用于许多实用的应用程序中，例如路径搜索和社交网络分析。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Weighted Graph的重点
+以中文條列Weighted Graph的重點
 {{< /ask_chatgpt >}}
 
 
@@ -57,9 +57,9 @@ weight = "3"
 
 7. 密度Density：在权重图中，密度指的是实际边数与可能的最大边数之比。在有向图中，最大边数可能会随顶点的入度和出度不同而变化。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Weighted Graph的中等难度问题，并在后面列出答案
+以中文給我5題Weighted Graph的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

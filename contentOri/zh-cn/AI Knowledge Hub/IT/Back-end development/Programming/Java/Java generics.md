@@ -2,9 +2,9 @@
 title = "Java泛型"
 weight = "9"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Java generics的问题
+給我5題Java generics的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "9"
 
 5. 使用泛型時，如何避免運行時出現ClassCastException？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Java generics并举例
+以中文說明Java generics並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -55,9 +55,9 @@ public static <T extends Comparable<T>> T max(T[] arr) {
 
 在這裡，<T extends Comparable<T>>是類型參數，它通過限制類型T為Comparable<T>的子類來定義可接受的類型。此方法可以接受任何Comparable<T>類型的陣列，例如Integer，Double或String。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Java generics的重点
+以中文條列Java generics的重點
 {{< /ask_chatgpt >}}
 
 
@@ -82,9 +82,9 @@ public static <T extends Comparable<T>> T max(T[] arr) {
 
 10. 泛型通信：Java 泛型允许在泛型类或方法中通过泛型类型参数进行通信，而不需要进行硬编码。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Java generics的中等难度问题，并在后面列出答案
+以中文給我5題Java generics的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -1,0 +1,3 @@
+A heat map is a graphical visualization of data where values are represented by colors. Heat maps are used to display the relative intensity of data points in a two-dimensional format.
+
+For example, a heat map can be used to visualize the hotspots of crime in a city, where the level of crime in different neighborhoods is represented by different colors. Areas with high crime rates will be represented by warmer colors such as red, orange or yellow, while areas with lower crime rates will be represented by cooler colors such as green, blue or purple. This provides an easy way to quickly identify areas of concern and potential patterns. Heat maps can also be used for other types of data, such as website traffic or sales figures.

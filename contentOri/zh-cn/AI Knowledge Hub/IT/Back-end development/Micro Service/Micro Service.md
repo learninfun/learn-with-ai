@@ -1,10 +1,10 @@
 +++
-title = "微服务"
+title = "微服務"
 weight = "6"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Micro Service的问题
+給我5題Micro Service的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "6"
 4. 如何構建可擴展的Micro Service架構，以應對高流量和大量客戶端的情況？
 5. 如何保護Micro Service系統的安全性和敏感數據的保密性？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Micro Service并举例
+以中文說明Micro Service並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +44,9 @@ Micro Service是一種軟體設計模式，它將大型的複雜應用程式拆�
 
 每個服務都可獨立部署、獨立升級、獨立發佈，可以大幅提高系統的穩定性和維護性，而且也更有利於團隊開發和管理。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Micro Service的重点
+以中文條列Micro Service的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,9 +60,9 @@ Micro Service是一種軟體設計模式，它將大型的複雜應用程式拆�
 7. 支持DevOps：微服務架構可以支持DevOps文化，自動化部署、自動化測試、自動化監控，增強研發效率。
 8. 支援多種語言：微服務架構可以根據需要使用不同的程式語言和工具支持不同的業務需求。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Micro Service的中等难度问题，并在后面列出答案
+以中文給我5題Micro Service的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

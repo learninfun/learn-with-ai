@@ -4,7 +4,7 @@ weight = "5"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题JDBC的问题
+给我5题JDBC的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "5"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明JDBC并举例
+以中文说明JDBC并举例
 {{< /ask_chatgpt >}}
 
 
@@ -91,24 +91,24 @@ public class JDBCTest {
 - 使用 `ResultSet` 对像来处理查询结果
 - 关闭所有资源，包括连接、语句和结果集，在 finally 区块中进行这些操作。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列JDBC的重点
+以中文条列JDBC的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. JDBC是Java Database Connectivity的縮寫，它提供了與關係型數據庫（如MySQL，Oracle等）進行交互的標準接口。
-2. JDBC使用一組API來訪問數據庫的操作，這些API包括Connection，Statement或PreparedStatement，和ResultSet等。
-3. Connection是 JDBC 中最基本的要素之一，它表示與數據庫之間的連接。該接口還包括其他許多重要功能，例如事務管理和自動提交。
-4. Statement或PreparedStatement用於執行SQL查詢或更新數據庫記錄。PreparedStatement是一種比Statement更進一步的對象，它允許開發人員編寫可變参数的SQL語句。
-5. ResultSet則用於處理查詢結果集，從中檢索數據以進行顯示或計算等操作。
-6. JDBC程序實際上是通過建立Connection對象，創建Statement對象並執行SQL查詢來與數據庫進行交互。並且一定要在用完後關閉所有的資料庫資源，包括Connection，Statement和ResultSet。
-7. 除了純JDBC之外，也可以使用Spring JDBC等框架來更簡化和加快JDBC的開發。   
+1. JDBC是Java Database Connectivity的缩写，它提供了与关系型数据库（如MySQL，Oracle等）进行交互的标准接口。
+2. JDBC使用一组API来访问数据库的操作，这些API包括Connection，Statement或PreparedStatement，和ResultSet等。
+3. Connection是 JDBC 中最基本的要素之一，它表示与数据库之间的连接。该接口还包括其他许多重要功能，例如事务管理和自动提交。
+4. Statement或PreparedStatement用于执行SQL查询或更新数据库记录。PreparedStatement是一种比Statement更进一步的对象，它允许开发人员编写可变参数的SQL语句。
+5. ResultSet则用于处理查询结果集，从中检索数据以进行显示或计算等操作。
+6. JDBC程序实际上是通过建立Connection对象，创建Statement对象并执行SQL查询来与数据库进行交互。并且一定要在用完后关闭所有的资料库资源，包括Connection，Statement和ResultSet。
+7. 除了纯JDBC之外，也可以使用Spring JDBC等框架来更简化和加快JDBC的开发。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题JDBC的中等难度问题，并在后面列出答案
+以中文给我5题JDBC的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

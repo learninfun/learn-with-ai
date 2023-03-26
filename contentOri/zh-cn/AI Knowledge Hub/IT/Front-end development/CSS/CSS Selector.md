@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题CSS Selector的问题
+给我5题CSS Selector的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -31,7 +31,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明CSS Selector并举例
+以中文说明CSS Selector并举例
 {{< /ask_chatgpt >}}
 
 
@@ -100,71 +100,71 @@ a[title] {
 
 以上是一些常用的CSS选择器及其示例。这些选择器可帮助您更好地选择HTML文档中的元素并对其应用样式。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列CSS Selector的重点
+以中文条列CSS Selector的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. 選擇器：指定要樣式化的HTML元素。
+1. 选择器：指定要样式化的HTML元素。
 
-2. 類別（Class）選擇器：透過`.classname`來選擇指定類別的HTML元素。
+2. 类别（Class）选择器：透过`.classname`来选择指定类别的HTML元素。
 
-3. ID選擇器：透過`#idname`來選擇指定ID名稱的HTML元素。
+3. ID选择器：透过`#idname`来选择指定ID名称的HTML元素。
 
-4. 元素選擇器：透過元素名稱（如div、a、p等等）來選擇指定元素。
+4. 元素选择器：透过元素名称（如div、a、p等等）来选择指定元素。
 
-5. 屬性選擇器：透過`[attribute=value]`來選擇指定具有特定屬性的HTML元素。
+5. 属性选择器：透过`[attribute=value]`来选择指定具有特定属性的HTML元素。
 
-6. 群組選擇器：透過使用逗號分隔多個選擇器，來同時樣式化這些元素。
+6. 群组选择器：透过使用逗号分隔多个选择器，来同时样式化这些元素。
 
-7. 子元素選擇器：透過`parent>child`語法，選擇指定元素的直接子元素。
+7. 子元素选择器：透过`parent>child`语法，选择指定元素的直接子元素。
 
-8. 後代元素選擇器：透過`ancestor descendant`語法，選擇指定元素裡的後代元素。
+8. 后代元素选择器：透过`ancestor descendant`语法，选择指定元素里的后代元素。
 
-9. 兄弟元素選擇器：透過`el1~el2`語法，選擇el1元素之後的所有el2元素（二者都是同一父級元素的兄弟元素）。
+9. 兄弟元素选择器：透过`el1~el2`语法，选择el1元素之后的所有el2元素（二者都是同一父级元素的兄弟元素）。
 
-10. 直接相鄰元素選擇器：透過`el1 + el2`語法，選擇距離el1最近的el2元素（二者都是同一父級元素的相鄰元素）。
+10. 直接相邻元素选择器：透过`el1 + el2`语法，选择距离el1最近的el2元素（二者都是同一父级元素的相邻元素）。
 
-11. 非選擇器：透過`:not(selector)`語法，選擇不符合指定條件的元素。
+11. 非选择器：透过`:not(selector)`语法，选择不符合指定条件的元素。
 
-12. 整體選擇器：透過`*`語法，選擇所有元素。
+12. 整体选择器：透过`*`语法，选择所有元素。
 
-13. 多重選擇器：透過使用逗號分隔多個條件，來選擇符合其中任意一個條件的元素。   
+13. 多重选择器：透过使用逗号分隔多个条件，来选择符合其中任意一个条件的元素。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题CSS Selector的中等难度问题，并在后面列出答案
+以中文给我5题CSS Selector的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 找出所有class名稱為"menu-item"的連結，但不包括在"
-nav-header"裡面的。
+1. 找出所有class名称为"menu-item"的连结，但不包括在"
+nav-header"里面的。
 ```css
 .menu-item:not(.nav-header) a
 ```
 
-2. 找出所有屬於列表元素ol和ul的子元素li，但不包括子元素的子元素。
+2. 找出所有属于列表元素ol和ul的子元素li，但不包括子元素的子元素。
 ```css
 ol>li, ul>li
 ```
 
-3. 具有class名稱為"btn"，但不包括class名稱為"disabled"的按鈕。
+3. 具有class名称为"btn"，但不包括class名称为"disabled"的按钮。
 ```css
 .btn:not(.disabled)
 ```
 
-4. 查找最後一個class名稱為"post"的div元素中的所有直接子元素。
+4. 查找最后一个class名称为"post"的div元素中的所有直接子元素。
 ```css
 div.post:last-child > *
 ```
 
-5. 找出父元素為div，第一個子元素是header的段落元素p。
+5. 找出父元素为div，第一个子元素是header的段落元素p。
 ```css
 div > header + p
 ```
 
-答案僅供參考，可能不唯一。   
+答案仅供参考，可能不唯一。   
 

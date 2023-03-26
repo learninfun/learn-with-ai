@@ -1,0 +1,3 @@
+Machine learning is a subset of artificial intelligence (AI) in which computer algorithms analyze and learn from data provided to them without explicit instructions. The goal of machine learning is to create models that automatically improve and become more accurate as more data is fed into them.
+
+One popular application of machine learning is image recognition. For example, a machine learning model could be trained on thousands of labeled images of dogs and cats to recognize the difference between the two species. Once the model is trained, it can be used to classify new images of dogs and cats with a high degree of accuracy. This technology is used in various applications, such as facial recognition, autonomous vehicles, and medical diagnosis.

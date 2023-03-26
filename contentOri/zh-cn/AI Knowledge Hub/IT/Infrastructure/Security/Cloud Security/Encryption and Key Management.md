@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Encryption and Key Management的问题
+给我5题Encryption and Key Management的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Encryption and Key Management并举例
+以中文说明Encryption and Key Management并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Key Management是管理加密金钥的过程，其中包括生成、分发、存
 
 例: 一个银行使用加密算法来保护其客户数据的机密性。该银行将使用金钥管理系统（KMS）生成和管理加密金钥。该系统将自动将金钥轮替到新的金钥，限制金钥的使用对象，且将金钥存储在安全的存储库中。该银行将对此系统实行监控和跟踪，以确保某些未经授权的加密金钥未被使用。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Encryption and Key Management的重点
+以中文条列Encryption and Key Management的重点
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +45,7 @@ Key Management是管理加密金钥的过程，其中包括生成、分发、存
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Encryption and Key Management的中等难度问题，并在后面列出答案
+以中文给我5题Encryption and Key Management的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

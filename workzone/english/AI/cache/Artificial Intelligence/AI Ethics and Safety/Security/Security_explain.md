@@ -1,0 +1,3 @@
+Security is the state of being protected against harm or unauthorized access. It refers to measures taken to safeguard against theft, damage, loss, or unauthorized access to information or property. 
+
+An example of security is using a password to access a computer or smartphone. This measure ensures that only authorized users can access the device and its data, preventing unauthorized access and potential harm to the user's personal or professional information. Another example is installing security cameras to monitor a location and deter potential intruders, thereby ensuring the safety of the area and its occupants.

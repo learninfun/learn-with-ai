@@ -1,0 +1,16 @@
+apiProvider: OpenAI
+apiModal: gpt-3.5-turbo-0301
+initRole: Assuming you are an Machine Learning expert, answer my questions.
+questions:
+  - key: preview
+    desc: Preview
+    template: give me five question about {{ .keyword}}
+  - key: explain
+    desc: Explain
+    template: Explain {{ .keyword}} and give an example
+  - key: keypoint
+    desc: Keypoint
+    template: List the key points of {{ .keyword}}
+  - key: review
+    desc: Review
+    template: Give me 5 medium-difficulty questions with answers about {{ .keyword}}

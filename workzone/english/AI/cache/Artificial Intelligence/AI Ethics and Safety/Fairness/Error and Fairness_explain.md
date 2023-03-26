@@ -1,0 +1,5 @@
+Error is the difference between the predicted value of a model and the actual value. Fairness, on the other hand, is the extent to which a model treats different groups of individuals equally.
+
+An example of error would be a weather forecasting model predicting sunny weather for the next day, but in reality, it ends up raining. In this case, the error would be the difference between the predicted sunny weather and the actual rainy weather.
+
+An example of fairness would be a hiring algorithm that analyzes resumes and selects the most qualified candidates for the job. However, if this algorithm disproportionately gives preference to one group of candidates (e.g. based on gender, race, or ethnicity) over others, it is considered unfair. Therefore, in this case, ensuring that the algorithm treats all candidates equally is essential for fairness.

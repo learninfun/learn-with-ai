@@ -4,7 +4,7 @@ weight = "11"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Approximation Algorithms的问题
+给我5题Approximation Algorithms的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "11"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Approximation Algorithms并举例
+以中文说明Approximation Algorithms并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ weight = "11"
 
 另一个例子是背包问题，假设有一个背包，它可以容纳一定重量和价值的物品。问题是如何在给定的重量限制下选择最有价值的物品。由于背包问题也是NP难题，有很多近似算法可以用来解决。例如，启发式算法可以在多项式时间内找到一个高质量的近似解，而不需要寻找最优解。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Approximation Algorithms的重点
+以中文条列Approximation Algorithms的重点
 {{< /ask_chatgpt >}}
 
 
@@ -53,7 +53,7 @@ weight = "11"
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Approximation Algorithms的中等难度问题，并在后面列出答案
+以中文给我5题Approximation Algorithms的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

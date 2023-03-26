@@ -4,7 +4,7 @@ weight = "4"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Average-Case Time Complexity的问题
+给我5题Average-Case Time Complexity的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "4"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Average-Case Time Complexity并举例
+以中文说明Average-Case Time Complexity并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,28 +30,28 @@ Average-case time complexity是对一个算法在平均情况下所需的时间�
 
 因此，平均情况时间复杂度是一个更接近现实运行情况的估计，但是实现它需要考虑到特定应用场景并且使用统计方法。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Average-Case Time Complexity的重点
+以中文条列Average-Case Time Complexity的重点
 {{< /ask_chatgpt >}}
 
 
 
-1. 意義: Average-Case Time Complexity是指算法在平均情況下的時間複雜度，即在大多數情況下，算法運行所需要的時間。
+1. 意义: Average-Case Time Complexity是指算法在平均情况下的时间复杂度，即在大多数情况下，算法运行所需要的时间。
 
-2. 問題: Average-Case Time Complexity通常要考慮多種可能的輸入，因此需要求平均值。這可能會導致一些問題，因為不同的輸入可能會導致不同的運行時間。
+2. 问题: Average-Case Time Complexity通常要考虑多种可能的输入，因此需要求平均值。这可能会导致一些问题，因为不同的输入可能会导致不同的运行时间。
 
-3. 解決方法: 通常，計算平均時間複雜度需要進行機率分析和數學計算。顯然，算法的平均時間複雜度不一定等於最壞情況下的複雜度。
+3. 解决方法: 通常，计算平均时间复杂度需要进行机率分析和数学计算。显然，算法的平均时间复杂度不一定等于最坏情况下的复杂度。
 
-4. 計算方法: 計算算法的平均時間複雜度通常可以通過分析算法的迴圈進行。
+4. 计算方法: 计算算法的平均时间复杂度通常可以通过分析算法的回圈进行。
 
-5. 優點: Average-Case Time Complexity可以提供一個更全面的算法性能評估，並且能夠更好地反映算法在實際使用中運行的情況。
+5. 优点: Average-Case Time Complexity可以提供一个更全面的算法性能评估，并且能够更好地反映算法在实际使用中运行的情况。
 
-6. 缺點: Average-Case Time Complexity需要進行複雜的數學分析，所以往往比較難計算，不同的輸入可能會導致算法不同的運行效率，要對各種數據集進行機率分析比較麻煩。   
+6. 缺点: Average-Case Time Complexity需要进行复杂的数学分析，所以往往比较难计算，不同的输入可能会导致算法不同的运行效率，要对各种数据集进行机率分析比较麻烦。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Average-Case Time Complexity的中等难度问题，并在后面列出答案
+以中文给我5题Average-Case Time Complexity的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

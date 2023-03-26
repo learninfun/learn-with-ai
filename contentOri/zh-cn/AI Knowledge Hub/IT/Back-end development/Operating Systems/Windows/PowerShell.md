@@ -4,49 +4,49 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题PowerShell的问题
+给我5题PowerShell的中文问题
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何列出指定目錄下的所有檔案和子目錄？
-2. 如何列出所有執行中的進程和其相關資訊，如PID和記憶體使用量？
-3. 如何訪問和修改Windows註冊表中的數值？
-4. 如何創建一個新的資料夾，並在其中編寫文字檔？
-5. 如何通過PowerShell啟動另一個應用程序並向其傳遞參數？   
+1. 如何列出指定目录下的所有档案和子目录？
+2. 如何列出所有执行中的进程和其相关资讯，如PID和记忆体使用量？
+3. 如何访问和修改Windows注册表中的数值？
+4. 如何创建一个新的资料夹，并在其中编写文字档？
+5. 如何通过PowerShell启动另一个应用程序并向其传递参数？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明PowerShell并举例
+以中文说明PowerShell并举例
 {{< /ask_chatgpt >}}
 
 
 
-PowerShell是一種動態的命令列介面和腳本語言，用於自動化許多Windows操作系統的任務和管理。
+PowerShell是一种动态的命令列介面和脚本语言，用于自动化许多Windows操作系统的任务和管理。
 
-PowerShell的優點之一是其處理.NET框架的能力，使得PowerShell能夠與多種平台和應用程序協同工作，並提供龐大的擴展性和功能。
+PowerShell的优点之一是其处理.NET框架的能力，使得PowerShell能够与多种平台和应用程序协同工作，并提供庞大的扩展性和功能。
 
 以下是一些示例：
 
 1. 列出磁碟上的所有文件：Get-ChildItem C:\
 
-2. 查詢現有服務的信息：Get-Service
+2. 查询现有服务的信息：Get-Service
 
-3. 創建一個新文件夾：New-Item -ItemType Directory -Path C:\NewFolder
+3. 创建一个新文件夹：New-Item -ItemType Directory -Path C:\NewFolder
 
-4. 執行檔案的程序：Invoke-Item -Path "C:\Example.exe"
+4. 执行档案的程序：Invoke-Item -Path "C:\Example.exe"
 
-5. 設置系統環境變量：[Environment]::SetEnvironmentVariable("Path",$env:Path + ";C:\NewPath", "User")
+5. 设置系统环境变量：[Environment]::SetEnvironmentVariable("Path",$env:Path + ";C:\NewPath", "User")
 
-6. 壓縮和解壓縮檔案：Compress-Archive -Path C:\Files\* -DestinationPath C:\Archive.zip， Expand-Archive -Path C:\Archive.zip -DestinationPath C:\UnzippedFiles
+6. 压缩和解压缩档案：Compress-Archive -Path C:\Files\* -DestinationPath C:\Archive.zip， Expand-Archive -Path C:\Archive.zip -DestinationPath C:\UnzippedFiles
 
-7. 自動安裝應用軟件：Install-Package -Name ExampleSoftware
+7. 自动安装应用软件：Install-Package -Name ExampleSoftware
 
-PowerShell是一個非常強大的工具，可以使任務自動化，提高效率並減少錯誤。 它的學習曲線可能有些陡峭，但一旦熟練，它可以大大簡化日常工作。   
+PowerShell是一个非常强大的工具，可以使任务自动化，提高效率并减少错误。 它的学习曲线可能有些陡峭，但一旦熟练，它可以大大简化日常工作。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列PowerShell的重点
+以中文条列PowerShell的重点
 {{< /ask_chatgpt >}}
 
 
@@ -69,12 +69,12 @@ PowerShell是一個非常強大的工具，可以使任務自動化，提高效�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题PowerShell的中等难度问题，并在后面列出答案
+以中文给我5题PowerShell的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 問題：如何使用PowerShell將一個文本文件的內容分成多個文件？
+1. 问题：如何使用PowerShell将一个文本文件的内容分成多个文件？
 答案：
 
 $content = Get-Content "C:\input.txt"
@@ -88,7 +88,7 @@ while ($i -lt $content.Length) {
 }
 $newFiles
 
-2. 問題：如何創建一個包含隨機數字的日期文件夾，並將文件夾中的文件名稱隨機改變？
+2. 问题：如何创建一个包含随机数字的日期文件夹，并将文件夹中的文件名称随机改变？
 答案：
 
 $dateFolder = Get-Date -Format yyyy-MM-dd-HH-mm-ss-ffff
@@ -98,19 +98,19 @@ Get-ChildItem | Where-Object {$_.PsIsContainer -eq $False} | ForEach-Object {
     Rename-Item $_.FullName -NewName "$newName.txt"
 }
 
-3. 問題：如何使用PowerShell查找一個文件夾中的所有文件，並將它們存儲到一個數組中？
+3. 问题：如何使用PowerShell查找一个文件夹中的所有文件，并将它们存储到一个数组中？
 答案：
 
 $files = Get-ChildItem "C:\MyFolder" -File | Select-Object FullName
 $files
 
-4. 問題：如何在PowerShell中使用Start-Process命令啟動一個應用程序，並將它的輸出保存到一個變量中？
+4. 问题：如何在PowerShell中使用Start-Process命令启动一个应用程序，并将它的输出保存到一个变量中？
 答案：
 
 $output = Start-Process -FilePath "C:\Program Files (x86)\MyApp\MyApp.exe" -ArgumentList "-arg1", "-arg2" -NoNewWindow -PassThru -Wait -RedirectStandardOutput "C:\output.txt" -WindowStyle Hidden
 Get-Content "C:\output.txt"
 
-5. 問題：如何在PowerShell中使用Get-ADUser命令查找一個特定群組中的所有用戶，并將它們的電子郵件地址輸出到一個CSV文件中？
+5. 问题：如何在PowerShell中使用Get-ADUser命令查找一个特定群组中的所有用户，并将它们的电子邮件地址输出到一个CSV文件中？
 答案：
 
 $users = Get-ADGroupMember "MyGroup" | Where-Object {$_.objectClass -eq "user"}

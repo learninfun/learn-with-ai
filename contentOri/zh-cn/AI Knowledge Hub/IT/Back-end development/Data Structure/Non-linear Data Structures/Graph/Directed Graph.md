@@ -1,10 +1,10 @@
 +++
-title = "有向图"
+title = "有向圖"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Directed Graph的问题
+給我5題Directed Graph的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "1"
 
 5. 給定一個有向圖，求其中的贏家（即有一條路徑可以到達所有其他節點的節點）。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Directed Graph并举例
+以中文說明Directed Graph並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -36,9 +36,9 @@ Directed Graph是一種圖形結構，也稱為網路結構，其中圖的邊線
 
 Directed Graph的用途包括網路流量、路線優化、關係分析、社交網絡和計算機科學等領域，在這些領域，Directed Graph是一個強大的可視化工具，它可以幫助使用者更好地理解特定問題的複雜性和邏輯關係。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Directed Graph的重点
+以中文條列Directed Graph的重點
 {{< /ask_chatgpt >}}
 
 
@@ -63,9 +63,9 @@ Directed Graph的用途包括網路流量、路線優化、關係分析、社交
 
 10. 有向图算法：可以使用一些有向图算法，如Dijkstra算法、Floyd-Warshall算法和Bellman-Ford算法等来处理和分析有向图结构。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Directed Graph的中等难度问题，并在后面列出答案
+以中文給我5題Directed Graph的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

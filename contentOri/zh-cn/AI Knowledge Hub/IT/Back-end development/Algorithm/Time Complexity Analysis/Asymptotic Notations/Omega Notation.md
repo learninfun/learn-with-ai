@@ -1,10 +1,10 @@
 +++
-title = "Ω符号"
+title = "Ω符號"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Omega Notation的问题
+給我5題Omega Notation的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "2"
 4. 如果f(n) = 2^n，那麼它的Omega Notation是什麼？
 5. 如果f(n) = n，那麼它的Omega Notation是什麼？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Omega Notation并举例
+以中文說明Omega Notation並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -40,9 +40,9 @@ Omega符號是算法分析中的一種符號，它用來表示一個函數的下
 
 以下是一個例子，假設有一個函數f(n)=2n+3，是一個線性函數。由於它是線性函數，因此它的時間複雜度可表示為O(n)。根據Omega符號的定義，我們需要找到一個與之相關的下限函數g(n)，使得對於足夠大的n，f(n)的增長速度不會低於g(n)的增長速度。既然f(n)是線性函數，那麼任何一個具有更高增長速度的函數都可以作為g(n)。例如g(n)=nlogn，因為g(n)的增長速度要比f(n)快得多。因此，我們可以說f(n)屬於Ω(nlogn)。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Omega Notation的重点
+以中文條列Omega Notation的重點
 {{< /ask_chatgpt >}}
 
 
@@ -58,9 +58,9 @@ Omega符號是算法分析中的一種符號，它用來表示一個函數的下
 
 5. Omega Notation和Big-O Notation都屬於演算法複雜度分析中的重要概念，並且通常一同使用來描述演算法的複雜度。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Omega Notation的中等难度问题，并在后面列出答案
+以中文給我5題Omega Notation的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -4,12 +4,12 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Javascript的问题
+给我5题Javascript的中文问题
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何將一個字串反轉？
+1. 如何将一个字串反转？
 
 ```
 function reverseString(str) {
@@ -19,7 +19,7 @@ function reverseString(str) {
 console.log(reverseString("Hello")); // "olleH"
 ```
 
-2. 如何取得一個Array的最大值？
+2. 如何取得一个Array的最大值？
 
 ```
 function getMax(arr) {
@@ -29,7 +29,7 @@ function getMax(arr) {
 console.log(getMax([3, 7, 2, 5, 6])); // 7
 ```
 
-3. 如何檢查一個變數是否為數字？
+3. 如何检查一个变数是否为数字？
 
 ```
 function isNumeric(num) {
@@ -40,13 +40,13 @@ console.log(isNumeric('123')); // true
 console.log(isNumeric('abc')); // false
 ```
 
-4. 如何在HTML中插入一個圖片？
+4. 如何在HTML中插入一个图片？
 
 ```
 <img src="path/to/image.jpg" alt="Image Description">
 ```
 
-5. 如何在Javascript中檢查一個變數是否定義？
+5. 如何在Javascript中检查一个变数是否定义？
 
 ```
 if (typeof myVar === 'undefined') {
@@ -58,32 +58,32 @@ if (typeof myVar === 'undefined') {
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Javascript并举例
+以中文说明Javascript并举例
 {{< /ask_chatgpt >}}
 
 
 
-JavaScript是一種前端腳本語言，是網頁互動的核心之一。它可以用來編寫動態效果、交互式功能和驗證用戶輸入的表單。JavaScript可以與HTML和CSS融合在一起，並且可以在網頁上運行，而不需要額外的插件或程式。
+JavaScript是一种前端脚本语言，是网页互动的核心之一。它可以用来编写动态效果、交互式功能和验证用户输入的表单。JavaScript可以与HTML和CSS融合在一起，并且可以在网页上运行，而不需要额外的插件或程式。
 
 以下是JavaScript的一些示例：
 
-1. 更改網頁元素的內容：可以使用JavaScript來更改網頁上的內容，例如更改標題、段落或按鈕的文本內容。
+1. 更改网页元素的内容：可以使用JavaScript来更改网页上的内容，例如更改标题、段落或按钮的文本内容。
 
-2. 彈出式視窗：可以使用JavaScript來顯示彈出視窗，例如警示框、確認框或提示框，來讓用戶進行選擇或輸入。
+2. 弹出式视窗：可以使用JavaScript来显示弹出视窗，例如警示框、确认框或提示框，来让用户进行选择或输入。
 
-3. 網頁動畫效果：可以使用JavaScript來創建動畫效果，例如簡單的滑動、淡入淡出或完整的視差滾動效果。
+3. 网页动画效果：可以使用JavaScript来创建动画效果，例如简单的滑动、淡入淡出或完整的视差滚动效果。
 
-4. 表單驗證：可以使用JavaScript來驗證用戶輸入的表單，例如確認密碼是否匹配、檢查電子郵件地址格式或限制用戶輸入的內容。
+4. 表单验证：可以使用JavaScript来验证用户输入的表单，例如确认密码是否匹配、检查电子邮件地址格式或限制用户输入的内容。
 
-5. 輪播效果：可以使用JavaScript來創建輪播效果，例如自動輪播圖像、手動輪播頁面或無限輪播效果。
+5. 轮播效果：可以使用JavaScript来创建轮播效果，例如自动轮播图像、手动轮播页面或无限轮播效果。
 
-6. Ajax請求：可以使用JavaScript來發送Ajax請求，與網頁上的伺服器進行交互，進行數據檢索或提交表單的時候。
+6. Ajax请求：可以使用JavaScript来发送Ajax请求，与网页上的伺服器进行交互，进行数据检索或提交表单的时候。
 
-總之，JavaScript是一個功能豐富且簡單易用的網頁腳本語言，可以實現各種互動效果，可以使網站更加生動和吸引人。   
+总之，JavaScript是一个功能丰富且简单易用的网页脚本语言，可以实现各种互动效果，可以使网站更加生动和吸引人。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Javascript的重点
+以中文条列Javascript的重点
 {{< /ask_chatgpt >}}
 
 
@@ -110,12 +110,12 @@ JavaScript是一種前端腳本語言，是網頁互動的核心之一。它可�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Javascript的中等难度问题，并在后面列出答案
+以中文给我5题Javascript的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 寫一個函式，判斷一個數字是否為質數。
+1. 写一个函式，判断一个数字是否为质数。
 
 ```
 function isPrime(num) {
@@ -131,7 +131,7 @@ console.log(isPrime(12)); // false
 ```
 
 
-2. 寫一個函式，將一個整數轉換成羅馬數字。
+2. 写一个函式，将一个整数转换成罗马数字。
 
 ```
 function intToRoman(num) {
@@ -166,7 +166,7 @@ console.log(intToRoman(1994)); // "MCMXCIV"
 ```
 
 
-3. 寫一個函式，將一個字符串中的單詞反轉。
+3. 写一个函式，将一个字符串中的单词反转。
 
 ```
 function reverseWords(str) {
@@ -180,7 +180,7 @@ console.log(reverseWords("Let's code in JavaScript!")); // "s'teL edoc ni tpircS
 ```
 
 
-4. 寫一個函式，移除一個數組中的重複元素。
+4. 写一个函式，移除一个数组中的重复元素。
 
 ```
 function removeDuplicates(nums) {
@@ -199,7 +199,7 @@ console.log(removeDuplicates([1,1,2,2,3,4,4,5,5,5])); // [1, 2, 3, 4, 5]
 ```
 
 
-5. 寫一個函式，取得一個數組中第二大的數字。
+5. 写一个函式，取得一个数组中第二大的数字。
 
 ```
 function secondLargest(nums) {

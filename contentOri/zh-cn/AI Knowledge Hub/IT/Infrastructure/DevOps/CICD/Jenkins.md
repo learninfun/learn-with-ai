@@ -2,9 +2,9 @@
 title = "Jenkins"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Jenkins的问题
+給我5題Jenkins的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "1"
 4. Jenkins中的工作流（Workflow）是什麼？如何使用Pipeline建立工作流程？
 5. Jenkins中的安全性是如何實現的？有哪些舉措可用於加強Jenkins的安全性？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Jenkins并举例
+以中文說明Jenkins並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,62 +28,62 @@ Jenkins是一款開源的自動化持續集成(CI)和持續交付(CD)工具，�
 
 此外，Jenkins還可以與其他工具集成，如Jira、Slack、Gitlab等，使開發人員可以更容易地跟踪問題、協同工作、發送通知等。因此，Jenkins被廣泛應用於各種開發項目、IT運維流程和自動化測試場景中。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Jenkins的重点
+以中文條列Jenkins的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. 持续集成/交付
+1. 持續集成/交付
 
-2. 自动化测试
+2. 自動化測試
 
 3. 插件支持
 
 4. 全面的版本控制功能
 
-5. 可扩展性
+5. 可擴展性
 
-6. 即时警告机制
+6. 即時警告機制
 
-7. 轻量级布署
+7. 輕量級佈署
 
-8. 任务脚本化
+8. 任務腳本化
 
 9. 可配置性
 
-10. 分布式架构
+10. 分佈式架構
 
-11. 多种操作系统支援
+11. 多種操作系統支援
 
-12. 智慧化执行
+12. 智慧化執行
 
-13. 持续提供新功能
+13. 持續提供新功能
 
-14. 流程可视化
+14. 流程可視化
 
-15. 集成与DevOps工具链
+15. 集成與DevOps工具鏈
 
 16. 社群支持
 
-17. 渐进扩展
+17. 漸進擴展
 
-18. 应用程式生命周期管理
+18. 應用程式生命週期管理
 
-19. 美观易用的介面
+19. 美觀易用的介面
 
-20. 高度可靠性和稳定性   
+20. 高度可靠性和穩定性   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Jenkins的中等难度问题，并在后面列出答案
+以中文給我5題Jenkins的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何在Jenkins中使用Pipeline实现同时运行多个任务？
-答案：使用“parallel”命令来同时运行多个独立的任务，例如：
+1. 如何在Jenkins中使用Pipeline實現同時運行多個任務？
+答案：使用「parallel」命令來同時運行多個獨立的任務，例如：
 ```
 pipeline {
     agent any
@@ -106,8 +106,8 @@ pipeline {
 }
 ```
 
-2. 如何将Jenkins中的项目与另一个Jenkins部署实例同步？
-答案：使用Jenkins Job DSL插件可以轻松实现，例如：
+2. 如何將Jenkins中的項目與另一個Jenkins部署實例同步？
+答案：使用Jenkins Job DSL插件可以輕鬆實現，例如：
 ```
 job('My Job') {
     scm {
@@ -119,8 +119,8 @@ job('My Job') {
 }
 ```
 
-3. 如何在Jenkins中设置环境变量？
-答案：将需要的环境变量添加到系统环境变量中，然后在Jenkins的管理页面中设置“Global properties”来将其导入Jenkins，例如：
+3. 如何在Jenkins中設置環境變量？
+答案：將需要的環境變量添加到系統環境變量中，然後在Jenkins的管理頁面中設置「Global properties」來將其導入Jenkins，例如：
 ```
 pipeline {
     agent { label 'my-node' }
@@ -137,15 +137,15 @@ pipeline {
 }
 ```
 
-4. 如何设置Jenkins的代理服务器？
-答案：在Jenkins的管理页面中导航到“管理Jenkins > 环境变量”，将http_proxy和https_proxy变量设置为代理服务器的URL，例如：
+4. 如何設置Jenkins的代理服務器？
+答案：在Jenkins的管理頁面中導航到「管理Jenkins > 環境變量」，將http_proxy和https_proxy變量設置為代理服務器的URL，例如：
 ```
 export http_proxy=http://proxy.example.com:3128
 export https_proxy=http://proxy.example.com:3128
 ```
 
-5. 如何在Jenkins中实现自动回滚？
-答案：使用Jenkins Pipeline的try-catch功能，如果在任何一个步骤中出现错误就回滚，例如：
+5. 如何在Jenkins中實現自動回滾？
+答案：使用Jenkins Pipeline的try-catch功能，如果在任何一個步驟中出現錯誤就回滾，例如：
 ```
 pipeline {
     agent any

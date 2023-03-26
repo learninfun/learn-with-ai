@@ -2,9 +2,9 @@
 title = "Linux"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Linux的问题
+給我5題Linux的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "1"
 
 5. 如何在Linux中更改文件權限? 使用命令「chmod」，並使用以下格式：「chmod <權限代碼> <文件名稱>」。權限代碼可以使用以下形式之一：數字形式如『755』，或 rwx形式如「rwxr-xr-x」。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Linux并举例
+以中文說明Linux並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -45,9 +45,9 @@ Linux可以用于多种用途，包括Web服务器、数据库服务器、网络
 4. Debian：基于Linux内核和GNU工具集的开源操作系统，主要用于服务器环境；
 5. Arch Linux：轻量级、灵活和自定制的Linux发行版，主要用于开发和桌面环境。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Linux的重点
+以中文條列Linux的重點
 {{< /ask_chatgpt >}}
 
 
@@ -72,25 +72,25 @@ Linux可以用于多种用途，包括Web服务器、数据库服务器、网络
 
 10. 優秀的支持：Linux擁有廣泛的技術支持和文檔，使用者可以從眾多的網上論壇、博客和教程中獲得幫助和指導。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Linux的中等难度问题，并在后面列出答案
+以中文給我5題Linux的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何在Linux命令行中查看正在运行的进程？
+1. 如何在Linux命令行中查看正在運行的進程？
 答案：可以使用命令ps aux或top。
 
-2. 如何在Linux下将一个文件夹中的所有文件都复制到另一个文件夹中？
+2. 如何在Linux下將一個文件夾中的所有文件都複製到另一個文件夾中？
 答案：可以使用命令cp -r folder1/* folder2/
 
-3. 如何在Linux下查找一个文件？
+3. 如何在Linux下查找一個文件？
 答案：可以使用命令find /path/to/search -name filename
 
-4. 如何在Linux下远程连接另一台主机？
-答案：可以使用SSH协议，命令为ssh username@remotehost
+4. 如何在Linux下遠程連接另一臺主機？
+答案：可以使用SSH協議，命令為ssh username@remotehost
 
-5. 如何在Linux下设置一个定时任务？
-答案：可以使用cron定时任务，命令为crontab -e，然后在其中添加相应的任务。   
+5. 如何在Linux下設置一個定時任務？
+答案：可以使用cron定時任務，命令為crontab -e，然後在其中添加相應的任務。   
 

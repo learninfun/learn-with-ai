@@ -4,7 +4,7 @@ weight = "2"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Min Heap的问题
+给我5题Min Heap的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "2"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Min Heap并举例
+以中文说明Min Heap并举例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ Min Heap是一种资料结构，它是一棵完全二元树，即除了最后一
 
 另外，Min Heap的一个重要特点是，当我们从Min Heap中删除根节点时，Heap结构会自动调整，使得新的根节点还是整个Heap中的最小值。具体来说，我们可以先将最后一个节点复制到根节点的位置，然后不断地比较新的根节点和它的两个子节点的值，如果它的值大于其中某一个子节点的值，就交换它们的位置，直到找到了合适的位置为止。这样一来，我们就可以在O(log n)的时间内删除Min Heap中的最小值了。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Min Heap的重点
+以中文条列Min Heap的重点
 {{< /ask_chatgpt >}}
 
 
@@ -56,12 +56,12 @@ Min Heap是一种资料结构，它是一棵完全二元树，即除了最后一
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Min Heap的中等难度问题，并在后面列出答案
+以中文给我5题Min Heap的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 實作Min Heap的add方法，將一個數字加入到Min Heap中。
+1. 实作Min Heap的add方法，将一个数字加入到Min Heap中。
 答案：
 
 ```python
@@ -73,7 +73,7 @@ def add(self, val):
         curr = self.parent(curr)
 ```
 
-2. 實作Min Heap的remove方法，將Min Heap中的最小值取出。
+2. 实作Min Heap的remove方法，将Min Heap中的最小值取出。
 答案：
 
 ```python
@@ -98,10 +98,10 @@ def min_heapify(self, i):
         self.min_heapify(smallest)
 ```
 
-3. 設計一個算法，用於在Min Heap中找到第k小的元素。
+3. 设计一个算法，用于在Min Heap中找到第k小的元素。
 答案：
 
-可以使用堆排序的思想，先建立一個大小為k的Min Heap，然後拉取剩餘的元素，如果當前元素大於Min Heap的root，則跳過該元素，否則將該元素加入到Min Heap中，並把Min Heap的root取出，直到遍歷完所有的元素為止。
+可以使用堆排序的思想，先建立一个大小为k的Min Heap，然后拉取剩余的元素，如果当前元素大于Min Heap的root，则跳过该元素，否则将该元素加入到Min Heap中，并把Min Heap的root取出，直到遍历完所有的元素为止。
 
 ```python
 def find_kth_smallest(self, k):
@@ -117,10 +117,10 @@ def find_kth_smallest(self, k):
     return min_heap[0]
 ```
 
-4. 設計一個算法，用於在Min Heap中找到第k大的元素。
+4. 设计一个算法，用于在Min Heap中找到第k大的元素。
 答案：
 
-可以使用Max Heap的思想，先建立一個大小為k的Max Heap，然後拉取剩餘的元素，如果當前元素小於Max Heap的root，則跳過該元素，否則將該元素加入到Max Heap中，並把Max Heap的root取出，直到遍歷完所有的元素為止。
+可以使用Max Heap的思想，先建立一个大小为k的Max Heap，然后拉取剩余的元素，如果当前元素小于Max Heap的root，则跳过该元素，否则将该元素加入到Max Heap中，并把Max Heap的root取出，直到遍历完所有的元素为止。
 
 ```python
 def find_kth_largest(self, k):
@@ -135,10 +135,10 @@ def find_kth_largest(self, k):
     return -max_heap[0]
 ```
 
-5. 設計一個算法，用於將一個已排序的數組轉換成Min Heap。
+5. 设计一个算法，用于将一个已排序的数组转换成Min Heap。
 答案：
 
-可以使用Min Heapify的思想，從最後一個有子節點的節點開始往前，對每一個節點都執行Min Heapify操作。
+可以使用Min Heapify的思想，从最后一个有子节点的节点开始往前，对每一个节点都执行Min Heapify操作。
 
 ```python
 def build_heap(self, arr):

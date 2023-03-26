@@ -1,0 +1,3 @@
+Data privacy, also known as information privacy, refers to the protection of personal and sensitive information from unauthorized access, use, or disclosure. This can include personally identifiable information such as name, address, birth date, social security number, financial information, and health records.
+
+An example of data privacy breach would be a company accidentally releasing customer information, such as credit card numbers, due to a website glitch or a cyber attack. This can lead to identity theft, financial loss, and invasion of privacy. To protect data privacy, companies should have strict security measures in place to safeguard sensitive information, including encryption, access controls, and regular security assessments.

@@ -1,6 +1,6 @@
 
 
-1. 實作將Circular Linked List反轉。
+1. 实作将Circular Linked List反转。
 
 ```
 void reverse(Node** head) 
@@ -25,7 +25,7 @@ void reverse(Node** head)
 } 
 ```
 
-2. 實作從Circular Linked List中移除擁有特定數值的節點。
+2. 实作从Circular Linked List中移除拥有特定数值的节点。
 
 ```
 void removeNode(Node** head, int key) 
@@ -56,7 +56,7 @@ void removeNode(Node** head, int key)
 } 
 ```
 
-3. 判斷Circular Linked List是否為迴文（即正向與反向皆相同）。
+3. 判断Circular Linked List是否为回文（即正向与反向皆相同）。
 
 ```
 bool isPalindrome(Node* head) 
@@ -127,7 +127,7 @@ bool compareLists(Node* head1, Node* head2)
 } 
 ```
 
-4. 將兩個Circular Linked List合併（由小到大排序）。
+4. 将两个Circular Linked List合并（由小到大排序）。
 
 ```
 Node* sortedMerge(Node* a, Node* b) 
@@ -174,7 +174,7 @@ Node* mergeSort(Node* head)
 } 
 ```
 
-5. 在Circular Linked List中找到最大值（若有重複數值，輸出第一個）。
+5. 在Circular Linked List中找到最大值（若有重复数值，输出第一个）。
 
 ```
 int getMax(Node* head) 

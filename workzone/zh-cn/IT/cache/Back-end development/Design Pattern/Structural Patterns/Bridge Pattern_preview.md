@@ -1,7 +1,7 @@
 
 
-1. Bridge pattern如何實現關鍵類別之間的解耦？
-2. 在Bridge pattern中，抽象類和實現類的職責分別是什麼？
-3. Bridge pattern適用於哪些場景？可以舉出實際的例子嗎？
-4. Bridge pattern有哪些優點和缺點？該如何進行權衡取捨？
-5. Bridge pattern和Decorator pattern之間有何區別？它們各自適用於哪些場景？
+1. Bridge pattern如何实现关键类别之间的解耦？
+2. 在Bridge pattern中，抽象类和实现类的职责分别是什么？
+3. Bridge pattern适用于哪些场景？可以举出实际的例子吗？
+4. Bridge pattern有哪些优点和缺点？该如何进行权衡取舍？
+5. Bridge pattern和Decorator pattern之间有何区别？它们各自适用于哪些场景？

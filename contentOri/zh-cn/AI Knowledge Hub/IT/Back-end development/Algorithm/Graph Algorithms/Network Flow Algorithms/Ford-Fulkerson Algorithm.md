@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Ford-Fulkerson Algorithm的问题
+给我5题Ford-Fulkerson Algorithm的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Ford-Fulkerson Algorithm并举例
+以中文说明Ford-Fulkerson Algorithm并举例
 {{< /ask_chatgpt >}}
 
 
@@ -53,9 +53,9 @@ step 3，寻找增广路，以S为起点，从2边增广，将流量设定为2�
 网路中不存在增广路，因此得到最大流为3。
    
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Ford-Fulkerson Algorithm的重点
+以中文条列Ford-Fulkerson Algorithm的重点
 {{< /ask_chatgpt >}}
 
 
@@ -86,38 +86,38 @@ Ford-Fulkerson算法先将图形建立为流量网络，其中包括节点、边
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Ford-Fulkerson Algorithm的中等难度问题，并在后面列出答案
+以中文给我5题Ford-Fulkerson Algorithm的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。在創建殘留圖時，先從所有容量為0的反向邊開始，創建具有最下容量的邊。
+1. 在下图中，使用Ford-Fulkerson演算法找到将从节点S到节点T的最大流。在创建残留图时，先从所有容量为0的反向边开始，创建具有最下容量的边。
 
 ![ford-fulkerson-1](https://i.imgur.com/oqfUhlN.png)
 
-答案：最大流為23
+答案：最大流为23
 
-2. 在下圖中，使用Ford-Fulkerson演算法找到將從節點A到節點F的最大流。
+2. 在下图中，使用Ford-Fulkerson演算法找到将从节点A到节点F的最大流。
 
 ![ford-fulkerson-2](https://i.imgur.com/wFDf3qX.png)
 
-答案：最大流為4
+答案：最大流为4
 
-3. 在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。
+3. 在下图中，使用Ford-Fulkerson演算法找到将从节点S到节点T的最大流。
 
 ![ford-fulkerson-3](https://i.imgur.com/nmQkUtc.png)
 
-答案：最大流為14
+答案：最大流为14
 
-4. 在下圖中，使用Ford-Fulkerson演算法找到將從節點A到節點D的最大流。
+4. 在下图中，使用Ford-Fulkerson演算法找到将从节点A到节点D的最大流。
 
 ![ford-fulkerson-4](https://i.imgur.com/o6q3E6n.png)
 
-答案：最大流為10
+答案：最大流为10
 
-5. 在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。
+5. 在下图中，使用Ford-Fulkerson演算法找到将从节点S到节点T的最大流。
 
 ![ford-fulkerson-5](https://i.imgur.com/EaysuY7.png)
 
-答案：最大流為23   
+答案：最大流为23   
 

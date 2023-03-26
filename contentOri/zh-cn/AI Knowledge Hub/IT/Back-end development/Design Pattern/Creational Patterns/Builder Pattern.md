@@ -2,9 +2,9 @@
 title = "建造者模式"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Builder Pattern的问题
+給我5題Builder Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "2"
 
 5. Builder Pattern的優勢是什麼？它的缺陷又是什麼？如何在開發中選擇是否使用Builder Pattern？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Builder Pattern并举例
+以中文說明Builder Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -120,42 +120,42 @@ public class Client {
 
 客戶端使用指導者來創建汽車物件，使用構造方法傳遞汽車屬性，指導者則使用建造者創建完成的汽車物件。這樣，客戶端不需要知道汽車物件是如何創建的，而是通過使用建造者和指導者來隔離物件創建過程，使得程式碼更加清晰、簡潔。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Builder Pattern的重点
+以中文條列Builder Pattern的重點
 {{< /ask_chatgpt >}}
 
 
 
-以下是Builder Pattern的重点：
+以下是Builder Pattern的重點：
 
-1. Builder Pattern是一种创建型设计模式，它允许你创建复杂对象的不同部分，并将它们组装起来以创建完整的对象。
+1. Builder Pattern是一種創建型設計模式，它允許你創建複雜對象的不同部分，並將它們組裝起來以創建完整的對象。
 
-2. 它通常用于创建复杂的对象，这些对象可能由许多不同的部分组成，这些部分之间可能有很多关联。
+2. 它通常用於創建複雜的對象，這些對象可能由許多不同的部分組成，這些部分之間可能有很多關聯。
 
-3. Builder Pattern将对象的建立过程分为多个步骤，每个步骤都由一个不同的Builder类负责。
+3. Builder Pattern將對象的建立過程分為多個步驟，每個步驟都由一個不同的Builder類負責。
 
-4. Builder类将对象的属性保存到自己的成员变量中，最终通过一种方法将这些属性转移到最终对像中。
+4. Builder類將對象的屬性保存到自己的成員變量中，最終通過一種方法將這些屬性轉移到最終對像中。
 
-5. Builder Pattern使得建立一个复杂的对象变得更加简单和可控，同时也能够将对象的表示和建立过程分离开来。
+5. Builder Pattern使得建立一個複雜的對象變得更加簡單和可控，同時也能夠將對象的表示和建立過程分離開來。
 
-6. Builder Pattern还可以通过方法链（Method Chaining）模式来简化建立复杂对象的代码，使代码更加简洁易读。
+6. Builder Pattern還可以通過方法鏈（Method Chaining）模式來簡化建立複雜對象的代碼，使代碼更加簡潔易讀。
 
-7. Builder Pattern的缺点是它需要创建多个Builder类，这可能会导致代码变得复杂和冗长。   
+7. Builder Pattern的缺點是它需要創建多個Builder類，這可能會導致代碼變得複雜和冗長。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Builder Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Builder Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 请实现一个Builder Pattern，建立一个可定制的饮料店菜单。应当包含饮料种类、甜度、冰块量等选项。
+1. 請實現一個Builder Pattern，建立一個可定制的飲料店菜單。應當包含飲料種類、甜度、冰塊量等選項。
 
 答案：
 
 ```python
-# 建立一个可定制的饮料店菜单
+# 建立一個可定制的飲料店菜單
 
 class Drink:
     def __init__(self, type, sweetness, ice):
@@ -185,20 +185,20 @@ class DrinkBuilder:
     def build(self):
         return Drink(self.type, self.sweetness, self.ice)
 
-# 创建一个带有定制选项的饮料
+# 創建一個帶有定制選項的飲料
 drink = DrinkBuilder().with_type('奶茶').with_sweetness('正常').with_ice('少冰').build()
 
-print(f'您的饮料种类为：{drink.type}')
-print(f'甜度选择为：{drink.sweetness}')
-print(f'冰块量为：{drink.ice}')
+print(f'您的飲料種類為：{drink.type}')
+print(f'甜度選擇為：{drink.sweetness}')
+print(f'冰塊量為：{drink.ice}')
 ```
 
-2. 请实现一个Builder Pattern，建立一个可定制的简历。应该包含姓名、电话、邮箱、教育、工作经验等选项。
+2. 請實現一個Builder Pattern，建立一個可定制的簡歷。應該包含姓名、電話、郵箱、教育、工作經驗等選項。
 
 答案：
 
 ```python
-# 创建一个可定制的简历
+# 創建一個可定制的簡歷
 
 class Resume:
     
@@ -273,7 +273,7 @@ class ResumeBuilder:
         
         return resume
 
-# 创建一个定制简历
+# 創建一個定制簡歷
 
 resume = (
     ResumeBuilder()
@@ -302,23 +302,23 @@ resume = (
 )
 
 print(f'姓名：{resume.name}')
-print(f'电话：{resume.phone}')
-print(f'邮箱：{resume.email}')
+print(f'電話：{resume.phone}')
+print(f'郵箱：{resume.email}')
 print('教育')
 for education in resume.educations:
     print(f'{education.degree} in {education.major} from {education.school} ({education.start_date} - {education.end_date})')
     
-print('工作经验')
+print('工作經驗')
 for work_experience in resume.work_experiences:
     print(f'{work_experience.title} at {work_experience.company} ({work_experience.start_date} - {work_experience.end_date}): {work_experience.description}')
 ```
 
-3. 请实现一个Builder Pattern，建立一个可定制的汽车。应该包含品牌、型号、引擎、车身等选项。
+3. 請實現一個Builder Pattern，建立一個可定制的汽車。應該包含品牌、型號、引擎、車身等選項。
 
 答案：
 
 ```python
-# 创建一个可定制的汽车
+# 創建一個可定制的汽車
 
 class Car:
     
@@ -370,7 +370,7 @@ class CarBuilder:
     def build(self):
         return Car(self.brand, self.model, self.engine, self.body)
 
-# 建立一辆定制汽车
+# 建立一輛定制汽車
 
 car = (
     CarBuilder()
@@ -395,17 +395,17 @@ car = (
 )
 
 print(f'品牌：{car.brand}')
-print(f'型号：{car.model}')
+print(f'型號：{car.model}')
 print(f'引擎：{car.engine.name} ({car.engine.cylinders} cylinders, {car.engine.displacement}, {car.engine.horsepower} horsepower)')
-print(f'车身：{car.body.color} {car.body.seats} seats, {car.body.transmission} transmission')
+print(f'車身：{car.body.color} {car.body.seats} seats, {car.body.transmission} transmission')
 ```
 
-4. 请实现一个Builder Pattern，建立一个可定制的订单。应当包括商品、数量、付款方式、送货地址等选项。
+4. 請實現一個Builder Pattern，建立一個可定制的訂單。應當包括商品、數量、付款方式、送貨地址等選項。
 
 答案：
 
 ```python
-# 建立一个定制订单
+# 建立一個定制訂單
 
 class Order:
     
@@ -446,7 +446,7 @@ class OrderBuilder:
         order_items = [(item, quantity) for item, quantity in zip(self.items, self.quantity)]
         return Order(order_items, self.quantity, self.payment_method, self.delivery_address)
 
-# 创建一个定制的订单
+# 創建一個定制的訂單
 
 item1 = Item('book1', 10)
 item2 = Item('book2', 20)
@@ -460,23 +460,23 @@ order = (
     .build()
 )
 
-print('订单项目')
+print('訂單項目')
 total_price = 0
 for item, quantity in order.items:
     total_price += item.price * quantity
     print(f'{item.name} x{quantity}: ${item.price * quantity}')
 
-print(f'总价格：${total_price}')
+print(f'總價格：${total_price}')
 print(f'付款方式：{order.payment_method}')
-print(f'送货地址：{order.delivery_address}')
+print(f'送貨地址：{order.delivery_address}')
 ```
 
-5. 请实现一个Builder Pattern，建立一个可定制的室内装修。应当包括材料、光照、风格等选项。
+5. 請實現一個Builder Pattern，建立一個可定制的室內裝修。應當包括材料、光照、風格等選項。
 
 答案：
 
 ```python
-# 建立一个可定制的室内装修
+# 建立一個可定制的室內裝修
 
 class Interior:
     
@@ -507,7 +507,7 @@ class InteriorBuilder:
     def build(self):
         return Interior(self.material, self.lighting, self.style)
 
-# 建立一个定制的室内装修
+# 建立一個定制的室內裝修
 
 interior = (
     InteriorBuilder()
@@ -519,8 +519,8 @@ interior = (
 
 print(f'材料：{interior.material}')
 print(f'光照：{interior.lighting}')
-print(f'风格：{interior.style}')
+print(f'風格：{interior.style}')
 ```
 
-以上是我为您提供的5个Builder Pattern的中等难度问题和答案，希望能够对您有所帮助。   
+以上是我為您提供的5個Builder Pattern的中等難度問題和答案，希望能夠對您有所幫助。   
 

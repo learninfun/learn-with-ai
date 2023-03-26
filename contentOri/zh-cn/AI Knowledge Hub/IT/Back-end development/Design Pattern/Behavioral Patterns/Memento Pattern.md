@@ -1,10 +1,10 @@
 +++
-title = "备忘录模式"
+title = "備忘錄模式"
 weight = "6"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Memento Pattern的问题
+給我5題Memento Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "6"
 4. Memento Pattern與其他模式有什麼區別？
 5. Memento Pattern的缺點是什麼？該如何解決？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Memento Pattern并举例
+以中文說明Memento Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -79,38 +79,38 @@ class TextEditorCaretaker:
 
 這樣我們就可以實現文字編輯器的撤銷和重做功能了。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Memento Pattern的重点
+以中文條列Memento Pattern的重點
 {{< /ask_chatgpt >}}
 
 
 
-1. Memento Pattern 主要是用来捕捉并储存对象的内部状态，并允许在未来恢复到之前的状态。
-2. Memento，即是备忘录的意思，代表储存对象的状态的物件。
-3. Originator，即是原始对象，指的是需要被储存状态的对象。
-4. Caretaker，即是负责管理备忘录的物件，可用于储存、恢复 Originator 的状态。
-5. Memento Pattern 的优点是允许对像在不破坏其封装性的前提下，储存和恢复内部状态，可以有效地解耦合作的对象，并简化了设计和实现的复杂性。   
+1. Memento Pattern 主要是用來捕捉並儲存對象的內部狀態，並允許在未來恢復到之前的狀態。
+2. Memento，即是備忘錄的意思，代表儲存對象的狀態的物件。
+3. Originator，即是原始對象，指的是需要被儲存狀態的對象。
+4. Caretaker，即是負責管理備忘錄的物件，可用於儲存、恢復 Originator 的狀態。
+5. Memento Pattern 的優點是允許對像在不破壞其封裝性的前提下，儲存和恢復內部狀態，可以有效地解耦合作的對象，並簡化了設計和實現的複雜性。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Memento Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Memento Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1. 如何利用Memento Pattern来保存游戏的进度？
-答案：创建一个Memento Class，包含玩家目前的游戏进度。然后在Game Class中定义createMemento()和restoreFromMemento()方法，分别用于创建进度快照和从快照恢复进度。
+1. 如何利用Memento Pattern來保存遊戲的進度？
+答案：創建一個Memento Class，包含玩家目前的遊戲進度。然後在Game Class中定義createMemento()和restoreFromMemento()方法，分別用於創建進度快照和從快照恢復進度。
 
-2. 如何使用Memento Pattern来保存编辑器文档的撤销和重做操作？
-答案：创建一个Memento Class，存储文档当前的状态和操作历史。在Editor Class中定义createMemento()和restoreFromMemento()方法，用于创建和恢复编辑器文档的状态。并且在Editor Class中实现撤销和重做操作。
+2. 如何使用Memento Pattern來保存編輯器文檔的撤銷和重做操作？
+答案：創建一個Memento Class，存儲文檔當前的狀態和操作歷史。在Editor Class中定義createMemento()和restoreFromMemento()方法，用於創建和恢復編輯器文檔的狀態。並且在Editor Class中實現撤銷和重做操作。
 
-3. 如何利用Memento Pattern来保存状态机的状态？
-答案：创建一个Memento Class，包含状态机当前的状态。在StateMachine Class中定义createMemento()和restoreFromMemento()方法，用于创建和恢复状态机的状态。并且在StateMachine Class中实现状态转换操作。
+3. 如何利用Memento Pattern來保存狀態機的狀態？
+答案：創建一個Memento Class，包含狀態機當前的狀態。在StateMachine Class中定義createMemento()和restoreFromMemento()方法，用於創建和恢復狀態機的狀態。並且在StateMachine Class中實現狀態轉換操作。
 
-4. 如何使用Memento Pattern来保存文档的多个版本？
-答案：创建一个Memento Class，存储文档的状态和版本号。在Document Class中定义createMemento()和restoreFromMemento()方法，用于创建和恢复文档的状态。在DocumentHistory Class中维护一个Memento List，存储所有的文档版本。
+4. 如何使用Memento Pattern來保存文檔的多個版本？
+答案：創建一個Memento Class，存儲文檔的狀態和版本號。在Document Class中定義createMemento()和restoreFromMemento()方法，用於創建和恢復文檔的狀態。在DocumentHistory Class中維護一個Memento List，存儲所有的文檔版本。
 
-5. 如何使用Memento Pattern来保存绘图软件的绘图步骤？
-答案：创建一个Memento Class，存储当前的绘图状态。在Painter Class中定义createMemento()和restoreFromMemento()方法，用于创建和恢复绘图步骤。在History Class中维护一个Memento List，存储所有的绘图步骤，实现撤销和重做操作。   
+5. 如何使用Memento Pattern來保存繪圖軟件的繪圖步驟？
+答案：創建一個Memento Class，存儲當前的繪圖狀態。在Painter Class中定義createMemento()和restoreFromMemento()方法，用於創建和恢復繪圖步驟。在History Class中維護一個Memento List，存儲所有的繪圖步驟，實現撤銷和重做操作。   
 

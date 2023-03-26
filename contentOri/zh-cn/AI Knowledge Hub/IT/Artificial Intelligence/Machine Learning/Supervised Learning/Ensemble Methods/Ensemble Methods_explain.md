@@ -1,0 +1,5 @@
+Ensemble Methods是指将多个不同的机器学习模型结合起来，形成一个更强大的整体模型的技术。Ensemble Methods通常会在训练集上建立多个弱学习器，最后透过投票或者加权投票的方式，将所有弱学习器的预测结果结合起来，形成预测整体的结果。Ensemble Methods通常比单个模型的精确度更高，并且对于复杂的问题有较强的魄力。
+
+举例来说，Random Forest就是一个Ensemble Method。Random Forest将多个Decision Tree模型结合起来，并且每次使用不同的训练数据集，从而形成多个弱学习器。在进行分类或者回归预测时，所有Decision Tree模型的结果会透过投票的方式决定最终的结果。Random Forest在许多领域都有广泛的应用，例如医疗诊断、金融风险评估等。
+
+另一个例子是Gradient Boosting。Gradient Boosting使用一个弱学习器作为初始模型，在之后每次迭代中都会使用前一个模型的残差来构建新的弱学习器。最终在进行预测时，会将所有弱学习器的预测结果综合起来，形成整体的预测结果。Gradient Boosting通常用于分类、回归、排序等问题，例如广告推荐系统、搜索排名等。

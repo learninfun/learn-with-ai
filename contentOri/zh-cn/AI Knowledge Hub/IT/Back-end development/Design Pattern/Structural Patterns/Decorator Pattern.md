@@ -1,10 +1,10 @@
 +++
-title = "装饰者模式"
+title = "裝飾者模式"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Decorator Pattern的问题
+給我5題Decorator Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "4"
 
 5. Decorator和策略(Pattern)有什麼區別？它們之間如何協同工作？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Decorator Pattern并举例
+以中文說明Decorator Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -34,9 +34,9 @@ Decorator Pattern 是指在不改變現有物件結構的情況下，動態地�
 
 在實際應用中，Decorator Pattern 可以用於圖形繪製、GUI界面設計、網頁開發、媒體播放器等各種場景。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Decorator Pattern的重点
+以中文條列Decorator Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -55,9 +55,9 @@ Decorator Pattern（裝飾者模式）是一種結構型設計模式，重點如
 
 6. 裝飾者模式常常被用於實現App中的主題、樣式等機能，也常常被應用於I/O流和GUI編程等場景中。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Decorator Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Decorator Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

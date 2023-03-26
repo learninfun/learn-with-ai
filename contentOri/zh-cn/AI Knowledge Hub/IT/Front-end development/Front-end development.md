@@ -1,10 +1,10 @@
 +++
-title = "前端开发"
+title = "前端開發"
 weight = "1"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Front-end development的问题
+給我5題Front-end development的中文問題
 {{< /ask_chatgpt >}}
 
 1. HTML和CSS是什麼？有什麼用途？
@@ -13,9 +13,9 @@ weight = "1"
 4. 請解釋什麼是AJAX？什麼時候應該使用AJAX？
 5. 什麼是跨站腳本攻擊（XSS）？如何避免XSS攻擊？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Front-end development并举例
+以中文說明Front-end development並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -44,9 +44,9 @@ weight = "1"
 
 總之，前端開發很重要，是網站和應用程式的點綴。前端開發人員需要有創意，不斷學習新技術，以滿足用戶對吸引人的網站和應用程式的需求。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Front-end development的重点
+以中文條列Front-end development的重點
 {{< /ask_chatgpt >}}
 
 
@@ -69,9 +69,9 @@ weight = "1"
 
 9. 效率: 要成為一名高效的前端開發人員需要掌握工具和技術，例如WebPack等工具，可以幫助您自動化工作流程、減少重複工作，提高生產效率。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Front-end development的中等难度问题，并在后面列出答案
+以中文給我5題Front-end development的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

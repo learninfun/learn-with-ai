@@ -1,10 +1,10 @@
 +++
-title = "环形伫列"
+title = "環形佇列"
 weight = "2"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Circular Queue的问题
+給我5題Circular Queue的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "2"
 
 5. 如何保證Circular Queue的正確性和性能？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Circular Queue并举例
+以中文說明Circular Queue並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -43,9 +43,9 @@ Circular Queue 是一種在介面上很像 Queue 的資料結構，但與一般�
 
 因此，從上面的例子中，我們可以看到，head 與 tail 指標就像一個圈一樣，當它們到達數組的尾端時，就會回到數組的頭部重新開始。這樣就能夠支持 Queue 的循環運行了。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Circular Queue的重点
+以中文條列Circular Queue的重點
 {{< /ask_chatgpt >}}
 
 
@@ -60,9 +60,9 @@ Circular Queue 是一種在介面上很像 Queue 的資料結構，但與一般�
 
 5. 注意事項: 當復位front和rear指針時，必須確定佇列已經为空，否則有可能造成資料遺失或存儲佇列溢出。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Circular Queue的中等难度问题，并在后面列出答案
+以中文給我5題Circular Queue的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

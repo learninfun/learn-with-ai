@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Virtual Private Network (VPN)的问题
+给我5题Virtual Private Network (VPN)的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Virtual Private Network (VPN)并举例
+以中文说明Virtual Private Network (VPN)并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Virtual Private Network (VPN)指的是一种使用加密技术来实现网路访
 1. 公司网路：一些公司为了保障员工远程工作时的资讯安全，会使用VPN建立一个虚拟的、加密的通道，让员工能够通过Internet连接到公司内部网路，并且能够安全地传输敏感资讯。
 2. 个人使用：一些人经常使用公共Wi-Fi，而这些Wi-Fi常常没有足够的加密保护，VPN将允许他们在使用公共Wi-Fi时实现更好的隐私和安全保护。 VPN可以让他们连接到使用VPN服务的伺服器，但是原本的使用免费公共Wi-Fi的模式将是经由加密处理，保障他们的网路资料得到充分的保护。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Virtual Private Network (VPN)的重点
+以中文条列Virtual Private Network (VPN)的重点
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +49,7 @@ Virtual Private Network (VPN)指的是一种使用加密技术来实现网路访
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Virtual Private Network (VPN)的中等难度问题，并在后面列出答案
+以中文给我5题Virtual Private Network (VPN)的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

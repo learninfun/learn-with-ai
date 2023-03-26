@@ -2,9 +2,9 @@
 title = "分片"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Shard的问题
+給我5題Shard的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "4"
 4. Shard給系統帶來的優勢有哪些？
 5. 如何確保Shard之間的數據一致性？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Shard并举例
+以中文說明Shard並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Shard是指將大型資料庫系統分割成多個較小的子系統，每個子
 
 另一個例子是網路搜尋引擎，例如Google，也使用了Shard來處理海量的網頁索引。Google將數據分割成多個Shard，每個Shard包含一個索引子集，這些Shard可以在不同的伺服器上運行並且可以平行處理多個搜索請求，以提高搜索效能。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Shard的重点
+以中文條列Shard的重點
 {{< /ask_chatgpt >}}
 
 
@@ -49,25 +49,25 @@ Shard是指將大型資料庫系統分割成多個較小的子系統，每個子
 
 7. 可靠性：Shard 可靠性高，在某個健康狀態不佳的機器被發現後，它們可以自動停用，直到問題解決為止。這樣可以最小化服務中斷的風險，提高可靠性。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Shard的中等难度问题，并在后面列出答案
+以中文給我5題Shard的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 
 
-1) 有两个整数列表，找出两个列表中共同出现的最小值。
+1) 有兩個整數列表，找出兩個列表中共同出現的最小值。
    答案：SELECT MIN(shard1.val) FROM shard1 JOIN shard2 ON shard1.val=shard2.val;
 
-2) 在给定的列表中找到前k个最大的元素(假设k小于列表的长度)。
+2) 在給定的列表中找到前k個最大的元素(假設k小於列表的長度)。
    答案：SELECT val FROM shard ORDER BY val DESC LIMIT k;
 
-3) 有一个包含重复元素的列表，找出存在超过n次的元素。
+3) 有一個包含重複元素的列表，找出存在超過n次的元素。
    答案：SELECT val FROM (SELECT val, count(*) as count FROM shard GROUP BY val) as val_count WHERE count>n;
 
-4) 找出包含最多元素的重复子串(子串不需要连续)。
+4) 找出包含最多元素的重複子串(子串不需要連續)。
    答案：SELECT SUBSTRING(shard.str, start, length) as sub_str FROM (SELECT str, SUBSTRING_INDEX(SUBSTRING_INDEX(str, ',', numbers.n), ',', -1) as val, LENGTH(SUBSTRING_INDEX(SUBSTRING_INDEX(str, ',', numbers.n), ',', -1)) as length, LOCATE(SUBSTRING_INDEX(SUBSTRING_INDEX(str, ',', numbers.n), ',', -1), str)+1 as start FROM shard,(SELECT @row := @row + 1 as n FROM (select 0 UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) t1 CROSS JOIN (select 0 UNION ALL SELECT 1 UNION ALL SELECT 2 UNION ALL SELECT 3) t2 CROSS JOIN (select @row:=0) t3) numbers WHERE CHAR_LENGTH(str)-CHAR_LENGTH(REPLACE(str,',',''))>=numbers.n-1) as shards WHERE LENGTH(sub_str)>=2 GROUP BY sub_str ORDER BY COUNT(*) DESC LIMIT 1;
 
-5) 找出前k个出现最多的单词。
+5) 找出前k個出現最多的單詞。
    答案：SELECT word, COUNT(*) as count FROM shard GROUP BY word ORDER BY count DESC LIMIT k;   
 

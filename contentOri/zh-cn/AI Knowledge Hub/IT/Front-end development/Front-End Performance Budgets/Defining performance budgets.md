@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Defining performance budgets的问题
+给我5题Defining performance budgets的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Defining performance budgets并举例
+以中文说明Defining performance budgets并举例
 {{< /ask_chatgpt >}}
 
 
@@ -40,9 +40,9 @@ Defining performance budgets是指定义一组指标，用于衡量网站或应�
 
 这些指标可以作为性能预算的重要依据，团队可以根据这些指标预算出合理的性能标准，以确保网站或应用程式具有良好的性能表现。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Defining performance budgets的重点
+以中文条列Defining performance budgets的重点
 {{< /ask_chatgpt >}}
 
 
@@ -59,7 +59,7 @@ Defining performance budgets是指定义一组指标，用于衡量网站或应�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Defining performance budgets的中等难度问题，并在后面列出答案
+以中文给我5题Defining performance budgets的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

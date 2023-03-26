@@ -1,0 +1,10 @@
+- Confidentiality: Protection of sensitive information from unauthorized access or disclosure. 
+- Integrity: Ensuring that information and systems are accurate and secure from modification or deletion.
+- Availability: Ensuring that systems and information are accessible and functional when needed.
+- Authentication: Verifying the identity of users or systems to prevent unauthorized access. 
+- Authorization: Granting or denying access to resources based on a user's role, permissions, or credentials. 
+- Auditability: Keeping track of system and user activity for accountability and traceability purposes. 
+- Physical Security: Protecting hardware, software, and data from physical theft, damage, or destruction. 
+- Network Security: Protecting data transmission and communication channels from unauthorized access, interception, or modification. 
+- Application Security: Ensuring that software applications are secure and free from vulnerabilities or bugs. 
+- Incident Management: Having a plan in place to detect, respond to, and recover from security incidents or breaches.

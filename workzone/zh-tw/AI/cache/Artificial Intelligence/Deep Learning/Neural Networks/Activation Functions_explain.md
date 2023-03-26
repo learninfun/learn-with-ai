@@ -1,0 +1,11 @@
+Activation functions是神經網路中的一個重要元素，它決定了每個神經元的輸出值。Activation functions可以將輸入的信號轉換成不同的形式，在深度學習領域中常常使用以下的幾種Activation functions：
+
+1. Sigmoid Function：將輸入的值經由sigmoid函數轉換，輸出範圍在0到1之間。Sigmoid函數在binary classification中的應用很廣泛。
+
+2. Tanh Function：tanh函數跟sigmoid函數比較相似，但輸出值範圍在-1到1之間，以及加速神經元的收斂速度。
+
+3. ReLU Function：ReLU函數是近年來深度學習中很受歡迎的Activation functions之一，它在輸入大於0的情況下直接輸出，輸入小於0的時候則輸出0。ReLU函數可以加速神經元的收斂速度。
+
+4. Softmax Function：用於多類別判斷的神經網路中。Softmax函數將輸入的多個值轉換成概率分佈，讓神經網路可以對多個類別進行分類。
+
+以上是一些常見的Activation functions，不同的網絡模型可能會選擇不同的Activation functions，根據任務的不同有時可以使用不同的Activation functions 組合。

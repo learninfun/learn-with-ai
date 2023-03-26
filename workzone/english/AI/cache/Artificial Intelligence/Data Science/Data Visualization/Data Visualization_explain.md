@@ -1,0 +1,3 @@
+Data Visualization is the representation of information or data using visual aids such as graphs, charts, and maps. It is a technique used to communicate complex information in a simple and easy-to-understand format.
+
+An example of data visualization is a line graph. A line graph displays data points connected by lines, and it is used to show trends or changes over time. For instance, a line graph can be used in a business to show fluctuations in sales revenue over a particular period. It provides an easy way to compare data points and identify trends, and it is a powerful tool for making informed decisions.

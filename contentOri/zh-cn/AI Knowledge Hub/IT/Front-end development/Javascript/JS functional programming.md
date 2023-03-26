@@ -4,7 +4,7 @@ weight = "7"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题JS functional programming的问题
+给我5题JS functional programming的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "7"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明JS functional programming并举例
+以中文说明JS functional programming并举例
 {{< /ask_chatgpt >}}
 
 
@@ -66,9 +66,9 @@ console.log(squares); // [1, 4, 9, 16, 25]
 
 总之，JS functional programming 是一个强大的程式设计风格，它可以帮助开发人员改善代码的品质和效率。通过使用纯函数、高阶函数等概念，开发人员可以更好地组织代码、写出更易于理解和测试的代码。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列JS functional programming的重点
+以中文条列JS functional programming的重点
 {{< /ask_chatgpt >}}
 
 
@@ -95,7 +95,7 @@ console.log(squares); // [1, 4, 9, 16, 25]
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题JS functional programming的中等难度问题，并在后面列出答案
+以中文给我5题JS functional programming的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -1,10 +1,10 @@
 +++
-title = "基础设施"
+title = "基礎設施"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Infrastructure的问题
+給我5題Infrastructure的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "3"
 4. 如何確保基礎設施的可擴展性和彈性，以迎接未來的業務需求？
 5. 如何實現基礎設施的自動化和管理，以提高效率和節省成本？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Infrastructure并举例
+以中文說明Infrastructure並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -38,9 +38,9 @@ Infrastructure指的是一個社會系統所必需的基礎建設，它是讓一
 
 Infrastructure的建設對於一個國家的經濟發展有著巨大的影響，建設良好的Infrastructure可以提高產品流通和生產率，吸引更多的投資和人才，進而推動國家和地區的發展。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Infrastructure的重点
+以中文條列Infrastructure的重點
 {{< /ask_chatgpt >}}
 
 
@@ -54,9 +54,9 @@ Infrastructure的建設對於一個國家的經濟發展有著巨大的影響，
 7. 資料備份和恢復：實施適當的資料備份和恢復系統，以保護系統免於資料丟失或災難。
 8. 安全性：確保所有IT設備和應用程式都能在安全的環境中運行，防止未經授權的訪問和數據外洩。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Infrastructure的中等难度问题，并在后面列出答案
+以中文給我5題Infrastructure的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

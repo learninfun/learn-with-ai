@@ -1,0 +1,9 @@
+Convolutional Neural Networks (CNNs) are deep learning algorithms that process visual and auditory data such as images and audio. CNNs are widely used for tasks such as image classification, object detection, and facial recognition.
+
+CNNs are composed of multiple layers, including convolutional, pooling, and fully connected layers. A convolutional layer processes the input image using multiple filters that identify patterns in the image, such as edges, lines, and shapes. These filters scan the input image and create feature maps that represent different parts of the image. The output of the convolutional layer is passed through a rectified linear unit (ReLU) activation function to introduce non-linearity.
+
+A pooling layer is then used to downsample the feature maps, reducing their size and preserving the important features. The most commonly used pooling technique is max-pooling, which selects the maximum value within a sliding windows.
+
+Finally, the fully connected layer takes the features learned in the previous layers and generates a classification or regression output.
+
+As an example, consider an image classification task of identifying whether an image contains a dog or a cat. A CNN would take the input image and pass it through multiple convolutional and pooling layers to learn features such as fur, eyes, and paws. These features are then used by the fully connected layer to predict the class of the image (dog or cat). The CNN is trained using a large dataset of labeled images to learn the optimal set of filters and parameters that minimize the prediction error. Once trained, the CNN can accurately classify new, unseen images.

@@ -1,10 +1,10 @@
 +++
-title = "设计模式"
+title = "設計模式"
 weight = "4"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Design Pattern的问题
+給我5題Design Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -15,9 +15,9 @@ weight = "4"
 4. 規範Design Pattern與Framework Design Pattern之間的區別。
 5. 簡述Factory Method Design Pattern和Abstract Factory Design Pattern之間的相異之處，以及它們的應用場景。   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Design Pattern并举例
+以中文說明Design Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -56,9 +56,9 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 
 舉例：在一個影音檔案播放程式中，可以使用不同的控制命令（播放、暫停、停止、音量調整等）來控制播放進程。這些命令可以被保存、傳遞或堆疊在一起，最終實現對播放器的全面控制。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Design Pattern的重点
+以中文條列Design Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -79,9 +79,9 @@ Command 模式將指令對象（Command）和接收者（Receiver）解耦。這
 
 8. 模式的重要性：设计模式是软件工程中的重要组成部分，熟练掌握设计模式可以大大提高软件开发质量和效率。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Design Pattern的中等难度问题，并在后面列出答案
+以中文給我5題Design Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

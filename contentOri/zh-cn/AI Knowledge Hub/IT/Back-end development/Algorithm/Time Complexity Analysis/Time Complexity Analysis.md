@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Time Complexity Analysis的问题
+给我5题Time Complexity Analysis的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Time Complexity Analysis并举例
+以中文说明Time Complexity Analysis并举例
 {{< /ask_chatgpt >}}
 
 
@@ -30,9 +30,9 @@ Time complexity analysis是指在算法运行过程中，计算算法执行时�
 
 因此，时间复杂度分析可以帮助我们确定算法的效率和性能，并选择最合适的算法来解决特定问题。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Time Complexity Analysis的重点
+以中文条列Time Complexity Analysis的重点
 {{< /ask_chatgpt >}}
 
 
@@ -45,7 +45,7 @@ Time complexity analysis是指在算法运行过程中，计算算法执行时�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Time Complexity Analysis的中等难度问题，并在后面列出答案
+以中文给我5题Time Complexity Analysis的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

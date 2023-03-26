@@ -4,7 +4,7 @@ weight = "1"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Prim's Algorithm的问题
+给我5题Prim's Algorithm的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "1"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Prim's Algorithm并举例
+以中文说明Prim's Algorithm并举例
 {{< /ask_chatgpt >}}
 
 
@@ -53,9 +53,9 @@ Prim的演算法是一种用于寻找最小生成树的贪婪演算法。
   B   E   D
 ```   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Prim's Algorithm的重点
+以中文条列Prim's Algorithm的重点
 {{< /ask_chatgpt >}}
 
 
@@ -70,7 +70,7 @@ Prim的演算法是一种用于寻找最小生成树的贪婪演算法。
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Prim's Algorithm的中等难度问题，并在后面列出答案
+以中文给我5题Prim's Algorithm的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -1,10 +1,10 @@
 +++
-title = "状态模式"
+title = "狀態模式"
 weight = "8"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题State Pattern的问题
+給我5題State Pattern的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "8"
 
 5. 最好的例子可以用來展示State Pattern在實際應用中的效果是什麼？它是如何簡化代碼的？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明State Pattern并举例
+以中文說明State Pattern並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -112,9 +112,9 @@ print(squirtle.do_action())
 
 這就是思路，类似的，你可以在其他場景中使用這種模式以達到更好的代碼可維護性和可擴展性。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列State Pattern的重点
+以中文條列State Pattern的重點
 {{< /ask_chatgpt >}}
 
 
@@ -137,9 +137,9 @@ State Pattern的重點如下：
 
 8. 測試和維護：狀態模式讓代碼更具可讀性和可維護性，並使測試更容易。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题State Pattern的中等难度问题，并在后面列出答案
+以中文給我5題State Pattern的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

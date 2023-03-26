@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Active Directory的问题
+给我5题Active Directory的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Active Directory并举例
+以中文说明Active Directory并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Active Directory（AD）是一种由微软公司开发的目录服务，旨在�
 
 另一个例子是学校。学校可以使用Active Directory来管理其学生、老师以及其他资源，如图书馆、电脑实验室和教学资源。使用AD，学校可以管理学生的登录，了解学生的课程资讯，并为他们分配资源和权限。老师可以使用AD管理学生的作业和成绩单，并设置特定资源的访问权限。同时，学校的IT部门可以使用AD管理学校的电脑和其他资源，协助学校的运营。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Active Directory的重点
+以中文条列Active Directory的重点
 {{< /ask_chatgpt >}}
 
 
@@ -59,7 +59,7 @@ Active Directory（AD）是一种由微软公司开发的目录服务，旨在�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Active Directory的中等难度问题，并在后面列出答案
+以中文给我5题Active Directory的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

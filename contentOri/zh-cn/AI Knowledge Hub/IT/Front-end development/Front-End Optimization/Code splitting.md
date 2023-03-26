@@ -1,10 +1,10 @@
 +++
-title = "代码拆分"
+title = "代碼拆分"
 weight = "3"
 +++
-## 习题预习
+## 習題預習
 {{< ask_chatgpt >}}
-给我5题Code splitting的问题
+給我5題Code splitting的中文問題
 {{< /ask_chatgpt >}}
 
 
@@ -19,9 +19,9 @@ weight = "3"
 
 5. code splitting會對應用程序的性能產生什麼影響？   
 
-## 说明知识
+## 說明知識
 {{< ask_chatgpt >}}
-说明Code splitting并举例
+以中文說明Code splitting並舉例
 {{< /ask_chatgpt >}}
 
 
@@ -56,9 +56,9 @@ export default App;
 
 在上面的例子中，使用React.lazy()方法將HomePage、ProductPage和CartPage這三個React組件拆分成獨立的文件，並在App組件中以動態載入的方式使用它們。當網頁初次載入時，只加載App組件，而HomePage、ProductPage和CartPage等其他組件會在需要時再進行加載，實現了Code splitting。   
 
-## 汇总重点
+## 條列重點
 {{< ask_chatgpt >}}
-条列Code splitting的重点
+以中文條列Code splitting的重點
 {{< /ask_chatgpt >}}
 
 
@@ -77,9 +77,9 @@ export default App;
 
 7. 選擇正確的 Code splitting 策略可以大大提高網站性能和用戶體驗。   
 
-## 知识测验
+## 知識測驗
 {{< ask_chatgpt >}}
-给我5题Code splitting的中等难度问题，并在后面列出答案
+以中文給我5題Code splitting的中等難度問題，並在後面列出答案
 {{< /ask_chatgpt >}}
 
 

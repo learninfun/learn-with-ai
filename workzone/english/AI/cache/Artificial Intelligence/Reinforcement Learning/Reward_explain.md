@@ -1,0 +1,3 @@
+Reward refers to something given or received in return for good behavior or completion of a task. It is a reinforcement strategy that encourages positive behavior or promotes a desirable outcome. Rewards can be anything from a tangible item, such as money or a toy, to praise or recognition.
+
+For example, a teacher may reward their students with stickers or stamps for completing their homework or exhibiting good behavior. A company may offer its employees bonuses or promotions for meeting or exceeding their job performance goals. A parent may reward their child with a treat or activity for doing well on a test or finishing their chores. All of these examples encourage the individual to continue to exhibit the positive behavior or task completion that led to the reward.

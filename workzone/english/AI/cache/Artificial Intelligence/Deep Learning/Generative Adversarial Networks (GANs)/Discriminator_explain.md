@@ -1,0 +1,5 @@
+A Discriminator refers to a system that helps in distinguishing between two different classes or groups. 
+
+For example, in the case of machine learning, the discriminator is a part of the GAN (Generative Adversarial Network) algorithm that helps in distinguishing between real and fake data. The generator part of the GAN generates the artificial data, and the discriminator evaluates it to determine whether it is real or fake. The outputs of the discrimination part are used to improve the generator until it can create realistic synthetic data that cannot be distinguished from real data by the discriminator. 
+
+Another example is in decision-making during hiring. The hiring manager serves as a discriminator, determining whether a candidate is qualified or not by analyzing their skills, qualifications, and experience. The hiring manager may discriminate against a candidate who does not possess the required skills or is underqualified for the position.

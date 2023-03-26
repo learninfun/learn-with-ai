@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Worst-Case Time Complexity的问题
+给我5题Worst-Case Time Complexity的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -17,7 +17,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Worst-Case Time Complexity并举例
+以中文说明Worst-Case Time Complexity并举例
 {{< /ask_chatgpt >}}
 
 
@@ -28,9 +28,9 @@ Worst-Case Time Complexity指的是在最劣情况下程序的时间复杂度。
 
 另一个例子是搜索一个数组中是否存在一个元素。如果该元素在数组的开头，则算法可以在常数时间内完成。但如果该元素位于数组的末尾，那么该算法可能需要遍历整个数组才能找到该元素。在这种情况下，该算法的最劣时间复杂度为O(n)。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Worst-Case Time Complexity的重点
+以中文条列Worst-Case Time Complexity的重点
 {{< /ask_chatgpt >}}
 
 
@@ -49,7 +49,7 @@ Worst-Case Time Complexity是衡量算法效率的重要指标，指的是当算
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Worst-Case Time Complexity的中等难度问题，并在后面列出答案
+以中文给我5题Worst-Case Time Complexity的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

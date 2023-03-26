@@ -1,7 +1,7 @@
 
 
-1. 什麼是Chain of Responsibility Pattern？
-2. Chain of Responsibility Pattern 與其他設計模式的區別在哪裡？
-3. 在Chain of Responsibility Pattern中，什麼是Handler？它有什麼作用？
-4. 如何實現Chain of Responsibility Pattern？你可以舉一個例子嗎？
-5. Chain of Responsibility Pattern 的優缺點是什麼？
+1. 什么是Chain of Responsibility Pattern？
+2. Chain of Responsibility Pattern 与其他设计模式的区别在哪里？
+3. 在Chain of Responsibility Pattern中，什么是Handler？它有什么作用？
+4. 如何实现Chain of Responsibility Pattern？你可以举一个例子吗？
+5. Chain of Responsibility Pattern 的优缺点是什么？

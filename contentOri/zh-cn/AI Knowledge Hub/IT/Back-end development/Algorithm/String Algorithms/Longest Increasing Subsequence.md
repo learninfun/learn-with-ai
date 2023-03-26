@@ -4,7 +4,7 @@ weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Longest Increasing Subsequence的问题
+给我5题Longest Increasing Subsequence的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "6"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Longest Increasing Subsequence并举例
+以中文说明Longest Increasing Subsequence并举例
 {{< /ask_chatgpt >}}
 
 
@@ -47,9 +47,9 @@ Longest Increasing Subsequence（最长上升子序列）是指在一个序列�
 8. 对于第七个元素8，找到比它小的元素7，且dp[3]+1大于dp[6]，因此更新dp[6]为4。
 9. 最后遍历dp数组，找到最大的元素为4，因此该序列的最长上升子序列为 [3, 5, 7, 8]，长度为4。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Longest Increasing Subsequence的重点
+以中文条列Longest Increasing Subsequence的重点
 {{< /ask_chatgpt >}}
 
 
@@ -68,7 +68,7 @@ Longest Increasing Subsequence（最长上升子序列）是指在一个序列�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Longest Increasing Subsequence的中等难度问题，并在后面列出答案
+以中文给我5题Longest Increasing Subsequence的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

@@ -4,7 +4,7 @@ weight = "6"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题CDNs的问题
+给我5题CDNs的中文问题
 {{< /ask_chatgpt >}}
 
 1. 什么是CDN？它如何工作？
@@ -15,7 +15,7 @@ weight = "6"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明CDNs并举例
+以中文说明CDNs并举例
 {{< /ask_chatgpt >}}
 
 
@@ -34,9 +34,9 @@ CDN（Content Delivery Network）是指一种分散在全球各地的大型伺�
 
 5. CacheFly：位于芝加哥的CDN提供商，提供CDN加速和安全功能。他们说服了FastCompany，维持着CDN业界中唯一的100％上线保证。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列CDNs的重点
+以中文条列CDNs的重点
 {{< /ask_chatgpt >}}
 
 
@@ -56,7 +56,7 @@ CDN网络具有高可用性，因为它们分布在全球各地的节点可以�
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题CDNs的中等难度问题，并在后面列出答案
+以中文给我5题CDNs的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 

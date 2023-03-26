@@ -1,7 +1,7 @@
 
 
-1. 如何實現QuickSort的In-Place版本？
-答案：由於QuickSort是將一個數列切割成較小和較大的元素，因此可以使用一個指針來追踪分割元素的位置，將小於分割元素的元素放在左側，大於分割元素的元素放在右側。請參考以下代碼：
+1. 如何实现QuickSort的In-Place版本？
+答案：由于QuickSort是将一个数列切割成较小和较大的元素，因此可以使用一个指针来追踪分割元素的位置，将小于分割元素的元素放在左侧，大于分割元素的元素放在右侧。请参考以下代码：
 
 ```python
 def quickSortInPlace(arr, low, high):
@@ -21,11 +21,11 @@ def partition(arr, low, high):
     return i + 1
 ```
 
-2. 如何使用MergeSort來對超過1TB的大型數據進行排序？
-答案：將數據分成小的塊，分別使用MergeSort進行排序，然後依次合併這些已排序的塊，直到所有數據都被排序。這種方法稱為外部排序（external sorting）。例如，可以將數據分成100GB的塊，排序每個塊，然後使用儲存器並行合併這些已排序的塊。
+2. 如何使用MergeSort来对超过1TB的大型数据进行排序？
+答案：将数据分成小的块，分别使用MergeSort进行排序，然后依次合并这些已排序的块，直到所有数据都被排序。这种方法称为外部排序（external sorting）。例如，可以将数据分成100GB的块，排序每个块，然后使用储存器并行合并这些已排序的块。
 
-3. 如何實現HeapSort算法？
-答案：HeapSort使用最大堆（Max Heap）來實現排序的過程。首先將數據構建成最大堆，然後依次取出堆頂元素（最大元素），放到數列最後，再進行最大堆重建操作。請參考以下代碼：
+3. 如何实现HeapSort算法？
+答案：HeapSort使用最大堆（Max Heap）来实现排序的过程。首先将数据构建成最大堆，然后依次取出堆顶元素（最大元素），放到数列最后，再进行最大堆重建操作。请参考以下代码：
 
 ```python
 def heapSort(arr):
@@ -49,8 +49,8 @@ def heapify(arr, n, i):
         heapify(arr, n, largest)
 ```
 
-4. 如何在O(n)時間複雜度下找到數列中第k小的元素？
-答案：可以使用QuickSelect算法，類似於QuickSort的思想，只需繼續對分割後的一個子數列進行遞迴，直到找到第k小的元素。平均時間複雜度為 O(n)。以下是Python示例代碼：
+4. 如何在O(n)时间复杂度下找到数列中第k小的元素？
+答案：可以使用QuickSelect算法，类似于QuickSort的思想，只需继续对分割后的一个子数列进行递回，直到找到第k小的元素。平均时间复杂度为 O(n)。以下是Python示例代码：
 
 ```python
 import random
@@ -79,8 +79,8 @@ def partition(arr, left, right, pivotIndex):
     return storeIndex
 ```
 
-5. 如何使用BubbleSort來對鏈表進行排序？
-答案：在鏈表上進行交換操作較為困難，因此可以使用一個標誌來標記最後一個已排序節點的位置，然後將下一個節點與其比較，如果需要排序則進行交換，直到標誌移動到鏈表末尾為止。以下是示例代碼：
+5. 如何使用BubbleSort来对链表进行排序？
+答案：在链表上进行交换操作较为困难，因此可以使用一个标志来标记最后一个已排序节点的位置，然后将下一个节点与其比较，如果需要排序则进行交换，直到标志移动到链表末尾为止。以下是示例代码：
 
 ```python
 class ListNode:
@@ -103,4 +103,4 @@ def bubbleSortList(head):
     return head
 ```
 
-以上所有代碼均為Python 3.6+。
+以上所有代码均为Python 3.6+。

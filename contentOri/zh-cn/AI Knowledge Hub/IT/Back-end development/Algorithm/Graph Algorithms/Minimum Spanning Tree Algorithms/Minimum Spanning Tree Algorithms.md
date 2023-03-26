@@ -4,7 +4,7 @@ weight = "3"
 +++
 ## 习题预习
 {{< ask_chatgpt >}}
-给我5题Minimum Spanning Tree Algorithms的问题
+给我5题Minimum Spanning Tree Algorithms的中文问题
 {{< /ask_chatgpt >}}
 
 
@@ -21,7 +21,7 @@ weight = "3"
 
 ## 说明知识
 {{< ask_chatgpt >}}
-说明Minimum Spanning Tree Algorithms并举例
+以中文说明Minimum Spanning Tree Algorithms并举例
 {{< /ask_chatgpt >}}
 
 
@@ -42,9 +42,9 @@ Minimum Spanning Tree Algorithms（最小生成树算法）是用来找寻一个
 
 两种算法得到的最小生成树都是一样的，但是在不同的图形、节点数量上，两种算法的表现可能会有所不同。   
 
-## 汇总重点
+## 条列重点
 {{< ask_chatgpt >}}
-条列Minimum Spanning Tree Algorithms的重点
+以中文条列Minimum Spanning Tree Algorithms的重点
 {{< /ask_chatgpt >}}
 
 
@@ -57,7 +57,7 @@ Minimum Spanning Tree Algorithms（最小生成树算法）是用来找寻一个
 
 ## 知识测验
 {{< ask_chatgpt >}}
-给我5题Minimum Spanning Tree Algorithms的中等难度问题，并在后面列出答案
+以中文给我5题Minimum Spanning Tree Algorithms的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 
