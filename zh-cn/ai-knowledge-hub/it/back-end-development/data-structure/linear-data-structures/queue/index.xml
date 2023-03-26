@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>伫列 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/</link><description>Recent content in 伫列 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/index.xml" rel="self" type="application/rss+xml"/><item><title>线性伫列</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/linear-queue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/linear-queue/</guid><description>习题预习 User ask:
-给我5题Linear Queue的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>佇列 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/</link><description>Recent content in 佇列 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/index.xml" rel="self" type="application/rss+xml"/><item><title>线性伫列</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/linear-queue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/linear-queue/</guid><description>习题预习 User ask:
+给我5题Linear Queue的中文问题 ChatGPT answer:
 请说明什么是 Linear Queue，以及它的特性是什么？ 在 Linear Queue 中，什么情况下会发生 Queue 满了的情况？如果发生了该怎么处理？ Linear Queue 的基本操作有哪些？请分别说明它们的意思。 请写出一段程式码，实现 Linear Queue 的入队和出队操作。 Linear Queue 和 Circular Queue 有什么不同？在什么情况下应该选择使用 Circular Queue？ 说明知识 User ask:
-说明Linear Queue并举例 ChatGPT answer:
+以中文说明Linear Queue并举例 ChatGPT answer:
 Linear Queue是指一种基于先进先出(FIFO)原则的资料结构。如同一列在银行排队的方式，最先进入排队的人最先被处理，后进入排队的人就要等候前面的人处理完毕以后才能进行下一步操作。
 在Linear Queue中，资料是线性排列的，并且在做入队(Enqueue)和出队(Dequeue)操作时，资料只能在头尾两端进行。一般来说，Linear Queue是用Array或Linked List实现的。
 以下是Linear Queue的范例：
 当一列人在银行排队时，最先进入排队的人(ID: 001)，会成为第一个进入Queue的元素。之后，第二个人(ID: 002)进入排队，成为Enqueue的元素。当第一个人(ID: 001)完成作业后，他成为Dequeue的元素，并且由第二个人(ID: 002)取代成为Head元素。
 就像这个例子，当资料依照顺序进入Queue后，会依照先进先出的原则完成操作。所有在Queue中等候的元素会在适当时间被处理完毕。
-汇总重点 User ask:
-条列Linear Queue的重点 ChatGPT answer:
-Linear Queue是一種線性的資料結構，具有先進先出的特性。 它通常包含一個前端(front)指針和一個後端(rear)指針，用來指示首尾兩端的位置。 新元素在後端(rear)添加，舊元素在前端(front)刪除。 元素依次排列，插入和刪除均按照先進先出(FIFO)的原則進行。 當前端(front)和後端(rear)指針相等空間時，稱為空隊列，當尾指針加1等於佇列長度時，稱為滿隊列。 可以使用數組或鏈表實現Linear Queue，一般選擇鏈表實現，具有彈性且節省空間。 常見操作有：enqueue(添加元素)、dequeue(刪除元素)、isEmpty(判斷是否空隊列)、isFull(判斷是否滿隊列)等。 知识测验 User ask:</description></item><item><title>环形伫列</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/circular-queue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/circular-queue/</guid><description>习题预习 User ask:
-给我5题Circular Queue的问题 ChatGPT answer:
+条列重点 User ask:
+以中文条列Linear Queue的重点 ChatGPT answer:
+Linear Queue是一种线性的资料结构，具有先进先出的特性。 它通常包含一个前端(front)指针和一个后端(rear)指针，用来指示首尾两端的位置。 新元素在后端(rear)添加，旧元素在前端(front)删除。 元素依次排列，插入和删除均按照先进先出(FIFO)的原则进行。 当前端(front)和后端(rear)指针相等空间时，称为空队列，当尾指针加1等于伫列长度时，称为满队列。 可以使用数组或链表实现Linear Queue，一般选择链表实现，具有弹性且节省空间。 常见操作有：enqueue(添加元素)、dequeue(删除元素)、isEmpty(判断是否空队列)、isFull(判断是否满队列)等。 知识测验 User ask:</description></item><item><title>環形佇列</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/circular-queue/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/queue/circular-queue/</guid><description>習題預習 User ask:
+給我5題Circular Queue的中文問題 ChatGPT answer:
 什麼是Circular Queue？
 Circular Queue和普通Queue的差異是什麼？
 如何實現一個Circular Queue？
 Circular Queue在什麼場景中使用比較合適？
 如何保證Circular Queue的正確性和性能？
-说明知识 User ask:
-说明Circular Queue并举例 ChatGPT answer:
+說明知識 User ask:
+以中文說明Circular Queue並舉例 ChatGPT answer:
 Circular Queue 是一種在介面上很像 Queue 的資料結構，但與一般的 Queue 不同的是，它允許在 Queue 的尾端插入元素，同時在 Queue 的頭端也同時可以移除元素，因此當 Queue 已塞滿元素時，它能夠 &amp;ldquo;循環 (circular)&amp;rdquo; 回到 Queue 的初始位置重新插入元素。
 使用 Circular Queue 的優點是，當我們使用陣列來實現 Circular Queue 時，可以使用頭指標與尾指標來維護 Queue 的運行。同時，因為每當尾指標到達數組的尾端時，它都會重新回到陣列的起點，因此能夠節省空間的浪費。
 舉例來說，如果我們有一個大小為 5 的 Circular Queue，它的運作方式可能如下：

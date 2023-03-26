@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微服务 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/</link><description>Recent content in 微服务 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/index.xml" rel="self" type="application/rss+xml"/><item><title>RESTful API</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</guid><description>习题预习 User ask:
-给我5题RESTful API的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微服務 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/</link><description>Recent content in 微服務 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/index.xml" rel="self" type="application/rss+xml"/><item><title>RESTful API</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/micro-service/restful-api/</guid><description>習題預習 User ask:
+給我5題RESTful API的中文問題 ChatGPT answer:
 什麼是RESTful API？
 RESTful API與傳統API有何區別？
 什麼是URI？URI在RESTful API中扮演什麼角色？
 RESTful API中的CRUD是什麼意思？
 如何保證RESTful API的安全性和可靠性？
-说明知识 User ask:
-说明RESTful API并举例 ChatGPT answer:
+說明知識 User ask:
+以中文說明RESTful API並舉例 ChatGPT answer:
 RESTful API（Representational State Transfer API）是一种基于HTTP协议、遵循REST原则的Web API，可以用来让不同的软件应用程序之间通讯，提供资源和操作。
 REST原则包括：使用URI描述资源、使用HTTP动词描述操作、使用HTTP状态码返回结果、使用Hypermedia作为应用程序状态转移的引擎等。
 以下是一个简单的例子，说明如何创建一个RESTful API：
@@ -19,10 +19,10 @@ REST原则包括：使用URI描述资源、使用HTTP动词描述操作、使用
 使用Hypermedia引擎
 Hypermedia是一种用于描述应用程序状态的格式，可以表达所有可能从当前状态进行的状态转移。例如，其他可用的资源可以通过链接提供，从而帮助客户端进行导航和发现。
 总的来说，RESTful API是一种非常灵活和可扩展的API设计模式，可以与各种不同的客户端和服务器技术一起使用。其优点包括相对简单易用、易于扩展、面向资源等特点。常见的RESTful API包括Twitter API、GitHub API等。
-汇总重点 User ask:
-条列RESTful API的重点 ChatGPT answer:
-基于资源：RESTful API是基于资源的设计，每一个资源都有一个独立的URI，表示用户可以通过URI访问资源。
-请求方法：使用HTTP请求方法（GET, POST, PUT, DELETE）来执行操作。
-无状态：RESTful API是无状态的，每一个请求都是独立的，伺服器不会保留任何用户的状态。
-资源表示：用户可以通过请求URI获取资源的资讯，通常使用JSON等格式来表示资源。
-HATEOAS：Hypermedia as the Engine of Application State，RESTful API通常提供超媒体链接，让用户可以通过连结来访问相关资源。</description></item></channel></rss>
+條列重點 User ask:
+以中文條列RESTful API的重點 ChatGPT answer:
+基於資源：RESTful API是基於資源的設計，每一個資源都有一個獨立的URI，表示用戶可以通過URI訪問資源。
+請求方法：使用HTTP請求方法（GET, POST, PUT, DELETE）來執行操作。
+無狀態：RESTful API是無狀態的，每一個請求都是獨立的，伺服器不會保留任何用戶的狀態。
+資源表示：用戶可以通過請求URI獲取資源的資訊，通常使用JSON等格式來表示資源。
+HATEOAS：Hypermedia as the Engine of Application State，RESTful API通常提供超媒體鏈接，讓用戶可以通過連結來訪問相關資源。</description></item></channel></rss>

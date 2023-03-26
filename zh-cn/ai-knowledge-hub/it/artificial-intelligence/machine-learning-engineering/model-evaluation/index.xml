@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>模型评估 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/</link><description>Recent content in 模型评估 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/index.xml" rel="self" type="application/rss+xml"/><item><title>准确率</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/accuracy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/accuracy/</guid><description>习题预习 User ask:
+给我5题Accuracy的中文问题 ChatGPT answer:
+在这次测试中，您对这个任务的准确率是多少？ 您能否谈谈您对扫瞄仪准确性的看法？ 这个软件的准确度满足您的要求吗？ 您在制作这份报告时的准确度如何？ 您在这项实验中所得到的数据的准确性如何进行验证？ 说明知识 User ask:
+以中文说明Accuracy并举例 ChatGPT answer:
+Accuracy表示模型的预测结果与实际结果之间的相似度或准确度。当模型对资料集进行预测时，较高的Accuracy表示模型预测的结果更接近真实的结果，反之则表示模型的预测不够准确。
+例如，假设有一个资料集有500个样本，其中100个样本是正面结果，另外400个样本是负面结果。为了测试模型的Accuracy，我们可以将这个资料集分成训练集和测试集，然后使用训练集训练模型，再使用测试集来评估模型的Accuracy。
+假设经过测试后，模型成功预测了95%的样本。这表示模型对于资料集的预测结果非常接近真实结果，因此我们可以说这个模型具有很高的Accuracy。
+条列重点 User ask:
+以中文条列Accuracy的重点 ChatGPT answer:
+正確性是模型成功的基本衡量標準，代表模型對應的預測結果與真實結果之間的相似度。
+正確性可以通過不同的指標進行測量，如精確度、召回率、F1分數等。
+進行正確性評估時，需要注意樣本的大小、類別的平衡性、以及基於預測目標對正確性指標的選取。
+提高正確性可以通過採取更好的特徵工程、更好的模型選擇、更好的參數調整以及更大的數據集等手段。
+正確性也存在其局限性，如在類別不平衡的情況下，即使模型的正確率非常高，但對於少數類別的預測表現也可能很差。因此，建議綜合考慮正確率以外的其他評估指標。
+知识测验 User ask:
+以中文给我5题Accuracy的中等难度问题，并在后面列出答案 ChatGPT answer:
+Jack always arrives at work at 8:45 am. If he left his house at 8:20 am and the travel time to his workplace is 25 minutes, what time did Jack leave home?
+答案：Jack在8:20 am離開家。</description></item><item><title>召回率</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/recall/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/recall/</guid><description>习题预习 User ask:
+给我5题Recall的中文问题 ChatGPT answer:
+你還記得昨天我們一起去逛街買了什麼嗎？ 請你述說你的學生時代最難忘的一件事。 在上週的會議中，你們討論了哪些議題？ 你能回想起上個月你們開展的專案是關於什麼的嗎？ 請問你上次去旅行是什麼時候？去了哪裡？ 说明知识 User ask:
+以中文说明Recall并举例 ChatGPT answer:
+Recall是指在二元分類中，所有實際為正類的樣本中，被模型預測為正類的比例。換句話說，Recall評估模型對於正類樣本的識別能力，越高代表模型能夠更好地找到全部的正類樣本。
+例如，在一個垃圾郵件篩選的情境中，我們希望找到全部的垃圾郵件，因此“垃圾郵件”就是正類。如果模型預測出100封垃圾郵件中有90封，那麼Recall為0.9。也就是說，模型能夠找到90%的垃圾郵件，並且僅有10%的垃圾郵件被漏掉了。這樣的Recall表現很好，因為我們希望能夠找到盡可能多的垃圾郵件，並減少漏檢的風險。
+条列重点 User ask:
+以中文条列Recall的重点 ChatGPT answer:
+回憶是一種復發性的工作，需要不斷地活化。
+回憶需要在足夠的時間和安靜的環境下進行，以便大腦能夠專注於回憶。
+在回憶中使用多種感官，例如視覺、聽覺、觸覺和味覺，可以更容易地激發記憶。
+使用關聯和聯想可以幫助記憶，例如將新資訊與舊資訊連結在一起。
+練習和反覆回憶可以加強記憶的存儲，例如重複學習或背誦。
+健康的生活方式可以幫助保持好的記憶，如適當的飲食、運動和足夠的睡眠。
+壓力和情緒可以干擾記憶，因此需要學會壓力管理和情緒調節。
+記憶力會隨著年齡增長而下降，但可以透過不斷的練習和用腦保持好的記憶。
+知识测验 User ask:
+以中文给我5题Recall的中等难度问题，并在后面列出答案 ChatGPT answer:
+在一個人口普查的樣本調查中，有10,000位民眾參與了調查，其中有3,000人支持某項政策。該政策的支持率是多少？
+答案：30%
+某公司有80名員工，其中有20人參加了某項培訓課程。在全部員工中，有多少比例的人參加了培訓課程？
+答案：25%
+一個利用激光切割金屬的機器，每10個工件中會有2個工件不符合要求。那麼，在100個工件中，預計會有多少個不符合要求的工件？
+答案：20個
+某商品在過去一周內的網路廣告中，有10000次出現，其中5%的廣告點擊了連結購買了該商品。那麼，有多少人通過這個廣告購買了該商品？
+答案：500人
+一個疫苗的有效性是90%。一個接受該疫苗的人很有可能被保護，而當然也可能不被保護。如果你接種了這個疫苗，那麼你有多少概率不被保護？
+答案：10%</description></item><item><title>F1得分</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/f1-score/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/machine-learning-engineering/model-evaluation/f1-score/</guid><description>习题预习 User ask:
+给我5题F1 Score的中文问题 ChatGPT answer:
+F1 Score是什么，有什么作用？ F1 Score的计算公式是什么，如何解释？ F1 Score和Accuracy的区别是什么？ F1 Score在解决什么样的问题中特别重要？ 如何利用F1 Score来评估机器学习模型的表现？ 说明知识 User ask:
+以中文说明F1 Score并举例 ChatGPT answer:
+F1 Score是一个综合评估模型准确率和召回率的指标，它是精度和召回率的调和平均值。F1 Score值介于0和1之间，值越接近1表示模型的准确性和召回率越高。
+例如，假设有一个二元分类问题，假阳性(FP)代表预测某个样本为阳性，但实际上是阴性；假阴性(FN)代表预测某个样本为阴性，但实际上是阳性；真阴性(TN)代表预测某个样本为阴性，实际上也是阴性；真阳性(TP)代表预测某个样本为阳性，实际上也是阳性。假设一个分类器对一个资料集进行预测，得到以下的confusion matrix：
+Predicted Positive Predicted Negative Actual Positive TP = 80 FN = 20 Actual Negative FP = 10 TN = 90 根据上述的confusion matrix，可以计算出模型的精度和召回率，其中精度= TP / (TP+FP)，而召回率= TP / (TP+FN)。F1 Score则可以通过以下公式计算：F1 Score = 2 x (精度x召回率)/(精度+召回率)。在这个例子中，精度=80 / (80+10)=0.89，召回率=80 / (80+20)=0.80。因此，F1 Score = 2 x (0.</description></item></channel></rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>安全 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/</link><description>Recent content in 安全 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/index.xml" rel="self" type="application/rss+xml"/><item><title>資料安全</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/data-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/data-security/</guid><description>習題預習 User ask:
+給我5題Data Security的中文問題 ChatGPT answer:
+什麼是數據安全？它為什麼對企業和個人很重要？ 從哪些方面來保護數據的安全？例如加密、防火牆等等。 有哪些安全風險會威脅數據？例如電腦病毒、漏洞、人為操作等等。 如何應對和解決數據安全問題？例如在發現洩露風險後該怎麼處理。 數據安全法規的相關法律知識是什麼？例如GDPR、CCPA、Cyber Security Law等等。 說明知識 User ask:
+以中文說明Data Security並舉例 ChatGPT answer:
+資料安全（Data Security）是保護資料不受未經授權的存取、使用、修改、刪除、損毀或泄漏的技術和措施。資料安全通常包括機密性、完整性和可用性三個核心要素。以下是一些資料安全的例子：
+入侵偵測系統（Intrusion Detection System，IDS）：透過監測網絡流量、系統日誌等方式，及時發現可能的攻擊行為，保障系統安全。
+防火牆（Firewall）：防火牆可以封鎖未經授權的訪問，確保系統免受攻擊和網絡威脅。
+加密技術：加密技術可以將敏感資料換成一段難以理解的密文，以確保機密性。
+密碼複雜度要求：強制要求密碼含有足夠的字元、大小寫字母、數字和符號等，以提高密碼的安全性。
+雲端備份：在雲端備份中，資料會存儲在遠程的伺服器上，可以防止資訊丟失和未授權的存取。
+這些措施都是為了確保資料安全，不被外部未經授權的第三方訪問和違反。
+條列重點 User ask:
+以中文條列Data Security的重點 ChatGPT answer:
+敏感數據加密：對於敏感數據採用加密技術保護，如SSL、TLS、AES等。
+身份驗證與權限控制：確保合法使用者的正確身份，並擁有對應的權限，以防止非授權人員存取、修改或刪除資料。
+防火牆與入侵檢測系統：設置防火牆和入侵檢測系統以防止未經授權的人員存取系統和目標資源。
+監控與日誌記錄：實時監控資源的存取情況，並將所有的事件記錄下來，以方便追蹤、分析和回溯。
+反病毒軟件：針對病毒、木馬和惡意軟件等的攻擊，選用反病毒軟件及時更新與維護，保護系統運作的穩定性。
+多重備份和災難恢復計劃：使用多個備份系統和災難恢復計劃來保障資料可以及時且正確地還原，以確保在不可預見的事件中，仍能維護到企業運營的連續性。
+定期執行安全漏洞掃描：定期執行安全漏洞掃描以確保系統安全，如及時更新系統漏洞和修補安全風險。
+資料隔離：資料按不同的級別進行隔離，以最大程度地防止未經授權方存取企業財務、客戶和員工資訊等敏感資料。
+員工教育和行為監控：員工教育培訓以確保員工可以嚴格遵守資料保護策略，同時實施行為監控保證員工操作符合企業規範和法令。
+知識測驗 User ask:
+以中文給我5題Data Security的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是SSL/TLS協議？它是如何保護網絡傳輸安全的？ 如何預防內部員工在不當情況下泄露敏感數據？ 什麼是DDoS攻擊？如何保障網絡系統在DDoS攻擊下的安全性？ 如何進行加密和解密？它們是如何實現數據安全保護的？ 如何設置系統管理員權限，以保障系統的安全性？有哪些常見的系統安全隱患？ 答案：
+SSL/TLS協議是一種加密通信協議，透過對網絡傳輸的數據進行加密，保障網絡傳輸的安全性，防止數據被截取、竊取或篡改。 通過制定員工手冊、確定敏感信息的等級、實施安全設置、對數據進行監控等手段，可以避免內部員工不當泄露敏感數據。 DDoS攻擊是指使用多台主機對同一目標發起攻擊，使目標系統無法正常運行。通過設置防火牆、加強系統安全設置、使用防禦系統等手段可以保障網絡系統在DDoS攻擊下的安全性。 加密通常可以分為對稱加密和非對稱加密兩種方式。對稱加密通過同一把密鑰對數據進行加密和解密，非對稱加密則通過公鑰和私鑰兩個不同的密鑰對數據進行加密和解密。加密技術能夠保障數據在傳輸和存儲過程中的安全性。 系統管理員權限應該根據工作需要進行區分。常見的系統安全隱患包括系統漏洞、弱口令、病毒木馬、拒絕服務攻擊等。通過定期進行系統檢測、進行弱點管理、及時更新补丁、設置安全防衛措施等手段可以有效地保障系統的安全性。</description></item><item><title>系統安全</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/system-security/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/artificial-intelligence/ai-ethics-and-safety/security/system-security/</guid><description>習題預習 User ask:
+給我5題System Security的中文問題 ChatGPT answer:
+什麼是系統安全？它為什麼在現代電腦系統中很重要？ 保障系統安全所需的主要步驟是哪些？這些步驟如何護衛系統免受攻擊和滲透？ 哪些是常見的系統安全攻擊？它們有哪些特點和影響？ 有哪些措施可以協助保護操作系統的安全性？這些措施可以提高哪些安全方面的保護？ 網絡安全和系統安全之間有什麼區別？它們如何相互作用，並如何協同工作以提供完整的安全解決方案？ 說明知識 User ask:
+以中文說明System Security並舉例 ChatGPT answer:
+System Security指的是保護電腦系統免受未經授權的存取、破壞或損害的安全防護措施。它是一個非常重要的概念，因為現代社會中，人們通常會使用電腦來儲存重要的資訊，如個人資料、財務資訊、企業商業機密等。如果這些敏感資料被黑客入侵控制，可能會導致嚴重後果，如財務損失、機密泄漏、聲譽危害等。
+例如，企業可以實施多層次的系統安全措施，如建立強大的防火牆、實施嚴格的密碼策略、啟用入侵檢測軟體、定期更新系統中的漏洞補丁等，以減少電腦系統受到攻擊的風險。同時，個人也可以通過使用可靠的防病毒軟體、不隨意點開陌生電子郵件或連結、定期更換密碼等簡單的措施保護他們自己的電腦系統安全。
+條列重點 User ask:
+以中文條列System Security的重點 ChatGPT answer:
+系統安全的目標：保護計算機系統和資訊不受未經授權的訪問、使用、修改、破壞或洩漏等威脅。
+資產管理：確定、分類和評估系統中的重要資訊資產；關注敏感資訊和機密資訊的保護。
+存取控制：限制使用者對系統和資訊的訪問，以確保安全和保密性；落實強密碼和身份驗證措施。
+風險評估：對系統漏洞、威脅和風險進行評估，制定相應的保護計劃和措施。
+網絡安全：保護網絡不受惡意攻擊和入侵；使用防火牆、入侵檢測和防病毒等技術措施。
+密碼學：利用密碼學技術對敏感資訊進行加密和解密，保護資訊的機密性和完整性。
+儀表板和監控：通過儀表板和監控系統即時跟蹤系統運行狀態和安全事件，及時應對安全威脅。
+行動安全：確保移動設備和應用的安全，避免機密資訊的洩漏和遠程攻擊。
+威脅防護：採用反病毒軟件、反間諜軟件和防範DoS攻擊等措施，有效抵禦各種線上威脅。
+安全意識和培訓：提高使用者和IT人員的安全意識，定期進行安全培訓和演練，保障系統和資訊的安全和完整性。
+知識測驗 User ask:
+以中文給我5題System Security的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是Buffer Overflow攻擊？請描述此攻擊如何影響系統安全？
+答案：Buffer Overflow攻擊是利用程式的漏洞，將大量資料儲存在緩衝區中，超出緩衝區範圍，導致程式崩潰或執行不正常的現象。這種攻擊可能會讓攻擊者有機會執行任意指令，從而對系統造成嚴重威脅。
+Hash攻擊是什麼？它如何影響密碼學的安全性？
+答案：Hash攻擊是指利用特定漏洞或技術，將密碼的雜湊值找出，從而得到原始密碼或製作偽造的密碼。這種攻擊對密碼學的安全性造成極大威脅，因為即使是複雜的密碼也無法抵擋Hash攻擊。
+感染型病毒與植入型病毒有何不同？請舉例說明。
+答案：感染型病毒會在系統中複製自己並感染其他檔案或程式，例如早期的ILOVEYOU病毒。植入型病毒則是將自己嵌入檔案或系統中，例如Stuxnet病毒。感染型病毒的散播速度較快，而植入型病毒較難被偵測和清除。
+XSS攻擊如何進行？如何防止這種攻擊？
+答案：XSS攻擊是指在網頁中惡意輸入代碼，從而突破網頁的安全機制，取得用戶資料等機密資訊。這種攻擊可以通過注入JavaScript等腳本實現。為了防止XSS攻擊，可以使用輸入過濾器，限制特定的字符輸入，或者對用戶輸入進行適當的驗證和過濾。
+什麼是DDoS攻擊？這種攻擊對系統和網站的影響有哪些？
+答案：DDoS攻擊是指通過向某個網站或系統發送大量流量或請求，從而使其無法正常運行或提供服務。這種攻擊可能會使網站或系統停擺，造成使用者無法正常訪問或使用，對公司造成重大損失。為了防止DDoS攻擊，可以使用負載平衡器或防火牆等安全措施。</description></item></channel></rss>

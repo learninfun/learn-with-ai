@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网路流演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/</link><description>Recent content in 网路流演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Ford-Fulkerson演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</guid><description>习题预习 User ask:
-给我5题Ford-Fulkerson Algorithm的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>網路流演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/</link><description>Recent content in 網路流演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Ford-Fulkerson演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/ford-fulkerson-algorithm/</guid><description>习题预习 User ask:
+给我5题Ford-Fulkerson Algorithm的中文问题 ChatGPT answer:
 你有一个有向图形，每条边都有一个正整数的容量。从顶点s开始，到顶点t结束。求从s到t的最大流。
 给定一个二分图，以及源点s和汇点t，请计算最大流值。
 在一个有向图形中，每个边都有一个正的权值，求最大权重匹配。
 假设你有一个实时网路，将每个节点表示为一个点。s表示源点，t表示汇点，每条边都有一个流速。现在，一个节点被标记为黑色，意味着它的能力提高了。该算法如何计算新的最大流？
 在一个有向图形中，每条边都有一个正整数的容量和成本。求从s到t的最小花费流。
 说明知识 User ask:
-说明Ford-Fulkerson Algorithm并举例 ChatGPT answer:
+以中文说明Ford-Fulkerson Algorithm并举例 ChatGPT answer:
 Ford-Fulkerson演算法（Ford-Fulkerson Algorithm）是一种解决最大流问题（Max Flow Problem）的基本算法，通常用于网路流（Network Flow）研究中。
 该演算法的核心思想是在网路中寻找增广路（augmenting path），并利用增广路来增加最大流量（Max Flow）。增广路是指从源节点到汇点之间存在一条路径，路径上还有可用的流量，通过增加这些路径上的流量可以得到更大的最大流。
 该算法的步骤如下：
@@ -20,8 +20,8 @@ step 1， 最大流等于0。
 step 2，寻找增广路，以S为起点，从1边增广，将流量设定为1，网路变成。
 step 3，寻找增广路，以S为起点，从2边增广，将流量设定为2，网路变成。
 网路中不存在增广路，因此得到最大流为3。
-汇总重点 User ask:
-条列Ford-Fulkerson Algorithm的重点 ChatGPT answer:
+条列重点 User ask:
+以中文条列Ford-Fulkerson Algorithm的重点 ChatGPT answer:
 Ford-Fulkerson算法是一种用于解决最大流问题的经典算法，它的重点可以概括为以下几点：
 确定流量网络 Ford-Fulkerson算法先将图形建立为流量网络，其中包括节点、边以及对应的容量值。
 确定增广路径 算法通过寻找增广路径来增大网络流量，增广路径是指一条起始节点和终止节点之间，且经过的所有边上还有剩余容量的路径。
@@ -30,11 +30,11 @@ Ford-Fulkerson算法是一种用于解决最大流问题的经典算法，它的
 重复进行增广路径搜索直到不存在增广路径为止 不断寻找增广路径并调整流量直到无法找到增广路径，此时网络流量即达到了最大值。
 总体而言，Ford-Fulkerson算法的关键在于如何寻找增广路径，并且在其中找到可以增大网络流量的最小瓶颈容量。该算法的时间复杂度为O(Ef)，其中E表示网络流量总边数，f表示最大流量值。
 知识测验 User ask:
-给我5题Ford-Fulkerson Algorithm的中等难度问题，并在后面列出答案 ChatGPT answer:
-在下圖中，使用Ford-Fulkerson演算法找到將從節點S到節點T的最大流。在創建殘留圖時，先從所有容量為0的反向邊開始，創建具有最下容量的邊。 答案：最大流為23</description></item><item><title>Edmonds-Karp演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</guid><description>习题预习 User ask:
-给我5题Edmonds-Karp Algorithm的问题 ChatGPT answer:
-假設有一個圖形表示水流網路，每條邊都有一個流量上限。請使用Edmonds-Karp演算法，找出從源頭到匯點的最大流量。 一個國家有很多城市和道路，每條道路都有一個容量限制，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最大流量。 在一個有向圖中，每條邊都有一個權值，請使用Edmonds-Karp演算法找出從源頭到匯點的最小成本最大流量。 一個城市通往其他城市的交通網路，每條路都有一個容量限制和一個花費，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最小成本最大流量。 在一個電信網路中，每一條邊都是一條電纜，每個節點都是一個交換機。如果一對交換機之間的電纜故障了，就不能通信。請使用Edmonds-Karp演算法找出一個最小的故障集，使得從源頭到匯點之間的所有交換機都能夠通信。 说明知识 User ask:
-说明Edmonds-Karp Algorithm并举例 ChatGPT answer:
+以中文给我5题Ford-Fulkerson Algorithm的中等难度问题，并在后面列出答案 ChatGPT answer:
+在下图中，使用Ford-Fulkerson演算法找到将从节点S到节点T的最大流。在创建残留图时，先从所有容量为0的反向边开始，创建具有最下容量的边。 答案：最大流为23</description></item><item><title>Edmonds-Karp演算法</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/graph-algorithms/network-flow-algorithms/edmonds-karp-algorithm/</guid><description>習題預習 User ask:
+給我5題Edmonds-Karp Algorithm的中文問題 ChatGPT answer:
+假設有一個圖形表示水流網路，每條邊都有一個流量上限。請使用Edmonds-Karp演算法，找出從源頭到匯點的最大流量。 一個國家有很多城市和道路，每條道路都有一個容量限制，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最大流量。 在一個有向圖中，每條邊都有一個權值，請使用Edmonds-Karp演算法找出從源頭到匯點的最小成本最大流量。 一個城市通往其他城市的交通網路，每條路都有一個容量限制和一個花費，請使用Edmonds-Karp演算法找出從一個城市到另一個城市的最小成本最大流量。 在一個電信網路中，每一條邊都是一條電纜，每個節點都是一個交換機。如果一對交換機之間的電纜故障了，就不能通信。請使用Edmonds-Karp演算法找出一個最小的故障集，使得從源頭到匯點之間的所有交換機都能夠通信。 說明知識 User ask:
+以中文說明Edmonds-Karp Algorithm並舉例 ChatGPT answer:
 Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找最小割的一種有效算法。該算法基於廣度優先搜索的思想，每次選擇最短路徑增廣，用一個附加數組來保留流量以及每個點的前驅節點。
 以下是Edmonds-Karp算法的流程：
 初始化剩餘網絡：將原始網絡圖轉換成一個容量等同於原圖的剩餘網絡圖。
@@ -50,12 +50,12 @@ Edmonds-Karp算法是一種用於解決最大流問題的算法，也是尋找�
 然後更新網絡的流量，將上述路徑上的所有邊的流量增加3。如下圖所示：
 繼續用相同的方式尋找增廣路徑，更新網絡流量，直到沒有其他增廣路徑存在為止。
 最終得到的最大流量為7，如下圖所示：
-汇总重点 User ask:
-条列Edmonds-Karp Algorithm的重点 ChatGPT answer:
-Edmonds-Karp Algorithm是一種計算最大流量的算法，它是基於Ford-Fulkerson Algorithm的改進版本。 該算法的核心是BFS演算法，用於尋找增廣路。 在每次找到一個增廣路後，該路上的流量被增加，並更新所有經過的邊的殘餘容量。 重複查找增廣路，直到不存在增廣路為止，此時得到的最大流即為最大可行流。 該算法的時間複雜度為O(V*E^2)，其中V是節點數，E是邊數。 Edmonds-Karp Algorithm具有良好的可讀性和易實現性，並已被廣泛應用。 知识测验 User ask:
-给我5题Edmonds-Karp Algorithm的中等难度问题，并在后面列出答案 ChatGPT answer:
-在一个网路拥有10个顶点和14条边的情况下，找出源节点为1，汇点为10时的最大流。 答案：最大流为4。
-在一个网路拥有6个顶点和10条边的情况下，找出源节点为1，汇点为6时的最大流。 答案：最大流为3。
-在一个网路拥有8个顶点和12条边的情况下，找出源节点为1，汇点为8时的最大流。 答案：最大流为5。
-在一个网路拥有5个顶点和8条边的情况下，找出源节点为1，汇点为5时的最大流。 答案：最大流为4。
-在一个网路拥有7个顶点和11条边的情况下，找出源节点为1，汇点为7时的最大流。 答案：最大流为3。</description></item></channel></rss>
+條列重點 User ask:
+以中文條列Edmonds-Karp Algorithm的重點 ChatGPT answer:
+Edmonds-Karp Algorithm是一種計算最大流量的算法，它是基於Ford-Fulkerson Algorithm的改進版本。 該算法的核心是BFS演算法，用於尋找增廣路。 在每次找到一個增廣路後，該路上的流量被增加，並更新所有經過的邊的殘餘容量。 重複查找增廣路，直到不存在增廣路為止，此時得到的最大流即為最大可行流。 該算法的時間複雜度為O(V*E^2)，其中V是節點數，E是邊數。 Edmonds-Karp Algorithm具有良好的可讀性和易實現性，並已被廣泛應用。 知識測驗 User ask:
+以中文給我5題Edmonds-Karp Algorithm的中等難度問題，並在後面列出答案 ChatGPT answer:
+在一個網路擁有10個頂點和14條邊的情況下，找出源節點為1，匯點為10時的最大流。 答案：最大流為4。
+在一個網路擁有6個頂點和10條邊的情況下，找出源節點為1，匯點為6時的最大流。 答案：最大流為3。
+在一個網路擁有8個頂點和12條邊的情況下，找出源節點為1，匯點為8時的最大流。 答案：最大流為5。
+在一個網路擁有5個頂點和8條邊的情況下，找出源節點為1，匯點為5時的最大流。 答案：最大流為4。
+在一個網路擁有7個頂點和11條邊的情況下，找出源節點為1，匯點為7時的最大流。 答案：最大流為3。</description></item></channel></rss>

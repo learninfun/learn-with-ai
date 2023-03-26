@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transpilers 编译器 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/</link><description>Recent content in Transpilers 编译器 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/index.xml" rel="self" type="application/rss+xml"/><item><title>Babel</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/babel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/babel/</guid><description>习题预习 User ask:
-给我5题Babel的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transpilers 編譯器 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/</link><description>Recent content in Transpilers 編譯器 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/index.xml" rel="self" type="application/rss+xml"/><item><title>Babel</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/babel/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-tooling/transpilers/babel/</guid><description>習題預習 User ask:
+給我5題Babel的中文問題 ChatGPT answer:
 Babel是什麼程式語言，它有什麼特別的功能？
 如何安裝Babel，並如何使用它來轉換JavaScript代碼？
 Babel支持哪些JavaScript語法，以及它們在哪些環境下可用？
 Babel有哪些插件和預設配置可用，以及如何自定義它們？
 Babel在開發網站和Web應用程序時有哪些實用技巧和最佳實踐？
-说明知识 User ask:
-说明Babel并举例 ChatGPT answer:
+說明知識 User ask:
+以中文說明Babel並舉例 ChatGPT answer:
 Babel是一個JavaScript編譯器，用於轉換新版本的JavaScript代碼為較舊的版本，以確保它們能夠在各種瀏覽器和環境中運行。
 例如，Babel可以將以下新的ES6代碼：
 const greeting = (name) =&amp;gt; { return `Hello, ${name}!`; } 轉換為舊版的ES5代碼：
 &amp;#34;use strict&amp;#34;; var greeting = function greeting(name) { return &amp;#34;Hello, &amp;#34; + name + &amp;#34;!&amp;#34;; }; 這樣做可以確保這段代碼在舊版瀏覽器和其它環境中運行良好而不會出現錯誤。Babel還可以支援其他語言功能，如TypeScript和Flow。 通過Babel創建的JavaScript代碼可以更容易地在不同環境中運行，並且更簡潔、可讀性高。
-汇总重点 User ask:
-条列Babel的重点 ChatGPT answer:
+條列重點 User ask:
+以中文條列Babel的重點 ChatGPT answer:
 Babel是一個開源的JavaScript編譯器，以簡化複雜的JavaScript代碼。
 Babel的主要功能是將現代JavaScript語法轉換為舊版本的JavaScript。
 Babel支持最新的JavaScript標準，包括ES6、ES7、ES8等版本。
@@ -23,5 +23,5 @@ Babel是目前最受歡迎的JavaScript編譯器之一，擁有一個龐大的�
 Babel的作用是加速開發過程，提高代碼的可讀性和可維護性，以及改進跨瀏覽器兼容性。
 Babel提供了許多特殊功能，例如async/await轉換、JSX轉換等，可以使JavaScript開發更加簡單易用。
 Babel的使用非常靈活，可以根據項目需求進行定制配置，並與現有代碼庫兼容。
-知识测验 User ask:
-给我5题Babel的中等难度问题，并在后面列出答案 ChatGPT answer:</description></item></channel></rss>
+知識測驗 User ask:
+以中文給我5題Babel的中等難度問題，並在後面列出答案 ChatGPT answer:</description></item></channel></rss>

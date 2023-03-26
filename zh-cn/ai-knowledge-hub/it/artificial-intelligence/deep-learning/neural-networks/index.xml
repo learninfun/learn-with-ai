@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>神经网络 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/</link><description>Recent content in 神经网络 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/index.xml" rel="self" type="application/rss+xml"/><item><title>激活函数</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/activation-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/activation-functions/</guid><description>习题预习 User ask:
+给我5题Activation Functions的中文问题 ChatGPT answer:
+什么是Sigmoid Activation Function? 它的作用是什么？ ReLU Activation Function是什么？为什么它比其他Activation Functions更受欢迎？ Tanh Activation Function与Sigmoid Activation Function之间的区别是什么？TanH的优势在哪里？ LeakyReLU Activation Function是什么？ LeakyReLU如何解决基本ReLu的不足？ Softmax Activation Function是什么？ 这个Activation Function有什么用途？ 说明知识 User ask:
+以中文说明Activation Functions并举例 ChatGPT answer:
+Activation functions是神经网路中的一个重要元素，它决定了每个神经元的输出值。Activation functions可以将输入的信号转换成不同的形式，在深度学习领域中常常使用以下的几种Activation functions：
+Sigmoid Function：将输入的值经由sigmoid函数转换，输出范围在0到1之间。Sigmoid函数在binary classification中的应用很广泛。
+Tanh Function：tanh函数跟sigmoid函数比较相似，但输出值范围在-1到1之间，以及加速神经元的收敛速度。
+ReLU Function：ReLU函数是近年来深度学习中很受欢迎的Activation functions之一，它在输入大于0的情况下直接输出，输入小于0的时候则输出0。ReLU函数可以加速神经元的收敛速度。
+Softmax Function：用于多类别判断的神经网路中。Softmax函数将输入的多个值转换成概率分布，让神经网路可以对多个类别进行分类。
+以上是一些常见的Activation functions，不同的网络模型可能会选择不同的Activation functions，根据任务的不同有时可以使用不同的Activation functions 组合。
+条列重点 User ask:
+以中文条列Activation Functions的重点 ChatGPT answer:
+激活函数可以增加神经网络的非线性能力，提高模型的拟合能力。
+sigmoid函数是一个常见的激活函数，其输出范围在0到1之间，适用于二分类问题。
+tanh函数是sigmoid函数的变形，取值范围在-1到1之间，函数的导数在0处最大。
+ReLU函数非常简单直接，也是近年来最常用的激活函数之一，特点是没有负数输出，训练速度较快，但容易落入&amp;quot;dead ReLU&amp;quot;现象。
+Leaky ReLU函数是对ReLU函数的改进，对于负数部分输出非零值，避免了&amp;quot;dead ReLU&amp;quot;现象的发生。</description></item><item><title>损失函数</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/loss-functions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/loss-functions/</guid><description>习题预习 User ask:
+给我5题Loss Functions的中文问题 ChatGPT answer:
+为何Mean Squared Error是一个常用的Loss Function？ 什么是Binary Cross Entropy Loss，以及它在什么情况下会被使用？ 在多类别分类中，Cross Entropy Loss的概念是什么？如何计算？ 如何使用Hinge Loss来进行SVM（支援向量机）的分类？ 什么是Huber Loss以及它在什么情况下会被使用？ 说明知识 User ask:
+以中文说明Loss Functions并举例 ChatGPT answer:
+Loss Functions是在深度学习中用来衡量模型预测与实际值之间差距的函数。这个函数会计算预测值和实际值之间的误差，并将其转换成数值，以便在训练期间使用梯度下降算法最小化它。
+下面是几种常见的Loss Functions及其例子：
+均方误差(Mean Squared Error, MSE)：计算预测值和实际值之间的平均平方误差。例如，当要预测房屋价格时，MSE可以衡量预测值与实际价格之间的误差。
+交叉熵(Cross-Entropy)：用于衡量分类问题中预测类别与实际类别之间的不匹配程度。例如，当要对图像中的物体进行分类时，交叉熵可以衡量预测的类别与实际类别之间的差距。
+KL散度(Kullback-Leibler Divergence, KL Divergence)：用于衡量机器学习模型中两个机率分布之间的距离。例如，在生成对抗网络(GAN)中，KL散度用于衡量生成器生成的图像分布和真实图像分布之间的相似程度。
+聚类损失(Cluster Loss)：用于衡量聚类模型中预测聚类与真实聚类之间的距离。例如，在文本聚类模型中，聚类损失可以衡量预测的文章分组与实际的分组之间的误差。
+条列重点 User ask:
+以中文条列Loss Functions的重点 ChatGPT answer:
+损失函数（Loss Function）是机器学习模型的一个关键组件，它通常被用来衡量模型预测结果与实际结果之间的差距。
+常见的损失函数包括均方误差（Mean Squared Error，MSE）、二元交叉熵（Binary Cross Entropy，BCE）和多类交叉熵（Categorical Cross Entropy，CCE）等。
+MSE损失函数主要用于回归问题中，它是预测值与实际值之差的平方和的均值。
+BCE损失函数主要用于二元分类问题中，它是正样本和负样本的交叉熵之和。
+CCE损失函数主要用于多类分类问题中，它是所有类别的交叉熵之和。
+损失函数的选择需要考虑具体问题的特点和应用场景，并且在训练过程中可以通过调整超参数来进行优化。
+知识测验 User ask:
+以中文给我5题Loss Functions的中等难度问题，并在后面列出答案 ChatGPT answer:</description></item><item><title>反向传播</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/backpropagation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/artificial-intelligence/deep-learning/neural-networks/backpropagation/</guid><description>习题预习 User ask:
+给我5题Backpropagation的中文问题 ChatGPT answer:
+Backpropagation是什么，有什么作用？ 说明Backpropagation算法的运作流程。 Backpropagation有哪些常见的改进方法？ 什么是梯度消失问题，如何解决这个问题？ 如何通过调整学习率、层数和神经元数量等因素来优化Backpropagation算法的性能？ 说明知识 User ask:
+以中文说明Backpropagation并举例 ChatGPT answer:
+Backpropagation是一种用来训练神经网路的演算法，主要用来更新神经元的权重和偏差，以改善神经网路的预测能力。
+在Backpropagation演算法中，首先将训练资料送入神经网路进行预测，然后对预测结果和实际结果之间的误差进行计算。接着，透过反向传播法，将误差传回至神经网路中，根据误差的大小来更新每个神经元的权重和偏差，进而提升神经网路的预测准确率。
+举例来说，假设有一个神经网路用来预测房价，并将训练资料送入神经网路进行预测。预测结果和实际结果之间的误差为10000元。接着，透过Backpropagation演算法，将误差传回至神经网路中，并根据误差的大小来调整每个神经元的权重和偏差。比如，如果神经元的权重过大，则可以降低权重的值，以减少误差。这样，经过多次训练后，神经网路的预测能力就会逐渐提升，最终达到较高的准确率。
+条列重点 User ask:
+以中文条列Backpropagation的重点 ChatGPT answer:
+Backpropagation是一种用于神经网络训练的演算法，通过反向传播误差来更新权重，以最小化网络的误差。
+网络训练过程中，需要将样本输入网络，进而计算网络输出值和实际标签之间的差。
+接着，从输出层开始，计算每一层的权重误差，并利用梯度下降优化算法来更新权重。
+在计算权重误差时，需要使用链式法则来求解，即将误差逐层反向传播到输入层。
+链式法则中，对于每个神经元，需要计算其输出值对权重的偏导数，以及它上一层神经元的误差对其输入值的偏导数。
+在计算输出层的权重误差时，需要利用标签和输出值之间的差来计算误差梯度。
+在计算隐藏层的权重误差时，需要使用后一层神经元的误差加权求和来计算该层的误差梯度。
+通常，我们需要设置一个合适的学习率，以控制权重更新的速度。
+训练一个神经网络需要多次重复以上步骤，直到网络的误差达到一个合适的阈值或者训练次数到达一定的上限。
+知识测验 User ask:
+以中文给我5题Backpropagation的中等难度问题，并在后面列出答案 ChatGPT answer:
+在神经网路中，如何计算误差梯度？ 答案：误差梯度可以使用反向传播演算法来计算。首先从输出层开始，计算输出层的误差，然后将误差反向传播到输入层，逐层计算每一层的误差梯度。
+什么是局部最小值问题？怎样避免出现局部最小值问题？ 答案：局部最小值问题是神经网路优化中常见的问题，当神经网路在训练过程中收敛到一个局部最小值时，就无法再继续学习。为了避免出现局部最小值问题，可以使用随机初始权重、增加训练数据、使用正则化等方法。
+为什么要使用激活函数？它的作用是什么？ 答案：激活函数是神经元的非线性转换，主要作用是引入非线性因素，提高神经网路的表示能力。在没有激活函数的情况下，神经网路只能进行线性转换，无法处理复杂的非线性问题。
+什么是批量梯度下降法？它与Mini-batch梯度下降法有什么不同？ 答案：批量梯度下降法是指每次计算梯度时将所有训练数据都纳入考虑，然后根据求得的梯度来更新权重。而Mini-batch梯度下降法是指每次计算梯度时只考虑部分训练数据，然后根据求得的梯度来更新权重。相对而言，Mini-batch梯度下降法可以降低计算成本，在实际应用中更常用。
+在神经网路训练中，过拟合问题如何解决？ 答案：过拟合问题可以通过正则化等方法来解决。正则化的主要作用是限制权重的大小，防止神经网路过度依赖单个训练数据或噪声。在实际应用中，可以使用L1正则化、L2正则化等不同的正则化方法。</description></item></channel></rss>

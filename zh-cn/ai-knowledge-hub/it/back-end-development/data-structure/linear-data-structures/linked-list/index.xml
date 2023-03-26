@@ -1,28 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>链表 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/</link><description>Recent content in 链表 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/index.xml" rel="self" type="application/rss+xml"/><item><title>单向链表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/singly-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/singly-linked-list/</guid><description>习题预习 User ask:
-给我5题Singly Linked List的问题 ChatGPT answer:
-如何在单链式列表的开始处添加一个元素？ 如何查找单链式列表的最后一个节点？ 如何删除单链式列表中的特定节点？ 如何将单链式列表逆转？ 如何在单链式列表中查找特定值的节点？ 说明知识 User ask:
-说明Singly Linked List并举例 ChatGPT answer:
-单向链结列表（Singly Linked List）是一种资料结构，由一连串节点组成，每个节点包含了数据和一个指向下一个节点的指标。第一个节点被称为头节点，最后一个节点则为尾节点，其下一个指针指向 NULL。
-Singly Linked List 能够高效地遍历和添加/删除头部节点，但较难操作中间的节点。
-以下是一个 Singly Linked List 的例子：
-Head Node1 Node2 Node3 Node4 Tail ↓ ↓ ↓ ↓ ↓ ↓ ┌───────┐┌───────┐┌───────┐┌───────┐┌─────────┐ │ data ││ data ││ data ││ data ││ data │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ 100 ││ 200 ││ 300 ││ 400 ││ 500 │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ next ││ next ││ next ││ next ││ next │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ Node1 ││ Node2 ││ Node3 ││ Node4 ││ NULL │ └───────┘└───────┘└───────┘└───────┘└─────────┘ 在这个例子中，我们有一个包含 5 个节点的 Singly Linked List。每个节点都包含一个数据部分和一个指向下一个节点的指针。Head 节点包含数据 100，指针指向 Node1 节点。Node1 节点包含数据 200，指针指向 Node2 节点。以此类推直到 Tail 节点包含数据 500，指针指向 NULL，代表没有更多节点。</description></item><item><title>双向链表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/doubly-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/doubly-linked-list/</guid><description>习题预习 User ask:
-给我5题Doubly Linked List的问题 ChatGPT answer:
-如何在Doubly Linked List的开头添加一个节点？ 如何在Doubly Linked List的末尾添加一个节点？ 如何在Doubly Linked List中查找一个特定节点？ 如何在Doubly Linked List中删除一个特定节点？ 如何翻转Doubly Linked List中的元素？ 说明知识 User ask:
-说明Doubly Linked List并举例 ChatGPT answer:
-双向链结串列（Doubly Linked List），是一个资料结构，其中每个节点同时拥有指向前一个节点和后一个节点的指针，并可以在任意位置进行插入和删除操作。因此，双向链结串列不像单向链结串列那样只能从头到尾或从尾到头遍历。
-一个双向链结串列节点通常被组织为包含三个元素：
-值：存储在节点中的数据元素 指向前一个节点的指针（previous pointer） 指向下一个节点的指针（next pointer） 对于第一个节点和最后一个节点，前一个节点指针和后一个节点指针可以为空指针（NULL）。
-以下是一个节点的示例：
-struct Node { int value; Node* prev; Node* next; }; 举例：
-假设有以下双向链结串列：1 ⇄ 3 ⇄ 5 ⇄ 7，其中 1 是第一个节点，而 7 是最后一个节点。
-如果要在第二个节点 3 后插入一个新节点 4，操作流程如下：
-建立一个新节点 4； 使 4 的 prev 指向 3； 使 4 的 next 指向 5； 使 3 的 next 指向 4； 使 5 的 prev 指向 4； 插入后，链结串列变为：1 ⇄ 3 ⇄ 4 ⇄ 5 ⇄ 7。</description></item><item><title>循环链表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/circular-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/circular-linked-list/</guid><description>习题预习 User ask:
-给我5题Circular Linked List的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鏈表 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/</link><description>Recent content in 鏈表 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/index.xml" rel="self" type="application/rss+xml"/><item><title>單向鏈表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/singly-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/singly-linked-list/</guid><description>習題預習 User ask:
+給我5題Singly Linked List的中文問題 ChatGPT answer:
+如何在單鏈式列表的開始處添加一個元素？ 如何查找單鏈式列表的最後一個節點？ 如何刪除單鏈式列表中的特定節點？ 如何將單鏈式列表逆轉？ 如何在單鏈式列表中查找特定值的節點？ 說明知識 User ask:
+以中文說明Singly Linked List並舉例 ChatGPT answer:
+單向鏈結列表（Singly Linked List）是一種資料結構，由一連串節點組成，每個節點包含了數據和一個指向下一個節點的指標。第一個節點被稱為頭節點，最後一個節點則為尾節點，其下一個指針指向 NULL。
+Singly Linked List 能夠高效地遍歷和添加/刪除頭部節點，但較難操作中間的節點。
+以下是一個 Singly Linked List 的例子：
+Head Node1 Node2 Node3 Node4 Tail ↓ ↓ ↓ ↓ ↓ ↓ ┌───────┐┌───────┐┌───────┐┌───────┐┌─────────┐ │ data ││ data ││ data ││ data ││ data │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ 100 ││ 200 ││ 300 ││ 400 ││ 500 │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ next ││ next ││ next ││ next ││ next │ ├───────┤├───────┤├───────┤├───────┤├─────────┤ │ Node1 ││ Node2 ││ Node3 ││ Node4 ││ NULL │ └───────┘└───────┘└───────┘└───────┘└─────────┘ 在這個例子中，我們有一個包含 5 個節點的 Singly Linked List。每個節點都包含一個數據部分和一個指向下一個節點的指針。Head 節點包含數據 100，指針指向 Node1 節點。Node1 節點包含數據 200，指針指向 Node2 節點。以此類推直到 Tail 節點包含數據 500，指針指向 NULL，代表沒有更多節點。</description></item><item><title>雙向鏈表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/doubly-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/doubly-linked-list/</guid><description>習題預習 User ask:
+給我5題Doubly Linked List的中文問題 ChatGPT answer:
+如何在Doubly Linked List的開頭添加一個節點？ 如何在Doubly Linked List的末尾添加一個節點？ 如何在Doubly Linked List中查找一個特定節點？ 如何在Doubly Linked List中刪除一個特定節點？ 如何翻轉Doubly Linked List中的元素？ 說明知識 User ask:
+以中文說明Doubly Linked List並舉例 ChatGPT answer:
+雙向鏈結串列（Doubly Linked List），是一個資料結構，其中每個節點同時擁有指向前一個節點和後一個節點的指針，並可以在任意位置進行插入和刪除操作。因此，雙向鏈結串列不像單向鏈結串列那樣只能從頭到尾或從尾到頭遍歷。
+一個雙向鏈結串列節點通常被組織為包含三個元素：
+值：存儲在節點中的數據元素 指向前一個節點的指針（previous pointer） 指向下一個節點的指針（next pointer） 對於第一個節點和最後一個節點，前一個節點指針和後一個節點指針可以為空指針（NULL）。
+以下是一個節點的示例：
+struct Node { int value; Node* prev; Node* next; }; 舉例：
+假設有以下雙向鏈結串列：1 ⇄ 3 ⇄ 5 ⇄ 7，其中 1 是第一個節點，而 7 是最後一個節點。
+如果要在第二個節點 3 後插入一個新節點 4，操作流程如下：
+建立一個新節點 4； 使 4 的 prev 指向 3； 使 4 的 next 指向 5； 使 3 的 next 指向 4； 使 5 的 prev 指向 4； 插入後，鏈結串列變為：1 ⇄ 3 ⇄ 4 ⇄ 5 ⇄ 7。</description></item><item><title>循环链表</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/circular-linked-list/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/data-structure/linear-data-structures/linked-list/circular-linked-list/</guid><description>习题预习 User ask:
+给我5题Circular Linked List的中文问题 ChatGPT answer:
 实作一个 Circular Linked List，使得最后一个节点的下一个节点指向第一个节点。 查找 Circular Linked List 中是否存在某个特定元素，并回传其位置。 在 Circular Linked List 中插入一个节点，使其成为头节点。 删除 Circular Linked List 中某个特定位置的节点。 翻转一个 Circular Linked List，使其从尾部插入节点，并将原来的头节点变成尾节点。 说明知识 User ask:
-说明Circular Linked List并举例 ChatGPT answer:
+以中文说明Circular Linked List并举例 ChatGPT answer:
 Circular Linked List是一种连结串列的资料结构，它与一般的单向链结串列不同的地方在于它结尾的节点会指向头部节点，形成一个循环的连结串列。因此，当我们访问最后一个节点时，它指向的是头部节点而不是NULL。
 以下是一个示范Circular Linked List的图表：
 1 -&amp;gt; 2 -&amp;gt; 3 -&amp;gt; 4 -&amp;gt; 1 在上面的例子中，我们可以看到最后一个节点指向第一个节点，因此它是一个圆形的连结串列。当我们查询最后一个节点时，程式码就会跳回第一个节点，进入一个循环，因为每个节点都指向下一个节点，直到最后一个节点再指向第一个节点。这使得操作和查询Circular Linked List的时间复杂度相较于Linked List更高效。
 在实现Circular Linked List时，我们需要在每个节点中维护指向下一个节点的指标，并且保证最后一个节点指向第一个节点。
 以下是一个示范建立Circular Linked List的程式码：
-typedef struct Node { int value; struct Node *next; } Node; Node *createCircularLinkedList(int values[], int n) { Node *head = NULL; Node *prev = NULL; Node *curr = NULL; for (int i = 0; i &amp;lt; n; i++) { curr = malloc(sizeof(Node)); curr-&amp;gt;value = values[i]; curr-&amp;gt;next = NULL; if (prev) { prev-&amp;gt;next = curr; } else { head = curr; } prev = curr; } if (curr) { curr-&amp;gt;next = head; } return head; } 汇总重点 User ask:</description></item></channel></rss>
+typedef struct Node { int value; struct Node *next; } Node; Node *createCircularLinkedList(int values[], int n) { Node *head = NULL; Node *prev = NULL; Node *curr = NULL; for (int i = 0; i &amp;lt; n; i++) { curr = malloc(sizeof(Node)); curr-&amp;gt;value = values[i]; curr-&amp;gt;next = NULL; if (prev) { prev-&amp;gt;next = curr; } else { head = curr; } prev = curr; } if (curr) { curr-&amp;gt;next = head; } return head; } 条列重点 User ask:</description></item></channel></rss>

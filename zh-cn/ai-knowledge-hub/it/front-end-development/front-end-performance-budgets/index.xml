@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>前端性能预算 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/</link><description>Recent content in 前端性能预算 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/index.xml" rel="self" type="application/rss+xml"/><item><title>定义性能预算</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/defining-performance-budgets/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/defining-performance-budgets/</guid><description>习题预习 User ask:
-给我5题Defining performance budgets的问题 ChatGPT answer:
+给我5题Defining performance budgets的中文问题 ChatGPT answer:
 什么是performance budgets，以及它在网站开发中的作用是什么？
 在制定performance budgets时应该考虑哪些因素？如何确定这些因素的优先顺序？
 怎样设计一个有效的performance budgets，既要达到快速载入网页的目标，又要满足用户体验和功能需求？
 在实施和监控performance budgets时，可以使用哪些工具和技术？如何确定网页载入速度、性能和效果的指标？
 如何在团队合作的情况下制定、优化和更新performance budgets，以确保网站的性能不断得到优化和提升？
 说明知识 User ask:
-说明Defining performance budgets并举例 ChatGPT answer:
+以中文说明Defining performance budgets并举例 ChatGPT answer:
 Defining performance budgets是指定义一组指标，用于衡量网站或应用程式的性能表现。这些指标可以让团队追踪网站或应用程式的性能，并识别任何瓶颈或问题，从而改进用户体验。
 举例来说，网站的性能指标可以包括以下项目：
 加载时间：这是指网站加载完整页面所需的时间，包括图片、CSS和JavaScript等内容。
@@ -14,50 +14,50 @@ Defining performance budgets是指定义一组指标，用于衡量网站或应�
 请求数量：这是指网站载入时所产生的请求数量，包括图片、CSS和JavaScript等内容。
 安全性：这是指网站的安全性措施，以确保用户资料得到保护。
 这些指标可以作为性能预算的重要依据，团队可以根据这些指标预算出合理的性能标准，以确保网站或应用程式具有良好的性能表现。
-汇总重点 User ask:
-条列Defining performance budgets的重点 ChatGPT answer:
+条列重点 User ask:
+以中文条列Defining performance budgets的重点 ChatGPT answer:
 数据指标：性能预算需要基于数据指标，这有助于确定网站或应用程序的性能和行为是否符合预期。
 目标设定：性能预算需要设定目标和限制，以确保网站或应用程序在特定条件下的性能表现。
 测量和监控：性能预算需要测量和监控，以跟踪网站或应用程序的性能表现，并通过调整设计和代码进行改进。
 管理和优化：性能预算需要与团队合作，将其融入到开发流程中，以确保网站或应用程序的性能持续优化。
 使用工具：性能预算需要使用相关工具，例如性能测试工具和监控系统，来帮助检测和解决性能问题。
 知识测验 User ask:
-给我5题Defining performance budgets的中等难度问题，并在后面列出答案 ChatGPT answer:
+以中文给我5题Defining performance budgets的中等难度问题，并在后面列出答案 ChatGPT answer:
 什么是性能预算？为什么在网站开发中非常重要？ 答：性能预算是一种限制网站载入速度、交互性和其他关键性能方面的预算。它在网站开发中非常重要，因为它可以帮助开发人员设定网站的最大性能限制，以便为用户提供更好的体验。
 性能预算可以帮助开发者完成哪些任务？ 答：性能预算可以帮助开发人员控制网站的载入时间、减少请求次数、优化图片等方面，从而提高网站的速度和性能，并提升用户体验。
 性能预算会影响到网站的哪些方面？ 答：性能预算会影响网站的载入速度、交互性、响应时间、渲染时间、首次渲染时间等关键性能方面，从而影响用户体验和搜寻引擎排名。
 性能预算应该如何设定？有哪些因素需要考虑？ 答：性能预算应该根据网站的用途、目标群体、平台以及其他相关因素进行设定。开发人员还需要考虑网站的容量、请求量、页面元素、图片大小、JavaScript 代码等因素，并根据统计数据和指标进行经验实证。
 性能预算在网站使用周期中应当如何调整？ 答：在网站使用周期中，开发人员应该定期检测网站的性能和用户体验，并根据实际情况进行调整和优化。如果网站的需求、流量、设备等方面发生变化，开发人员应该及时进行相关调整。</description></item><item><title>测量性能</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/measuring-performance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/measuring-performance/</guid><description>习题预习 User ask:
-给我5题Measuring performance的问题 ChatGPT answer:
-什麼是性能測試，它的目的是什麼？ 性能測試中常用的指標有哪些，它們的意義是什麼？ 如何設計一個有效的性能測試計劃？ 性能測試有哪些常用的方法和工具？ 性能測試過程中可能會遇到哪些問題，如何解決這些問題？ 说明知识 User ask:
-说明Measuring performance并举例 ChatGPT answer:
-Measuring performance 是指透過量化數據和指標，以評估一個個體、團隊或者公司在特定時期或場合下的表現和成果。該方法可幫助人們更好地瞭解現狀、認識缺點、發現問題和提高效率。
-以下舉幾個實際的例子：
-個人表現評估：一家公司可以通過量化考核方式，評估每一位員工在過去一年裡的工作表現，如完成的工作量、客戶滿意度、出勤率等，然後對其進行綜合評分。
-團隊績效評估： 在項目開發過程中，團隊領導可以通過跟蹤組員的進度、問題解決和溝通效率等指標，來評估團隊的績效，以及確定需要改進的方向。
-公司經營績效：一間公司通過搜集和分析財務報表、銷售額、市場佔有率等數據，可以評估自身的市場競爭力、應對策略和未來發展方向。
-總體而言，透過Measuring performance，可以實現確定問題、量化分析、尋找潛在瓶頸並提出改進方案的目標。
-汇总重点 User ask:
-条列Measuring performance的重点 ChatGPT answer:
-目標設定: 確定要達到的目標，並確定指標與目標之間的關係。
-數據收集: 收集與指標相關的數據，確定數據的可靠性與準確性。
-數據分析: 利用數據分析工具來分析數據，以便確定表現的強點和弱點。
-結果報告: 提供有意義的結果報告，以便他人更好地瞭解表現，並提供改進的建議。
-改進措施: 根據表現結果，提出改進措施的建議，以能夠在未來獲得更好的表現。
+给我5题Measuring performance的中文问题 ChatGPT answer:
+什么是性能测试，它的目的是什么？ 性能测试中常用的指标有哪些，它们的意义是什么？ 如何设计一个有效的性能测试计划？ 性能测试有哪些常用的方法和工具？ 性能测试过程中可能会遇到哪些问题，如何解决这些问题？ 说明知识 User ask:
+以中文说明Measuring performance并举例 ChatGPT answer:
+Measuring performance 是指透过量化数据和指标，以评估一个个体、团队或者公司在特定时期或场合下的表现和成果。该方法可帮助人们更好地了解现状、认识缺点、发现问题和提高效率。
+以下举几个实际的例子：
+个人表现评估：一家公司可以通过量化考核方式，评估每一位员工在过去一年里的工作表现，如完成的工作量、客户满意度、出勤率等，然后对其进行综合评分。
+团队绩效评估： 在项目开发过程中，团队领导可以通过跟踪组员的进度、问题解决和沟通效率等指标，来评估团队的绩效，以及确定需要改进的方向。
+公司经营绩效：一间公司通过搜集和分析财务报表、销售额、市场占有率等数据，可以评估自身的市场竞争力、应对策略和未来发展方向。
+总体而言，透过Measuring performance，可以实现确定问题、量化分析、寻找潜在瓶颈并提出改进方案的目标。
+条列重点 User ask:
+以中文条列Measuring performance的重点 ChatGPT answer:
+目标设定: 确定要达到的目标，并确定指标与目标之间的关系。
+数据收集: 收集与指标相关的数据，确定数据的可靠性与准确性。
+数据分析: 利用数据分析工具来分析数据，以便确定表现的强点和弱点。
+结果报告: 提供有意义的结果报告，以便他人更好地了解表现，并提供改进的建议。
+改进措施: 根据表现结果，提出改进措施的建议，以能够在未来获得更好的表现。
 知识测验 User ask:
-给我5题Measuring performance的中等难度问题，并在后面列出答案 ChatGPT answer:
-一家制造公司在一年内生产了10,000个产品，其中有500个产品被退回。请计算这个公司的良品率为多少？ 答案：良品率为95%。计算公式为：良品率 = (生产数量 - 退回数量) ÷ 生产数量 × 100% = (10,000 - 500) ÷ 10,000 × 100% = 95%。</description></item><item><title>识别和修复性能瓶颈</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</guid><description>习题预习 User ask:
-给我5题Identifying and fixing performance bottlenecks的问题 ChatGPT answer:
-性能瓶頸的定義是什麼，你如何確定一個系統存在性能瓶頸？ 哪些因素可能導致系統性能下降，例如應用程序、數據庫等？ 你如何測試和分析系統的性能瓶頸，使用哪些工具和技術？ 有哪些常見的性能優化技巧，例如快取、分散式架構等？ 您的系統如何避免性能瓶頸，並確保順利運行？ 说明知识 User ask:
-说明Identifying and fixing performance bottlenecks并举例 ChatGPT answer:
+以中文给我5题Measuring performance的中等难度问题，并在后面列出答案 ChatGPT answer:
+一家制造公司在一年内生产了10,000个产品，其中有500个产品被退回。请计算这个公司的良品率为多少？ 答案：良品率为95%。计算公式为：良品率 = (生产数量 - 退回数量) ÷ 生产数量 × 100% = (10,000 - 500) ÷ 10,000 × 100% = 95%。</description></item><item><title>識別和修復性能瓶頸</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/identifying-and-fixing-performance-bottlenecks/</guid><description>習題預習 User ask:
+給我5題Identifying and fixing performance bottlenecks的中文問題 ChatGPT answer:
+性能瓶頸的定義是什麼，你如何確定一個系統存在性能瓶頸？ 哪些因素可能導致系統性能下降，例如應用程序、數據庫等？ 你如何測試和分析系統的性能瓶頸，使用哪些工具和技術？ 有哪些常見的性能優化技巧，例如快取、分散式架構等？ 您的系統如何避免性能瓶頸，並確保順利運行？ 說明知識 User ask:
+以中文說明Identifying and fixing performance bottlenecks並舉例 ChatGPT answer:
 Identifying and fixing performance bottlenecks指的是找出系統或應用程式中導致效能瓶頸的問題並加以修正，以提升整體效能和使用體驗。
 舉例來說，當使用一個網站時，若感覺整體速度較慢，可能即是該網站存在效能瓶頸。有以下幾種可能的瓶頸情況：
 後端服務器問題：網站可能採用了較複雜的後端架構，如分佈式系統或微服務架構，而其中某一個服務器出現了性能不足、網路延遲等問題，導致整體效能下降。 解決辦法：檢查後端服務器的監控信息，找出該服務器存在的問題，進行優化或替換。
 數據庫設計不佳：網站數據庫存在設計不佳的情況，如過度覆蓋索引、大量無用數據等，導致查詢速度變慢。 解決辦法：對數據庫進行優化，如刪除無用數據、重新設計數據庫等。
 頁面設計不佳：網站頁面存在大量圖片、腳本、樣式等，導致頁面載入時間變慢。 解決辦法：壓縮圖片、精簡腳本、減少樣式等。
 綜上所述，應該從不同方向進行問題定位，找出導致效能瓶頸的問題，進一步進行修正和優化，以提高系統或應用程式的效能和使用體驗。
-汇总重点 User ask:
-条列Identifying and fixing performance bottlenecks的重点 ChatGPT answer:
+條列重點 User ask:
+以中文條列Identifying and fixing performance bottlenecks的重點 ChatGPT answer:
 1.識別性能瓶頸的關鍵因素；
 2.對於每一個性能瓶頸，需要進行詳細的分析和評估；
 3.為了解決性能瓶頸，需要利用性能監控工具來識別問題；
@@ -65,15 +65,15 @@ Identifying and fixing performance bottlenecks指的是找出系統或應用程�
 5.對於發現的性能問題，需要進行合適的調整或者優化；
 6.測試調整或者優化後的系統性能是否得到改善；
 7.保持監控並且調整系統以達到最佳性能。
-知识测验 User ask:
-给我5题Identifying and fixing performance bottlenecks的中等难度问题，并在后面列出答案 ChatGPT answer:
+知識測驗 User ask:
+以中文給我5題Identifying and fixing performance bottlenecks的中等難度問題，並在後面列出答案 ChatGPT answer:
 如何辨認網頁載入速度緩慢的瓶頸在哪裡？
 答: 可以使用瀏覽器開發者工具來監測網頁載入速度、資源大小和載入順序，並分析哪些元素載入時間較長。可以優化圖片壓縮大小、合併CSS和JS檔案、使用快取等方法減少載入時間。
 如何解決資料庫查詢速度緩慢的問題？
 答: 可以從查詢語句、索引使用、資料庫硬體性能等方面進行優化。例如，優化查詢語句的查詢方式、避免全表掃瞄、優化索引的設計、使用分區表等方案，提高SQL效率。</description></item><item><title>使用各种工具和框架测试性能</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/testing-performance-with-various-tools-and-frameworks/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/front-end-development/front-end-performance-budgets/testing-performance-with-various-tools-and-frameworks/</guid><description>习题预习 User ask:
-给我5题Testing performance with various tools and frameworks的问题 ChatGPT answer:
+给我5题Testing performance with various tools and frameworks的中文问题 ChatGPT answer:
 使用不同的工具和框架进行测试性能的目的是什么？ 什么是负载测试？为什么负载测试在测试性能时很重要？ 在使用工具和框架进行性能测试时，什么因素会影响结果？ 使用哪些工具和框架可以测试Web应用程序性能？ 如何选择最适合您的Web应用程序的性能测试工具和框架？ 说明知识 User ask:
-说明Testing performance with various tools and frameworks并举例 ChatGPT answer:
+以中文说明Testing performance with various tools and frameworks并举例 ChatGPT answer:
 测试是软体开发过程中至关重要的一环，而性能测试是测试软体系统的效能和可扩展性的，它可以确定软体系统能否满足计算资源、响应时间和吞吐量等方面的需求。
 以下是常用的测试性能工具和框架：
 JMeter：是一款开源的性能测试工具，在模拟多个使用者和并发访问的情况下，测试 Web 应用程序或其他类型的应用程序的性能。它支援多个协议、多种类型的测试和许多报告类型。
@@ -81,6 +81,6 @@ Gatling：也是一款开源的性能测试工具，可以测试各种应用程�
 LoadRunner：是一款商业性能测试工具，可以测试 Web、Mobil、云、企业系统和其他各种应用程序的性能。它支援多个协议、多种类型的测试和高级分析功能。
 Apache Bench：是一个很简单的负载测试工具，它以 Apache Web 伺服器的基础底层技术编写，可以测试 HTTP 和 HTTPS 协议的性能。它的结果产生速度快，适合快速测试。
 总之，测试性能工具和框架是设计一个高效、稳定、扩展的软体系统的重要工具，因此在选择时需根据应用程序的需要和特点选择。
-汇总重点 User ask:
-条列Testing performance with various tools and frameworks的重点 ChatGPT answer:
+条列重点 User ask:
+以中文条列Testing performance with various tools and frameworks的重点 ChatGPT answer:
 了解不同的测试工具和框架的优点和缺点； 了解如何适时选择合适的测试工具和框架； 测试工具和框架可以帮助增加测试效率和准确性； 必须注意测试工具和框架的版本和相容性； 测试方案需经过多次测试才能确保其稳定性； 确定测试结果的可靠性和准确性是至关重要的。 知识测验 User ask:</description></item></channel></rss>

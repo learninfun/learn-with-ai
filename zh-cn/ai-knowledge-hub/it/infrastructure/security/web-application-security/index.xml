@@ -1,119 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web应用安全 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/</link><description>Recent content in Web应用安全 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title>跨站脚本攻击（XSS）</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</guid><description>习题预习 User ask:
-给我5题Cross-Site Scripting (XSS)的问题 ChatGPT answer:
-什么是跨站脚本 (XSS)，以及如何使用它来攻击网站？ XSS攻击的类型有哪些？这些攻击类型的危害性是什么？ 如何检测和预防XSS攻击？有哪些常见的防范措施？ 什么是反射型XSS攻击，它与存储型和DOM-based XSS攻击有何区别？ 如何使用XSS攻击漏洞进行身份盗窃、会话劫持和导向攻击等多种攻击？有哪些实际案例可以作为参考？ 说明知识 User ask:
-说明Cross-Site Scripting (XSS)并举例 ChatGPT answer:
-跨站脚本攻击（Cross-Site Scripting，简称 XSS）指的是攻击者通过在网站输入框中输入恶意脚本代码，使得网站的其他用户在访问该网站时也受到攻击。攻击者可以通过 XSS 攻击盗取用户的资讯，例如登入密码、Cookie 信息等，甚至可以绕过网站的防火墙，从而掌握网站系统的控制权。
-举个例子，假如有一个网站有一个搜索框，当用户在该搜索框中输入一些内容后，网站会显示相关的搜索结果。如果攻击者在搜索框中输入一段 JavaScript 代码，并能够让其被其他用户访问，那么其他用户访问该网站时就会执行攻击者所提供的 JavaScript 代码，从而造成 XSS 攻击。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web应用安全 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/</link><description>Recent content in Web应用安全 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/index.xml" rel="self" type="application/rss+xml"/><item><title>跨站腳本攻擊（XSS）</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-scripting-xss/</guid><description>習題預習 User ask:
+給我5題Cross-Site Scripting (XSS)的中文問題 ChatGPT answer:
+什麼是跨站腳本 (XSS)，以及如何使用它來攻擊網站？ XSS攻擊的類型有哪些？這些攻擊類型的危害性是什麼？ 如何檢測和預防XSS攻擊？有哪些常見的防範措施？ 什麼是反射型XSS攻擊，它與存儲型和DOM-based XSS攻擊有何區別？ 如何使用XSS攻擊漏洞進行身份盜竊、會話劫持和導向攻擊等多種攻擊？有哪些實際案例可以作為參考？ 說明知識 User ask:
+以中文說明Cross-Site Scripting (XSS)並舉例 ChatGPT answer:
+跨站腳本攻擊（Cross-Site Scripting，簡稱 XSS）指的是攻擊者通過在網站輸入框中輸入惡意腳本代碼，使得網站的其他用戶在訪問該網站時也受到攻擊。攻擊者可以通過 XSS 攻擊盜取用戶的資訊，例如登入密碼、Cookie 信息等，甚至可以繞過網站的防火牆，從而掌握網站系統的控制權。
+舉個例子，假如有一個網站有一個搜索框，當用戶在該搜索框中輸入一些內容後，網站會顯示相關的搜索結果。如果攻擊者在搜索框中輸入一段 JavaScript 代碼，並能夠讓其被其他用戶訪問，那麼其他用戶訪問該網站時就會執行攻擊者所提供的 JavaScript 代碼，從而造成 XSS 攻擊。
 例如：
-当用户在搜索框中输入以下代码：
-&amp;lt;script&amp;gt;alert(&amp;#39;攻击成功！&amp;#39;)&amp;lt;/script&amp;gt; 攻击者就可以成功地绕过网站的防护措施，并在用户访问该网站时弹出一个包含“攻击成功！”字样的提示框，此时攻击者就可以收获用户的关键资讯，造成严重的安全问题。
-汇总重点 User ask:
-条列Cross-Site Scripting (XSS)的重点 ChatGPT answer:
-Cross-Site Scripting (XSS)是一种网路攻击方式，利用网页设计不当，将恶意程式码注入到网页中，造成用户隐私资料外泄、帐号被盗等安全问题。 XSS攻击主要分为反射型、储存型和DOM-based三种方式，其中反射型和储存型是最常见的攻击方式。 XSS攻击可以利用各种输入栏位，包括搜寻栏位、留言板、信箱、网址列等等。 预防XSS攻击的方法包括验证输入资料、过滤特殊字元、限制弹跳视窗等等。 设计网页时，需要注意安全性问题，并采取相应的措施来保护用户的隐私和安全。 知识测验 User ask:
-给我5题Cross-Site Scripting (XSS)的中等难度问题，并在后面列出答案 ChatGPT answer:
-假设有一个网站使用非安全的Cookie储存用户讯息，请问攻击者可否透过XSS攻击偷取此Cookie？ 答案：是。攻击者可以透过注入一段含有恶意的JavaScript程式码，使用户浏览器执行此程式码，从而窃取Cookie储存的用户讯息。
-请问DOM-Based XSS攻击与传统的反射型XSS攻击有何区别？ 答案：DOM-Based XSS攻击是针对使用JavaScript动态修改HTML DOM的网页，而非直接注入HTML标签内容的XSS攻击。攻击方式类似反射型XSS攻击，但注入点在JavaScript，而非在HTTP回应中。</description></item><item><title>跨站请求伪造（CSRF）</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</guid><description>习题预习 User ask:
-给我5题Cross-Site Request Forgery (CSRF)的问题 ChatGPT answer:
+當用戶在搜索框中輸入以下代碼：
+&amp;lt;script&amp;gt;alert(&amp;#39;攻擊成功！&amp;#39;)&amp;lt;/script&amp;gt; 攻擊者就可以成功地繞過網站的防護措施，並在用戶訪問該網站時彈出一個包含「攻擊成功！」字樣的提示框，此時攻擊者就可以收穫用戶的關鍵資訊，造成嚴重的安全問題。
+條列重點 User ask:
+以中文條列Cross-Site Scripting (XSS)的重點 ChatGPT answer:
+Cross-Site Scripting (XSS)是一種網路攻擊方式，利用網頁設計不當，將惡意程式碼注入到網頁中，造成用戶隱私資料外洩、帳號被盜等安全問題。 XSS攻擊主要分為反射型、儲存型和DOM-based三種方式，其中反射型和儲存型是最常見的攻擊方式。 XSS攻擊可以利用各種輸入欄位，包括搜尋欄位、留言板、信箱、網址列等等。 預防XSS攻擊的方法包括驗證輸入資料、過濾特殊字元、限制彈跳視窗等等。 設計網頁時，需要注意安全性問題，並採取相應的措施來保護用戶的隱私和安全。 知識測驗 User ask:
+以中文給我5題Cross-Site Scripting (XSS)的中等難度問題，並在後面列出答案 ChatGPT answer:
+假設有一個網站使用非安全的Cookie儲存用戶訊息，請問攻擊者可否透過XSS攻擊偷取此Cookie？ 答案：是。攻擊者可以透過注入一段含有惡意的JavaScript程式碼，使用戶瀏覽器執行此程式碼，從而竊取Cookie儲存的用戶訊息。
+請問DOM-Based XSS攻擊與傳統的反射型XSS攻擊有何區別？ 答案：DOM-Based XSS攻擊是針對使用JavaScript動態修改HTML DOM的網頁，而非直接注入HTML標籤內容的XSS攻擊。攻擊方式類似反射型XSS攻擊，但注入點在JavaScript，而非在HTTP回應中。</description></item><item><title>跨站请求伪造（CSRF）</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/cross-site-request-forgery-csrf/</guid><description>习题预习 User ask:
+给我5题Cross-Site Request Forgery (CSRF)的中文问题 ChatGPT answer:
 什么是 Cross-Site Request Forgery (CSRF) 攻击？ CSRF 攻击的危害和影响有哪些？如何防止此类攻击？ CSRF 和 XSS 有何区别？哪种攻击更危险？ CSRF 的攻击方式有哪些？可以列举几个例子做说明。 CSRF 攻击的实际场景中，如何利用已登入的用户帮忙攻击目标站点？ 说明知识 User ask:
-说明Cross-Site Request Forgery (CSRF)并举例 ChatGPT answer:
+以中文说明Cross-Site Request Forgery (CSRF)并举例 ChatGPT answer:
 Cross-Site Request Forgery (CSRF)是指攻击者利用受害者的身份，向目标网站发送请求，以达到非法操作的目的。
 例如，一个攻击者可以在一个电子商务网站上创建一个假购物车，并在假版本中加入恶意商品页面的连结。 当受害者登录并访问该假购物车时，连结将触发任意操作，例如在受害者的帐户中进行非法交易。
 这种攻击有时也被称为“Session Riding”或“海盗访问”，是一种常见的网路攻击手段。为了减少这种攻击带来的风险，网站开发人员可以采取一系列防范措施，例如通过验证码、随机Token等方式确保请求的合法性，降低攻击的风险。
-汇总重点 User ask:
-条列Cross-Site Request Forgery (CSRF)的重点 ChatGPT answer:
+条列重点 User ask:
+以中文条列Cross-Site Request Forgery (CSRF)的重点 ChatGPT answer:
 CSRF是指攻击者利用受害者在网站上的登入状态，在未经受害者同意的情况下，透过伪造请求来执行欺骗性操作。 攻击者通常使用包含或图片等元素的网页或电子邮件，试图引导受害者前往特殊网页，并自动发一次请求以执行欺骗操作。 预防CSRF攻击的主要方法是实现对可疑请求的验证，在发送请求之前确保请求是由受信任的用户发送的。 让用户选择于web浏览器上保留登入会话持续时间太长将提高CSRF攻击的风险，因为攻击者有更多的时间发动攻击。 开发者可以通过使用先进的安全编程实践，如HTTP头文件和反令牌机制实现对CSRF攻击的有效的保护。 知识测验 User ask:
-给我5题Cross-Site Request Forgery (CSRF)的中等难度问题，并在后面列出答案 ChatGPT answer:
+以中文给我5题Cross-Site Request Forgery (CSRF)的中等难度问题，并在后面列出答案 ChatGPT answer:
 什么是 CSRF 攻击？它可以通过何种方式达成？
-答案：CSRF 攻击是一种利用已认证用户的身份来伪造请求，从而实现恶意攻击的技术。攻击者通常通过在受害者访问特定网站时，将恶意代码注入到网站中，当受害者激活该代码时，攻击者即可实现 CSRF 攻击。</description></item><item><title>SQL注入攻击</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</guid><description>习题预习 User ask:
-给我5题SQL Injection的问题 ChatGPT answer:
-如何利用SQL Injection攻擊網站？ 什麼是SQL Injection漏洞？如何防止它？ 在資料庫操作中，如何避免遭受SQL Injection攻擊？ SQL Injection攻擊的危害是什麼？在哪些情況下易受攻擊？ 該如何測試和檢測SQL Injection漏洞？有哪些工具可以使用？ 说明知识 User ask:
-说明SQL Injection并举例 ChatGPT answer:
+答案：CSRF 攻击是一种利用已认证用户的身份来伪造请求，从而实现恶意攻击的技术。攻击者通常通过在受害者访问特定网站时，将恶意代码注入到网站中，当受害者激活该代码时，攻击者即可实现 CSRF 攻击。</description></item><item><title>SQL注入攻擊</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/sql-injection/</guid><description>習題預習 User ask:
+給我5題SQL Injection的中文問題 ChatGPT answer:
+如何利用SQL Injection攻擊網站？ 什麼是SQL Injection漏洞？如何防止它？ 在資料庫操作中，如何避免遭受SQL Injection攻擊？ SQL Injection攻擊的危害是什麼？在哪些情況下易受攻擊？ 該如何測試和檢測SQL Injection漏洞？有哪些工具可以使用？ 說明知識 User ask:
+以中文說明SQL Injection並舉例 ChatGPT answer:
 SQL Injection（注入攻擊）是一種常見的網路安全漏洞，攻擊者透過在使用者輸入處添加惡意程式碼，從而取得系統敏感信息或執行惡意操作的一種攻擊方式。
 例如，一個具有搜尋功能的網站，正確的查詢語句如下：
 SELECT * FROM Products WHERE Name = &amp;#39;shirt&amp;#39;; 而攻擊者可在搜尋框輸入以下語句：
 &amp;#39; or &amp;#39;1&amp;#39;=&amp;#39;1 這種攻擊式SQL Injection漏洞可以讓攻擊者改變原本的查詢語句為：
 SELECT * FROM Products WHERE Name = &amp;#39;&amp;#39; or &amp;#39;1&amp;#39;=&amp;#39;1&amp;#39;; 這樣攻擊者即可獲取該網站所有產品信息。
 此外，攻擊者還可通過SQL Injection漏洞執行其他危險操作，如插入或刪除數據，甚至取得系統管理權限。因此，應當在開發過程中注意防範SQL Injection漏洞，並及時更新補丁。
-汇总重点 User ask:
-条列SQL Injection的重点 ChatGPT answer:
-SQL Injection是指攻擊者透過SQL語句注入攻擊指令，從而實現對資料庫的非法操作。 攻擊者可透過Web應用程式的表單、輸入欄位等進入網站的各處來注入攻擊指令。 攻擊指令可能會被寫入資料庫，從而導致數據污染、錯誤等後果，甚至可能影響系統的安全性。 防範SQL Injection的方法包括使用參數化查詢、篩選掉非法字符、避免使用動態SQL語句等。 在進行Web應用程式測試時，應對可能出現的SQL Injection漏洞進行測試，以確保系統的安全性。 知识测验 User ask:</description></item><item><title>身份验证和授权</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</guid><description>习题预习 User ask:
-给我5题Authentication and Authorization的问题 ChatGPT answer:
+條列重點 User ask:
+以中文條列SQL Injection的重點 ChatGPT answer:
+SQL Injection是指攻擊者透過SQL語句注入攻擊指令，從而實現對資料庫的非法操作。 攻擊者可透過Web應用程式的表單、輸入欄位等進入網站的各處來注入攻擊指令。 攻擊指令可能會被寫入資料庫，從而導致數據污染、錯誤等後果，甚至可能影響系統的安全性。 防範SQL Injection的方法包括使用參數化查詢、篩選掉非法字符、避免使用動態SQL語句等。 在進行Web應用程式測試時，應對可能出現的SQL Injection漏洞進行測試，以確保系統的安全性。 知識測驗 User ask:</description></item><item><title>身份验证和授权</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/authentication-and-authorization/</guid><description>习题预习 User ask:
+给我5题Authentication and Authorization的中文问题 ChatGPT answer:
 什么是身份验证（Authentication）？为什么它对资讯安全很重要？ 分别说明传统验证跟多因素验证（Multi-factor authentication）的差异。 什么是授权（Authorization）？为什么它跟身份验证紧密相关，同时对资讯安全也很重要？ 什么是权限（Permission）？授权跟权限有什么不同？ 请说明OAuth的应用场景，以及它的运作流程。 说明知识 User ask:
-说明Authentication and Authorization并举例 ChatGPT answer:
+以中文说明Authentication and Authorization并举例 ChatGPT answer:
 Authentication and Authorization 是一组用于保护系统安全的安全机制。它们通常被用于管理用户对系统中各种资源的访问权限。
 Authentication 负责验证用户身份并确保只有授权的用户才能访问特定的系统资源。常见的身份验证方式包括用户名和密码、口令、数字证书和生物特征（如指纹、面部识别等）。例如，当您登录一个网站时，您需要提供一个用户名和密码以验证您的身份是否正确。
 Authorization 确保用户只能访问他们已被授权访问的资源。这意味着系统会检查用户的访问权限，并根据其账户类型、角色、权限等因素来控制他们可以执行的操作。例如，在一个社交网络应用中，管理员用户可能有权访问和编辑所有用户的个人资料，而普通用户则可能只能查看自己的个人资料并与自己的朋友交流。
 综上所述，Authentication 和 Authorization 通常协同工作来确保系统中的资源只能被授权的用户访问。
-汇总重点 User ask:
-条列Authentication and Authorization的重点 ChatGPT answer:
+条列重点 User ask:
+以中文条列Authentication and Authorization的重点 ChatGPT answer:
 Authentication:
 认证：确认使用者身份的过程，例如验证用户名、密码、生物识别方式等。 身份验证是一个安全必需品，用来确保系统中只有授权的用户才能进行操作。 有效的身份验证措施可以防止未经授权的用户访问敏感数据，并减少信息泄漏的风险。 Authorization:
 授权：确定使用者是否具有执行特定操作的权限，例如浏览某个文件或修改某个文件。 授权可以限制和管理不同用户对系统和数据的访问权限。 给予授权的行为需进行明确记录，以便追溯、调查和审计使用者对系统和数据的操作。 Authentication与Authorization的区别：
 认证是确定用户身份的过程，而授权是确定用户是否具有执行特定操作的权限。 认证通常是使用用户名和密码等数据进行验证，而授权通常涉及设定用户对特定资源的访问权限。 两者相互独立且相互补充，有效的身份验证和授权措施是实现安全和保障数据完整性和机密性所必需的。 知识测验 User ask:
-给我5题Authentication and Authorization的中等难度问题，并在后面列出答案 ChatGPT answer:
+以中文给我5题Authentication and Authorization的中等难度问题，并在后面列出答案 ChatGPT answer:
 什么是身份验证（Authentication）和授权（Authorization）的主要区别？ 答案：身份验证是确定用户身份的过程，而授权是确定用户能够访问哪些操作或资源的过程。
 说明单层验证（Single-factor Authentication）和双因子验证（Two-factor Authentication）的区别？ 答案：单层验证是指通过一种方式验证用户身份，例如使用帐号和密码。而双因子验证则需要用户通过两种验证方式，例如使用帐号和密码，再加上一次性密码或指纹扫瞄等方式。
-描述OAuth 2.0协议的授权流程？ 答案：OAuth 2.</description></item><item><title>内容安全策略 (CSP)</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</guid><description>习题预习 User ask:
-给我5题Content Security Policy (CSP)的问题 ChatGPT answer:
-什么是Content Security Policy (CSP)？ CSP的作用是什么？ 如何设置CSP以提高网站的安全性？ CSP如何帮助防止跨站点脚本攻击（XSS）？ 在网站开发中，哪些情况下应该考虑使用CSP？ 说明知识 User ask:
-说明Content Security Policy (CSP)并举例 ChatGPT answer:
-Content Security Policy (CSP)是一种Web安全机制，可以限制网页内容的来源和资源，防止恶意脚本攻击和跨站脚本攻击 (XSS)。CSP可以通过HTTP响应头部的Content-Security-Policy标头添加到网页中，指定哪些资源是被允许取得的。
-举例来说，假设我们有一个网站，其中包含以下内容：
-&amp;lt;script src=&amp;#34;https://cdn.example.com/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;img src=&amp;#34;https://example.com/image.jpg&amp;#34;&amp;gt; 为了使用CSP，我们可以通过HTTP响应头部添加以下设置：
-Content-Security-Policy: default-src &amp;#39;self&amp;#39; https://cdn.example.com 这个CSP设置指定了只允许自身网站 (self) 和 https://cdn.example.com 这个域名下的资源载入，所以如果有任何尝试从其他的域名载入资源的行为，浏览器会挡下它们。
-另外，CSP也可以用来防止XSS攻击，例如：
-Content-Security-Policy: script-src &amp;#39;self&amp;#39; &amp;#39;unsafe-inline&amp;#39; &amp;#39;unsafe-eval&amp;#39; 这个CSP设置指定只允许自身网站执行JS程式码，并且禁止直接插入JS程式码。这样就可以防止尝试通过插入恶意脚本攻击网站的攻击行为。
-汇总重点 User ask:
-条列Content Security Policy (CSP)的重点 ChatGPT answer:
-CSP可以帮助防止跨站点脚本攻击（XSS）和点击劫持等攻击。
-CSP可以限制允许的资源载入，预防通过任何不信任来源载入外部资源。
-CSP可以解决降低没有安全标准，因为它标准化了网页内容与外部资源交互的方法。
-CSP使开发人员可以定义允许载入的网站和脚本，而不是直接允许能够执行的脚本。
-CSP可以减少开发人员的负担，因为它提供了一套网页安全标准模板，可用于在应用程序中实施安全检查。
-由于CSP不允许执行不安全的脚本，所以它可以将大量的风险从应用程序中隔离。
-CSP可以仅允许已知的安全源访问网页，以进一步增强安全性。
-知识测验 User ask:</description></item><item><title>同源策略</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</guid><description>习题预习 User ask:
-给我5题Same-origin policy的问题 ChatGPT answer:
-什么是Same-origin policy?
-Same-origin policy对网站安全有什么影响？
-如何遵循Same-origin policy，以确保网站的安全？
-Same-origin policy如何保护用户的隐私？
-在什么情况下，可能需要违反Same-origin policy，例如跨网站共享资源或与第三方服务集成？
-说明知识 User ask:
-说明Same-origin policy并举例 ChatGPT answer:
-Same-origin policy 是一个浏览器安全性机制，限制了一个网页文档（document）或脚本（script）在浏览器和同一个源（origin）下的资源交互，从而防止潜在的跨站脚本攻击（XSS）或跨站请求伪造（CSRF）等安全问题。
-一个源通常由三部分组成：协议（Protocol）、域名（Domain）和端口（Port）。只有三个部分都相同的资源才被认为是同一个源，否则就被视为不同的源。 譬如：
-http://www.example.com 和 https://www.example.com 是不同的源。 http://www.example.com 和 http://example.com 是不同的源。 http://www.example.com:80 和 http://www.example.com:8080 是不同的源。 一些常见的Same-origin policy限制包括：
-JavaScript在同一源下的资源上想像可以自由使用，但他们无法访问其他源的资源。 假设有一个JavaScript应用程序在example.com上运行，那么就可以访问它同一源下的任何资源，例如example.com/about.html；但是，如果应用程式尝试访问example.net上的资源，则将会被同源政策阻止。
-浏览器在送出不同源的 AJAX 请求或向 iframe 内载入内容时遵守同源政策。
-不同域名下设置的 Cookie 不会被 JavaScript 访问，也不会被浏览器发送给不同域名。
-一些HTML5 API （例如 Geolocation API 或者 Web Storage API）将遵循Same-origin policy，并禁止从非同一源的脚本中访问或修改数据。
-简单地说，当Same-origin policy被强制执行时，浏览器只允许当前网页文档获得它自己的资源，而只能与同一个源相关的资源进行交互。这可以减少安全威胁，针对用户的浏览器提供更加安全的环境。
-汇总重点 User ask:</description></item><item><title>HTTPS</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</guid><description>习题预习 User ask:
-给我5题HTTPS的问题 ChatGPT answer:
-HTTPS是什麼？ HTTPS的加密方式是如何實現的？ HTTPS有哪些優點？ 什麼情況下需要使用HTTPS？ HTTPS的憑證有什麼作用？ 说明知识 User ask:
-说明HTTPS并举例 ChatGPT answer:
+描述OAuth 2.0协议的授权流程？ 答案：OAuth 2.</description></item><item><title>內容安全策略 (CSP)</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/content-security-policy-csp/</guid><description>習題預習 User ask:
+給我5題Content Security Policy (CSP)的中文問題 ChatGPT answer:
+什麼是Content Security Policy (CSP)？ CSP的作用是什麼？ 如何設置CSP以提高網站的安全性？ CSP如何幫助防止跨站點腳本攻擊（XSS）？ 在網站開發中，哪些情況下應該考慮使用CSP？ 說明知識 User ask:
+以中文說明Content Security Policy (CSP)並舉例 ChatGPT answer:
+Content Security Policy (CSP)是一種Web安全機制，可以限制網頁內容的來源和資源，防止惡意腳本攻擊和跨站腳本攻擊 (XSS)。CSP可以通過HTTP響應頭部的Content-Security-Policy標頭添加到網頁中，指定哪些資源是被允許取得的。
+舉例來說，假設我們有一個網站，其中包含以下內容：
+&amp;lt;script src=&amp;#34;https://cdn.example.com/script.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;img src=&amp;#34;https://example.com/image.jpg&amp;#34;&amp;gt; 為了使用CSP，我們可以通過HTTP響應頭部添加以下設置：
+Content-Security-Policy: default-src &amp;#39;self&amp;#39; https://cdn.example.com 這個CSP設置指定了只允許自身網站 (self) 和 https://cdn.example.com 這個域名下的資源載入，所以如果有任何嘗試從其他的域名載入資源的行為，瀏覽器會擋下它們。
+另外，CSP也可以用來防止XSS攻擊，例如：
+Content-Security-Policy: script-src &amp;#39;self&amp;#39; &amp;#39;unsafe-inline&amp;#39; &amp;#39;unsafe-eval&amp;#39; 這個CSP設置指定只允許自身網站執行JS程式碼，並且禁止直接插入JS程式碼。這樣就可以防止嘗試通過插入惡意腳本攻擊網站的攻擊行為。
+條列重點 User ask:
+以中文條列Content Security Policy (CSP)的重點 ChatGPT answer:
+CSP可以幫助防止跨站點腳本攻擊（XSS）和點擊劫持等攻擊。
+CSP可以限制允許的資源載入，預防通過任何不信任來源載入外部資源。
+CSP可以解決降低沒有安全標準，因為它標準化了網頁內容與外部資源交互的方法。
+CSP使開發人員可以定義允許載入的網站和腳本，而不是直接允許能夠執行的腳本。
+CSP可以減少開發人員的負擔，因為它提供了一套網頁安全標準模板，可用於在應用程序中實施安全檢查。
+由於CSP不允許執行不安全的腳本，所以它可以將大量的風險從應用程序中隔離。
+CSP可以僅允許已知的安全源訪問網頁，以進一步增強安全性。
+知識測驗 User ask:</description></item><item><title>同源策略</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/same-origin-policy/</guid><description>習題預習 User ask:
+給我5題Same-origin policy的中文問題 ChatGPT answer:
+什麼是Same-origin policy?
+Same-origin policy對網站安全有什麼影響？
+如何遵循Same-origin policy，以確保網站的安全？
+Same-origin policy如何保護用戶的隱私？
+在什麼情況下，可能需要違反Same-origin policy，例如跨網站共享資源或與第三方服務集成？
+說明知識 User ask:
+以中文說明Same-origin policy並舉例 ChatGPT answer:
+Same-origin policy 是一個瀏覽器安全性機制，限制了一個網頁文檔（document）或腳本（script）在瀏覽器和同一個源（origin）下的資源交互，從而防止潛在的跨站腳本攻擊（XSS）或跨站請求偽造（CSRF）等安全問題。
+一個源通常由三部分組成：協議（Protocol）、域名（Domain）和端口（Port）。只有三個部分都相同的資源才被認為是同一個源，否則就被視為不同的源。 譬如：
+http://www.example.com 和 https://www.example.com 是不同的源。 http://www.example.com 和 http://example.com 是不同的源。 http://www.example.com:80 和 http://www.example.com:8080 是不同的源。 一些常見的Same-origin policy限制包括：
+JavaScript在同一源下的資源上想像可以自由使用，但他們無法訪問其他源的資源。 假設有一個JavaScript應用程序在example.com上運行，那麼就可以訪問它同一源下的任何資源，例如example.com/about.html；但是，如果應用程式嘗試訪問example.net上的資源，則將會被同源政策阻止。
+瀏覽器在送出不同源的 AJAX 請求或向 iframe 內載入內容時遵守同源政策。
+不同域名下設置的 Cookie 不會被 JavaScript 訪問，也不會被瀏覽器發送給不同域名。
+一些HTML5 API （例如 Geolocation API 或者 Web Storage API）將遵循Same-origin policy，並禁止從非同一源的腳本中訪問或修改數據。
+簡單地說，當Same-origin policy被強制執行時，瀏覽器只允許當前網頁文檔獲得它自己的資源，而只能與同一個源相關的資源進行交互。這可以減少安全威脅，針對用戶的瀏覽器提供更加安全的環境。
+條列重點 User ask:</description></item><item><title>HTTPS</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/infrastructure/security/web-application-security/https/</guid><description>習題預習 User ask:
+給我5題HTTPS的中文問題 ChatGPT answer:
+HTTPS是什麼？ HTTPS的加密方式是如何實現的？ HTTPS有哪些優點？ 什麼情況下需要使用HTTPS？ HTTPS的憑證有什麼作用？ 說明知識 User ask:
+以中文說明HTTPS並舉例 ChatGPT answer:
 HTTPS（Hypertext Transfer Protocol Secure）是一種網際網路通訊協議，用於在網際網路上安全地傳輸敏感資料。HTTPS將普通的HTTP通訊加密，從而保護敏感數據的安全性。HTTPS使用TLS（Transport Layer Security）或SSL（Secure Sockets Layer）協議對數據進行加密和驗證，以確保通訊過程中的數據無法被攔截、竊聽或偽造。
 舉例來說，當你在網路上購物時，你的瀏覽器將向該網站發送請求，請求該網站顯示商品和價格。如果該網站使用HTTP協議，那麼所有數據將以明文形式傳輸，而黑客可以輕鬆地獲得這些敏感信息。然而，如果該網站使用HTTPS協議，那麼所有數據都會經過加密和驗證，以確保你的數據在傳輸和處理期間是安全的。
 因此，大多數銀行、電子商務、網上支付和其他涉及敏感數據的網站都使用HTTPS協議。
-汇总重点 User ask:
-条列HTTPS的重点 ChatGPT answer:
+條列重點 User ask:
+以中文條列HTTPS的重點 ChatGPT answer:
 安全性：HTTPS是一種安全的網絡傳輸協議，它的主要目的是保護網絡傳輸過程中的敏感信息，防止被黑客窺探並竊取。
 加密：HTTPS通過使用SSL/TLS加密技術，將數據進行加密，提高了通信的安全性。
 身份驗證：HTTPS協議還提供身份驗證功能，網站可以在互聯網上通過數字證書證明自己的身份，確保用戶與該網站的安全通信。
 SEO優化：Google的搜索算法已經確定HTTPS是SEO排名的重要因素，因此使用HTTPS協議可以提高您的網站排名。
 網站速度：雖然HTTPS協議可能會稍微減慢網站的速度，但是這個速度減慢的影響已經極小，跟安全性相比顯得微不足道。
 信任感：使用HTTPS協議可以提高網站用戶的信任感，因為它顯示了該網站正在採取必要的安全措施，保障用戶的隱私和數據安全。
-知识测验 User ask:
-给我5题HTTPS的中等难度问题，并在后面列出答案 ChatGPT answer:
-什么是HTTPS握手？
-为什么TLS握手需要进行两个往返？
-当浏览器建立安全连接时，它如何验证HTTPS服务器的证书？
-什么是中间人攻击？如何防止它？
-HTTPS如何防止网路窥探？
+知識測驗 User ask:
+以中文給我5題HTTPS的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是HTTPS握手？
+為什麼TLS握手需要進行兩個往返？
+當瀏覽器建立安全連接時，它如何驗證HTTPS服務器的證書？
+什麼是中間人攻擊？如何防止它？
+HTTPS如何防止網路窺探？
 答案：
-HTTPS握手是当浏览器和HTTPS服务器之间建立安全连接时的过程，该过程包括TLS协议的加密和数据完整性保护。
-TLS握手需要进行两个往返，因为这个过程涉及加密协定的协商和密钥交换等运算，需要多次往返以确保可靠性和安全性。
-当浏览器建立安全连接时，它会从HTTPS服务器接收一份证书，浏览器会与证书相关的证书授权机构（CA）进行验证，确认证书是否具有可信度。
-中间人攻击是指黑客在通讯过程中抢走信息，并使通讯双方误以为正在通讯，从而进行信息的篡改和偷盗。防止中间人攻击的方法包括使用可信的CA证书、使用公开密码和密钥等。
-HTTPS可以通过TLS加密保护数据传输的安全性，防止网路窥探者获取和篡改数据。此外，HTTPS还可以通过TLS握手中建立的密钥来保护用户的身份和数据。</description></item></channel></rss>
+HTTPS握手是當瀏覽器和HTTPS服務器之間建立安全連接時的過程，該過程包括TLS協議的加密和數據完整性保護。
+TLS握手需要進行兩個往返，因為這個過程涉及加密協定的協商和密鑰交換等運算，需要多次往返以確保可靠性和安全性。
+當瀏覽器建立安全連接時，它會從HTTPS服務器接收一份證書，瀏覽器會與證書相關的證書授權機構（CA）進行驗證，確認證書是否具有可信度。
+中間人攻擊是指黑客在通訊過程中搶走信息，並使通訊雙方誤以為正在通訊，從而進行信息的篡改和偷盜。防止中間人攻擊的方法包括使用可信的CA證書、使用公開密碼和密鑰等。
+HTTPS可以通過TLS加密保護數據傳輸的安全性，防止網路窺探者獲取和篡改數據。此外，HTTPS還可以通過TLS握手中建立的密鑰來保護用戶的身份和數據。</description></item></channel></rss>

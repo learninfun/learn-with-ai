@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>动态图演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/</link><description>Recent content in 动态图演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>图形上的动态规划</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/dynamic-programming-on-graphs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/dynamic-programming-on-graphs/</guid><description>习题预习 User ask:
-给我5题Dynamic Programming on Graphs的问题 ChatGPT answer:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>动态图演算法 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/</link><description>Recent content in 动态图演算法 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>圖形上的動態規劃</title><link>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/dynamic-programming-on-graphs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-cn/ai-knowledge-hub/it/back-end-development/algorithm/dynamic-graph-algorithms/dynamic-programming-on-graphs/</guid><description>習題預習 User ask:
+給我5題Dynamic Programming on Graphs的中文問題 ChatGPT answer:
 在一個有向圖中，從起點到終點有多少條路徑可以經過恰好k個邊？
 在一個加權有向圖中，找到起點到終點的最短路徑。
 已知一個無向圖，選出一些邊使得所得的圖是一棵樹，並且所有邊權值總和最小。
 在一個有向圖中，找到從起點到終點的任意一條路徑上權值最小的邊的權值。
 已知一個有向無環圖（DAG），計算從起點到終點的最長路徑長度。
-说明知识 User ask:
-说明Dynamic Programming on Graphs并举例 ChatGPT answer:
+說明知識 User ask:
+以中文說明Dynamic Programming on Graphs並舉例 ChatGPT answer:
 動態規劃在圖形上的應用可以幫助我們找到圖形中的最優解。動態規劃基於一個子問題的累計解法，將問題分解為更小的子問題並將這些解合併為原始問題的解。在圖形中，這意味著找到圖形中所有可能路徑的最優解，並將這些最優解合併為圖形的整體最優解。
 例如，考慮以下圖形：
 A—&amp;gt;B | \ | v v| D—&amp;gt;C 假設我們想要找到從節點A到節點C的最短路徑。我們可以使用動態規劃來解決這個問題。我們首先從節點A開始，並計算到達節點B的最短路徑。然後，我們更新節點A到節點C的最短路徑，使用節點B到節點C的最短路徑來確定這個值。最後，我們找到到達節點D的最短路徑，並更新從節點A到節點D的路徑。這樣，我們就可以找到節點A到節點C的最短路徑。
 動態規劃在圖形上的另一個應用是最大權重匹配。在這種情況下，我們需要準確地匹配每個節點，以確保獲得最大權重的匹配。使用動態規劃，我們可以搜索圖形並找到每個節點的最大權重匹配。然後，我們可以將這些最大權重匹配合併為圖形的整體最大權重匹配。
 總體而言，動態規劃在圖形上的應用可以幫助我們有效地解決各種問題，包括最短路徑和最大權重匹配等。
-汇总重点 User ask:
-条列Dynamic Programming on Graphs的重点 ChatGPT answer:
+條列重點 User ask:
+以中文條列Dynamic Programming on Graphs的重點 ChatGPT answer:
 最短路徑算法
 最長路徑算法
 最小生成樹算法
@@ -26,8 +26,8 @@ A—&amp;gt;B | \ | v v| D—&amp;gt;C 假設我們想要找到從節點A到節�
 快速算法
 模型簽名
 圖形劃分算法
-知识测验 User ask:
-给我5题Dynamic Programming on Graphs的中等难度问题，并在后面列出答案 ChatGPT answer:
-双语词典（Bilingual Dictionary）
-给定一个双语词典，以及一系列的单词对。你的任务是通过这个词典进行翻译，找到所有这些单词对之间的翻译路径，并且使得翻译路径的总长度最小。 答案：https://www.acwing.com/problem/content/description/2573/
-网络延迟时间（Network Delay Time）</description></item></channel></rss>
+知識測驗 User ask:
+以中文給我5題Dynamic Programming on Graphs的中等難度問題，並在後面列出答案 ChatGPT answer:
+雙語詞典（Bilingual Dictionary）
+給定一個雙語詞典，以及一系列的單詞對。你的任務是通過這個詞典進行翻譯，找到所有這些單詞對之間的翻譯路徑，並且使得翻譯路徑的總長度最小。 答案：https://www.acwing.com/problem/content/description/2573/
+網絡延遲時間（Network Delay Time）</description></item></channel></rss>
