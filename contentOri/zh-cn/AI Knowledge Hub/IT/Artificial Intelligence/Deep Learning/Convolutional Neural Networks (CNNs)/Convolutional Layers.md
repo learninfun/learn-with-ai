@@ -1,5 +1,5 @@
 +++
-title = "Convolutional Layers"
+title = "卷积层"
 weight = "1"
 +++
 ## 习题预习

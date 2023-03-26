@@ -1,5 +1,5 @@
 +++
-title = "Lasso Regression"
+title = "Lasso回归"
 weight = "4"
 +++
 ## 习题预习
@@ -41,16 +41,16 @@ Lasso Regression在进行变量选择时，会将对目标变量影响较小的�
 以中文给我5题Lasso Regression的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 什么是Lasso Regression？它如何解决过度配适的问题？
-2. Lasso Regression如何处理多元共线性问题？
-3. Lasso Regression中如何选择正则化参数alpha的值？
-4. 请描述Lasso Regression在特征选择方面的应用。
-5. 请说明Lasso Regression和Ridge Regression的不同点。
+1. 什麼是Lasso Regression？它如何解決過度配適的問題？
+2. Lasso Regression如何處理多元共線性問題？
+3. Lasso Regression中如何選擇正則化參數alpha的值？
+4. 請描述Lasso Regression在特徵選擇方面的應用。
+5. 請說明Lasso Regression和Ridge Regression的不同點。
 
 答案：
-1. Lasso Regression是一种线性回归方法，它的目标是在拟合讲述的同时，通过惩罚高次项的方法来降低模型的复杂度，从而解决过度配适的问题。
-2. Lasso Regression可以通过将共线性特征的权重降为0的方式将特征选择和模型拟合同时进行。
-3. alpha的值决定了模型中的正则化程度，通常可以通过网格搜寻或交叉验证的方式来选择最优的alpha值。
-4. Lasso Regression的目标是将不重要的特征权重降为0，从而实现特征选择的功能，避免过度拟合和过拟合的问题。
-5. Lasso Regression和Ridge Regression的区别在于，Lasso Regression通过将权重降为0的方式实现特征选择，而Ridge Regression仅仅是将权重进行缩放。此外，Lasso Regression在建立模型时更倾向于保留重要特征，而Ridge Regression不会排除任何特征，只会进行权重调整。   
+1. Lasso Regression是一種線性回歸方法，它的目標是在擬合講述的同時，通過懲罰高次項的方法來降低模型的複雜度，從而解決過度配適的問題。
+2. Lasso Regression可以通過將共線性特徵的權重降為0的方式將特徵選擇和模型擬合同時進行。
+3. alpha的值決定了模型中的正則化程度，通常可以通過網格搜尋或交叉驗證的方式來選擇最優的alpha值。
+4. Lasso Regression的目標是將不重要的特徵權重降為0，從而實現特徵選擇的功能，避免過度擬合和過擬合的問題。
+5. Lasso Regression和Ridge Regression的區別在於，Lasso Regression通過將權重降為0的方式實現特徵選擇，而Ridge Regression僅僅是將權重進行縮放。此外，Lasso Regression在建立模型時更傾向於保留重要特徵，而Ridge Regression不會排除任何特徵，只會進行權重調整。   
 

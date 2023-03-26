@@ -1,10 +1,10 @@
 +++
-title = "SIFT Features"
+title = "尺度不变特征转换(SIFT)"
 weight = "2"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題SIFT Features的中文問題
+给我5题SIFT Features的中文问题
 {{< /ask_chatgpt >}}
 
 以下為五個SIFT相關的中文問題：
@@ -15,9 +15,9 @@ weight = "2"
 4. SIFT特徵提取的關鍵點搜尋方式是什麼？
 5. SIFT特徵提取的旋轉不變性如何實現？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明SIFT Features並舉例
+以中文说明SIFT Features并举例
 {{< /ask_chatgpt >}}
 
 SIFT（Scale-Invariant Feature Transform）被視為一種影像特徵描述子，簡單來說就是從一張影像中找尋出重要或獨特的特徵點，並透過這些特徵點來表示整張影像。SIFT技術的特點在於其具備標度和旋轉不變性，這意味著它能夠偵測同一物體在不同尺度和旋轉下的特徵，也就是說，即使物體會因為在不同位置、不同距離或角度下看起來不同，但是SIFT技術仍能有效地將它們描繪出來。
@@ -26,14 +26,14 @@ SIFT（Scale-Invariant Feature Transform）被視為一種影像特徵描述子�
 
 例如：當我們希望使用電腦識別一隻貓的時候，SIFT技術會先幫我們找出貓咪的眼睛、耳朵、鼻子、嘴巴、點點等獨特特徵，然後根據這些特徵點來構建一個貓咪的特徵向量。當我們需要在大量的圖片中找出相似的貓咪時，只需要讓電腦將每張圖片的特徵向量進行比對，看哪一張圖片的特徵向量與我們之前採集的貓咪特徵向量最相似，即可判斷該圖片是否包含貓咪。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列SIFT Features的重點
+以中文条列SIFT Features的重点
 {{< /ask_chatgpt >}}
 
 1. SIFT (Scale-Invariant Feature Transform)特徵是一種基於圖像局部特徵的描述子，通常用於物體識別或圖像配對。
 
-2. SIFT特徵的主要特性是其縮放不變性，這意味著當對象在圖像上縮放或旋轉時，SIFT特徵能夠保持不變。
+2. SIFT特徵的主要特性是其縮放不變性，這意味著當對像在圖像上縮放或旋轉時，SIFT特徵能夠保持不變。
 
 3. SIFT特徵是由圖像中的局部梯度統計得出的，因此SIFT特徵能夠有效地表示圖像中的細節和紋理。
 
@@ -43,9 +43,9 @@ SIFT（Scale-Invariant Feature Transform）被視為一種影像特徵描述子�
 
 6. SIFT特徵的應用範圍涉及影像識別、影像檢索、三維測量、機器人視覺等領域。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題SIFT Features的中等難度問題，並在後面列出答案
+以中文给我5题SIFT Features的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. SIFT特徵是由哪些步驟構成的？

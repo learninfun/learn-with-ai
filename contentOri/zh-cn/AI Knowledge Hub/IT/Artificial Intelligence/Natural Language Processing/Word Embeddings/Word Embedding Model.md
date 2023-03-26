@@ -1,5 +1,5 @@
 +++
-title = "Word Embedding Model"
+title = "单词嵌入模型"
 weight = "3"
 +++
 ## 习题预习

@@ -1,10 +1,10 @@
 +++
-title = "Edge Detection"
+title = "边缘检测"
 weight = "1"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Edge Detection的中文問題
+给我5题Edge Detection的中文问题
 {{< /ask_chatgpt >}}
 
 1. 什麼是邊緣偵測，它在影像處理中有什麼作用？
@@ -13,9 +13,9 @@ weight = "1"
 4. Sobel 運算子是如何實現邊緣偵測的，其原理是什麼？
 5. 在實際應用中，常見的邊緣檢測問題有哪些，如何解決它們？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Edge Detection並舉例
+以中文说明Edge Detection并举例
 {{< /ask_chatgpt >}}
 
 Edge Detection是一種用於檢測影像中主要輪廓、邊緣和細節的技術。它通常用於圖像處理、計算機視覺和機器學習等領域。
@@ -25,11 +25,11 @@ Edge Detection主要依靠計算影像中像素值的差異來識別邊緣。在
 例如，下圖是一張簡單的黑白影像，利用Sobel算子進行邊緣檢測：
 ![Sobel算子](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Mirosseni_sobel_operator_state_machine_diagram.svg/2560px-Mirosseni_sobel_operator_state_machine_diagram.svg.png)
 
-透過Sobel算子與邊緣檢測演算法，圖像中的邊緣可以被清晰地標示出來，例如照片中的物體輪廓、建筑物的線條等等。這樣的邊緣檢測技術可以用於圖像解析、自動檢測和認知等領域。   
+透過Sobel算子與邊緣檢測演算法，圖像中的邊緣可以被清晰地標示出來，例如照片中的物體輪廓、建築物的線條等等。這樣的邊緣檢測技術可以用於圖像解析、自動檢測和認知等領域。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Edge Detection的重點
+以中文条列Edge Detection的重点
 {{< /ask_chatgpt >}}
 
 1. Edge Detection是指在圖像處理中，找出圖像中物體邊緣的技術。
@@ -50,9 +50,9 @@ Edge Detection主要依靠計算影像中像素值的差異來識別邊緣。在
 
 9. 邊緣檢測算法還需考慮到許多實際因素，如圖像質量、噪聲程度、對運算速度的要求等，才能實現準確、高效的邊緣檢測。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Edge Detection的中等難度問題，並在後面列出答案
+以中文给我5题Edge Detection的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. 如何使用Sobel filter進行邊緣檢測？請簡單描述Sobel filter的工作原理。

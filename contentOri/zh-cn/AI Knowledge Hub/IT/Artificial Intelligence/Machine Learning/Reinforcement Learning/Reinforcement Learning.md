@@ -1,5 +1,5 @@
 +++
-title = "Reinforcement Learning"
+title = "强化学习"
 weight = "3"
 +++
 ## 习题预习

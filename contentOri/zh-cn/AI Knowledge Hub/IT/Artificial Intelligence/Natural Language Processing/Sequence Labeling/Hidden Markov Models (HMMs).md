@@ -1,5 +1,5 @@
 +++
-title = "Hidden Markov Models (HMMs)"
+title = "隐马尔可夫模型(HMM)"
 weight = "1"
 +++
 ## 习题预习

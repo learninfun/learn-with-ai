@@ -1,55 +1,55 @@
 +++
-title = "Loss Functions"
+title = "损失函数"
 weight = "2"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Loss Functions的中文問題
+给我5题Loss Functions的中文问题
 {{< /ask_chatgpt >}}
 
-1. 為何Mean Squared Error是一個常用的Loss Function？
-2. 什麼是Binary Cross Entropy Loss，以及它在什麼情況下會被使用？
-3. 在多類別分類中，Cross Entropy Loss的概念是什麼？如何計算？
-4. 如何使用Hinge Loss來進行SVM（支援向量機）的分類？
-5. 什麼是Huber Loss以及它在什麼情況下會被使用？   
+1. 为何Mean Squared Error是一个常用的Loss Function？
+2. 什么是Binary Cross Entropy Loss，以及它在什么情况下会被使用？
+3. 在多类别分类中，Cross Entropy Loss的概念是什么？如何计算？
+4. 如何使用Hinge Loss来进行SVM（支援向量机）的分类？
+5. 什么是Huber Loss以及它在什么情况下会被使用？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Loss Functions並舉例
+以中文说明Loss Functions并举例
 {{< /ask_chatgpt >}}
 
-Loss Functions是在深度學習中用來衡量模型預測與實際值之間差距的函數。這個函數會計算預測值和實際值之間的誤差，並將其轉換成數值，以便在訓練期間使用梯度下降算法最小化它。
+Loss Functions是在深度学习中用来衡量模型预测与实际值之间差距的函数。这个函数会计算预测值和实际值之间的误差，并将其转换成数值，以便在训练期间使用梯度下降算法最小化它。
 
-下面是幾種常見的Loss Functions及其例子：
+下面是几种常见的Loss Functions及其例子：
 
-1. 均方誤差(Mean Squared Error, MSE)：計算預測值和實際值之間的平均平方誤差。例如，當要預測房屋價格時，MSE可以衡量預測值與實際價格之間的誤差。
+1. 均方误差(Mean Squared Error, MSE)：计算预测值和实际值之间的平均平方误差。例如，当要预测房屋价格时，MSE可以衡量预测值与实际价格之间的误差。
 
-2. 交叉熵(Cross-Entropy)：用於衡量分類問題中預測類別與實際類別之間的不匹配程度。例如，當要對圖像中的物體進行分類時，交叉熵可以衡量預測的類別與實際類別之間的差距。
+2. 交叉熵(Cross-Entropy)：用于衡量分类问题中预测类别与实际类别之间的不匹配程度。例如，当要对图像中的物体进行分类时，交叉熵可以衡量预测的类别与实际类别之间的差距。
 
-3. KL散度(Kullback-Leibler Divergence, KL Divergence)：用於衡量機器學習模型中兩個機率分布之間的距離。例如，在生成對抗網絡(GAN)中，KL散度用於衡量生成器生成的圖像分布和真實圖像分布之間的相似程度。
+3. KL散度(Kullback-Leibler Divergence, KL Divergence)：用于衡量机器学习模型中两个机率分布之间的距离。例如，在生成对抗网络(GAN)中，KL散度用于衡量生成器生成的图像分布和真实图像分布之间的相似程度。
 
-4. 聚類損失(Cluster Loss)：用於衡量聚類模型中預測聚類與真實聚類之間的距離。例如，在文本聚類模型中，聚類損失可以衡量預測的文章分組與實際的分組之間的誤差。   
+4. 聚类损失(Cluster Loss)：用于衡量聚类模型中预测聚类与真实聚类之间的距离。例如，在文本聚类模型中，聚类损失可以衡量预测的文章分组与实际的分组之间的误差。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Loss Functions的重點
+以中文条列Loss Functions的重点
 {{< /ask_chatgpt >}}
 
-1. 損失函數（Loss Function）是機器學習模型的一個關鍵組件，它通常被用來衡量模型預測結果與實際結果之間的差距。
+1. 损失函数（Loss Function）是机器学习模型的一个关键组件，它通常被用来衡量模型预测结果与实际结果之间的差距。
 
-2. 常見的損失函數包括均方誤差（Mean Squared Error，MSE）、二元交叉熵（Binary Cross Entropy，BCE）和多類交叉熵（Categorical Cross Entropy，CCE）等。
+2. 常见的损失函数包括均方误差（Mean Squared Error，MSE）、二元交叉熵（Binary Cross Entropy，BCE）和多类交叉熵（Categorical Cross Entropy，CCE）等。
 
-3. MSE損失函數主要用於回歸問題中，它是預測值與實際值之差的平方和的均值。
+3. MSE损失函数主要用于回归问题中，它是预测值与实际值之差的平方和的均值。
 
-4. BCE損失函數主要用於二元分類問題中，它是正樣本和負樣本的交叉熵之和。
+4. BCE损失函数主要用于二元分类问题中，它是正样本和负样本的交叉熵之和。
 
-5. CCE損失函數主要用於多類分類問題中，它是所有類別的交叉熵之和。
+5. CCE损失函数主要用于多类分类问题中，它是所有类别的交叉熵之和。
 
-6. 損失函數的選擇需要考慮具體問題的特點和應用場景，並且在訓練過程中可以通過調整超參數來進行優化。   
+6. 损失函数的选择需要考虑具体问题的特点和应用场景，并且在训练过程中可以通过调整超参数来进行优化。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Loss Functions的中等難度問題，並在後面列出答案
+以中文给我5题Loss Functions的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. 什麼是Mean Squared Error（MSE）Loss Function？該如何使用它來計算模型的損失？

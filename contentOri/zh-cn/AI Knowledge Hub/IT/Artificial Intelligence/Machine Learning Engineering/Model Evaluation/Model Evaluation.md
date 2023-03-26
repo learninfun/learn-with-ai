@@ -1,5 +1,5 @@
 +++
-title = "Model Evaluation"
+title = "模型评估"
 weight = "3"
 +++
 ## 习题预习
@@ -42,16 +42,16 @@ Model Evaluation指的是对机器学习模型进行评估，以评估其预测�
 以中文给我5题Model Evaluation的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 什么是Confusion matrix？如何使用Confusion matrix评估模型效能？
-2. 什么是ROC曲线？如何使用ROC曲线评估二元分类模型效能？
-3. 过拟合与欠拟合分别代表什么？如何使用Validation curve判断模型是否过拟合或欠拟合？
-4. 什么是Bias-Variance trade-off？如何使用Learning curve找出模型的最佳平衡点？
-5. 什么是Cross-validation？如何使用Cross-validation找出最佳的模型超参数？
+1. 什麼是Confusion matrix？如何使用Confusion matrix評估模型效能？
+2. 什麼是ROC曲線？如何使用ROC曲線評估二元分類模型效能？
+3. 過擬合與欠擬合分別代表什麼？如何使用Validation curve判斷模型是否過擬合或欠擬合？
+4. 什麼是Bias-Variance trade-off？如何使用Learning curve找出模型的最佳平衡點？
+5. 什麼是Cross-validation？如何使用Cross-validation找出最佳的模型超參數？
 
 答案：
-1. Confusion matrix是用来评估二元分类模型效能的方法，将实际类别与预测类别每个部分分别放于四个方格中，可计算出准确率、精确率、召回率、F1 score等指标。
-2. ROC曲线是以伪阳性率(FPR)为X轴、真阳性率(TPR)为Y轴所绘制的曲线，可以用来评估二元分类模型的效能。曲线下方面积(AUC)越高，模型效能越好。
-3. 过拟合指模型在训练集上表现过于优秀，但在测试集上表现较差；欠拟合指模型无法在训练集上表现良好，因此在测试集上也无法表现良好。使用Validation curve可以绘制出不同超参数下的训练集与测试集的得分对比图，以判断模型是否过拟合或欠拟合。
-4. Bias-Variance trade-off指的是在模型表现优化过程中，Bias误差与Variance误差之间需要平衡。Learning curve可以绘制出不同训练集大小下的训练集与测试集的得分对比图，以判断模型是否需要更多的数据来降低Bias误差或更换更复杂的模型来减少Variance误差。
-5. Cross-validation是一种交叉验证的方法，可帮助找出最佳的模型超参数。使用K-Fold交叉验证，将数据集分为K个部分，模型训练时取K-1份作为训练集，取1份作为验证集，重复K次，求得K次得分的平均值。最佳的模型超参数为能够使得得分最高或者方差最小的超参数。   
+1. Confusion matrix是用來評估二元分類模型效能的方法，將實際類別與預測類別每個部分分別放於四個方格中，可計算出準確率、精確率、召回率、F1 score等指標。
+2. ROC曲線是以偽陽性率(FPR)為X軸、真陽性率(TPR)為Y軸所繪製的曲線，可以用來評估二元分類模型的效能。曲線下方面積(AUC)越高，模型效能越好。
+3. 過擬合指模型在訓練集上表現過於優秀，但在測試集上表現較差；欠擬合指模型無法在訓練集上表現良好，因此在測試集上也無法表現良好。使用Validation curve可以繪製出不同超參數下的訓練集與測試集的得分對比圖，以判斷模型是否過擬合或欠擬合。
+4. Bias-Variance trade-off指的是在模型表現優化過程中，Bias誤差與Variance誤差之間需要平衡。Learning curve可以繪製出不同訓練集大小下的訓練集與測試集的得分對比圖，以判斷模型是否需要更多的數據來降低Bias誤差或更換更複雜的模型來減少Variance誤差。
+5. Cross-validation是一種交叉驗證的方法，可幫助找出最佳的模型超參數。使用K-Fold交叉驗證，將數據集分為K個部分，模型訓練時取K-1份作為訓練集，取1份作為驗證集，重複K次，求得K次得分的平均值。最佳的模型超參數為能夠使得得分最高或者方差最小的超參數。   
 

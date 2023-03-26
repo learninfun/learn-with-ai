@@ -1,5 +1,5 @@
 +++
-title = "Density-Based Clustering"
+title = "基于密度的聚类"
 weight = "3"
 +++
 ## 习题预习

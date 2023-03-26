@@ -1,5 +1,5 @@
 +++
-title = "Generator"
+title = "生成器"
 weight = "1"
 +++
 ## 习题预习
@@ -7,20 +7,20 @@ weight = "1"
 给我5题Generator的中文问题
 {{< /ask_chatgpt >}}
 
-1. 什么是Generator？它有什么作用？
+1. 什麼是Generator？它有什麼作用？
 2. 如何使用Python建立Generator？
-3. Generator和List有什么区别？
-4. Generator和Iterator有什么关系？
-5. Generator在遍历大数据集合时有什么优势？   
+3. Generator和List有什麼區別？
+4. Generator和Iterator有什麼關係？
+5. Generator在遍歷大數據集合時有什麼優勢？   
 
 ## 说明知识
 {{< ask_chatgpt >}}
 以中文说明Generator并举例
 {{< /ask_chatgpt >}}
 
-Generator是一种Python语言中的迭代器（iterator），它可以让我们生成一系列的值，并且在使用时可以加以控制，可以让我们只需要生成需要的值，而不需要生成全部的值。Generator是使用yield语句来实现的，当我们使用next()函数来调用Generator时，它会执行yield语句将值返回给调用方，然后暂停执行，等待下一次调用。
+Generator是一種Python語言中的迭代器（iterator），它可以讓我們生成一系列的值，並且在使用時可以加以控制，可以讓我們只需要生成需要的值，而不需要生成全部的值。Generator是使用yield語句來實現的，當我們使用next()函數來調用Generator時，它會執行yield語句將值返回給調用方，然後暫停執行，等待下一次調用。
 
-以下是一个使用Generator生成斐波那契数列的例子：
+以下是一個使用Generator生成斐波那契數列的例子：
 
 ```Python
 def fib():
@@ -29,14 +29,14 @@ def fib():
         yield a
         a, b = b, a + b
 ```
-在这个例子中，我们使用while True来设定无限循环，然后使用yield a来生成数列中的每一个数字。当我们使用next()函数来调用这个Generator时，它会生成一个值并暂停执行，等待下一次调用。以下是使用这个Generator来生成数列的示例：
+在這個例子中，我們使用while True來設定無限循環，然後使用yield a來生成數列中的每一個數字。當我們使用next()函數來調用這個Generator時，它會生成一個值並暫停執行，等待下一次調用。以下是使用這個Generator來生成數列的示例：
 
 ```Python
 gen = fib()
 for i in range(10):
     print(next(gen))
 ```
-这段代码将会输出数列的前10个数字：
+這段代碼將會輸出數列的前10個數字：
 
 ```
 0
@@ -56,16 +56,16 @@ for i in range(10):
 以中文条列Generator的重点
 {{< /ask_chatgpt >}}
 
-1. Generator是Python中的一种特殊类型，可以用来创建一个可以迭代的对象。
-2. 使用yield关键字可以使函数返回一个Generator对象。
-3. Generator对象可以在迭代时生成一系列的值，而不是一次性返回所有的值。
-4. 与列表相比，Generator的主要优势是可以减少内存的使用，因为只有在需要时才会生成值。
-5. 在使用Generator时，可以使用for循环或者next()函数来遍历生成的值。
-6. Generator可以用来处理大型数据集，或者需要逐步计算的问题，例如计算斐波那契数列。
-7. Generator的yield关键字可以有多个值，每次产生的值可以是一个元组、列表或字典等集合型别。
-8. 一个Generator函数可以调用另一个Generator函数，并使用yield from语法遍历产生的值。
-9. 在使用Generator时，注意避免重复使用同一个Generator对象，否则会导致值的重复生成。
-10. Generator是Python中较为高级的概念，但使用起来非常灵活和方便，可以大大提升代码的可读性和效率。   
+1. Generator是Python中的一種特殊類型，可以用來創建一個可以迭代的對象。
+2. 使用yield關鍵字可以使函數返回一個Generator對象。
+3. Generator對象可以在迭代時生成一系列的值，而不是一次性返回所有的值。
+4. 與列表相比，Generator的主要優勢是可以減少內存的使用，因為只有在需要時才會生成值。
+5. 在使用Generator時，可以使用for循環或者next()函數來遍歷生成的值。
+6. Generator可以用來處理大型數據集，或者需要逐步計算的問題，例如計算斐波那契數列。
+7. Generator的yield關鍵字可以有多個值，每次產生的值可以是一個元組、列表或字典等集合型別。
+8. 一個Generator函數可以調用另一個Generator函數，並使用yield from語法遍歷產生的值。
+9. 在使用Generator時，注意避免重復使用同一個Generator對象，否則會導致值的重複生成。
+10. Generator是Python中較為高級的概念，但使用起來非常靈活和方便，可以大大提升代碼的可讀性和效率。   
 
 ## 知识测验
 {{< ask_chatgpt >}}

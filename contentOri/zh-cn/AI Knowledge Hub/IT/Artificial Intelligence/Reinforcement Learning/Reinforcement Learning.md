@@ -1,10 +1,10 @@
 +++
-title = "Reinforcement Learning"
+title = "强化学习"
 weight = "5"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Reinforcement Learning的中文問題
+给我5题Reinforcement Learning的中文问题
 {{< /ask_chatgpt >}}
 
 1. 什麼是強化學習？它在機器學習中有哪些應用？
@@ -13,18 +13,18 @@ weight = "5"
 4. 策略梯度方法（Policy Gradient Methods）是什麼？它如何克服傳統值函數法所面臨的瓶頸？
 5. 深度強化學習（Deep Reinforcement Learning）與傳統強化學習的區別是什麼？它使用什麼樣的深度學習模型進行強化學習？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Reinforcement Learning並舉例
+以中文说明Reinforcement Learning并举例
 {{< /ask_chatgpt >}}
 
 強化學習是一種機器學習方法，目標是在一個特定的環境中，以試誤的方式不斷學習提高，以最大程度地達成某個目標。通常，當一個智能體在環境中完成任務時，系統會根據它的表現，獎勵或懲罰它，以便智能體以後能夠提高效能。 強化學習旨在找到最優策略，使得智能體能夠獲得最大的總體獎勵。
 
 舉例來說，假設一個智能體需要學習如何玩電子遊戲，它必須進行一系列選擇以儘可能地獲得高分。智能體的目標是最小化它的損失並最大化獎勵。當智能體作出正確的選擇時，會得到獎勵；反之，如果智能體做出錯誤的選擇，它會受到懲罰。透過這樣的反饋，智能體可以不斷學習並自我完善，直至達成最好的總體獎勵，完成遊戲。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Reinforcement Learning的重點
+以中文条列Reinforcement Learning的重点
 {{< /ask_chatgpt >}}
 
 1. 強化學習是一種機器學習方法，主要用於訓練智能代理（agent）通過與環境的互動來學習適當的行為。
@@ -34,9 +34,9 @@ weight = "5"
 5. 常見的強化學習算法包括Q學習、SARSA、DQN和A3C等。這些算法在處理不同類型的強化學習問題時有不同的優勢和限制。
 6. 強化學習在許多領域都有應用，包括機器人控制、遊戲智能、自然語言處理和金融等。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Reinforcement Learning的中等難度問題，並在後面列出答案
+以中文给我5题Reinforcement Learning的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. 假設有一個智能體要學習遊戲，遊戲中會有隨機的障礙物，但是智能體要學習避免撞到障礙物，請問應該採用哪種Reinforcement Learning演算法？

@@ -1,10 +1,10 @@
 +++
-title = "Loss Function"
+title = "损失函数"
 weight = "3"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Loss Function的中文問題
+给我5题Loss Function的中文问题
 {{< /ask_chatgpt >}}
 
 1. Loss Function是什麼意思？
@@ -13,9 +13,9 @@ weight = "3"
 4. 如何根據Loss Function的值調整機器學習模型？
 5. 請舉例說明常用的Loss Function有哪些？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Loss Function並舉例
+以中文说明Loss Function并举例
 {{< /ask_chatgpt >}}
 
 Loss Function 是指用於衡量模型預測結果和真實結果之間差異的一個函數。通常是一個數值，用來衡量模型預測的結果與實際值之間的誤差大小，愈小代表模型預測結果愈接近實際值。
@@ -28,9 +28,9 @@ Loss Function 是指用於衡量模型預測結果和真實結果之間差異的
 
 總結來說，Loss Function 是機器學習中非常重要的一個概念，其確保了訓練過程中的優化方向和目標，對提升模型的性能有重要的作用。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Loss Function的重點
+以中文条列Loss Function的重点
 {{< /ask_chatgpt >}}
 
 1. 損失函數主要是用來衡量模型預測與真實值之間的差距。
@@ -40,9 +40,9 @@ Loss Function 是指用於衡量模型預測結果和真實結果之間差異的
 5. 交叉熵損失函數的梯度下降在訓練過程中比均方誤差更穩定。
 6. 損失函數是深度學習優化中非常關鍵的一個部分，訓練的好壞直接影響到模型的效果。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Loss Function的中等難度問題，並在後面列出答案
+以中文给我5题Loss Function的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. 請問L1 Loss Function與L2 Loss Function的差異在哪裡？ 

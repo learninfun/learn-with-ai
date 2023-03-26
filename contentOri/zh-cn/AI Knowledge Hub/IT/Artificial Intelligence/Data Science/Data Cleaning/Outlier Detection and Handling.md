@@ -1,5 +1,5 @@
 +++
-title = "Outlier Detection and Handling"
+title = "异常值检测和处理"
 weight = "2"
 +++
 ## 习题预习

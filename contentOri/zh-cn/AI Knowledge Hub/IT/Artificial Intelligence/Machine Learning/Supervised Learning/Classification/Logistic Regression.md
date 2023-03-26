@@ -1,66 +1,66 @@
 +++
-title = "Logistic Regression"
+title = "逻辑回归"
 weight = "1"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Logistic Regression的中文問題
+给我5题Logistic Regression的中文问题
 {{< /ask_chatgpt >}}
 
-1. 什麼是Logistic Regression，它可以用來做什麼分析？
-2. Logistic Regression的模型參數是如何學習的？
-3. 如何判斷Logistic Regression模型的性能？有哪些評估指標可以使用？
-4. Logistic Regression中的正則化技術有哪些？它們有什麼作用？
-5. Logistic Regression可以處理哪些類型的機器學習問題？例如分類問題、回歸問題等。   
+1. 什么是Logistic Regression，它可以用来做什么分析？
+2. Logistic Regression的模型参数是如何学习的？
+3. 如何判断Logistic Regression模型的性能？有哪些评估指标可以使用？
+4. Logistic Regression中的正则化技术有哪些？它们有什么作用？
+5. Logistic Regression可以处理哪些类型的机器学习问题？例如分类问题、回归问题等。   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Logistic Regression並舉例
+以中文说明Logistic Regression并举例
 {{< /ask_chatgpt >}}
 
-Logistic Regression（邏輯回歸）是一種監督式學習，通常用於分類問題。它通過建立一個機率模型來預測樣本所屬類別的機率。然後使用一個閾值來將預測的機率分類為某一類別。
+Logistic Regression（逻辑回归）是一种监督式学习，通常用于分类问题。它通过建立一个机率模型来预测样本所属类别的机率。然后使用一个阈值来将预测的机率分类为某一类别。
 
-舉例來說，當我們想要預測某個人是否會購買一件商品時，我們可以利用該人的各種特徵來建立一個邏輯回歸模型。例如，性別、年齡、學歷、收入等等。我們可以基於這些特徵建立一個邏輯回歸模型，該模型可以根據這些特徵，預測一個人是否會購買該商品。
+举例来说，当我们想要预测某个人是否会购买一件商品时，我们可以利用该人的各种特征来建立一个逻辑回归模型。例如，性别、年龄、学历、收入等等。我们可以基于这些特征建立一个逻辑回归模型，该模型可以根据这些特征，预测一个人是否会购买该商品。
 
-在實際操作中，我們會從一個標記過的數據集中學習模型。這些數據集包含了已知的標籤，也就是每個樣本屬於哪一個類別。我們可以利用這些標記來調整模型，使得模型的預測更加準確。
+在实际操作中，我们会从一个标记过的数据集中学习模型。这些数据集包含了已知的标签，也就是每个样本属于哪一个类别。我们可以利用这些标记来调整模型，使得模型的预测更加准确。
 
-總之，邏輯回歸是一個用於分類問題的機器學習算法，它通過建立一個機率模型來預測樣本所屬類別的機率。   
+总之，逻辑回归是一个用于分类问题的机器学习算法，它通过建立一个机率模型来预测样本所属类别的机率。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Logistic Regression的重點
+以中文条列Logistic Regression的重点
 {{< /ask_chatgpt >}}
 
-1. Logistic Regression是一種監督學習的分類算法。
-2. 用於處理二元分類問題（例如真假、是非、成功失敗等）或多元分類問題（例如鳥類分類、蔬菜分類等）。
-3. 通過將線性函數的輸出傳遞到sigmoid函數中，將輸出轉換為0～1之間的概率值。
-4. Logistic Regression是最常用的機器學習算法之一，具有易於實現、效果穩定及容易解釋等特點。
-5. 優點：適用於大多數二元分類問題，不會受到離群值的影響。
-6. 缺點：不適用於非線性問題、不能處理大量數據、需要調整參數。
-7. 重要應用：廣泛應用於金融、醫療、網絡安全等領域。   
+1. Logistic Regression是一种监督学习的分类算法。
+2. 用于处理二元分类问题（例如真假、是非、成功失败等）或多元分类问题（例如鸟类分类、蔬菜分类等）。
+3. 通过将线性函数的输出传递到sigmoid函数中，将输出转换为0～1之间的概率值。
+4. Logistic Regression是最常用的机器学习算法之一，具有易于实现、效果稳定及容易解释等特点。
+5. 优点：适用于大多数二元分类问题，不会受到离群值的影响。
+6. 缺点：不适用于非线性问题、不能处理大量数据、需要调整参数。
+7. 重要应用：广泛应用于金融、医疗、网络安全等领域。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Logistic Regression的中等難度問題，並在後面列出答案
+以中文给我5题Logistic Regression的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 假設你正在研究一個預測模型，並使用Logistic Regression演算法。在將數據輸入模型之前，你需要進行哪些數據處理？
+1. 假设你正在研究一个预测模型，并使用Logistic Regression演算法。在将数据输入模型之前，你需要进行哪些数据处理？
 
-答案：Logistic Regression需要處理缺失值、格式轉換、特徵縮放、特徵選擇等數據處理。
+答案：Logistic Regression需要处理缺失值、格式转换、特征缩放、特征选择等数据处理。
 
-2. 你正在使用Logistic Regression來預測一個二元變數，你需要如何評估模型的效能？
+2. 你正在使用Logistic Regression来预测一个二元变数，你需要如何评估模型的效能？
 
-答案：可以使用混淆矩陣(metric confusion matrix)來評估模型的效能，再使用精準度(metric precision)、召回率(metric recall)、F1分數(metric F1 score)等指標進行進一步的評估。
+答案：可以使用混淆矩阵(metric confusion matrix)来评估模型的效能，再使用精准度(metric precision)、召回率(metric recall)、F1分数(metric F1 score)等指标进行进一步的评估。
 
-3. 你正在使用Logistic Regression對一個多元分類問題進行建模。你需要如何處理前因變數的類別變數？
+3. 你正在使用Logistic Regression对一个多元分类问题进行建模。你需要如何处理前因变数的类别变数？
 
-答案：可以使用One-hot編碼(dummy variable encoding)將類別轉換為數值，再使用多元Logistic Regression建模。
+答案：可以使用One-hot编码(dummy variable encoding)将类别转换为数值，再使用多元Logistic Regression建模。
 
-4. 如果在使用Logistic Regression時，數據不符合為線性邏輯分佈，你需要採取什麼方法來解決這個問題？
+4. 如果在使用Logistic Regression时，数据不符合为线性逻辑分布，你需要采取什么方法来解决这个问题？
 
-答案：可以將變數轉換為符合邏輯分佈的形式，例如對數轉換(log transformation)、次方轉換(power transformation)等。
+答案：可以将变数转换为符合逻辑分布的形式，例如对数转换(log transformation)、次方转换(power transformation)等。
 
-5. 在使用Logistic Regression建模時，如何解釋模型係數(coefficient)的意義？
+5. 在使用Logistic Regression建模时，如何解释模型系数(coefficient)的意义？
 
-答案：通常可以將模型係數解釋為前因變數對應因變數的對數比例(odds ratio)的增量。例如，一個二元變數增加1對應的係數，表示因變數的預測概率增加一個比例。   
+答案：通常可以将模型系数解释为前因变数对应因变数的对数比例(odds ratio)的增量。例如，一个二元变数增加1对应的系数，表示因变数的预测概率增加一个比例。   
 

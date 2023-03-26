@@ -1,5 +1,5 @@
 +++
-title = "Machine Learning"
+title = "机器学习"
 weight = "1"
 +++
 ## 习题预习
@@ -54,14 +54,14 @@ Machine Learning还有很多其他的应用场景，例如在医学诊断、声�
 以中文给我5题Machine Learning的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 如何使用随机森林模型进行特征选择？
-2. 实现简单遗传算法以最小化损失函数。
-3. 使用K-Means演算法将资料分成三个集群，评估分群的好坏。
-4. 如何使用交叉验证对模型进行调参，并选择最好的模型？
-5. 实现一个支持向量机模型，并使用梯度下降法进行参数更新。
+1. 如何使用隨機森林模型進行特徵選擇？
+2. 實現簡單遺傳算法以最小化損失函數。
+3. 使用K-Means演算法將資料分成三個集群，評估分群的好壞。
+4. 如何使用交叉驗證對模型進行調參，並選擇最好的模型？
+5. 實現一個支持向量機模型，並使用梯度下降法進行參數更新。
 
 答案：
-1. 参考如下Python程式码：
+1. 參考如下Python程式碼：
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import load_iris
@@ -76,7 +76,7 @@ rfc.fit(X, y)
 feat_importances = pd.Series(rfc.feature_importances_, index=iris.feature_names)
 feat_importances.nlargest(2).plot(kind='barh')
 
-2. 参考如下Python程式码：
+2. 參考如下Python程式碼：
 
 import numpy as np
 
@@ -125,7 +125,7 @@ def simple_ga(pop_size, n_generations, mutation_rate, X, y):
     best_idx = np.argmax(fitness)
     return pop[best_idx]
 
-3. 参考如下Python程式码：
+3. 參考如下Python程式碼：
 
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
@@ -141,7 +141,7 @@ labels = kmeans.labels_
 score = silhouette_score(X, labels)
 print('Silhouette score:', score)
 
-4. 参考如下Python程式码：
+4. 參考如下Python程式碼：
 
 from sklearn.model_selection import GridSearchCV
 from sklearn.datasets import load_iris
@@ -159,7 +159,7 @@ grid_search.fit(X, y)
 print('Best parameters:', grid_search.best_params_)
 print('Best score:', grid_search.best_score_)
 
-5. 参考如下Python程式码：
+5. 參考如下Python程式碼：
 
 import numpy as np
 

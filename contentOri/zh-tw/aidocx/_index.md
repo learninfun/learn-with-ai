@@ -37,10 +37,10 @@ aidocx就是這樣一個工具，只要你輸入以樹狀排列的知識點清�
 以OpenAI的ChatGPT為例，可使用此網址進行申請: [申請網址](https://openai.com/blog/openai-api)
 
 ## 使用方式
-1. 下載aidocx 
+### 1. 下載aidocx 
 [Github](https://github.com/learninfun/aidocx)
 
-2. input.md: 輸入想要了解的知識點清單
+### 2. 新增input.md: 輸入想要了解的知識點清單
 ```markdown
 - 知識點1
   - 知識點1.1
@@ -50,11 +50,26 @@ aidocx就是這樣一個工具，只要你輸入以樹狀排列的知識點清�
 - 知識點3
 ```
 
-2. 調整每個知識點想要問的問題
+**知識點清單範例**
+```markdown
+- 機器學習
+  - 監督式學習
+    - 分類
+    - 迴歸
+  - 非監督式學習
+    - 聚類
+    - 降維
+- 深度學習
+  - 神經網絡
+    - 啟動函數
+    - 損失函數
+    - 反向傳播
+```
 
-config.yaml:
+### 3. 新增config.yaml: 調整每個知識點想要問的問題
+
 ```yaml
-apiProvider: ChatGPT
+apiProvider: OpenAI
 apiModal: gpt-3.5-turbo-0301
 initRole: Assuming you are an "IT" expert, answer my questions.
 questions:
@@ -72,7 +87,7 @@ questions:
     template: 以中文給我5題{{ .keyword}}的中等難度問題，並在後面列出答案
 ```
 
-3. 執行apidoc，獲得epub
+4. 執行apidoc，獲得epub  
 注意: 按照知識點乘上問題數目，總問題越多，執行時間會越久。
 ```bash
 aidocx -t epub \
@@ -82,13 +97,6 @@ aidocx -t epub \
 ```
 
 ## 使用費用估計
-aidocx本身是免費的，不過呼叫廠商(例如微軟、Google)的API，廠商本身會針對api key收費。
-以ChatGPT3為例，1000個token收費0.002美金 [參考資料](https://openai.com/pricing#language-models)。
-一個問題，題目和答案的字數合併計算，上限4096個token。
-所以1個問題，最多4096/1000*0.002 = 0.008192美金。
-如果有100個知識點，每個知識點問5個問題。
-預計花費為 100*5*0.008192 = 4.096美金。
+aidocx 是一個免費的工具，但它需要呼叫廠商提供的 API，比如 Microsoft 或 Google。而廠商會針對相應的 API key 進行收費的。以 ChatGPT3 為例，1000 個 token 的費用為 0.002 美元，更多詳情可參考 OpenAI 的[定價頁面](https://openai.com/pricing)。一個問題，包括題目和答案的字數總和最多為 4096 個 token，所以一個問題的最高成本是 0.008192 美元。如果您有 100 個知識點，並且每個知識點有 5 個問題，那麼預計花費的金額為 4.096 美元。
 
-4096個是GPT-3的上限，正常回答的字數，不會這麼多。
-按照經驗來說，平均使用會是上限值的1/4到1/2，具體數字按照問題複雜度而定。
-相對使用GPT-4的費用就比較貴了，它可以回答的長度也會更長。
+需要注意的是，4096 是 GPT-3 一個問題的上限，實際上正常回答的字數並不會這麼多。根據經驗，平均而言，實際回答的字數可能在上限值的 1/4 到 1/2 之間，具體數字還取決於問題的複雜度。如果您使用 GPT-4，則費用會更高，但您可以得到更長的回答。

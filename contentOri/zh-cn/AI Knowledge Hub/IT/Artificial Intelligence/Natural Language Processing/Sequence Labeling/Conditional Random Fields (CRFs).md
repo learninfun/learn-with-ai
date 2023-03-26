@@ -1,5 +1,5 @@
 +++
-title = "Conditional Random Fields (CRFs)"
+title = "条件随机场(CRF)"
 weight = "2"
 +++
 ## 习题预习

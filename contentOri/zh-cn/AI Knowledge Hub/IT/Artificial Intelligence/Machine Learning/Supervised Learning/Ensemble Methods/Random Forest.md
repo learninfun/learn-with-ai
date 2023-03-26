@@ -1,10 +1,10 @@
 +++
-title = "Random Forest"
+title = "随机森林"
 weight = "1"
 +++
-## 習題預習
+## 习题预习
 {{< ask_chatgpt >}}
-給我5題Random Forest的中文問題
+给我5题Random Forest的中文问题
 {{< /ask_chatgpt >}}
 
 1. 隨機森林是什麼？它在機器學習中有什麼作用？
@@ -13,9 +13,9 @@ weight = "1"
 4. 如何調整隨機森林模型的參數以取得更好的性能？
 5. 隨機森林與其他機器學習算法相比有什麼優點和缺點？   
 
-## 說明知識
+## 说明知识
 {{< ask_chatgpt >}}
-以中文說明Random Forest並舉例
+以中文说明Random Forest并举例
 {{< /ask_chatgpt >}}
 
 Random Forest是一種統計學習中的機器學習方法，用於解決分類和回歸問題。它基於樹的集成學習，通過從多顆決策樹中綜合預測結果來提高準確性。
@@ -24,9 +24,9 @@ Random Forest的基本思想是構建多棵樹並集成它們的預測結果。�
 
 舉個例子，假如我們要使用Random Forest來預測一個人是否會喜歡一本書，我們可以從數據集中選取一部分樣本和一部分特徵來訓練多棵決策樹。每棵樹會對樣本和特徵進行判斷，最終的預測結果是這些決策樹的集成。當新的變量出現時，Random Forest將會使用每棵決策樹的預測結果來得到最終的結果，從而實現對這本書是否受歡迎的預測。   
 
-## 條列重點
+## 条列重点
 {{< ask_chatgpt >}}
-以中文條列Random Forest的重點
+以中文条列Random Forest的重点
 {{< /ask_chatgpt >}}
 
 1. Random Forest 是一種強大的集成學習方法，它由多個決策樹組成。
@@ -45,9 +45,9 @@ Random Forest的基本思想是構建多棵樹並集成它們的預測結果。�
 
 8. 另外，由於 Random Forest 是基於樹的方法，對於大型數據集的處理能力有所限制。   
 
-## 知識測驗
+## 知识测验
 {{< ask_chatgpt >}}
-以中文給我5題Random Forest的中等難度問題，並在後面列出答案
+以中文给我5题Random Forest的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
 1. 什麼是Random Forest，它的主要特點是什麼？

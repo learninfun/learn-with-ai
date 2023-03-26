@@ -1,5 +1,5 @@
 +++
-title = "Data Science"
+title = "数据科学"
 weight = "6"
 +++
 ## 习题预习
@@ -29,144 +29,144 @@ Data Science是一个专注于分析、整理和理解数据的领域，并利�
 以中文条列Data Science的重点
 {{< /ask_chatgpt >}}
 
-- 数据处理和分析技术： 数据科学的重点是基于数据的问题解决，因此需要使用各种数据处理和分析技术，如数据挖掘、机器学习、数据可视化等。
-- 统计学和数学： 统计学和数学是数据科学的重要基础，数据科学家需要具有深厚的统计和数学知识，以理解和应用各种分析方法。
-- 编程和软件工程： 数据科学家需要熟练掌握编程和软件工程技术，以便在开发和运行数据分析和挖掘程序时能够高效地开发，维护和扩展程序。
-- 数据可视化：数据可视化是一种重要的数据科学工具，它可以将数据转换为有意义的图表和图形，以帮助数据科学家理解模式、趋势和深度信息。
-- 商业洞察力：数据科学家需要有商业洞察力，以理解客户和企业的需求和目标，以有效地运用数据技术解决商业问题。
-- 数据管理和隐私保护：数据科学家需要了解数据管理和隐私保护的最佳实践和法规，保护客户数据的安全和隐私。   
+- 數據處理和分析技術： 數據科學的重點是基於數據的問題解決，因此需要使用各種數據處理和分析技術，如數據挖掘、機器學習、數據可視化等。
+- 統計學和數學： 統計學和數學是數據科學的重要基礎，數據科學家需要具有深厚的統計和數學知識，以理解和應用各種分析方法。
+- 編程和軟件工程： 數據科學家需要熟練掌握編程和軟件工程技術，以便在開發和運行數據分析和挖掘程序時能夠高效地開發，維護和擴展程序。
+- 數據可視化：數據可視化是一種重要的數據科學工具，它可以將數據轉換為有意義的圖表和圖形，以幫助數據科學家理解模式、趨勢和深度信息。
+- 商業洞察力：數據科學家需要有商業洞察力，以理解客戶和企業的需求和目標，以有效地運用數據技術解決商業問題。
+- 數據管理和隱私保護：數據科學家需要瞭解數據管理和隱私保護的最佳實踐和法規，保護客戶數據的安全和隱私。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
 以中文给我5题Data Science的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 试着用 Python 利用 KMeans 分群演算法对鸢尾花资料集进行分群，并计算出每个群组的中心点座标。
+1. 試著用 Python 利用 KMeans 分群演算法對鳶尾花資料集進行分群，並計算出每個群組的中心點座標。
 
-答案：下方为 Python 程式码示范：
+答案：下方為 Python 程式碼示範：
 
 ```python
 from sklearn.cluster import KMeans
 from sklearn.datasets import load_iris
 
-#读入鸢尾花资料集
+#讀入鳶尾花資料集
 X = load_iris().data
 
-#使用 KMeans 演算法进行分群（4 组）
+#使用 KMeans 演算法進行分群（4 組）
 kmeans = KMeans(n_clusters=4, random_state=0).fit(X)
 
-#列印出每个群组的中心点座标
+#列印出每個群組的中心點座標
 print(kmeans.cluster_centers_)
 ```
 
-2. 假设你已经使用前述的 KMeans 演算法进行分群，并且有了每个资料点所属的群组标签，试着使用 Python 计算出每个群组的平均值、中位数和标准差。
+2. 假設你已經使用前述的 KMeans 演算法進行分群，並且有了每個資料點所屬的群組標籤，試著使用 Python 計算出每個群組的平均值、中位數和標準差。
 
-答案：下方为 Python 程式码示范：
+答案：下方為 Python 程式碼示範：
 
 ```python
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.cluster import KMeans
 
-#读入鸢尾花资料集
+#讀入鳶尾花資料集
 X = load_iris().data
 
-#使用 KMeans 演算法进行分群（4 组）
+#使用 KMeans 演算法進行分群（4 組）
 kmeans = KMeans(n_clusters=4, random_state=0).fit(X)
 
-#计算每个群组的平均值
+#計算每個群組的平均值
 means = [np.mean(X[kmeans.labels_ == i], axis=0) for i in range(kmeans.n_clusters)]
 
-#计算每个群组的中位数
+#計算每個群組的中位數
 medians = [np.median(X[kmeans.labels_ == i], axis=0) for i in range(kmeans.n_clusters)]
 
-#计算每个群组的标准差
+#計算每個群組的標準差
 std_dev = [np.std(X[kmeans.labels_ == i], axis=0) for i in range(kmeans.n_clusters)]
 
-#列印出计算结果
-print("群组平均值：\n", means)
-print("群组中位数：\n", medians)
-print("群组标准差：\n", std_dev)
+#列印出計算結果
+print("群組平均值：\n", means)
+print("群組中位數：\n", medians)
+print("群組標準差：\n", std_dev)
 ```
 
-3. 试着使用 Python 计算出铁达尼号资料集中，男性与女性的生存率（以百分比呈现）。
+3. 試著使用 Python 計算出鐵達尼號資料集中，男性與女性的生存率（以百分比呈現）。
 
-答案：下方为 Python 程式码示范：
+答案：下方為 Python 程式碼示範：
 
 ```python
 import pandas as pd
 
-#读入铁达尼号资料集
+#讀入鐵達尼號資料集
 titanic = pd.read_csv('titanic.csv')
 
-#计算男性生存率
+#計算男性生存率
 male_survival = titanic.loc[titanic['Sex'] == 'male', 'Survived'].mean()
 
-#计算女性生存率
+#計算女性生存率
 female_survival = titanic.loc[titanic['Sex'] == 'female', 'Survived'].mean()
 
-#将结果以百分比呈现
+#將結果以百分比呈現
 print("男性生存率：{:.2f}%".format(male_survival*100))
 print("女性生存率：{:.2f}%".format(female_survival*100))
 ```
 
-4. 试着使用 Python 计算出铁达尼号资料集中，船票价格的平均值、中位数、标准差以及最大、最小值。
+4. 試著使用 Python 計算出鐵達尼號資料集中，船票價格的平均值、中位數、標準差以及最大、最小值。
 
-答案：下方为 Python 程式码示范：
+答案：下方為 Python 程式碼示範：
 
 ```python
 import pandas as pd
 
-#读入铁达尼号资料集
+#讀入鐵達尼號資料集
 titanic = pd.read_csv('titanic.csv')
 
-#计算票价平均值
+#計算票價平均值
 mean_fare = titanic['Fare'].mean()
 
-#计算票价中位数
+#計算票價中位數
 median_fare = titanic['Fare'].median()
 
-#计算票价标准差
+#計算票價標準差
 std_dev_fare = titanic['Fare'].std()
 
-#取得票价的最大和最小值
+#取得票價的最大和最小值
 min_fare = titanic['Fare'].min()
 max_fare = titanic['Fare'].max()
 
-#列印出计算结果
-print("票价平均值：", mean_fare)
-print("票价中位数：", median_fare)
-print("票价标准差：", std_dev_fare)
-print("票价最大值：", max_fare)
-print("票价最小值：", min_fare)
+#列印出計算結果
+print("票價平均值：", mean_fare)
+print("票價中位數：", median_fare)
+print("票價標準差：", std_dev_fare)
+print("票價最大值：", max_fare)
+print("票價最小值：", min_fare)
 ```
 
-5. 试着使用 Python 计算出美国高中生测验数据集中，数学分数最高的 10 个男生和 10 个女生的平均分数。
+5. 試著使用 Python 計算出美國高中生測驗數據集中，數學分數最高的 10 個男生和 10 個女生的平均分數。
 
-答案：下方为 Python 程式码示范：
+答案：下方為 Python 程式碼示範：
 
 ```python
 import pandas as pd
 
-#读入测验数据集
+#讀入測驗數據集
 scores = pd.read_csv('scores.csv')
 
-#选出男生中数学分数最高的 10 名
+#選出男生中數學分數最高的 10 名
 male_top_10 = scores.loc[scores['gender'] == 'male', 'math score'].nlargest(10)
 
-#选出女生中数学分数最高的 10 名
+#選出女生中數學分數最高的 10 名
 female_top_10 = scores.loc[scores['gender'] == 'female', 'math score'].nlargest(10)
 
-#计算男生的平均分数
+#計算男生的平均分數
 male_mean = male_top_10.mean()
 
-#计算女生的平均分数
+#計算女生的平均分數
 female_mean = female_top_10.mean()
 
-#列印出计算结果
-print("男生数学分数前十名的平均分数：", male_mean)
-print("女生数学分数前十名的平均分数：", female_mean)
+#列印出計算結果
+print("男生數學分數前十名的平均分數：", male_mean)
+print("女生數學分數前十名的平均分數：", female_mean)
 ```
 
-以上皆为示范题目，请读者自行思考和练习其他题目。   
+以上皆為示範題目，請讀者自行思考和練習其他題目。   
 

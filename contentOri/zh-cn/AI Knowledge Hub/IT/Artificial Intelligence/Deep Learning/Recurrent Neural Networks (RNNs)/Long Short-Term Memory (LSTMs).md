@@ -1,5 +1,5 @@
 +++
-title = "Long Short-Term Memory (LSTMs)"
+title = "长短期记忆网络"
 weight = "1"
 +++
 ## 习题预习

@@ -1,5 +1,5 @@
 +++
-title = "Natural Language Processing"
+title = "自然语言处理"
 weight = "3"
 +++
 ## 习题预习

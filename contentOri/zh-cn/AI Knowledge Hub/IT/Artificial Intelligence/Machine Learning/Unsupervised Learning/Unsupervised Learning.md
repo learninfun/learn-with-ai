@@ -1,5 +1,5 @@
 +++
-title = "Unsupervised Learning"
+title = "非监督式学习"
 weight = "2"
 +++
 ## 习题预习

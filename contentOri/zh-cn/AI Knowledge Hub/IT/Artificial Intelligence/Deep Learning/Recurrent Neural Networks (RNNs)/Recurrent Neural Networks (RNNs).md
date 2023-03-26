@@ -1,5 +1,5 @@
 +++
-title = "Recurrent Neural Networks (RNNs)"
+title = "循环神经网络(RNN)"
 weight = "3"
 +++
 ## 习题预习

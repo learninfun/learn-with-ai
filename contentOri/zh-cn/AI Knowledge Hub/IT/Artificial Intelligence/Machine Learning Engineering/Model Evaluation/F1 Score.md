@@ -1,5 +1,5 @@
 +++
-title = "F1 Score"
+title = "F1得分"
 weight = "3"
 +++
 ## 习题预习
@@ -34,38 +34,38 @@ F1 Score是一个综合评估模型准确率和召回率的指标，它是精度
 以中文条列F1 Score的重点
 {{< /ask_chatgpt >}}
 
-1. F1 Score是评估模型预测结果准确性的指标。
-2. F1 Score是Precision和Recall的调和平均数，综合考虑了真阳性、假阳性和假阴性。
-3. F1 Score的取值范围在0和1之间，值越高表示模型的预测结果越准确。
-4. F1 Score在不同的问题和资料集中具有不同的意义和应用。
-5. F1 Score需要根据实际问题和模型的需求来进行调参。   
+1. F1 Score是評估模型預測結果準確性的指標。
+2. F1 Score是Precision和Recall的調和平均數，綜合考慮了真陽性、假陽性和假陰性。
+3. F1 Score的取值範圍在0和1之間，值越高表示模型的預測結果越準確。
+4. F1 Score在不同的問題和資料集中具有不同的意義和應用。
+5. F1 Score需要根據實際問題和模型的需求來進行調參。   
 
 ## 知识测验
 {{< ask_chatgpt >}}
 以中文给我5题F1 Score的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 计算二元分类问题中的F1 Score，若正例数为80，负例数为20，True Positive为60，False Positive为10，False Negative为20，则F1 Score为多少？
+1. 計算二元分類問題中的F1 Score，若正例數為80，負例數為20，True Positive為60，False Positive為10，False Negative為20，則F1 Score為多少？
 答案：F1 Score = 2 x (Precision x Recall) / (Precision + Recall) = 2 x (60 / 70 x 60 / 80) / (60 / 70 + 60 / 80) ≈ 0.7895
 
-2. 计算多元分类问题中的weighted F1 Score，若有5个分类，每个分类的预测数量和实际数量如下表所示，则weighted F1 Score为多少？
+2. 計算多元分類問題中的weighted F1 Score，若有5個分類，每個分類的預測數量和實際數量如下表所示，則weighted F1 Score為多少？
 
 |           | Class 1 | Class 2 | Class 3 | Class 4 | Class 5 |
 |:---------:|:-------:|:-------:|:-------:|:-------:|:-------:|
-| 预测 Class 1 |    25   |    5    |    5    |    0    |    0    |
-| 预测 Class 2 |    10   |    35   |    5    |    5    |    0    |
-| 预测 Class 3 |    5    |    5    |    50   |    0    |    5    |
-| 预测 Class 4 |    0    |    5    |    0    |    40   |    5    |
-| 预测 Class 5 |    0    |    0    |    5    |    5    |    35   |
+| 預測 Class 1 |    25   |    5    |    5    |    0    |    0    |
+| 預測 Class 2 |    10   |    35   |    5    |    5    |    0    |
+| 預測 Class 3 |    5    |    5    |    50   |    0    |    5    |
+| 預測 Class 4 |    0    |    5    |    0    |    40   |    5    |
+| 預測 Class 5 |    0    |    0    |    5    |    5    |    35   |
 
-答案：对每个类别计算Precision、Recall和F1 Score，并加权平均。例如，对于Class 1，Precision = 25 / (25 + 10 + 5 + 0 + 0) ≈ 0.625，Recall = 25 / (25 + 5 + 5 + 0 + 0) ≈ 0.714，F1 Score = 2 * (0.625 * 0.714) / (0.625 + 0.714) ≈ 0.667。经过计算，weighted F1 Score ≈ 0.685
+答案：對每個類別計算Precision、Recall和F1 Score，並加權平均。例如，對於Class 1，Precision = 25 / (25 + 10 + 5 + 0 + 0) ≈ 0.625，Recall = 25 / (25 + 5 + 5 + 0 + 0) ≈ 0.714，F1 Score = 2 * (0.625 * 0.714) / (0.625 + 0.714) ≈ 0.667。經過計算，weighted F1 Score ≈ 0.685
 
-3. 若有一个二元分类模型，其中True Positive Rate (TPR) = 0.8，False Positive Rate (FPR) = 0.1，则该模型的F1 Score为多少？
+3. 若有一個二元分類模型，其中True Positive Rate (TPR) = 0.8，False Positive Rate (FPR) = 0.1，則該模型的F1 Score為多少？
 答案：由TPR和FPR可求出Precision和Recall，Precision = TP / (TP + FP) = TPR / (TPR + FPR - 1) ≈ 0.8 / 0.7 ≈ 1.143，Recall = TPR = 0.8，F1 Score = 2 * (Precision * Recall) / (Precision + Recall) ≈ 0.848
 
-4. 若一个模型的Precision和Recall都等于0.9，则其F1 Score为多少？
+4. 若一個模型的Precision和Recall都等於0.9，則其F1 Score為多少？
 答案：F1 Score = 2 * (Precision * Recall) / (Precision + Recall) = 2 * (0.9 * 0.9) / (0.9 + 0.9) ≈ 0.9
 
-5. 若有一个二元分类问题，其中正例数量为70，负例数量为30，若该问题有两个不同的模型，其中模型A的Precision为0.8，Recall为0.7，模型B的Precision为0.7，Recall为0.8，则哪个模型的F1 Score更高？
-答案：模型A的F1 Score = 2 * (0.8 * 0.7) / (0.8 + 0.7) ≈ 0.7619，模型B的F1 Score = 2 * (0.7 * 0.8) / (0.7 + 0.8) ≈ 0.7619。由计算可知，两个模型的F1 Score相同。   
+5. 若有一個二元分類問題，其中正例數量為70，負例數量為30，若該問題有兩個不同的模型，其中模型A的Precision為0.8，Recall為0.7，模型B的Precision為0.7，Recall為0.8，則哪個模型的F1 Score更高？
+答案：模型A的F1 Score = 2 * (0.8 * 0.7) / (0.8 + 0.7) ≈ 0.7619，模型B的F1 Score = 2 * (0.7 * 0.8) / (0.7 + 0.8) ≈ 0.7619。由計算可知，兩個模型的F1 Score相同。   
 

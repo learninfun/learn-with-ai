@@ -1,5 +1,5 @@
 +++
-title = "Gated Recurrent Units (GRUs)"
+title = "门控循环单元"
 weight = "2"
 +++
 ## 习题预习

@@ -1,5 +1,5 @@
 +++
-title = "Cross-Validation"
+title = "交叉验证"
 weight = "1"
 +++
 ## 习题预习
@@ -48,25 +48,25 @@ Cross-Validation是机器学习中常用的模型评估方法，主要是用于�
 以中文给我5题Cross-Validation的中等难度问题，并在后面列出答案
 {{< /ask_chatgpt >}}
 
-1. 什么是Cross-Validation？它的作用是什么？
+1. 什麼是Cross-Validation？它的作用是什麼？
 
-2. 如何决定Cross-Validation中的Folds数目？Folds数目的大小对模型的影响是什么？
+2. 如何決定Cross-Validation中的Folds數目？Folds數目的大小對模型的影響是什麼？
 
-3. 在Cross-Validation过程中，为什么要对数据进行Shuffle操作？Shuffle的次数会影响结果吗？
+3. 在Cross-Validation過程中，為什麼要對數據進行Shuffle操作？Shuffle的次數會影響結果嗎？
 
-4. Cross-Validation有哪些常见的方式？它们的区别在哪里？
+4. Cross-Validation有哪些常見的方式？它們的區別在哪裡？
 
-5. 在Cross-Validation中，如果某一Fold的表现较为突出，该Fold的结果是否可以代表模型的整体表现？如果不能，那么该如何避免这种情况？
+5. 在Cross-Validation中，如果某一Fold的表現較為突出，該Fold的結果是否可以代表模型的整體表現？如果不能，那麼該如何避免這種情況？
 
 答案：
 
-1. Cross-Validation是一种模型验证方法，其将数据集切分成若干个子集，其中一部分作为验证集，其余部分作为训练集，重复进行多次训练和验证，从而得出模型的平均性能并降低过拟合风险。
+1. Cross-Validation是一種模型驗證方法，其將數據集切分成若干個子集，其中一部分作為驗證集，其餘部分作為訓練集，重複進行多次訓練和驗證，從而得出模型的平均性能並降低過擬合風險。
 
-2. Folds数目的选择应根据数据集的大小、复杂度等特点来决定，通常选择5到10个左右。Folds数目的大小会影响Cross-Validation的稳定性和准确性。
+2. Folds數目的選擇應根據數據集的大小、複雜度等特點來決定，通常選擇5到10個左右。Folds數目的大小會影響Cross-Validation的穩定性和準確性。
 
-3. Shuffle操作可以使数据随机打乱，减少相邻样本之间的相关性，避免某一种样本集合对模型性能的影响。Shuffle的次数过多会增加运算时间，次数过少会使数据在分割时产生一定的偏差。
+3. Shuffle操作可以使數據隨機打亂，減少相鄰樣本之間的相關性，避免某一種樣本集合對模型性能的影響。Shuffle的次數過多會增加運算時間，次數過少會使數據在分割時產生一定的偏差。
 
-4. 常见的Cross-Validation方式有K-Fold、Leave-One-Out、Stratified等。 K-Fold将数据集切分成K个子集，每次将其中一个子集作为验证集，其余部分作为训练集。 Leave-One-Out将每个样本作为验证集，其他样本作为训练集。 Stratified将数据集按类别分层，保持每个类别的比例相同。
+4. 常見的Cross-Validation方式有K-Fold、Leave-One-Out、Stratified等。 K-Fold將數據集切分成K個子集，每次將其中一個子集作為驗證集，其餘部分作為訓練集。 Leave-One-Out將每個樣本作為驗證集，其他樣本作為訓練集。 Stratified將數據集按類別分層，保持每個類別的比例相同。
 
-5. 某一Fold的表现较为突出不一定代表其能够代表模型的整体表现。为避免这种情况，可以将数据集多次进行Shuffle和重复切分，从而得到更稳定的Cross-Validation结果。   
+5. 某一Fold的表現較為突出不一定代表其能夠代表模型的整體表現。為避免這種情況，可以將數據集多次進行Shuffle和重複切分，從而得到更穩定的Cross-Validation結果。   
 

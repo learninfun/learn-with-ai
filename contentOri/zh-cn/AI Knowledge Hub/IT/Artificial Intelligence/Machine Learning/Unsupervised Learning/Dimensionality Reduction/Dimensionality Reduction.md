@@ -1,5 +1,5 @@
 +++
-title = "Dimensionality Reduction"
+title = "降维"
 weight = "2"
 +++
 ## 习题预习
