@@ -1,0 +1,14 @@
+1. 什麼是VMware中的VMotion技術？它如何提高虛擬機的可用性？
+答案：VMotion是VMware提供的一種虛擬機遷移技術，它可以在不停機的情況下將虛擬機從一臺ESXi主機上遷移到另一臺ESXi主機上。這種技術可以提高虛擬機的可用性，使得虛擬機在故障發生時可以快速轉移到其他正常運行的主機上，從而達到極高的可靠性和高可用性。
+
+2. 如何通過VMware中的vCenter Server管理多個ESXi主機上的虛擬機？
+答案：通過vCenter Server，你可以管理多個ESXi主機上的虛擬機。在配置vCenter Server時，需要將多個ESXi主機添加到vCenter Server中，這樣就可以通過vCenter Server管理這些主機上的虛擬機。在vCenter Server中可以進行集中式管理、監控和配置，提高了虛擬機的運行效率。
+
+3. 如何在VMware中實現虛擬機的高可用性？
+答案：VMware提供了多種方式實現虛擬機的高可用性，比如使用VMotion、Fault Tolerance和High Availability等技術。使用這些技術可以極大地提高虛擬機的可用性和可靠性，使得虛擬機在發生故障時可以快速轉移到其他正常運行的主機上，避免單點故障對系統造成的影響。
+
+4. 如何查看VMware中虛擬機的性能指標？
+答案：VMware提供了多種方式查看虛擬機的性能指標，比如在vSphere Client中可以通過“性能”選項卡查看虛擬機的CPU、內存、網絡和磁盤等性能指標。另外，還可以使用vRealize Operations Manager等工具進行虛擬機性能監控和分析，以及預測虛擬機性能的趨勢和瓶頸。
+
+5. 如何在VMware中實現虛擬網絡的管理和配置？
+答案：在VMware中，可以通過vSphere Client中的“網絡”選項卡來管理和配置虛擬網絡。具體來說，可以創建虛擬網絡、設置網絡屬性、配置虛擬交換機、增加和刪除虛擬網卡等，以適應不同的網絡需求。除此之外，還可以使用vRealize Network Insight等工具進行網絡流量分析和優化，提高整個虛擬網絡的性能和可用性。

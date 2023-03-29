@@ -249,7 +249,106 @@
             - Online Convex Optimization
             - Online Learning
             - Competitive Analysis
-- Infrastructure
+- Cloud Architecture
+    - Security
+        - defense in depth
+        - Zero Trust
+        - Identity and access management
+            - Authentication
+            - Authorization
+            - MFA
+            - RBAC
+            - principle of least privilege
+            - SSO
+            - OAuth2
+            - JWT
+        - Network Security
+            - Sub network
+            - Firewall
+            - Web Application Firewall
+            - VPN Connections
+        - Web Application Security
+            - Cross-Site Scripting (XSS)
+            - Cross-Site Request Forgery (CSRF)
+            - SQL Injection
+            - Authentication and Authorization
+            - Content Security Policy (CSP)
+            - Same-origin policy
+            - HTTPS
+        - Data protection
+            - Encryption
+            - Key Management
+        - Compliance and auditing
+            - Legal requirements
+            - Industry standards
+        - DevSecOps
+            - Secure Software Development Lifecycle (SDLC)
+            - Threat Modeling
+            - Security Testing
+            - Security Automation and Orchestration
+    - Scalability
+        - Vertical scaling
+        - Horizontal scaling
+        - Autoscaling
+    - Availability
+        - Fault tolerance
+            - Redundancy
+            - Automated failover
+        - Disaster recovery
+            - SLA
+                - RPO
+                - RTO
+            - Backup and Restore
+            - Pilot Light
+            - Warm Standby
+            - Multi-Region Replication
+    - Performance
+        - Computing
+            - Virtual Machine
+                - VMware
+                - Hyper-V
+            - PaaS
+            - Container
+                - Docker
+                - Kubernetes
+            - FaaS
+        - Application
+            - Event streaming
+                - Kafka
+            - Cache
+                - Redis
+            - reverse proxy
+            - Stateless applications
+            - Dynamic Page Staticing
+        - File Storage
+            - Object Storage
+            - Block Storage
+            - File Storage
+            - DAS
+            - NAS
+            - RAID
+            - SAN
+        - Database
+            - Relational database
+                - sharding
+                - Read Replica
+            - NoSQL
+                - Document database
+                - Columnar databases
+                - Graph databases
+                - Key Value Database
+            - OLAP
+        - Network
+            - Load balance
+            - CDN
+            - microsegmentation approach
+            - Demilitarized Zone
+            - DNS
+            - Wide Area Network
+            - VPN
+        - Monitoring and logging
+            - Performance metrics
+            - Log analysis
     - DevOps
         - CICD
             - Jenkins
@@ -260,36 +359,3 @@
             - Terraform
         - Monitoring and Logging
             - ELK Stack
-    - Security
-        - Web Application Security
-            - Cross-Site Scripting (XSS)
-            - Cross-Site Request Forgery (CSRF)
-            - SQL Injection
-            - Authentication and Authorization
-            - Content Security Policy (CSP)
-            - Same-origin policy
-            - HTTPS
-        - Network Security
-            - Firewall
-            - Intrusion Detection and Prevention Systems (IDPS)
-            - Virtual Private Network (VPN)
-            - Denial of Service (DoS) Protection
-        - Cloud Security
-            - Identity and Access Management (IAM)
-            - Security Groups and Network ACLs
-            - Encryption and Key Management
-            - Compliance and Auditing
-        - DevSecOps
-            - Secure Software Development Lifecycle (SDLC)
-            - Threat Modeling
-            - Security Testing
-            - Security Automation and Orchestration
-    - Virtualization and Containerization
-        - Virtual Machines
-            - VMware
-            - Hyper-V
-        - Containers
-            - Docker
-            - Kubernetes
-    - Event streaming
-        - Kafka

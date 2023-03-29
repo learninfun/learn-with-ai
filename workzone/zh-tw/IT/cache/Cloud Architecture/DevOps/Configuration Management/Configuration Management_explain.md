@@ -1,0 +1,3 @@
+Configuration Management是一個組織內對於產品、系統、軟體等元件的監控、控制及管理。透過Configuration Management，可以確保產品或系統在整個生命週期中的版本、配置及狀態是正確的。 
+
+舉例來說，當一家公司正在開發一款軟體時，它會使用Configuration Management系統來跟蹤該軟體的所有版本、與其他軟體的相依性、與硬體的相容性、安裝和部署的流程以及數據庫遷移等等。如果使用 Configuration Management系統，當更新版本時，它可以輕鬆地回到以前的版本，以及跟蹤更改和文檔的歷史紀錄。此外，Configuration Management系統還可以確保所有組件的一致性，這在跨團隊協作方面特別重要，因為與不同部門的溝通更容易，有利於快速解決問題及傳遞相關資訊。
