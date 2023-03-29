@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>資料保護 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/</link><description>Recent content in 資料保護 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/index.xml" rel="self" type="application/rss+xml"/><item><title>加密</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/encryption/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/encryption/</guid><description>習題預習 User ask:
+給我5題Encryption的中文問題 ChatGPT answer:
+什麼是加密技術？簡述一下加密技術的運作原理。 什麼是對稱式加密？與非對稱式加密有何不同之處？ 什麼是區塊加密？與流加密有何不同之處？ 資料加密有什麼應用？在哪些場景中會使用到資料加密？ 什麼是公開金鑰基礎加密系統？其運作原理是什麼？ 說明知識 User ask:
+以中文說明Encryption並舉例 ChatGPT answer:
+Encryption是一種資料加密的技術，透過使用特定的演算法將原始資料轉換成無法理解的密文，只有擁有相對應的解密金鑰的使用者才能解密。
+舉例來說，當您使用網路購物或是網路銀行的服務時，可能會輸入您的信用卡號碼或密碼等個人資訊。如果網路購物或網路銀行公司沒有使用Encryption技術，您的個人資訊就有可能被駭客或第三方盜取。但是如果他們使用了Encryption技術，即使資料被盜取，也無法被破解讀取，因為沒有對應的解密金鑰。
+簡單來說，Encryption就是一種可信任的資料保護方式，可以確保機密資訊不會被未經授權的人士讀取。
+條列重點 User ask:
+以中文條列Encryption的重點 ChatGPT answer:
+加密是指將數據轉換為不可讀的密文形式，以保護數據的機密性和安全性。
+加密的過程需要使用密鑰，密鑰是一種特殊的代碼，只有擁有正確密鑰的人才能解密密文得到原始數據。
+對稱密鑰加密是指加解密使用同一個密鑰，通常速度很快，但密鑰的保護和管理比較困難。
+非對稱密鑰加密是指加解密使用不同的密鑰，通常安全性比較高，但速度較慢。
+常見的加密算法包括DES、AES、RSA等，不同的加密算法有不同的強度和適應範圍。
+加密可以應用在各種場景中，如網站加密、電子郵件加密、磁盤加密、文件加密等。
+加密不僅僅是一種技術，也是一種思維，需要考慮到整個加密系統的安全性和可靠性，並適時調整和升級加密方式和技術。
+知識測驗 User ask:
+以中文給我5題Encryption的中等難度問題，並在後面列出答案 ChatGPT answer:
+一個字符串&amp;quot;SUPERSECRET&amp;quot;需要進行加密，加密方式為將每個字母加上一個固定的偏移量，偏移量為3。請問加密後的結果是什麼？ 答案：VXSHVHVWRFHW
+一個字符串&amp;quot;MYPAPAYA&amp;quot;需要進行加密，加密方式為將每個字母從&amp;rsquo;a&amp;rsquo;-&amp;lsquo;z&amp;rsquo;中的字符替換為相應的&amp;rsquo;Z&amp;rsquo;-&amp;lsquo;A&amp;rsquo;中的字符，&amp;lsquo;A&amp;rsquo;-&amp;lsquo;Z&amp;rsquo;中的字符替換為相應的&amp;rsquo;a&amp;rsquo;-&amp;lsquo;z&amp;rsquo;中的字符。請問加密後的結果是什麼？ 答案：nlczyzzy
+一個字符串&amp;quot;ENCRYPTION&amp;quot;需要進行加密，加密方式為將每個字母在字母表中向右移動一個固定的步長（比如步長為2時，A就替換為C，B替換為D，一路循環下去）。請問加密後的結果是什麼？ 答案：GPETSAESQI
+一個字符串&amp;quot;DISCRETION&amp;quot;需要進行加密，加密方式為將每個字母按照它們在字母表中的位置依次排列，再按照排列後的順序來重新排列原字符串。請問加密後的結果是什麼？ 答案：DSERETINOC
+一個字符串&amp;quot;CIPHER&amp;quot;需要進行加密，加密方式為先將字符轉換為ASCII編碼，然後將每個字符的編碼值按照一定的規律排列，形成一個新的序列。請問加密後的結果是什麼？ 答案：6773737174</description></item><item><title>金鑰管理</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/key-management/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/security/data-protection/key-management/</guid><description>習題預習 User ask:
+給我5題Key Management的中文問題 ChatGPT answer:
+什麼是Key Management，它的作用和原理是什麼？ 如何評估一個企業的Key Management系統的安全性和可靠性？ 在使用Key Management系統時，如何保證密鑰的保密性和完整性？ Key Management系統中常見的密鑰分發方式有哪些，它們的優缺點是什麼？ 如何建立一個符合安全標準的Key Management系統，並確保其可持續運營和更新？ 說明知識 User ask:
+以中文說明Key Management並舉例 ChatGPT answer:
+Key Management是一種方式，用來保護敏感資料中的密鑰不被未授權使用者存取或竊取。Key Management主要包括使用安全裝置保障密鑰，如使用密碼保障加密檔案，並經常更新密碼以確保安全性。
+例如，密碼管理器是一種常見的Key Management工具，可讓使用者存儲和管理其密碼和敏感資料。包括密碼，信用卡號，銀行帳戶號等等，並且保護其密碼不受未授權人員存取。
+條列重點 User ask:
+以中文條列Key Management的重點 ChatGPT answer:
+暗碼產生：確保密鑰集合能夠產生足夠的密碼以支持加密和解密操作。
+密鑰分發：要確保所有的參與方在同一時刻都擁有相同的密鑰，以進行加解密操作。
+密鑰傳輸：必須使用安全傳輸協議來傳輸密鑰至參與方。
+密鑰更新：要確保密鑰在固定的時間內進行更新，以消除安全漏洞的風險。
+密鑰冗餘：要確保密鑰集合中有足夠的冗餘度，以避免密鑰遺失或損毀時無法進行加解密操作。
+密鑰託管：要確保密鑰集合的託管者遵守安全原則，以保護密鑰免於被竊或濫用。
+密鑰銷毀：要確保密鑰在不再使用時被銷毀，以避免安全風險。
+密鑰監管：要定期進行密鑰的監管和檢查，以確保密鑰強度和安全性。
+知識測驗 User ask:
+以中文給我5題Key Management的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是密鑰生成？在密鑰生成過程中需要考慮哪些因素？ 答案：密鑰生成是指生成密鑰的程序或算法。在密鑰生成過程中需要考慮：安全性、隨機性、密鑰長度等因素。
+什麼是對稱密鑰？在使用對稱密鑰進行加密時有哪些安全風險？ 答案：對稱密鑰是指在加密和解密時使用相同的密鑰。在使用對稱密鑰進行加密時可能存在的安全風險包括：密鑰滲漏、密鑰被竊取、密鑰遭到破解等。
+什麼是非對稱密鑰？相比對稱密鑰，使用非對稱密鑰進行加密有哪些優缺點？ 答案：非對稱密鑰是指在加密和解密時使用不同的密鑰，即公鑰和私鑰。相比對稱密鑰，使用非對稱密鑰進行加密的優點是：安全性更高，密鑰不需要傳輸，可以避免密鑰被破解等風險。缺點是加密和解密速度較慢，適合加密小量的資料。
+什麼是密碼學的安全模型？密碼學的安全模型可以幫助我們解決哪些問題？ 答案：密碼學的安全模型是描述加密算法和攻擊者之間關系的模型。主要幫助我們解決分析加密算法強度、評估攻擊者能力、設計更安全的加密算法等問題。
+什麼是密鑰交換協議？密鑰交換協議的目的是什麼？目前比較常用的密鑰交換協議是哪些？ 答案：密鑰交換協議是指在通信雙方之間安全地共享密鑰的協議。密鑰交換協議的目的是保護通信安全，避免第三方竊聽和修改通信內容。目前比較常用的密鑰交換協議有：Diffie-Hellman密鑰交換協議、RSA密鑰交換協議等。</description></item></channel></rss>

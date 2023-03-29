@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>服務等級協議 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/</link><description>Recent content in 服務等級協議 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/index.xml" rel="self" type="application/rss+xml"/><item><title>資料復原點目標</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/rpo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/rpo/</guid><description>習題預習 User ask:
+給我5題RPO的中文問題 ChatGPT answer:
+什麼是RPO (Recruitment Process Outsourcing)？ RPO 可以如何幫助企業招募人才？ 選擇 RPO 的優勢有哪些？ 在什麼情況下企業需要使用 RPO 策略？ 哪些領域的企業最適合使用 RPO 策略？ 說明知識 User ask:
+以中文說明RPO並舉例 ChatGPT answer:
+所謂的RPO (Recruitment Process Outsourcing)，簡單來說就是將企業的招募流程外包給專業的人力資源顧問公司或招募外包服務商等專業機構進行管理。主要是為了增強企業的招聘效率、降低人力成本、提高招募質量。
+舉例如下：ABC 公司需要大量招募新員工，但是企業內部人力資源機能不足，無法順利進行招聘，決定尋求RPO 服務，找到一家人力資源顧問公司，將整個招聘流程外包給他們進行管理。該公司會依照ABC 公司的需求編制招聘計劃，負責職位廣告發布、履歷篩選、面試安排、錄用等整個招聘過程。透過專業的招募管道和技術手段，幫助ABC 公司篩選出合適的人才，進一步提高了招聘的效率和品質。
+條列重點 User ask:
+以中文條列RPO的重點 ChatGPT answer:
+RPO是指企業在失去數據時所能承受的風險。 RPO是通過備份和復原策略來實現的。 設計RPO需要考慮企業的業務需求、資訊系統和資源水平等因素。 有效的RPO計劃需要進行定期測試和評估以確保其有效性和可靠性。 合理的RPO計劃可以將資料損失降到最低，並幫助企業減少損失和恢復時間。 提高數據備份和復原的效率和可靠性是實現有效RPO的關鍵。 知識測驗 User ask:
+以中文給我5題RPO的中等難度問題，並在後面列出答案 ChatGPT answer:
+考慮一個陣列arr，裡面的元素依序為1, 3, 5, 7, 9。請寫一段程式，利用RPO將其循環移動2次，結果為何？
+答案：循環移動2次後，陣列arr裡的元素依序為5, 7, 9, 1, 3。
+考慮一個排序過的陣列arr，裡面的元素都大於等於0。假設目前有一個數字x，請寫一段程式，利用RPO將陣列中最小的大於等於x的元素放到陣列的最前面，如果沒有符合條件的元素就不做任何操作。
+答案：假如目前的陣列為[1, 3, 5, 7, 9, 11]，x為6，則RPO後的陣列為[7, 9, 11, 1, 3, 5]。</description></item><item><title>復原時間目標</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/rto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/availability/disaster-recovery/sla/rto/</guid><description>習題預習 User ask:
+給我5題RTO的中文問題 ChatGPT answer:
+RTO是什麼意思？ RTO在學習中扮演什麼角色？ RTO的訓練過程是怎樣的？ RTO的評估標準是什麼？ RTO可以應用在哪些場景和領域？ 說明知識 User ask:
+以中文說明RTO並舉例 ChatGPT answer:
+RTO全名是Real Time Operating System，中文為即時作業系統，是一種用於嵌入式系統的作業系統，其主要特點在於能夠處理即時性需求以及對時間限制嚴格的任務。
+RTO能夠對包括硬體、裝置、通信協定等系統資源進行高效的管理和控制，使得系統能夠進行快速而精確的操作與反應。例如，在工廠自動化控制系統中，RTO可以實現各種設備之間的及時協同作業，以確保生產任務的精確、高效完成。
+一個經典的RTO的例子是嵌入式系統中的電梯控制系統。在電梯運行過程中，需要涉及到許多即時性的操作，如響應乘客按鈕、控制電梯運行方向、檢測電梯門開關狀態等。使用RTO技術，可以實時地監測系統中的各項參數，及時檢測並處理系統異常，保證系統能夠運行穩定、可靠。
+條列重點 User ask:
+以中文條列RTO的重點 ChatGPT answer:
+RTO代表的是故障恢復時間。 故障恢復時間是指恢復服務所需的時間長度。 RTO是企業災難恢復計劃（DRP）的核心指標之一。 RTO的目標是最小化服務中斷和資料損失。 RTO可以通過備份、故障轉移和虛擬化等手段實現。 RTO必須與企業的SLA（服務水平協議）和RPO（故障恢復點）相協調。 RTO的縮短需要經常進行風險評估和優化。 知識測驗 User ask:
+以中文給我5題RTO的中等難度問題，並在後面列出答案 ChatGPT answer:
+班上有20名學生，其中6人是男生。請問男生的比例是多少？
+答案：男生的比例是6/20，也可以寫成3/10或30%。
+同時擁有汽車、摩托車、自行車的人有30人，擁有汽車和自行車的人有50人，擁有汽車和摩托車的人有40人，擁有摩托車和自行車的人有20人，而其中只有擁有摩托車的人有12人，請問有擁有自行車的人有幾人？
+答案：有擁有自行車的人有58人。
+如果6個大杯咖啡價格為12元，那麼12個大杯咖啡的價格是多少？
+答案：12個大杯咖啡的價格是24元。
+每一包75公克的花生醬有20毫克的胡椒粉，要加入15公斤的花生醬中，請問需要加入多少胡椒粉？
+答案：需要加入30克（或0.03公斤）的胡椒粉。
+小明和小華兩人在比賽中跑步，小明需要用6分鐘走完一圈，而小華需要用8分鐘走完同樣的一圈，如果兩人同時從起點出發，小明要走多少分鐘才能追上小華？
+答案：小明需要走12分鐘才能追上小華。</description></item></channel></rss>

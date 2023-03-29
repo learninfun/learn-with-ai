@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>應用程式 on Learn with AI</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/</link><description>Recent content in 應用程式 on Learn with AI</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/index.xml" rel="self" type="application/rss+xml"/><item><title>反向代理</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/reverse-proxy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/reverse-proxy/</guid><description>習題預習 User ask:
+給我5題reverse proxy的中文問題 ChatGPT answer:
+什麼是reverse proxy（反向代理），它的作用是什麼？ 如何配置reverse proxy（反向代理）以達到負載均衡？ 如何使用reverse proxy（反向代理）實現安全保護，例如DDoS攻擊防護？ 如何設定reverse proxy（反向代理）以獲取更好的性能？ 如何在reverse proxy（反向代理）中處理HTTP和HTTPS之間的轉換？ 說明知識 User ask:
+以中文說明reverse proxy並舉例 ChatGPT answer:
+Reverse proxy（反向代理）是一種網路應用架構，用於將客戶端訪問一個服務器的請求轉發至另一個服務器上。通常應用於負載均衡、數據加密、網路安全等場合。
+舉例來說，假如一家公司的主機設置在A地方，而另一家公司的主機設置在B地方，但A地方公司需要網路存儲服務，可以選擇在B地方租借一個存儲伺服器，然後再在A地方安裝一個reverse proxy。這樣，當A地方的用戶需要訪問存儲服務時，所有請求都會由A地方的reverse proxy首先接收，然後轉發至B地方的存儲伺服器。透過這種方式，A地方的用戶可以通過reverse proxy訪問存儲服務，而不需要在A地方安裝存儲伺服器，同時也能夠提升網路安全性和執行效率。
+條列重點 User ask:
+以中文條列reverse proxy的重點 ChatGPT answer:
+反向代理是一種網路伺服器的架構，用於將客戶端的請求轉發到一或多個內部伺服器。 反向代理通常作為負載平衡器，可以將請求分散到多個伺服器上，從而提高服務的可用性和效率。 反向代理也可以用於安全性，可以在客戶端和伺服器之間添加額外的安全層，如防火牆、SSL 加密等。 反向代理還可以實現多個網站共享一個 IP 地址，從而節省網路資源。 常見的反向代理服務器軟體包括 Nginx、Apache，以及商業產品如 F5。 反向代理的實現方式包括 URL 基於規則的重寫、緩存檔案、壓縮請求和回應、以及對請求進行負載平衡等。 反向代理也可以進行SSL Offloading，將SSL的處理移到反向代理層，減少伺服器的負擔。 知識測驗 User ask:
+以中文給我5題reverse proxy的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是reverse proxy？它與普通proxy有何不同？
+在reverse proxy中，如何配置反向代理使其轉發特定請求？
+如何實現在reverse proxy中實現HTTPS或SSL終止？
+如何在reverse proxy中實現載荷平衡來處理多個服務器上的請求？
+如何在反向代理中實現存儲後端服務器中靜態資源的快取？
+答案：
+Reverse proxy是一種網路組件，用於接受并轉發網路請求到內部服務器。這個進程與普通proxy完全相反，因為在普通proxy中，代理服務器轉發請求到外部服務器。 可以使用HTTP請求中的特定標記或URL路徑來設定反向代理以轉發具有特定路徑或標記的請求。 可以在反向代理中實現HTTPS或SSL終止，通過在反向代理與內部服務器之間安裝一個僞造的憑證，使所有傳輸過的通信都經過加密。 可以使用載荷平衡器來實現在多個服務器上平衡請求的負載。通常使用載荷平衡演算法來分配負載，例如Round Robin、Least Connections等等。 可以使用反向代理搭建一個快取系統，以存儲後端服務器中的靜態資源，從而提高服務器的性能。這種策略通常使用最少頻繁使用(Least Frequently Used，LFU)算法來選擇要定期刪除的資源。</description></item><item><title>無狀態應用程式</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/stateless-applications/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/stateless-applications/</guid><description>習題預習 User ask:
+給我5題Stateless applications的中文問題 ChatGPT answer:
+何謂Stateless應用程式，其特徵及優點為何？ Stateless應用程式如何處理多個請求之間的狀態管理？ Stateless應用程式如何達到更好的可擴展性和高可用性？ 何時應該選擇使用Stateless應用程式？有哪些應用場景適合使用Stateless應用程式？ 如何設計一個高效的Stateless應用程式架構？有哪些設計原則需考慮？ 說明知識 User ask:
+以中文說明Stateless applications並舉例 ChatGPT answer:
+Stateless applications是指不依賴於特定的狀態或環境來執行的應用程式，即每次都是從零開始運行。這種應用程式將狀態資訊存儲在外部數據庫或語言中，僅以輸入參數和程式碼邏輯來執行任務，而不保留狀態給後續的請求。
+舉例來說，網路搜尋引擎就是一個典型的 stateless application。當用戶在Google上輸入查詢時，Google將該查詢作為輸入參數傳遞給後台程序，後台程序從數據庫中檢索相應的結果，然後返回給用戶。在這個過程中，Google不需要保留任何狀態，每個請求都是一次獨立的處理，無論前一個查詢是什麼。其他例子還包括電子郵件服務、即時通訊應用和訂單處理系統等。
+條列重點 User ask:
+以中文條列Stateless applications的重點 ChatGPT answer:
+Stateless，即无状态，指的是应用程序不维护任何关于用户请求的持久状态。
+Stateless应用程序通常更容易管理和扩展，因为它们不依赖于指定服务器的特定状态。
+Stateless设计可以提高应用程序的可靠性、可重复性和可伸缩性，从而使其更易于维护和升级。
+Stateless应用程序通常使用REST API来处理用户请求，这些请求包含所有必要的信息，以确保应用程序能够正确响应。
+在Stateless应用程序中，任何用户请求都只是单个请求，并不依赖于之前的请求。因此，无论哪台服务器处理请求都是相同的结果，这提高了应用程序的可靠性。
+知識測驗 User ask:
+以中文給我5題Stateless applications的中等難度問題，並在後面列出答案 ChatGPT answer:
+如何在stateless application中實現需要狀態管理的功能？
+答案：通過外部狀態儲存服務，如Redis或Zookeeper，將需要管理的狀態儲存在外部服務中。
+如何防止stateless application中的洪水攻擊？
+答案：使用限流器或負載均衡器，對請求進行限制或分流。
+在stateless application中如何實現配合Batch Processing的數據處理功能？
+答案：將數據準備就緒後，使用消息中間件如Apache Kafka將數據發送到Batch Processing組件進行處理。
+如何保證stateless application不因資料庫失敗而停機？
+答案：使用多個資料庫，通過負載均衡器將數據分配到各個庫中，當某個庫失敗時，可以進行無縫切換至其他庫。
+如何設計stateless application中的身份驗證機制？
+答案：使用JWT，由認證中心簽發Token，將Token存入請求中，應用服務使用私鑰進行驗證，確認請求的合法性。</description></item><item><title>動態頁面靜態化</title><link>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/dynamic-page-staticing/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://learninfun.github.io/learn-with-ai/zh-tw/ai-knowledge-hub/it/cloud-architecture/performance/application/dynamic-page-staticing/</guid><description>習題預習 User ask:
+給我5題Dynamic Page Staticing的中文問題 ChatGPT answer:
+什麼是Dynamic Page Staticing，它有哪些優點和缺點？ 如何使用Dynamic Page Staticing在網站上提高網頁載入速度？ Dynamic Page Staticing和Server-Side Rendering有何區別？它們各自適用於哪些場景？ 如何測試Dynamic Page Staticing效果是否正常？有哪些常見的問題和解決方法？ Dynamic Page Staticing對SEO有何影響？它如何影響網頁的排名和曝光度？ 說明知識 User ask:
+以中文說明Dynamic Page Staticing並舉例 ChatGPT answer:
+Dynamic Page Staticing是一種將動態網頁轉換為靜態網頁的技術。在網頁設計中，動態網頁是指每次瀏覽時，網站都會生成新的內容。而靜態網頁是指網站只有固定的內容，不會因為使用者的操作而改變。
+Dynamic Page Staticing的作用是將動態網頁生成後，使其成為靜態網頁，讓使用者能更快地瀏覽和存取網頁。例如，假設有一個電商網站，網站上的商品詳細頁面是動態網頁，當使用者瀏覽商品詳細內容時，網站會根據使用者的需求生成新的內容。但是，如果網站的訪問量很高，每次生成新的內容會導致網站速度變慢，影響使用者的體驗。透過Dynamic Page Staticing技術，將動態生成的內容轉換為靜態網頁，網站速度就能大幅度提升，使用者能更快地瀏覽和存取商品詳細內容。
+總之，Dynamic Page Staticing能夠提升網站的速度和使用者的體驗，是一種非常實用的技術。
+條列重點 User ask:
+以中文條列Dynamic Page Staticing的重點 ChatGPT answer:
+动态页面静态化是一种提高网站性能的技术，可以将动态生成的页面转换为静态页面，加快页面的加载速度。
+静态化过程可以通过缓存、预渲染、手动静态化等多种方式实现。
+静态化后的页面可以存储在静态文件中，不需要每次访问都重新生成页面。
+静态化可以有效降低服务器的压力，提升网站的可靠性和稳定性。
+静态化还可以提供更好的SEO优化效果，使搜索引擎更容易识别和收录网页，提高网站的流量和曝光度。
+静态化对于内容不经常变动的网页效果更好，对于频繁更新的网页需要注意更新缓存。
+动态页面静态化需要结合具体业务场景进行分析和应用，适当掌握静态化技术可以有效提高网站性能。
+知識測驗 User ask:
+以中文給我5題Dynamic Page Staticing的中等難度問題，並在後面列出答案 ChatGPT answer:
+什麼是Dynamic Page Staticing？ Dynamic Page Staticing 與普通靜態頁面有什麼區別？ 相對於Cache-based Approach，Dynamic Page Staticing 有哪些優點和缺點？ 在實現Dynamic Page Staticing 過程中需要注意哪些問題？ 假設一個網站需要大量處理用戶交互操作，如何利用Dynamic Page Staticing 實現較高的性能？ 答案：</description></item></channel></rss>
