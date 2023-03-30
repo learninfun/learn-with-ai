@@ -1,0 +1,3 @@
+Disaster recovery refers to the process of restoring IT infrastructure and systems after a natural or man-made disaster. The goal of disaster recovery is to minimize business disruptions and data loss in the event of a catastrophe. 
+
+An example of disaster recovery would be when a company's servers are damaged due to a hurricane or flood. The disaster recovery plan would involve restoring the servers from backup files stored offsite, setting up temporary infrastructure, and ensuring that all data is recovered safely. The recovery plan may also include communication with staff and customers to inform them of potential disruptions and estimated recovery timelines.

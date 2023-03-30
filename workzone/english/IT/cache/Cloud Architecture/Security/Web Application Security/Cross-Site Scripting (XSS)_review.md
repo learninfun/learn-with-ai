@@ -1,0 +1,14 @@
+1. What is Cross-Site Scripting (XSS) and how does it work?
+Answer: Cross-Site Scripting (XSS) is a type of security vulnerability that allows attackers to inject malicious code into a website, which can then be executed by unsuspecting users who visit the site. The attacker can use various techniques to inject the code, such as through input fields or URLs, and can steal sensitive user data or hijack their sessions.
+
+2. What are the different types of Cross-Site Scripting (XSS) attacks?
+Answer: There are three main types of XSS attacks: Stored XSS, Reflected XSS, and DOM-Based XSS. Stored XSS occurs when the attacker injects the malicious code directly into a vulnerable web application, which is then stored permanently on the server. Reflected XSS occurs when the malicious code is reflected back to the user through an insecure input field or URL parameter. DOM-Based XSS is a type of XSS attack that is executed on the client-side rather than the server-side, and involves modifying the Document Object Model (DOM) of the website to execute the malicious code.
+
+3. What are some common techniques for preventing Cross-Site Scripting (XSS) attacks?
+Answer: Some common techniques for preventing XSS attacks include input validation and sanitization, implementing Content Security Policy (CSP), using HTTP-only cookies, and using web application firewalls to filter out malicious code. Developers can also use code analysis tools to identify potential vulnerabilities in their code, and stay up-to-date on the latest security best practices.
+
+4. What are some real-world examples of Cross-Site Scripting (XSS) attacks?
+Answer: One high-profile example of a XSS attack was the Samy worm, which spread across MySpace in 2005 and infected over one million users. The attack used a cross-site scripting vulnerability to inject a script that added the user to Samy's friends list, thus spreading the worm to their contacts. Another example is the AT&T iPad security breach in 2010, which was caused by a XSS vulnerability on the company's website that allowed attackers to obtain the email addresses of over 100,000 iPad users.
+
+5. How can users protect themselves from Cross-Site Scripting (XSS) attacks?
+Answer: Users can protect themselves from XSS attacks by keeping their web browser and antivirus software up-to-date, avoiding clicking on suspicious links or downloading unknown files, and using browser extensions that block malicious scripts. They can also disable scripting and plugins in their browser settings, or use a security-focused browser that has built-in protection against XSS and other types of attacks. Finally, they should be cautious about entering sensitive information on websites, and always check the authenticity of the page before submitting any data.

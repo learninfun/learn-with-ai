@@ -1,0 +1,3 @@
+RTO stands for Recovery Time Objective. It refers to the maximum amount of time that an organization is willing to tolerate when recovering critical business systems after a disaster or disruption. 
+
+For example, if a company’s RTO is four hours, then it means that in the event of a disruption, their critical systems should be restored and fully functional within four hours of the incident occurring. This objective is defined based on the specific needs and requirements of the organization, and it helps to ensure that the business can continue to operate despite unexpected events or disasters. The RTO is a key component of a company's overall disaster recovery plan.

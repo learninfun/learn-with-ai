@@ -1,0 +1,3 @@
+DAS (Direct Attached Storage) refers to a data storage attachment that is directly connected to a computer, as opposed to storage that is accessed via a network. In simpler terms, DAS is attached to a single server or computer system and cannot be shared with multiple systems or users.
+
+One example of DAS is an external hard drive that is connected to a computer via a USB cable. The hard drive is directly attached to the computer and can be used to store files and data, but it is not accessible from other devices unless it is physically disconnected from the current computer and reconnected to another. Another example is a RAID array that is attached to a single server, providing it with additional data storage or increased data protection.

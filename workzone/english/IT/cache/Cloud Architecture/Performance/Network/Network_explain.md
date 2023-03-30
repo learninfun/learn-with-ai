@@ -1,0 +1,3 @@
+A network refers to a group of interconnected computers, devices or systems that enable communication, data sharing and resource allocation among them. In short, it’s a collection of networked devices that can communicate with each other and share information.
+
+For example, the internet is a global network of computers and other devices that are connected together to share data and other resources. Another example could be a local area network (LAN) within an office building, connecting all the computers and devices that are used by employees to share files, printers and other resources. Wireless networks like Wi-Fi provide users with access to the internet and each other, without the need for cables or wires.

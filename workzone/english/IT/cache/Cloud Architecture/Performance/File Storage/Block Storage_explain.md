@@ -1,0 +1,5 @@
+Block Storage is a type of data storage in which data is stored in fixed-sized blocks or chunks. Each block is given a unique identifier which helps the system to retrieve the data later. 
+
+Block storage is commonly used in scenarios where large amounts of data are stored and accessed frequently, such as databases and virtual machine file systems.
+
+For example, when a user creates a virtual machine, the operating system and data files are stored on a block storage device. When the user accesses the virtual machine, the system reads the blocks from the storage device and presents them to the virtual machine. The virtual machine's operating system then puts the data together to serve the user's request. By using block storage for this purpose, the system can retrieve and store data more efficiently while providing higher performance and scalability.

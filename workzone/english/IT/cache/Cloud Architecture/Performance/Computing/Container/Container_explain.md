@@ -1,0 +1,3 @@
+A container is a lightweight, standalone and executable software package that comprises everything necessary to run an application, including code, runtime, system tools, libraries, and settings. Containers are isolated environments that provide consistency and portability, so applications can run in any environment, regardless of the underlying infrastructure.
+
+An example of a container is Docker. Docker is a popular container platform that allows developers to create and deploy applications in containers. Using Docker, developers can package their applications, along with all its dependencies, into a container image that can then be run on any operating system that supports Docker. Docker makes application deployment much easier, faster, and more scalable.

@@ -1,0 +1,10 @@
+- Firewall is a security mechanism that monitors and controls incoming and outgoing network traffic based on predetermined security policies.
+- A firewall serves as a barrier between an organization’s internal network and the public Internet or any other untrusted network, such as a partner or vendor network.
+- Firewalls can prevent unauthorized access to the network, protect against malware and prevent data loss or theft.
+- Firewalls work by examining each packet of data that enters or exits the network and comparing it to a set of predefined rules.
+- Firewall policies can be based on the source, destination, and contents of network traffic or on the user identity or device type. 
+- Typical types of firewalls include network, host-based, and application firewalls.
+- Network firewalls, such as packet-filtering firewalls, are deployed at the network perimeter and can block traffic based on IP address and port number.
+- Host-based firewalls run on individual devices and can provide additional security by blocking traffic at the application level.
+- Application firewalls are designed to protect against threats that target specific applications or services, such as web applications or email servers. 
+- Firewalls can be configured to log and report on network activity and generate alerts if suspicious activity is detected.

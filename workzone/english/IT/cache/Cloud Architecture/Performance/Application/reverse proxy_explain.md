@@ -1,0 +1,5 @@
+A reverse proxy is a server that sits between clients and one or more backend servers. The reverse proxy intercepts requests from clients and then sends those requests to the appropriate backend server. The backend server then responds to the request, and the reverse proxy sends that response back to the client.
+
+An example of a reverse proxy is the popular web server software Nginx. In this example, Nginx sits between the internet and a web application server. When a user requests a webpage, the request goes to Nginx, which then hosts the website and sends the result back to the user.
+
+Another example of a reverse proxy is Cloudflare, which sits between users and a website's server. Cloudflare can improve website performance and security by caching content, blocking malicious traffic, and providing distributed denial of service (DDoS) protection.

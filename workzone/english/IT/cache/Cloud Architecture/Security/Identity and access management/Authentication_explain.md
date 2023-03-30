@@ -1,0 +1,3 @@
+Authentication is the process of verifying the identity of a person or entity before allowing access to a system or service. It ensures that only authorized individuals can access sensitive information and resources.
+
+An example of authentication is when a person tries to access their bank account online. The bank's website requires the user to enter their username and password to verify their identity. The website then checks if the information matches the data stored in their database. If the information matches, the user is granted access to their account. In this case, the username and password are the authentication credentials used to verify the identity of the user.

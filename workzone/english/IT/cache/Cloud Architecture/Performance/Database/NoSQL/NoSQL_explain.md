@@ -1,0 +1,3 @@
+NoSQL refers to a non-relational database management system that stores and retrieves structured and unstructured data. NoSQL databases are designed to handle large volumes of structured and unstructured data that may be too complex for traditional relational databases.
+
+An example of NoSQL database is MongoDB which is an open-source, document-oriented database system that stores data in flexible, JSON-like documents. MongoDB offers high scalability, availability and ease of use making it popular for web applications that need to handle large volumes of data.

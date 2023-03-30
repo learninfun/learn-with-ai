@@ -1,0 +1,5 @@
+A Web Application Firewall (WAF) is a type of firewall that is designed to protect web applications from various attacks such as cross-site scripting (XSS), SQL injection, and other types of attacks that may exploit vulnerabilities in web applications. 
+
+WAFs work by monitoring and analyzing application-level traffic, and blocking malicious traffic that matches known attack patterns or signatures. They can also provide additional security features such as access control, SSL/TLS encryption, and content filtering.
+
+An example of a WAF is the open-source software ModSecurity, which is widely used to protect web applications from various attacks. ModSecurity is highly configurable and can be used to block a wide range of attacks, including those that exploit known web application vulnerabilities such as Drupalgeddon, Shellshock, and Heartbleed. ModSecurity can also be integrated with other security tools, such as intrusion detection systems (IDS) and security information and event management (SIEM) systems.

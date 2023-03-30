@@ -1,0 +1,3 @@
+VMware is a virtualization software that allows multiple operating systems to run simultaneously on a single physical server. It creates virtual machines that share the resources of the physical server while providing a fully isolated and independent environment for each virtual machine.
+
+For example, a company may use VMware to run multiple virtual machines on a single server, with each virtual machine running a different operating system or application. This allows them to maximize their hardware resources, reduce costs, and simplify management and maintenance of their IT infrastructure. Additionally, if one virtual machine experiences an issue, it will not affect the others, providing greater reliability and stability.

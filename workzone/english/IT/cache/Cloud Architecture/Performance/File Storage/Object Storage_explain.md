@@ -1,0 +1,3 @@
+Object storage is a type of data storage architecture that manages data as "objects" instead of traditional file systems or block storage. Each object has its own unique identifier, metadata, and binary data. It allows for better scalability, control, and accessibility for larger data sets.
+
+An example of object storage is Amazon S3 (Simple Storage Service), which is a cloud-based storage platform that enables users to store and retrieve any amount of data from anywhere on the web. S3 operates on an object-based model and allows for data to be accessed via a simple API, making it easier for developers to integrate it into their applications. It also offers features such as versioning, lifecycle policies, and encryption for better data management and security.

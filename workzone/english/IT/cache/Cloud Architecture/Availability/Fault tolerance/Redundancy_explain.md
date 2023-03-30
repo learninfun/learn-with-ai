@@ -1,0 +1,3 @@
+Redundancy refers to the use of additional or duplicate systems, components or processes in order to ensure reliability, safety or continuity of operations. Redundancy is designed to eliminate or mitigate the impact of a single failure point in a system, thereby providing a backup route to accomplish a particular task.
+
+For example, modern airplanes are equipped with redundant engines, navigation systems, and communication systems. In case of a failure of one engine, the other engine can maintain the aircraft's flight. Similarly, if one navigation or communication system is not working, the pilots can use another system to navigate and communicate with the ground. This redundancy greatly increases the safety and reliability of air travel.

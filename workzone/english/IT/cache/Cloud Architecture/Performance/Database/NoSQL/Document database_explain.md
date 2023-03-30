@@ -1,0 +1,5 @@
+A document database, also known as a document-oriented database or a JSON database, is a type of NoSQL database that stores and manages data in the form of documents. These documents can be in various formats such as JSON, BSON, XML, and YAML. Each document can contain different fields and structures and can be more flexible than traditional relational databases. 
+
+Document databases are ideal for unstructured data types and large-scale data storage, making them a popular choice for content management, e-commerce, social media, and log files. They are characterized by high scalability, high performance, and easy development of applications.
+
+An example of a document database is MongoDB, a popular and widely used NoSQL document database. It stores data in flexible JSON format, making it easy to build and maintain complex applications. MongoDB is used by many companies such as eBay, Forbes, and Cisco.

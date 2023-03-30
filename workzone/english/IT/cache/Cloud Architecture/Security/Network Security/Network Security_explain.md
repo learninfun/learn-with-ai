@@ -1,0 +1,5 @@
+Network security is a term that describes the protection of computer networks from unauthorized access, theft, damage, or disruption. Network security is a crucial element in ensuring the safe and secure transfer of sensitive data and information across a network.
+
+An example of network security is the use of a firewall. A firewall is software or hardware that monitors and controls the incoming and outgoing network traffic based on a set of predefined security rules. It can prevent unauthorized access to a network and stop the spread of malicious software or malware that can harm the network.
+
+Firewalls are used in organizations to protect their networks from cyber-attacks like denial-of-service (DoS) attacks, phishing, viruses, and hacking attempts. Without a firewall, a company's network is vulnerable to cyber threats, and valuable data could be easily stolen or destroyed. Therefore, network security solutions like firewalls are essential to protect networks from cyber-attacks and cybercriminals.

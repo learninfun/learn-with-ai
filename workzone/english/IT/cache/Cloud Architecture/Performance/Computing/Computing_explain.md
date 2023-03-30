@@ -1,0 +1,3 @@
+Computing refers to the use of computers and information technology to process data, perform operations, and manage information. It encompasses a wide range of activities, including programming, data analysis, networking, software development, database management, and more.
+
+An example of computing is the use of a spreadsheet software like Microsoft Excel to perform numerical calculations, create graphs, and store data. In this case, the user inputs data and instructions, and the software processes that data according to the given instructions. The output can be used for analysis, reporting, or decision-making purposes. Other examples of computing include web development, machine learning, artificial intelligence, and cybersecurity.

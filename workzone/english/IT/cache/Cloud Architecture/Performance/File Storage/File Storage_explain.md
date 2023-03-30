@@ -1,0 +1,3 @@
+File storage refers to the process of storing data or information in a specific location or device for future use. This can be done using physical storage devices like hard drives, USB drives, CDs or DVDs, or through online digital storage services like Google Drive, Dropbox, and iCloud.
+
+For example, if you are a web developer, you might have a local server where you store all your website files, images, and databases. This can be either on your own computer or on a separate server in the cloud. Whenever you update the website, you save the changes to the server for access later. This allows you to easily and quickly access your files and work on them from any location without worrying about losing any data.

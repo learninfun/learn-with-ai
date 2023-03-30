@@ -1,0 +1,5 @@
+Automated failover is a system that automatically switches over to a backup system when the primary system fails. The failover process is triggered by a set of predefined conditions and is meant to ensure business continuity and minimize downtime.
+
+An example of automated failover is a web server cluster that has multiple servers handling incoming requests. If one of the servers in the cluster goes down due to a hardware failure or a software issue, the load balancer automatically redirects all incoming requests to the remaining servers in the cluster. This ensures that there is no interruption to the service and the end-users continue to access the website or the application.
+
+Another example is in data centers, where automated failover is used to ensure the availability of critical services such as email, database, and storage. If the primary server that hosts these services crashes, the secondary server takes over within seconds, ensuring that there is no data loss and the services remain operational.

@@ -1,0 +1,5 @@
+Stateless applications are software programs that do not store any user data or previous interactions. In other words, every request made to the application is treated as a new request, and the application does not remember any previous requests.
+
+An example of a stateless application is a search engine like Google. When a user types in a query, Google retrieves the results based on the current request and does not remember any previous searches made by the user. Each search is treated as a new request, and the application does not store any user data.
+
+Stateless applications are beneficial in that they are easier to scale and can handle large volumes of requests. However, they may not be suitable for applications that require user authentication or personalization, as these features rely on storing user data.

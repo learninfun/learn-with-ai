@@ -1,0 +1,3 @@
+Performance refers to how well someone or something is able to accomplish a task or achieve a goal. It is often measured and evaluated based on predetermined standards or expectations.
+
+For example, in a work setting, an employee's performance may be measured by how well they meet their job responsibilities and achieve their assigned goals. This could include factors such as completing tasks on time, meeting quotas, and providing high-quality work. A manager may evaluate an employee's performance through regular check-ins, performance reviews, or tracking metrics such as sales numbers or customer satisfaction ratings. If an employee consistently meets or exceeds expectations in their job, they are said to have good performance.

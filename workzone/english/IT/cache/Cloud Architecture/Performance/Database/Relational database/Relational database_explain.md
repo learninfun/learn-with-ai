@@ -1,0 +1,5 @@
+A relational database is a type of database management system that organizes data into one or more tables with rows and columns. The relationships between the tables can be defined and maintained, allowing for complex queries and efficient data retrieval.
+
+For example, consider a university database. The database could have separate tables for students, courses, and instructors. The student table would have columns for student ID, name, and major, while the course table would have columns for course ID, title, and instructor ID. The instructor table would have columns for instructor ID, name, and department.
+
+By relating the tables with the instructor ID column, it is possible to find all courses taught by a specific instructor or all students enrolled in a specific course. This makes it easier to manage and query large amounts of data.

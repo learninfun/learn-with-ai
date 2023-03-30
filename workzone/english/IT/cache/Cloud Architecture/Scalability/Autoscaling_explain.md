@@ -1,0 +1,5 @@
+Autoscaling is a process of automatically adjusting the size of a resource pool to match the demand. It allows resources such as computer processing power, memory, network bandwidth, and storage to automatically scale up or down based on usage patterns. Autoscaling is commonly used in cloud computing to ensure that applications scale to meet the varying demand of users.
+
+For example, consider an e-commerce website that experiences a surge in traffic during holiday season sales. Autoscaling technology would automatically allocate additional processing power and memory to handle the increased traffic. On the other hand, during low-traffic times, the same autoscaling technology would downscale resources to reduce costs. This ensures that the website is always able to handle the amount of traffic it receives while minimizing costs at the same time. 
+
+Overall, autoscaling saves time and money by allowing you to meet business demands without overprovisioning resources.

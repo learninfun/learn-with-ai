@@ -1,0 +1,5 @@
+Defense in depth is a security approach that utilizes multiple layers of security controls to protect a system or organization from potential threats. This approach involves employing various security measures at different points in a system's architecture to form multiple barriers against a breach.
+
+For example, a company using defense in depth security measures may start by implementing firewalls and intrusion detection systems at the network perimeter to block incoming threats. They could then implement antivirus software and access controls to protect individual devices and software applications, and finally, establish data backups and disaster recovery systems in case of a breach.
+
+By using multiple layers of protection, a defense in depth approach helps to mitigate the risk of cyber attacks and protect against potential data breaches or other security incidents.

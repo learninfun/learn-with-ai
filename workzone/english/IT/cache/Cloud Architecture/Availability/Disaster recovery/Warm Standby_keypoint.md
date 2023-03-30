@@ -1,0 +1,5 @@
+- Warm standby is a type of disaster recovery strategy that involves maintaining a secondary infrastructure that can take over from the primary system in case of a failure.
+- In a warm standby setup, the secondary system is kept updated and synchronized with the primary system, but it is not actively processing transactions.
+- Warm standby can provide faster recovery times than cold standby, as the secondary system is already partially operational and requires minimal configuration to take over from the primary system.
+- However, warm standby requires more resources than cold standby, as the secondary system must be available and running continuously.
+- Warm standby is a good option for businesses that need high availability and can tolerate some downtime while the secondary system takes over.

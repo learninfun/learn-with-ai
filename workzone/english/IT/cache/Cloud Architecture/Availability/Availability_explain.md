@@ -1,0 +1,5 @@
+Availability refers to the ability of a system or service to be accessible and functional for its intended users when they need it. In other words, it means that the service or system is up and running and can be accessed anytime and from anywhere.
+
+For example, a online shopping website's availability refers to how much time it is accessible, secure and functioning efficiently on the internet for potential customers. If the website crashes or is down for some time, it can lose revenue from lost sales and customers may switch to another website.
+
+High availability is essential for critical systems, such as banking systems, healthcare, and emergency services, where downtime or unavailability can have serious consequences. In these cases, advanced measures such as redundancy, load balancing, and failover mechanisms are used to ensure maximum uptime and availability.
